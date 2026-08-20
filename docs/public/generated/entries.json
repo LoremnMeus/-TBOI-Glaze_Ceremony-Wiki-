@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-20T14:54:36Z",
+  "version": "1.0.0",
+  "entries": [
+    {
+      "slug": "gospel",
+      "kind": "collectible",
+      "internalKey": "Gospel",
+      "xmlId": 72,
+      "xmlName": "Gospel",
+      "itemType": "passive",
+      "names": {
+        "zh": "福音",
+        "en": "Gospel"
+      },
+      "desc": {
+        "zh": "",
+        "en": ""
+      },
+      "eid": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/gospel.png",
+      "aliases": {
+        "zh": [],
+        "en": []
+      }
+    },
+    {
+      "slug": "blue-print",
+      "kind": "collectible",
+      "internalKey": "Blue_Print",
+      "xmlId": 88,
+      "xmlName": "Blue Print",
+      "itemType": "active",
+      "names": {
+        "zh": "蓝图",
+        "en": "Blueprint"
+      },
+      "desc": {
+        "zh": "",
+        "en": ""
+      },
+      "eid": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/blue-print.png",
+      "aliases": {
+        "zh": [],
+        "en": [
+          "Blue Print"
+        ]
+      }
+    },
+    {
+      "slug": "philosophers-stone",
+      "kind": "collectible",
+      "internalKey": "Philosopher_s_stone",
+      "xmlId": 97,
+      "xmlName": "Philosopher's stone",
+      "itemType": "active",
+      "names": {
+        "zh": "贤者之石",
+        "en": "Philosopher's Stone"
+      },
+      "desc": {
+        "zh": "",
+        "en": ""
+      },
+      "eid": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/philosophers-stone.png",
+      "aliases": {
+        "zh": [
+          "贤者"
+        ],
+        "en": [
+          "Philosopher"
+        ]
+      }
+    },
+    {
+      "slug": "zeis",
+      "kind": "character",
+      "internalKey": "Zeistos",
+      "xmlId": null,
+      "xmlName": "Zeistos",
+      "itemType": null,
+      "names": {
+        "zh": "泽伊斯托斯",
+        "en": "Zeis"
+      },
+      "desc": {
+        "zh": "",
+        "en": ""
+      },
+      "eid": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/zeis.png",
+      "aliases": {
+        "zh": [],
+        "en": [
+          "Zeistos"
+        ]
+      }
+    },
+    {
+      "slug": "zeiz",
+      "kind": "character",
+      "internalKey": "Zeiz",
+      "xmlId": null,
+      "xmlName": "Zeiz",
+      "itemType": null,
+      "names": {
+        "zh": "泽伊兹",
+        "en": "Zeiz"
+      },
+      "desc": {
+        "zh": "",
+        "en": ""
+      },
+      "eid": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/zeiz.png",
+      "aliases": {
+        "zh": [],
+        "en": []
+      }
+    }
+  ]
+}

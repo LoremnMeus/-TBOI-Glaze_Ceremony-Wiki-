@@ -1,0 +1,10 @@
+.eid-icon,
+.eid-item-icon {
+  image-rendering: pixelated;
+}
+
+.vp-doc .katex-display,
+.vp-doc mjx-container[display='true'] {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
