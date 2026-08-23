@@ -1,0 +1,2006 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-23T16:05:33Z",
+  "pages": [
+    {
+      "slug": "darkness",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/darkness.md",
+      "en": "wiki/docs/en/items/darkness.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "touchstone",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/touchstone.md",
+      "en": "wiki/docs/en/items/touchstone.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "my-hat",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/my-hat.md",
+      "en": "wiki/docs/en/items/my-hat.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tech-9",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/tech-9.md",
+      "en": "wiki/docs/en/items/tech-9.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "assassins-eye",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/assassins-eye.md",
+      "en": "wiki/docs/en/items/assassins-eye.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "mental-hypnosis",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/mental-hypnosis.md",
+      "en": "wiki/docs/en/items/mental-hypnosis.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "gold-rush",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/gold-rush.md",
+      "en": "wiki/docs/en/items/gold-rush.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "air-flight",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/air-flight.md",
+      "en": "wiki/docs/en/items/air-flight.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "the-watcher",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/the-watcher.md",
+      "en": "wiki/docs/en/items/the-watcher.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "giant-punch",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/giant-punch.md",
+      "en": "wiki/docs/en/items/giant-punch.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "memory",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/memory.md",
+      "en": "wiki/docs/en/items/memory.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "my-best-friend",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/my-best-friend.md",
+      "en": "wiki/docs/en/items/my-best-friend.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "super-bombs",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/super-bombs.md",
+      "en": "wiki/docs/en/items/super-bombs.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "brimstream",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/brimstream.md",
+      "en": "wiki/docs/en/items/brimstream.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "crown-of-the-glaze",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/crown-of-the-glaze.md",
+      "en": "wiki/docs/en/items/crown-of-the-glaze.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "a-shard-of-coin",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/a-shard-of-coin.md",
+      "en": "wiki/docs/en/items/a-shard-of-coin.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "a-shard-of-glaze",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/a-shard-of-glaze.md",
+      "en": "wiki/docs/en/items/a-shard-of-glaze.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "a-shard-of-lava",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/a-shard-of-lava.md",
+      "en": "wiki/docs/en/items/a-shard-of-lava.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "a-shard-of-meat",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/a-shard-of-meat.md",
+      "en": "wiki/docs/en/items/a-shard-of-meat.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "a-shard-of-rock",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/a-shard-of-rock.md",
+      "en": "wiki/docs/en/items/a-shard-of-rock.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "black-map",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/black-map.md",
+      "en": "wiki/docs/en/items/black-map.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "blaststone",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/blaststone.md",
+      "en": "wiki/docs/en/items/blaststone.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "little-duck",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/little-duck.md",
+      "en": "wiki/docs/en/items/little-duck.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "alchemy-pot",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/alchemy-pot.md",
+      "en": "wiki/docs/en/items/alchemy-pot.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "air-terror",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/air-terror.md",
+      "en": "wiki/docs/en/items/air-terror.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-mushroom",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/glaze-mushroom.md",
+      "en": "wiki/docs/en/items/glaze-mushroom.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "pageant-cross-dresser",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/pageant-cross-dresser.md",
+      "en": "wiki/docs/en/items/pageant-cross-dresser.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "its-a-trick",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/its-a-trick.md",
+      "en": "wiki/docs/en/items/its-a-trick.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "apocalypse",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/apocalypse.md",
+      "en": "wiki/docs/en/items/apocalypse.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "colorblindness",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/colorblindness.md",
+      "en": "wiki/docs/en/items/colorblindness.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "field",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/field.md",
+      "en": "wiki/docs/en/items/field.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "suture-needle",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/suture-needle.md",
+      "en": "wiki/docs/en/items/suture-needle.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "more-options",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/more-options.md",
+      "en": "wiki/docs/en/items/more-options.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "fates-draw",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/fates-draw.md",
+      "en": "wiki/docs/en/items/fates-draw.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "my-emblem",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/my-emblem.md",
+      "en": "wiki/docs/en/items/my-emblem.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ingestion-to-night",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/ingestion-to-night.md",
+      "en": "wiki/docs/en/items/ingestion-to-night.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "d773",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/d773.md",
+      "en": "wiki/docs/en/items/d773.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "devils-heart",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/devils-heart.md",
+      "en": "wiki/docs/en/items/devils-heart.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "d-v-f",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/d-v-f.md",
+      "en": "wiki/docs/en/items/d-v-f.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "book-of-future",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/book-of-future.md",
+      "en": "wiki/docs/en/items/book-of-future.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "hyper-velocity",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/hyper-velocity.md",
+      "en": "wiki/docs/en/items/hyper-velocity.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "wavering-eyes",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/wavering-eyes.md",
+      "en": "wiki/docs/en/items/wavering-eyes.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "pendulum-star",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/pendulum-star.md",
+      "en": "wiki/docs/en/items/pendulum-star.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "book-of-thoth",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/book-of-thoth.md",
+      "en": "wiki/docs/en/items/book-of-thoth.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "book-of-the-law",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/book-of-the-law.md",
+      "en": "wiki/docs/en/items/book-of-the-law.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "book-of-vision",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/book-of-vision.md",
+      "en": "wiki/docs/en/items/book-of-vision.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "book-of-voice",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/book-of-voice.md",
+      "en": "wiki/docs/en/items/book-of-voice.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "aphasia",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/aphasia.md",
+      "en": "wiki/docs/en/items/aphasia.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "nazca",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/nazca.md",
+      "en": "wiki/docs/en/items/nazca.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "cloundy",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/cloundy.md",
+      "en": "wiki/docs/en/items/cloundy.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "skiel",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/skiel.md",
+      "en": "wiki/docs/en/items/skiel.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "wisel",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/wisel.md",
+      "en": "wiki/docs/en/items/wisel.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "granel",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/granel.md",
+      "en": "wiki/docs/en/items/granel.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "spectralsword",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/spectralsword.md",
+      "en": "wiki/docs/en/items/spectralsword.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "squiresaga",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/squiresaga.md",
+      "en": "wiki/docs/en/items/squiresaga.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "moment",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/moment.md",
+      "en": "wiki/docs/en/items/moment.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "lofty",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/lofty.md",
+      "en": "wiki/docs/en/items/lofty.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "theseuss-sign",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/theseuss-sign.md",
+      "en": "wiki/docs/en/items/theseuss-sign.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "heart-change",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/heart-change.md",
+      "en": "wiki/docs/en/items/heart-change.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "cable-jar",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/cable-jar.md",
+      "en": "wiki/docs/en/items/cable-jar.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "gospel",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/gospel.md",
+      "en": "wiki/docs/en/items/gospel.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tiramisu",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/tiramisu.md",
+      "en": "wiki/docs/en/items/tiramisu.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "live-broadcast",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/live-broadcast.md",
+      "en": "wiki/docs/en/items/live-broadcast.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "drama-of-sorrow-and-joy",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/drama-of-sorrow-and-joy.md",
+      "en": "wiki/docs/en/items/drama-of-sorrow-and-joy.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tzolkin",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/tzolkin.md",
+      "en": "wiki/docs/en/items/tzolkin.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "pareidolia",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/pareidolia.md",
+      "en": "wiki/docs/en/items/pareidolia.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "reversal-film",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/reversal-film.md",
+      "en": "wiki/docs/en/items/reversal-film.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tears-of-pearl",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/tears-of-pearl.md",
+      "en": "wiki/docs/en/items/tears-of-pearl.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "d-nan",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/d-nan.md",
+      "en": "wiki/docs/en/items/d-nan.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "risemara",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/risemara.md",
+      "en": "wiki/docs/en/items/risemara.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "chiastolite",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/chiastolite.md",
+      "en": "wiki/docs/en/items/chiastolite.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "calamity",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/calamity.md",
+      "en": "wiki/docs/en/items/calamity.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "shadow-bottle",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/shadow-bottle.md",
+      "en": "wiki/docs/en/items/shadow-bottle.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "the-true-name",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/the-true-name.md",
+      "en": "wiki/docs/en/items/the-true-name.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "blue-print",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/blue-print.md",
+      "en": "wiki/docs/en/items/blue-print.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "hypermnesia",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/hypermnesia.md",
+      "en": "wiki/docs/en/items/hypermnesia.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "delicate-flower",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/delicate-flower.md",
+      "en": "wiki/docs/en/items/delicate-flower.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tech-14",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/tech-14.md",
+      "en": "wiki/docs/en/items/tech-14.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "seekers-eye",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/seekers-eye.md",
+      "en": "wiki/docs/en/items/seekers-eye.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "day-dreamer",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/day-dreamer.md",
+      "en": "wiki/docs/en/items/day-dreamer.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "disequilibrium",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/disequilibrium.md",
+      "en": "wiki/docs/en/items/disequilibrium.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "deconstruction",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/deconstruction.md",
+      "en": "wiki/docs/en/items/deconstruction.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "philosophers-stone",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/philosophers-stone.md",
+      "en": "wiki/docs/en/items/philosophers-stone.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "brilliant",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/brilliant.md",
+      "en": "wiki/docs/en/items/brilliant.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "fraternity",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/fraternity.md",
+      "en": "wiki/docs/en/items/fraternity.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ending-count",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/ending-count.md",
+      "en": "wiki/docs/en/items/ending-count.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "dimension-contact",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/dimension-contact.md",
+      "en": "wiki/docs/en/items/dimension-contact.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "world-arc",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/world-arc.md",
+      "en": "wiki/docs/en/items/world-arc.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "final-prism",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/final-prism.md",
+      "en": "wiki/docs/en/items/final-prism.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "book-of-rune",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/book-of-rune.md",
+      "en": "wiki/docs/en/items/book-of-rune.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "evil-intervention",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/evil-intervention.md",
+      "en": "wiki/docs/en/items/evil-intervention.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "how-to-fly",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/how-to-fly.md",
+      "en": "wiki/docs/en/items/how-to-fly.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "illumination",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/illumination.md",
+      "en": "wiki/docs/en/items/illumination.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "contemplation",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/contemplation.md",
+      "en": "wiki/docs/en/items/contemplation.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "chasm",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/chasm.md",
+      "en": "wiki/docs/en/items/chasm.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "book-of-6-sin",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/book-of-6-sin.md",
+      "en": "wiki/docs/en/items/book-of-6-sin.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "pathetique",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/pathetique.md",
+      "en": "wiki/docs/en/items/pathetique.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "dark-mysticism",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/dark-mysticism.md",
+      "en": "wiki/docs/en/items/dark-mysticism.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "fresh-death",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/fresh-death.md",
+      "en": "wiki/docs/en/items/fresh-death.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "the-suture-needle",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/the-suture-needle.md",
+      "en": "wiki/docs/en/items/the-suture-needle.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-mirror",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/glaze-mirror.md",
+      "en": "wiki/docs/en/items/glaze-mirror.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "mental-disorder",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/mental-disorder.md",
+      "en": "wiki/docs/en/items/mental-disorder.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "paranoia",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/paranoia.md",
+      "en": "wiki/docs/en/items/paranoia.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "cursed-mask",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/cursed-mask.md",
+      "en": "wiki/docs/en/items/cursed-mask.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ritual-sting",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/ritual-sting.md",
+      "en": "wiki/docs/en/items/ritual-sting.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "nihilistic-artificial-eye",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/nihilistic-artificial-eye.md",
+      "en": "wiki/docs/en/items/nihilistic-artificial-eye.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "phantom-crown",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/phantom-crown.md",
+      "en": "wiki/docs/en/items/phantom-crown.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "blood-wing",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/blood-wing.md",
+      "en": "wiki/docs/en/items/blood-wing.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "subera-light",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/subera-light.md",
+      "en": "wiki/docs/en/items/subera-light.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "d-plus",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/d-plus.md",
+      "en": "wiki/docs/en/items/d-plus.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "shangrila",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/shangrila.md",
+      "en": "wiki/docs/en/items/shangrila.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "destiny-anchor",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/destiny-anchor.md",
+      "en": "wiki/docs/en/items/destiny-anchor.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "acrotomophilia",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/acrotomophilia.md",
+      "en": "wiki/docs/en/items/acrotomophilia.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "loneliness",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/loneliness.md",
+      "en": "wiki/docs/en/items/loneliness.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "core-brooch",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/core-brooch.md",
+      "en": "wiki/docs/en/items/core-brooch.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "fantastic-inspiration",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/fantastic-inspiration.md",
+      "en": "wiki/docs/en/items/fantastic-inspiration.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "hunger-burger",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/hunger-burger.md",
+      "en": "wiki/docs/en/items/hunger-burger.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "muscae-volitantes",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/muscae-volitantes.md",
+      "en": "wiki/docs/en/items/muscae-volitantes.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "charons-sign",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/charons-sign.md",
+      "en": "wiki/docs/en/items/charons-sign.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "baby-tecro",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/baby-tecro.md",
+      "en": "wiki/docs/en/items/baby-tecro.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "baby-anna",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/baby-anna.md",
+      "en": "wiki/docs/en/items/baby-anna.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "baby-zeis",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/baby-zeis.md",
+      "en": "wiki/docs/en/items/baby-zeis.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "baby-marri",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/baby-marri.md",
+      "en": "wiki/docs/en/items/baby-marri.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "baby-autio",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/baby-autio.md",
+      "en": "wiki/docs/en/items/baby-autio.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "baby-lu",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/baby-lu.md",
+      "en": "wiki/docs/en/items/baby-lu.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "multiknife",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/multiknife.md",
+      "en": "wiki/docs/en/items/multiknife.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "dragon-tooth",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/dragon-tooth.md",
+      "en": "wiki/docs/en/items/dragon-tooth.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "reserved-judgment",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/reserved-judgment.md",
+      "en": "wiki/docs/en/items/reserved-judgment.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "death-sentence",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/death-sentence.md",
+      "en": "wiki/docs/en/items/death-sentence.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "remaster",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/remaster.md",
+      "en": "wiki/docs/en/items/remaster.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "bloody-map",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/bloody-map.md",
+      "en": "wiki/docs/en/items/bloody-map.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "golden-slot",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/golden-slot.md",
+      "en": "wiki/docs/en/items/golden-slot.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "procrastination",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/procrastination.md",
+      "en": "wiki/docs/en/items/procrastination.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "sacred-mind-shield",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/sacred-mind-shield.md",
+      "en": "wiki/docs/en/items/sacred-mind-shield.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "qings-faceted-market-diamond",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/qings-faceted-market-diamond.md",
+      "en": "wiki/docs/en/items/qings-faceted-market-diamond.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "cup-cat",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/cup-cat.md",
+      "en": "wiki/docs/en/items/cup-cat.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "abiogenesis",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/abiogenesis.md",
+      "en": "wiki/docs/en/items/abiogenesis.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "regenesis",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/regenesis.md",
+      "en": "wiki/docs/en/items/regenesis.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ember",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/ember.md",
+      "en": "wiki/docs/en/items/ember.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "pacification-mark",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/pacification-mark.md",
+      "en": "wiki/docs/en/trinkets/pacification-mark.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "dark-particle",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/dark-particle.md",
+      "en": "wiki/docs/en/trinkets/dark-particle.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "torn-emperor",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/torn-emperor.md",
+      "en": "wiki/docs/en/trinkets/torn-emperor.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "devils-joke",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/devils-joke.md",
+      "en": "wiki/docs/en/trinkets/devils-joke.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "torn-moon",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/torn-moon.md",
+      "en": "wiki/docs/en/trinkets/torn-moon.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "puncture-symbol",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/puncture-symbol.md",
+      "en": "wiki/docs/en/trinkets/puncture-symbol.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "hoarding-symbol",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/hoarding-symbol.md",
+      "en": "wiki/docs/en/trinkets/hoarding-symbol.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "transition-symbol",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/transition-symbol.md",
+      "en": "wiki/docs/en/trinkets/transition-symbol.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "adhesive-symbol",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/adhesive-symbol.md",
+      "en": "wiki/docs/en/trinkets/adhesive-symbol.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "straining-symbol",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/straining-symbol.md",
+      "en": "wiki/docs/en/trinkets/straining-symbol.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "allocation-symbol",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/allocation-symbol.md",
+      "en": "wiki/docs/en/trinkets/allocation-symbol.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "pause",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/pause.md",
+      "en": "wiki/docs/en/trinkets/pause.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "equality-agreement",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/equality-agreement.md",
+      "en": "wiki/docs/en/trinkets/equality-agreement.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "consistent-expectations",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/consistent-expectations.md",
+      "en": "wiki/docs/en/trinkets/consistent-expectations.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "bundled-sale",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/bundled-sale.md",
+      "en": "wiki/docs/en/trinkets/bundled-sale.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "broken-brooch",
+      "kind": "trinket",
+      "zh": "wiki/docs/trinkets/broken-brooch.md",
+      "en": "wiki/docs/en/trinkets/broken-brooch.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glazed-dice-shard",
+      "kind": "card",
+      "zh": "wiki/docs/cards/glazed-dice-shard.md",
+      "en": "wiki/docs/en/cards/glazed-dice-shard.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "qings-soul",
+      "kind": "card",
+      "zh": "wiki/docs/cards/qings-soul.md",
+      "en": "wiki/docs/en/cards/qings-soul.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "round-trip-rail-ticket",
+      "kind": "card",
+      "zh": "wiki/docs/cards/round-trip-rail-ticket.md",
+      "en": "wiki/docs/en/cards/round-trip-rail-ticket.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "0-the-fool",
+      "kind": "card",
+      "zh": "wiki/docs/cards/0-the-fool.md",
+      "en": "wiki/docs/en/cards/0-the-fool.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "i-the-witch",
+      "kind": "card",
+      "zh": "wiki/docs/cards/i-the-witch.md",
+      "en": "wiki/docs/en/cards/i-the-witch.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "i-the-invoker",
+      "kind": "card",
+      "zh": "wiki/docs/cards/i-the-invoker.md",
+      "en": "wiki/docs/en/cards/i-the-invoker.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "i-the-wizard",
+      "kind": "card",
+      "zh": "wiki/docs/cards/i-the-wizard.md",
+      "en": "wiki/docs/en/cards/i-the-wizard.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ii-the-high-priestess",
+      "kind": "card",
+      "zh": "wiki/docs/cards/ii-the-high-priestess.md",
+      "en": "wiki/docs/en/cards/ii-the-high-priestess.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "iii-the-empress",
+      "kind": "card",
+      "zh": "wiki/docs/cards/iii-the-empress.md",
+      "en": "wiki/docs/en/cards/iii-the-empress.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "iv-the-emperor",
+      "kind": "card",
+      "zh": "wiki/docs/cards/iv-the-emperor.md",
+      "en": "wiki/docs/en/cards/iv-the-emperor.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "v-the-hierophant",
+      "kind": "card",
+      "zh": "wiki/docs/cards/v-the-hierophant.md",
+      "en": "wiki/docs/en/cards/v-the-hierophant.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "vi-lover",
+      "kind": "card",
+      "zh": "wiki/docs/cards/vi-lover.md",
+      "en": "wiki/docs/en/cards/vi-lover.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "vii-chariot",
+      "kind": "card",
+      "zh": "wiki/docs/cards/vii-chariot.md",
+      "en": "wiki/docs/en/cards/vii-chariot.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "viii-adjustment",
+      "kind": "card",
+      "zh": "wiki/docs/cards/viii-adjustment.md",
+      "en": "wiki/docs/en/cards/viii-adjustment.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ix-the-hermit",
+      "kind": "card",
+      "zh": "wiki/docs/cards/ix-the-hermit.md",
+      "en": "wiki/docs/en/cards/ix-the-hermit.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "x-the-wheel-of-destiny",
+      "kind": "card",
+      "zh": "wiki/docs/cards/x-the-wheel-of-destiny.md",
+      "en": "wiki/docs/en/cards/x-the-wheel-of-destiny.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xi-lure",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xi-lure.md",
+      "en": "wiki/docs/en/cards/xi-lure.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xii-the-hanged-man",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xii-the-hanged-man.md",
+      "en": "wiki/docs/en/cards/xii-the-hanged-man.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xiii-faint",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xiii-faint.md",
+      "en": "wiki/docs/en/cards/xiii-faint.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xiv-art",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xiv-art.md",
+      "en": "wiki/docs/en/cards/xiv-art.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xv-the-devil",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xv-the-devil.md",
+      "en": "wiki/docs/en/cards/xv-the-devil.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xvi-the-tower",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xvi-the-tower.md",
+      "en": "wiki/docs/en/cards/xvi-the-tower.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xvii-the-star",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xvii-the-star.md",
+      "en": "wiki/docs/en/cards/xvii-the-star.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xviii-the-moon",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xviii-the-moon.md",
+      "en": "wiki/docs/en/cards/xviii-the-moon.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xix-the-sun",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xix-the-sun.md",
+      "en": "wiki/docs/en/cards/xix-the-sun.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xx-the-aeon",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xx-the-aeon.md",
+      "en": "wiki/docs/en/cards/xx-the-aeon.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xxi-the-universe",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xxi-the-universe.md",
+      "en": "wiki/docs/en/cards/xxi-the-universe.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "0-the-fool-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/0-the-fool-reversed.md",
+      "en": "wiki/docs/en/cards/0-the-fool-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "i-the-sage-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/i-the-sage-reversed.md",
+      "en": "wiki/docs/en/cards/i-the-sage-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ii-the-high-priestess-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/ii-the-high-priestess-reversed.md",
+      "en": "wiki/docs/en/cards/ii-the-high-priestess-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "iii-the-empress-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/iii-the-empress-reversed.md",
+      "en": "wiki/docs/en/cards/iii-the-empress-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "iv-the-emperor-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/iv-the-emperor-reversed.md",
+      "en": "wiki/docs/en/cards/iv-the-emperor-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "v-the-hierophant-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/v-the-hierophant-reversed.md",
+      "en": "wiki/docs/en/cards/v-the-hierophant-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "vi-the-lover-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/vi-the-lover-reversed.md",
+      "en": "wiki/docs/en/cards/vi-the-lover-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "vii-the-chariot-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/vii-the-chariot-reversed.md",
+      "en": "wiki/docs/en/cards/vii-the-chariot-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "viii-adjustment-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/viii-adjustment-reversed.md",
+      "en": "wiki/docs/en/cards/viii-adjustment-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "ix-the-hermit-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/ix-the-hermit-reversed.md",
+      "en": "wiki/docs/en/cards/ix-the-hermit-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "x-the-wheel-of-destiny-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/x-the-wheel-of-destiny-reversed.md",
+      "en": "wiki/docs/en/cards/x-the-wheel-of-destiny-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xi-lure-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xi-lure-reversed.md",
+      "en": "wiki/docs/en/cards/xi-lure-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xii-the-hanged-man-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xii-the-hanged-man-reversed.md",
+      "en": "wiki/docs/en/cards/xii-the-hanged-man-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xiii-faint-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xiii-faint-reversed.md",
+      "en": "wiki/docs/en/cards/xiii-faint-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xiii-death-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xiii-death-reversed.md",
+      "en": "wiki/docs/en/cards/xiii-death-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xiii-the-corpse-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xiii-the-corpse-reversed.md",
+      "en": "wiki/docs/en/cards/xiii-the-corpse-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xiv-art-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xiv-art-reversed.md",
+      "en": "wiki/docs/en/cards/xiv-art-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xv-the-devil-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xv-the-devil-reversed.md",
+      "en": "wiki/docs/en/cards/xv-the-devil-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xvi-the-tower-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xvi-the-tower-reversed.md",
+      "en": "wiki/docs/en/cards/xvi-the-tower-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xvii-the-stars-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xvii-the-stars-reversed.md",
+      "en": "wiki/docs/en/cards/xvii-the-stars-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xviii-the-moon-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xviii-the-moon-reversed.md",
+      "en": "wiki/docs/en/cards/xviii-the-moon-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xix-the-sun-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xix-the-sun-reversed.md",
+      "en": "wiki/docs/en/cards/xix-the-sun-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xx-the-aeon-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xx-the-aeon-reversed.md",
+      "en": "wiki/docs/en/cards/xx-the-aeon-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xxi-the-universe-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xxi-the-universe-reversed.md",
+      "en": "wiki/docs/en/cards/xxi-the-universe-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xix-the-eclipse",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xix-the-eclipse.md",
+      "en": "wiki/docs/en/cards/xix-the-eclipse.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xix-the-eclipse-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xix-the-eclipse-reversed.md",
+      "en": "wiki/docs/en/cards/xix-the-eclipse-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tecros-soul",
+      "kind": "card",
+      "zh": "wiki/docs/cards/tecros-soul.md",
+      "en": "wiki/docs/en/cards/tecros-soul.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "annas-soul",
+      "kind": "card",
+      "zh": "wiki/docs/cards/annas-soul.md",
+      "en": "wiki/docs/en/cards/annas-soul.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "zeiss-soul",
+      "kind": "card",
+      "zh": "wiki/docs/cards/zeiss-soul.md",
+      "en": "wiki/docs/en/cards/zeiss-soul.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xxi-the-profound",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xxi-the-profound.md",
+      "en": "wiki/docs/en/cards/xxi-the-profound.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "xxi-the-profound-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/xxi-the-profound-reversed.md",
+      "en": "wiki/docs/en/cards/xxi-the-profound-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "v-the-sting",
+      "kind": "card",
+      "zh": "wiki/docs/cards/v-the-sting.md",
+      "en": "wiki/docs/en/cards/v-the-sting.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "v-the-sting-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/v-the-sting-reversed.md",
+      "en": "wiki/docs/en/cards/v-the-sting-reversed.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "w-qing",
+      "kind": "character",
+      "zh": "wiki/docs/characters/w-qing.md",
+      "en": "wiki/docs/en/characters/w-qing.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "sp-w-qing",
+      "kind": "character",
+      "zh": "wiki/docs/characters/sp-w-qing.md",
+      "en": "wiki/docs/en/characters/sp-w-qing.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tecro",
+      "kind": "character",
+      "zh": "wiki/docs/characters/tecro.md",
+      "en": "wiki/docs/en/characters/tecro.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "tecrorun",
+      "kind": "character",
+      "zh": "wiki/docs/characters/tecrorun.md",
+      "en": "wiki/docs/en/characters/tecrorun.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "anna",
+      "kind": "character",
+      "zh": "wiki/docs/characters/anna.md",
+      "en": "wiki/docs/en/characters/anna.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "anna-tainted",
+      "kind": "character",
+      "zh": "wiki/docs/characters/anna-tainted.md",
+      "en": "wiki/docs/en/characters/anna-tainted.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "zeis",
+      "kind": "character",
+      "zh": "wiki/docs/characters/zeis.md",
+      "en": "wiki/docs/en/characters/zeis.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "zeiz",
+      "kind": "character",
+      "zh": "wiki/docs/characters/zeiz.md",
+      "en": "wiki/docs/en/characters/zeiz.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "fusion-destiny",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/fusion-destiny.md",
+      "en": "wiki/docs/en/challenges/fusion-destiny.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "fans-service",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/fans-service.md",
+      "en": "wiki/docs/en/challenges/fans-service.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "heterothermal-concentric",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/heterothermal-concentric.md",
+      "en": "wiki/docs/en/challenges/heterothermal-concentric.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "feels-like-dead-ashes",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/feels-like-dead-ashes.md",
+      "en": "wiki/docs/en/challenges/feels-like-dead-ashes.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "louvre-puzzle",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/louvre-puzzle.md",
+      "en": "wiki/docs/en/challenges/louvre-puzzle.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "unstable-state",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/unstable-state.md",
+      "en": "wiki/docs/en/challenges/unstable-state.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "invisible",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/invisible.md",
+      "en": "wiki/docs/en/challenges/invisible.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "pointing-and-disappointing",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/pointing-and-disappointing.md",
+      "en": "wiki/docs/en/challenges/pointing-and-disappointing.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "cookie-clicker",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/cookie-clicker.md",
+      "en": "wiki/docs/en/challenges/cookie-clicker.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "safe-driving",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/safe-driving.md",
+      "en": "wiki/docs/en/challenges/safe-driving.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "swallow-the-sun",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/swallow-the-sun.md",
+      "en": "wiki/docs/en/challenges/swallow-the-sun.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "dragon-flight",
+      "kind": "challenge",
+      "zh": "wiki/docs/challenges/dragon-flight.md",
+      "en": "wiki/docs/en/challenges/dragon-flight.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-heart",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-heart.md",
+      "en": "wiki/docs/en/pickups/glaze-heart.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-heart-half",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-heart-half.md",
+      "en": "wiki/docs/en/pickups/glaze-heart-half.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-key",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-key.md",
+      "en": "wiki/docs/en/pickups/glaze-key.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "glaze-bomb",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-bomb.md",
+      "en": "wiki/docs/en/pickups/glaze-bomb.md",
+      "zhStatus": "drafted",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-grabbag",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-grabbag.md",
+      "en": "wiki/docs/en/pickups/glaze-grabbag.md",
+      "zhStatus": "drafted",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-battery",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-battery.md",
+      "en": "wiki/docs/en/pickups/glaze-battery.md",
+      "zhStatus": "drafted",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-chest",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-chest.md",
+      "en": "wiki/docs/en/pickups/glaze-chest.md",
+      "zhStatus": "drafted",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-big-poop",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-big-poop.md",
+      "en": "wiki/docs/en/pickups/glaze-big-poop.md",
+      "zhStatus": "drafted",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "glaze-coin",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/glaze-coin.md",
+      "en": "wiki/docs/en/pickups/glaze-coin.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "blueprint-prototype",
+      "kind": "pickup",
+      "zh": "wiki/docs/pickups/blueprint-prototype.md",
+      "en": "wiki/docs/en/pickups/blueprint-prototype.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "bard-beggar",
+      "kind": "slot",
+      "zh": "wiki/docs/slots/bard-beggar.md",
+      "en": "wiki/docs/en/slots/bard-beggar.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "rift-beggar",
+      "kind": "slot",
+      "zh": "wiki/docs/slots/rift-beggar.md",
+      "en": "wiki/docs/en/slots/rift-beggar.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "time-beggar",
+      "kind": "slot",
+      "zh": "wiki/docs/slots/time-beggar.md",
+      "en": "wiki/docs/en/slots/time-beggar.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "bloody-messenger",
+      "kind": "slot",
+      "zh": "wiki/docs/slots/bloody-messenger.md",
+      "en": "wiki/docs/en/slots/bloody-messenger.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "qing-diamond-merchant",
+      "kind": "slot",
+      "zh": "wiki/docs/slots/qing-diamond-merchant.md",
+      "en": "wiki/docs/en/slots/qing-diamond-merchant.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    }
+  ]
+}

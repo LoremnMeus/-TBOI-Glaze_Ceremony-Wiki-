@@ -1,87 +1,28 @@
 import { defineConfig } from 'vitepress'
 import { eidMarkupPlugin } from './eidMarkupPlugin'
+import { wikiDevPlugin } from './wikiDevPlugin'
+import generatedSidebar from '../generated/sidebar.json'
+import { tokenizeWikiSearch } from './searchTokenize'
+import { renderWikiSearchHtml } from './searchIndexRender'
 
-const chineseSidebar = {
-  '/icons': [
-    {
-      text: '素材',
-      items: [{ text: '图标清单', link: '/icons' }],
+const searchTranslationsZh = {
+  button: { buttonText: '搜索', buttonAriaLabel: '搜索' },
+  modal: {
+    displayDetails: '显示详细列表',
+    resetButtonTitle: '清除查询',
+    backButtonTitle: '关闭搜索',
+    noResultsText: '没有结果',
+    footer: {
+      selectText: '选择',
+      navigateText: '切换',
+      closeText: '关闭',
     },
-  ],
-  '/items/': [
-    {
-      text: '道具',
-      items: [
-        { text: '索引', link: '/items/' },
-        { text: '福音', link: '/items/gospel' },
-        { text: '蓝图', link: '/items/blue-print' },
-        { text: '贤者之石', link: '/items/philosophers-stone' },
-      ],
-    },
-  ],
-  '/characters/': [
-    {
-      text: '角色',
-      items: [
-        { text: '索引', link: '/characters/' },
-        { text: '泽伊斯托斯', link: '/characters/zeis' },
-        { text: '泽伊兹', link: '/characters/zeiz' },
-      ],
-    },
-  ],
-  '/troubleshooting/': [
-    {
-      text: '排障',
-      items: [
-        { text: '索引', link: '/troubleshooting/' },
-        { text: '进入后黑屏', link: '/troubleshooting/black-screen' },
-      ],
-    },
-  ],
-}
-
-const englishSidebar = {
-  '/en/icons': [
-    {
-      text: 'Assets',
-      items: [{ text: 'Icon inventory', link: '/en/icons' }],
-    },
-  ],
-  '/en/items/': [
-    {
-      text: 'Items',
-      items: [
-        { text: 'Index', link: '/en/items/' },
-        { text: 'Gospel', link: '/en/items/gospel' },
-        { text: 'Blueprint', link: '/en/items/blue-print' },
-        { text: "Philosopher's Stone", link: '/en/items/philosophers-stone' },
-      ],
-    },
-  ],
-  '/en/characters/': [
-    {
-      text: 'Characters',
-      items: [
-        { text: 'Index', link: '/en/characters/' },
-        { text: 'Zeis', link: '/en/characters/zeis' },
-        { text: 'Zeiz', link: '/en/characters/zeiz' },
-      ],
-    },
-  ],
-  '/en/troubleshooting/': [
-    {
-      text: 'Troubleshooting',
-      items: [
-        { text: 'Index', link: '/en/troubleshooting/' },
-        { text: 'Black screen after launch', link: '/en/troubleshooting/black-screen' },
-      ],
-    },
-  ],
+  },
 }
 
 export default defineConfig({
-  title: '琉璃仪式',
-  description: 'Glaze Ceremony: Promised Land Wiki',
+  title: '琉璃圣典',
+  description: '琉璃圣典：应许之地 Wiki',
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
@@ -94,12 +35,19 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/' },
           { text: '道具', link: '/items/' },
+          { text: '饰品', link: '/trinkets/' },
+          { text: '卡牌', link: '/cards/' },
           { text: '角色', link: '/characters/' },
+          { text: '挑战', link: '/challenges/' },
+          { text: '掉落物', link: '/pickups/' },
+          { text: '可互动实体', link: '/slots/' },
           { text: '排障', link: '/troubleshooting/' },
           { text: '图标', link: '/icons' },
+          { text: '标注', link: '/markup' },
+          { text: '格式参考', link: '/markup-cheatsheet' },
           { text: '编辑说明', link: '/editing' },
         ],
-        sidebar: chineseSidebar,
+        sidebar: generatedSidebar.zh,
       },
     },
     en: {
@@ -110,12 +58,19 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Items', link: '/en/items/' },
+          { text: 'Trinkets', link: '/en/trinkets/' },
+          { text: 'Cards', link: '/en/cards/' },
           { text: 'Characters', link: '/en/characters/' },
+          { text: 'Challenges', link: '/en/challenges/' },
+          { text: 'Pickups', link: '/en/pickups/' },
+          { text: 'Slots', link: '/en/slots/' },
           { text: 'Troubleshooting', link: '/en/troubleshooting/' },
           { text: 'Icons', link: '/en/icons' },
+          { text: 'Markup', link: '/en/markup' },
+          { text: 'Cheatsheet', link: '/en/markup-cheatsheet' },
           { text: 'Editing', link: '/en/editing' },
         ],
-        sidebar: englishSidebar,
+        sidebar: generatedSidebar.en,
       },
     },
   },
@@ -126,7 +81,31 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    search: { provider: 'local' },
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: { translations: searchTranslationsZh },
+          zh: { translations: searchTranslationsZh },
+        },
+        _render: renderWikiSearchHtml,
+        miniSearch: {
+          options: {
+            tokenize: tokenizeWikiSearch,
+            processTerm: (term: string) => term.toLowerCase(),
+          },
+          searchOptions: {
+            prefix: true,
+            fuzzy: 0,
+            combineWith: 'AND',
+            tokenize: tokenizeWikiSearch,
+          },
+        },
+      },
+    },
     outline: [2, 3],
+  },
+  vite: {
+    plugins: [wikiDevPlugin()],
   },
 })

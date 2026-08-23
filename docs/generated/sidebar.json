@@ -1,0 +1,2280 @@
+{
+  "zh": {
+    "/icons": [
+      {
+        "text": "素材",
+        "items": [
+          {
+            "text": "图标清单",
+            "link": "/icons"
+          },
+          {
+            "text": "标注语法",
+            "link": "/markup"
+          },
+          {
+            "text": "格式参考",
+            "link": "/markup-cheatsheet"
+          }
+        ]
+      }
+    ],
+    "/markup-cheatsheet": [
+      {
+        "text": "素材",
+        "items": [
+          {
+            "text": "图标清单",
+            "link": "/icons"
+          },
+          {
+            "text": "标注语法",
+            "link": "/markup"
+          },
+          {
+            "text": "格式参考",
+            "link": "/markup-cheatsheet"
+          }
+        ]
+      }
+    ],
+    "/items/": [
+      {
+        "text": "道具",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "索引",
+            "link": "/items/"
+          },
+          {
+            "text": "暗之六面",
+            "link": "/items/darkness"
+          },
+          {
+            "text": "无名刃·弑金",
+            "link": "/items/touchstone"
+          },
+          {
+            "text": "青的帽子",
+            "link": "/items/my-hat"
+          },
+          {
+            "text": "科技IX",
+            "link": "/items/tech-9"
+          },
+          {
+            "text": "刺杀者之眼",
+            "link": "/items/assassins-eye"
+          },
+          {
+            "text": "精神控制",
+            "link": "/items/mental-hypnosis"
+          },
+          {
+            "text": "淘金热",
+            "link": "/items/gold-rush"
+          },
+          {
+            "text": "空行零号-试做版",
+            "link": "/items/air-flight"
+          },
+          {
+            "text": "监视",
+            "link": "/items/the-watcher"
+          },
+          {
+            "text": "巨大化",
+            "link": "/items/giant-punch"
+          },
+          {
+            "text": "回忆",
+            "link": "/items/memory"
+          },
+          {
+            "text": "小青最好的朋友",
+            "link": "/items/my-best-friend"
+          },
+          {
+            "text": "超级炸弹",
+            "link": "/items/super-bombs"
+          },
+          {
+            "text": "硫磺激流",
+            "link": "/items/brimstream"
+          },
+          {
+            "text": "琉璃的冠冕",
+            "link": "/items/crown-of-the-glaze"
+          },
+          {
+            "text": "铸币之余",
+            "link": "/items/a-shard-of-coin"
+          },
+          {
+            "text": "琉璃之残",
+            "link": "/items/a-shard-of-glaze"
+          },
+          {
+            "text": "流焰之华",
+            "link": "/items/a-shard-of-lava"
+          },
+          {
+            "text": "鲜肉之渣",
+            "link": "/items/a-shard-of-meat"
+          },
+          {
+            "text": "岩田之蚀",
+            "link": "/items/a-shard-of-rock"
+          },
+          {
+            "text": "黑地图",
+            "link": "/items/black-map"
+          },
+          {
+            "text": "硫磺爆射",
+            "link": "/items/blaststone"
+          },
+          {
+            "text": "小黄鸭",
+            "link": "/items/little-duck"
+          },
+          {
+            "text": "炼金术的掌中锅",
+            "link": "/items/alchemy-pot"
+          },
+          {
+            "text": "飞行界域者",
+            "link": "/items/air-terror"
+          },
+          {
+            "text": "琉璃的蘑菇",
+            "link": "/items/glaze-mushroom"
+          },
+          {
+            "text": "盛装男娘",
+            "link": "/items/pageant-cross-dresser"
+          },
+          {
+            "text": "鸭架",
+            "link": "/items/its-a-trick"
+          },
+          {
+            "text": "世末天依",
+            "link": "/items/apocalypse"
+          },
+          {
+            "text": "傲慢或是偏见",
+            "link": "/items/colorblindness"
+          },
+          {
+            "text": "逆反力场",
+            "link": "/items/field"
+          },
+          {
+            "text": "缝合针",
+            "link": "/items/suture-needle"
+          },
+          {
+            "text": "更多更多选择！",
+            "link": "/items/more-options"
+          },
+          {
+            "text": "注定一抽",
+            "link": "/items/fates-draw"
+          },
+          {
+            "text": "小青的纹章",
+            "link": "/items/my-emblem"
+          },
+          {
+            "text": "夜之摄取",
+            "link": "/items/ingestion-to-night"
+          },
+          {
+            "text": "D773",
+            "link": "/items/d773"
+          },
+          {
+            "text": "恶魔的心智",
+            "link": "/items/devils-heart"
+          },
+          {
+            "text": "D-V-F",
+            "link": "/items/d-v-f"
+          },
+          {
+            "text": "未来之书",
+            "link": "/items/book-of-future"
+          },
+          {
+            "text": "和谐号",
+            "link": "/items/hyper-velocity"
+          },
+          {
+            "text": "摇摆之眼",
+            "link": "/items/wavering-eyes"
+          },
+          {
+            "text": "回荡之星",
+            "link": "/items/pendulum-star"
+          },
+          {
+            "text": "透特之书",
+            "link": "/items/book-of-thoth"
+          },
+          {
+            "text": "法之书",
+            "link": "/items/book-of-the-law"
+          },
+          {
+            "text": "觅之书",
+            "link": "/items/book-of-vision"
+          },
+          {
+            "text": "假象之书",
+            "link": "/items/book-of-voice"
+          },
+          {
+            "text": "失语症",
+            "link": "/items/aphasia"
+          },
+          {
+            "text": "纳兹卡巨画",
+            "link": "/items/nazca"
+          },
+          {
+            "text": "云玩大佬",
+            "link": "/items/cloundy"
+          },
+          {
+            "text": "痛苦因子",
+            "link": "/items/skiel"
+          },
+          {
+            "text": "绝望因子",
+            "link": "/items/wisel"
+          },
+          {
+            "text": "泯灭因子",
+            "link": "/items/granel"
+          },
+          {
+            "text": "妖刀·逢魔",
+            "link": "/items/spectralsword"
+          },
+          {
+            "text": "妖刻·白隙",
+            "link": "/items/squiresaga"
+          },
+          {
+            "text": "妖星·一瞬",
+            "link": "/items/moment"
+          },
+          {
+            "text": "至高之阵",
+            "link": "/items/lofty"
+          },
+          {
+            "text": "忒修斯之印",
+            "link": "/items/theseuss-sign"
+          },
+          {
+            "text": "心变",
+            "link": "/items/heart-change"
+          },
+          {
+            "text": "罐中雷暴",
+            "link": "/items/cable-jar"
+          },
+          {
+            "text": "福音",
+            "link": "/items/gospel"
+          },
+          {
+            "text": "提拉米苏",
+            "link": "/items/tiramisu"
+          },
+          {
+            "text": "直播姬",
+            "link": "/items/live-broadcast"
+          },
+          {
+            "text": "悲欢之凶剧",
+            "link": "/items/drama-of-sorrow-and-joy"
+          },
+          {
+            "text": "卓尔金神历",
+            "link": "/items/tzolkin"
+          },
+          {
+            "text": "妖心·盈月",
+            "link": "/items/pareidolia"
+          },
+          {
+            "text": "反转片？",
+            "link": "/items/reversal-film"
+          },
+          {
+            "text": "鱼人之泪",
+            "link": "/items/tears-of-pearl"
+          },
+          {
+            "text": "非数骰子",
+            "link": "/items/d-nan"
+          },
+          {
+            "text": "勇者祝福",
+            "link": "/items/risemara"
+          },
+          {
+            "text": "无名刃：心灾",
+            "link": "/items/chiastolite"
+          },
+          {
+            "text": "天象灾变",
+            "link": "/items/calamity"
+          },
+          {
+            "text": "瓶中阴影",
+            "link": "/items/shadow-bottle"
+          },
+          {
+            "text": "真实之名",
+            "link": "/items/the-true-name"
+          },
+          {
+            "text": "蓝图",
+            "link": "/items/blue-print"
+          },
+          {
+            "text": "超忆症",
+            "link": "/items/hypermnesia"
+          },
+          {
+            "text": "娇嫩的花",
+            "link": "/items/delicate-flower"
+          },
+          {
+            "text": "科技XIV",
+            "link": "/items/tech-14"
+          },
+          {
+            "text": "求索者之眼",
+            "link": "/items/seekers-eye"
+          },
+          {
+            "text": "白日梦",
+            "link": "/items/day-dreamer"
+          },
+          {
+            "text": "天象失权",
+            "link": "/items/disequilibrium"
+          },
+          {
+            "text": "天象解构",
+            "link": "/items/deconstruction"
+          },
+          {
+            "text": "贤者之石",
+            "link": "/items/philosophers-stone"
+          },
+          {
+            "text": "辉煌",
+            "link": "/items/brilliant"
+          },
+          {
+            "text": "博爱",
+            "link": "/items/fraternity"
+          },
+          {
+            "text": "终末倒数",
+            "link": "/items/ending-count"
+          },
+          {
+            "text": "次元之楔",
+            "link": "/items/dimension-contact"
+          },
+          {
+            "text": "世界弧",
+            "link": "/items/world-arc"
+          },
+          {
+            "text": "最终棱镜",
+            "link": "/items/final-prism"
+          },
+          {
+            "text": "卢恩之书",
+            "link": "/items/book-of-rune"
+          },
+          {
+            "text": "邪恶干涉",
+            "link": "/items/evil-intervention"
+          },
+          {
+            "text": "论如何飞行",
+            "link": "/items/how-to-fly"
+          },
+          {
+            "text": "天象破幻",
+            "link": "/items/illumination"
+          },
+          {
+            "text": "天象窥井",
+            "link": "/items/contemplation"
+          },
+          {
+            "text": "天象入渊",
+            "link": "/items/chasm"
+          },
+          {
+            "text": "六罪论",
+            "link": "/items/book-of-6-sin"
+          },
+          {
+            "text": "悲悯",
+            "link": "/items/pathetique"
+          },
+          {
+            "text": "暗黑神秘学",
+            "link": "/items/dark-mysticism"
+          },
+          {
+            "text": "鲜活死者",
+            "link": "/items/fresh-death"
+          },
+          {
+            "text": "新式缝合针",
+            "link": "/items/the-suture-needle"
+          },
+          {
+            "text": "琉璃镜片",
+            "link": "/items/glaze-mirror"
+          },
+          {
+            "text": "精神失序",
+            "link": "/items/mental-disorder"
+          },
+          {
+            "text": "妄想症",
+            "link": "/items/paranoia"
+          },
+          {
+            "text": "诅咒面具",
+            "link": "/items/cursed-mask"
+          },
+          {
+            "text": "血仪刺刃",
+            "link": "/items/ritual-sting"
+          },
+          {
+            "text": "虚无假眼",
+            "link": "/items/nihilistic-artificial-eye"
+          },
+          {
+            "text": "幻像冠冕",
+            "link": "/items/phantom-crown"
+          },
+          {
+            "text": "血翼",
+            "link": "/items/blood-wing"
+          },
+          {
+            "text": "次时代炬火",
+            "link": "/items/subera-light"
+          },
+          {
+            "text": "D++",
+            "link": "/items/d-plus"
+          },
+          {
+            "text": "香格里拉",
+            "link": "/items/shangrila"
+          },
+          {
+            "text": "命运锚点",
+            "link": "/items/destiny-anchor"
+          },
+          {
+            "text": "慕残症",
+            "link": "/items/acrotomophilia"
+          },
+          {
+            "text": "孤独",
+            "link": "/items/loneliness"
+          },
+          {
+            "text": "魔法胸针",
+            "link": "/items/core-brooch"
+          },
+          {
+            "text": "灵感",
+            "link": "/items/fantastic-inspiration"
+          },
+          {
+            "text": "饿魔汉堡",
+            "link": "/items/hunger-burger"
+          },
+          {
+            "text": "飞蚊症",
+            "link": "/items/muscae-volitantes"
+          },
+          {
+            "text": "卡戎之印",
+            "link": "/items/charons-sign"
+          },
+          {
+            "text": "宝宝泰克罗",
+            "link": "/items/baby-tecro"
+          },
+          {
+            "text": "宝宝安娜",
+            "link": "/items/baby-anna"
+          },
+          {
+            "text": "宝宝泽伊斯",
+            "link": "/items/baby-zeis"
+          },
+          {
+            "text": "宝宝玛丽",
+            "link": "/items/baby-marri"
+          },
+          {
+            "text": "宝宝艾提奥",
+            "link": "/items/baby-autio"
+          },
+          {
+            "text": "宝宝露",
+            "link": "/items/baby-lu"
+          },
+          {
+            "text": "倍增重刃",
+            "link": "/items/multiknife"
+          },
+          {
+            "text": "深渊龙牙",
+            "link": "/items/dragon-tooth"
+          },
+          {
+            "text": "保留意见",
+            "link": "/items/reserved-judgment"
+          },
+          {
+            "text": "通灵盘",
+            "link": "/items/death-sentence"
+          },
+          {
+            "text": "重制版！",
+            "link": "/items/remaster"
+          },
+          {
+            "text": "红地图",
+            "link": "/items/bloody-map"
+          },
+          {
+            "text": "黄金抽奖机",
+            "link": "/items/golden-slot"
+          },
+          {
+            "text": "拖延症",
+            "link": "/items/procrastination"
+          },
+          {
+            "text": "神圣心之防护罩－心灵之力",
+            "link": "/items/sacred-mind-shield"
+          },
+          {
+            "text": "钻石",
+            "link": "/items/qings-faceted-market-diamond"
+          },
+          {
+            "text": "杯糕猫",
+            "link": "/items/cup-cat"
+          },
+          {
+            "text": "无生源论",
+            "link": "/items/abiogenesis"
+          },
+          {
+            "text": "再世纪",
+            "link": "/items/regenesis"
+          },
+          {
+            "text": "余烬",
+            "link": "/items/ember"
+          }
+        ]
+      }
+    ],
+    "/trinkets/": [
+      {
+        "text": "饰品",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "索引",
+            "link": "/trinkets/"
+          },
+          {
+            "text": "平罪符",
+            "link": "/trinkets/pacification-mark"
+          },
+          {
+            "text": "黑暗脆块",
+            "link": "/trinkets/dark-particle"
+          },
+          {
+            "text": "透特卡残片",
+            "link": "/trinkets/torn-emperor"
+          },
+          {
+            "text": "恶魔的把戏",
+            "link": "/trinkets/devils-joke"
+          },
+          {
+            "text": "塔罗牌残片？",
+            "link": "/trinkets/torn-moon"
+          },
+          {
+            "text": "穿刺符号",
+            "link": "/trinkets/puncture-symbol"
+          },
+          {
+            "text": "囤积符号",
+            "link": "/trinkets/hoarding-symbol"
+          },
+          {
+            "text": "迁跃符号",
+            "link": "/trinkets/transition-symbol"
+          },
+          {
+            "text": "粘合符号",
+            "link": "/trinkets/adhesive-symbol"
+          },
+          {
+            "text": "下坠符号",
+            "link": "/trinkets/straining-symbol"
+          },
+          {
+            "text": "配给符号",
+            "link": "/trinkets/allocation-symbol"
+          },
+          {
+            "text": "暂停？",
+            "link": "/trinkets/pause"
+          },
+          {
+            "text": "平等协议",
+            "link": "/trinkets/equality-agreement"
+          },
+          {
+            "text": "期望协定",
+            "link": "/trinkets/consistent-expectations"
+          },
+          {
+            "text": "捆绑销售",
+            "link": "/trinkets/bundled-sale"
+          },
+          {
+            "text": "破碎的胸针",
+            "link": "/trinkets/broken-brooch"
+          }
+        ]
+      }
+    ],
+    "/cards/": [
+      {
+        "text": "卡牌",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "索引",
+            "link": "/cards/"
+          },
+          {
+            "text": "琉璃的骰子碎片",
+            "link": "/cards/glazed-dice-shard"
+          },
+          {
+            "text": "小青的灵魂石",
+            "link": "/cards/qings-soul"
+          },
+          {
+            "text": "双行火车票",
+            "link": "/cards/round-trip-rail-ticket"
+          },
+          {
+            "text": "0 - 旅者",
+            "link": "/cards/0-the-fool"
+          },
+          {
+            "text": "I - 魔女",
+            "link": "/cards/i-the-witch"
+          },
+          {
+            "text": "I - 魔启",
+            "link": "/cards/i-the-invoker"
+          },
+          {
+            "text": "I - 魔导",
+            "link": "/cards/i-the-wizard"
+          },
+          {
+            "text": "II - 女司祭",
+            "link": "/cards/ii-the-high-priestess"
+          },
+          {
+            "text": "III - 女帝",
+            "link": "/cards/iii-the-empress"
+          },
+          {
+            "text": "IV - 帝王",
+            "link": "/cards/iv-the-emperor"
+          },
+          {
+            "text": "V - 教导",
+            "link": "/cards/v-the-hierophant"
+          },
+          {
+            "text": "VI - 爱",
+            "link": "/cards/vi-lover"
+          },
+          {
+            "text": "VII - 巨炮",
+            "link": "/cards/vii-chariot"
+          },
+          {
+            "text": "VIII - 调节",
+            "link": "/cards/viii-adjustment"
+          },
+          {
+            "text": "IX - 隐者",
+            "link": "/cards/ix-the-hermit"
+          },
+          {
+            "text": "X - 命运",
+            "link": "/cards/x-the-wheel-of-destiny"
+          },
+          {
+            "text": "XI - 欲望",
+            "link": "/cards/xi-lure"
+          },
+          {
+            "text": "XII - 缚者",
+            "link": "/cards/xii-the-hanged-man"
+          },
+          {
+            "text": "XIII - 长眠",
+            "link": "/cards/xiii-faint"
+          },
+          {
+            "text": "XIV - 艺术",
+            "link": "/cards/xiv-art"
+          },
+          {
+            "text": "XV - 邪心",
+            "link": "/cards/xv-the-devil"
+          },
+          {
+            "text": "XVI - 尖塔",
+            "link": "/cards/xvi-the-tower"
+          },
+          {
+            "text": "XVII - 星坠",
+            "link": "/cards/xvii-the-star"
+          },
+          {
+            "text": "XVIII - 太阴",
+            "link": "/cards/xviii-the-moon"
+          },
+          {
+            "text": "XIX - 太阳",
+            "link": "/cards/xix-the-sun"
+          },
+          {
+            "text": "XX - 永恒",
+            "link": "/cards/xx-the-aeon"
+          },
+          {
+            "text": "XXI - 宇宙",
+            "link": "/cards/xxi-the-universe"
+          },
+          {
+            "text": "0 - 旅者",
+            "link": "/cards/0-the-fool-reversed"
+          },
+          {
+            "text": "I - 贤者?",
+            "link": "/cards/i-the-sage-reversed"
+          },
+          {
+            "text": "II - 女司祭",
+            "link": "/cards/ii-the-high-priestess-reversed"
+          },
+          {
+            "text": "III - 女帝",
+            "link": "/cards/iii-the-empress-reversed"
+          },
+          {
+            "text": "IV - 帝王",
+            "link": "/cards/iv-the-emperor-reversed"
+          },
+          {
+            "text": "V - 教导",
+            "link": "/cards/v-the-hierophant-reversed"
+          },
+          {
+            "text": "VI - 爱?",
+            "link": "/cards/vi-the-lover-reversed"
+          },
+          {
+            "text": "VII - 巨像?",
+            "link": "/cards/vii-the-chariot-reversed"
+          },
+          {
+            "text": "VIII - 调节",
+            "link": "/cards/viii-adjustment-reversed"
+          },
+          {
+            "text": "IX - 隐者",
+            "link": "/cards/ix-the-hermit-reversed"
+          },
+          {
+            "text": "X - 命运",
+            "link": "/cards/x-the-wheel-of-destiny-reversed"
+          },
+          {
+            "text": "XI - 欲望",
+            "link": "/cards/xi-lure-reversed"
+          },
+          {
+            "text": "XII - 缚者",
+            "link": "/cards/xii-the-hanged-man-reversed"
+          },
+          {
+            "text": "XIII - 长眠",
+            "link": "/cards/xiii-faint-reversed"
+          },
+          {
+            "text": "XIII - 死神?",
+            "link": "/cards/xiii-death-reversed"
+          },
+          {
+            "text": "XIII - 尸首?",
+            "link": "/cards/xiii-the-corpse-reversed"
+          },
+          {
+            "text": "XIV - 艺术",
+            "link": "/cards/xiv-art-reversed"
+          },
+          {
+            "text": "XV - 邪心",
+            "link": "/cards/xv-the-devil-reversed"
+          },
+          {
+            "text": "XVI - 尖塔",
+            "link": "/cards/xvi-the-tower-reversed"
+          },
+          {
+            "text": "XVII - 星辰?",
+            "link": "/cards/xvii-the-stars-reversed"
+          },
+          {
+            "text": "XVIII - 太阴",
+            "link": "/cards/xviii-the-moon-reversed"
+          },
+          {
+            "text": "XIX - 太阳",
+            "link": "/cards/xix-the-sun-reversed"
+          },
+          {
+            "text": "XX - 永恒",
+            "link": "/cards/xx-the-aeon-reversed"
+          },
+          {
+            "text": "XXI - 宇宙",
+            "link": "/cards/xxi-the-universe-reversed"
+          },
+          {
+            "text": "XIX - 日食",
+            "link": "/cards/xix-the-eclipse"
+          },
+          {
+            "text": "XIX - 食日?",
+            "link": "/cards/xix-the-eclipse-reversed"
+          },
+          {
+            "text": "泰克罗的魂石",
+            "link": "/cards/tecros-soul"
+          },
+          {
+            "text": "安娜的魂石",
+            "link": "/cards/annas-soul"
+          },
+          {
+            "text": "泽伊斯的魂石",
+            "link": "/cards/zeiss-soul"
+          },
+          {
+            "text": "XXI - 深邃",
+            "link": "/cards/xxi-the-profound"
+          },
+          {
+            "text": "XXI - 深邃?",
+            "link": "/cards/xxi-the-profound-reversed"
+          },
+          {
+            "text": "V - 密仪",
+            "link": "/cards/v-the-sting"
+          },
+          {
+            "text": "V - 密仪?",
+            "link": "/cards/v-the-sting-reversed"
+          }
+        ]
+      }
+    ],
+    "/characters/": [
+      {
+        "text": "角色",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "索引",
+            "link": "/characters/"
+          },
+          {
+            "text": "小青",
+            "link": "/characters/w-qing"
+          },
+          {
+            "text": "青",
+            "link": "/characters/sp-w-qing"
+          },
+          {
+            "text": "泰克罗",
+            "link": "/characters/tecro"
+          },
+          {
+            "text": "泰克罗罗恩",
+            "link": "/characters/tecrorun"
+          },
+          {
+            "text": "安娜",
+            "link": "/characters/anna"
+          },
+          {
+            "text": "安娜",
+            "link": "/characters/anna-tainted"
+          },
+          {
+            "text": "泽伊斯托斯",
+            "link": "/characters/zeis"
+          },
+          {
+            "text": "泽伊兹",
+            "link": "/characters/zeiz"
+          }
+        ]
+      }
+    ],
+    "/challenges/": [
+      {
+        "text": "挑战",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "索引",
+            "link": "/challenges/"
+          },
+          {
+            "text": "挑战：命运融合",
+            "link": "/challenges/fusion-destiny"
+          },
+          {
+            "text": "挑战：粉丝服务",
+            "link": "/challenges/fans-service"
+          },
+          {
+            "text": "挑战：异热同心",
+            "link": "/challenges/heterothermal-concentric"
+          },
+          {
+            "text": "挑战：心如死灰",
+            "link": "/challenges/feels-like-dead-ashes"
+          },
+          {
+            "text": "挑战：卢浮宫难题",
+            "link": "/challenges/louvre-puzzle"
+          },
+          {
+            "text": "挑战：不稳定体",
+            "link": "/challenges/unstable-state"
+          },
+          {
+            "text": "挑战：不为人知",
+            "link": "/challenges/invisible"
+          },
+          {
+            "text": "挑战：指指点点",
+            "link": "/challenges/pointing-and-disappointing"
+          },
+          {
+            "text": "挑战：曲奇点击者",
+            "link": "/challenges/cookie-clicker"
+          },
+          {
+            "text": "挑战：安全驾驶",
+            "link": "/challenges/safe-driving"
+          },
+          {
+            "text": "挑战：食日",
+            "link": "/challenges/swallow-the-sun"
+          },
+          {
+            "text": "挑战：飞龙在天",
+            "link": "/challenges/dragon-flight"
+          }
+        ]
+      }
+    ],
+    "/pickups/": [
+      {
+        "text": "掉落物",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "索引",
+            "link": "/pickups/"
+          },
+          {
+            "text": "琉璃之心",
+            "link": "/pickups/glaze-heart"
+          },
+          {
+            "text": "琉璃之半心",
+            "link": "/pickups/glaze-heart-half"
+          },
+          {
+            "text": "琉璃之匙",
+            "link": "/pickups/glaze-key"
+          },
+          {
+            "text": "琉璃之炸弹",
+            "link": "/pickups/glaze-bomb"
+          },
+          {
+            "text": "琉璃之福袋",
+            "link": "/pickups/glaze-grabbag"
+          },
+          {
+            "text": "琉璃之电池",
+            "link": "/pickups/glaze-battery"
+          },
+          {
+            "text": "琉璃之宝箱",
+            "link": "/pickups/glaze-chest"
+          },
+          {
+            "text": "琉璃之便便",
+            "link": "/pickups/glaze-big-poop"
+          },
+          {
+            "text": "琉璃硬币",
+            "link": "/pickups/glaze-coin"
+          },
+          {
+            "text": "道具原型",
+            "link": "/pickups/blueprint-prototype"
+          }
+        ]
+      }
+    ],
+    "/slots/": [
+      {
+        "text": "可互动实体",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "索引",
+            "link": "/slots/"
+          },
+          {
+            "text": "吟游乞丐",
+            "link": "/slots/bard-beggar"
+          },
+          {
+            "text": "黑洞恶魔乞丐",
+            "link": "/slots/rift-beggar"
+          },
+          {
+            "text": "来日债主",
+            "link": "/slots/time-beggar"
+          },
+          {
+            "text": "血红使者",
+            "link": "/slots/bloody-messenger"
+          },
+          {
+            "text": "钻石收购商",
+            "link": "/slots/qing-diamond-merchant"
+          }
+        ]
+      }
+    ],
+    "/troubleshooting/": [
+      {
+        "text": "排障",
+        "items": [
+          {
+            "text": "索引",
+            "link": "/troubleshooting/"
+          },
+          {
+            "text": "进入后黑屏",
+            "link": "/troubleshooting/black-screen"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "/en/icons": [
+      {
+        "text": "Assets",
+        "items": [
+          {
+            "text": "Icon inventory",
+            "link": "/en/icons"
+          },
+          {
+            "text": "Markup",
+            "link": "/en/markup"
+          },
+          {
+            "text": "Cheatsheet",
+            "link": "/en/markup-cheatsheet"
+          }
+        ]
+      }
+    ],
+    "/en/markup-cheatsheet": [
+      {
+        "text": "Assets",
+        "items": [
+          {
+            "text": "Icon inventory",
+            "link": "/en/icons"
+          },
+          {
+            "text": "Markup",
+            "link": "/en/markup"
+          },
+          {
+            "text": "Cheatsheet",
+            "link": "/en/markup-cheatsheet"
+          }
+        ]
+      }
+    ],
+    "/en/items/": [
+      {
+        "text": "Items",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/items/"
+          },
+          {
+            "text": "Darkness",
+            "link": "/en/items/darkness"
+          },
+          {
+            "text": "Touchstone",
+            "link": "/en/items/touchstone"
+          },
+          {
+            "text": "Qing's Hat",
+            "link": "/en/items/my-hat"
+          },
+          {
+            "text": "Tech IX",
+            "link": "/en/items/tech-9"
+          },
+          {
+            "text": "Assassin's Eye",
+            "link": "/en/items/assassins-eye"
+          },
+          {
+            "text": "Mental Hypnosis",
+            "link": "/en/items/mental-hypnosis"
+          },
+          {
+            "text": "Gold Rush",
+            "link": "/en/items/gold-rush"
+          },
+          {
+            "text": "AF-00 Prototype",
+            "link": "/en/items/air-flight"
+          },
+          {
+            "text": "The Watcher",
+            "link": "/en/items/the-watcher"
+          },
+          {
+            "text": "Giant Punch",
+            "link": "/en/items/giant-punch"
+          },
+          {
+            "text": "Memory",
+            "link": "/en/items/memory"
+          },
+          {
+            "text": "My Best Friend",
+            "link": "/en/items/my-best-friend"
+          },
+          {
+            "text": "Super Bombs",
+            "link": "/en/items/super-bombs"
+          },
+          {
+            "text": "Brimstream",
+            "link": "/en/items/brimstream"
+          },
+          {
+            "text": "Crown of the glaze",
+            "link": "/en/items/crown-of-the-glaze"
+          },
+          {
+            "text": "A Shard of Coin",
+            "link": "/en/items/a-shard-of-coin"
+          },
+          {
+            "text": "A Shard of Glaze",
+            "link": "/en/items/a-shard-of-glaze"
+          },
+          {
+            "text": "A Shard of Lava",
+            "link": "/en/items/a-shard-of-lava"
+          },
+          {
+            "text": "A Shard of Meat",
+            "link": "/en/items/a-shard-of-meat"
+          },
+          {
+            "text": "A Shard of Rock",
+            "link": "/en/items/a-shard-of-rock"
+          },
+          {
+            "text": "Black Map",
+            "link": "/en/items/black-map"
+          },
+          {
+            "text": "Blaststone",
+            "link": "/en/items/blaststone"
+          },
+          {
+            "text": "Little Duck",
+            "link": "/en/items/little-duck"
+          },
+          {
+            "text": "Alchemy Pot",
+            "link": "/en/items/alchemy-pot"
+          },
+          {
+            "text": "Air Terror",
+            "link": "/en/items/air-terror"
+          },
+          {
+            "text": "Glaze Mushroom",
+            "link": "/en/items/glaze-mushroom"
+          },
+          {
+            "text": "Pageant Cross-dresser",
+            "link": "/en/items/pageant-cross-dresser"
+          },
+          {
+            "text": "Wire duck hanger",
+            "link": "/en/items/its-a-trick"
+          },
+          {
+            "text": "Apocalypse",
+            "link": "/en/items/apocalypse"
+          },
+          {
+            "text": "Pride or Prejudice",
+            "link": "/en/items/colorblindness"
+          },
+          {
+            "text": "Anti-Field",
+            "link": "/en/items/field"
+          },
+          {
+            "text": "Suture Needle",
+            "link": "/en/items/suture-needle"
+          },
+          {
+            "text": "More and more Options!",
+            "link": "/en/items/more-options"
+          },
+          {
+            "text": "Fate's Draw",
+            "link": "/en/items/fates-draw"
+          },
+          {
+            "text": "Qing's Emblem",
+            "link": "/en/items/my-emblem"
+          },
+          {
+            "text": "Ingestion to Night",
+            "link": "/en/items/ingestion-to-night"
+          },
+          {
+            "text": "D773",
+            "link": "/en/items/d773"
+          },
+          {
+            "text": "Devil's Heart",
+            "link": "/en/items/devils-heart"
+          },
+          {
+            "text": "D-V-F",
+            "link": "/en/items/d-v-f"
+          },
+          {
+            "text": "Book of Future",
+            "link": "/en/items/book-of-future"
+          },
+          {
+            "text": "Hyper Velocity",
+            "link": "/en/items/hyper-velocity"
+          },
+          {
+            "text": "Wavering Eyes",
+            "link": "/en/items/wavering-eyes"
+          },
+          {
+            "text": "Pendulum Star",
+            "link": "/en/items/pendulum-star"
+          },
+          {
+            "text": "Book of Thoth",
+            "link": "/en/items/book-of-thoth"
+          },
+          {
+            "text": "Book of The Law",
+            "link": "/en/items/book-of-the-law"
+          },
+          {
+            "text": "Book of Vision",
+            "link": "/en/items/book-of-vision"
+          },
+          {
+            "text": "Book of Voice",
+            "link": "/en/items/book-of-voice"
+          },
+          {
+            "text": "Aphasia",
+            "link": "/en/items/aphasia"
+          },
+          {
+            "text": "Nazca",
+            "link": "/en/items/nazca"
+          },
+          {
+            "text": "Cloundy",
+            "link": "/en/items/cloundy"
+          },
+          {
+            "text": "Skiel",
+            "link": "/en/items/skiel"
+          },
+          {
+            "text": "Wisel",
+            "link": "/en/items/wisel"
+          },
+          {
+            "text": "Granel",
+            "link": "/en/items/granel"
+          },
+          {
+            "text": "Spectral Sword",
+            "link": "/en/items/spectralsword"
+          },
+          {
+            "text": "Squiresaga",
+            "link": "/en/items/squiresaga"
+          },
+          {
+            "text": "Moment",
+            "link": "/en/items/moment"
+          },
+          {
+            "text": "Lofty",
+            "link": "/en/items/lofty"
+          },
+          {
+            "text": "Theseus's Sign",
+            "link": "/en/items/theseuss-sign"
+          },
+          {
+            "text": "Heart Change",
+            "link": "/en/items/heart-change"
+          },
+          {
+            "text": "Cable Jar",
+            "link": "/en/items/cable-jar"
+          },
+          {
+            "text": "Gospel",
+            "link": "/en/items/gospel"
+          },
+          {
+            "text": "Tiramisu",
+            "link": "/en/items/tiramisu"
+          },
+          {
+            "text": "Live Broadcast",
+            "link": "/en/items/live-broadcast"
+          },
+          {
+            "text": "Drama of sorrow and joy",
+            "link": "/en/items/drama-of-sorrow-and-joy"
+          },
+          {
+            "text": "Tzolkin",
+            "link": "/en/items/tzolkin"
+          },
+          {
+            "text": "Pareidolia",
+            "link": "/en/items/pareidolia"
+          },
+          {
+            "text": "Reversal Film",
+            "link": "/en/items/reversal-film"
+          },
+          {
+            "text": "Tears of Pearl",
+            "link": "/en/items/tears-of-pearl"
+          },
+          {
+            "text": "D NAN",
+            "link": "/en/items/d-nan"
+          },
+          {
+            "text": "Risemara",
+            "link": "/en/items/risemara"
+          },
+          {
+            "text": "Chiastolite",
+            "link": "/en/items/chiastolite"
+          },
+          {
+            "text": "Calamity",
+            "link": "/en/items/calamity"
+          },
+          {
+            "text": "Shadow Bottle",
+            "link": "/en/items/shadow-bottle"
+          },
+          {
+            "text": "The true name",
+            "link": "/en/items/the-true-name"
+          },
+          {
+            "text": "Blueprint",
+            "link": "/en/items/blue-print"
+          },
+          {
+            "text": "Hypermnesia",
+            "link": "/en/items/hypermnesia"
+          },
+          {
+            "text": "Delicate Flower",
+            "link": "/en/items/delicate-flower"
+          },
+          {
+            "text": "Tech 14",
+            "link": "/en/items/tech-14"
+          },
+          {
+            "text": "Seeker's Eye",
+            "link": "/en/items/seekers-eye"
+          },
+          {
+            "text": "Day Dreamer",
+            "link": "/en/items/day-dreamer"
+          },
+          {
+            "text": "Disequilibrium",
+            "link": "/en/items/disequilibrium"
+          },
+          {
+            "text": "Deconstruction",
+            "link": "/en/items/deconstruction"
+          },
+          {
+            "text": "Philosopher's Stone",
+            "link": "/en/items/philosophers-stone"
+          },
+          {
+            "text": "Brilliant",
+            "link": "/en/items/brilliant"
+          },
+          {
+            "text": "Fraternity",
+            "link": "/en/items/fraternity"
+          },
+          {
+            "text": "Ending Count",
+            "link": "/en/items/ending-count"
+          },
+          {
+            "text": "Dimension Contact",
+            "link": "/en/items/dimension-contact"
+          },
+          {
+            "text": "World Arc",
+            "link": "/en/items/world-arc"
+          },
+          {
+            "text": "Final Prism",
+            "link": "/en/items/final-prism"
+          },
+          {
+            "text": "Book of Rune",
+            "link": "/en/items/book-of-rune"
+          },
+          {
+            "text": "Evil Intervention",
+            "link": "/en/items/evil-intervention"
+          },
+          {
+            "text": "How to Fly",
+            "link": "/en/items/how-to-fly"
+          },
+          {
+            "text": "Illumination",
+            "link": "/en/items/illumination"
+          },
+          {
+            "text": "Contemplation",
+            "link": "/en/items/contemplation"
+          },
+          {
+            "text": "Chasm",
+            "link": "/en/items/chasm"
+          },
+          {
+            "text": "Book of 6 sin",
+            "link": "/en/items/book-of-6-sin"
+          },
+          {
+            "text": "Pathetique",
+            "link": "/en/items/pathetique"
+          },
+          {
+            "text": "Dark Mysticism",
+            "link": "/en/items/dark-mysticism"
+          },
+          {
+            "text": "Fresh Death",
+            "link": "/en/items/fresh-death"
+          },
+          {
+            "text": "The Suture Needle",
+            "link": "/en/items/the-suture-needle"
+          },
+          {
+            "text": "Glaze Mirror",
+            "link": "/en/items/glaze-mirror"
+          },
+          {
+            "text": "Mental Disorder",
+            "link": "/en/items/mental-disorder"
+          },
+          {
+            "text": "Paranoia",
+            "link": "/en/items/paranoia"
+          },
+          {
+            "text": "Cursed Mask",
+            "link": "/en/items/cursed-mask"
+          },
+          {
+            "text": "Ritual Sting",
+            "link": "/en/items/ritual-sting"
+          },
+          {
+            "text": "Nihilistic Artificial Eye",
+            "link": "/en/items/nihilistic-artificial-eye"
+          },
+          {
+            "text": "Phantom Crown",
+            "link": "/en/items/phantom-crown"
+          },
+          {
+            "text": "Blood Wing",
+            "link": "/en/items/blood-wing"
+          },
+          {
+            "text": "Subera Light",
+            "link": "/en/items/subera-light"
+          },
+          {
+            "text": "D++",
+            "link": "/en/items/d-plus"
+          },
+          {
+            "text": "Shangrila",
+            "link": "/en/items/shangrila"
+          },
+          {
+            "text": "Destiny Anchor",
+            "link": "/en/items/destiny-anchor"
+          },
+          {
+            "text": "Acrotomophilia",
+            "link": "/en/items/acrotomophilia"
+          },
+          {
+            "text": "Loneliness",
+            "link": "/en/items/loneliness"
+          },
+          {
+            "text": "Core Brooch",
+            "link": "/en/items/core-brooch"
+          },
+          {
+            "text": "Inspiration",
+            "link": "/en/items/fantastic-inspiration"
+          },
+          {
+            "text": "Hunger Burger",
+            "link": "/en/items/hunger-burger"
+          },
+          {
+            "text": "Muscae Volitantes",
+            "link": "/en/items/muscae-volitantes"
+          },
+          {
+            "text": "Charon's Sign",
+            "link": "/en/items/charons-sign"
+          },
+          {
+            "text": "Baby Tecro",
+            "link": "/en/items/baby-tecro"
+          },
+          {
+            "text": "Baby Anna",
+            "link": "/en/items/baby-anna"
+          },
+          {
+            "text": "Baby Zeis",
+            "link": "/en/items/baby-zeis"
+          },
+          {
+            "text": "Baby Marri",
+            "link": "/en/items/baby-marri"
+          },
+          {
+            "text": "Baby Autio",
+            "link": "/en/items/baby-autio"
+          },
+          {
+            "text": "Baby Lu",
+            "link": "/en/items/baby-lu"
+          },
+          {
+            "text": "Multiknife",
+            "link": "/en/items/multiknife"
+          },
+          {
+            "text": "Dragon Tooth",
+            "link": "/en/items/dragon-tooth"
+          },
+          {
+            "text": "Reserved Judgment",
+            "link": "/en/items/reserved-judgment"
+          },
+          {
+            "text": "Death Sentence",
+            "link": "/en/items/death-sentence"
+          },
+          {
+            "text": "Remaster!",
+            "link": "/en/items/remaster"
+          },
+          {
+            "text": "Bloody Map",
+            "link": "/en/items/bloody-map"
+          },
+          {
+            "text": "Golden Slot",
+            "link": "/en/items/golden-slot"
+          },
+          {
+            "text": "Procrastination",
+            "link": "/en/items/procrastination"
+          },
+          {
+            "text": "Sacred Mind Shield",
+            "link": "/en/items/sacred-mind-shield"
+          },
+          {
+            "text": "Diamond",
+            "link": "/en/items/qings-faceted-market-diamond"
+          },
+          {
+            "text": "Cup Cat",
+            "link": "/en/items/cup-cat"
+          },
+          {
+            "text": "Abiogenesis",
+            "link": "/en/items/abiogenesis"
+          },
+          {
+            "text": "Regenesis",
+            "link": "/en/items/regenesis"
+          },
+          {
+            "text": "Ember",
+            "link": "/en/items/ember"
+          }
+        ]
+      }
+    ],
+    "/en/trinkets/": [
+      {
+        "text": "Trinkets",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/trinkets/"
+          },
+          {
+            "text": "Pacification Mark",
+            "link": "/en/trinkets/pacification-mark"
+          },
+          {
+            "text": "Dark Particle",
+            "link": "/en/trinkets/dark-particle"
+          },
+          {
+            "text": "Torn Emperor",
+            "link": "/en/trinkets/torn-emperor"
+          },
+          {
+            "text": "Devil's Joke",
+            "link": "/en/trinkets/devils-joke"
+          },
+          {
+            "text": "Torn Moon？",
+            "link": "/en/trinkets/torn-moon"
+          },
+          {
+            "text": "Puncture Symbol",
+            "link": "/en/trinkets/puncture-symbol"
+          },
+          {
+            "text": "Hoarding Symbol",
+            "link": "/en/trinkets/hoarding-symbol"
+          },
+          {
+            "text": "Transition Symbol",
+            "link": "/en/trinkets/transition-symbol"
+          },
+          {
+            "text": "Adhesive Symbol",
+            "link": "/en/trinkets/adhesive-symbol"
+          },
+          {
+            "text": "Straining Symbol",
+            "link": "/en/trinkets/straining-symbol"
+          },
+          {
+            "text": "Allocation Symbol",
+            "link": "/en/trinkets/allocation-symbol"
+          },
+          {
+            "text": "Pause？",
+            "link": "/en/trinkets/pause"
+          },
+          {
+            "text": "Equality Agreement",
+            "link": "/en/trinkets/equality-agreement"
+          },
+          {
+            "text": "Consistent Expectations",
+            "link": "/en/trinkets/consistent-expectations"
+          },
+          {
+            "text": "Bundled Sale",
+            "link": "/en/trinkets/bundled-sale"
+          },
+          {
+            "text": "Broken Brooch",
+            "link": "/en/trinkets/broken-brooch"
+          }
+        ]
+      }
+    ],
+    "/en/cards/": [
+      {
+        "text": "Cards",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/cards/"
+          },
+          {
+            "text": "Glaze Dice Shard",
+            "link": "/en/cards/glazed-dice-shard"
+          },
+          {
+            "text": "Qing's Soul",
+            "link": "/en/cards/qings-soul"
+          },
+          {
+            "text": "Round trip Rail Ticket",
+            "link": "/en/cards/round-trip-rail-ticket"
+          },
+          {
+            "text": "0 - The Fool",
+            "link": "/en/cards/0-the-fool"
+          },
+          {
+            "text": "I - The Witch",
+            "link": "/en/cards/i-the-witch"
+          },
+          {
+            "text": "I - The Invoker",
+            "link": "/en/cards/i-the-invoker"
+          },
+          {
+            "text": "I - The Wizard",
+            "link": "/en/cards/i-the-wizard"
+          },
+          {
+            "text": "II - The High Priestess",
+            "link": "/en/cards/ii-the-high-priestess"
+          },
+          {
+            "text": "III - The Empress",
+            "link": "/en/cards/iii-the-empress"
+          },
+          {
+            "text": "IV - The Emperor",
+            "link": "/en/cards/iv-the-emperor"
+          },
+          {
+            "text": "V - The Hierophant",
+            "link": "/en/cards/v-the-hierophant"
+          },
+          {
+            "text": "VI - Lover",
+            "link": "/en/cards/vi-lover"
+          },
+          {
+            "text": "VII - Chariot",
+            "link": "/en/cards/vii-chariot"
+          },
+          {
+            "text": "VIII - Adjustment",
+            "link": "/en/cards/viii-adjustment"
+          },
+          {
+            "text": "IX - The Hermit",
+            "link": "/en/cards/ix-the-hermit"
+          },
+          {
+            "text": "X - The Wheel of Destiny",
+            "link": "/en/cards/x-the-wheel-of-destiny"
+          },
+          {
+            "text": "XI - Lure",
+            "link": "/en/cards/xi-lure"
+          },
+          {
+            "text": "XII - The Hanged Man",
+            "link": "/en/cards/xii-the-hanged-man"
+          },
+          {
+            "text": "XIII - Faint",
+            "link": "/en/cards/xiii-faint"
+          },
+          {
+            "text": "XIV - Art",
+            "link": "/en/cards/xiv-art"
+          },
+          {
+            "text": "XV - The Devil",
+            "link": "/en/cards/xv-the-devil"
+          },
+          {
+            "text": "XVI - The Tower",
+            "link": "/en/cards/xvi-the-tower"
+          },
+          {
+            "text": "XVII - The Star",
+            "link": "/en/cards/xvii-the-star"
+          },
+          {
+            "text": "XVIII - The Moon",
+            "link": "/en/cards/xviii-the-moon"
+          },
+          {
+            "text": "XIX - The Sun",
+            "link": "/en/cards/xix-the-sun"
+          },
+          {
+            "text": "XX - The Aeon",
+            "link": "/en/cards/xx-the-aeon"
+          },
+          {
+            "text": "XXI - The Universe",
+            "link": "/en/cards/xxi-the-universe"
+          },
+          {
+            "text": "0 - The Fool",
+            "link": "/en/cards/0-the-fool-reversed"
+          },
+          {
+            "text": "I - The Sage?",
+            "link": "/en/cards/i-the-sage-reversed"
+          },
+          {
+            "text": "II - The High Priestess",
+            "link": "/en/cards/ii-the-high-priestess-reversed"
+          },
+          {
+            "text": "III - The Empress",
+            "link": "/en/cards/iii-the-empress-reversed"
+          },
+          {
+            "text": "IV - The Emperor",
+            "link": "/en/cards/iv-the-emperor-reversed"
+          },
+          {
+            "text": "V - The Hierophant",
+            "link": "/en/cards/v-the-hierophant-reversed"
+          },
+          {
+            "text": "VI - The Lover?",
+            "link": "/en/cards/vi-the-lover-reversed"
+          },
+          {
+            "text": "VII - The Chariot?",
+            "link": "/en/cards/vii-the-chariot-reversed"
+          },
+          {
+            "text": "VIII - Adjustment",
+            "link": "/en/cards/viii-adjustment-reversed"
+          },
+          {
+            "text": "IX - The Hermit",
+            "link": "/en/cards/ix-the-hermit-reversed"
+          },
+          {
+            "text": "X - The Wheel of Destiny",
+            "link": "/en/cards/x-the-wheel-of-destiny-reversed"
+          },
+          {
+            "text": "XI - Lure",
+            "link": "/en/cards/xi-lure-reversed"
+          },
+          {
+            "text": "XII - The Hanged Man",
+            "link": "/en/cards/xii-the-hanged-man-reversed"
+          },
+          {
+            "text": "XIII - Faint",
+            "link": "/en/cards/xiii-faint-reversed"
+          },
+          {
+            "text": "XIII - Death?",
+            "link": "/en/cards/xiii-death-reversed"
+          },
+          {
+            "text": "XIII - The Corpse?",
+            "link": "/en/cards/xiii-the-corpse-reversed"
+          },
+          {
+            "text": "XIV - Art",
+            "link": "/en/cards/xiv-art-reversed"
+          },
+          {
+            "text": "XV - The Devil",
+            "link": "/en/cards/xv-the-devil-reversed"
+          },
+          {
+            "text": "XVI - The Tower",
+            "link": "/en/cards/xvi-the-tower-reversed"
+          },
+          {
+            "text": "XVII - The Stars?",
+            "link": "/en/cards/xvii-the-stars-reversed"
+          },
+          {
+            "text": "XVIII - The Moon",
+            "link": "/en/cards/xviii-the-moon-reversed"
+          },
+          {
+            "text": "XIX - The Sun",
+            "link": "/en/cards/xix-the-sun-reversed"
+          },
+          {
+            "text": "XX - The Aeon",
+            "link": "/en/cards/xx-the-aeon-reversed"
+          },
+          {
+            "text": "XXI - The Universe",
+            "link": "/en/cards/xxi-the-universe-reversed"
+          },
+          {
+            "text": "XIX - Eclipse",
+            "link": "/en/cards/xix-the-eclipse"
+          },
+          {
+            "text": "XIX - Eclipse?",
+            "link": "/en/cards/xix-the-eclipse-reversed"
+          },
+          {
+            "text": "Tecro's Soul",
+            "link": "/en/cards/tecros-soul"
+          },
+          {
+            "text": "Anna's Soul",
+            "link": "/en/cards/annas-soul"
+          },
+          {
+            "text": "Zeis's Soul",
+            "link": "/en/cards/zeiss-soul"
+          },
+          {
+            "text": "XXI - Profound",
+            "link": "/en/cards/xxi-the-profound"
+          },
+          {
+            "text": "XXI - Profound?",
+            "link": "/en/cards/xxi-the-profound-reversed"
+          },
+          {
+            "text": "V - Sting",
+            "link": "/en/cards/v-the-sting"
+          },
+          {
+            "text": "V - Sting?",
+            "link": "/en/cards/v-the-sting-reversed"
+          }
+        ]
+      }
+    ],
+    "/en/characters/": [
+      {
+        "text": "Characters",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/characters/"
+          },
+          {
+            "text": "Qing",
+            "link": "/en/characters/w-qing"
+          },
+          {
+            "text": "Qing",
+            "link": "/en/characters/sp-w-qing"
+          },
+          {
+            "text": "Tecro",
+            "link": "/en/characters/tecro"
+          },
+          {
+            "text": "Tecrorun",
+            "link": "/en/characters/tecrorun"
+          },
+          {
+            "text": "Anna",
+            "link": "/en/characters/anna"
+          },
+          {
+            "text": "Anna",
+            "link": "/en/characters/anna-tainted"
+          },
+          {
+            "text": "Zeis",
+            "link": "/en/characters/zeis"
+          },
+          {
+            "text": "Zeiz",
+            "link": "/en/characters/zeiz"
+          }
+        ]
+      }
+    ],
+    "/en/challenges/": [
+      {
+        "text": "Challenges",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/challenges/"
+          },
+          {
+            "text": "Fusion Destiny",
+            "link": "/en/challenges/fusion-destiny"
+          },
+          {
+            "text": "Fans Service",
+            "link": "/en/challenges/fans-service"
+          },
+          {
+            "text": "Heterothermal Concentric",
+            "link": "/en/challenges/heterothermal-concentric"
+          },
+          {
+            "text": "Feels Like Dead Ashes",
+            "link": "/en/challenges/feels-like-dead-ashes"
+          },
+          {
+            "text": "Louvre Puzzle",
+            "link": "/en/challenges/louvre-puzzle"
+          },
+          {
+            "text": "Unstable State",
+            "link": "/en/challenges/unstable-state"
+          },
+          {
+            "text": "Invisible",
+            "link": "/en/challenges/invisible"
+          },
+          {
+            "text": "Pointing and Disappointing",
+            "link": "/en/challenges/pointing-and-disappointing"
+          },
+          {
+            "text": "Cookie Clicker",
+            "link": "/en/challenges/cookie-clicker"
+          },
+          {
+            "text": "Safe Driving",
+            "link": "/en/challenges/safe-driving"
+          },
+          {
+            "text": "Swallow the Sun",
+            "link": "/en/challenges/swallow-the-sun"
+          },
+          {
+            "text": "Dragon Flight",
+            "link": "/en/challenges/dragon-flight"
+          }
+        ]
+      }
+    ],
+    "/en/pickups/": [
+      {
+        "text": "Pickups",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/pickups/"
+          },
+          {
+            "text": "Glaze Heart",
+            "link": "/en/pickups/glaze-heart"
+          },
+          {
+            "text": "Half of a Glaze Heart",
+            "link": "/en/pickups/glaze-heart-half"
+          },
+          {
+            "text": "Glaze Key",
+            "link": "/en/pickups/glaze-key"
+          },
+          {
+            "text": "Glaze Bomb",
+            "link": "/en/pickups/glaze-bomb"
+          },
+          {
+            "text": "Glaze Grabbag",
+            "link": "/en/pickups/glaze-grabbag"
+          },
+          {
+            "text": "Glaze Battery",
+            "link": "/en/pickups/glaze-battery"
+          },
+          {
+            "text": "Glaze Chest",
+            "link": "/en/pickups/glaze-chest"
+          },
+          {
+            "text": "Glaze poop",
+            "link": "/en/pickups/glaze-big-poop"
+          },
+          {
+            "text": "Glaze Coin",
+            "link": "/en/pickups/glaze-coin"
+          },
+          {
+            "text": "Item Prototype",
+            "link": "/en/pickups/blueprint-prototype"
+          }
+        ]
+      }
+    ],
+    "/en/slots/": [
+      {
+        "text": "Slots",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/slots/"
+          },
+          {
+            "text": "Bard beggar",
+            "link": "/en/slots/bard-beggar"
+          },
+          {
+            "text": "Rift beggar",
+            "link": "/en/slots/rift-beggar"
+          },
+          {
+            "text": "Tomorrow's Creditor",
+            "link": "/en/slots/time-beggar"
+          },
+          {
+            "text": "Bloody Messenger",
+            "link": "/en/slots/bloody-messenger"
+          },
+          {
+            "text": "Diamond Merchant",
+            "link": "/en/slots/qing-diamond-merchant"
+          }
+        ]
+      }
+    ],
+    "/en/troubleshooting/": [
+      {
+        "text": "Troubleshooting",
+        "items": [
+          {
+            "text": "Index",
+            "link": "/en/troubleshooting/"
+          },
+          {
+            "text": "Black screen after launch",
+            "link": "/en/troubleshooting/black-screen"
+          }
+        ]
+      }
+    ]
+  }
+}

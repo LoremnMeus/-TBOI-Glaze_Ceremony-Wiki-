@@ -1,23 +1,20 @@
-const MARK = /\{\{([^{}]+)\}\}/g
+import { escapeVueBraces, splitMarks } from './eidMarks'
 
-function replaceMarks(text: string): { type: 'text' | 'html_inline'; content: string }[] {
+function eidIconHtml(name: string): string {
+  const escaped = name.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+  return `<EidIcon name="${escaped}" />`
+}
+
+function replaceTextMarks(text: string): { type: 'text' | 'html_inline'; content: string }[] {
   const parts: { type: 'text' | 'html_inline'; content: string }[] = []
-  let last = 0
-  for (const match of text.matchAll(MARK)) {
-    const name = (match[1] || '').trim()
-    const index = match.index ?? 0
-    if (index > last) {
-      parts.push({ type: 'text', content: text.slice(last, index) })
+  for (const part of splitMarks(text)) {
+    if (part.type === 'icon') {
+      parts.push({ type: 'html_inline', content: eidIconHtml(part.value) })
+    } else if (part.value.includes('{{')) {
+      parts.push({ type: 'html_inline', content: escapeVueBraces(part.value) })
+    } else {
+      parts.push({ type: 'text', content: part.value })
     }
-    last = index + match[0].length
-    if (!name || /^Color/i.test(name) || name === 'CR' || name === 'NoLB') {
-      continue
-    }
-    const escaped = name.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
-    parts.push({ type: 'html_inline', content: `<EidIcon name="${escaped}" />` })
-  }
-  if (last < text.length) {
-    parts.push({ type: 'text', content: text.slice(last) })
   }
   return parts
 }
@@ -27,14 +24,30 @@ export function eidMarkupPlugin(md: {
 }) {
   md.core.ruler.after('inline', 'eid-markup', (state) => {
     for (const token of state.tokens) {
+      if (token.type === 'html_block' || token.type === 'fence' || token.type === 'code_block') {
+        if (token.content && token.content.includes('{{') && !/\bv-pre\b/.test(token.content)) {
+          token.content = escapeVueBraces(token.content)
+        }
+        continue
+      }
       if (token.type !== 'inline' || !token.children) continue
       const next = []
       for (const child of token.children) {
-        if (child.type !== 'text' || !child.content.includes('{{')) {
+        if (child.type === 'code_inline' && child.content.includes('{{')) {
+          child.content = escapeVueBraces(child.content)
           next.push(child)
           continue
         }
-        for (const part of replaceMarks(child.content)) {
+        if (child.type === 'html_inline' && child.content.includes('{{') && !/\bv-pre\b/.test(child.content)) {
+          child.content = escapeVueBraces(child.content)
+          next.push(child)
+          continue
+        }
+        if (child.type !== 'text' || !(child.content.includes('{{') || /[↑↓]/.test(child.content))) {
+          next.push(child)
+          continue
+        }
+        for (const part of replaceTextMarks(child.content)) {
           const mapped = new state.Token(part.type, '', 0)
           mapped.content = part.content
           next.push(mapped)

@@ -2,44 +2,20 @@
 
 The private development repo is the only source. Do not edit the public Wiki repo and expect those edits to sync back.
 
-Local preview: `html/open_wiki_preview.cmd`, or:
-
 ```text
+python -m pip install -r scripts/publication/requirements.txt
 python scripts/publication/export_wiki_data.py
+python scripts/publication/export_wiki_icons.py
 npm --prefix wiki install
 npm --prefix wiki run docs:dev
 ```
 
-Open `http://localhost:5173/en/`.
+Open `http://localhost:5173/en/`. Markup spec: [markup](/en/markup). Icon wall: [icons](/en/icons). Cheatsheet: [cheatsheet](/en/markup-cheatsheet).
 
-## 1. Automatic data
+`docs:dev` shows a local-only **Edit mechanics** dock on entry pages (source / render / split). Production builds omit it.
 
-Edit the private-repo registry, then export:
+Visible entries are registered by `generate_public_metadata.py` (hidden XML rows stay out). Re-run `export_wiki_data.py` after translation or icon changes. Mechanic bodies are never overwritten; the exporter only refreshes frontmatter and the hidden search index.
 
-- `public_metadata/entries/*.json`
-- `python scripts/publication/export_wiki_data.py`
+Write mechanics below `## Mechanics` in `wiki/docs/en/<kind>/<slug>.md`. Example: `wiki/docs/en/items/gospel.md`.
 
-The exporter updates `wiki/docs/public/generated/` and creates Markdown stubs only when they do not exist.
-
-Do not hand-edit `entries.json`.
-
-## 2. Manual mechanics
-
-- Chinese: `wiki/docs/items/<slug>.md`
-- English: `wiki/docs/en/items/<slug>.md`
-
-`<PublicEntry>` owns names, IDs, icons, and version. Write mechanics below `## Mechanics`.
-
-If English copy is missing, leave `MissingTranslation` in place. Do not paste the Chinese article.
-
-Troubleshooting pages are fully manual Markdown (no auto header component):
-
-- Chinese: `wiki/docs/troubleshooting/<slug>.md`
-- English: `wiki/docs/en/troubleshooting/<slug>.md`
-- Images: `wiki/docs/public/images/troubleshooting/` (not `generated/`)
-
-## 3. Icons and math
-
-- EID marks in Markdown: `{{Damage}}`, `{{SoulHeart}}`, `{{Collectible1}}`.
-- Math: inline `$a^2+b^2$`, display `$$\frac{1}{2}$$`.
-- Inventory: `/en/icons`. Refresh copies with `python scripts/publication/export_wiki_icons.py`.
+Agent skill: `.cursor/skills/qing-wiki-mechanics/SKILL.md`.

@@ -3,6 +3,7 @@
   "eid": {
     "sheet": "/icons/eid/eid_inline_icons.png",
     "files": [
+      "cards.png",
       "eid_cardspills.anm2",
       "eid_cardspills.png",
       "eid_inline_icons.anm2",
@@ -16,9 +17,8 @@
       "other_icons.anm2",
       "player_icons.png",
       "qing_cardpill_icons.anm2",
-      "qing_cardpill_icons2.anm2",
       "qing_player_icons.anm2",
-      "ui_cardpills.png"
+      "reverie_player_icons.png"
     ],
     "names": [
       "ERROR",
@@ -465,7 +465,19 @@
       "Luck",
       "AngelChance",
       "DevilChance",
-      "Tearsize"
+      "Tearsize",
+      "QingPlayer:wq",
+      "QingPlayer:Spwq",
+      "QingPlayer:Tecro",
+      "QingPlayer:Anna",
+      "QingPlayer:Zeistos",
+      "QingPlayer:Tecrorun",
+      "QingPlayer:annA",
+      "Dullize",
+      "ThothCard",
+      "ThothCard2",
+      "Seija",
+      "SeijaB"
     ],
     "icons": [
       {
@@ -478,7 +490,9 @@
           "x": 0,
           "y": 32,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -492,7 +506,9 @@
           "x": 12,
           "y": 32,
           "w": 8,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -506,7 +522,9 @@
           "x": 23,
           "y": 32,
           "w": 8,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -520,7 +538,9 @@
           "x": 36,
           "y": 32,
           "w": 4,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -543,7 +563,9 @@
           "x": 141,
           "y": 32,
           "w": 12,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -557,7 +579,9 @@
           "x": 99,
           "y": 32,
           "w": 8,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -571,7 +595,9 @@
           "x": 109,
           "y": 32,
           "w": 9,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -585,7 +611,9 @@
           "x": 119,
           "y": 32,
           "w": 8,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -599,7 +627,9 @@
           "x": 129,
           "y": 32,
           "w": 9,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -613,7 +643,9 @@
           "x": 0,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -627,7 +659,9 @@
           "x": 5,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -641,7 +675,9 @@
           "x": 11,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -655,7 +691,9 @@
           "x": 17,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -669,7 +707,9 @@
           "x": 23,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -683,7 +723,9 @@
           "x": 29,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -697,7 +739,9 @@
           "x": 35,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -711,7 +755,9 @@
           "x": 41,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -725,7 +771,9 @@
           "x": 47,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -739,7 +787,9 @@
           "x": 53,
           "y": 0,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -753,7 +803,9 @@
           "x": 59,
           "y": 0,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -767,7 +819,9 @@
           "x": 67,
           "y": 0,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -781,7 +835,9 @@
           "x": 75,
           "y": 0,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -795,7 +851,9 @@
           "x": 0,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -809,7 +867,9 @@
           "x": 11,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -823,7 +883,9 @@
           "x": 22,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -837,7 +899,9 @@
           "x": 33,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -851,7 +915,9 @@
           "x": 44,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -865,7 +931,9 @@
           "x": 55,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -879,7 +947,9 @@
           "x": 66,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -893,7 +963,9 @@
           "x": 77,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -907,7 +979,9 @@
           "x": 0,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -921,7 +995,9 @@
           "x": 11,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -935,7 +1011,9 @@
           "x": 22,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -949,7 +1027,9 @@
           "x": 33,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -963,7 +1043,9 @@
           "x": 44,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -977,7 +1059,9 @@
           "x": 55,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -991,7 +1075,9 @@
           "x": 66,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1005,7 +1091,9 @@
           "x": 77,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1019,7 +1107,9 @@
           "x": 88,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1033,7 +1123,9 @@
           "x": 88,
           "y": 21,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1047,7 +1139,9 @@
           "x": 97,
           "y": 225,
           "w": 13,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1061,7 +1155,9 @@
           "x": 99,
           "y": 10,
           "w": 8,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1075,7 +1171,9 @@
           "x": 99,
           "y": 22,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1089,7 +1187,9 @@
           "x": 109,
           "y": 11,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1103,7 +1203,9 @@
           "x": 122,
           "y": 11,
           "w": 10,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1117,7 +1219,9 @@
           "x": 110,
           "y": 22,
           "w": 10,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1131,7 +1235,9 @@
           "x": 122,
           "y": 22,
           "w": 10,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1145,7 +1251,9 @@
           "x": 1,
           "y": 44,
           "w": 7,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1159,7 +1267,9 @@
           "x": 11,
           "y": 44,
           "w": 7,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1173,7 +1283,9 @@
           "x": 22,
           "y": 43,
           "w": 10,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1187,7 +1299,9 @@
           "x": 33,
           "y": 43,
           "w": 10,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1201,7 +1315,9 @@
           "x": 45,
           "y": 45,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1215,7 +1331,9 @@
           "x": 55,
           "y": 43,
           "w": 8,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1229,7 +1347,9 @@
           "x": 65,
           "y": 43,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1243,7 +1363,9 @@
           "x": 77,
           "y": 43,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1257,7 +1379,9 @@
           "x": 89,
           "y": 44,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1271,7 +1395,9 @@
           "x": 99,
           "y": 43,
           "w": 8,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1285,7 +1411,9 @@
           "x": 109,
           "y": 43,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1299,7 +1427,9 @@
           "x": 121,
           "y": 45,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1313,7 +1443,9 @@
           "x": 130,
           "y": 45,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1327,7 +1459,9 @@
           "x": 140,
           "y": 45,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1341,7 +1475,9 @@
           "x": 150,
           "y": 45,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1355,7 +1491,9 @@
           "x": 22,
           "y": 68,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1369,7 +1507,9 @@
           "x": 44,
           "y": 68,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1383,7 +1523,9 @@
           "x": 217,
           "y": 224,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1397,7 +1539,9 @@
           "x": 226,
           "y": 224,
           "w": 8,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1411,7 +1555,9 @@
           "x": 237,
           "y": 224,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1425,7 +1571,9 @@
           "x": 246,
           "y": 222,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1439,7 +1587,9 @@
           "x": 217,
           "y": 233,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1453,7 +1603,9 @@
           "x": 227,
           "y": 233,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1467,7 +1619,9 @@
           "x": 237,
           "y": 232,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1481,7 +1635,9 @@
           "x": 246,
           "y": 233,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1495,7 +1651,9 @@
           "x": 207,
           "y": 233,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1509,7 +1667,9 @@
           "x": 201,
           "y": 244,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1523,7 +1683,9 @@
           "x": 210,
           "y": 244,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1537,7 +1699,9 @@
           "x": 219,
           "y": 243,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1551,7 +1715,9 @@
           "x": 228,
           "y": 244,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1565,7 +1731,9 @@
           "x": 237,
           "y": 244,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1579,7 +1747,9 @@
           "x": 246,
           "y": 244,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1593,7 +1763,9 @@
           "x": 209,
           "y": 267,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1607,7 +1779,9 @@
           "x": 197,
           "y": 267,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1621,7 +1795,9 @@
           "x": 221,
           "y": 267,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1635,7 +1811,9 @@
           "x": 232,
           "y": 267,
           "w": 11,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1649,7 +1827,9 @@
           "x": 245,
           "y": 267,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1663,7 +1843,9 @@
           "x": 197,
           "y": 277,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1677,7 +1859,9 @@
           "x": 209,
           "y": 277,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1691,7 +1875,9 @@
           "x": 221,
           "y": 277,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1705,7 +1891,9 @@
           "x": 233,
           "y": 277,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1719,7 +1907,9 @@
           "x": 245,
           "y": 277,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1733,7 +1923,9 @@
           "x": 243,
           "y": 256,
           "w": 11,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1747,7 +1939,9 @@
           "x": 0,
           "y": 88,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1761,7 +1955,9 @@
           "x": 10,
           "y": 86,
           "w": 12,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1775,7 +1971,9 @@
           "x": 1,
           "y": 56,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1789,7 +1987,9 @@
           "x": 11,
           "y": 56,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1803,7 +2003,9 @@
           "x": 22,
           "y": 56,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1817,7 +2019,9 @@
           "x": 33,
           "y": 56,
           "w": 8,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1831,7 +2035,9 @@
           "x": 44,
           "y": 57,
           "w": 7,
-          "h": 6
+          "h": 6,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1845,7 +2051,9 @@
           "x": 55,
           "y": 56,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1859,7 +2067,9 @@
           "x": 110,
           "y": 56,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1873,7 +2083,9 @@
           "x": 66,
           "y": 57,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1887,7 +2099,9 @@
           "x": 77,
           "y": 56,
           "w": 9,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1901,7 +2115,9 @@
           "x": 88,
           "y": 57,
           "w": 7,
-          "h": 5
+          "h": 5,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1915,7 +2131,9 @@
           "x": 99,
           "y": 57,
           "w": 8,
-          "h": 6
+          "h": 6,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1929,7 +2147,9 @@
           "x": 1,
           "y": 68,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1943,7 +2163,9 @@
           "x": 11,
           "y": 68,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1957,7 +2179,9 @@
           "x": 55,
           "y": 68,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1971,7 +2195,9 @@
           "x": 66,
           "y": 69,
           "w": 7,
-          "h": 6
+          "h": 6,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1985,7 +2211,9 @@
           "x": 77,
           "y": 67,
           "w": 8,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -1999,7 +2227,9 @@
           "x": 88,
           "y": 68,
           "w": 8,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2013,7 +2243,9 @@
           "x": 99,
           "y": 67,
           "w": 8,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2027,7 +2259,9 @@
           "x": 110,
           "y": 67,
           "w": 8,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2041,7 +2275,9 @@
           "x": 121,
           "y": 56,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2055,7 +2291,9 @@
           "x": 121,
           "y": 67,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2069,7 +2307,9 @@
           "x": 130,
           "y": 58,
           "w": 6,
-          "h": 6
+          "h": 6,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2083,7 +2323,9 @@
           "x": 203,
           "y": 256,
           "w": 5,
-          "h": 4
+          "h": 4,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2097,7 +2339,9 @@
           "x": 197,
           "y": 256,
           "w": 5,
-          "h": 4
+          "h": 4,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2111,7 +2355,9 @@
           "x": 149,
           "y": 58,
           "w": 7,
-          "h": 6
+          "h": 6,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2125,7 +2371,9 @@
           "x": 221,
           "y": 260,
           "w": 7,
-          "h": 5
+          "h": 5,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2139,7 +2387,9 @@
           "x": 139,
           "y": 67,
           "w": 7,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2153,7 +2403,9 @@
           "x": 139,
           "y": 54,
           "w": 7,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2167,7 +2419,9 @@
           "x": 131,
           "y": 68,
           "w": 5,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2181,7 +2435,9 @@
           "x": 197,
           "y": 261,
           "w": 5,
-          "h": 4
+          "h": 4,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2195,7 +2451,9 @@
           "x": 203,
           "y": 261,
           "w": 5,
-          "h": 4
+          "h": 4,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2209,7 +2467,9 @@
           "x": 209,
           "y": 261,
           "w": 5,
-          "h": 4
+          "h": 4,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2223,7 +2483,9 @@
           "x": 209,
           "y": 256,
           "w": 5,
-          "h": 4
+          "h": 4,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2237,7 +2499,9 @@
           "x": 215,
           "y": 261,
           "w": 5,
-          "h": 4
+          "h": 4,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2251,7 +2515,9 @@
           "x": 33,
           "y": 68,
           "w": 8,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2265,7 +2531,9 @@
           "x": 149,
           "y": 67,
           "w": 9,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2279,7 +2547,9 @@
           "x": 159,
           "y": 57,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2293,7 +2563,9 @@
           "x": 1,
           "y": 78,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2307,7 +2579,9 @@
           "x": 12,
           "y": 79,
           "w": 9,
-          "h": 6
+          "h": 6,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2321,7 +2595,9 @@
           "x": 25,
           "y": 78,
           "w": 6,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2335,7 +2611,9 @@
           "x": 34,
           "y": 76,
           "w": 7,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2349,7 +2627,9 @@
           "x": 43,
           "y": 79,
           "w": 12,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2363,7 +2643,9 @@
           "x": 58,
           "y": 76,
           "w": 5,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2377,7 +2659,9 @@
           "x": 65,
           "y": 80,
           "w": 12,
-          "h": 5
+          "h": 5,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2391,7 +2675,9 @@
           "x": 78,
           "y": 78,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2405,7 +2691,9 @@
           "x": 89,
           "y": 78,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2419,7 +2707,9 @@
           "x": 100,
           "y": 78,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2433,7 +2723,9 @@
           "x": 111,
           "y": 78,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2447,7 +2739,9 @@
           "x": 122,
           "y": 78,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2461,7 +2755,9 @@
           "x": 133,
           "y": 78,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2475,7 +2771,9 @@
           "x": 16,
           "y": 64,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2489,7 +2787,9 @@
           "x": 0,
           "y": 32,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2503,7 +2803,9 @@
           "x": 16,
           "y": 32,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2517,7 +2819,9 @@
           "x": 16,
           "y": 0,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2531,7 +2835,9 @@
           "x": 16,
           "y": 0,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2545,7 +2851,9 @@
           "x": 0,
           "y": 16,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2559,7 +2867,9 @@
           "x": 32,
           "y": 16,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2573,7 +2883,9 @@
           "x": 0,
           "y": 48,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2587,7 +2899,9 @@
           "x": 0,
           "y": 48,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2601,7 +2915,9 @@
           "x": 32,
           "y": 32,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2615,7 +2931,9 @@
           "x": 16,
           "y": 48,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2629,7 +2947,9 @@
           "x": 16,
           "y": 16,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2643,7 +2963,9 @@
           "x": 32,
           "y": 0,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2657,7 +2979,9 @@
           "x": 0,
           "y": 0,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2671,7 +2995,9 @@
           "x": 0,
           "y": 64,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2685,7 +3011,9 @@
           "x": 32,
           "y": 48,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2699,7 +3027,9 @@
           "x": 32,
           "y": 80,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2713,7 +3043,9 @@
           "x": 32,
           "y": 64,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2727,7 +3059,9 @@
           "x": 48,
           "y": 64,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -2741,7 +3075,9 @@
           "x": 44,
           "y": 32,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2755,7 +3091,9 @@
           "x": 55,
           "y": 32,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2769,7 +3107,9 @@
           "x": 66,
           "y": 32,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2783,7 +3123,9 @@
           "x": 77,
           "y": 32,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2797,7 +3139,9 @@
           "x": 88,
           "y": 32,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2811,7 +3155,9 @@
           "x": 26,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2825,7 +3171,9 @@
           "x": 39,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2839,7 +3187,9 @@
           "x": 52,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2853,7 +3203,9 @@
           "x": 65,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2867,7 +3219,9 @@
           "x": 39,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2881,7 +3235,9 @@
           "x": 26,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2895,7 +3251,9 @@
           "x": 52,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2909,7 +3267,9 @@
           "x": 65,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2923,7 +3283,9 @@
           "x": 115,
           "y": 7,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2937,7 +3299,9 @@
           "x": 118,
           "y": 9,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2951,7 +3315,9 @@
           "x": 78,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2965,7 +3331,9 @@
           "x": 91,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2979,7 +3347,9 @@
           "x": 104,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -2993,7 +3363,9 @@
           "x": 117,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3007,7 +3379,9 @@
           "x": 0,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3021,7 +3395,9 @@
           "x": 13,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3035,7 +3411,9 @@
           "x": 130,
           "y": 99,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3049,7 +3427,9 @@
           "x": 0,
           "y": 128,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3063,7 +3443,9 @@
           "x": 18,
           "y": 131,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3077,7 +3459,9 @@
           "x": 34,
           "y": 131,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3091,7 +3475,9 @@
           "x": 50,
           "y": 131,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3105,7 +3491,9 @@
           "x": 66,
           "y": 131,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3119,7 +3507,9 @@
           "x": 82,
           "y": 131,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3133,7 +3523,9 @@
           "x": 98,
           "y": 131,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3147,7 +3539,9 @@
           "x": 114,
           "y": 130,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3161,7 +3555,9 @@
           "x": 2,
           "y": 147,
           "w": 9,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3175,7 +3571,9 @@
           "x": 18,
           "y": 147,
           "w": 9,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3189,7 +3587,9 @@
           "x": 34,
           "y": 147,
           "w": 9,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3203,7 +3603,9 @@
           "x": 50,
           "y": 146,
           "w": 10,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3217,7 +3619,9 @@
           "x": 67,
           "y": 146,
           "w": 9,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3231,7 +3635,9 @@
           "x": 83,
           "y": 146,
           "w": 9,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3245,7 +3651,9 @@
           "x": 97,
           "y": 145,
           "w": 12,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3259,7 +3667,9 @@
           "x": 112,
           "y": 145,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3273,7 +3683,9 @@
           "x": 0,
           "y": 161,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3287,7 +3699,9 @@
           "x": 16,
           "y": 161,
           "w": 16,
-          "h": 15
+          "h": 15,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3301,7 +3715,9 @@
           "x": 35,
           "y": 163,
           "w": 8,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3315,7 +3731,9 @@
           "x": 50,
           "y": 161,
           "w": 10,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3329,7 +3747,9 @@
           "x": 64,
           "y": 160,
           "w": 14,
-          "h": 15
+          "h": 15,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3343,7 +3763,9 @@
           "x": 81,
           "y": 161,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3357,7 +3779,9 @@
           "x": 98,
           "y": 163,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3371,7 +3795,9 @@
           "x": 114,
           "y": 162,
           "w": 9,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3385,7 +3811,9 @@
           "x": 2,
           "y": 179,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3399,7 +3827,9 @@
           "x": 19,
           "y": 181,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3413,7 +3843,9 @@
           "x": 34,
           "y": 177,
           "w": 10,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3427,7 +3859,9 @@
           "x": 50,
           "y": 179,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3441,7 +3875,9 @@
           "x": 66,
           "y": 177,
           "w": 10,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3455,7 +3891,9 @@
           "x": 81,
           "y": 178,
           "w": 12,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3469,7 +3907,9 @@
           "x": 98,
           "y": 179,
           "w": 10,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3483,7 +3923,9 @@
           "x": 0,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3497,7 +3939,9 @@
           "x": 16,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3511,7 +3955,9 @@
           "x": 32,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3525,7 +3971,9 @@
           "x": 48,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3539,7 +3987,9 @@
           "x": 64,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3553,7 +4003,9 @@
           "x": 80,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3567,7 +4019,9 @@
           "x": 96,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3581,7 +4035,9 @@
           "x": 112,
           "y": 285,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3595,7 +4051,9 @@
           "x": 0,
           "y": 301,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3609,7 +4067,9 @@
           "x": 16,
           "y": 301,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3623,7 +4083,9 @@
           "x": 32,
           "y": 301,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3637,7 +4099,9 @@
           "x": 38,
           "y": 194,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3651,7 +4115,9 @@
           "x": 50,
           "y": 194,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3665,7 +4131,9 @@
           "x": 62,
           "y": 194,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3679,7 +4147,9 @@
           "x": 74,
           "y": 194,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3693,7 +4163,9 @@
           "x": 86,
           "y": 194,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3707,7 +4179,9 @@
           "x": 98,
           "y": 194,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3721,7 +4195,9 @@
           "x": 110,
           "y": 194,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3735,7 +4211,9 @@
           "x": 2,
           "y": 210,
           "w": 12,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3749,7 +4227,9 @@
           "x": 16,
           "y": 210,
           "w": 15,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3763,7 +4243,9 @@
           "x": 32,
           "y": 209,
           "w": 16,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3777,7 +4259,9 @@
           "x": 49,
           "y": 208,
           "w": 14,
-          "h": 15
+          "h": 15,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3791,7 +4275,9 @@
           "x": 66,
           "y": 210,
           "w": 12,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3805,7 +4291,9 @@
           "x": 81,
           "y": 209,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3819,7 +4307,9 @@
           "x": 96,
           "y": 210,
           "w": 16,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3833,7 +4323,9 @@
           "x": 113,
           "y": 209,
           "w": 14,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3847,7 +4339,9 @@
           "x": 35,
           "y": 227,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3861,7 +4355,9 @@
           "x": 112,
           "y": 224,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3875,7 +4371,9 @@
           "x": 3,
           "y": 225,
           "w": 10,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3889,7 +4387,9 @@
           "x": 17,
           "y": 226,
           "w": 13,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3903,7 +4403,9 @@
           "x": 2,
           "y": 242,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3917,7 +4419,9 @@
           "x": 17,
           "y": 243,
           "w": 12,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3931,7 +4435,9 @@
           "x": 33,
           "y": 242,
           "w": 14,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3945,7 +4451,9 @@
           "x": 49,
           "y": 242,
           "w": 13,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3959,7 +4467,9 @@
           "x": 67,
           "y": 243,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3973,7 +4483,9 @@
           "x": 83,
           "y": 243,
           "w": 9,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -3987,7 +4499,9 @@
           "x": 101,
           "y": 243,
           "w": 6,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4001,7 +4515,9 @@
           "x": 117,
           "y": 244,
           "w": 6,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4015,7 +4531,9 @@
           "x": 35,
           "y": 259,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4029,7 +4547,9 @@
           "x": 210,
           "y": 206,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4043,7 +4563,9 @@
           "x": 228,
           "y": 206,
           "w": 11,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4057,7 +4579,9 @@
           "x": 240,
           "y": 206,
           "w": 12,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4071,7 +4595,9 @@
           "x": 220,
           "y": 193,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4085,7 +4611,9 @@
           "x": 203,
           "y": 195,
           "w": 8,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4099,7 +4627,9 @@
           "x": 200,
           "y": 206,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4113,7 +4643,9 @@
           "x": 192,
           "y": 194,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4127,7 +4659,9 @@
           "x": 232,
           "y": 194,
           "w": 10,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4141,7 +4675,9 @@
           "x": 188,
           "y": 205,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4155,7 +4691,9 @@
           "x": 220,
           "y": 206,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4169,7 +4707,9 @@
           "x": 243,
           "y": 195,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4183,7 +4723,9 @@
           "x": 212,
           "y": 195,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4197,7 +4739,9 @@
           "x": 1,
           "y": 270,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4211,7 +4755,9 @@
           "x": 12,
           "y": 270,
           "w": 11,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4225,7 +4771,9 @@
           "x": 25,
           "y": 271,
           "w": 12,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4239,7 +4787,9 @@
           "x": 37,
           "y": 271,
           "w": 13,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4253,7 +4803,9 @@
           "x": 51,
           "y": 271,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4267,7 +4819,9 @@
           "x": 62,
           "y": 271,
           "w": 8,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4281,7 +4835,9 @@
           "x": 73,
           "y": 271,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4295,7 +4851,9 @@
           "x": 81,
           "y": 271,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4309,7 +4867,9 @@
           "x": 90,
           "y": 272,
           "w": 8,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4323,7 +4883,9 @@
           "x": 0,
           "y": 0,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4337,7 +4899,9 @@
           "x": 32,
           "y": 0,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4351,7 +4915,9 @@
           "x": 64,
           "y": 0,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4365,7 +4931,9 @@
           "x": 96,
           "y": 0,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4379,7 +4947,9 @@
           "x": 128,
           "y": 0,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4393,7 +4963,9 @@
           "x": 160,
           "y": 0,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4407,7 +4979,9 @@
           "x": 0,
           "y": 32,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4421,7 +4995,9 @@
           "x": 32,
           "y": 32,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4435,7 +5011,9 @@
           "x": 64,
           "y": 32,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4449,7 +5027,9 @@
           "x": 96,
           "y": 32,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4463,7 +5043,9 @@
           "x": 128,
           "y": 32,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4477,7 +5059,9 @@
           "x": 64,
           "y": 32,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4491,7 +5075,9 @@
           "x": 96,
           "y": 128,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4505,7 +5091,9 @@
           "x": 160,
           "y": 32,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4519,7 +5107,9 @@
           "x": 0,
           "y": 64,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4533,7 +5123,9 @@
           "x": 32,
           "y": 64,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4547,7 +5139,9 @@
           "x": 64,
           "y": 64,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4561,7 +5155,9 @@
           "x": 128,
           "y": 96,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4575,7 +5171,9 @@
           "x": 96,
           "y": 64,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4589,7 +5187,9 @@
           "x": 128,
           "y": 64,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4603,7 +5203,9 @@
           "x": 160,
           "y": 64,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4617,7 +5219,9 @@
           "x": 0,
           "y": 128,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4631,7 +5235,9 @@
           "x": 32,
           "y": 128,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4645,7 +5251,9 @@
           "x": 64,
           "y": 128,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4659,7 +5267,9 @@
           "x": 96,
           "y": 128,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4673,7 +5283,9 @@
           "x": 128,
           "y": 128,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4687,7 +5299,9 @@
           "x": 160,
           "y": 128,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4701,7 +5315,9 @@
           "x": 0,
           "y": 160,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4715,7 +5331,9 @@
           "x": 32,
           "y": 160,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4729,7 +5347,9 @@
           "x": 64,
           "y": 160,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4743,7 +5363,9 @@
           "x": 96,
           "y": 160,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4757,7 +5379,9 @@
           "x": 128,
           "y": 160,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4771,7 +5395,9 @@
           "x": 160,
           "y": 160,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4785,7 +5411,9 @@
           "x": 0,
           "y": 192,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4799,7 +5427,9 @@
           "x": 32,
           "y": 192,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4813,7 +5443,9 @@
           "x": 64,
           "y": 192,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4827,7 +5459,9 @@
           "x": 96,
           "y": 192,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4841,7 +5475,9 @@
           "x": 128,
           "y": 192,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4855,7 +5491,9 @@
           "x": 64,
           "y": 96,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4869,7 +5507,9 @@
           "x": 160,
           "y": 192,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4883,7 +5523,9 @@
           "x": 64,
           "y": 192,
           "w": 32,
-          "h": 32
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
         },
         "sheet": "/icons/eid/eid_player_icons.png"
       },
@@ -4897,7 +5539,9 @@
           "x": 148,
           "y": 3,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4911,7 +5555,9 @@
           "x": 163,
           "y": 3,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4925,7 +5571,9 @@
           "x": 180,
           "y": 3,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4939,7 +5587,9 @@
           "x": 196,
           "y": 3,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4953,7 +5603,9 @@
           "x": 210,
           "y": 3,
           "w": 12,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4967,7 +5619,9 @@
           "x": 229,
           "y": 3,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4981,7 +5635,9 @@
           "x": 244,
           "y": 4,
           "w": 9,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -4995,7 +5651,9 @@
           "x": 258,
           "y": 3,
           "w": 11,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5009,7 +5667,9 @@
           "x": 275,
           "y": 3,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5023,7 +5683,9 @@
           "x": 149,
           "y": 19,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5037,7 +5699,9 @@
           "x": 163,
           "y": 19,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5051,7 +5715,9 @@
           "x": 181,
           "y": 19,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5065,7 +5731,9 @@
           "x": 196,
           "y": 19,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5079,7 +5747,9 @@
           "x": 211,
           "y": 19,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5093,7 +5763,9 @@
           "x": 228,
           "y": 19,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5107,7 +5779,9 @@
           "x": 244,
           "y": 19,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5121,7 +5795,9 @@
           "x": 260,
           "y": 19,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5135,7 +5811,9 @@
           "x": 275,
           "y": 21,
           "w": 9,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5149,7 +5827,9 @@
           "x": 194,
           "y": 49,
           "w": 12,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5163,7 +5843,9 @@
           "x": 208,
           "y": 49,
           "w": 15,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5177,7 +5859,9 @@
           "x": 225,
           "y": 49,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5191,7 +5875,9 @@
           "x": 241,
           "y": 49,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5205,7 +5891,9 @@
           "x": 193,
           "y": 65,
           "w": 14,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5219,7 +5907,9 @@
           "x": 208,
           "y": 64,
           "w": 15,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5233,7 +5923,9 @@
           "x": 225,
           "y": 65,
           "w": 12,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5247,7 +5939,9 @@
           "x": 241,
           "y": 65,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5261,7 +5955,9 @@
           "x": 172,
           "y": 35,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5275,7 +5971,9 @@
           "x": 182,
           "y": 35,
           "w": 10,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5289,7 +5987,9 @@
           "x": 193,
           "y": 35,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5303,7 +6003,9 @@
           "x": 203,
           "y": 35,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5317,7 +6019,9 @@
           "x": 213,
           "y": 35,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5331,7 +6035,9 @@
           "x": 223,
           "y": 36,
           "w": 10,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5345,7 +6051,9 @@
           "x": 234,
           "y": 35,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5359,7 +6067,9 @@
           "x": 244,
           "y": 34,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5373,7 +6083,9 @@
           "x": 192,
           "y": 113,
           "w": 15,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5387,7 +6099,9 @@
           "x": 209,
           "y": 113,
           "w": 13,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5401,7 +6115,9 @@
           "x": 224,
           "y": 113,
           "w": 15,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5415,7 +6131,9 @@
           "x": 240,
           "y": 114,
           "w": 15,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5429,7 +6147,9 @@
           "x": 191,
           "y": 129,
           "w": 16,
-          "h": 15
+          "h": 15,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5443,7 +6163,9 @@
           "x": 224,
           "y": 130,
           "w": 15,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5457,7 +6179,9 @@
           "x": 208,
           "y": 129,
           "w": 15,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5471,7 +6195,9 @@
           "x": 240,
           "y": 130,
           "w": 15,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5485,7 +6211,9 @@
           "x": 216,
           "y": 145,
           "w": 19,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5499,7 +6227,9 @@
           "x": 236,
           "y": 145,
           "w": 19,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5513,7 +6243,9 @@
           "x": 182,
           "y": 144,
           "w": 15,
-          "h": 15
+          "h": 15,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5527,7 +6259,9 @@
           "x": 193,
           "y": 162,
           "w": 9,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5541,7 +6275,9 @@
           "x": 203,
           "y": 162,
           "w": 8,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5555,7 +6291,9 @@
           "x": 212,
           "y": 164,
           "w": 9,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5569,7 +6307,9 @@
           "x": 222,
           "y": 164,
           "w": 9,
-          "h": 8
+          "h": 8,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5583,7 +6323,9 @@
           "x": 232,
           "y": 163,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5597,7 +6339,9 @@
           "x": 242,
           "y": 163,
           "w": 13,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5611,7 +6355,9 @@
           "x": 193,
           "y": 173,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5625,7 +6371,9 @@
           "x": 203,
           "y": 173,
           "w": 13,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5639,7 +6387,9 @@
           "x": 217,
           "y": 173,
           "w": 11,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5653,7 +6403,9 @@
           "x": 229,
           "y": 173,
           "w": 10,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5667,7 +6419,9 @@
           "x": 241,
           "y": 172,
           "w": 11,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5681,7 +6435,9 @@
           "x": 165,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5695,7 +6451,9 @@
           "x": 176,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5709,7 +6467,9 @@
           "x": 187,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5723,7 +6483,9 @@
           "x": 198,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5737,7 +6499,9 @@
           "x": 209,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5751,7 +6515,9 @@
           "x": 220,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5765,7 +6531,9 @@
           "x": 231,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5779,7 +6547,9 @@
           "x": 242,
           "y": 286,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5793,7 +6563,9 @@
           "x": 165,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5807,7 +6579,9 @@
           "x": 176,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5821,7 +6595,9 @@
           "x": 187,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5835,7 +6611,9 @@
           "x": 198,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5849,7 +6627,9 @@
           "x": 209,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5863,7 +6643,9 @@
           "x": 220,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5877,7 +6659,9 @@
           "x": 231,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5891,7 +6675,9 @@
           "x": 242,
           "y": 297,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5905,7 +6691,9 @@
           "x": 165,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5919,7 +6707,9 @@
           "x": 176,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5933,7 +6723,9 @@
           "x": 187,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5947,7 +6739,9 @@
           "x": 198,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5961,7 +6755,9 @@
           "x": 209,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5975,7 +6771,9 @@
           "x": 220,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -5989,7 +6787,9 @@
           "x": 231,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6003,7 +6803,9 @@
           "x": 242,
           "y": 308,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6017,7 +6819,9 @@
           "x": 165,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6031,7 +6835,9 @@
           "x": 176,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6045,7 +6851,9 @@
           "x": 187,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6059,7 +6867,9 @@
           "x": 198,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6073,7 +6883,9 @@
           "x": 209,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6087,7 +6899,9 @@
           "x": 220,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6101,7 +6915,9 @@
           "x": 231,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6115,7 +6931,9 @@
           "x": 242,
           "y": 319,
           "w": 11,
-          "h": 11
+          "h": 11,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6129,7 +6947,9 @@
           "x": 64,
           "y": 112,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6143,7 +6963,9 @@
           "x": 80,
           "y": 112,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6157,7 +6979,9 @@
           "x": 96,
           "y": 112,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6171,7 +6995,9 @@
           "x": 112,
           "y": 112,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6185,7 +7011,9 @@
           "x": 128,
           "y": 112,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6199,7 +7027,9 @@
           "x": 0,
           "y": 318,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6213,7 +7043,9 @@
           "x": 14,
           "y": 318,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6227,7 +7059,9 @@
           "x": 28,
           "y": 318,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6241,7 +7075,9 @@
           "x": 42,
           "y": 318,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6255,7 +7091,9 @@
           "x": 56,
           "y": 318,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6269,7 +7107,9 @@
           "x": 70,
           "y": 318,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6283,7 +7123,9 @@
           "x": 192,
           "y": 80,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6297,7 +7139,9 @@
           "x": 208,
           "y": 80,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6311,7 +7155,9 @@
           "x": 240,
           "y": 80,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6325,7 +7171,9 @@
           "x": 224,
           "y": 80,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6339,7 +7187,9 @@
           "x": 192,
           "y": 96,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6353,7 +7203,9 @@
           "x": 225,
           "y": 96,
           "w": 15,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6367,7 +7219,9 @@
           "x": 208,
           "y": 96,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6381,7 +7235,9 @@
           "x": 217,
           "y": 105,
           "w": 7,
-          "h": 7
+          "h": 7,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6395,7 +7251,9 @@
           "x": 246,
           "y": 102,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6409,7 +7267,9 @@
           "x": 193,
           "y": 183,
           "w": 7,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6423,7 +7283,9 @@
           "x": 202,
           "y": 183,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6437,7 +7299,9 @@
           "x": 212,
           "y": 183,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6451,7 +7315,9 @@
           "x": 222,
           "y": 183,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6465,7 +7331,9 @@
           "x": 232,
           "y": 183,
           "w": 9,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6479,7 +7347,9 @@
           "x": 199,
           "y": 145,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6493,7 +7363,9 @@
           "x": 242,
           "y": 183,
           "w": 11,
-          "h": 9
+          "h": 9,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6507,7 +7379,9 @@
           "x": 0,
           "y": 114,
           "w": 13,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6521,7 +7395,9 @@
           "x": 20,
           "y": 115,
           "w": 9,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6535,7 +7411,9 @@
           "x": 179,
           "y": 80,
           "w": 12,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6549,7 +7427,9 @@
           "x": 179,
           "y": 96,
           "w": 12,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6563,7 +7443,9 @@
           "x": 48,
           "y": 82,
           "w": 16,
-          "h": 16
+          "h": 16,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_transform_icons.png"
       },
@@ -6578,7 +7460,9 @@
           "x": 2,
           "y": 210,
           "w": 12,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6593,7 +7477,9 @@
           "x": 16,
           "y": 210,
           "w": 15,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6608,7 +7494,9 @@
           "x": 32,
           "y": 209,
           "w": 16,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6623,7 +7511,9 @@
           "x": 49,
           "y": 208,
           "w": 14,
-          "h": 15
+          "h": 15,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6638,7 +7528,9 @@
           "x": 66,
           "y": 210,
           "w": 12,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6653,7 +7545,9 @@
           "x": 81,
           "y": 209,
           "w": 14,
-          "h": 14
+          "h": 14,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6668,7 +7562,9 @@
           "x": 96,
           "y": 210,
           "w": 16,
-          "h": 12
+          "h": 12,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6683,7 +7579,9 @@
           "x": 113,
           "y": 209,
           "w": 14,
-          "h": 13
+          "h": 13,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
@@ -6698,9 +7596,179 @@
           "x": 35,
           "y": 227,
           "w": 10,
-          "h": 10
+          "h": 10,
+          "xScale": 100,
+          "yScale": 100
         },
         "sheet": "/icons/eid/eid_inline_icons.png"
+      },
+      {
+        "name": "QingPlayer:wq",
+        "sheet": "/icons/eid/player_icons.png",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
+        },
+        "anim": "Players",
+        "frame": 0
+      },
+      {
+        "name": "QingPlayer:Spwq",
+        "sheet": "/icons/eid/player_icons.png",
+        "crop": {
+          "x": 32,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
+        },
+        "anim": "Players",
+        "frame": 1
+      },
+      {
+        "name": "QingPlayer:Tecro",
+        "sheet": "/icons/eid/player_icons.png",
+        "crop": {
+          "x": 64,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
+        },
+        "anim": "Players",
+        "frame": 2
+      },
+      {
+        "name": "QingPlayer:Anna",
+        "sheet": "/icons/eid/player_icons.png",
+        "crop": {
+          "x": 0,
+          "y": 32,
+          "w": 64,
+          "h": 32,
+          "xScale": 35,
+          "yScale": 35
+        },
+        "anim": "Players",
+        "frame": 3
+      },
+      {
+        "name": "QingPlayer:Zeistos",
+        "sheet": "/icons/eid/player_icons.png",
+        "crop": {
+          "x": 96,
+          "y": 0,
+          "w": 64,
+          "h": 64,
+          "xScale": 33,
+          "yScale": 33
+        },
+        "anim": "Players",
+        "frame": 4
+      },
+      {
+        "name": "QingPlayer:Tecrorun",
+        "sheet": "/icons/eid/player_icons.png",
+        "crop": {
+          "x": 160,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "anim": "Players",
+        "frame": 5
+      },
+      {
+        "name": "QingPlayer:annA",
+        "sheet": "/icons/eid/player_icons.png",
+        "crop": {
+          "x": 0,
+          "y": 64,
+          "w": 64,
+          "h": 32,
+          "xScale": 35,
+          "yScale": 35
+        },
+        "anim": "Players",
+        "frame": 6
+      },
+      {
+        "name": "Dullize",
+        "sheet": "/icons/eid/other_icon.png",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "anim": "icons",
+        "frame": 1
+      },
+      {
+        "name": "ThothCard",
+        "sheet": "/icons/items/cards.png",
+        "crop": {
+          "x": 96,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "anim": "pickups",
+        "frame": 0
+      },
+      {
+        "name": "ThothCard2",
+        "sheet": "/icons/items/cards.png",
+        "crop": {
+          "x": 96,
+          "y": 32,
+          "w": 32,
+          "h": 32,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "anim": "pickups",
+        "frame": 1
+      },
+      {
+        "name": "Seija",
+        "sheet": "/icons/eid/reverie_player_icons.png",
+        "crop": {
+          "x": 128,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
+        },
+        "anim": "Players",
+        "frame": 4
+      },
+      {
+        "name": "SeijaB",
+        "sheet": "/icons/eid/reverie_player_icons.png",
+        "crop": {
+          "x": 160,
+          "y": 0,
+          "w": 32,
+          "h": 32,
+          "xScale": 70,
+          "yScale": 70
+        },
+        "anim": "Players",
+        "frame": 5
       }
     ]
   },
@@ -6722,7 +7790,7 @@
   ],
   "vanillaCollectibles": 722,
   "vanillaTrinkets": 189,
-  "qingCollectibles": 160,
+  "qingCollectibles": 163,
   "qingTrinkets": 17,
   "vanillaCollectibleFiles": [
     "collectibles_001_thesadonion.png",
@@ -7707,6 +8775,7 @@
     "collectibles_Dragon_Tooth.png",
     "collectibles_Drama_of_sorrow_and_joy.png",
     "collectibles_Dual_Vector_Foil.png",
+    "collectibles_Embers.png",
     "collectibles_Ending_Count.png",
     "collectibles_Evil_Intervention.png",
     "collectibles_Exoneration_Certificate.png",
@@ -7774,10 +8843,12 @@
     "collectibles_Shadow_Selection.png",
     "collectibles_Shangrila.png",
     "collectibles_Skiel.png",
+    "collectibles_Snake_s_Eye.png",
     "collectibles_Spectralsword.png",
     "collectibles_Squiresaga.png",
     "collectibles_Star_Dyson.png",
     "collectibles_Star_Pendulumgraph.png",
+    "collectibles_Strabismus.png",
     "collectibles_Subera_Light.png",
     "collectibles_Suicide_Statement.png",
     "collectibles_Super_Bombs.png",
@@ -8732,5 +9803,1306 @@
     "187": "trinket_187_brokenglasses.png",
     "188": "trinket_188_icecube.png",
     "189": "trinket_189_sigilofbaphomet.png"
+  },
+  "ratios": {
+    "schemaVersion": 1,
+    "notes": [
+      "EID 行内标记按 ANM2 裁切盒 × XScale/YScale 显示；Wiki 再整体 ×2。人物头像多为 32×32 @ 70%，透特 pickup 为 32×32 @ 50%，不要按裁切像素直接当显示尺寸。",
+      "原版/本模组道具 PNG 多是 32×32 正方形；Wiki 条目缩略图导出时也会强制缩到 32/64。",
+      "卡牌源图裁切往往不是正方形（塔罗约 16×20），条目页缩略图仍被生成器收成方图。",
+      "角色肖像源图通常远大于 32×32，网格里同样被收成方图。"
+    ],
+    "eidInline": {
+      "total": 456,
+      "missingCrop": 1,
+      "sizes": [
+        {
+          "size": "9×9",
+          "width": 9,
+          "height": 9,
+          "aspect": "1:1",
+          "count": 51,
+          "examples": [
+            "Heart",
+            "HalfHeart",
+            "EternalHeart",
+            "EmptyHeart"
+          ]
+        },
+        {
+          "size": "32×32",
+          "width": 32,
+          "height": 32,
+          "aspect": "1:1",
+          "count": 50,
+          "examples": [
+            "Player0",
+            "Player1",
+            "Player2",
+            "Player3"
+          ]
+        },
+        {
+          "size": "16×16",
+          "width": 16,
+          "height": 16,
+          "aspect": "1:1",
+          "count": 43,
+          "examples": [
+            "CustomTransformation",
+            "Guppy",
+            "FunGuy",
+            "LordoftheFlies"
+          ]
+        },
+        {
+          "size": "11×11",
+          "width": 11,
+          "height": 11,
+          "aspect": "1:1",
+          "count": 40,
+          "examples": [
+            "ERROR",
+            "BrokenHeart",
+            "Card",
+            "RedCard"
+          ]
+        },
+        {
+          "size": "10×10",
+          "width": 10,
+          "height": 10,
+          "aspect": "1:1",
+          "count": 32,
+          "examples": [
+            "PoopPickup",
+            "RoomXL",
+            "RoomL",
+            "RoomLTopLeft"
+          ]
+        },
+        {
+          "size": "13×13",
+          "width": 13,
+          "height": 13,
+          "aspect": "1:1",
+          "count": 24,
+          "examples": [
+            "ButtonY",
+            "ButtonA",
+            "ButtonB",
+            "ButtonX"
+          ]
+        },
+        {
+          "size": "7×7",
+          "width": 7,
+          "height": 7,
+          "aspect": "1:1",
+          "count": 23,
+          "examples": [
+            "10",
+            "11",
+            "12",
+            "Collectible"
+          ]
+        },
+        {
+          "size": "7×9",
+          "width": 7,
+          "height": 9,
+          "aspect": "7:9",
+          "count": 12,
+          "examples": [
+            "Coin",
+            "Nickel",
+            "Dime",
+            "Confessional"
+          ]
+        },
+        {
+          "size": "7×8",
+          "width": 7,
+          "height": 8,
+          "aspect": "7:8",
+          "count": 12,
+          "examples": [
+            "GrabBag",
+            "BlackSack",
+            "Mirror",
+            "BatteryBeggar"
+          ]
+        },
+        {
+          "size": "9×7",
+          "width": 9,
+          "height": 7,
+          "aspect": "9:7",
+          "count": 12,
+          "examples": [
+            "Chest",
+            "GoldenChest",
+            "RedChest",
+            "TrapChest"
+          ]
+        },
+        {
+          "size": "5×7",
+          "width": 5,
+          "height": 7,
+          "aspect": "5:7",
+          "count": 11,
+          "examples": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "size": "14×14",
+          "width": 14,
+          "height": 14,
+          "aspect": "1:1",
+          "count": 9,
+          "examples": [
+            "LuckREP",
+            "DiceFace1",
+            "DiceFace2",
+            "DiceFace3"
+          ]
+        },
+        {
+          "size": "5×4",
+          "width": 5,
+          "height": 4,
+          "aspect": "5:4",
+          "count": 7,
+          "examples": [
+            "RedChestRoomIcon",
+            "GoldenChestRoomIcon",
+            "ChestRoomIcon",
+            "StoneChestRoomIcon"
+          ]
+        },
+        {
+          "size": "10×9",
+          "width": 10,
+          "height": 9,
+          "aspect": "10:9",
+          "count": 6,
+          "examples": [
+            "HealingRed",
+            "HealingCoin",
+            "HealingBone",
+            "DevilChanceSmall"
+          ]
+        },
+        {
+          "size": "12×12",
+          "width": 12,
+          "height": 12,
+          "aspect": "1:1",
+          "count": 6,
+          "examples": [
+            "Chargeable",
+            "Crafting29",
+            "DamageREP",
+            "ShotspeedREP"
+          ]
+        },
+        {
+          "size": "8×8",
+          "width": 8,
+          "height": 8,
+          "aspect": "1:1",
+          "count": 6,
+          "examples": [
+            "Library",
+            "DiceRoom",
+            "IsaacsRoom",
+            "BarrenRoom"
+          ]
+        },
+        {
+          "size": "9×10",
+          "width": 9,
+          "height": 10,
+          "aspect": "9:10",
+          "count": 6,
+          "examples": [
+            "Crafting8",
+            "Crafting9",
+            "Crafting10",
+            "LuckAB"
+          ]
+        },
+        {
+          "size": "8×11",
+          "width": 8,
+          "height": 11,
+          "aspect": "8:11",
+          "count": 5,
+          "examples": [
+            "ArrowUp",
+            "ArrowDown",
+            "ArrowGrayUp",
+            "ArrowGrayDown"
+          ]
+        },
+        {
+          "size": "11×9",
+          "width": 11,
+          "height": 9,
+          "aspect": "11:9",
+          "count": 5,
+          "examples": [
+            "MegaChest",
+            "SpeedSmall",
+            "Friendly",
+            "SatanSmall"
+          ]
+        },
+        {
+          "size": "9×8",
+          "width": 9,
+          "height": 8,
+          "aspect": "9:8",
+          "count": 5,
+          "examples": [
+            "BossRoom",
+            "ErrorRoom",
+            "Slow",
+            "IsaacSmall"
+          ]
+        },
+        {
+          "size": "8×10",
+          "width": 8,
+          "height": 10,
+          "aspect": "4:5",
+          "count": 4,
+          "examples": [
+            "HolyMantleSmall",
+            "Battery",
+            "Crafting18",
+            "MomsHeartSmall"
+          ]
+        },
+        {
+          "size": "10×11",
+          "width": 10,
+          "height": 11,
+          "aspect": "10:11",
+          "count": 4,
+          "examples": [
+            "Bomb",
+            "GoldenBomb",
+            "Crafting11",
+            "Crafting30"
+          ]
+        },
+        {
+          "size": "15×13",
+          "width": 15,
+          "height": 13,
+          "aspect": "15:13",
+          "count": 4,
+          "examples": [
+            "CurseLabyrinth",
+            "Isaac",
+            "Hush",
+            "BlueBaby"
+          ]
+        },
+        {
+          "size": "15×14",
+          "width": 15,
+          "height": 14,
+          "aspect": "15:14",
+          "count": 4,
+          "examples": [
+            "CurseMaze",
+            "MomBoss",
+            "Satan",
+            "Mother"
+          ]
+        },
+        {
+          "size": "7×10",
+          "width": 7,
+          "height": 10,
+          "aspect": "7:10",
+          "count": 3,
+          "examples": [
+            "Key",
+            "GoldenKey",
+            "MinecartRoom"
+          ]
+        },
+        {
+          "size": "8×7",
+          "width": 8,
+          "height": 7,
+          "aspect": "8:7",
+          "count": 3,
+          "examples": [
+            "BloodDonationMachine",
+            "ChestRoom",
+            "Teleporter"
+          ]
+        },
+        {
+          "size": "7×6",
+          "width": 7,
+          "height": 6,
+          "aspect": "7:6",
+          "count": 3,
+          "examples": [
+            "TreasureRoom",
+            "GreedTreasureRoom",
+            "RedTreasureRoom"
+          ]
+        },
+        {
+          "size": "9×12",
+          "width": 9,
+          "height": 12,
+          "aspect": "3:4",
+          "count": 3,
+          "examples": [
+            "Crafting12",
+            "Crafting13",
+            "Crafting23"
+          ]
+        },
+        {
+          "size": "12×13",
+          "width": 12,
+          "height": 13,
+          "aspect": "12:13",
+          "count": 3,
+          "examples": [
+            "Crafting14",
+            "CurseDarkness",
+            "CurseBlind"
+          ]
+        },
+        {
+          "size": "10×13",
+          "width": 10,
+          "height": 13,
+          "aspect": "10:13",
+          "count": 3,
+          "examples": [
+            "Crafting19",
+            "Crafting26",
+            "Crafting28"
+          ]
+        },
+        {
+          "size": "14×15",
+          "width": 14,
+          "height": 15,
+          "aspect": "14:15",
+          "count": 3,
+          "examples": [
+            "Crafting20",
+            "RangeREP",
+            "Range"
+          ]
+        },
+        {
+          "size": "14×13",
+          "width": 14,
+          "height": 13,
+          "aspect": "14:13",
+          "count": 3,
+          "examples": [
+            "DevilChanceREP",
+            "CurseCursed",
+            "DevilChance"
+          ]
+        },
+        {
+          "size": "13×9",
+          "width": 13,
+          "height": 9,
+          "aspect": "13:9",
+          "count": 3,
+          "examples": [
+            "RangeABSmall",
+            "TheLambSmall",
+            "MegaSatanSmall"
+          ]
+        },
+        {
+          "size": "9×11",
+          "width": 9,
+          "height": 11,
+          "aspect": "9:11",
+          "count": 2,
+          "examples": [
+            "ArrowGrayRight",
+            "ArrowGrayLeft"
+          ]
+        },
+        {
+          "size": "13×14",
+          "width": 13,
+          "height": 14,
+          "aspect": "13:14",
+          "count": 2,
+          "examples": [
+            "HolyMantle",
+            "MomsHeart"
+          ]
+        },
+        {
+          "size": "7×5",
+          "width": 7,
+          "height": 5,
+          "aspect": "7:5",
+          "count": 2,
+          "examples": [
+            "ChallengeRoom",
+            "MegaChestRoomIcon"
+          ]
+        },
+        {
+          "size": "16×15",
+          "width": 16,
+          "height": 15,
+          "aspect": "16:15",
+          "count": 2,
+          "examples": [
+            "Crafting17",
+            "Delirium"
+          ]
+        },
+        {
+          "size": "15×12",
+          "width": 15,
+          "height": 12,
+          "aspect": "5:4",
+          "count": 2,
+          "examples": [
+            "SpeedREP",
+            "Speed"
+          ]
+        },
+        {
+          "size": "16×14",
+          "width": 16,
+          "height": 14,
+          "aspect": "8:7",
+          "count": 2,
+          "examples": [
+            "TearsREP",
+            "Tears"
+          ]
+        },
+        {
+          "size": "16×12",
+          "width": 16,
+          "height": 12,
+          "aspect": "4:3",
+          "count": 2,
+          "examples": [
+            "AngelChanceREP",
+            "AngelChance"
+          ]
+        },
+        {
+          "size": "6×9",
+          "width": 6,
+          "height": 9,
+          "aspect": "2:3",
+          "count": 2,
+          "examples": [
+            "AngelChanceAB",
+            "DevilChanceAB"
+          ]
+        },
+        {
+          "size": "12×9",
+          "width": 12,
+          "height": 9,
+          "aspect": "4:3",
+          "count": 2,
+          "examples": [
+            "TearsSmall",
+            "Petrify"
+          ]
+        },
+        {
+          "size": "11×10",
+          "width": 11,
+          "height": 10,
+          "aspect": "11:10",
+          "count": 2,
+          "examples": [
+            "SpeedABSmall",
+            "BeastSmall"
+          ]
+        },
+        {
+          "size": "12×14",
+          "width": 12,
+          "height": 14,
+          "aspect": "6:7",
+          "count": 2,
+          "examples": [
+            "ItemPool",
+            "RolledItemPool"
+          ]
+        },
+        {
+          "size": "64×32",
+          "width": 64,
+          "height": 32,
+          "aspect": "2:1",
+          "count": 2,
+          "examples": [
+            "QingPlayer:Anna",
+            "QingPlayer:annA"
+          ]
+        },
+        {
+          "size": "4×11",
+          "width": 4,
+          "height": 11,
+          "aspect": "4:11",
+          "count": 1,
+          "examples": [
+            "Warning"
+          ]
+        },
+        {
+          "size": "12×11",
+          "width": 12,
+          "height": 11,
+          "aspect": "12:11",
+          "count": 1,
+          "examples": [
+            "ArrowUpDown"
+          ]
+        },
+        {
+          "size": "11×7",
+          "width": 11,
+          "height": 7,
+          "aspect": "11:7",
+          "count": 1,
+          "examples": [
+            "SpikedChest"
+          ]
+        },
+        {
+          "size": "8×6",
+          "width": 8,
+          "height": 6,
+          "aspect": "4:3",
+          "count": 1,
+          "examples": [
+            "BossRushRoom"
+          ]
+        },
+        {
+          "size": "6×6",
+          "width": 6,
+          "height": 6,
+          "aspect": "1:1",
+          "count": 1,
+          "examples": [
+            "PoopRoomIcon"
+          ]
+        },
+        {
+          "size": "9×6",
+          "width": 9,
+          "height": 6,
+          "aspect": "3:2",
+          "count": 1,
+          "examples": [
+            "RoomSmallHorizontal"
+          ]
+        },
+        {
+          "size": "6×8",
+          "width": 6,
+          "height": 8,
+          "aspect": "3:4",
+          "count": 1,
+          "examples": [
+            "RoomSmallVertical"
+          ]
+        },
+        {
+          "size": "7×12",
+          "width": 7,
+          "height": 12,
+          "aspect": "7:12",
+          "count": 1,
+          "examples": [
+            "RoomLongVertical"
+          ]
+        },
+        {
+          "size": "12×7",
+          "width": 12,
+          "height": 7,
+          "aspect": "12:7",
+          "count": 1,
+          "examples": [
+            "RoomLongHorizontal"
+          ]
+        },
+        {
+          "size": "5×12",
+          "width": 5,
+          "height": 12,
+          "aspect": "5:12",
+          "count": 1,
+          "examples": [
+            "RoomLongThinVertical"
+          ]
+        },
+        {
+          "size": "12×5",
+          "width": 12,
+          "height": 5,
+          "aspect": "12:5",
+          "count": 1,
+          "examples": [
+            "RoomLongThinHorizontal"
+          ]
+        },
+        {
+          "size": "10×12",
+          "width": 10,
+          "height": 12,
+          "aspect": "5:6",
+          "count": 1,
+          "examples": [
+            "PlanetariumChance"
+          ]
+        },
+        {
+          "size": "13×11",
+          "width": 13,
+          "height": 11,
+          "aspect": "13:11",
+          "count": 1,
+          "examples": [
+            "TreasureRoomChance"
+          ]
+        },
+        {
+          "size": "12×10",
+          "width": 12,
+          "height": 10,
+          "aspect": "6:5",
+          "count": 1,
+          "examples": [
+            "SpeedAB"
+          ]
+        },
+        {
+          "size": "14×12",
+          "width": 14,
+          "height": 12,
+          "aspect": "7:6",
+          "count": 1,
+          "examples": [
+            "TearsAB"
+          ]
+        },
+        {
+          "size": "13×12",
+          "width": 13,
+          "height": 12,
+          "aspect": "13:12",
+          "count": 1,
+          "examples": [
+            "RangeAB"
+          ]
+        },
+        {
+          "size": "12×8",
+          "width": 12,
+          "height": 8,
+          "aspect": "3:2",
+          "count": 1,
+          "examples": [
+            "TearsABSmall"
+          ]
+        },
+        {
+          "size": "8×9",
+          "width": 8,
+          "height": 9,
+          "aspect": "8:9",
+          "count": 1,
+          "examples": [
+            "LuckABSmall"
+          ]
+        },
+        {
+          "size": "10×8",
+          "width": 10,
+          "height": 8,
+          "aspect": "5:4",
+          "count": 1,
+          "examples": [
+            "CurseMazeSmall"
+          ]
+        },
+        {
+          "size": "19×13",
+          "width": 19,
+          "height": 13,
+          "aspect": "19:13",
+          "count": 1,
+          "examples": [
+            "TheLamb"
+          ]
+        },
+        {
+          "size": "19×16",
+          "width": 19,
+          "height": 16,
+          "aspect": "19:16",
+          "count": 1,
+          "examples": [
+            "MegaSatan"
+          ]
+        },
+        {
+          "size": "15×15",
+          "width": 15,
+          "height": 15,
+          "aspect": "1:1",
+          "count": 1,
+          "examples": [
+            "Beast"
+          ]
+        },
+        {
+          "size": "15×16",
+          "width": 15,
+          "height": 16,
+          "aspect": "15:16",
+          "count": 1,
+          "examples": [
+            "VictoryLap"
+          ]
+        },
+        {
+          "size": "64×64",
+          "width": 64,
+          "height": 64,
+          "aspect": "1:1",
+          "count": 1,
+          "examples": [
+            "QingPlayer:Zeistos"
+          ]
+        }
+      ]
+    },
+    "vanillaCollectibles": {
+      "path": "wiki/docs/public/icons/vanilla/collectibles",
+      "listed": 722,
+      "sampled": 80,
+      "sizes": [
+        {
+          "size": "32×32",
+          "width": 32,
+          "height": 32,
+          "aspect": "1:1",
+          "count": 80
+        }
+      ]
+    },
+    "vanillaTrinkets": {
+      "path": "wiki/docs/public/icons/vanilla/trinkets",
+      "listed": 189,
+      "sampled": 80,
+      "sizes": [
+        {
+          "size": "32×32",
+          "width": 32,
+          "height": 32,
+          "aspect": "1:1",
+          "count": 79
+        },
+        {
+          "size": "128×32",
+          "width": 128,
+          "height": 32,
+          "aspect": "4:1",
+          "count": 1
+        }
+      ]
+    },
+    "qingCollectibles": {
+      "path": "wiki/docs/public/icons/qing/collectibles",
+      "listed": 163,
+      "sampled": 80,
+      "sizes": [
+        {
+          "size": "32×32",
+          "width": 32,
+          "height": 32,
+          "aspect": "1:1",
+          "count": 80
+        }
+      ]
+    },
+    "qingTrinkets": {
+      "path": "wiki/docs/public/icons/qing/trinkets",
+      "listed": 17,
+      "sampled": 17,
+      "sizes": [
+        {
+          "size": "32×32",
+          "width": 32,
+          "height": 32,
+          "aspect": "1:1",
+          "count": 17
+        }
+      ]
+    },
+    "qingPlayers": [
+      {
+        "name": "wq",
+        "size": "32×32",
+        "aspect": "1:1"
+      },
+      {
+        "name": "Spwq",
+        "size": "32×32",
+        "aspect": "1:1"
+      },
+      {
+        "name": "Tecro",
+        "size": "32×32",
+        "aspect": "1:1"
+      },
+      {
+        "name": "Anna",
+        "size": "64×32",
+        "aspect": "2:1"
+      },
+      {
+        "name": "Zeistos",
+        "size": "64×64",
+        "aspect": "1:1"
+      },
+      {
+        "name": "Tecrorun",
+        "size": "32×32",
+        "aspect": "1:1"
+      },
+      {
+        "name": "annA",
+        "size": "64×32",
+        "aspect": "2:1"
+      }
+    ],
+    "wikiThumbs": {
+      "note": "export_wiki_data.py 把条目图标 NEAREST 缩到 32×32 与 64×64，宽高比不再保留。",
+      "sizes": [
+        {
+          "size": "32×32",
+          "aspect": "1:1",
+          "role": "thumb32 / atlas tile"
+        },
+        {
+          "size": "64×64",
+          "aspect": "1:1",
+          "role": "thumb64 / 条目标题图"
+        }
+      ]
+    }
+  },
+  "qingPlayers": {
+    "wq": {
+      "sheet": "/icons/eid/player_icons.png",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32,
+        "xScale": 70,
+        "yScale": 70
+      }
+    },
+    "Spwq": {
+      "sheet": "/icons/eid/player_icons.png",
+      "crop": {
+        "x": 32,
+        "y": 0,
+        "w": 32,
+        "h": 32,
+        "xScale": 70,
+        "yScale": 70
+      }
+    },
+    "Tecro": {
+      "sheet": "/icons/eid/player_icons.png",
+      "crop": {
+        "x": 64,
+        "y": 0,
+        "w": 32,
+        "h": 32,
+        "xScale": 70,
+        "yScale": 70
+      }
+    },
+    "Anna": {
+      "sheet": "/icons/eid/player_icons.png",
+      "crop": {
+        "x": 0,
+        "y": 32,
+        "w": 64,
+        "h": 32,
+        "xScale": 35,
+        "yScale": 35
+      }
+    },
+    "Zeistos": {
+      "sheet": "/icons/eid/player_icons.png",
+      "crop": {
+        "x": 96,
+        "y": 0,
+        "w": 64,
+        "h": 64,
+        "xScale": 33,
+        "yScale": 33
+      }
+    },
+    "Tecrorun": {
+      "sheet": "/icons/eid/player_icons.png",
+      "crop": {
+        "x": 160,
+        "y": 0,
+        "w": 32,
+        "h": 32,
+        "xScale": 50,
+        "yScale": 50
+      }
+    },
+    "annA": {
+      "sheet": "/icons/eid/player_icons.png",
+      "crop": {
+        "x": 0,
+        "y": 64,
+        "w": 64,
+        "h": 32,
+        "xScale": 35,
+        "yScale": 35
+      }
+    }
+  },
+  "qingCollectiblesByKey": {
+    "Darkness": "collectibles_Darkness.png",
+    "Touchstone": "collectibles_Touchstone.png",
+    "My_Hat": "collectibles_My_Hat.png",
+    "Tech_9": "collectibles_Tech_9.png",
+    "Assassin_s_Eye": "collectibles_Assassin_s_Eye.png",
+    "Mental_Hypnosis": "collectibles_Mental_Hypnosis.png",
+    "Gold_Rush": "collectibles_Gold_Rush.png",
+    "Air_Flight": "collectibles_Air_Flight.png",
+    "The_Watcher": "collectibles_The_Watcher.png",
+    "Giant_Punch": "collectibles_Giant_Punch.png",
+    "Memory": "collectibles_Memory.png",
+    "My_Best_Friend": "collectibles_My_Best_Friend.png",
+    "Super_Bombs": "collectibles_Super_Bombs.png",
+    "Brimstream": "collectibles_Brimstream.png",
+    "Crown_of_the_glaze": "collectibles_Crown_Of_The_Glaze.png",
+    "A_Shard_Of_Coin": "collectibles_A_Shard_Of_Coin.png",
+    "A_Shard_Of_Glaze": "collectibles_A_Shard_Of_Glaze.png",
+    "A_Shard_Of_Lava": "collectibles_A_Shard_Of_Lava.png",
+    "A_Shard_Of_Meat": "collectibles_A_Shard_Of_Meat.png",
+    "A_Shard_Of_Rock": "collectibles_A_Shard_Of_Rock.png",
+    "Black_Map": "collectibles_Black_Map.png",
+    "Blaststone": "collectibles_Blaststone.png",
+    "Little_Duck": "collectibles_Little_Duck.png",
+    "Alchemy_Pot": "collectibles_Alchemy_Pot.png",
+    "Air_Terror": "collectibles_Air_Terror.png",
+    "Glaze_Mushroom": "collectibles_Glaze_Cap.png",
+    "Pageant_Cross_dresser": "collectibles_pageant_cross_dresser.png",
+    "It_s_a_trick": "collectibles_Glaze_Collectible.png",
+    "Tianyi": "collectibles_LuoTianYi.png",
+    "Colorblindness": "collectibles_colorblindness.png",
+    "Field": "collectibles_Field.png",
+    "Suture_Needle": "collectibles_Suture_Needle.png",
+    "More_Options___": "collectibles_Glaze_Option.png",
+    "Fate_s_Draw": "collectibles_Fate_s_Draw.png",
+    "My_Emblem": "collectibles_My_Emblem.png",
+    "Ingestion_to_Night": "collectibles_Ingestion_to_Night.png",
+    "D773": "collectibles_D773.png",
+    "Devil_s_Heart": "collectibles_Devil_s_Heart.png",
+    "DVF": "collectibles_Dual_Vector_Foil.png",
+    "Book_of_Future": "collectibles_Book_of_Future.png",
+    "Hyper_Velocity": "collectibles_Hypervelocity.png",
+    "Wavering_Eyes": "collectibles_Wavering_Eyes.png",
+    "Pendulum_Star": "collectibles_Star_Pendulumgraph.png",
+    "Book_of_Thoth": "collectibles_Book_of_Thoth.png",
+    "Book_of_The_Law": "collectibles_Book_of_The_Law.png",
+    "Book_of_Vision": "collectibles_Book_of_Vision.png",
+    "Book_of_Voice": "collectibles_Book_of_Voice.png",
+    "Aphasia": "collectibles_Aphasia.png",
+    "Nazca": "collectibles_Nazca.png",
+    "Cloundy": "collectibles_Cloundy.png",
+    "Skiel": "collectibles_Skiel.png",
+    "Wisel": "collectibles_Wisel.png",
+    "Granel": "collectibles_Granel.png",
+    "Spectralsword": "collectibles_Spectralsword.png",
+    "Squiresaga": "collectibles_Squiresaga.png",
+    "Moment": "collectibles_Moment.png",
+    "Lofty": "collectibles_Lofty.png",
+    "Theseus_s_Sign": "collectibles_Theseus_s_Sign.png",
+    "Heart_Change": "collectibles_Heart_Change.png",
+    "Cable_Jar": "collectibles_Thunder_Jar.png",
+    "Gospel": "collectibles_Gospel.png",
+    "Tiramisu": "collectibles_Tiramisu.png",
+    "Live_Broadcast": "collectibles_Live_Broadcast.png",
+    "Drama_of_sorrow_and_joy": "collectibles_Drama_of_sorrow_and_joy.png",
+    "Tzolkin": "collectibles_Tzolkin.png",
+    "Pareidolia": "collectibles_Pareidolia.png",
+    "Reversal_Film": "collectibles_reversal_film.png",
+    "Tears_of_Pearl": "collectibles_Tears_of_Pearl.png",
+    "D_NAN": "collectibles_D_NAN.png",
+    "Risemara": "collectibles_Risemara.png",
+    "Chiastolite": "collectibles_Chiastolite.png",
+    "Calamity": "collectibles_Calamity.png",
+    "Shadow_Bottle": "collectibles_Shadow_Selection.png",
+    "The_True_Name": "collectibles_The_True_Name.png",
+    "Blue_Print": "collectibles_BluePrint.png",
+    "Hypermnesia": "collectibles_Hypermnesia.png",
+    "Delicate_Flower": "collectibles_Delicate_Flower.png",
+    "Tech_14": "collectibles_Tech_14.png",
+    "Seeker_s_Eye": "collectibles_Seeker_s_Eye.png",
+    "Day_Dreamer": "collectibles_Day_Dreamer.png",
+    "Disequilibrium": "collectibles_Disequilibrium.png",
+    "Destruction": "collectibles_Destruction.png",
+    "Philosopher_s_stone": "collectibles_Philosopher_s_stone.png",
+    "Brilliant": "collectibles_Brilliant.png",
+    "Fraternity": "collectibles_Fraternity.png",
+    "Ending_Count": "collectibles_Ending_Count.png",
+    "Dimension_Contact": "collectibles_Dimension_Contact.png",
+    "World_Arc": "collectibles_World_Arc.png",
+    "Final_Prism": "collectibles_Final_prism.png",
+    "Book_of_Rune": "collectibles_Book_of_Rune.png",
+    "Evil_Intervention": "collectibles_Evil_Intervention.png",
+    "Book_of_How_to_Fly": "collectibles_Book_of_How_to_Fly.png",
+    "Illumination": "collectibles_Illumination.png",
+    "Contemplation": "collectibles_Contemplation.png",
+    "Chasm": "collectibles_Chasm.png",
+    "Book_of_6_sin": "collectibles_book_of_6_sin.png",
+    "Pathetique": "collectibles_Pathetique.png",
+    "Dark_Mysticism": "collectibles_Dark_Mysticism.png",
+    "Fresh_Death": "collectibles_Fresh_Death.png",
+    "The_Suture_Needle": "collectibles_The_Suture_Needle.png",
+    "Glaze_Mirror": "collectibles_Glaze_Mirror.png",
+    "Mental_Disorder": "collectibles_Mental_disorder.png",
+    "Paranoia": "collectibles_Paranoia.png",
+    "Cursed_Mask": "collectibles_Cursed_Mask.png",
+    "Ritual_Sting": "collectibles_Ritual_Sting.png",
+    "Nihilistic_Artificial_Eye": "collectibles_Nihilistic_Artificial_Eye.png",
+    "Phantom_Crown": "collectibles_Phantom_Crown.png",
+    "Blood_Wing": "collectibles_Blood_Wing.png",
+    "Subera_Light": "collectibles_Subera_Light.png",
+    "D_Plus": "collectibles_D_Upper.png",
+    "Shangrila": "collectibles_Shangrila.png",
+    "Destiny_Anchor": "collectibles_Destiny_Anchor.png",
+    "Acrotomophilia": "collectibles_Acrotomophilia.png",
+    "Loneliness": "collectibles_Loneliness.png",
+    "Core_Brooch": "collectibles_Core_Brooch.png",
+    "Inspiration": "collectibles_Inspiration.png",
+    "Hunger_Burger": "collectibles_Hunger_Burger.png",
+    "Muscae_Volitantes": "collectibles_Fly_of_Jar.png",
+    "Charon_s_Sign": "collectibles_Charon_s_Sign.png",
+    "Baby_Tecro": "collectibles_Baby_Tecro.png",
+    "Baby_Anna": "collectibles_Baby_Anna.png",
+    "Baby_Zeis": "collectibles_Baby_Zeis.png",
+    "Baby_Marri": "collectibles_Baby_Marri.png",
+    "Baby_Autio": "collectibles_Baby_Autio.png",
+    "Baby_Lu": "collectibles_Baby_Lu.png",
+    "Multiknife": "collectibles_Multiknife.png",
+    "Dragon_Tooth": "collectibles_Dragon_Tooth.png",
+    "Reserved_Judgment": "collectibles_Reserved_Judgment.png",
+    "Death_Sentence": "collectibles_Death_Sentence.png",
+    "Remaster": "collectibles_Remaster.png",
+    "Bloody_Map": "collectibles_Bloody_Map.png",
+    "Golden_Slot": "collectibles_Golden_slot.png",
+    "Procrastination": "collectibles_Procrastination.png",
+    "Sacred_Mind_Shield": "collectibles_Sacred_Mind_Shield.png",
+    "Qing_Faceted_Market_Diamond": "collectibles_Diamond.png",
+    "Cup_Cat": "collectibles_Cup_Cat.png",
+    "Abiogenesis": "collectibles_Abiogenesis.png",
+    "Regenesis": "collectibles_Regenesis.png",
+    "Ember": "collectibles_Embers.png"
+  },
+  "qingCollectiblesByXmlId": {
+    "1": "collectibles_Darkness.png",
+    "2": "collectibles_Touchstone.png",
+    "3": "collectibles_My_Hat.png",
+    "4": "collectibles_Tech_9.png",
+    "5": "collectibles_Assassin_s_Eye.png",
+    "6": "collectibles_Mental_Hypnosis.png",
+    "7": "collectibles_Gold_Rush.png",
+    "8": "collectibles_Air_Flight.png",
+    "9": "collectibles_The_Watcher.png",
+    "10": "collectibles_Giant_Punch.png",
+    "11": "collectibles_Memory.png",
+    "12": "collectibles_My_Best_Friend.png",
+    "13": "collectibles_Super_Bombs.png",
+    "14": "collectibles_Brimstream.png",
+    "15": "collectibles_Crown_Of_The_Glaze.png",
+    "16": "collectibles_A_Shard_Of_Coin.png",
+    "17": "collectibles_A_Shard_Of_Glaze.png",
+    "18": "collectibles_A_Shard_Of_Lava.png",
+    "19": "collectibles_A_Shard_Of_Meat.png",
+    "20": "collectibles_A_Shard_Of_Rock.png",
+    "21": "collectibles_Black_Map.png",
+    "22": "collectibles_Blaststone.png",
+    "23": "collectibles_Little_Duck.png",
+    "25": "collectibles_Alchemy_Pot.png",
+    "26": "collectibles_Air_Terror.png",
+    "27": "collectibles_Glaze_Cap.png",
+    "28": "collectibles_pageant_cross_dresser.png",
+    "29": "collectibles_Glaze_Collectible.png",
+    "30": "collectibles_LuoTianYi.png",
+    "31": "collectibles_colorblindness.png",
+    "32": "collectibles_Field.png",
+    "33": "collectibles_Suture_Needle.png",
+    "44": "collectibles_Glaze_Option.png",
+    "45": "collectibles_Fate_s_Draw.png",
+    "46": "collectibles_My_Emblem.png",
+    "47": "collectibles_Ingestion_to_Night.png",
+    "48": "collectibles_D773.png",
+    "49": "collectibles_Devil_s_Heart.png",
+    "50": "collectibles_Dual_Vector_Foil.png",
+    "51": "collectibles_Book_of_Future.png",
+    "52": "collectibles_Hypervelocity.png",
+    "53": "collectibles_Wavering_Eyes.png",
+    "54": "collectibles_Star_Pendulumgraph.png",
+    "55": "collectibles_Book_of_Thoth.png",
+    "56": "collectibles_Book_of_The_Law.png",
+    "57": "collectibles_Book_of_Vision.png",
+    "58": "collectibles_Book_of_Voice.png",
+    "59": "collectibles_Aphasia.png",
+    "60": "collectibles_Nazca.png",
+    "61": "collectibles_Cloundy.png",
+    "62": "collectibles_Skiel.png",
+    "63": "collectibles_Wisel.png",
+    "64": "collectibles_Granel.png",
+    "65": "collectibles_Spectralsword.png",
+    "66": "collectibles_Squiresaga.png",
+    "67": "collectibles_Moment.png",
+    "68": "collectibles_Lofty.png",
+    "69": "collectibles_Theseus_s_Sign.png",
+    "70": "collectibles_Heart_Change.png",
+    "71": "collectibles_Thunder_Jar.png",
+    "72": "collectibles_Gospel.png",
+    "73": "collectibles_Tiramisu.png",
+    "74": "collectibles_Live_Broadcast.png",
+    "75": "collectibles_Drama_of_sorrow_and_joy.png",
+    "76": "collectibles_Tzolkin.png",
+    "77": "collectibles_Pareidolia.png",
+    "78": "collectibles_reversal_film.png",
+    "79": "collectibles_Tears_of_Pearl.png",
+    "80": "collectibles_D_NAN.png",
+    "81": "collectibles_Risemara.png",
+    "82": "collectibles_Chiastolite.png",
+    "85": "collectibles_Calamity.png",
+    "86": "collectibles_Shadow_Selection.png",
+    "87": "collectibles_The_True_Name.png",
+    "88": "collectibles_BluePrint.png",
+    "90": "collectibles_Hypermnesia.png",
+    "91": "collectibles_Delicate_Flower.png",
+    "92": "collectibles_Tech_14.png",
+    "93": "collectibles_Seeker_s_Eye.png",
+    "94": "collectibles_Day_Dreamer.png",
+    "95": "collectibles_Disequilibrium.png",
+    "96": "collectibles_Destruction.png",
+    "97": "collectibles_Philosopher_s_stone.png",
+    "98": "collectibles_Brilliant.png",
+    "99": "collectibles_Fraternity.png",
+    "100": "collectibles_Ending_Count.png",
+    "102": "collectibles_Dimension_Contact.png",
+    "103": "collectibles_World_Arc.png",
+    "104": "collectibles_Final_prism.png",
+    "105": "collectibles_Book_of_Rune.png",
+    "106": "collectibles_Evil_Intervention.png",
+    "107": "collectibles_Book_of_How_to_Fly.png",
+    "108": "collectibles_Illumination.png",
+    "109": "collectibles_Contemplation.png",
+    "110": "collectibles_Chasm.png",
+    "111": "collectibles_book_of_6_sin.png",
+    "112": "collectibles_Pathetique.png",
+    "113": "collectibles_Dark_Mysticism.png",
+    "114": "collectibles_Fresh_Death.png",
+    "115": "collectibles_The_Suture_Needle.png",
+    "116": "collectibles_Glaze_Mirror.png",
+    "117": "collectibles_Mental_disorder.png",
+    "118": "collectibles_Paranoia.png",
+    "119": "collectibles_Cursed_Mask.png",
+    "120": "collectibles_Ritual_Sting.png",
+    "121": "collectibles_Nihilistic_Artificial_Eye.png",
+    "122": "collectibles_Phantom_Crown.png",
+    "123": "collectibles_Blood_Wing.png",
+    "124": "collectibles_Subera_Light.png",
+    "125": "collectibles_D_Upper.png",
+    "126": "collectibles_Shangrila.png",
+    "127": "collectibles_Destiny_Anchor.png",
+    "128": "collectibles_Acrotomophilia.png",
+    "129": "collectibles_Loneliness.png",
+    "130": "collectibles_Core_Brooch.png",
+    "131": "collectibles_Inspiration.png",
+    "132": "collectibles_Hunger_Burger.png",
+    "133": "collectibles_Fly_of_Jar.png",
+    "134": "collectibles_Charon_s_Sign.png",
+    "135": "collectibles_Baby_Tecro.png",
+    "136": "collectibles_Baby_Anna.png",
+    "137": "collectibles_Baby_Zeis.png",
+    "138": "collectibles_Baby_Marri.png",
+    "139": "collectibles_Baby_Autio.png",
+    "140": "collectibles_Baby_Lu.png",
+    "142": "collectibles_Multiknife.png",
+    "143": "collectibles_Dragon_Tooth.png",
+    "160": "collectibles_Reserved_Judgment.png",
+    "161": "collectibles_Death_Sentence.png",
+    "162": "collectibles_Remaster.png",
+    "163": "collectibles_Bloody_Map.png",
+    "164": "collectibles_Golden_slot.png",
+    "165": "collectibles_Procrastination.png",
+    "166": "collectibles_Sacred_Mind_Shield.png",
+    "167": "collectibles_Diamond.png",
+    "168": "collectibles_Cup_Cat.png",
+    "169": "collectibles_Abiogenesis.png",
+    "171": "collectibles_Regenesis.png",
+    "172": "collectibles_Embers.png"
+  },
+  "qingTrinketsByKey": {
+    "Pacification_Mark": "trinkets_Pacification_Mark.png",
+    "Dark_Particle": "trinkets_Dark_Particle.png",
+    "Torn_Emperor": "trinkets_Torn_Emperor.png",
+    "Devil_s_Joke": "trinkets_Devil_s_Joke.png",
+    "Torn_Moon_": "trinkets_Torn_Moon_.png",
+    "Puncture_Symbol": "trinkets_Puncture_Symbol.png",
+    "Hoarding_Symbol": "trinkets_Hoarding_Symbol.png",
+    "Transition_Symbol": "trinkets_Transition_Symbol.png",
+    "Adhesive_Symbol": "trinkets_Adhesive_Symbol.png",
+    "Straining_Symbol": "trinkets_Straining_Symbol.png",
+    "Allocation_Symbol": "trinkets_Allocation_Symbol.png",
+    "Pause_": "trinkets_Pause_.png",
+    "Equality_Agreement": "trinkets_Equality_Agreement.png",
+    "Consistent_Expectations": "trinkets_Consistent_Expectations.png",
+    "Bundled_Sale": "trinkets_Bundled_Sale.png",
+    "Broken_Brooch": "trinkets_Broken_Brooch.png"
   }
 }

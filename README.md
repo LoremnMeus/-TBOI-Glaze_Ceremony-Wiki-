@@ -1,4 +1,4 @@
-# Glaze Ceremony Wiki
+# 琉璃圣典 Wiki
 
 VitePress 站点，源码放在私有开发仓库的 `wiki/`。公开 Wiki 仓库只接收同步后的站点源码，不含 `codex_work` 或模组运行时。
 
@@ -7,9 +7,10 @@ VitePress 站点，源码放在私有开发仓库的 `wiki/`。公开 Wiki 仓�
 私有仓库是唯一源：
 
 - 玩法正文：`wiki/docs/**/*.md`（英文在 `wiki/docs/en/`）
-- 名称/slug/是否公开：`public_metadata/entries/*.json`，然后跑 `export_wiki_data.py`
-- 图标素材：`wiki/docs/public/icons/`（用 `export_wiki_icons.py` 从原版/EID 拷贝）
-- 不要手改 `wiki/docs/public/generated/`
+- 名称/slug/是否公开：`public_metadata/entries/*.json`，然后跑 `export_wiki_data.py`（会从 `translate.lua` 填 EID，不覆盖已有 Markdown）
+- 条目图标缩略图/图集：同一次导出写到 `wiki/docs/public/generated/images/`
+- 原版/EID 小图标：`wiki/docs/public/icons/`（`export_wiki_icons.py`）
+- 不要手改 `wiki/docs/public/generated/` 或 `sidebar.json`
 
 详细编辑位点见 [编辑说明](docs/editing.md)。
 

@@ -96,7 +96,7 @@ const qingTrinkets = computed(() => catalog.qingTrinketFiles || [])
   display: flex;
   gap: 0.4rem;
   align-items: center;
-  min-height: 1.5rem;
+  min-height: 2.25rem;
 }
 .icon-cell code {
   font-size: 0.75rem;
@@ -116,8 +116,8 @@ const qingTrinkets = computed(() => catalog.qingTrinketFiles || [])
   gap: 4px;
 }
 .item-grid img {
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   image-rendering: pixelated;
   background: #1a1a1a;
 }

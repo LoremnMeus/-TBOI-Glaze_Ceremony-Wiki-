@@ -9,6 +9,10 @@ $$
 \mathrm{DPS} = \mathrm{Damage} \times \mathrm{Tears}
 $$
 
+## 像素比例
+
+<IconRatios />
+
 ## EID 小图标
 
 - 精灵表：`/icons/eid/eid_inline_icons.png`
@@ -29,7 +33,7 @@ $$
 
 ## 本模组道具图标
 
-- Qing collectibles：**160** 张（`/icons/qing/collectibles/`）
+- Qing collectibles：**163** 张（`/icons/qing/collectibles/`）
 - Qing trinkets：**17** 张（`/icons/qing/trinkets/`）
 
 <IconInventory section="qingItems" />

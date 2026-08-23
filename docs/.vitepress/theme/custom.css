@@ -1,6 +1,63 @@
 .eid-icon,
-.eid-item-icon {
+.eid-item-icon,
+.eid-icon-wrap {
   image-rendering: pixelated;
+}
+
+.vp-doc p > .eid-icon-wrap,
+.vp-doc p > .eid-item-icon,
+.vp-doc p > .wiki-entry-icon,
+.vp-doc li > .eid-icon-wrap,
+.vp-doc li > .eid-item-icon,
+.vp-doc li > .wiki-entry-icon,
+.vp-doc .eid-line .eid-icon-wrap,
+.vp-doc .eid-line .eid-item-icon,
+.vp-doc .eid-line .wiki-entry-icon {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.vp-doc p img.eid-item-icon,
+.vp-doc li img.eid-item-icon,
+.vp-doc .eid-line img.eid-item-icon,
+.vp-doc .wiki-entry-icon img,
+.vp-doc p .eid-icon-wrap,
+.vp-doc li .eid-icon-wrap,
+.vp-doc .eid-line .eid-icon-wrap {
+  display: inline-block !important;
+  vertical-align: middle;
+  max-width: none !important;
+}
+
+.vp-doc .wiki-entry-icon {
+  display: inline-flex !important;
+  align-items: center;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.eid-line {
+  line-height: 2;
+}
+
+body.wiki-dev-open {
+  padding-bottom: min(42vh, 28rem);
+}
+
+body.wiki-dev-source .VPDoc {
+  display: none;
+}
+
+.wiki-search-index {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
 .vp-doc .katex-display,
