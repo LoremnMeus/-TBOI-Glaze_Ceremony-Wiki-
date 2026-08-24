@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T18:31:45Z",
+  "generatedAt": "2026-08-24T18:36:35Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -20631,8 +20631,8 @@
         "en": "The Final Machine of Nitimity"
       },
       "eid": {
-        "zh": "{{Item:Air_Flight}} 无法直接攻击，通过指挥准星控制飞行器作战#使用蓝图制造飞行器，并为其安装道具模块#飞行器拥有独立属性，只有列队中的飞行器会参与战斗",
-        "en": "{{Item:Air_Flight}} Cannot attack directly; instead, command drones through a targeting reticle#Use Blueprint to manufacture drones and equip them with item modules#Drones have independent stats, and only deployed drones participate in combat"
+        "zh": "{{Item:Air_Flight}} 无法直接攻击；使用蓝图制造并改装独立飞行器#将飞行器编入队伍，并用准星指挥它们作战#控制带宽决定当前能够出战的机体",
+        "en": "{{Item:Air_Flight}} Cannot attack directly; use Blueprint to build and refit independent drones#Deploy drones into formation and command them with the targeting reticle#Control bandwidth determines which drones can fight"
       },
       "seijaBuff": {
         "zh": "",

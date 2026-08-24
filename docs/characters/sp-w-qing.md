@@ -6,7 +6,7 @@ kind: character
 internalKey: Spwq
 status: featured
 ---
-<p class="wiki-search-index" v-pre>青 Qing Spwq sp-w-qing SP.W.Qing 灾难之终械 The Final Machine of Nitimity 无法直接攻击，通过指挥准星控制飞行器作战 使用蓝图制造飞行器，并为其安装道具模块 飞行器拥有独立属性，只有列队中的飞行器会参与战斗 Cannot attack directly; instead, command drones through a targeting reticle Use Blueprint to manufacture drones and equip them with item modules Drones have independent stats, and only deployed drones participate in combat</p>
+<p class="wiki-search-index" v-pre>青 Qing Spwq sp-w-qing SP.W.Qing 灾难之终械 The Final Machine of Nitimity 无法直接攻击；使用蓝图制造并改装独立飞行器 将飞行器编入队伍，并用准星指挥它们作战 控制带宽决定当前能够出战的机体 Cannot attack directly; use Blueprint to build and refit independent drones Deploy drones into formation and command them with the targeting reticle Control bandwidth determines which drones can fight</p>
 
 <PublicEntry slug="sp-w-qing" lang="zh" />
 
@@ -14,13 +14,38 @@ status: featured
 
 ### 玩法
 
-{{Character:sp-w-qing}} 通过 {{System:blueprint-air-flight}} 制造、改装和编组 Air Flight。制造飞行器时投入的道具只作为机体成本；安装到模块槽的道具才会改变对应机体。同一件道具只能被蓝图占用一次。
+**不亲自战斗；制造自己的机群，然后决定它们如何作战。**
 
-底座品质、模块槽、原型与配方完整性见 {{System:blueprint-air-flight}}。
+{{Character:sp-w-qing}} 无法进行普通直接攻击。获得的道具可以通过 {{System:blueprint-air-flight}} 参与制造和改装 Air Flight，并让不同机体形成彼此独立的战斗配置。
 
-### 操作
+战斗时，青本人主要负责移动准星和下达指令；真正进行攻击的是当前编入队伍、获得控制带宽的飞行器。
 
-攻击方向或按住鼠标左键会移动准星。青的控制由两个彼此独立的二态系统组成：
+**你不是在强化一个角色，而是在组建一支队伍。** 同样一组道具，也可以被组织成完全不同的机群。
+
+### 第一次使用里小青
+
+1. **先造出第一架机体。** 第一架真实 Air Flight 不需要底座，让青在开局也能建立最基本的攻击能力。
+2. **分清底座与模块。** 底座决定机体框架；模块才会把道具效果带进这架机体的战斗配置。
+3. **把机体编入队伍。** 制造完成不代表一定正在出战；控制带宽决定当前能上线多少机体，队列顺序决定谁优先。
+4. **最后才是指挥。** 战斗中移动准星，并按局面分别调整阵型与火控。
+
+首次打开蓝图时，可以选择进入完整的交互式教程。教程会提供练习机与模拟材料，不会消耗本局真实资源。
+
+### 制造与构筑
+
+底座决定“这架机体有多好”，模块决定“这架机体会什么”。不同飞行器拥有彼此独立的底座、模块和战斗属性：一架可以承担主要输出，另一架则可以围绕特殊攻击、宝宝或辅助效果构筑。
+
+精确的底座倍率、道具占用、原型和配方规则见 {{System:blueprint-air-flight}}。
+
+### 编队与带宽
+
+拥有飞行器不等于所有飞行器都能同时战斗。控制带宽决定当前可以上线多少机体；系统按编队顺序分配带宽，因此排在前面的机体拥有更高出战优先级。
+
+没有获得带宽的机体不会消失，而会回到青身边待命，并停止索敌、开火和所属战斗型宝宝的攻击。
+
+### 战斗指挥
+
+青的战斗指挥只回答两个问题：**“飞行器在哪里？”**和**“它们攻击谁？”**阵型回答第一个问题，火控回答第二个。
 
 | 阵型 | 火控 | 表现 |
 | --- | --- | --- |
@@ -29,16 +54,19 @@ status: featured
 | 巡航 | 压制 | 展开的飞行器集中攻击准星位置 |
 | 护卫 | 压制 | 两翼炮阵保持队形并攻击准星位置 |
 
+阵型与火控互不替代：压制不会自动改变阵型，护卫也不会让准星消失。
+
+### 操作
+
 - 攻击方向或按住鼠标左键：移动准星。
 - Ctrl 或鼠标中键：切换巡航/护卫。
 - 鼠标右键或短按蓝图：切换自动/压制。
 - 长按蓝图：打开蓝图面板。
 
-### 控制带宽
-
-拥有飞行器不等于所有飞行器都能同时战斗。已列队机体会占用控制带宽；未激活机体回到青身边待命，并停止索敌、开火和所属宝宝的攻击。蓝图中的编队页用于决定当前投入哪些机体，制造页增加机体，仓库页负责拆装模块。
-
 ### 使用技巧
 
-- 压制适合攻击火堆、便便或指定位置；普通战斗可使用自动火控。
-- 带宽不足时，把高优先级机体排在编队前方，可以确保它们优先上线。
+- **别把所有好道具塞进一架机体。** 多架职责明确的飞行器往往比一架堆满模块的机体更灵活。
+- **高品质道具不一定要当模块。** 有时用它搭建更好的底座，换取更多槽位和整体属性，会更值得。
+- **队列就是优先级。** 带宽不足时，最重要的机体应该排在前面。
+- **自动负责清场，压制负责点名。** 普通战斗不必一直手动指定；需要集中 Boss、火堆或某个位置时再切压制。
+- **仓库不是终点。** 已经制造的机体仍可重新改装，不必在第一次制造时决定整局的最终构筑。
