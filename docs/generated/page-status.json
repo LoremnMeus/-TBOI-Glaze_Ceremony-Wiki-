@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T15:01:27Z",
+  "generatedAt": "2026-08-24T15:24:32Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1783,7 +1783,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/zeiz.md",
       "en": "wiki/docs/en/characters/zeiz.md",
-      "zhStatus": "featured",
+      "zhStatus": "reviewed",
       "enStatus": "stub"
     },
     {
@@ -1855,7 +1855,7 @@
       "kind": "challenge",
       "zh": "wiki/docs/challenges/cookie-clicker.md",
       "en": "wiki/docs/en/challenges/cookie-clicker.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1887,7 +1887,7 @@
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-heart.md",
       "en": "wiki/docs/en/pickups/glaze-heart.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1975,7 +1975,7 @@
       "kind": "slot",
       "zh": "wiki/docs/slots/rift-beggar.md",
       "en": "wiki/docs/en/slots/rift-beggar.md",
-      "zhStatus": "drafted",
+      "zhStatus": "featured",
       "enStatus": "drafted"
     },
     {

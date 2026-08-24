@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T15:01:27Z",
+  "generatedAt": "2026-08-24T15:24:32Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -13921,8 +13921,8 @@
         "en": "I'll do it soon..."
       },
       "eid": {
-        "zh": "{{Timer}} 持有后每经过30秒，{{Damage}} 本层攻击+0.1#本层最多获得 {{Damage}} +1攻击#击杀任意Boss后，立即停止本层的攻击增长#包含Boss敌人的房间门始终保持开启",
-        "en": "{{Timer}} While held, every 30 seconds {{Damage}} +0.1 this floor#Up to {{Damage}} +1 this floor#Killing any boss immediately stops this floor's damage growth#Doors in rooms with living bosses stay open"
+        "zh": "{{Timer}} 持有后每经过30秒，永久获得 {{Damage}} +0.1攻击#每层最多累计 {{Damage}} +1攻击#击杀任意Boss后，立即停止本层的攻击增长#包含Boss敌人的房间门始终保持开启",
+        "en": "{{Timer}} While held, permanently gain {{Damage}} +0.1 every 30 seconds#Accumulate up to {{Damage}} +1 per floor#Killing any boss immediately stops this floor's damage growth#Doors in rooms with living bosses stay open"
       },
       "seijaBuff": {
         "zh": "",
@@ -22097,7 +22097,7 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Player3}} 犹大开局#{{Item:Book_of_How_to_Fly}} 使用飞行书与{{Collectible619}}长子权进行空战#{{Collectible641}} 书本发射的眼泪会沿飞行轨迹留在角色身后#难度等级：普通",
+        "zh": "{{Player3}} 犹大开局#{{Item:Book_of_How_to_Fly}} 使用飞行书与{{Collectible619}}长子名分进行空战#{{Collectible641}} 书本发射的眼泪会沿飞行轨迹留在角色身后#难度等级：普通",
         "en": "{{Player3}} Play as Judas#{{Item:Book_of_How_to_Fly}} Fight in the air with How to Fly and {{Collectible619}}Birthright#{{Collectible641}} Tears fired by books remain along your flight path#Difficulty: Normal"
       },
       "seijaBuff": {

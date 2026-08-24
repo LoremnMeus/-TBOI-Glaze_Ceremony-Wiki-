@@ -12,10 +12,6 @@ status: featured
 
 ## 机制说明
 
-### 关键词：灾难之终械
-
-青无法普通攻击。她使用蓝图制造 Air Flight，并用准星、阵型和火控指挥已上线的飞行器。
-
 ### 玩法
 
 {{Character:sp-w-qing}} 通过 {{System:blueprint-air-flight}} 制造、改装和编组 Air Flight。制造飞行器时投入的道具只作为机体成本；安装到模块槽的道具才会改变对应机体。同一件道具只能被蓝图占用一次。

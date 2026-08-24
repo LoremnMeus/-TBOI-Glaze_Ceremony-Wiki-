@@ -4,7 +4,7 @@ kind: character
 internalKey: Zeiz
 title: 泽伊兹
 description: "灾难之理"
-status: featured
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>泽伊兹 Zeiz Zeiz zeiz Zeiz 灾难之理 The Reason of Nitimity 每层从控制中枢任命一名管理员，由其愚见改变世界的运行规则 不同管理员会依照自己的错误认知解释并管理游戏机制 引起管理员的兴趣后，可获得其提出的提案 Appoint an administrator in the Control Hub each floor, whose Folly alters how the world operates Each administrator interprets and manages game rules through their own mistaken reasoning Draw their interest to receive a Proposal</p>
 
@@ -13,10 +13,6 @@ status: featured
 ## 机制说明
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
-
-### 关键词：灾难之理
-
-Zeiz 每层可以进入控制中枢，从候选者中任命一名管理员。已任命管理员的「愚见」会持续改变本局规则。
 
 ### 玩法
 
@@ -43,7 +39,7 @@ Zeiz 每层可以进入控制中枢，从候选者中任命一名管理员。已
 
 提案准备完成后，该管理员会停止通过普通事件继续增长兴趣。当前版本中，提案决策尚未对玩家开放。
 
-当前可见候选包括该隐、店长、???、伯大尼和伊甸；其中只有已经显示具体愚见的管理员会提供相应规则效果。完整名单与兴趣规则见 {{System:control-hub}}。
+完整管理员名单与兴趣规则见 {{System:control-hub}}。
 
 ### 使用技巧
 
