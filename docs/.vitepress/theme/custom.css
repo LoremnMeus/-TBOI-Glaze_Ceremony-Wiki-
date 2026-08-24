@@ -65,3 +65,11 @@ body.wiki-dev-source .VPDoc {
   overflow-x: auto;
   overflow-y: hidden;
 }
+.wiki-mechanics-anchor {
+  display: block;
+  position: relative;
+  top: calc(-1 * var(--vp-nav-height));
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}

@@ -6,7 +6,7 @@ title: 泽伊斯托斯
 description: "灾难之眼"
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>泽伊斯托斯 Zeis Zeistos zeis Zeistos Zeistos 灾难之眼 The Eye of Nitimity 每层可进入死亡证明，从已获得道具附近寻找新的道具 正式获得的道具会扩展之后的可选择范围 临时取得的道具只能使用一层，也不会继续扩展选择范围 Enter Death Certificate each floor and discover new items near those you have already obtained Permanently obtained items expand your future choices Temporary items last only for the floor and cannot expand your choices further</p>
+<p class="wiki-search-index" v-pre>泽伊斯托斯 Zeis Zeistos zeis Zeistos Zeistos 灾难之眼 The Eye of Nitimity 接触道具时不会直接获得，而是将其作为知识送入死亡证明 每层可永久取得知识本身，或临时取得其附近的一项联想 选择联想不会消耗知识；下一层仍可重新选择 自动点亮死亡证明中存在可用知识的房间 Touched items are not gained immediately; they are sent to Death Certificate as knowledge Each floor, claim the knowledge itself or temporarily borrow a nearby association Choosing an association does not consume its knowledge; it can be chosen again next floor Automatically reveals Death Certificate rooms containing available knowledge</p>
 
 <PublicEntry slug="zeis" lang="zh" />
 
@@ -14,21 +14,25 @@ status: reviewed
 
 ### 角色概览
 
-{{Character:zeis}} 每层都能进入 {{System:death-certificate-knowledge}}。第一层可以自由选择一件被动道具作为临时效果；之后，在正常楼层发现的新道具会转入死亡证明，成为一份尚未处理的真实选择，并让其附近道具进入可选择范围。
+{{Character:zeis}} 每层都能进入 {{System:death-certificate-knowledge}}。在正常楼层接触合法道具底座时，Zeis **不会获得该道具**；底座会消失，道具则被送入死亡证明，成为一项长期保存的「知识」。
 
-面对每份真实选择，Zeis 可以永久取得原本道具，也可以放弃它，换取附近另一件道具直到当前楼层结束。
+进入死亡证明后，Zeis 可以永久取得知识本身，也可以只在当前楼层借用它附近的一项「联想」。游戏会自动点亮小地图中存在可用知识的房间，方便直接寻找本层尚可处理的选择。
 
-### 知识与关联
+### 知识与联想
 
 | 选择 | 持续时间 | 结果 |
 | --- | --- | --- |
-| 真实道具 | 永久 | 正式取得原本道具，并完成这份选择 |
-| 关联 | 仅当前楼层 | 放弃原本道具，临时取得附近另一件道具 |
+| 知识本身 | 永久 | 正式取得底座所记录的原本道具，并消耗这项知识 |
+| 联想 | 仅当前楼层 | 临时取得附近另一件道具；知识本身不会被消耗 |
 
-关联允许玩家牺牲一次长期成长，取得当前楼层特别需要的效果。临时关联不会作为新的中心继续扩张；已经永久取得的道具也不会在下一层自动重新生成一个关联源。
+知识是持续保存的原始底座，联想则是从它附近借来的本层效果。选择联想后，当前楼层不能再重复使用同一项知识；进入下一层时临时效果消失，原知识会重新恢复为可选状态，玩家仍可永久取得它，或再次改选另一项联想。
 
-部分一次性永久收益会在临时状态下转换或受到保护，避免反复借用关联无限获利。约 150 的连接范围、视觉提示与特殊处理见 {{System:death-certificate-knowledge}}。
+联想不会成为新的知识，也不会继续向外建立第二层联想。部分一次性永久收益会在临时状态下转换或受到保护，避免反复借用无限获利。约 150 的连接范围、视觉提示与特殊处理见 {{System:death-certificate-knowledge}}。
+
+### 主动道具
+
+主动道具尤其适合 Zeis 的循环。换上另一件主动道具时，被换下的主动会保留原有充能并飞回它在死亡证明中的底座位置；它仍然是一项知识，可以在本层转化为附近的其他联想，而不是因主动槽切换而丢失。
 
 ### 使用技巧
 
-选择时应比较“原本道具是否值得整局保留”和“附近关联能否解决本层压力”。急需生存或输出时，临时关联能解决眼前问题；局面稳定时，永久取得原本道具通常更有长期价值。
+小地图已经点亮的房间就是当前最值得检查的知识节点。选择时应比较“原本道具是否值得整局保留”和“附近联想能否解决本层压力”；暂时没有合适答案时，也可以先保留知识，把永久决定留到之后的楼层。

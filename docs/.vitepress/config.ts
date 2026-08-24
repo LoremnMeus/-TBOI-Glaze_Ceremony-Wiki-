@@ -16,7 +16,7 @@ const systemSidebarZh = [
       { text: '透特牌', link: '/systems/thoth-cards' },
       { text: '蓝图与 Air Flight', link: '/systems/blueprint-air-flight' },
       { text: '控制中枢', link: '/systems/control-hub' },
-      { text: '死亡证明与知识', link: '/systems/death-certificate-knowledge' },
+      { text: '知识与联想', link: '/systems/death-certificate-knowledge' },
     ],
   },
 ]
@@ -30,7 +30,7 @@ const systemSidebarEn = [
       { text: 'Thoth Cards', link: '/en/systems/thoth-cards' },
       { text: 'Blueprint & Air Flight', link: '/en/systems/blueprint-air-flight' },
       { text: 'Control Hub', link: '/en/systems/control-hub' },
-      { text: 'Death Certificate & Knowledge', link: '/en/systems/death-certificate-knowledge' },
+      { text: 'Knowledge & Associations', link: '/en/systems/death-certificate-knowledge' },
     ],
   },
 ]

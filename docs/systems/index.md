@@ -11,4 +11,4 @@ description: 跨越多个角色、道具与卡牌的玩法机制
 - [透特牌](./thoth-cards)
 - [蓝图与 Air Flight](./blueprint-air-flight)
 - [控制中枢](./control-hub)
-- [死亡证明与知识](./death-certificate-knowledge)
+- [知识与联想](./death-certificate-knowledge)

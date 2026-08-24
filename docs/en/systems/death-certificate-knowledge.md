@@ -1,10 +1,10 @@
 ---
-title: Death Certificate & Knowledge
+title: Knowledge & Associations
 description: Zeis's knowledge and association system
 status: stub
 ---
 
-# Death Certificate & Knowledge
+# Knowledge & Associations
 
 <!-- Phase 2 system body pending. -->
 

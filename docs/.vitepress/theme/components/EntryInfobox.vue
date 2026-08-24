@@ -10,6 +10,7 @@ const props = defineProps({
   lang: { type: String, default: 'zh' },
   name: { type: String, required: true },
   iconSrc: { type: String, default: '' },
+  iconName: { type: String, default: '' },
 })
 
 const en = computed(() => props.lang === 'en')
@@ -99,7 +100,8 @@ function wikiKind(kind) {
 <template>
   <aside class="entry-infobox" :aria-label="en ? 'Game object facts' : '游戏对象资料卡'">
     <div class="entry-infobox__title">
-      <img v-if="iconSrc" :src="withBase(iconSrc)" :alt="name" decoding="async" />
+      <span v-if="iconName" class="entry-infobox__title-eid"><EidIcon :name="iconName" /></span>
+      <img v-else-if="iconSrc" :src="withBase(iconSrc)" :alt="name" decoding="async" />
       <div>
         <strong>{{ name }}</strong>
         <small v-if="altName && altName !== name">{{ altName }}</small>
@@ -172,7 +174,13 @@ function wikiKind(kind) {
         <dt>{{ en ? 'Challenge no.' : '挑战编号' }}</dt><dd>#{{ entry.challengeBase.number }}</dd>
       </template>
       <template v-if="entry.kind === 'challenge' && entry.displayCharacter">
-        <dt>{{ en ? 'Character' : '使用角色' }}</dt><dd><WikiEntryIcon :name="'Character:' + entry.displayCharacter" /></dd>
+        <dt>{{ en ? 'Character' : '使用角色' }}</dt>
+        <dd class="entry-infobox__character">
+          <EidIcon v-if="modEntry(entry.displayCharacter)" :name="`QingPlayer:${modEntry(entry.displayCharacter).internalKey}`" />
+          <a :href="withBase(`${en ? '/en' : ''}/characters/${entry.displayCharacter}`)">
+            {{ modEntry(entry.displayCharacter)?.names?.[lang] || modEntry(entry.displayCharacter)?.names?.zh || entry.displayCharacter }}
+          </a>
+        </dd>
       </template>
       <template v-else-if="entry.kind === 'challenge' && entry.playerType != null">
         <dt>{{ en ? 'Character' : '使用角色' }}</dt><dd><EidIcon :name="'Player' + entry.playerType" /></dd>
@@ -287,6 +295,7 @@ function wikiKind(kind) {
 .entry-infobox { width: 100%; border: 1px solid var(--vp-c-divider); border-radius: 10px; overflow: hidden; background: var(--vp-c-bg-soft); font-size: .88rem; }
 .entry-infobox__title { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: .75rem; align-items: center; padding: .85rem; background: color-mix(in srgb, var(--vp-c-brand-1) 10%, var(--vp-c-bg-soft)); }
 .entry-infobox__title img { width: 72px; height: 72px; object-fit: contain; image-rendering: pixelated; }
+.entry-infobox__title-eid { display: flex; width: 72px; height: 72px; align-items: center; justify-content: center; }
 .entry-infobox__title strong, .entry-infobox__title small, .entry-infobox__title em { display: block; }
 .entry-infobox__title strong { font-size: 1.05rem; }
 .entry-infobox__title small { color: var(--vp-c-text-2); }
@@ -296,6 +305,7 @@ function wikiKind(kind) {
 .entry-infobox dt { color: var(--vp-c-text-2); font-weight: 600; }
 .entry-infobox__chips, .entry-infobox__icons, .entry-infobox__stats { display: flex; flex-wrap: wrap; gap: .3rem .45rem; }
 .entry-infobox__quality, .entry-infobox__charge-label { display: flex; align-items: center; gap: .3rem; }
+.entry-infobox__character { display: flex; align-items: center; gap: .25rem; }
 .entry-infobox__charge strong { margin-left: auto; }
 .entry-infobox__charge-bar { display: grid; gap: 2px; margin-top: .35rem; }
 .entry-infobox__charge-bar i { grid-column: span 1; height: 7px; border: 1px solid color-mix(in srgb, var(--vp-c-text-2) 45%, transparent); border-radius: 2px; background: var(--vp-c-bg); }

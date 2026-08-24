@@ -14,7 +14,7 @@ npm --prefix wiki run docs:dev
 
 浏览器打开 `http://localhost:5173/`。图标墙：[/icons](/icons)。标注说明书：[/markup](/markup)。格式拷贝：[格式参考](/markup-cheatsheet)。
 
-本地开发服务器（`npm --prefix wiki run docs:dev`）会在条目页底部显示**编辑机制说明**：只有本机可写盘，可切换源码 / 渲染 / 分栏，按类别插入图标。这里的“机制说明”是历史编辑位点名称，实际代表整个玩家百科正文区，并不要求写成技术报告。生产构建和公开 Wiki 没有这个面板。不要用它改 `generated/`。
+本地开发服务器（`npm --prefix wiki run docs:dev`）会在条目页底部显示**编辑机制说明**：只有本机可写盘，可切换源码 / 渲染 / 分栏，按类别插入图标。这里的“机制说明”是历史编辑位点名称，实际代表整个玩家百科正文区，并不要求写成技术报告。Markdown 中的标题会继续作为编辑锚点保留，但公开页面不显示该标题，目录直接从“效果 / 玩法”等正文栏目开始。生产构建和公开 Wiki 没有编辑面板。不要用它改 `generated/`。
 
 `export_wiki_icons.py` 需要本机 `extracted_resources` 和 EID 模组；CI 只跑 `export_wiki_data.py`。全量条目由 `generate_public_metadata.py` 从 XML 登记（跳过 hidden）；之后新道具再补登记或重跑该脚本。
 

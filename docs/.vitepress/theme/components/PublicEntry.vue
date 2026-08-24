@@ -68,6 +68,20 @@ const missingEnglish = computed(() => {
   return !desc.value || !eid.value
 })
 const tags = computed(() => (entry.value?.tags || []).filter(Boolean))
+const displayCharacterEntry = computed(() => {
+  const slug = entry.value?.displayCharacter
+  if (!slug) return null
+  return (catalog.entries || []).find((row) => row.kind === 'character' && row.slug === slug) || null
+})
+const infoboxIconName = computed(() => {
+  if (entry.value?.kind !== 'challenge' || !displayCharacterEntry.value) return ''
+  return `QingPlayer:${displayCharacterEntry.value.internalKey}`
+})
+const infoboxIconSrc = computed(() => {
+  const row = entry.value
+  if (!row || infoboxIconName.value) return ''
+  return row.kind === 'character' ? (row.portrait || row.icon) : (row.thumb64 || row.icon || row.portrait)
+})
 
 </script>
 
@@ -88,7 +102,7 @@ const tags = computed(() => (entry.value?.tags || []).filter(Boolean))
           <EidMarkup v-if="seijaNerf" :text="seijaNerf" />
         </section>
       </div>
-      <EntryInfobox :entry="entry" :lang="lang" :name="name" :icon-src="entry.kind === 'character' ? (entry.portrait || entry.icon) : (entry.thumb64 || entry.icon || entry.portrait)" />
+      <EntryInfobox :entry="entry" :lang="lang" :name="name" :icon-src="infoboxIconSrc" :icon-name="infoboxIconName" />
     </div>
     <CharacterBirthright v-if="entry.kind === 'character' && entry.characterBase?.birthright" :birthright="entry.characterBase.birthright" :lang="lang" />
     <MissingTranslation v-if="missingEnglish" />

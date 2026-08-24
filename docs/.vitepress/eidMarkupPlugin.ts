@@ -27,6 +27,36 @@ export function eidMarkupPlugin(md: {
   core: { ruler: { after: (name: string, fn: (state: any) => void) => void } }
 }) {
   md.core.ruler.after('inline', 'eid-markup', (state) => {
+    let inMechanicsBody = false
+    for (let index = 0; index + 2 < state.tokens.length; index += 1) {
+      const open = state.tokens[index]
+      const inline = state.tokens[index + 1]
+      const close = state.tokens[index + 2]
+      if (inMechanicsBody && open.type === 'heading_open' && open.tag === 'h3' && close.type === 'heading_close') {
+        open.tag = 'h2'
+        close.tag = 'h2'
+      }
+      if (open.type !== 'heading_open' || open.tag !== 'h2' || inline.type !== 'inline' || close.type !== 'heading_close') continue
+      const heading = String(inline.content || '').trim()
+      if (heading !== '机制说明' && heading !== 'Mechanics') continue
+
+      const anchor = heading === '机制说明' ? '机制说明' : 'mechanics'
+      open.type = 'html_block'
+      open.tag = ''
+      open.nesting = 0
+      open.content = `<span id="${anchor}" class="wiki-mechanics-anchor" aria-hidden="true"></span>\n`
+      inline.type = 'html_block'
+      inline.tag = ''
+      inline.nesting = 0
+      inline.content = ''
+      inline.children = null
+      close.type = 'html_block'
+      close.tag = ''
+      close.nesting = 0
+      close.content = ''
+      inMechanicsBody = true
+    }
+
     for (const token of state.tokens) {
       if (token.type === 'html_block' || token.type === 'fence' || token.type === 'code_block') {
         if (token.content && token.content.includes('{{') && !/\bv-pre\b/.test(token.content)) {

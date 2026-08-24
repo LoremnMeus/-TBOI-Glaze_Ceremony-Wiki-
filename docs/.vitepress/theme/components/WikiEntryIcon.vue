@@ -17,7 +17,7 @@ const SYSTEMS = {
   'thoth-cards': { zh: '透特牌', en: 'Thoth Cards' },
   'blueprint-air-flight': { zh: '蓝图与 Air Flight', en: 'Blueprint & Air Flight' },
   'control-hub': { zh: '控制中枢', en: 'Control Hub' },
-  'death-certificate-knowledge': { zh: '死亡证明与知识', en: 'Death Certificate & Knowledge' },
+  'death-certificate-knowledge': { zh: '知识与联想', en: 'Knowledge & Associations' },
 }
 
 const props = defineProps({

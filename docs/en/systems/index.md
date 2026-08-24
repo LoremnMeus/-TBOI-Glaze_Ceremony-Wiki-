@@ -11,4 +11,4 @@ System pages explain concepts shared by multiple entries. Character, item, and c
 - [Thoth Cards](./thoth-cards)
 - [Blueprint & Air Flight](./blueprint-air-flight)
 - [Control Hub](./control-hub)
-- [Death Certificate & Knowledge](./death-certificate-knowledge)
+- [Knowledge & Associations](./death-certificate-knowledge)
