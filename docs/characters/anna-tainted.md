@@ -6,7 +6,7 @@ kind: character
 internalKey: annA
 status: featured
 ---
-<p class="wiki-search-index" v-pre>安奈 Anna annA anna-tainted annA 灾难之魔 The Devil of Nitimity 用准星选择落点，以自身为武器发动高威力坠击 满蓄力后移动至准星上方，对落点附近造成巨额伤害 准星也决定攻击后的站位；攻击过程及结束后0.25秒内无敌 Choose a landing point with the reticle and use annA herself as the weapon At full charge, move above the reticle and crash down for massive area damage The reticle is also your final position; invincible during the attack and for 0.25s afterward</p>
+<p class="wiki-search-index" v-pre>安奈 Anna annA anna-tainted annA 灾难之魔 The Devil of Nitimity 用准星选择落点，以自身为武器发动高威力坠击 满蓄力后移动至准星上方，攻击落点附近的敌人 准星也决定攻击后的站位；攻击过程及结束后0.25秒内无敌 Choose a landing point with the reticle and use annA herself as the weapon At full charge, move above the reticle and crash down to attack nearby enemies The reticle is also your final position; invincible during the attack and for 0.25s afterward</p>
 
 <PublicEntry slug="anna-tainted" lang="zh" />
 
@@ -14,9 +14,9 @@ status: featured
 
 ### 玩法
 
-**用准星选择落点，以自身为武器发动毁灭性的坠击。**
+**用准星选择落点，以自身为武器发动坠击。**
 
-{{Character:anna-tainted}} 不使用 Anna 的掌中黑洞。攻击时，她操纵准星选择落点并持续蓄力；蓄满后会移动至准星上方，以高速坠击对附近敌人造成巨额伤害。
+{{Character:anna-tainted}} 不使用 Anna 的掌中黑洞。攻击时，她操纵准星选择落点并持续蓄力；蓄满后会移动至准星上方，再高速坠下攻击落点附近的敌人。基础坠击造成 **5×当前攻击伤害**；攻击方式道具可能进一步改变其形式、范围或倍率。
 
 **准星在哪里，她最终就会在哪里。** 坠击期间的保护和落地后的短暂无敌足以让她冲进危险区域，却不能保证攻击结束后的安全。
 
@@ -37,10 +37,6 @@ status: featured
 坠击过程中 annA 受到保护；攻击结束后还会获得 <strong>0.25 秒（15 帧）</strong>的无敌时间。这段时间结束后，她仍然停留在落点。
 
 这段保护用于保证攻击完成，并提供极短的撤离窗口。下一次坠击仍需重新蓄力，因此两次攻击之间存在正常受伤窗口。
-
-### 数值
-
-基础坠击伤害为当前攻击的 **5 倍**。攻击方式道具可能进一步改变坠击的形式、范围或倍率。
 
 ### 使用技巧
 

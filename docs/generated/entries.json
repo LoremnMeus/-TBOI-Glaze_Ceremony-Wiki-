@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T18:07:20Z",
+  "generatedAt": "2026-08-24T18:25:39Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -20693,7 +20693,7 @@
           "xmlSummary": "I Sting on me"
         }
       },
-      "tecroCompatibility": [
+      "tecroSpecialInteractions": [
         {
           "id": 52,
           "name": "尖体炸弹",
@@ -20755,9 +20755,104 @@
           "description": "锋利而可怖！"
         },
         {
+          "id": 222,
+          "name": "",
+          "description": "枪尖在空中漂浮"
+        },
+        {
+          "id": 69,
+          "name": "",
+          "description": "枪尖变得自由"
+        },
+        {
+          "id": 316,
+          "name": "",
+          "description": "枪尖的诅咒"
+        },
+        {
+          "id": 533,
+          "name": "",
+          "description": "枪尖引导神圣"
+        },
+        {
+          "id": 696,
+          "name": "",
+          "description": "枪尖带来救济"
+        },
+        {
+          "id": 331,
+          "name": "",
+          "description": "枪尖象征上神"
+        },
+        {
+          "id": 149,
+          "name": "",
+          "description": "枪尖带来爆破"
+        },
+        {
+          "id": 462,
+          "name": "",
+          "description": "枪尖如有恶魔"
+        },
+        {
+          "id": 358,
+          "name": "",
+          "description": "出枪决不能偏！"
+        },
+        {
+          "id": 524,
+          "name": "",
+          "description": "这枪导电！"
+        },
+        {
+          "id": 494,
+          "name": "",
+          "description": "这枪导电？"
+        },
+        {
+          "id": 152,
+          "name": "",
+          "description": "似乎可以用来改造枪尖？"
+        },
+        {
+          "id": 130,
+          "name": "",
+          "description": "匹马单枪出重围"
+        },
+        {
+          "id": 181,
+          "name": "",
+          "description": "英风锐气敌胆寒"
+        },
+        {
           "id": 508,
           "name": "锐利的剃刀",
           "description": "刺破它们的血管"
+        },
+        {
+          "id": 40,
+          "name": "",
+          "description": "有趣..."
+        },
+        {
+          "id": 473,
+          "name": "",
+          "description": "你也喜欢尖锐么？"
+        },
+        {
+          "id": 88,
+          "name": "",
+          "description": "你也喜欢尖锐吧！"
+        },
+        {
+          "id": 48,
+          "name": "",
+          "description": "箭矢犹锋"
+        },
+        {
+          "id": 692,
+          "name": "",
+          "description": "定要撕开一道裂口"
         },
         {
           "id": 705,
@@ -20765,9 +20860,39 @@
           "description": "黑夜与枪共舞"
         },
         {
+          "id": 83,
+          "name": "",
+          "description": "钉头还算锋利"
+        },
+        {
+          "id": 359,
+          "name": "",
+          "description": "钉头有些锋利"
+        },
+        {
           "id": 623,
           "name": "钥枪",
           "description": "锋利的...钥匙？"
+        },
+        {
+          "id": 306,
+          "name": "",
+          "description": "象征锋利"
+        },
+        {
+          "id": 400,
+          "name": "",
+          "description": "閽濋攱"
+        },
+        {
+          "id": 336,
+          "name": "",
+          "description": "它在刺我舌头"
+        },
+        {
+          "id": 189,
+          "name": "",
+          "description": "旋转利刃"
         },
         {
           "id": 255,
@@ -20780,9 +20905,74 @@
           "description": "也对资本家特攻"
         },
         {
+          "id": 325,
+          "name": "",
+          "description": "该怎么在另一端操控呢？"
+        },
+        {
+          "id": 107,
+          "name": "",
+          "description": "剪刀可以是枪吗？"
+        },
+        {
           "id": 30,
           "name": "足刃",
           "description": "讲真，我喜欢这个"
+        },
+        {
+          "id": 444,
+          "name": "",
+          "description": "尖而不利"
+        },
+        {
+          "id": 396,
+          "name": "",
+          "description": "只能用来划开肉壁"
+        },
+        {
+          "id": 663,
+          "name": "",
+          "description": "理论上，这也是刺"
+        },
+        {
+          "id": 708,
+          "name": "",
+          "description": "它甚至不能扎破手指！"
+        },
+        {
+          "id": 205,
+          "name": "",
+          "description": "锋利，可惜有点小"
+        },
+        {
+          "id": 339,
+          "name": "",
+          "description": "锋利，可惜实在太小"
+        },
+        {
+          "id": 448,
+          "name": "",
+          "description": "徒有锋利，一无是处"
+        },
+        {
+          "id": 126,
+          "name": "",
+          "description": "锋利，但在枪尖用不上"
+        },
+        {
+          "id": 135,
+          "name": "",
+          "description": "锋利，但在难以镶上枪尖"
+        },
+        {
+          "id": 186,
+          "name": "",
+          "description": "锋利，但刃口只能对着自己"
+        },
+        {
+          "id": 555,
+          "name": "",
+          "description": "黄金枪？开什么玩笑！"
         },
         {
           "id": 592,
@@ -20795,9 +20985,149 @@
           "description": "寒意刺骨"
         },
         {
+          "id": 593,
+          "name": "",
+          "description": "冲锋枪？"
+        },
+        {
+          "id": 597,
+          "name": "",
+          "description": "半自动枪？"
+        },
+        {
+          "id": 591,
+          "name": "",
+          "description": "热流枪？"
+        },
+        {
+          "id": 5,
+          "name": "",
+          "description": "回马枪？"
+        },
+        {
+          "id": 87,
+          "name": "",
+          "description": "以防腹背受敌"
+        },
+        {
+          "id": 2,
+          "name": "",
+          "description": "落枪如雷"
+        },
+        {
+          "id": 153,
+          "name": "",
+          "description": "飞枪如瀑"
+        },
+        {
+          "id": 245,
+          "name": "",
+          "description": "枪底藏锋"
+        },
+        {
+          "id": 3,
+          "name": "",
+          "description": "宁折不弯"
+        },
+        {
           "id": 32,
           "name": "弯刃鸭架",
           "description": "掰直顶部的话还能勉强用用"
+        },
+        {
+          "id": 528,
+          "name": "",
+          "description": "易碎的尖角"
+        },
+        {
+          "id": 215,
+          "name": "",
+          "description": "这玩意也能穿在枪头诶！"
+        },
+        {
+          "id": 560,
+          "name": "",
+          "description": "又细又软，不怎么行"
+        },
+        {
+          "id": 31,
+          "name": "",
+          "description": "并不尖锐，只能凑合着用"
+        },
+        {
+          "id": 376,
+          "name": "",
+          "description": "把尖锐符号化？"
+        },
+        {
+          "id": 138,
+          "name": "",
+          "description": "这木头满是刺渣"
+        },
+        {
+          "id": 62,
+          "name": "",
+          "description": "快！用尖牙咬他！"
+        },
+        {
+          "id": 77,
+          "name": "",
+          "description": "奇怪的手感"
+        },
+        {
+          "id": 298,
+          "name": "",
+          "description": "更奇怪的手感"
+        },
+        {
+          "id": 387,
+          "name": "",
+          "description": "可它一点也不尖..."
+        },
+        {
+          "id": 544,
+          "name": "",
+          "description": "骨刺可不是个好兆头"
+        },
+        {
+          "id": 631,
+          "name": "",
+          "description": "我可不是厨子"
+        },
+        {
+          "id": 577,
+          "name": "",
+          "description": "我讨厌被刺穿"
+        },
+        {
+          "id": 656,
+          "name": "",
+          "description": "我非常讨厌被刺穿"
+        },
+        {
+          "id": 169,
+          "name": "",
+          "description": "可惜怪力与穿刺是两回事"
+        },
+        {
+          "id": 237,
+          "name": "",
+          "description": "我也不会用这玩意"
+        },
+        {
+          "id": 369,
+          "name": "",
+          "description": "数学再好也不能把枪变成两把"
+        },
+        {
+          "id": 379,
+          "name": "",
+          "description": "不该把美瞳留给我的"
+        },
+        {
+          "id": 506,
+          "name": "",
+          "description": "暗杀这种事还是交给别人吧"
         },
         {
           "id": 467,
@@ -20810,9 +21140,34 @@
           "description": "飞枪术其实并不怎么好用"
         },
         {
+          "id": 229,
+          "name": "",
+          "description": "隐枪于万向"
+        },
+        {
           "id": 233,
           "name": "星落",
           "description": "枪如陀螺"
+        },
+        {
+          "id": 330,
+          "name": "",
+          "description": "枪疾似电"
+        },
+        {
+          "id": 561,
+          "name": "",
+          "description": "枪快如风"
+        },
+        {
+          "id": 626,
+          "name": "",
+          "description": "锋？"
+        },
+        {
+          "id": 627,
+          "name": "",
+          "description": "利！"
         }
       ],
       "challengeBase": null,
@@ -20912,6 +21267,7 @@
           "xmlSummary": "Light"
         }
       },
+      "tecrorunRouteScaling": {},
       "challengeBase": null,
       "baseStats": null,
       "series": null,
@@ -21003,7 +21359,7 @@
           "xmlSummary": "Bloody Disaster"
         }
       },
-      "annaCompatibility": [
+      "annaSpecialInteractions": [
         {
           "id": 52,
           "name": "爆灾",
@@ -21237,8 +21593,8 @@
         "en": "The Devil of Nitimity"
       },
       "eid": {
-        "zh": "用准星选择落点，以自身为武器发动高威力坠击#满蓄力后移动至准星上方，对落点附近造成巨额伤害#准星也决定攻击后的站位；攻击过程及结束后0.25秒内无敌",
-        "en": "Choose a landing point with the reticle and use annA herself as the weapon#At full charge, move above the reticle and crash down for massive area damage#The reticle is also your final position; invincible during the attack and for 0.25s afterward"
+        "zh": "用准星选择落点，以自身为武器发动高威力坠击#满蓄力后移动至准星上方，攻击落点附近的敌人#准星也决定攻击后的站位；攻击过程及结束后0.25秒内无敌",
+        "en": "Choose a landing point with the reticle and use annA herself as the weapon#At full charge, move above the reticle and crash down to attack nearby enemies#The reticle is also your final position; invincible during the attack and for 0.25s afterward"
       },
       "seijaBuff": {
         "zh": "",
