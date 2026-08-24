@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T17:12:40Z",
+  "generatedAt": "2026-08-24T17:22:09Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -21099,8 +21099,8 @@
         "en": "The Eye of Nitimity"
       },
       "eid": {
-        "zh": "接触道具时不会直接获得，而是将其作为知识送入死亡证明#每层可永久取得知识本身，或临时取得其附近的一项遐想#选择遐想不会消耗知识；下一层仍可重新选择#自动点亮死亡证明中存在可用知识的房间",
-        "en": "Touched items are not gained immediately; they are sent to Death Certificate as knowledge#Each floor, claim the knowledge itself or temporarily realize a nearby reverie#Choosing a reverie does not consume its knowledge; it can be chosen again next floor#Automatically reveals Death Certificate rooms containing available knowledge"
+        "zh": "接触道具时不会直接获得，而是将其作为知识送入死亡证明#每层可永久取得知识对应的道具，或临时取得其附近的一项遐想#选择遐想不会消耗知识；下一层仍可重新选择#自动点亮死亡证明中存在可用知识的房间",
+        "en": "Touched items are not gained immediately; they are sent to Death Certificate as knowledge#Each floor, claim the item recorded as knowledge or temporarily realize a nearby reverie#Choosing a reverie does not consume its knowledge; it can be chosen again next floor#Automatically reveals Death Certificate rooms containing available knowledge"
       },
       "seijaBuff": {
         "zh": "",
