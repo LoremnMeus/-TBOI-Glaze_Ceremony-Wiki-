@@ -9,6 +9,8 @@ const KIND_DIR = {
   card: 'cards',
   character: 'characters',
   challenge: 'challenges',
+  pickup: 'pickups',
+  slot: 'slots',
   system: 'systems',
 }
 

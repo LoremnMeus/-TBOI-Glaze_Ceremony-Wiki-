@@ -24,7 +24,31 @@ npm --prefix wiki run docs:dev
 2. **自动基线**：跑 `export_wiki_data.py`。灌 Desc/EID、拷图标、写搜索用 title。Markdown 的机制正文**永不覆盖**；只更新 frontmatter 和隐藏的搜索索引块。
 3. **人工/AI 玩家正文**：改 `wiki/docs/<kind>/<slug>.md` 里 `## 机制说明` **之后**。普通词条优先直接写“效果”，再按需写注意、交互、协同、技巧与轶事；大型角色/系统才使用简介、操作和流程。资料卡、技术 ID、EID 由 `<PublicEntry>` 负责。标注见 [markup.md](./markup.md)。
 4. **状态**：`wiki/docs/generated/page-status.json` 使用 `stub / drafted / reviewed / featured`。前两项由正文自动判断；完整核验后才在页面 frontmatter 手动提升为 `reviewed` 或 `featured`。不要手改 `entries.json` 或生成的状态 JSON。
-5. **发布**：私有仓 commit/push；打 `v*` tag 才同步公开 Wiki。
+5. **发布**：私有仓是唯一源。提交消息包含 `[publish-wiki]` 时只同步公开 Wiki；`[publish-release]` 只同步公开 Release；`[publish-both]` 同步两者。正式版本仍使用与 `main.lua` 版本一致的 `v*` tag，并创建 GitHub Release。普通 commit/push 不更新公共仓库。
+
+## 日常维护与发布验收
+
+Cursor、Codex 或人工编辑一次 Wiki 时，按下面的最短闭环执行；不要直接改公共 Wiki 仓库或 `wiki/docs/generated/`：
+
+1. **确定事实来源**：先读目标 Lua/XML；角色、大型系统与固定术语再定向读取 `ai_context/README.md` 指向的相关文件。实现与长期语义冲突时先报告，不静默选择一方。
+2. **编辑正确层级**：EID/搜索摘要改 `Qing_Remaster_scripts/translations/translate.lua`；玩家正文改对应 Markdown 的人工区；自动资料卡字段改 `public_metadata` 或导出器。生成 JSON 和 `public/generated` 图片不得手改。
+3. **重新导出**：运行 `python scripts/publication/export_wiki_data.py`。角色肖像、道具图等源资源变化也必须重跑，确认对应 `wiki/docs/public/generated/images/` 文件产生实际 diff。
+4. **校验元数据**：运行 `python scripts/publication/validate_public_metadata.py`，要求 `errors=0`。若修改原版/EID 图标源，再按需要运行 `export_wiki_icons.py`。
+5. **完整构建**：运行 `npm --prefix wiki run docs:build`。构建失败时先修复链接、Vue 组件或 Markdown，不得只提交生成数据绕过错误。
+6. **检查差异**：运行 `git diff --check` 和 `git status --short`；确认没有探针日志、`dist/`、密钥或临时文件。已有用户修改不是清理目标，不得为了工作区变干净而恢复或删除。
+7. **提交发布**：只发布 Wiki 时，提交消息加入 `[publish-wiki]`，随后推送私有仓 `main`。这会触发公共 Wiki 同步；不要额外制造版本 tag。
+
+推荐验收命令（项目声明的 Python 环境优先；下列使用通用写法）：
+
+```text
+python scripts/publication/export_wiki_data.py
+python scripts/publication/validate_public_metadata.py
+npm --prefix wiki run docs:build
+git diff --check
+git status --short
+```
+
+完成后至少报告：修改了哪些人工正文/组件、导出条目数与缺失数、元数据错误数、构建结果、私有分支和提交哈希。若没有安装 GitHub CLI，不影响通过提交标记触发发布，但应明确说明未从本机继续查询 Actions 状态。
 
 ## 2. 玩家百科正文（改 Markdown）
 
