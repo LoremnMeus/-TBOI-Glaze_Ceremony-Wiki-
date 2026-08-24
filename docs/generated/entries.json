@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T17:54:08Z",
+  "generatedAt": "2026-08-24T18:07:20Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -20693,6 +20693,128 @@
           "xmlSummary": "I Sting on me"
         }
       },
+      "tecroCompatibility": [
+        {
+          "id": 52,
+          "name": "尖体炸弹",
+          "description": "锋利到爆炸！"
+        },
+        {
+          "id": 114,
+          "name": "锐利的菜刀",
+          "description": "锋利而完美！"
+        },
+        {
+          "id": 118,
+          "name": "硫磺利焰",
+          "description": "锋利而华丽！"
+        },
+        {
+          "id": 579,
+          "name": "英灵神锋",
+          "description": "锋利而优雅！"
+        },
+        {
+          "id": 68,
+          "name": "镭射利焰",
+          "description": "锋利而喧嚣！"
+        },
+        {
+          "id": 395,
+          "name": "镭射环刃",
+          "description": "锋利而圆满！"
+        },
+        {
+          "id": 168,
+          "name": "东风-XXXI",
+          "description": "锋利而强盛！"
+        },
+        {
+          "id": 399,
+          "name": "虚空利刃",
+          "description": "锋利而贪食！"
+        },
+        {
+          "id": 678,
+          "name": "限界飞针",
+          "description": "锋利而敏锐！"
+        },
+        {
+          "id": 172,
+          "name": "祭奠之利齿",
+          "description": "锋利而喋血！"
+        },
+        {
+          "id": 408,
+          "name": "祭奠之利刃",
+          "description": "锋利而嗜血！"
+        },
+        {
+          "id": 569,
+          "name": "刃之誓言",
+          "description": "锋利而可怖！"
+        },
+        {
+          "id": 508,
+          "name": "锐利的剃刀",
+          "description": "刺破它们的血管"
+        },
+        {
+          "id": 705,
+          "name": "暗锋寻踪",
+          "description": "黑夜与枪共舞"
+        },
+        {
+          "id": 623,
+          "name": "钥枪",
+          "description": "锋利的...钥匙？"
+        },
+        {
+          "id": 255,
+          "name": "尖头螺丝",
+          "description": "确实是尖头啦"
+        },
+        {
+          "id": 206,
+          "name": "国王快乐台",
+          "description": "也对资本家特攻"
+        },
+        {
+          "id": 30,
+          "name": "足刃",
+          "description": "讲真，我喜欢这个"
+        },
+        {
+          "id": 592,
+          "name": "石开利刃",
+          "description": "唯锐可以破坚"
+        },
+        {
+          "id": 596,
+          "name": "冰行利刃",
+          "description": "寒意刺骨"
+        },
+        {
+          "id": 32,
+          "name": "弯刃鸭架",
+          "description": "掰直顶部的话还能勉强用用"
+        },
+        {
+          "id": 467,
+          "name": "手指枪",
+          "description": "指枪 · 六王枪！"
+        },
+        {
+          "id": 329,
+          "name": "御枪飞行",
+          "description": "飞枪术其实并不怎么好用"
+        },
+        {
+          "id": 233,
+          "name": "星落",
+          "description": "枪如陀螺"
+        }
+      ],
       "challengeBase": null,
       "baseStats": null,
       "series": null,
@@ -20729,8 +20851,8 @@
         "en": "The Tooth of Nitimity"
       },
       "eid": {
-        "zh": "操纵环绕自身的长枪，以攻击方向调整枪尖朝向#蓄力后松开攻击，向枪尖方向发动突刺",
-        "en": "Control a spear that rotates around Tecro, using attack directions to aim its tip#Charge and release to thrust in the aimed direction"
+        "zh": "操纵持续存在的长枪，将敌人穿在枪上并继续旋转#枪尖实际移动越快，接触伤害越高#蓄力后松开攻击，向枪尖方向发动突刺",
+        "en": "Control a persistent spear, impale enemies, and keep them on the weapon as it rotates#Higher actual spear-tip speed deals more contact damage#Charge and release to thrust in the spear tip's direction"
       },
       "seijaBuff": {
         "zh": "",

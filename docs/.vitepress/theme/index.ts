@@ -15,6 +15,7 @@ import FeaturedEntries from './components/FeaturedEntries.vue'
 import CategoryLanding from './components/CategoryLanding.vue'
 import VanillaEntity from './components/VanillaEntity.vue'
 import AnnaCompatibility from './components/AnnaCompatibility.vue'
+import TecroCompatibility from './components/TecroCompatibility.vue'
 import './custom.css'
 
 export default {
@@ -38,5 +39,6 @@ export default {
     app.component('CategoryLanding', CategoryLanding)
     app.component('VanillaEntity', VanillaEntity)
     app.component('AnnaCompatibility', AnnaCompatibility)
+    app.component('TecroCompatibility', TecroCompatibility)
   },
 }
