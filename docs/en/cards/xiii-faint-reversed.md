@@ -1,12 +1,12 @@
 ---
-title: XIII - Faint
-description: "Generate a bed After sleeping on this bed,be transmitted to a random room and the background of all rooms this floor will be changed Remove the bed after leaving the room Chance of"
+title: "XIII - Faint?"
+description: "Reduced all attributes in this room temporarily Chance to spawn soul heart and red heart after being injured in this room"
 slug: xiii-faint-reversed
 kind: card
 internalKey: Faint_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>XIII - 长眠 XIII - Faint Faint_r xiii-faint-reversed XIII - Faint? 梦入异乡 生成一张床 用此床入睡后，传送至随机房间，并改变本层所有房间的背景 离开本房间后此床消失 概率生成坏床：入睡后无法传送 Generate a bed After sleeping on this bed,be transmitted to a random room and the background of all rooms this floor will be changed Remove the bed after leaving the room Chance of 1/5 generating a bad bed which can&#x27;t teleport you.</p>
+<p class="wiki-search-index" v-pre>XIII - 长眠? XIII - Faint? Faint_r xiii-faint-reversed XIII - Faint? 生死交辉 !!! 本房间内全属性暂时下降 本房间内受伤后，随机掉落魂心、红心 店长改为掉落硬币 Reduced all attributes in this room temporarily Chance to spawn soul heart and red heart after being injured in this room</p>
 
 <PublicEntry slug="xiii-faint-reversed" lang="en" />
 

@@ -127,7 +127,9 @@ const missingEnglish = computed(() => {
   return !desc.value || !eid.value
 })
 const iconSrc = computed(() => {
-  const src = entry.value?.thumb64 || entry.value?.icon || entry.value?.portrait
+  const src = entry.value?.kind === 'character'
+    ? entry.value?.portrait || entry.value?.icon
+    : entry.value?.thumb64 || entry.value?.icon || entry.value?.portrait
   return src ? withBase(src) : ''
 })
 
@@ -204,7 +206,7 @@ const challengeBits = computed(() => {
     <div class="public-entry__header">
       <img
         v-if="iconSrc"
-        class="public-entry__icon"
+        :class="['public-entry__icon', { 'public-entry__icon--portrait': entry.kind === 'character' }]"
         :src="iconSrc"
         :alt="name"
         width="64"
@@ -289,6 +291,12 @@ const challengeBits = computed(() => {
   height: 64px;
   flex: 0 0 64px;
   image-rendering: pixelated;
+}
+.public-entry__icon--portrait {
+  width: 144px;
+  height: 144px;
+  flex-basis: 144px;
+  object-fit: contain;
 }
 .public-entry__heading {
   min-width: 0;

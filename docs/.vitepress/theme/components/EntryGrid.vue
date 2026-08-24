@@ -35,6 +35,7 @@ function label(entry) {
 }
 
 function atlasStyle(entry) {
+  if (entry.kind === 'character') return null
   const frame = entry.atlas
   const sheet = atlas.value
   if (!frame || !sheet) return null
@@ -61,8 +62,8 @@ function atlasStyle(entry) {
           :aria-label="label(entry)"
         />
         <img
-          v-else-if="entry.thumb32 || entry.icon"
-          :src="withBase(entry.thumb32 || entry.icon)"
+          v-else-if="entry.thumb32 || entry.icon || entry.portrait"
+          :src="withBase(entry.kind === 'character' ? (entry.portrait || entry.icon) : (entry.thumb32 || entry.icon))"
           :alt="label(entry)"
           width="64"
           height="64"
@@ -101,6 +102,9 @@ function atlasStyle(entry) {
   width: 64px;
   height: 64px;
   image-rendering: pixelated;
+}
+.entry-card img {
+  object-fit: contain;
 }
 .entry-card__atlas {
   display: block;

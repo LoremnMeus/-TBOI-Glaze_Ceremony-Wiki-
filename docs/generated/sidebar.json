@@ -800,7 +800,7 @@
             "link": "/cards/xxi-the-universe"
           },
           {
-            "text": "0 - 旅者",
+            "text": "0 - 旅者?",
             "link": "/cards/0-the-fool-reversed"
           },
           {
@@ -808,19 +808,19 @@
             "link": "/cards/i-the-sage-reversed"
           },
           {
-            "text": "II - 女司祭",
+            "text": "II - 女司祭?",
             "link": "/cards/ii-the-high-priestess-reversed"
           },
           {
-            "text": "III - 女帝",
+            "text": "III - 女帝?",
             "link": "/cards/iii-the-empress-reversed"
           },
           {
-            "text": "IV - 帝王",
+            "text": "IV - 帝王?",
             "link": "/cards/iv-the-emperor-reversed"
           },
           {
-            "text": "V - 教导",
+            "text": "V - 教导?",
             "link": "/cards/v-the-hierophant-reversed"
           },
           {
@@ -832,27 +832,27 @@
             "link": "/cards/vii-the-chariot-reversed"
           },
           {
-            "text": "VIII - 调节",
+            "text": "VIII - 调节?",
             "link": "/cards/viii-adjustment-reversed"
           },
           {
-            "text": "IX - 隐者",
+            "text": "IX - 隐者?",
             "link": "/cards/ix-the-hermit-reversed"
           },
           {
-            "text": "X - 命运",
+            "text": "X - 命运?",
             "link": "/cards/x-the-wheel-of-destiny-reversed"
           },
           {
-            "text": "XI - 欲望",
+            "text": "XI - 欲望?",
             "link": "/cards/xi-lure-reversed"
           },
           {
-            "text": "XII - 缚者",
+            "text": "XII - 缚者?",
             "link": "/cards/xii-the-hanged-man-reversed"
           },
           {
-            "text": "XIII - 长眠",
+            "text": "XIII - 长眠?",
             "link": "/cards/xiii-faint-reversed"
           },
           {
@@ -864,15 +864,15 @@
             "link": "/cards/xiii-the-corpse-reversed"
           },
           {
-            "text": "XIV - 艺术",
+            "text": "XIV - 艺术?",
             "link": "/cards/xiv-art-reversed"
           },
           {
-            "text": "XV - 邪心",
+            "text": "XV - 邪心?",
             "link": "/cards/xv-the-devil-reversed"
           },
           {
-            "text": "XVI - 尖塔",
+            "text": "XVI - 尖塔?",
             "link": "/cards/xvi-the-tower-reversed"
           },
           {
@@ -880,19 +880,19 @@
             "link": "/cards/xvii-the-stars-reversed"
           },
           {
-            "text": "XVIII - 太阴",
+            "text": "XVIII - A?",
             "link": "/cards/xviii-the-moon-reversed"
           },
           {
-            "text": "XIX - 太阳",
+            "text": "XIX - 太阳?",
             "link": "/cards/xix-the-sun-reversed"
           },
           {
-            "text": "XX - 永恒",
+            "text": "XX - 永恒?",
             "link": "/cards/xx-the-aeon-reversed"
           },
           {
-            "text": "XXI - 宇宙",
+            "text": "XXI - 宇宙?",
             "link": "/cards/xxi-the-universe-reversed"
           },
           {
@@ -964,7 +964,7 @@
             "link": "/characters/anna"
           },
           {
-            "text": "安娜",
+            "text": "安奈",
             "link": "/characters/anna-tainted"
           },
           {
@@ -1939,7 +1939,7 @@
             "link": "/en/cards/xxi-the-universe"
           },
           {
-            "text": "0 - The Fool",
+            "text": "0 - The Fool?",
             "link": "/en/cards/0-the-fool-reversed"
           },
           {
@@ -1947,19 +1947,19 @@
             "link": "/en/cards/i-the-sage-reversed"
           },
           {
-            "text": "II - The High Priestess",
+            "text": "II - The High Priestess?",
             "link": "/en/cards/ii-the-high-priestess-reversed"
           },
           {
-            "text": "III - The Empress",
+            "text": "III - The Empress?",
             "link": "/en/cards/iii-the-empress-reversed"
           },
           {
-            "text": "IV - The Emperor",
+            "text": "IV - The Emperor?",
             "link": "/en/cards/iv-the-emperor-reversed"
           },
           {
-            "text": "V - The Hierophant",
+            "text": "V - The Hierophant?",
             "link": "/en/cards/v-the-hierophant-reversed"
           },
           {
@@ -1971,27 +1971,27 @@
             "link": "/en/cards/vii-the-chariot-reversed"
           },
           {
-            "text": "VIII - Adjustment",
+            "text": "VIII - Adjustment?",
             "link": "/en/cards/viii-adjustment-reversed"
           },
           {
-            "text": "IX - The Hermit",
+            "text": "IX - The Hermit?",
             "link": "/en/cards/ix-the-hermit-reversed"
           },
           {
-            "text": "X - The Wheel of Destiny",
+            "text": "X - The Wheel of Destiny?",
             "link": "/en/cards/x-the-wheel-of-destiny-reversed"
           },
           {
-            "text": "XI - Lure",
+            "text": "XI - Lure?",
             "link": "/en/cards/xi-lure-reversed"
           },
           {
-            "text": "XII - The Hanged Man",
+            "text": "XII - The Hanged Man?",
             "link": "/en/cards/xii-the-hanged-man-reversed"
           },
           {
-            "text": "XIII - Faint",
+            "text": "XIII - Faint?",
             "link": "/en/cards/xiii-faint-reversed"
           },
           {
@@ -2003,15 +2003,15 @@
             "link": "/en/cards/xiii-the-corpse-reversed"
           },
           {
-            "text": "XIV - Art",
+            "text": "XIV - Art?",
             "link": "/en/cards/xiv-art-reversed"
           },
           {
-            "text": "XV - The Devil",
+            "text": "XV - The Devil?",
             "link": "/en/cards/xv-the-devil-reversed"
           },
           {
-            "text": "XVI - The Tower",
+            "text": "XVI - The Tower?",
             "link": "/en/cards/xvi-the-tower-reversed"
           },
           {
@@ -2019,19 +2019,19 @@
             "link": "/en/cards/xvii-the-stars-reversed"
           },
           {
-            "text": "XVIII - The Moon",
+            "text": "XVIII - A?",
             "link": "/en/cards/xviii-the-moon-reversed"
           },
           {
-            "text": "XIX - The Sun",
+            "text": "XIX - The Sun?",
             "link": "/en/cards/xix-the-sun-reversed"
           },
           {
-            "text": "XX - The Aeon",
+            "text": "XX - The Aeon?",
             "link": "/en/cards/xx-the-aeon-reversed"
           },
           {
-            "text": "XXI - The Universe",
+            "text": "XXI - The Universe?",
             "link": "/en/cards/xxi-the-universe-reversed"
           },
           {
@@ -2239,7 +2239,7 @@
             "link": "/en/slots/"
           },
           {
-            "text": "Bard beggar",
+            "text": "Bard Beggar",
             "link": "/en/slots/bard-beggar"
           },
           {

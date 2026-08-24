@@ -1,12 +1,12 @@
 ---
-title: XIX - 太阳
-description: "物皆重临"
+title: "XIX - 太阳?"
+description: "赞美我！"
 slug: xix-the-sun-reversed
 kind: card
 internalKey: Sun_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>XIX - 太阳 XIX - The Sun Sun_r xix-the-sun-reversed XIX - The Sun? 物皆重临 按照顺序，将本房间内使用的所有卡牌重复执行一次 使用了三种或以上卡牌：额外生成一张随机卡 Repeat all the cards used in this room once in order Three or more cards are used: generate an additional random card</p>
+<p class="wiki-search-index" v-pre>XIX - 太阳? XIX - The Sun? Sun_r xix-the-sun-reversed XIX - The Sun? 赞美我！ 生成一个彩虹传送旋涡，进入后传送至随机特殊房间 此旋涡可以永久使用 After use, gain half a red heart, +0.4 damage and +0.1 speed every minute This effect will disappear in next level</p>
 
 <PublicEntry slug="xix-the-sun-reversed" lang="zh" />
 

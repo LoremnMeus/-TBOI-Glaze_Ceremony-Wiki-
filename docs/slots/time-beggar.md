@@ -6,7 +6,7 @@ kind: slot
 internalKey: Tomorrows_creditor
 status: stub
 ---
-<p class="wiki-search-index" v-pre>来日债主 Tomorrow&#x27;s Creditor Tomorrows_creditor time-beggar Tomorrows Creditor 从来日预支资源，再用未来偿还 靠近后左右切换契约，走进确认 按 取消 Borrow resources from tomorrow and repay them later Switch contracts with left/right, walk in to confirm Press to cancel</p>
+<p class="wiki-search-index" v-pre>来日债主 Tomorrow&#x27;s Creditor Tomorrows_creditor time-beggar Tomorrows_creditor 从来日预支资源，再用未来偿还 靠近后左右切换契约，走进确认 按 取消 Borrow resources from tomorrow and repay them later Switch contracts with left/right, walk in to confirm Press to cancel</p>
 
 <PublicEntry slug="time-beggar" lang="zh" />
 

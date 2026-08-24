@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-23T16:05:33Z",
-  "version": "1.0.0",
+  "generatedAt": "2026-08-24T06:02:10Z",
+  "version": "1.0.1",
   "atlas": {
     "webp": "/generated/images/icon-atlas.webp",
     "png": "/generated/images/icon-atlas.png",
@@ -3664,8 +3664,8 @@
         "en": "My blade burns"
       },
       "eid": {
-        "zh": "#斩开事物的间隙 #在间隙中调整它们的属性 #按下 {{eidButton}}",
-        "en": "#Cut out the crevice of an entity #Adjust their attributes in the crevice(ONLY CHINESE) #Press{{eidButton}}"
+        "zh": "#斩开事物的间隙 #在间隙中调整它们的属性 #按下 {{ButtonRT}} 结束属性操作 #按下 {{ButtonLB}} 与 {{ButtonRB}} 在项内切换",
+        "en": "#Cut out the crevice of an entity #Adjust their attributes in the crevice(ONLY CHINESE) #Press{{ButtonRT}}to end attribute adjusting#Press{{ButtonLB}}and{{ButtonRB}}switch in attributes"
       },
       "seijaBuff": {
         "zh": "",
@@ -7482,12 +7482,12 @@
         "en": "Destiny Anchor"
       },
       "desc": {
-        "zh": "这一切都是命运石之门的选择",
-        "en": "This is the choice of Steins;Gate"
+        "zh": "过去仍在前方等待",
+        "en": "The past still waits ahead"
       },
       "eid": {
-        "zh": "在当前房间设置命运锚点，每层最多设置3个#{{ArrowDown}} 下层时，被锚定的房间会在新楼层复现#优先替换相同类型的房间",
-        "en": "Anchors the current room, up to 3 rooms per floor#{{ArrowDown}} Anchored rooms reappear on the next floor#Rooms of the same type are replaced first"
+        "zh": "使用时锚定当前房间，每层最多3个#{{ArrowDown}} 下层时，被锚定的房间会再次出现#优先保留原本的房间布局",
+        "en": "Anchors the current room on use, up to 3 per floor#{{ArrowDown}} Anchored rooms reappear on the next floor#Keeps the original room layout when possible"
       },
       "seijaBuff": {
         "zh": "",
@@ -8554,8 +8554,8 @@
         "en": "This isn't final"
       },
       "eid": {
-        "zh": "按{{eidButton}}",
-        "en": "Press {{eidButton}}"
+        "zh": "靠近多选道具时，按{{ButtonRT}}保留其中一个#拾取保留项以在当前层试用道具，并在下层生成售价{{Coin}}15¢的对应道具#主动也可保留；换下试用主动时，掉落的该主动消失",
+        "en": "Near an option group, press {{ButtonRT}} to reserve one item#Each option group can hold 1 reserved item#Pick up the reserved item to trial it this floor; next floor it returns for {{Coin}}15¢#Actives can be reserved; swapping away a trial active removes its dropped pedestal"
       },
       "seijaBuff": {
         "zh": "",
@@ -12090,16 +12090,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "0 - 旅者",
-        "en": "0 - The Fool"
+        "zh": "0 - 旅者?",
+        "en": "0 - The Fool?"
       },
       "desc": {
-        "zh": "所遗者广",
+        "zh": "所知者稀",
         "en": ""
       },
       "eid": {
-        "zh": "从当前房间道具池中抽取5个道具，并生成其中等级最高道具对应魂火",
-        "en": "Remove 5 items from the itempool and generate the corresponding wisp of the highest quality item"
+        "zh": "从本房间道具池中预知一个道具，下一个生成的道具改为和它一起多选一",
+        "en": "Predict an item from the item pool in this room. The next generated item can be choosed with it"
       },
       "seijaBuff": {
         "zh": "",
@@ -12218,16 +12218,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "II - 女司祭",
-        "en": "II - The High Priestess"
+        "zh": "II - 女司祭?",
+        "en": "II - The High Priestess?"
       },
       "desc": {
-        "zh": "妈妈?是妈妈!",
+        "zh": "和妈妈抱抱！",
         "en": ""
       },
       "eid": {
-        "zh": "角色巨大化#攻击方式改为操纵妈腿攻击#妈腿造成角色攻击40倍的伤害#蓄力时长为10倍角色延迟#持续30s#可叠加",
-        "en": "Temperorily size up#Change your attack method to manipulating mom's stomp#mom's stomp cause 40 times the damage of player#10 times the firedelay of player to charge #Lasts for 30 second #Stackable"
+        "zh": "额外发射略微跟踪的准星，命中敌人则会降下妈手#妈手捕获敌人后可以控制其一段时间#持续30s",
+        "en": "Fire a slightly tracked mark when you attack#Spawn a mother's hand to catpure and freeze the enemy for a period of time.#Lasts for 30 seconds"
       },
       "seijaBuff": {
         "zh": "",
@@ -12282,16 +12282,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "III - 女帝",
-        "en": "III - The Empress"
+        "zh": "III - 女帝?",
+        "en": "III - The Empress?"
       },
       "desc": {
-        "zh": "我最爱互相残杀的剧本了",
+        "zh": "命运的一切礼物，都在暗中标好了价格",
         "en": ""
       },
       "eid": {
-        "zh": "{{Charm}} 魅惑房间内生命值非最高的所有怪物，其生命值降至10%，削弱的生命值补充给生命最高的敌人#生命值最高的敌人变为彩虹变异",
-        "en": "Charm all monsters with not highest HP#Reduce their health to 10% and add them to the highest one#Invalid for bosses"
+        "zh": "重置本层所有道具#本层的道具均需要购买且无法辨认#售价为道具等级的五倍",
+        "en": "Reroll all items in this floor # Items on this floor need to be purchased and cannot be identified# Its price is related to its quality and their original price"
       },
       "seijaBuff": {
         "zh": "",
@@ -12346,16 +12346,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "IV - 帝王",
-        "en": "IV - The Emperor"
+        "zh": "IV - 帝王?",
+        "en": "IV - The Emperor?"
       },
       "desc": {
-        "zh": "命运的囚徒",
+        "zh": "二日齐天",
         "en": ""
       },
       "eid": {
-        "zh": "封闭当前房间的门#在墙边尽可能地生成通往其他房间的门#也可能生成不在地图上房间的门#{{ArrowUp}} 角色能飞时，可以开门的位置更多",
-        "en": "Close the doors of the current room#Try to generate as many doors to other rooms on the wall as possible#Chance to generate doors to room that's not on the map"
+        "zh": "召唤一个随机boss，战胜它可以生成它的永久友方复制#{{Damage}} 持有此卡且位于{{BossRoom}}boss房/{{ChallengeRoom}}挑战房/{{BossRushRoom}}Bossrush房间：+1攻击",
+        "en": "Summon a random boss#Defeat it will generate a friendly version of the boss#+1 damage when in boss room/challenge room/Bossrush"
       },
       "seijaBuff": {
         "zh": "",
@@ -12410,16 +12410,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "V - 教导",
-        "en": "V - The Hierophant"
+        "zh": "V - 教导?",
+        "en": "V - The Hierophant?"
       },
       "desc": {
-        "zh": "愿我纯粹",
+        "zh": "...魔入将我",
         "en": ""
       },
       "eid": {
-        "zh": "{{ArrowUp}} 本房间内获得{{Collectible182}}和{{Collectible533}}效果",
-        "en": "Gain a temporary effect of {{Collectible182}} and {{Collectible533}}."
+        "zh": "{{AngelRoom}} 失去本局所有在天堂房拾取过的道具以及同名道具#{{DevilRoom}} 这样的道具每有一个，获得一份来自恶魔的奖励",
+        "en": "Lose all items picked up in the Angel Room and the items with the same name#Every time you lose one item in this way:#6%: generate 1-2 black hearts#66%: generate 1-2 devil room items#1%: +6.66 damage #6%: +0.66 damage#1%: +0.66 speed#6%: +0.11 speed#1%: generate 66 coins#6%: generate 6 random pickups#1%: gain devil transformation#6%: generate a {{Card31}}"
       },
       "seijaBuff": {
         "zh": "",
@@ -12602,16 +12602,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "VIII - 调节",
-        "en": "VIII - Adjustment"
+        "zh": "VIII - 调节?",
+        "en": "VIII - Adjustment?"
       },
       "desc": {
-        "zh": "无知之幕正在落下",
+        "zh": "与其纷争，莫如没收",
         "en": ""
       },
       "eid": {
-        "zh": "平衡你的金币、钥匙与炸弹#余数转化为硬币、炸弹、钥匙三选一",
-        "en": "Balance your coins, keys and bombs#Convert the remainder into pickups of coins, bombs and keys"
+        "zh": "{{ArrowUp}} 将你的全部基础掉落转化为属性",
+        "en": "Convert all your basic pickups into attributes"
       },
       "seijaBuff": {
         "zh": "",
@@ -12666,16 +12666,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "IX - 隐者",
-        "en": "IX - The Hermit"
+        "zh": "IX - 隐者?",
+        "en": "IX - The Hermit?"
       },
       "desc": {
-        "zh": "你的过去萦绕在心",
+        "zh": "跨越千年的命运",
         "en": ""
       },
       "eid": {
-        "zh": "随机生成一个本局失去过的道具，优先选择被动道具#{{Collectible36}} 没有这样的道具：生成摸过的大便",
-        "en": "Randomly generate a lost item#Give priority to passive items#None:Spawn a touched {{Collectible36}}"
+        "zh": "随机失去至多3个道具并生成一个道具#失去的道具会与之后见到的第7个道具一同生成(不刷新状态)#不会失去副手主动",
+        "en": "Lose up to 3 items randomly and generate one item#The lost items will be generated together with the seventh item seen later (their status will not be refreshed)"
       },
       "seijaBuff": {
         "zh": "",
@@ -12730,16 +12730,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "X - 命运",
-        "en": "X - The Wheel of Destiny"
+        "zh": "X - 命运?",
+        "en": "X - The Wheel of Destiny?"
       },
       "desc": {
-        "zh": "明暗为逆",
+        "zh": "你相信引力吗?",
         "en": ""
       },
       "eid": {
-        "zh": "选择一个道具转换为2个脆弱的同名道具魂火#以此法生成的魂火在通过2层后重新转换为道具#刷新重新生成道具的状态",
-        "en": "Select one item and convert it into two fragile item wisp in the same name.#Item wisps spawned in this way turn back to items if you successfully protect it in 2 level."
+        "zh": "将房间内所有基础掉落物转化为旋转着的三至五选一掉落物",
+        "en": "Convert all the pickups in the room into 3-5 pickups to choose one,they are spining in a circle"
       },
       "seijaBuff": {
         "zh": "",
@@ -12794,16 +12794,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XI - 欲望",
-        "en": "XI - Lure"
+        "zh": "XI - 欲望?",
+        "en": "XI - Lure?"
       },
       "desc": {
-        "zh": "释放他们内心的猛兽",
+        "zh": "顺从你内心的奴隶",
         "en": ""
       },
       "eid": {
-        "zh": "本房间内，略微加速所有敌人，他们受到的伤害提升固定值5点",
-        "en": "In this room, slightly accelerate all enemies, damage they take will be increased by 5"
+        "zh": "!!! 持有时，每次受到的伤害不低于1.5格心#受伤无敌也相应延长#{{SoulHeart}} 使用后，根据持有此卡的受伤次数生成等量魂心",
+        "en": "When you hold this card, you will take at least one half heart each time.#After using this card, generate an equal amount of soul heart according to the number of times you are injured"
       },
       "seijaBuff": {
         "zh": "",
@@ -12858,16 +12858,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XII - 缚者",
-        "en": "XII - The Hanged Man"
+        "zh": "XII - 缚者?",
+        "en": "XII - The Hanged Man?"
       },
       "desc": {
-        "zh": "倒错回环",
+        "zh": "环回错倒",
         "en": ""
       },
       "eid": {
-        "zh": "{{ThothCard2}} 将本层所有卡牌变为倒位置",
-        "en": "#Change all cards on this floor to the reverse position#Used with card {{Card:Hanged_Man_r}}:Turn over cards repeatedly until it detonates, then grants 10% probability of transmitting it to the error room and clear this effect"
+        "zh": "{{ThothCard}} 将本层所有卡牌变为正位置",
+        "en": "#Change all cards on this floor to the positive position#Used with card {{Card:Hanged_Man}}:Turn over cards repeatedly until it detonates, then grants 10% probability of transmitting it to the error room and clear this effect"
       },
       "seijaBuff": {
         "zh": "",
@@ -12922,16 +12922,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XIII - 长眠",
-        "en": "XIII - Faint"
+        "zh": "XIII - 长眠?",
+        "en": "XIII - Faint?"
       },
       "desc": {
-        "zh": "梦入异乡",
+        "zh": "生死交辉",
         "en": ""
       },
       "eid": {
-        "zh": "{{IsaacsRoom}} 生成一张床#用此床入睡后，传送至随机房间，并改变本层所有房间的背景#离开本房间后此床消失#{{BarrenRoom}} 概率生成坏床：入睡后无法传送",
-        "en": "Generate a bed#After sleeping on this bed,be transmitted to a random room and the background of all rooms this floor will be changed#Remove the bed after leaving the room#Chance of 1/5 generating a bad bed which can't teleport you."
+        "zh": "!!! 本房间内全属性暂时下降#本房间内受伤后，随机掉落魂心、红心#店长改为掉落硬币",
+        "en": "Reduced all attributes in this room temporarily#Chance to spawn soul heart and red heart after being injured in this room"
       },
       "seijaBuff": {
         "zh": "",
@@ -13114,16 +13114,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XIV - 艺术",
-        "en": "XIV - Art"
+        "zh": "XIV - 艺术?",
+        "en": "XIV - Art?"
       },
       "desc": {
-        "zh": "超绝!豪快!闷绝!优雅!超级!究极超级!",
+        "zh": "艺术，就是爆炸",
         "en": ""
       },
       "eid": {
-        "zh": "{{ArrowUp}} 使用后，30s内，击杀生命值在10%以下的敌人会随机奖励掉落物#对boss无效",
-        "en": "kill enemies with HP less than 10% within 30s will randomly reward pickups#Invalid for bosses"
+        "zh": "本房间内，引爆所有消失的实体#每次爆炸会变得更加猛烈#{{Timer}} 地上的此卡每隔6秒爆炸一次",
+        "en": "In this room, detonate all disappeared entities #Each explosion will become more violent#This card on the ground explodes every 6 seconds"
       },
       "seijaBuff": {
         "zh": "",
@@ -13178,16 +13178,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XV - 邪心",
-        "en": "XV - The Devil"
+        "zh": "XV - 邪心?",
+        "en": "XV - The Devil?"
       },
       "desc": {
-        "zh": "灵魂算子：重生",
+        "zh": "虚无解械",
         "en": ""
       },
       "eid": {
-        "zh": "{{DevilRoom}} 持有此卡时死亡：在恶魔房复活并失去此卡#使用后，主动触发上述效果",
-        "en": "Death while holding this card:revive in the devil room and lose this card #When use:activate above effect"
+        "zh": "{{DevilRoom}} 生成一个临时的撒旦与你交易#交易内容：#随机基础掉落#随机道具#随机恶魔房道具#出房间后交易和撒旦均不保留#!!! 炸毁撒旦雕像可以抢夺交易",
+        "en": "Generate a temporary Satan to trade with you#Trade and Satan are not reserved after leaving the room#Blow up the statue of Satan: you can seize the trade, but you must defeat Mr. Satan first"
       },
       "seijaBuff": {
         "zh": "",
@@ -13242,16 +13242,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XVI - 尖塔",
-        "en": "XVI - The Tower"
+        "zh": "XVI - 尖塔?",
+        "en": "XVI - The Tower?"
       },
       "desc": {
-        "zh": "万物皆虚，万事皆允",
+        "zh": "崩落...",
         "en": ""
       },
       "eid": {
-        "zh": "将本房间内所有地形块悬空，随后扔向敌人#不同的地形块有不同的掉落效果",
-        "en": "Suspend all grid blocks in the room and then throw them to the enemy"
+        "zh": "从天上逐渐加速地落下岩块砸向敌人#{{Timer}} 持续10s",
+        "en": "Gradually and rapidly fall rocks from the sky and smash them at the enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -13370,16 +13370,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XVIII - 太阴",
-        "en": "XVIII - The Moon"
+        "zh": "XVIII - A?",
+        "en": "XVIII - A?"
       },
       "desc": {
-        "zh": "长守月明",
+        "zh": "望向天空，高高在上",
         "en": ""
       },
       "eid": {
-        "zh": "{{Collectible589}} 生成一道月光",
-        "en": "Generate a moonlight whose effect is the same with {{Collectible589}}"
+        "zh": "{{Fear}} 恐惧房间内所有敌人2分钟#!!! 恐惧角色10秒#!!! 被恐惧时受到3倍伤害#击杀恐惧的敌人有概率掉落此卡",
+        "en": "Frighten 2 minutes for all enemies in the room#Frighten player for 10 seconds#Suffer 3 times the damage when being frightened#killing feard enemies have a chance to drop this card again"
       },
       "seijaBuff": {
         "zh": "",
@@ -13434,16 +13434,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XIX - 太阳",
-        "en": "XIX - The Sun"
+        "zh": "XIX - 太阳?",
+        "en": "XIX - The Sun?"
       },
       "desc": {
-        "zh": "物皆重临",
+        "zh": "赞美我！",
         "en": ""
       },
       "eid": {
-        "zh": "按照顺序，将本房间内使用的所有卡牌重复执行一次#使用了三种或以上卡牌：额外生成一张随机卡",
-        "en": "Repeat all the cards used in this room once in order #Three or more cards are used: generate an additional random card"
+        "zh": "生成一个彩虹传送旋涡，进入后传送至随机特殊房间#此旋涡可以永久使用",
+        "en": "After use, gain half a red heart, +0.4 damage and +0.1 speed every minute#This effect will disappear in next level"
       },
       "seijaBuff": {
         "zh": "",
@@ -13498,16 +13498,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XX - 永恒",
-        "en": "XX - The Aeon"
+        "zh": "XX - 永恒?",
+        "en": "XX - The Aeon?"
       },
       "desc": {
-        "zh": "引导永恒的哀悼",
+        "zh": "瞬间即成永恒",
         "en": ""
       },
       "eid": {
-        "zh": "{{EternalHeart}} 持有此卡受伤时，有概率掉落一个白心#{{Confessional}} 使用后生成一台忏悔机",
-        "en": "Holding this card when you are hurt, provide a chance to drop a eternal heart #Use it to generate a repentance machine"
+        "zh": "{{ArrowUp}} 全属性大幅上升#!!! 角色的任意动作都会减少属性上升量#清理房间后少量提升全属性",
+        "en": "Greatly increase all attributes#When one of the following triggers, the increase will be reduced#1. Gain or lose pickups or HP#2. Gain or lose trinkets or items#3. Gain cards and pills#Before the increase is reduced to 0, each time you clear the room, slightly increase all attributes"
       },
       "seijaBuff": {
         "zh": "",
@@ -13562,16 +13562,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "XXI - 宇宙",
-        "en": "XXI - The Universe"
+        "zh": "XXI - 宇宙?",
+        "en": "XXI - The Universe?"
       },
       "desc": {
-        "zh": "星汉灿烂",
+        "zh": "不管离开多远，不管时间如何流逝，你永远都是属于我的",
         "en": ""
       },
       "eid": {
-        "zh": "{{Planetarium}} 移除身上一个随机道具，生成一个星座或星象道具",
-        "en": "Remove a random item and generate a constellation or astrological item"
+        "zh": "!!! 第一次使用时，随机失去一个道具#此后每次使用此卡，重新生成这个道具，但它视为被摸过的道具#{{ArrowUp}} 下层开始时，生成此卡",
+        "en": "When you use it for the first time,lose a random item#Otherwise,regenerate that item(used)#Generate this card at the beginning of the next level after you use it"
       },
       "seijaBuff": {
         "zh": "",
@@ -14230,14 +14230,6 @@
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 224,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14294,14 +14286,6 @@
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 256,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14358,14 +14342,6 @@
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 288,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14422,14 +14398,6 @@
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 320,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14486,14 +14454,6 @@
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 352,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14522,16 +14482,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "安娜",
+        "zh": "安奈",
         "en": "Anna"
       },
       "desc": {
-        "zh": "灾难之角",
-        "en": "The Horn of Nitimity"
+        "zh": "灾难之魔",
+        "en": "The Devil of Nitimity"
       },
       "eid": {
-        "zh": "操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射#敌人被吸入后不会立即死亡#越稀有的掉落物，作为弹药时造成的伤害越高",
-        "en": "Control a handheld black hole to capture enemies and pickups, then launch them as projectiles#Captured enemies remain alive inside the black hole#Rarer pickups deal more damage when launched"
+        "zh": "操纵准星选择坠落位置，同时使自身持续蓄力#满蓄力后瞬移至准星上方，并高速下落造成范围伤害#攻击后的短时间内处于无敌状态",
+        "en": "Move a targeting reticle while Anna continuously charges her attack#At full charge, she teleports above the target and crashes down for area damage#She becomes briefly invincible after attacking"
       },
       "seijaBuff": {
         "zh": "",
@@ -14550,14 +14510,6 @@
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 384,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14616,14 +14568,6 @@
         "en": [
           "Zeistos"
         ]
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14680,14 +14624,6 @@
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 416,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -14751,7 +14687,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -14815,8 +14751,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
-        "y": 448,
+        "x": 256,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -14879,8 +14815,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
-        "y": 448,
+        "x": 288,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -14943,8 +14879,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
-        "y": 448,
+        "x": 320,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -15007,8 +14943,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
-        "y": 448,
+        "x": 352,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -15071,8 +15007,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
-        "y": 448,
+        "x": 384,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -15140,8 +15076,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
-        "y": 448,
+        "x": 416,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -15206,8 +15142,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
-        "y": 448,
+        "x": 448,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -15270,8 +15206,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
-        "y": 448,
+        "x": 480,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -15334,7 +15270,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 0,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15398,7 +15334,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 32,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15464,7 +15400,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15528,7 +15464,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15592,7 +15528,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15656,7 +15592,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15720,7 +15656,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15784,7 +15720,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -15848,8 +15784,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
-        "y": 480,
+        "x": 256,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -15912,8 +15848,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
-        "y": 480,
+        "x": 288,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -15976,8 +15912,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
-        "y": 480,
+        "x": 320,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -16040,8 +15976,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
-        "y": 480,
+        "x": 352,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -16080,8 +16016,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "#将{{CollectibleXX}}加入蓝图库存，提供 1 份可分配材料#只能放入制造材料槽，不能支付成本",
-        "en": "#Adds {{CollectibleXX}} to Blueprint inventory as 1 allocatable material#Ingredient slots only; cannot pay craft cost"
+        "zh": "#{{Collectible}} 拾取后，将其中展示的道具记录为1份原型模块#原型模块存入蓝图仓库，可额外装配1次对应道具效果#只能作为模块使用，不能作为飞行器成本",
+        "en": "#{{Collectible}} On pickup, records the displayed item as 1 prototype module#Stored in Blueprint inventory, granting 1 extra installation of that item's effect#Modules only; cannot be used as a Flight cost"
       },
       "seijaBuff": {
         "zh": "",
@@ -16104,8 +16040,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
-        "y": 480,
+        "x": 384,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -16137,7 +16073,7 @@
       "slotEnum": "Bard_beggar",
       "names": {
         "zh": "吟游乞丐",
-        "en": "Bard beggar"
+        "en": "Bard Beggar"
       },
       "desc": {
         "zh": "",
@@ -16168,8 +16104,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
-        "y": 480,
+        "x": 416,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -16232,8 +16168,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
-        "y": 480,
+        "x": 448,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -16243,7 +16179,7 @@
       "kind": "slot",
       "internalKey": "Tomorrows_creditor",
       "xmlId": null,
-      "xmlName": "Tomorrows Creditor",
+      "xmlName": "Tomorrows_creditor",
       "itemType": null,
       "quality": null,
       "tags": [],
@@ -16296,8 +16232,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
-        "y": 480,
+        "x": 480,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -16360,7 +16296,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 0,
         "y": 480,
         "w": 32,
         "h": 32
@@ -16424,7 +16360,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 32,
         "y": 480,
         "w": 32,
         "h": 32

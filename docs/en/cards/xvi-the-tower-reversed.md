@@ -1,12 +1,12 @@
 ---
-title: XVI - The Tower
-description: "Suspend all grid blocks in the room and then throw them to the enemy"
+title: "XVI - The Tower?"
+description: "Gradually and rapidly fall rocks from the sky and smash them at the enemies"
 slug: xvi-the-tower-reversed
 kind: card
 internalKey: Tower_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>XVI - 尖塔 XVI - The Tower Tower_r xvi-the-tower-reversed XVI - The Tower? 万物皆虚，万事皆允 将本房间内所有地形块悬空，随后扔向敌人 不同的地形块有不同的掉落效果 Suspend all grid blocks in the room and then throw them to the enemy</p>
+<p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 从天上逐渐加速地落下岩块砸向敌人 持续10s Gradually and rapidly fall rocks from the sky and smash them at the enemies</p>
 
 <PublicEntry slug="xvi-the-tower-reversed" lang="en" />
 

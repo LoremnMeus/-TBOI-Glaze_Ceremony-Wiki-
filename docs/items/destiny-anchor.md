@@ -1,12 +1,12 @@
 ---
 title: 命运锚点
-description: "这一切都是命运石之门的选择"
+description: "过去仍在前方等待"
 slug: destiny-anchor
 kind: collectible
 internalKey: Destiny_Anchor
 status: stub
 ---
-<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 这一切都是命运石之门的选择 This is the choice of Steins;Gate 在当前房间设置命运锚点，每层最多设置3个 下层时，被锚定的房间会在新楼层复现 优先替换相同类型的房间 Anchors the current room, up to 3 rooms per floor Anchored rooms reappear on the next floor Rooms of the same type are replaced first</p>
+<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 下层时，被锚定的房间会再次出现 优先保留原本的房间布局 Anchors the current room on use, up to 3 per floor Anchored rooms reappear on the next floor Keeps the original room layout when possible</p>
 
 <PublicEntry slug="destiny-anchor" lang="zh" />
 

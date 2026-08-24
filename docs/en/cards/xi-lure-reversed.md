@@ -1,12 +1,12 @@
 ---
-title: XI - Lure
-description: "In this room, slightly accelerate all enemies, damage they take will be increased by 5"
+title: "XI - Lure?"
+description: "When you hold this card, you will take at least one half heart each time. After using this card, generate an equal amount of soul heart according to the number of times you are inj"
 slug: xi-lure-reversed
 kind: card
 internalKey: Lure_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>XI - 欲望 XI - Lure Lure_r xi-lure-reversed XI - Lure? 释放他们内心的猛兽 本房间内，略微加速所有敌人，他们受到的伤害提升固定值5点 In this room, slightly accelerate all enemies, damage they take will be increased by 5</p>
+<p class="wiki-search-index" v-pre>XI - 欲望? XI - Lure? Lure_r xi-lure-reversed XI - Lure? 顺从你内心的奴隶 !!! 持有时，每次受到的伤害不低于1.5格心 受伤无敌也相应延长 使用后，根据持有此卡的受伤次数生成等量魂心 When you hold this card, you will take at least one half heart each time. After using this card, generate an equal amount of soul heart according to the number of times you are injured</p>
 
 <PublicEntry slug="xi-lure-reversed" lang="en" />
 

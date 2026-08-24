@@ -1,12 +1,12 @@
 ---
-title: X - 命运
-description: "明暗为逆"
+title: "X - 命运?"
+description: "你相信引力吗?"
 slug: x-the-wheel-of-destiny-reversed
 kind: card
 internalKey: Wheel_of_Destiny_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>X - 命运 X - The Wheel of Destiny Wheel_of_Destiny_r x-the-wheel-of-destiny-reversed X - The Wheel of Destiny? 明暗为逆 选择一个道具转换为2个脆弱的同名道具魂火 以此法生成的魂火在通过2层后重新转换为道具 刷新重新生成道具的状态 Select one item and convert it into two fragile item wisp in the same name. Item wisps spawned in this way turn back to items if you successfully protect it in 2 level.</p>
+<p class="wiki-search-index" v-pre>X - 命运? X - The Wheel of Destiny? Wheel_of_Destiny_r x-the-wheel-of-destiny-reversed X - The Wheel of Destiny? 你相信引力吗? 将房间内所有基础掉落物转化为旋转着的三至五选一掉落物 Convert all the pickups in the room into 3-5 pickups to choose one,they are spining in a circle</p>
 
 <PublicEntry slug="x-the-wheel-of-destiny-reversed" lang="zh" />
 

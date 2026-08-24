@@ -1,12 +1,12 @@
 ---
-title: IV - 帝王
-description: "命运的囚徒"
+title: "IV - 帝王?"
+description: "二日齐天"
 slug: iv-the-emperor-reversed
 kind: card
 internalKey: Emperor_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>IV - 帝王 IV - The Emperor Emperor_r iv-the-emperor-reversed IV - The Emperor? 命运的囚徒 封闭当前房间的门 在墙边尽可能地生成通往其他房间的门 也可能生成不在地图上房间的门 角色能飞时，可以开门的位置更多 Close the doors of the current room Try to generate as many doors to other rooms on the wall as possible Chance to generate doors to room that&#x27;s not on the map</p>
+<p class="wiki-search-index" v-pre>IV - 帝王? IV - The Emperor? Emperor_r iv-the-emperor-reversed IV - The Emperor? 二日齐天 召唤一个随机boss，战胜它可以生成它的永久友方复制 持有此卡且位于 boss房/ 挑战房/ Bossrush房间：+1攻击 Summon a random boss Defeat it will generate a friendly version of the boss +1 damage when in boss room/challenge room/Bossrush</p>
 
 <PublicEntry slug="iv-the-emperor-reversed" lang="zh" />
 

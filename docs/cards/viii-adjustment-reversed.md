@@ -1,12 +1,12 @@
 ---
-title: VIII - 调节
-description: "无知之幕正在落下"
+title: "VIII - 调节?"
+description: "与其纷争，莫如没收"
 slug: viii-adjustment-reversed
 kind: card
 internalKey: Adjustment_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>VIII - 调节 VIII - Adjustment Adjustment_r viii-adjustment-reversed VIII - Adjustment? 无知之幕正在落下 平衡你的金币、钥匙与炸弹 余数转化为硬币、炸弹、钥匙三选一 Balance your coins, keys and bombs Convert the remainder into pickups of coins, bombs and keys</p>
+<p class="wiki-search-index" v-pre>VIII - 调节? VIII - Adjustment? Adjustment_r viii-adjustment-reversed VIII - Adjustment? 与其纷争，莫如没收 将你的全部基础掉落转化为属性 Convert all your basic pickups into attributes</p>
 
 <PublicEntry slug="viii-adjustment-reversed" lang="zh" />
 

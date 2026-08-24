@@ -1,12 +1,12 @@
 ---
-title: 安娜
-description: "灾难之角"
+title: 安奈
+description: "灾难之魔"
 slug: anna-tainted
 kind: character
 internalKey: annA
 status: stub
 ---
-<p class="wiki-search-index" v-pre>安娜 Anna annA anna-tainted annA 灾难之角 The Horn of Nitimity 操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射 敌人被吸入后不会立即死亡 越稀有的掉落物，作为弹药时造成的伤害越高 Control a handheld black hole to capture enemies and pickups, then launch them as projectiles Captured enemies remain alive inside the black hole Rarer pickups deal more damage when launched</p>
+<p class="wiki-search-index" v-pre>安奈 Anna annA anna-tainted annA 灾难之魔 The Devil of Nitimity 操纵准星选择坠落位置，同时使自身持续蓄力 满蓄力后瞬移至准星上方，并高速下落造成范围伤害 攻击后的短时间内处于无敌状态 Move a targeting reticle while Anna continuously charges her attack At full charge, she teleports above the target and crashes down for area damage She becomes briefly invincible after attacking</p>
 
 <PublicEntry slug="anna-tainted" lang="zh" />
 

@@ -1,12 +1,12 @@
 ---
-title: III - 女帝
-description: "我最爱互相残杀的剧本了"
+title: "III - 女帝?"
+description: "命运的一切礼物，都在暗中标好了价格"
 slug: iii-the-empress-reversed
 kind: card
 internalKey: Empress_r
 status: stub
 ---
-<p class="wiki-search-index" v-pre>III - 女帝 III - The Empress Empress_r iii-the-empress-reversed III - The Empress? 我最爱互相残杀的剧本了 魅惑房间内生命值非最高的所有怪物，其生命值降至10%，削弱的生命值补充给生命最高的敌人 生命值最高的敌人变为彩虹变异 Charm all monsters with not highest HP Reduce their health to 10% and add them to the highest one Invalid for bosses</p>
+<p class="wiki-search-index" v-pre>III - 女帝? III - The Empress? Empress_r iii-the-empress-reversed III - The Empress? 命运的一切礼物，都在暗中标好了价格 重置本层所有道具 本层的道具均需要购买且无法辨认 售价为道具等级的五倍 Reroll all items in this floor Items on this floor need to be purchased and cannot be identified Its price is related to its quality and their original price</p>
 
 <PublicEntry slug="iii-the-empress-reversed" lang="zh" />
 
