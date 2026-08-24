@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T18:36:35Z",
+  "generatedAt": "2026-08-24T18:52:19Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1783,7 +1783,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/zeiz.md",
       "en": "wiki/docs/en/characters/zeiz.md",
-      "zhStatus": "reviewed",
+      "zhStatus": "drafted",
       "enStatus": "stub"
     },
     {
