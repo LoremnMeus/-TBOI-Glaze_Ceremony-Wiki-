@@ -24,7 +24,7 @@ const systems = computed(() => [
   { title: english.value ? 'Thoth Cards' : '透特牌', text: english.value ? 'An independent tarot family with upright and reversed faces.' : '拥有正位与逆位的独立塔罗牌体系。', link: '/systems/thoth-cards' },
   { title: english.value ? 'Blueprint & Air Flight' : '蓝图与 Air Flight', text: english.value ? 'Build, modify, and organize independent combat aircraft.' : '制造、改装并编组独立作战飞行器。', link: '/systems/blueprint-air-flight' },
   { title: english.value ? 'Control Hub' : '控制中枢', text: english.value ? 'Appoint administrators whose Follies continuously reshape the world.' : '任命管理员，让他们的愚见持续改变世界。', link: '/systems/control-hub' },
-  { title: english.value ? 'Knowledge & Associations' : '知识与联想', text: english.value ? 'Store items as knowledge, then borrow nearby associations floor by floor.' : '将道具保存为知识，并按楼层借用附近的联想。', link: '/systems/death-certificate-knowledge' },
+  { title: english.value ? 'Knowledge & Reverie' : '知识与遐想', text: english.value ? 'Store items as knowledge, then realize a nearby reverie floor by floor.' : '将道具保存为知识，并按楼层让附近的遐想成为现实。', link: '/systems/death-certificate-knowledge' },
 ])
 
 function local(path) {
