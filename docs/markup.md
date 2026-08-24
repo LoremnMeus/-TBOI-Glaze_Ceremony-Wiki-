@@ -1,6 +1,6 @@
 # 标注与图标（给人和 AI）
 
-机制正文写在各条目 Markdown 的 `## 机制说明` 之后。本页是可用标记的说明书；完整图标墙在 [图标清单](/icons)。
+玩家百科正文写在各条目 Markdown 的 `## 机制说明` 之后。这个标题只是生成器与编辑器识别人工正文的边界，不要求正文写成技术说明书。本页是可用标记的说明书；完整图标墙在 [图标清单](/icons)。
 
 生成器**不会覆盖**机制正文。改 EID 基线请改 `translate.lua` 再跑导出，不要手改 `entries.json`。
 
@@ -13,18 +13,25 @@
 
 `slug` 在条目页的灰色代码块里，搜索栏也能搜到中文名。只改 `## 机制说明` / `## Mechanics` **下面**的内容。
 
-建议小标题：
+按内容选用小标题，空章节不要生成：
 
 ```md
 ## 机制说明
 
-### 效果
-### 触发与消耗
+### 概览
+### 玩法
+#### 核心机制
+#### 操作流程
+### 示例
+### 详细规则
 ### 数值
 ### 联动
-### 注意
-### 版本
+### 使用技巧
+### 出典与轶事
+### 版本历史
 ```
+
+简单内容无需套满模板。复杂内容应先让玩家理解概览、玩法和实际局面，再给详细规则与数值。角色、挑战和系统页面使用 `editing.md` 中各自的页面结构。
 
 不要编造未在 Lua/XML 里看到的效果。不确定就写「待核实」。
 
@@ -46,6 +53,7 @@
 {{Trinket:pacification-mark}}
 {{Card:0-the-fool}}
 {{Character:zeis}}
+{{System:thoth-cards}}
 {{QingPlayer:wq}}
 {{QingCollectible:Gospel}}
 {{Dullize}} {{ThothCard}} {{Seija}}
@@ -92,10 +100,11 @@ $$
 把下面整段连同目标条目的 Markdown 路径发给 AI：
 
 ```text
-请给 Qing Remaster Wiki 写机制说明。
-先读 wiki/docs/editing.md 和 wiki/docs/markup.md。
+请给 Qing Remaster Wiki 写玩家百科正文。
+先读 wiki/docs/editing.md、wiki/docs/markup.md 和本地 qing-wiki-mechanics skill。
 只改指定 Markdown 里「## 机制说明」之后的正文，不要改 frontmatter，不要改 translate.lua。
-根据 Lua/XML 实装写效果、触发、数值、联动、注意；不要编造。
+根据当前 Lua/XML 核验实际行为；复杂机制再按需读取相关 ai_context 了解概念身份，但不得覆盖代码事实。
+先写清它是什么、怎么玩；示例、规则、数值、联动、技巧和轶事只在有内容时出现。不要编造。
 用 {{Damage}} 等 EID 图标，本模组条目用 {{Item:slug}}。
 不确定的写成「待核实」。中文。
 目标文件：wiki/docs/items/<slug>.md

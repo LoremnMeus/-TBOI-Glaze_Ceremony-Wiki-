@@ -1,3 +1,1 @@
-# 琉璃圣典
-
-<HomeCatalog lang="zh" />
+<WikiHome lang="zh" />

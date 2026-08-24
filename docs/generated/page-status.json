@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T06:02:10Z",
+  "generatedAt": "2026-08-24T11:32:09Z",
   "pages": [
     {
       "slug": "darkness",
@@ -351,7 +351,7 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/book-of-thoth.md",
       "en": "wiki/docs/en/items/book-of-thoth.md",
-      "zhStatus": "drafted",
+      "zhStatus": "featured",
       "enStatus": "drafted"
     },
     {
@@ -1055,7 +1055,7 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/golden-slot.md",
       "en": "wiki/docs/en/items/golden-slot.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1063,7 +1063,7 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/procrastination.md",
       "en": "wiki/docs/en/items/procrastination.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1727,7 +1727,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/w-qing.md",
       "en": "wiki/docs/en/characters/w-qing.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1735,7 +1735,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/sp-w-qing.md",
       "en": "wiki/docs/en/characters/sp-w-qing.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1743,7 +1743,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/tecro.md",
       "en": "wiki/docs/en/characters/tecro.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1751,7 +1751,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/tecrorun.md",
       "en": "wiki/docs/en/characters/tecrorun.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1759,7 +1759,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/anna.md",
       "en": "wiki/docs/en/characters/anna.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1767,7 +1767,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/anna-tainted.md",
       "en": "wiki/docs/en/characters/anna-tainted.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1775,7 +1775,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/zeis.md",
       "en": "wiki/docs/en/characters/zeis.md",
-      "zhStatus": "stub",
+      "zhStatus": "reviewed",
       "enStatus": "stub"
     },
     {
@@ -1783,7 +1783,7 @@
       "kind": "character",
       "zh": "wiki/docs/characters/zeiz.md",
       "en": "wiki/docs/en/characters/zeiz.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {
@@ -1871,7 +1871,7 @@
       "kind": "challenge",
       "zh": "wiki/docs/challenges/swallow-the-sun.md",
       "en": "wiki/docs/en/challenges/swallow-the-sun.md",
-      "zhStatus": "stub",
+      "zhStatus": "featured",
       "enStatus": "stub"
     },
     {

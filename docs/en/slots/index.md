@@ -1,3 +1,1 @@
-# Slots
-
-<EntryGrid lang="en" kind="slot" />
+<CategoryLanding lang="en" kind="slot" />

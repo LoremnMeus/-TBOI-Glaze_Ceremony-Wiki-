@@ -1,3 +1,1 @@
-# 道具
-
-<EntryGrid lang="zh" kind="collectible" />
+<CategoryLanding lang="zh" kind="collectible" />

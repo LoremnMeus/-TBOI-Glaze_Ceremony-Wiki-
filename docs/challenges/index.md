@@ -1,3 +1,1 @@
-# 挑战
-
-<EntryGrid lang="zh" kind="challenge" />
+<CategoryLanding lang="zh" kind="challenge" />

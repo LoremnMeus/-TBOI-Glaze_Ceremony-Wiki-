@@ -1,3 +1,1 @@
-# 角色
-
-<EntryGrid lang="zh" kind="character" />
+<CategoryLanding lang="zh" kind="character" />

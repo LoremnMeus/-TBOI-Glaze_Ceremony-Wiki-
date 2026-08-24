@@ -1,3 +1,1 @@
-# Characters
-
-<EntryGrid lang="en" kind="character" />
+<CategoryLanding lang="en" kind="character" />

@@ -1,3 +1,1 @@
-# Cards
-
-<EntryGrid lang="en" kind="card" />
+<CategoryLanding lang="en" kind="card" />

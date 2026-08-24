@@ -1,3 +1,1 @@
-# 掉落物
-
-<EntryGrid lang="zh" kind="pickup" />
+<CategoryLanding lang="zh" kind="pickup" />

@@ -1,3 +1,1 @@
-# 饰品
-
-<EntryGrid lang="zh" kind="trinket" />
+<CategoryLanding lang="zh" kind="trinket" />

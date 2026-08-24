@@ -167,7 +167,9 @@ const challengeBits = computed(() => {
   const row = entry.value
   if (!row || row.kind !== 'challenge') return []
   const bits = []
-  if (row.playerType != null) {
+  if (row.displayCharacter) {
+    bits.push({ kind: 'character', value: row.displayCharacter })
+  } else if (row.playerType != null) {
     bits.push({ kind: 'player', value: row.playerType })
   }
   if (row.endStage != null) {
@@ -260,6 +262,7 @@ const challengeBits = computed(() => {
         <p v-if="challengeBits.length" class="public-entry__challenge">
           <template v-for="(bit, index) in challengeBits" :key="index">
             <EidIcon v-if="bit.kind === 'player'" :name="'Player' + bit.value" />
+            <WikiEntryIcon v-else-if="bit.kind === 'character'" :name="'Character:' + bit.value" />
             <EidIcon v-else-if="bit.kind === 'collectible'" :name="'Collectible' + bit.value" />
             <EidIcon v-else-if="bit.kind === 'trinket'" :name="'Trinket' + bit.value" />
             <span v-else class="public-entry__chip">{{ bit.value }}</span>

@@ -1,3 +1,1 @@
-# Challenges
-
-<EntryGrid lang="en" kind="challenge" />
+<CategoryLanding lang="en" kind="challenge" />

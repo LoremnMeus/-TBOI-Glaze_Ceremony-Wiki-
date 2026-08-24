@@ -5,6 +5,36 @@ import generatedSidebar from '../generated/sidebar.json'
 import { tokenizeWikiSearch } from './searchTokenize'
 import { renderWikiSearchHtml } from './searchIndexRender'
 
+const isDev = process.env.NODE_ENV === 'development'
+
+const systemSidebarZh = [
+  {
+    text: '核心系统',
+    items: [
+      { text: '系统索引', link: '/systems/' },
+      { text: '琉璃', link: '/systems/glaze' },
+      { text: '透特牌', link: '/systems/thoth-cards' },
+      { text: '蓝图与 Air Flight', link: '/systems/blueprint-air-flight' },
+      { text: '控制中枢', link: '/systems/control-hub' },
+      { text: '死亡证明与知识', link: '/systems/death-certificate-knowledge' },
+    ],
+  },
+]
+
+const systemSidebarEn = [
+  {
+    text: 'Core Systems',
+    items: [
+      { text: 'Systems Index', link: '/en/systems/' },
+      { text: 'Glaze', link: '/en/systems/glaze' },
+      { text: 'Thoth Cards', link: '/en/systems/thoth-cards' },
+      { text: 'Blueprint & Air Flight', link: '/en/systems/blueprint-air-flight' },
+      { text: 'Control Hub', link: '/en/systems/control-hub' },
+      { text: 'Death Certificate & Knowledge', link: '/en/systems/death-certificate-knowledge' },
+    ],
+  },
+]
+
 const searchTranslationsZh = {
   button: { buttonText: '搜索', buttonAriaLabel: '搜索' },
   modal: {
@@ -34,20 +64,40 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
-          { text: '道具', link: '/items/' },
-          { text: '饰品', link: '/trinkets/' },
-          { text: '卡牌', link: '/cards/' },
+          {
+            text: '内容',
+            items: [
+              { text: '道具', link: '/items/' },
+              { text: '饰品', link: '/trinkets/' },
+              { text: '卡牌', link: '/cards/' },
+              { text: '掉落物', link: '/pickups/' },
+              { text: '可互动实体', link: '/slots/' },
+            ],
+          },
           { text: '角色', link: '/characters/' },
+          { text: '系统', link: '/systems/' },
           { text: '挑战', link: '/challenges/' },
-          { text: '掉落物', link: '/pickups/' },
-          { text: '可互动实体', link: '/slots/' },
-          { text: '排障', link: '/troubleshooting/' },
-          { text: '图标', link: '/icons' },
-          { text: '标注', link: '/markup' },
-          { text: '格式参考', link: '/markup-cheatsheet' },
-          { text: '编辑说明', link: '/editing' },
+          {
+            text: '指南',
+            items: [
+              { text: '模组介绍', link: '/guide/about' },
+              { text: '安装与要求', link: '/guide/install' },
+              { text: '常见问题', link: '/guide/faq' },
+              { text: '排障', link: '/troubleshooting/' },
+            ],
+          },
+          { text: 'GitHub / Release', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/releases' },
+          ...(isDev ? [{
+            text: '开发',
+            items: [
+              { text: '图标', link: '/icons' },
+              { text: '标注', link: '/markup' },
+              { text: '格式参考', link: '/markup-cheatsheet' },
+              { text: '编辑说明', link: '/editing' },
+            ],
+          }] : []),
         ],
-        sidebar: generatedSidebar.zh,
+        sidebar: { ...generatedSidebar.zh, '/systems/': systemSidebarZh },
       },
     },
     en: {
@@ -57,20 +107,40 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Items', link: '/en/items/' },
-          { text: 'Trinkets', link: '/en/trinkets/' },
-          { text: 'Cards', link: '/en/cards/' },
+          {
+            text: 'Content',
+            items: [
+              { text: 'Items', link: '/en/items/' },
+              { text: 'Trinkets', link: '/en/trinkets/' },
+              { text: 'Cards', link: '/en/cards/' },
+              { text: 'Pickups', link: '/en/pickups/' },
+              { text: 'Slots', link: '/en/slots/' },
+            ],
+          },
           { text: 'Characters', link: '/en/characters/' },
+          { text: 'Systems', link: '/en/systems/' },
           { text: 'Challenges', link: '/en/challenges/' },
-          { text: 'Pickups', link: '/en/pickups/' },
-          { text: 'Slots', link: '/en/slots/' },
-          { text: 'Troubleshooting', link: '/en/troubleshooting/' },
-          { text: 'Icons', link: '/en/icons' },
-          { text: 'Markup', link: '/en/markup' },
-          { text: 'Cheatsheet', link: '/en/markup-cheatsheet' },
-          { text: 'Editing', link: '/en/editing' },
+          {
+            text: 'Guide',
+            items: [
+              { text: 'About', link: '/en/guide/about' },
+              { text: 'Installation & Requirements', link: '/en/guide/install' },
+              { text: 'FAQ', link: '/en/guide/faq' },
+              { text: 'Troubleshooting', link: '/en/troubleshooting/' },
+            ],
+          },
+          { text: 'GitHub / Release', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/releases' },
+          ...(isDev ? [{
+            text: 'Development',
+            items: [
+              { text: 'Icons', link: '/en/icons' },
+              { text: 'Markup', link: '/en/markup' },
+              { text: 'Cheatsheet', link: '/en/markup-cheatsheet' },
+              { text: 'Editing', link: '/en/editing' },
+            ],
+          }] : []),
         ],
-        sidebar: generatedSidebar.en,
+        sidebar: { ...generatedSidebar.en, '/en/systems/': systemSidebarEn },
       },
     },
   },

@@ -1,3 +1,1 @@
-# 卡牌
-
-<EntryGrid lang="zh" kind="card" />
+<CategoryLanding lang="zh" kind="card" />

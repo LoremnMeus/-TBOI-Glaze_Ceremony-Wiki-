@@ -1,3 +1,1 @@
-# 可互动实体
-
-<EntryGrid lang="zh" kind="slot" />
+<CategoryLanding lang="zh" kind="slot" />

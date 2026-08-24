@@ -1,3 +1,1 @@
-# Pickups
-
-<EntryGrid lang="en" kind="pickup" />
+<CategoryLanding lang="en" kind="pickup" />

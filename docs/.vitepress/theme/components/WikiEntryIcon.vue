@@ -9,6 +9,15 @@ const KIND_DIR = {
   card: 'cards',
   character: 'characters',
   challenge: 'challenges',
+  system: 'systems',
+}
+
+const SYSTEMS = {
+  glaze: { zh: '琉璃', en: 'Glaze' },
+  'thoth-cards': { zh: '透特牌', en: 'Thoth Cards' },
+  'blueprint-air-flight': { zh: '蓝图与 Air Flight', en: 'Blueprint & Air Flight' },
+  'control-hub': { zh: '控制中枢', en: 'Control Hub' },
+  'death-certificate-knowledge': { zh: '死亡证明与知识', en: 'Death Certificate & Knowledge' },
 }
 
 const props = defineProps({
@@ -19,8 +28,11 @@ const { lang } = useData()
 
 const parsed = computed(() => {
   const raw = (props.name || '').trim()
-  const match = raw.match(/^(?:Item|Trinket|Card|Character|Challenge|Wiki)[:/]\s*(.+)$/i)
-  const token = (match ? match[1] : raw).trim()
+  const match = raw.match(/^(Item|Trinket|Card|Character|Challenge|System|Wiki)[:/]\s*(.+)$/i)
+  const token = (match ? match[2] : raw).trim()
+  if (match?.[1]?.toLowerCase() === 'system' && SYSTEMS[token]) {
+    return { row: { kind: 'system', slug: token, internalKey: token, names: SYSTEMS[token] }, token }
+  }
   const rows = catalog.entries || []
   const row =
     rows.find((entry) => entry.slug === token) ||

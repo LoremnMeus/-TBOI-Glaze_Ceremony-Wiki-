@@ -10,6 +10,9 @@ import IconInventory from './components/IconInventory.vue'
 import IconRatios from './components/IconRatios.vue'
 import WikiEntryIcon from './components/WikiEntryIcon.vue'
 import WikiDevDock from './components/WikiDevDock.vue'
+import WikiHome from './components/WikiHome.vue'
+import FeaturedEntries from './components/FeaturedEntries.vue'
+import CategoryLanding from './components/CategoryLanding.vue'
 import './custom.css'
 
 export default {
@@ -28,5 +31,8 @@ export default {
     app.component('IconInventory', IconInventory)
     app.component('IconRatios', IconRatios)
     app.component('WikiEntryIcon', WikiEntryIcon)
+    app.component('WikiHome', WikiHome)
+    app.component('FeaturedEntries', FeaturedEntries)
+    app.component('CategoryLanding', CategoryLanding)
   },
 }

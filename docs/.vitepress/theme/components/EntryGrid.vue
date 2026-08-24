@@ -34,6 +34,12 @@ function label(entry) {
   return entry.names?.[props.lang] || entry.names?.zh || entry.internalKey
 }
 
+function imageSrc(entry) {
+  if (entry.kind === 'character') return entry.portrait || entry.icon || entry.thumb64
+  if (entry.kind === 'challenge') return entry.thumb64 || entry.icon || entry.thumb32
+  return entry.thumb32 || entry.icon || entry.thumb64
+}
+
 function atlasStyle(entry) {
   if (entry.kind === 'character') return null
   const frame = entry.atlas
@@ -62,8 +68,8 @@ function atlasStyle(entry) {
           :aria-label="label(entry)"
         />
         <img
-          v-else-if="entry.thumb32 || entry.icon || entry.portrait"
-          :src="withBase(entry.kind === 'character' ? (entry.portrait || entry.icon) : (entry.thumb32 || entry.icon))"
+          v-else-if="imageSrc(entry)"
+          :src="withBase(imageSrc(entry))"
           :alt="label(entry)"
           width="64"
           height="64"

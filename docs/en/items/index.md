@@ -1,3 +1,1 @@
-# Items
-
-<EntryGrid lang="en" kind="collectible" />
+<CategoryLanding lang="en" kind="collectible" />

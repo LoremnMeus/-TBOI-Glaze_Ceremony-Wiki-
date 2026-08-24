@@ -1,3 +1,1 @@
-# Trinkets
-
-<EntryGrid lang="en" kind="trinket" />
+<CategoryLanding lang="en" kind="trinket" />
