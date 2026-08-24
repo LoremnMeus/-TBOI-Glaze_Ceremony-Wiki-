@@ -6,7 +6,7 @@ kind: character
 internalKey: wq
 status: stub
 ---
-<p class="wiki-search-index" v-pre>小青 Qing wq w-qing W.Qing 灾难之先导 The Precursor of Nitimity 投掷小刀攻击敌人，插入物体的小刀同时会成为可返回的瞬移坐标 利用小刀可在攻击与位移之间快速改变自身位置 必要时会自动留下小刀，避免玩家被困 Throw knives to attack; knives lodged in objects also become teleport coordinates Use them to rapidly reposition between attacks When necessary, a knife is automatically placed to prevent becoming trapped</p>
+<p class="wiki-search-index" v-pre>小青 Qing wq w-qing W.Qing 灾难之先导 The Precursor of Nitimity 以小刀近身刺杀或投掷攻击；投出的刀还能留下可返回的位置 在刀与刀之间快速转移，从不同位置继续攻击 必要时会保留可用的小刀，避免失去返回路径 Fight with close-range knife strikes or thrown blades; lodged knives leave return points Move between knives to continue attacking from new positions A usable knife is preserved when necessary to keep a return path</p>
 
 <PublicEntry slug="w-qing" lang="en" />
 
