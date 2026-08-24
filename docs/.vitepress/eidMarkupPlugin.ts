@@ -2,6 +2,10 @@ import { escapeVueBraces, splitMarks } from './eidMarks'
 
 function eidIconHtml(name: string): string {
   const escaped = name.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+  const entity = escaped.match(/^(Collectible|Trinket|Card|Pill):\s*(\d+)$/i)
+  if (entity) {
+    return `<VanillaEntity entity-type="${entity[1].toLowerCase()}" entity-id="${entity[2]}" />`
+  }
   return `<EidIcon name="${escaped}" />`
 }
 

@@ -8,8 +8,8 @@ const props = defineProps({
   name: { type: String, required: true },
 })
 
-const COLLECTIBLE = /^Collectible(\d+)$/i
-const TRINKET = /^Trinket(\d+)$/i
+const COLLECTIBLE = /^Collectible:?\s*(\d+)$/i
+const TRINKET = /^Trinket:?\s*(\d+)$/i
 const WIKI_ENTRY = /^(?:Item|Trinket|Card|Character|Challenge|System|Wiki)[:/]/i
 const QING_PLAYER = /^QingPlayer[:/]\s*(.+)$/i
 

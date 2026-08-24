@@ -13,6 +13,7 @@ import WikiDevDock from './components/WikiDevDock.vue'
 import WikiHome from './components/WikiHome.vue'
 import FeaturedEntries from './components/FeaturedEntries.vue'
 import CategoryLanding from './components/CategoryLanding.vue'
+import VanillaEntity from './components/VanillaEntity.vue'
 import './custom.css'
 
 export default {
@@ -34,5 +35,6 @@ export default {
     app.component('WikiHome', WikiHome)
     app.component('FeaturedEntries', FeaturedEntries)
     app.component('CategoryLanding', CategoryLanding)
+    app.component('VanillaEntity', VanillaEntity)
   },
 }

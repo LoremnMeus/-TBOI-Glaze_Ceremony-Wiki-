@@ -1,10 +1,11 @@
 <script setup>
 import { computed } from 'vue'
-import { withBase } from 'vitepress'
 import catalog from '../../../generated/entries.json'
 import MissingTranslation from './MissingTranslation.vue'
 import EidMarkup from './EidMarkup.vue'
 import EidIcon from './EidIcon.vue'
+import EntryInfobox from './EntryInfobox.vue'
+import CharacterBirthright from './CharacterBirthright.vue'
 
 const props = defineProps({
   slug: { type: String, required: true },
@@ -126,13 +127,6 @@ const missingEnglish = computed(() => {
   }
   return !desc.value || !eid.value
 })
-const iconSrc = computed(() => {
-  const src = entry.value?.kind === 'character'
-    ? entry.value?.portrait || entry.value?.icon
-    : entry.value?.thumb64 || entry.value?.icon || entry.value?.portrait
-  return src ? withBase(src) : ''
-})
-
 function t(map, key, fallback) {
   const row = map[key]
   if (!row) return fallback ?? key
@@ -205,25 +199,11 @@ const challengeBits = computed(() => {
 
 <template>
   <div v-if="entry" class="public-entry">
+    <EntryInfobox :entry="entry" :lang="lang" :name="name" :icon-src="entry.kind === 'character' ? (entry.portrait || entry.icon) : (entry.thumb64 || entry.icon || entry.portrait)" />
     <div class="public-entry__header">
-      <img
-        v-if="iconSrc"
-        :class="['public-entry__icon', { 'public-entry__icon--portrait': entry.kind === 'character' }]"
-        :src="iconSrc"
-        :alt="name"
-        width="64"
-        height="64"
-        decoding="async"
-      />
       <div class="public-entry__heading">
         <p class="public-entry__meta">
           <span>{{ kindLabel }}</span>
-          <template v-if="entry.xmlId != null">
-            <span>· XML {{ entry.xmlId }}</span>
-          </template>
-          <template v-if="entry.pickupVariant != null && entry.pickupSubType != null">
-            <span>· 5.{{ entry.pickupVariant }}.{{ entry.pickupSubType }}</span>
-          </template>
           <template v-if="entry.pseudoPickup">
             <span>· {{ english ? 'Pseudo pickup' : '伪拾取物' }}</span>
           </template>
@@ -248,12 +228,6 @@ const challengeBits = computed(() => {
           </template>
         </p>
         <h1>{{ name }}</h1>
-        <p v-if="desc" class="public-entry__pickup">{{ desc }}</p>
-        <p class="public-entry__keys">
-          <code>{{ entry.internalKey }}</code>
-          <code>{{ entry.slug }}</code>
-          <span>v{{ catalog.version }}</span>
-        </p>
         <p v-if="tags.length" class="public-entry__tags">
           <span v-for="tag in tags" :key="tag" class="public-entry__tag" :title="tag">
             {{ t(TAG_LABEL, tag, tag) }}
@@ -270,12 +244,13 @@ const challengeBits = computed(() => {
         </p>
       </div>
     </div>
-    <section v-if="eid || seijaBuff || seijaNerf">
-      <h2>EID</h2>
+    <section v-if="eid || seijaBuff || seijaNerf" class="public-entry__eid" :aria-label="english ? 'In-game description' : '游戏内说明'">
+      <strong class="public-entry__eid-label">{{ english ? 'In-game description' : '游戏内说明' }}</strong>
       <EidMarkup v-if="eid" :text="eid" />
       <EidMarkup v-if="seijaBuff" :text="seijaBuff" />
       <EidMarkup v-if="seijaNerf" :text="seijaNerf" />
     </section>
+    <CharacterBirthright v-if="entry.kind === 'character' && entry.characterBase?.birthright" :birthright="entry.characterBase.birthright" :lang="lang" />
     <MissingTranslation v-if="missingEnglish" />
   </div>
   <p v-else>Missing generated entry for <code>{{ slug }}</code>. Re-run <code>export_wiki_data.py</code>.</p>
@@ -295,6 +270,7 @@ const challengeBits = computed(() => {
   flex: 0 0 64px;
   image-rendering: pixelated;
 }
+.public-entry::after { display: block; clear: both; content: ''; }
 .public-entry__icon--portrait {
   width: 144px;
   height: 144px;
@@ -340,6 +316,8 @@ const challengeBits = computed(() => {
   align-items: center;
   margin: 0;
 }
+.public-entry__eid { margin: 1rem 0 1.5rem; padding: .8rem 1rem; border-left: 3px solid var(--vp-c-brand-1); border-radius: 6px; background: var(--vp-c-bg-soft); }
+.public-entry__eid-label { display: block; margin-bottom: .4rem; color: var(--vp-c-text-2); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; }
 .public-entry__tags,
 .public-entry__challenge {
   display: flex;
