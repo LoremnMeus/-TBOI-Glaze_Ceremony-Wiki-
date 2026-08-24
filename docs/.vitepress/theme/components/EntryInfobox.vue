@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { withBase } from 'vitepress'
 import EidIcon from './EidIcon.vue'
+import EidMarkup from './EidMarkup.vue'
 import VanillaEntity from './VanillaEntity.vue'
 import catalog from '../../../generated/entries.json'
 
@@ -276,6 +277,11 @@ function wikiKind(kind) {
       <template v-if="entry.characterBase">
         <dt>{{ en ? 'Can shoot' : '可否射击' }}</dt>
         <dd>{{ entry.characterBase.canShoot ? (en ? 'Yes' : '是') : (en ? 'No' : '否') }}</dd>
+      </template>
+
+      <template v-if="entry.kind === 'character' && entry.characterBase?.birthright?.description?.[lang]">
+        <dt><VanillaEntity entity-type="collectible" :entity-id="619" /></dt>
+        <dd><EidMarkup :text="entry.characterBase.birthright.description[lang]" /></dd>
       </template>
     </dl>
 

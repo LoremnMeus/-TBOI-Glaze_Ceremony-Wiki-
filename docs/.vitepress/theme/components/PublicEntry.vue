@@ -4,7 +4,6 @@ import catalog from '../../../generated/entries.json'
 import MissingTranslation from './MissingTranslation.vue'
 import EidMarkup from './EidMarkup.vue'
 import EntryInfobox from './EntryInfobox.vue'
-import CharacterBirthright from './CharacterBirthright.vue'
 
 const props = defineProps({
   slug: { type: String, required: true },
@@ -104,7 +103,6 @@ const infoboxIconSrc = computed(() => {
       </div>
       <EntryInfobox :entry="entry" :lang="lang" :name="name" :icon-src="infoboxIconSrc" :icon-name="infoboxIconName" />
     </div>
-    <CharacterBirthright v-if="entry.kind === 'character' && entry.characterBase?.birthright" :birthright="entry.characterBase.birthright" :lang="lang" />
     <MissingTranslation v-if="missingEnglish" />
   </div>
   <p v-else>Missing generated entry for <code>{{ slug }}</code>. Re-run <code>export_wiki_data.py</code>.</p>

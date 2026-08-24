@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T17:22:09Z",
+  "generatedAt": "2026-08-24T17:40:08Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -20881,6 +20881,113 @@
           "xmlSummary": "Bloody Disaster"
         }
       },
+      "annaCompatibility": [
+        {
+          "id": 52,
+          "name": "爆灾",
+          "description": "吞噬炸弹！"
+        },
+        {
+          "id": 68,
+          "name": "痕灾",
+          "description": "操纵激光！"
+        },
+        {
+          "id": 114,
+          "name": "伤灾",
+          "description": "此刀为我所用！"
+        },
+        {
+          "id": 118,
+          "name": "磺灾",
+          "description": "恶魔的权柄！"
+        },
+        {
+          "id": 168,
+          "name": "引灾",
+          "description": "歼灭！"
+        },
+        {
+          "id": 395,
+          "name": "割灾",
+          "description": "无路可逃！"
+        },
+        {
+          "id": 149,
+          "name": "毁灾",
+          "description": "定向爆破！"
+        },
+        {
+          "id": 579,
+          "name": "斩灾",
+          "description": "剑气激荡！"
+        },
+        {
+          "id": 678,
+          "name": "寂灾",
+          "description": "吞噬！"
+        },
+        {
+          "id": 229,
+          "name": "食灾",
+          "description": "有点过饱"
+        },
+        {
+          "id": 531,
+          "name": "解灾",
+          "description": "释放鲜血"
+        },
+        {
+          "id": 304,
+          "name": "衡灾",
+          "description": ""
+        },
+        {
+          "id": 477,
+          "name": "噬灾",
+          "description": "吃干抹净"
+        },
+        {
+          "id": 706,
+          "name": "蝗灾",
+          "description": "它们饥饿"
+        },
+        {
+          "id": 592,
+          "name": "石灾",
+          "description": "吞噬地面！"
+        },
+        {
+          "id": 329,
+          "name": "远程灾难发生器",
+          "description": "我带来了灾祸"
+        },
+        {
+          "id": 399,
+          "name": "最终天灾",
+          "description": "我欲问天"
+        },
+        {
+          "id": 681,
+          "name": "灾难幼体",
+          "description": "你有潜力！"
+        },
+        {
+          "id": 569,
+          "name": "灾之誓言",
+          "description": "它追随着我们"
+        },
+        {
+          "id": 330,
+          "name": "灾害增生",
+          "description": "祸不单行"
+        },
+        {
+          "id": 561,
+          "name": "灾害腐生",
+          "description": "福无双至"
+        }
+      ],
       "challengeBase": null,
       "baseStats": null,
       "series": null,
@@ -20917,8 +21024,8 @@
         "en": "The Horn of Nitimity"
       },
       "eid": {
-        "zh": "操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射#敌人被吸入后不会立即死亡#越稀有的掉落物，作为弹药时造成的伤害越高",
-        "en": "Control a handheld black hole to capture enemies and pickups, then launch them as projectiles#Captured enemies remain alive inside the black hole#Rarer pickups deal more damage when launched"
+        "zh": "操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射#敌人被吸入后不会立即死亡#捕获物的种类、质量与蓄力会影响释放攻击",
+        "en": "Control a handheld black hole to capture enemies and pickups, then launch them as projectiles#Captured enemies remain alive inside the black hole#A capture's type, mass, and charge affect the released attack"
       },
       "seijaBuff": {
         "zh": "",

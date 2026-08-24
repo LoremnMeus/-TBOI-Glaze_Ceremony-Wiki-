@@ -14,6 +14,7 @@ import WikiHome from './components/WikiHome.vue'
 import FeaturedEntries from './components/FeaturedEntries.vue'
 import CategoryLanding from './components/CategoryLanding.vue'
 import VanillaEntity from './components/VanillaEntity.vue'
+import AnnaCompatibility from './components/AnnaCompatibility.vue'
 import './custom.css'
 
 export default {
@@ -36,5 +37,6 @@ export default {
     app.component('FeaturedEntries', FeaturedEntries)
     app.component('CategoryLanding', CategoryLanding)
     app.component('VanillaEntity', VanillaEntity)
+    app.component('AnnaCompatibility', AnnaCompatibility)
   },
 }
