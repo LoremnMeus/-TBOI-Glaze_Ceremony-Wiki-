@@ -6,7 +6,7 @@ kind: character
 internalKey: annA
 status: featured
 ---
-<p class="wiki-search-index" v-pre>安奈 Anna annA anna-tainted annA 灾难之魔 The Devil of Nitimity 操纵准星选择坠落位置，同时使自身持续蓄力 满蓄力后瞬移至准星上方，并高速下落造成范围伤害 攻击后的短时间内处于无敌状态 Move a targeting reticle while Anna continuously charges her attack At full charge, she teleports above the target and crashes down for area damage She becomes briefly invincible after attacking</p>
+<p class="wiki-search-index" v-pre>安奈 Anna annA anna-tainted annA 灾难之魔 The Devil of Nitimity 用准星选择落点，以自身为武器发动高威力坠击 满蓄力后移动至准星上方，对落点附近造成巨额伤害 准星也决定攻击后的站位；攻击过程及结束后0.25秒内无敌 Choose a landing point with the reticle and use annA herself as the weapon At full charge, move above the reticle and crash down for massive area damage The reticle is also your final position; invincible during the attack and for 0.25s afterward</p>
 
 <PublicEntry slug="anna-tainted" lang="zh" />
 
@@ -14,19 +14,38 @@ status: featured
 
 ### 玩法
 
-{{Character:anna-tainted}} 不继承 Anna 的掌中黑洞循环。攻击输入操纵准星，同时角色持续蓄力；蓄力完成后，她会移动至准星上方，再高速坠落并对落点周围造成伤害。
+**用准星选择落点，以自身为武器发动毁灭性的坠击。**
 
-准星位置同时决定攻击范围和坠落后的站位。
+{{Character:anna-tainted}} 不使用 Anna 的掌中黑洞。攻击时，她操纵准星选择落点并持续蓄力；蓄满后会移动至准星上方，以高速坠击对附近敌人造成巨额伤害。
 
-### 操作
+**准星在哪里，她最终就会在哪里。** 坠击期间的保护和落地后的短暂无敌足以让她冲进危险区域，却不能保证攻击结束后的安全。
 
-- 攻击输入：移动准星并持续蓄力。
-- 蓄力完成：自动移动至准星上方并坠落。
+### 第一次使用 annA
 
-### 落点与安全窗口
+1. **选择落点。** 攻击输入移动准星，同时开始蓄力。
+2. **完成坠击。** 蓄力完成后，annA 自动移动到准星上方并高速落下。
+3. **离开落点。** 攻击结束后 annA 会留在原地；利用剩余的短暂无敌调整位置。如果目标没有全部死亡，接下来才是真正危险的时候。
 
-坠落完成后会获得短暂无敌。无敌结束后仍需从当前落点继续移动和准备下一次攻击。
+### 落点就是站位
+
+准星看起来像远程瞄准，但 annA 不会从安全位置攻击。蓄力完成后，她本人会前往目标上方并完成坠击。
+
+因此，准星同时决定攻击位置与攻击后的角色位置。敌人最密集的地方通常能让坠击覆盖更多目标，也往往是无敌结束后最危险的落点。
+
+### 无敌窗口
+
+坠击过程中 annA 受到保护；攻击结束后还会获得 <strong>0.25 秒（15 帧）</strong>的无敌时间。这段时间结束后，她仍然停留在落点。
+
+这段保护用于保证攻击完成，并提供极短的撤离窗口。下一次坠击仍需重新蓄力，因此两次攻击之间存在正常受伤窗口。
+
+### 数值
+
+基础坠击伤害为当前攻击的 **5 倍**。攻击方式道具可能进一步改变坠击的形式、范围或倍率。
 
 ### 使用技巧
 
-不要只把准星放在敌人中心。更好的落点往往能擦过多个目标、避开持续危险，并让下一次蓄力拥有清晰路线。面对移动迅速的敌人，应把蓄力时间和目标移动方向一起纳入预判。
+- **别只看伤害。** 准星决定的不只是攻击哪里，也是攻击结束后会站在哪里。
+- **利用无敌进入，而不是依赖无敌留下。** 短暂无敌适合穿过最危险的瞬间，但很快就会结束。
+- **Boss 不会总被一击解决。** 面对高血量目标时，提前为两次坠击之间的暴露期留下移动空间。
+
+> annA 很擅长结束战斗，却不一定擅长处理战斗还没有结束的情况。

@@ -6,7 +6,7 @@ kind: character
 internalKey: Anna
 status: featured
 ---
-<p class="wiki-search-index" v-pre>安娜 Anna Anna anna Anna 灾难之角 The Horn of Nitimity 操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射 敌人被吸入后不会立即死亡 捕获物的种类、质量与蓄力会影响释放攻击 Control a handheld black hole to capture enemies and pickups, then launch them as projectiles Captured enemies remain alive inside the black hole A capture&#x27;s type, mass, and charge affect the released attack</p>
+<p class="wiki-search-index" v-pre>安娜 Anna Anna anna Anna 灾难之角 The Horn of Nitimity 操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射 敌人被吸入后不会立即死亡 捕获物的种类、重量与蓄力会影响释放攻击 Control a handheld black hole to capture enemies and pickups, then launch them as projectiles Captured enemies remain alive inside the black hole A capture&#x27;s type, mass, and charge affect the released attack</p>
 
 <PublicEntry slug="anna" lang="zh" />
 
@@ -16,7 +16,7 @@ status: featured
 
 {{Character:anna}} 无法像普通角色一样发射眼泪。她会将敌人、掉落物和其他可捕获对象收进掌中的黑洞，再把自己的收藏重新释放出去。
 
-**被吞入的敌人不会立刻死亡。** 真正的伤害通常发生在它们被重新抛出、撞向其他目标的时候。掉落物也可以留在黑洞中，等待拾取或作为弹药使用。
+**被吞入的敌人不会立刻死亡。** 真正的伤害通常发生在它们被重新抛出、撞向其他目标的时候。掉落物也能暂存在黑洞中，之后重新释放出来拾取，或直接作为弹药使用。
 
 > 黑洞不是用来直接消灭敌人的，而是把整个房间变成可以带走的收藏。
 
@@ -25,6 +25,8 @@ status: featured
 1. 按住攻击键，把敌人或掉落物吸进黑洞；被吸入的敌人仍然活着。
 2. 松开攻击键，把准备好的捕获物重新抛出去。这是 Anna 最基本的伤害来源。
 3. 不需要立刻使用的东西可以继续留在黑洞里，但收藏只有真正吐出去时才会帮忙清理房间。
+
+**敌人是现成的弹药；掉落物则是用暂时放弃拾取换来的储备。**
 
 ### 操作
 
@@ -42,16 +44,16 @@ status: featured
 
 | 对象 | 收入黑洞后 | 释放时 |
 | --- | --- | --- |
-| 普通敌人 | 保持存活并被保存 | 作为攻击抛出；体型与质量会影响撞击表现 |
+| 普通敌人 | 保持存活并被保存 | 作为攻击抛出；重量会影响撞击伤害 |
 | 掉落物 | 留在黑洞中，暂时不能正常拾取 | 不同种类和子类型拥有不同的投掷倍率或附加效果 |
 | 带价格的商品 | 仍按原规则处理价格 | 作为商品投掷时不会造成伤害 |
-| 受支持的特殊对象 | 按各自兼容规则保存 | 可能产生专属攻击或效果 |
+| 特殊对象 | 部分特殊物体也能被吞下 | 可能产生各自的攻击或效果 |
 
-无法被黑洞处理的对象会继续留在房间中。捕获物的最终攻击还会受到蓄力、对象质量和 Anna 当前攻击属性影响，不能简单按“稀有度”换算。
+不能捕获的对象不会受到黑洞影响。捕获物的最终攻击还会受到蓄力、对象重量和 Anna 当前攻击属性影响，不能简单按“稀有度”换算。
 
 ### 攻击道具兼容
 
-Anna 虽然不能正常发射眼泪，但许多改变攻击方式的道具仍然有效，并会改变黑洞或捕获物的攻击形式。下面的专属称呼直接从当前运行时兼容表生成：
+Anna 虽然不能正常发射眼泪，但许多改变攻击方式的道具仍然有效。部分攻击道具会获得 Anna 专属的攻击形式与名称：
 
 <AnnaCompatibility />
 

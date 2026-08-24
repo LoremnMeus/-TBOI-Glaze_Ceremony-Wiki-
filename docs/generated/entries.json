@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T17:40:08Z",
+  "generatedAt": "2026-08-24T17:54:08Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -21024,7 +21024,7 @@
         "en": "The Horn of Nitimity"
       },
       "eid": {
-        "zh": "操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射#敌人被吸入后不会立即死亡#捕获物的种类、质量与蓄力会影响释放攻击",
+        "zh": "操控掌中黑洞吸收敌人与掉落物，并将捕获物重新发射#敌人被吸入后不会立即死亡#捕获物的种类、重量与蓄力会影响释放攻击",
         "en": "Control a handheld black hole to capture enemies and pickups, then launch them as projectiles#Captured enemies remain alive inside the black hole#A capture's type, mass, and charge affect the released attack"
       },
       "seijaBuff": {
@@ -21115,8 +21115,8 @@
         "en": "The Devil of Nitimity"
       },
       "eid": {
-        "zh": "操纵准星选择坠落位置，同时使自身持续蓄力#满蓄力后瞬移至准星上方，并高速下落造成范围伤害#攻击后的短时间内处于无敌状态",
-        "en": "Move a targeting reticle while Anna continuously charges her attack#At full charge, she teleports above the target and crashes down for area damage#She becomes briefly invincible after attacking"
+        "zh": "用准星选择落点，以自身为武器发动高威力坠击#满蓄力后移动至准星上方，对落点附近造成巨额伤害#准星也决定攻击后的站位；攻击过程及结束后0.25秒内无敌",
+        "en": "Choose a landing point with the reticle and use annA herself as the weapon#At full charge, move above the reticle and crash down for massive area damage#The reticle is also your final position; invincible during the attack and for 0.25s afterward"
       },
       "seijaBuff": {
         "zh": "",
