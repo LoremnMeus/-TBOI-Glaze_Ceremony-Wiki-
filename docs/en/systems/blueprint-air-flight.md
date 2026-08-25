@@ -10,8 +10,6 @@ status: featured
 
 An item can serve as a base or a module. The base determines the craft's capacity and overall performance; modules turn item abilities into that craft's weapons and support systems.
 
-<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/stock.jpg" :ready="true" alt="The Blueprint Stock tab with Formation, Build and Stock tabs visible" caption="Stock keeps every manufactured craft; the top tabs open Formation, Build and Stock." />
-
 ## The four parts of Blueprint play
 
 - **Build:** commit items to create a new craft.
@@ -51,7 +49,7 @@ The base controls module slots and the craft's overall stat multiplier, but does
 | 3 | 4 | 1.15× |
 | 4 | 5 | 1.30× |
 
-The multiplier affects damage, fire rate, shot speed, range, luck and movement speed. Using a high-quality item as a base trades away its distinctive module behavior for more slots and stronger overall performance.
+The multiplier affects damage, fire rate, shot speed, range, luck and movement speed. Using a high-quality item as a base means that copy cannot currently serve as a module; the choice is between more slots and that item's distinctive module behavior.
 
 ### Modules
 
@@ -66,21 +64,28 @@ Only items placed in module slots contribute to that craft's combat loadout. Con
 
 A separate Blueprint compatibility catalogue can eventually cover individual items; this page documents the common rules.
 
-<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/familiar-escort.jpg" :ready="true" alt="Several familiars following one craft in combat" caption="Familiar modules belong to their assigned craft, follow it, and assist according to that craft's combat state." />
+Module behavior follows the Blueprint's implemented compatibility. Some items are translated into an equivalent behavior suitable for a craft rather than reproducing the original effect word for word.
 
 ### Item allocation
 
-One real item copy may occupy only one base or module position at a time. Allocation does not remove the collectible from the player's inventory or disable its ordinary passive effect on Qing; it prevents that same copy from being assigned to another Blueprint recipe.
+One real item copy may occupy only one base or module position at a time.
 
 Because Tainted Qing cannot fire normally, attack modifiers in the inventory do not restore a conventional tear attack. Installing them as modules is what translates supported effects into a craft's attack language.
 
 Removing a module or dismantling a craft releases the allocation immediately.
 
-### Prototypes
+::: tip Items do not actually disappear
+The Blueprint records which recipe currently uses each copy. It still belongs to Qing and retains any passive effect that can apply to Qing, but the same copy cannot serve another craft as a base or module at the same time.
+:::
+
+<details>
+<summary>Advanced: item prototypes</summary>
 
 An item prototype is an additional module resource. It may replace a real item in a module slot without increasing the actual collectible count, but it **cannot pay for a base**.
 
 Each prototype has its own record and can serve only one recipe at a time. Removing it returns that copy to prototype stock rather than creating unlimited uses.
+
+</details>
 
 ## Managing the fleet
 
@@ -106,11 +111,7 @@ More craft may be left enabled than bandwidth can support. Bandwidth is assigned
 
 <WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/formation.jpg" :ready="true" alt="A four-craft formation with three deployed and one waiting for bandwidth" caption="Bandwidth limits simultaneous deployment; later craft remain stored and ready to fill an opening." />
 
-### Stock and refitting
-
-Stock keeps every manufactured craft. Bases, modules and combat roles may be rearranged at any time without a refit fee.
-
-If a required real item or prototype is no longer available, the recipe becomes incomplete and the craft cannot continue fighting as though its full loadout still existed. Restoring the missing resource restores the current recipe.
+Manufactured craft may be reconfigured or dismantled in Stock at any time without an additional fee.
 
 ## Commanding combat
 
@@ -148,12 +149,17 @@ Force does not change formation, and Guard does not remove the reticle.
 
 - {{Character:sp-w-qing}} — the character who commands the Blueprint fleet
 
+## Gallery
+
+<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/stock.jpg" :ready="true" alt="The Blueprint Stock tab with Formation, Build and Stock tabs visible" caption="Stock keeps every manufactured craft; the top tabs open Formation, Build and Stock." />
+
+<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/familiar-escort.jpg" :ready="true" alt="Several familiars following one craft in combat" caption="Familiar modules belong to their assigned craft, follow it, and assist according to that craft's combat state." />
+
 <details>
 <summary>Technical details</summary>
 
-- The old `/systems/blueprint-air-flight` path is retained so existing links remain valid; Air Flight is now a chassis within the system rather than half of its title.
 - Bandwidth is stored in half-slot units: base capacity is 6 internal units and an ordinary craft costs 2, displayed to players as 3 and 1.
 - Internally the formation stores both requested activation and effective deployment; the player-facing page uses enabled, deployed and standby instead.
-- Runtime code retains keys such as `Air_Flight` and `Air_Terror`; public prose favors display names.
+- If a required real item or prototype is unavailable, the recipe becomes incomplete; restoring that resource restores the current recipe.
 
 </details>

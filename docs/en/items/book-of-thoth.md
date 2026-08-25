@@ -22,7 +22,7 @@ As the codex fills out, a small collection gradually becomes a reusable library 
 
 ### 1. Record faces
 
-While holding the book, placing a Thoth card in a card slot records that face for the run. Upright and reversed versions are separate entries. Recording does not consume the card, and the entry remains after the card is used or discarded.
+While holding the book, acquiring and holding a Thoth card for the first time records that face for the run. Upright and reversed versions are separate entries. Recording does not consume the card, and the entry remains after the card is used or discarded.
 
 ::: tip Completing the codex
 While the book is held, card-pool rolls favor Thoth faces that have not been recorded yet. Some ordinary tarot rolls may also be replaced with Thoth cards, so the collection naturally expands over a run.
@@ -43,6 +43,20 @@ A reading always costs 3 Revelation and may contain 1–3 distinct faces. Choosi
 After a spread is formed, entering each new uncleared combat room randomly plays one face that has not resolved yet. Once every face has played, the spread ends and another reading can be made.
 
 The codex can still be browsed while a spread is active, but that spread cannot be replaced. Each face can be played by the book only once per floor.
+
+## Interface
+
+<WikiScreenshot src="/images/screenshots/items/book-of-thoth/reading.jpg" :ready="true" alt="The Book of Thoth reading screen with Revelation and selected cards visible" caption="A reading costs 3 Revelation and can contain up to 3 currently available faces." />
+
+### Codex
+
+- A visible face has been recorded and can be used in future readings.
+- `???` or “Unregistered” marks a face that has not entered the codex.
+- “Read this floor” marks a face already played by the book this floor.
+
+### Reading and active spread
+
+The Reading tab shows current Revelation, eligible faces, and the current selection. Once a spread begins, the interface and active-item HUD distinguish resolved cards from those still waiting, without revealing the order in which the remaining cards will play.
 
 ## Revelation
 
@@ -65,20 +79,6 @@ Cards played for free by the spread do not generate Revelation. Losing and later
 - A new spread cannot replace one that is still active.
 - Unfinished spreads persist between floors.
 - Entering a new floor resets per-floor face restrictions and room-trigger records.
-
-## Interface
-
-<WikiScreenshot src="/images/screenshots/items/book-of-thoth/reading.jpg" :ready="true" alt="The Book of Thoth reading screen with Revelation and selected cards visible" caption="A reading costs 3 Revelation and can contain up to 3 currently available faces." />
-
-### Codex
-
-- A visible face has been recorded and can be used in future readings.
-- `???` or “Unregistered” marks a face that has not entered the codex.
-- “Read this floor” marks a face already played by the book this floor.
-
-### Reading and active spread
-
-The Reading tab shows current Revelation, eligible faces, and the current selection. Once a spread begins, the interface and active-item HUD distinguish resolved cards from those still waiting, without revealing the order in which the remaining cards will play.
 
 ## Tips
 
@@ -106,8 +106,6 @@ The Reading tab shows current Revelation, eligible faces, and the current select
 The name refers to Aleister Crowley's [*The Book of Thoth*](https://academic.oup.com/book/58979), first published in 1944 as an account of the Thoth Tarot developed with artist Lady Frieda Harris. [Oxford University Press's study of their partnership](https://academic.oup.com/book/58979/chapter-abstract/494473299) discusses Harris's contribution to the card designs.
 
 The mod turns that relationship between book and deck into a run-long collection: rather than opening a finished reference work, the player gradually writes encountered upright and reversed faces back into the book, then reads from those records.
-
-> This page uses only the mod's own assets and in-game screenshots; it does not reproduce scans from modern editions of the Thoth Tarot.
 
 ## Gallery
 
