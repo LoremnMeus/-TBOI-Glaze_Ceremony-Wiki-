@@ -17,14 +17,14 @@ Many Rainbow items begin with a thematically related vanilla item and redraw its
 
 | Item | Visual basis | Design connection |
 | --- | --- | --- |
-| {{Item:destiny-anchor}} | {{Collectible:127}} | Both allow content from a past floor to affect the journey again. The early design records are lost, so whether this motivated the original choice of icon cannot be confirmed. |
+| {{Item:destiny-anchor}} | {{Collectible:127}} | Forget Me Now regenerates the current floor; Destiny Anchor carries part of it into the next floor. |
 | {{Item:procrastination}} | {{Collectible:260}} | Turns postponing the boss fight into permanent damage. |
 
 This list contains only entries confirmed to belong to the Rainbow classification. It is not a list of every item with a colourful sprite.
 
 ## Unlocks
 
-Rainbow items are often associated with a mod character's Delirium completion mark, but this is not a rule followed by every Rainbow item. The exact unlock condition is shown in each item's infobox.
+Rainbow items are often unlock rewards for a mod character defeating Delirium, but this is not a rule followed by every Rainbow item. The exact unlock condition is shown in each item's infobox.
 
 ## Future direction
 

@@ -38,6 +38,18 @@ Boss rooms can be anchored, but never replace the next floor's normal Boss Room.
 
 Anchoring a weaker boss therefore does not remove the next floor's boss fight; it may bring the old boss back as an additional encounter.
 
+## Synergies
+
+### {{Collectible584}} Book of Virtues
+
+Successfully setting a **new** anchor spawns a Destiny Wisp to guard it, up to 3 per floor. The wisp attacks automatically near its anchor, returns when the anchored room is revisited, and fully heals after that room is reproduced on the next floor. Retrieving the anchor or extinguishing the wisp prevents it from returning.
+
+### {{Collectible34}} Book of Belial
+
+While holding Book of Belial, Destiny Anchor can record a Devil Room. If the next floor successfully opens a Devil Room, the anchored room appears there again with as much of its original content and layout as possible.
+
+This synergy does not increase the normal chance for a Devil Room entrance to open. It determines what appears if the room opens rather than guaranteeing the entrance itself.
+
 ## What is reproduced
 
 | Content | Treatment |
@@ -64,7 +76,7 @@ If reproduced terrain blocks a necessary entrance, a small number of obstacles m
 
 Destiny Anchor belongs to the [Rainbow](/en/systems/rainbow) classification. Its icon was completed years before the mechanic was implemented and was redrawn from the icon of {{Collectible:127}}.
 
-Both items allow content from a past floor to affect the journey again. The original design records have been lost, so it cannot be confirmed whether that connection motivated the choice of visual basis.
+Forget Me Now regenerates the current floor, while Destiny Anchor carries part of the current floor into the next one. Both let a floor's journey continue in another form. The original design records have been lost, so it cannot be confirmed whether that connection motivated the choice of visual basis.
 
 <details>
 <summary>Technical details</summary>
