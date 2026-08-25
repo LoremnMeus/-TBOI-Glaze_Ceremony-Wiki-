@@ -33,7 +33,7 @@ The Build tab first selects a chassis, then accepts one base and a set of module
 
 Qing's first **AF-00 Prototype** requires no base item. It is treated as a quality-2 base with 3 module slots and a 1.00× base multiplier, ensuring that the character can establish a basic attack before acquiring a complete recipe.
 
-After that first craft exists, every additional craft requires one real item as its base.
+While Stock already contains at least one regular craft, manufacturing another requires assigning one real item as its base.
 
 ## Assembling a loadout
 
@@ -133,7 +133,7 @@ Force does not change formation, and Guard does not remove the reticle.
 
 ## Available craft
 
-| Craft | Role | Confirmed behavior |
+| Craft | Role | Features |
 | --- | --- | --- |
 | **AF-00 Prototype** | Standard | The first can be built for free; Blueprint modules establish its independent combat loadout |
 | {{Item:air-terror}} | Projectile defence | Cruises automatically, intercepts nearby hostile projectiles and briefly leaves a damaging aura |
@@ -159,7 +159,7 @@ Force does not change formation, and Guard does not remove the reticle.
 <summary>Technical details</summary>
 
 - Bandwidth is stored in half-slot units: base capacity is 6 internal units and an ordinary craft costs 2, displayed to players as 3 and 1.
-- Internally the formation stores both requested activation and effective deployment; the player-facing page uses enabled, deployed and standby instead.
+- Formation separately records the craft the player wants enabled and those that actually receive bandwidth.
 - If a required real item or prototype is unavailable, the recipe becomes incomplete; restoring that resource restores the current recipe.
 
 </details>
