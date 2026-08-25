@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T10:49:32Z",
+  "generatedAt": "2026-08-25T14:52:20Z",
   "pages": [
     {
       "slug": "darkness",
@@ -895,8 +895,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/destiny-anchor.md",
       "en": "wiki/docs/en/items/destiny-anchor.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "acrotomophilia",

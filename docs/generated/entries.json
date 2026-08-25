@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-25T10:49:32Z",
+  "generatedAt": "2026-08-25T14:52:20Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -11780,12 +11780,6 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
-        },
-        {
-          "id": "greedTreasure",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
         }
       ],
       "unlock": null,
@@ -11826,8 +11820,8 @@
         "en": "The past still waits ahead"
       },
       "eid": {
-        "zh": "使用时锚定当前房间，每层最多3个#{{ArrowDown}} 下层时，被锚定的房间会再次出现#优先保留原本的房间布局",
-        "en": "Anchors the current room on use, up to 3 per floor#{{ArrowDown}} Anchored rooms reappear on the next floor#Keeps the original room layout when possible"
+        "zh": "使用时锚定当前房间，每层最多3个#{{ArrowDown}} 下层后在其他房间复现#房型不匹配时，仅复现锚点周围区域#再次使用可收回当前房间的锚点",
+        "en": "Anchors the current room on use, up to 3 per floor#{{ArrowDown}} Reappears elsewhere on the next floor#If room shape differs, only the area around the anchor returns#Use again in an anchored room to retrieve its anchor"
       },
       "seijaBuff": {
         "zh": "",

@@ -4,14 +4,70 @@ description: "过去仍在前方等待"
 slug: destiny-anchor
 kind: collectible
 internalKey: Destiny_Anchor
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 下层时，被锚定的房间会再次出现 优先保留原本的房间布局 Anchors the current room on use, up to 3 per floor Anchored rooms reappear on the next floor Keeps the original room layout when possible</p>
+<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 下层后在其他房间复现 房型不匹配时，仅复现锚点周围区域 再次使用可收回当前房间的锚点 Anchors the current room on use, up to 3 per floor Reappears elsewhere on the next floor If room shape differs, only the area around the anchor returns Use again in an anchored room to retrieve its anchor</p>
 
 <PublicEntry slug="destiny-anchor" lang="zh" />
 
 ## 机制说明
 
-<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
+命运锚点可以把本层遇到的房间带到下一层。使用时会在当前位置落下一枚锚，并记录当前房间及锚点周围的敌人和地形；进入下一层后，这段命运会寻找新的房间再次出现。
 
-待撰写。
+如果下一层无法完整容纳原房间，则只复现锚点周围保存的区域，而不会因为房型不同直接失效。
+
+## 如何使用
+
+### 1. 落下锚点
+
+在可锚定的房间内使用命运锚点，会在玩家脚下落下一枚锚。每层最多同时记录 3 个房间。
+
+在已经锚定的同一房间再次使用，会收回该锚点并释放一个名额。
+
+### 2. 选择保存区域
+
+普通 1×1 房间基本可以视为保存整个可玩区域。在大型或异形房间中，锚只记录当前位置周围约一个普通房间大小的区域；地面边框会显示实际保存范围。
+
+### 3. 下一层复现
+
+进入下一层后，每个锚点都会尝试寻找一个尚未探索的合适房间。如果房型与门位兼容，原房间会尽量完整复现；如果无法匹配，则改用一个普通大小的房间，只复现锚点周围保存的区域。
+
+## Boss 房
+
+Boss 房也可以被锚定，但不会替换下一层正常的 Boss 房。它会优先占用普通房、宝箱房、商店等其他非 Boss 房作为复现位置。
+
+因此，锚定一个较弱的 Boss 并不能取消下一层原本的 Boss 战，而是可能让这个旧 Boss 额外再次出现。
+
+## 复现内容
+
+| 内容 | 处理方式 |
+| --- | --- |
+| 敌人与部分房间对象 | 记录锚定区域内的初始配置 |
+| 石头、坑、便便、尖刺等地形 | 记录并在复现时重建 |
+| 房间背景与部分地形外观 | 随锚点一同保留 |
+| 锚定前已经造成的破坏 | 通常不会继承 |
+| 下一层原本的 Boss 房 | 不会被 Boss 锚点覆盖 |
+
+普通锚点记录的是房间原本的敌人与地形配置，而不是锚定时已经打完或炸毁后的残局。先杀死敌人、打残 Boss 或破坏障碍，一般不会让下一层继承这些状态。
+
+::: tip 命运会给你留一条路
+如果保存的地形在新房间里堵住必要入口，系统会自动清理或软化少量障碍，保证房间仍可正常通行。因此复现结果有时不会与原房间逐格完全相同。
+:::
+
+## 使用技巧
+
+- **锚点的位置很重要。** 在大房间里，真正被保存的是锚周围的一块区域；想保留某组敌人、特殊障碍或布局时，应先站到附近再使用。
+- **Boss 锚点不会替你跳过下一层 Boss。** 它更接近一次额外的 Boss 再战，而不是降低下一层难度。
+- **不必为了保存房间保持原状。** 普通锚点读取房间的初始配置，可以先清理房间再决定是否锚定。
+
+<details>
+<summary>技术细节</summary>
+
+- 捕获窗口为 13×7 个格子，约等于标准 1×1 房间的可玩区域。
+- 复现时优先寻找房型与门位兼容的未探索房间；没有合适目标时，改用 1×1 房间承载局部区域。
+- 通路修复优先保留原布局；必须修改时，会清除或软化阻塞格，而不是取消整次复现。
+- Boss 来源不会选择 Boss 房作为复现目标。
+- 贪婪模式、Ascent 流程和部分后期特殊楼层无法使用。
+- 该机制需要 REPENTOGON。
+
+</details>
