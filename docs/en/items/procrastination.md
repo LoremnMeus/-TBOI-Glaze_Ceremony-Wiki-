@@ -22,7 +22,7 @@ Procrastination rewards exploring before killing a boss. While held, it permanen
 | Damage per interval | {{Damage}} +0.1 |
 | Maximum per floor | {{Damage}} +1 |
 
-Damage gained this way is permanent. A new floor resets only the timer, the floor cap and the boss-stop state.
+On a new floor, the timer restarts and the amount gained toward the current floor is cleared, reopening up to +1 of growth. Previously earned permanent damage remains, and the boss-stop state is cleared.
 
 ## Details
 
