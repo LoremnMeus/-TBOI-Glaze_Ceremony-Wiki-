@@ -16,7 +16,7 @@ Book of Thoth records the Thoth cards encountered during the run. New faces buil
 
 As the codex fills out, a small collection gradually becomes a reusable library of effects.
 
-<WikiScreenshot src="/images/items/book-of-thoth-codex.jpg" :ready="true" alt="The Book of Thoth codex screen" caption="The codex records upright and reversed Thoth faces separately. Faces not yet recorded remain hidden." />
+<WikiScreenshot src="/images/screenshots/items/book-of-thoth/codex.jpg" :ready="true" alt="The Book of Thoth codex screen" caption="The codex records upright and reversed Thoth faces separately. Faces not yet recorded remain hidden." />
 
 ## How to use
 
@@ -68,7 +68,7 @@ Cards played for free by the spread do not generate Revelation. Losing and later
 
 ## Interface
 
-<WikiScreenshot src="/images/items/book-of-thoth-reading.jpg" :ready="true" alt="The Book of Thoth reading screen with Revelation and selected cards visible" caption="A reading costs 3 Revelation and can contain up to 3 currently available faces." />
+<WikiScreenshot src="/images/screenshots/items/book-of-thoth/reading.jpg" :ready="true" alt="The Book of Thoth reading screen with Revelation and selected cards visible" caption="A reading costs 3 Revelation and can contain up to 3 currently available faces." />
 
 ### Codex
 
@@ -103,7 +103,7 @@ The Reading tab shows current Revelation, eligible faces, and the current select
 
 ## Neta
 
-The name refers to Aleister Crowley's [*The Book of Thoth*](https://books.google.com/books/about/Book_of_Thoth.html?id=XgHm_Hssf3wC), first published in 1944 as an account of the Thoth Tarot developed with artist Lady Frieda Harris. [Oxford University Press's study of their partnership](https://academic.oup.com/book/58979/chapter-abstract/494473299) discusses Harris's contribution to the card designs.
+The name refers to Aleister Crowley's [*The Book of Thoth*](https://academic.oup.com/book/58979), first published in 1944 as an account of the Thoth Tarot developed with artist Lady Frieda Harris. [Oxford University Press's study of their partnership](https://academic.oup.com/book/58979/chapter-abstract/494473299) discusses Harris's contribution to the card designs.
 
 The mod turns that relationship between book and deck into a run-long collection: rather than opening a finished reference work, the player gradually writes encountered upright and reversed faces back into the book, then reads from those records.
 
@@ -111,7 +111,7 @@ The mod turns that relationship between book and deck into a run-long collection
 
 ## Gallery
 
-<WikiScreenshot src="/images/items/book-of-thoth-cast.jpg" :ready="true" alt="A Book of Thoth spread revealing and playing a card in combat" caption="Entering a new combat room reveals and plays one unresolved face at random." />
+<WikiScreenshot src="/images/screenshots/items/book-of-thoth/spread-cast.jpg" :ready="true" alt="A Book of Thoth spread revealing and playing a card in combat" caption="Entering a new combat room reveals and plays one unresolved face at random." />
 
 <details>
 <summary>Technical details</summary>

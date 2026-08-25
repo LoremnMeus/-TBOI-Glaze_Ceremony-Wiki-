@@ -10,7 +10,7 @@ status: featured
 
 An item can serve as a base or a module. The base determines the craft's capacity and overall performance; modules turn item abilities into that craft's weapons and support systems.
 
-<WikiScreenshot alt="The Blueprint screen with Formation, Build and Stock tabs" placeholder="Full Blueprint screenshot pending" caption="Formation, Build and Stock manage deployment priority, new craft and existing configurations." />
+<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/stock.jpg" :ready="true" alt="The Blueprint Stock tab with Formation, Build and Stock tabs visible" caption="Stock keeps every manufactured craft; the top tabs open Formation, Build and Stock." />
 
 ## The four parts of Blueprint play
 
@@ -29,7 +29,7 @@ The Blueprint may store more craft than can fight at once. Control bandwidth det
 
 The Build tab first selects a chassis, then accepts one base and a set of modules. Completed craft enter Stock and Formation, and may later be refitted or dismantled without an additional fee.
 
-<WikiScreenshot alt="The Blueprint Build tab with a base, module slots and item tokens" placeholder="Build-tab screenshot pending" caption="The base establishes the frame; surrounding module slots determine the craft's actual abilities." />
+<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/build.jpg" :ready="true" alt="The Blueprint Build tab with a base, module slots and item tokens" caption="The base establishes the frame; surrounding module slots determine the craft's actual abilities." />
 
 ### The first craft
 
@@ -65,6 +65,8 @@ Only items placed in module slots contribute to that craft's combat loadout. Con
 | Special | Adds orbitals, on-hit or on-damage reactions, auras and other custom behavior |
 
 A separate Blueprint compatibility catalogue can eventually cover individual items; this page documents the common rules.
+
+<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/familiar-escort.jpg" :ready="true" alt="Several familiars following one craft in combat" caption="Familiar modules belong to their assigned craft, follow it, and assist according to that craft's combat state." />
 
 ### Item allocation
 
@@ -102,7 +104,7 @@ Ordinary modules currently add no extra bandwidth cost. Craft beyond capacity en
 
 More craft may be left enabled than bandwidth can support. Bandwidth is assigned from the front of the formation; later craft wait on standby and automatically fill an opening when capacity becomes available.
 
-<WikiScreenshot alt="A four-craft formation with three deployed and one waiting for bandwidth" placeholder="Formation and bandwidth screenshot pending" caption="Bandwidth limits simultaneous deployment; later craft remain stored and ready to fill an opening." />
+<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/formation.jpg" :ready="true" alt="A four-craft formation with three deployed and one waiting for bandwidth" caption="Bandwidth limits simultaneous deployment; later craft remain stored and ready to fill an opening." />
 
 ### Stock and refitting
 
@@ -126,7 +128,7 @@ Fleet control answers two independent questions:
 
 Force does not change formation, and Guard does not remove the reticle.
 
-<WikiScreenshot alt="Tainted Qing commanding several craft with the reticle" placeholder="Fleet combat screenshot pending" caption="The reticle guides the fleet, while formation and fire control independently determine position and target selection." />
+<WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/combat.jpg" :ready="true" alt="Tainted Qing commanding several craft with the reticle" caption="The reticle guides the fleet, while formation and fire control independently determine position and target selection." />
 
 ## Available craft
 

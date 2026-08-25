@@ -16,7 +16,7 @@ status: featured
 
 随着卡册逐渐补全，透特之书会从一个小型牌库成长为可以反复调用的法术库。
 
-<WikiScreenshot src="/images/items/book-of-thoth-codex.jpg" :ready="true" alt="透特之书的卡册界面" caption="透特之书的卡册。玩家见过的正位与逆位透特牌会分别被收录，未收录的牌面仍保持隐藏。" />
+<WikiScreenshot src="/images/screenshots/items/book-of-thoth/codex.jpg" :ready="true" alt="透特之书的卡册界面" caption="透特之书的卡册。玩家见过的正位与逆位透特牌会分别被收录，未收录的牌面仍保持隐藏。" />
 
 ## 如何使用
 
@@ -68,7 +68,7 @@ status: featured
 
 ## 操作与界面
 
-<WikiScreenshot src="/images/items/book-of-thoth-reading.jpg" :ready="true" alt="透特之书的占卜界面，启示可见且已经选择数张牌" caption="占卜界面。消耗 3 点启示，可以从当前可用的牌面中选择至多 3 张组成牌阵。" />
+<WikiScreenshot src="/images/screenshots/items/book-of-thoth/reading.jpg" :ready="true" alt="透特之书的占卜界面，启示可见且已经选择数张牌" caption="占卜界面。消耗 3 点启示，可以从当前可用的牌面中选择至多 3 张组成牌阵。" />
 
 ### 卡册页
 
@@ -82,16 +82,16 @@ status: featured
 
 ## 使用技巧
 
-- **单牌占卜可以锁定结果。**只选择一张时，下一个合适的战斗房必然发动它，适合需要严格控制时机的牌面。
-- **三牌占卜更节省启示。**一张和三张都消耗 3 点；如果不在意顺序，三张通常能换来更多总收益。
-- **先考虑随机发动是否安全。**泛用、没有明显时机要求的牌适合放进多牌牌阵；强烈依赖房间状态的牌更适合单独占卜。
-- **楼层末尾不必急着耗完牌阵。**未完成的牌阵可以跨层保存，而本层已发动限制会在新楼层重置。
+- **单牌占卜可以锁定结果。** 只选择一张时，下一个合适的战斗房必然发动它，适合需要严格控制时机的牌面。
+- **三牌占卜更节省启示。** 一张和三张都消耗 3 点；如果不在意顺序，三张通常能换来更多总收益。
+- **先考虑随机发动是否安全。** 泛用、没有明显时机要求的牌适合放进多牌牌阵；强烈依赖房间状态的牌更适合单独占卜。
+- **楼层末尾不必急着耗完牌阵。** 未完成的牌阵可以跨层保存，而本层已发动限制会在新楼层重置。
 
 ## 特殊联动
 
-- {{Collectible34}} **彼列书：**牌阵容量由 3 张提高到 4 张，建立牌阵仍只消耗 3 点启示。四张牌遵守相同的随机发动和每层限用规则。
-- {{Seija}} **Seija：**地面上的透特牌只显示未知牌面。新收录的牌会先以“未揭示”状态进入卡册，照常提供启示且可以选入占卜；第一次成功建立牌阵时，这些记录才会一并翻开。离开 Seija 状态也会揭示仍在等待的记录。
-- {{Collectible584}} **美德之书：**透特之书生成的魂火熄灭时会掉落一张塔罗牌。
+- {{Collectible34}} **彼列书：** 牌阵容量由 3 张提高到 4 张，建立牌阵仍只消耗 3 点启示。四张牌遵守相同的随机发动和每层限用规则。
+- {{Seija}} **Seija：** 地面上的透特牌只显示未知牌面。新收录的牌会先以“未揭示”状态进入卡册，照常提供启示且可以选入占卜；第一次成功建立牌阵时，这些记录才会一并翻开。离开 Seija 状态也会揭示仍在等待的记录。
+- {{Collectible584}} **美德之书：** 透特之书生成的魂火熄灭时会掉落一张塔罗牌。
 
 ## 细节与特殊情况
 
@@ -103,7 +103,7 @@ status: featured
 
 ## Neta
 
-“透特之书”的名字来自 Aleister Crowley 于 1944 年首次出版的 [*The Book of Thoth*](https://books.google.com/books/about/Book_of_Thoth.html?id=XgHm_Hssf3wC)。该书系统说明了 Crowley 与艺术家 Lady Frieda Harris 合作完成的 Thoth Tarot；[Oxford University Press 对二人合作的研究](https://academic.oup.com/book/58979/chapter-abstract/494473299)也特别讨论了 Harris 对牌面创作的贡献。
+“透特之书”的名字来自 Aleister Crowley 于 1944 年首次出版的 [*The Book of Thoth*](https://academic.oup.com/book/58979)。该书系统说明了 Crowley 与艺术家 Lady Frieda Harris 合作完成的 Thoth Tarot；[Oxford University Press 对二人合作的研究](https://academic.oup.com/book/58979/chapter-abstract/494473299)也特别讨论了 Harris 对牌面创作的贡献。
 
 模组把“书与牌”的关系改写成一局内的收集过程：玩家并非打开一本已经写完的牌典，而是把自己实际见过的正位与逆位牌面逐步写回书中，再从这些记录里进行占卜。
 
@@ -111,7 +111,7 @@ status: featured
 
 ## 画廊
 
-<WikiScreenshot src="/images/items/book-of-thoth-cast.jpg" :ready="true" alt="透特之书的牌阵在战斗房中翻开并发动" caption="进入新的战斗房后，牌阵会随机翻开并发动其中一张尚未使用的牌。" />
+<WikiScreenshot src="/images/screenshots/items/book-of-thoth/spread-cast.jpg" :ready="true" alt="透特之书的牌阵在战斗房中翻开并发动" caption="进入新的战斗房后，牌阵会随机翻开并发动其中一张尚未使用的牌。" />
 
 <details>
 <summary>技术细节</summary>

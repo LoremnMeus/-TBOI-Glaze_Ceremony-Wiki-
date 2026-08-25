@@ -133,3 +133,11 @@ git status --short
 ## 3. 图标与公式
 
 见 [markup.md](./markup.md) 与 [/icons](/icons)。条目图由 `export_wiki_data.py` 采集；原版/EID 小图标用 `export_wiki_icons.py`。不要手改 `wiki/docs/public/generated/`。
+
+### 游戏截图
+
+- 截图统一放在 `wiki/docs/public/images/screenshots/<页面类型>/<slug>/`，例如 `screenshots/items/book-of-thoth/`、`screenshots/systems/blueprint-fleet/`。角色使用 `characters`，挑战使用 `challenges`。
+- 文件名描述画面用途，例如 `overview.jpg`、`build.jpg`、`formation.jpg`、`combat.jpg`；禁止把 `01.jpg`、`new.png` 等无语义文件长期留在 `wiki/` 根目录。
+- 中英文页面共用同一份截图，分别维护玩家可读的 `alt` 与 `caption`。
+- 正文统一使用 `<WikiScreenshot src="/images/screenshots/...">`。组件会自动适配 GitHub Pages 的仓库 base path；不要在 Markdown 中手写部署仓库名，也不要直接用 HTML `<img>` 绕过组件。
+- 新截图接入后必须用生产 base 执行一次构建，确认公开路径不是错误的站点根路径：`$env:GITHUB_PAGES_BASE='/-TBOI-Glaze_Ceremony-Wiki-/'; npm --prefix wiki run docs:build`。

@@ -17,7 +17,7 @@ const KIND_DIR = {
 const SYSTEMS = {
   glaze: { zh: '琉璃', en: 'Glaze' },
   'thoth-cards': { zh: '透特牌', en: 'Thoth Cards' },
-  'blueprint-air-flight': { zh: '蓝图与 Air Flight', en: 'Blueprint & Air Flight' },
+  'blueprint-air-flight': { zh: '蓝图与机群', en: 'Blueprint & Fleet' },
   'control-hub': { zh: '控制中枢', en: 'Control Hub' },
   'death-certificate-knowledge': { zh: '知识与遐想', en: 'Knowledge & Reverie' },
 }

@@ -1,5 +1,8 @@
 <script setup lang="ts">
-withDefaults(defineProps<{
+import { computed } from 'vue'
+import { withBase } from 'vitepress'
+
+const props = withDefaults(defineProps<{
   src?: string
   alt: string
   caption?: string
@@ -9,11 +12,13 @@ withDefaults(defineProps<{
 }>(), {
   src: '', caption: '', ready: false, placeholder: '截图待补', ratio: '16 / 9',
 })
+
+const resolvedSrc = computed(() => props.src ? withBase(props.src) : '')
 </script>
 
 <template>
   <figure class="wiki-screenshot">
-    <img v-if="ready && src" :src="src" :alt="alt">
+    <img v-if="ready && resolvedSrc" :src="resolvedSrc" :alt="alt">
     <div v-else class="wiki-screenshot__placeholder" :style="{ aspectRatio: ratio }" role="img" :aria-label="alt">
       <strong>{{ placeholder }}</strong><span>{{ alt }}</span>
     </div>
