@@ -101,7 +101,7 @@ status: featured
 - 自动发动仍会调用卡牌的正常使用流程，但会屏蔽播报动画，并阻止这次使用再次提供启示。
 - 卡册与启示按玩家分别保存；判断哪些牌面尚未见过并据此调整卡池时，则会综合本局所有持书玩家的收录情况。
 
-## Neta
+## 轶事
 
 “透特之书”的名字来自 Aleister Crowley 于 1944 年首次出版的 [*The Book of Thoth*](https://academic.oup.com/book/58979)。该书系统说明了 Crowley 与艺术家 Lady Frieda Harris 合作完成的 Thoth Tarot；[Oxford University Press 对二人合作的研究](https://academic.oup.com/book/58979/chapter-abstract/494473299)也特别讨论了 Harris 对牌面创作的贡献。
 

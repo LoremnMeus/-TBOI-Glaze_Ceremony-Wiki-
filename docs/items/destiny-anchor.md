@@ -4,7 +4,7 @@ description: "过去仍在前方等待"
 slug: destiny-anchor
 kind: collectible
 internalKey: Destiny_Anchor
-status: reviewed
+status: featured
 ---
 <p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 下层后在其他房间复现 房型不匹配时，仅复现锚点周围区域 再次使用可收回当前房间的锚点 Anchors the current room on use, up to 3 per floor Reappears elsewhere on the next floor If room shape differs, only the area around the anchor returns Use again in an anchored room to retrieve its anchor</p>
 
@@ -34,7 +34,7 @@ status: reviewed
 
 ## Boss 房
 
-Boss 房也可以被锚定，但不会替换下一层正常的 Boss 房。它会优先占用普通房、宝箱房、商店等其他非 Boss 房作为复现位置。
+Boss 房也可以被锚定，但不会替换下一层正常的 Boss 房。它会优先寻找普通房作为复现位置；必要时也可能占用其他非 Boss 房。
 
 因此，锚定一个较弱的 Boss 并不能取消下一层原本的 Boss 战，而是可能让这个旧 Boss 额外再次出现。
 
@@ -59,6 +59,12 @@ Boss 房也可以被锚定，但不会替换下一层正常的 Boss 房。它会
 - **锚点的位置很重要。** 在大房间里，真正被保存的是锚周围的一块区域；想保留某组敌人、特殊障碍或布局时，应先站到附近再使用。
 - **Boss 锚点不会替你跳过下一层 Boss。** 它更接近一次额外的 Boss 再战，而不是降低下一层难度。
 - **不必为了保存房间保持原状。** 普通锚点读取房间的初始配置，可以先清理房间再决定是否锚定。
+
+## 轶事
+
+命运锚点属于[彩虹](/systems/rainbow)道具。它的图标在机制实装前数年便已完成，并以 {{Collectible:127}} 的图标为基础重新绘制。
+
+两件道具都会让已经过去的楼层内容重新影响之后的旅程；由于最初的设计记录已经遗失，无法确认这种联系是否就是当时选择图标原型的原因。
 
 <details>
 <summary>技术细节</summary>

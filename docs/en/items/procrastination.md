@@ -34,6 +34,10 @@ On a new floor, the timer restarts and the amount gained toward the current floo
 - If shops, treasure rooms or side paths remain, explore them before fighting the boss.
 - Normal room clearing, shopping and exploration all count; there is no need to stand still and wait.
 
+## Trivia
+
+Procrastination belongs to the [Rainbow](/en/systems/rainbow) classification, and its icon was redrawn from {{Collectible:260}}. It turns “fighting the boss later” into permanent damage growth, making delay itself part of the mechanic.
+
 <details>
 <summary>Technical details</summary>
 

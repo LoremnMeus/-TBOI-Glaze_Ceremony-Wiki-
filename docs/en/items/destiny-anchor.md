@@ -4,7 +4,7 @@ description: "The past still waits ahead"
 slug: destiny-anchor
 kind: collectible
 internalKey: Destiny_Anchor
-status: reviewed
+status: featured
 ---
 <p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 下层后在其他房间复现 房型不匹配时，仅复现锚点周围区域 再次使用可收回当前房间的锚点 Anchors the current room on use, up to 3 per floor Reappears elsewhere on the next floor If room shape differs, only the area around the anchor returns Use again in an anchored room to retrieve its anchor</p>
 
@@ -34,7 +34,7 @@ On the next floor, each anchor searches for a suitable unexplored room. If its s
 
 ## Boss rooms
 
-Boss rooms can be anchored, but never replace the next floor's normal Boss Room. They instead prefer a normal, Treasure, Shop or another non-Boss room as their destination.
+Boss rooms can be anchored, but never replace the next floor's normal Boss Room. They prefer a normal room as their destination and may use another non-Boss room when necessary.
 
 Anchoring a weaker boss therefore does not remove the next floor's boss fight; it may bring the old boss back as an additional encounter.
 
@@ -59,6 +59,12 @@ If reproduced terrain blocks a necessary entrance, a small number of obstacles m
 - **Anchor position matters.** In a large room, only the nearby region is saved. Stand near the enemies, obstacles or layout that should return before using the item.
 - **A boss anchor does not skip the next boss.** It creates an additional rematch rather than reducing the next floor's normal boss difficulty.
 - **The room does not need to remain untouched.** Normal anchors read the initial configuration, so the room may be cleared before deciding whether to anchor it.
+
+## Trivia
+
+Destiny Anchor belongs to the [Rainbow](/en/systems/rainbow) classification. Its icon was completed years before the mechanic was implemented and was redrawn from the icon of {{Collectible:127}}.
+
+Both items allow content from a past floor to affect the journey again. The original design records have been lost, so it cannot be confirmed whether that connection motivated the choice of visual basis.
 
 <details>
 <summary>Technical details</summary>
