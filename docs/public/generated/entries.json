@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-24T19:03:58Z",
+  "generatedAt": "2026-08-25T07:57:58Z",
   "version": "1.0.1",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -804,7 +804,7 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "空行零号-试做版",
+        "zh": "空行零号·试作型",
         "en": "AF-00 Prototype"
       },
       "desc": {

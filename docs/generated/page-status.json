@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T19:03:58Z",
+  "generatedAt": "2026-08-25T07:57:58Z",
   "pages": [
     {
       "slug": "darkness",
@@ -352,7 +352,7 @@
       "zh": "wiki/docs/items/book-of-thoth.md",
       "en": "wiki/docs/en/items/book-of-thoth.md",
       "zhStatus": "featured",
-      "enStatus": "drafted"
+      "enStatus": "featured"
     },
     {
       "slug": "book-of-the-law",

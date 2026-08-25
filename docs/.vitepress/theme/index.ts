@@ -17,6 +17,7 @@ import VanillaEntity from './components/VanillaEntity.vue'
 import AnnaSpecialInteractions from './components/AnnaSpecialInteractions.vue'
 import TecroSpecialInteractions from './components/TecroSpecialInteractions.vue'
 import TecrorunRouteScaling from './components/TecrorunRouteScaling.vue'
+import WikiScreenshot from './components/WikiScreenshot.vue'
 import './custom.css'
 
 export default {
@@ -42,5 +43,6 @@ export default {
     app.component('AnnaSpecialInteractions', AnnaSpecialInteractions)
     app.component('TecroSpecialInteractions', TecroSpecialInteractions)
     app.component('TecrorunRouteScaling', TecrorunRouteScaling)
+    app.component('WikiScreenshot', WikiScreenshot)
   },
 }

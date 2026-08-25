@@ -4,7 +4,7 @@ description: "Fate is merely a book yet to be put in order."
 slug: book-of-thoth
 kind: collectible
 internalKey: Book_of_Thoth
-status: stub
+status: featured
 ---
 <p class="wiki-search-index" v-pre>透特之书 Book of Thoth Book_of_Thoth book-of-thoth Book of Thoth 命运只是尚未整理的书页 Fate is merely a book yet to be put in order. 记录获得过的透特牌面 登记新牌面+1启示，使用透特牌+2启示，最多12格 消耗3格启示，选择至多3张记录牌面进行占卜 进入新战斗房时随机发动一张；每个牌面每层限一次 Records obtained Thoth faces Registering a new face +1 Revelation, using a Thoth card +2, up to 12 Spend 3 Revelation to read up to 3 recorded faces Entering a new combat room plays one at random; each face once per floor</p>
 
@@ -12,49 +12,118 @@ status: stub
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+Book of Thoth records the Thoth cards encountered during the run. New faces build Revelation, which can be spent to arrange recorded cards into a spread that plays itself across later combat rooms.
 
-### Effect
+As the codex fills out, a small collection gradually becomes a reusable library of effects.
 
-{{Item:book-of-thoth}} opens a fullscreen codex. Picking up a {{ThothCard}} Thoth card registers that face; upright and reversed are tracked separately.
+<WikiScreenshot src="/images/items/book-of-thoth-codex.jpg" :ready="true" alt="The Book of Thoth codex screen" caption="The codex records upright and reversed Thoth faces separately. Faces not yet recorded remain hidden." />
 
-The book starts with 3 Revelation. Registering a new face grants +1; using a Thoth card yourself grants +2. It is shown as a special 12-bar active charge. Clearing rooms does not refill it, and faces played by the book do not grant Revelation.
+## How to use
 
-Spend 3 Revelation to form a spread of 1–3 registered faces that have not been read this floor. The spread is an unordered set: you choose which faces enter it, not the order they play.
+### 1. Record faces
 
-### Triggers and costs
+While holding the book, placing a Thoth card in a card slot records that face for the run. Upright and reversed versions are separate entries. Recording does not consume the card, and the entry remains after the card is used or discarded.
 
-- Opening the book does not spend Revelation, and it can be used before the bar is full.
-- Forming a spread always costs 3, whether you pick 1, 2, or 3 faces.
-- While any face remains in the spread, the codex can still be opened and browsed, but the spread cannot be replaced.
-- Forming a spread in an uncleared combat room does not play a face in that room.
-- After that, entering a new uncleared combat room (including {{BossRoom}} boss rooms) plays one unrevealed face at random. Played faces stay in the spread face-up; the others share one generic back, so upright vs reversed cannot be read from the back. Slot order after the shuffle is placement only, not play order.
-- Each combat room advances the spread only once. Leaving and returning does not play another face.
-- After the book successfully plays a face, that face is marked read for the floor and cannot be chosen again until the next floor. Upright and reversed count separately.
-- When every face in the spread has played, the spread clears and you can form another.
-- Entering a new floor clears read-this-floor marks and room trigger records. The codex, current Revelation, and any unfinished spread are kept and can continue across floors.
+::: tip Completing the codex
+While the book is held, card-pool rolls favor Thoth faces that have not been recorded yet. Some ordinary tarot rolls may also be replaced with Thoth cards, so the collection naturally expands over a run.
+:::
 
-### Numbers
+### 2. Gain Revelation
 
-- Revelation cap: 12. First pickup: 3. Registering a new face: +1. Using a Thoth card yourself: +2.
-- Form a spread: −3.
-- Spread size: 1–3 faces.
-- While held, generated Thoth pickups bias toward unregistered faces (weight 3 if unseen, 1 if registered).
-- Ordinary tarot cards may be replaced with Thoth cards. The chance scales with how many faces are still unregistered, up to $1/2$.
+Revelation is the book's reading resource. The first copy of the book, newly recorded faces, and Thoth cards used directly by the player provide it. Room clears and ordinary batteries do not.
 
-### Synergies
+### 3. Perform a reading
 
-- {{Collectible34}} Book of Belial: using a Thoth card grants a temporary damage up.
-- {{Collectible584}} Book of Virtues: wisps spawn a tarot card when extinguished.
-- {{Collectible706}} Abyss: locusts have a chance to spawn a card on hit.
-- {{Seija}} Seija nerf: all Thoth cards appear face-down.
+Using the book opens its own interface. The Codex tab shows recorded faces; the Reading tab lets the player select faces that are still available this floor.
 
-### Notes
+A reading always costs 3 Revelation and may contain 1–3 distinct faces. Choosing fewer cards does not reduce the cost, and selection order does not determine play order.
 
-- A 1-card spread is fully determined but still costs 3 Revelation. A 3-card spread is the most efficient, but you will not know which remaining face plays when you enter a fight. The active-item HUD follows the same slot order, not play order.
-- Ordinary batteries do not restore Revelation.
-- Read-this-floor is recorded only after a face actually plays. Faces still waiting in the spread are not marked yet.
+### 4. Resolve the spread
 
-### Version
+After a spread is formed, entering each new uncleared combat room randomly plays one face that has not resolved yet. Once every face has played, the spread ends and another reading can be made.
 
-Compared with the first version: Revelation is a 12-bar special charge that does not refill on room clear; forming a spread always costs 3 and may use 1–3 faces; the preset order is gone, and remaining faces play at random when entering an uncleared combat room; faces the book plays cannot be chosen again this floor.
+The codex can still be browsed while a spread is active, but that spread cannot be replaced. Each face can be played by the book only once per floor.
+
+## Revelation
+
+| Event | Revelation |
+| --- | ---: |
+| First acquisition of the book | Set to 3 |
+| Record a new face for the first time | +1 |
+| Use a Thoth card directly | +2 |
+| Form a spread | −3 |
+| Maximum | 12 |
+
+Cards played for free by the spread do not generate Revelation. Losing and later reacquiring the book preserves the codex and its Revelation instead of granting the initial 3 again.
+
+## Spread rules
+
+- A reading always costs 3 Revelation.
+- The normal capacity is 3 distinct available faces.
+- Each new uncleared combat room randomly resolves one remaining face.
+- A face can resolve through the book once per floor; upright and reversed count separately.
+- A new spread cannot replace one that is still active.
+- Unfinished spreads persist between floors.
+- Entering a new floor resets per-floor face restrictions and room-trigger records.
+
+## Interface
+
+<WikiScreenshot src="/images/items/book-of-thoth-reading.jpg" :ready="true" alt="The Book of Thoth reading screen with Revelation and selected cards visible" caption="A reading costs 3 Revelation and can contain up to 3 currently available faces." />
+
+### Codex
+
+- A visible face has been recorded and can be used in future readings.
+- `???` or “Unregistered” marks a face that has not entered the codex.
+- “Read this floor” marks a face already played by the book this floor.
+
+### Reading and active spread
+
+The Reading tab shows current Revelation, eligible faces, and the current selection. Once a spread begins, the interface and active-item HUD distinguish resolved cards from those still waiting, without revealing the order in which the remaining cards will play.
+
+## Tips
+
+- **One card makes the result certain.** The next eligible room must play that face, which is useful for effects with strict timing.
+- **Three cards stretch Revelation further.** One and three cards both cost 3; if order does not matter, three cards usually provide more total value.
+- **Judge whether random timing is safe.** Broadly useful faces fit multi-card spreads; effects that depend on a specific room state are better read alone.
+- **An unfinished spread is not wasted near the end of a floor.** It carries over, while per-floor face restrictions reset on the next floor.
+
+## Special interactions
+
+- {{Collectible34}} **Book of Belial:** spread capacity increases from 3 to 4 while the cost remains 3 Revelation. All four faces follow the normal random and once-per-floor rules.
+- {{Seija}} **Seija:** Thoth pickups conceal their identity. Newly recorded faces first enter the codex unrevealed; they still grant Revelation and may be selected, but are revealed together only when the first spread is successfully formed. Leaving the Seija state also reveals pending entries.
+- {{Collectible584}} **Book of Virtues:** wisps created by Book of Thoth drop a tarot card when extinguished.
+
+## Details and edge cases
+
+- Boss, miniboss, challenge and Boss Rush rooms can advance a spread. Secret, curse and sacrifice rooms do not qualify merely because enemies are present.
+- Forming a spread after entering an uncleared combat room does not immediately play a card there.
+- A room advances the spread only once; leaving and returning cannot play another face.
+- Automatic plays still use the normal card-use path, but suppress the announcement animation and do not award Revelation.
+- Codexes and Revelation are stored per player. The unseen-face calculation used for card-pool bias considers the records of every current book owner in the run.
+
+## Neta
+
+The name refers to Aleister Crowley's [*The Book of Thoth*](https://books.google.com/books/about/Book_of_Thoth.html?id=XgHm_Hssf3wC), first published in 1944 as an account of the Thoth Tarot developed with artist Lady Frieda Harris. [Oxford University Press's study of their partnership](https://academic.oup.com/book/58979/chapter-abstract/494473299) discusses Harris's contribution to the card designs.
+
+The mod turns that relationship between book and deck into a run-long collection: rather than opening a finished reference work, the player gradually writes encountered upright and reversed faces back into the book, then reads from those records.
+
+> This page uses only the mod's own assets and in-game screenshots; it does not reproduce scans from modern editions of the Thoth Tarot.
+
+## Gallery
+
+<WikiScreenshot src="/images/items/book-of-thoth-cast.jpg" :ready="true" alt="A Book of Thoth spread revealing and playing a card in combat" caption="Entering a new combat room reveals and plays one unresolved face at random." />
+
+<details>
+<summary>Technical details</summary>
+
+### Card-pool bias
+
+Recorded Thoth faces have base weight **1**, while unrecorded faces have weight **3**. These are selection weights, not a fixed 75% appearance chance.
+
+When the card pool first rolls an ordinary tarot card, the replacement chance equals “unrecorded eligible Thoth faces ÷ all eligible Thoth faces”, capped at **50%**. The replacement face is then chosen with the weights above. Cards spawned directly as entities, including cards dropped by the player, do not pass through this pool replacement.
+
+### Data boundary
+
+The codex, Revelation, spread, per-floor plays, and room-trigger records are stored per player. A face is recorded when the card enters a player's card slot, not when a pickup entity appears in the room.
+
+</details>
