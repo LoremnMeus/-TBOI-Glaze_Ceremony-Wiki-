@@ -14,7 +14,7 @@ npm --prefix wiki run docs:dev
 
 浏览器打开 `http://localhost:5173/`。图标墙：[/icons](/icons)。标注说明书：[/markup](/markup)。格式拷贝：[格式参考](/markup-cheatsheet)。
 
-本地开发服务器（`npm --prefix wiki run docs:dev`）会在条目页底部显示**编辑机制说明**：只有本机可写盘，可切换源码 / 渲染 / 分栏，按类别插入图标。这里的“机制说明”是历史编辑位点名称，实际代表整个玩家百科正文区，并不要求写成技术报告。Markdown 中的标题会继续作为编辑锚点保留，但公开页面不显示该标题，目录直接从“效果 / 玩法”等正文栏目开始。生产构建和公开 Wiki 没有编辑面板。不要用它改 `generated/`。
+本地开发服务器（`npm --prefix wiki run docs:dev`）会在条目页底部显示**编辑机制说明**：只有本机可写盘，可切换源码 / 渲染 / 分栏，按类别插入图标。这里的“机制说明”是历史编辑位点名称，实际代表整个玩家百科正文区，并不要求写成技术报告。Markdown 中的 `## 机制说明 / ## Mechanics` 标题会继续作为**源码兼容锚点**保留，但公开页面不显示该标题，目录直接从 `## 效果 / ## Effects` 等正文栏目开始；**不要**删除该锚点。生产构建和公开 Wiki 没有编辑面板。不要用它改 `generated/`。
 
 `export_wiki_icons.py` 需要本机 `extracted_resources` 和 EID 模组；CI 只跑 `export_wiki_data.py`。全量条目由 `generate_public_metadata.py` 从 XML 登记（跳过 hidden）；之后新道具再补登记或重跑该脚本。
 
@@ -104,7 +104,7 @@ git status --short
 
 不要为了提高状态而填充空洞章节。优先把以下类型各做出一个 featured 范例后，再批量扩写：复杂主动系统、简单被动、复杂 Slot、角色、挑战。
 
-`featured` 与 Golden Page 的正式评判标准位于 `.cursor/skills/qing-wiki-mechanics/references/golden-page-standard-v1.md`。它规定“理解 → 游玩 → 查询”的信息顺序，以及 S / M / L 三种页面尺度；成熟页面的长度由信息价值决定，不由模板决定。
+`featured` 与页面压缩验收见 `.cursor/skills/qing-wiki-mechanics/REVIEW_RUBRIC.md`；长期原则见 `ai_context/WIKI_EID_WRITING_STANDARD.md`；执行工作流见 `.cursor/skills/qing-wiki-mechanics/SKILL.md`。成熟页面的长度由信息价值决定，不由模板决定。
 
 排障页没有自动组件，整页都是人工 Markdown：
 
@@ -116,11 +116,11 @@ git status --short
 
 ```text
 请给 Qing Remaster Wiki 写玩家百科正文。
-先读 wiki/docs/editing.md、wiki/docs/markup.md 和本地 qing-wiki-mechanics skill。
-只改指定文件里「## 机制说明」之后；先根据当前 Lua/XML 核验实际行为。
+先读 wiki/docs/editing.md、wiki/docs/markup.md 和 .cursor/skills/qing-wiki-mechanics/SKILL.md。
+只改指定文件里「## 机制说明 / ## Mechanics」之后；保留该锚点本身，可见正文从 ## 效果 开始。
+先根据当前 Lua/XML 核验实际行为。
 若涉及角色、大型系统、固定术语或复杂机制，再按需读取 ai_context，但不得用它覆盖当前实现。
-先解释它是什么、怎么玩；示例和详细规则按需要出现，不要强制生成空章节。
-本模组条目用 {{Item:slug}}，状态用 {{Damage}} 等。
+featured 候选页完成后再对照 REVIEW_RUBRIC.md。
 目标：wiki/docs/items/<slug>.md
 ```
 

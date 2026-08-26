@@ -16,6 +16,6 @@ Open `http://localhost:5173/en/`. Markup spec: [markup](/en/markup). Icon wall: 
 
 Visible entries are registered by `generate_public_metadata.py` (hidden XML rows stay out). Re-run `export_wiki_data.py` after translation or icon changes. Mechanic bodies are never overwritten; the exporter only refreshes frontmatter and the hidden search index.
 
-Write mechanics below `## Mechanics` in `wiki/docs/en/<kind>/<slug>.md`. Example: `wiki/docs/en/items/gospel.md`.
+Write mechanics below `## Mechanics` in `wiki/docs/en/<kind>/<slug>.md`. Keep that heading as the required source anchor; public pages hide it and start the outline from `## Effects` and later sections. Example: `wiki/docs/en/items/gospel.md`.
 
-Agent skill: `.cursor/skills/qing-wiki-mechanics/SKILL.md`.
+Agent skill: `.cursor/skills/qing-wiki-mechanics/SKILL.md`. Featured review: `REVIEW_RUBRIC.md` in the same folder. Principles: `ai_context/WIKI_EID_WRITING_STANDARD.md`.
