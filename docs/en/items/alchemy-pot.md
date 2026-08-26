@@ -36,6 +36,8 @@ This crafts collectible ID **123** ({{Collectible:123}}).
 
 Only the hundreds, tens, and ones digits are read. Shorter IDs treat missing higher digits as 0; IDs with four or more digits ignore the thousands place and above.
 
+Once all three slots are filled, the interface previews the resulting ID. **Crafting can be confirmed only if that ID matches an existing collectible**; otherwise the craft fails and the inputs are not consumed.
+
 After confirming, the three inputs are permanently removed from the player and the result spawns as a nearby pickup.
 
 ## Notes
@@ -43,8 +45,8 @@ After confirming, the three inputs are permanently removed from the player and t
 - Only collectibles the player currently holds can be selected; room pickups are not used.
 - Hidden collectibles, quest items, and Alchemy Pot itself are excluded from the normal input list.
 - Selections can be changed before final confirmation, and using Alchemy Pot again exits crafting; nothing is consumed until confirmation.
-- If the resulting ID does not exist, crafting cannot be completed and the inputs are not consumed.
-- “The ID does not exist” is not the same as “the result cannot appear naturally.” Alchemy Pot only checks that the target collectible ID exists; it does not reroll through the normal item pool.
+- A result is valid as long as its collectible **exists in the game data**; being locked, hidden, or outside the normal item pool does not by itself block crafting.
+- If the combined ID matches no collectible at all, confirmation is blocked and the inputs are not consumed.
 
 ## Special interactions
 
