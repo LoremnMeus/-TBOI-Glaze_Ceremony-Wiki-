@@ -26,10 +26,6 @@ See each item page for how its effect is applied and cleared.
 
 Some permanent edits do not apply immediately; they take effect on a later run. As long as the data is stored in your long-term profile and survives across runs, it still counts as a permanent mechanic.
 
-::: info Not yet implemented
-A unified in-game way to manage permanent edits may be added later. Until then, rely on each item page above.
-:::
-
 <details>
 <summary>Technical details</summary>
 

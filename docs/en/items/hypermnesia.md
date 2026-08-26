@@ -16,33 +16,31 @@ status: reviewed
 
 ## Effects
 
-**Hypermnesia rewards every duplicate copy on your character and is not affected by {{Item:memory}}'s replacement.** It is the growth outlet built for Memory runs.
+**Hypermnesia rewards every duplicate copy on your character and is not affected by {{Item:memory}}'s replacement.**
 
-While held, it totals **extra copies** across your inventory (the first copy of each item does not count; each additional copy adds one) and grants stats from that total:
+While held, it totals **extra copies** across your inventory (the first copy of each item does not count; each additional copy adds one) and grants stats from that total. Each extra duplicate copy grants:
 
-- Speed, Tears, Damage, Range, and Luck all scale with duplicate count.
+| Stat | Bonus |
+| --- | --- |
+| Speed | +0.05 |
+| Tears | +0.15 |
+| Damage | +0.5 |
+| Range | +1 |
+| Luck | +1 |
 
-When {{Item:memory}} keeps spawning items you already own, Hypermnesia turns those repeats—often weak on their own—into reliable stat growth.
+{{Item:memory}} does not replace Hypermnesia, so the two combine naturally: Memory manufactures repeats, Hypermnesia converts them into stats. See {{Item:memory}}.
 
 ## Notes
 
 - Duplicate count combines **all players** in co-op (same scope as Memory's candidate pool).
 - Quest items are excluded from the count.
-- Even while Memory is active, Hypermnesia can still spawn normally and is never swapped for an owned duplicate.
-
-## Related items
-
-### {{Item:memory}}
-
-Memory makes later collectible rolls keep returning to what you already hold. Many Isaac items do not scale well when duplicated, so Memory alone can lock you into low-value repeats.
-
-Hypermnesia exists to fix that: **make duplication itself valuable**. Together, Memory manufactures repeats and Hypermnesia converts them into stats.
+- Hypermnesia is a [Rainbow](/en/systems/rainbow) item with no vanilla icon basis.
 
 <details>
 <summary>Technical details</summary>
 
 - Duplicate count: `auxi.get_player_s_item_count` (sum of `GetCollectibleNum - 1` per item, quest excluded).
-- Per duplicate point: +0.05 Speed, +0.15 Tears, +0.5 Damage, +40 Range, +1 Luck (via `EvaluateCache`).
+- Per duplicate point: +0.05 Speed, +0.15 Tears, +0.5 Damage, +40 internal Range (displayed as +1), +1 Luck (via `EvaluateCache`).
 - {{Item:memory}} lists Hypermnesia in `ignorers`; replacement callbacks skip it.
 
 </details>

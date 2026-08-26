@@ -31,31 +31,19 @@ Memory therefore pushes your build to collapse further toward items you have alr
 
 - **Memory is a single-use active.** The item itself is removed on use, but its effect persists.
 - It affects later pool rolls globally, not only the pool of the room where you used it.
-- After using Memory, you usually cannot gain new collectible types through normal generation; use it when you already own worth repeating.
+- After use, normal collectible generation usually stops offering new item types.
 - Quest items are excluded from the Memory candidate pool.
 - In co-op, candidates come from **all players'** inventories.
 
 ## Tips
 
-Memory's value depends heavily on **what you already own when you use it**.
+Use it after you already hold core items worth duplicating for the best payoff.
 
-If you already hold strong items worth duplicating, Memory concentrates future rolls on those payoffs; if your build is still incomplete, early use means giving up most chances at new components.
-
-Because held count increases roll weight, once an item starts duplicating it becomes even easier to duplicate again.
-
-**{{Item:hypermnesia}} is not affected by Memory's replacement**, and scales stats with duplicate copies. Even after Memory activates, there is still a growth path built for that kind of run.
+Items you already hold multiple copies of gain even higher roll weight; once duplication starts, it tends to snowball.
 
 ## Related items
 
-### {{Item:hypermnesia}}
-
-Hypermnesia is the deliberate follow-up to Memory.
-
-While Memory is active, almost every new collectible roll is replaced with something you already hold—**Hypermnesia is the exception**. It can still spawn normally and is never swapped for an owned duplicate.
-
-Hypermnesia grants Speed, Tears, Damage, Range, and Luck based on **extra duplicate copies** across your inventory, turning Memory's repeated rolls into steady stat growth.
-
-So Memory does not completely block new items forever: if Hypermnesia appears later, it can supercharge the duplicate-heavy route.
+{{Item:hypermnesia}} is not replaced by Memory and grants stats from extra duplicate copies, turning Memory's repeats into growth. See {{Item:hypermnesia}}.
 
 ## Special interactions
 
@@ -63,7 +51,7 @@ So Memory does not completely block new items forever: if Hypermnesia appears la
 
 If you hold Book of Belial when using Memory, the synergy arms for the rest of the run.
 
-Each time Memory would roll an owned item, there is a **50%** chance to spawn from the Devil Room pool instead—reopening a path to new items inside a closed Memory run.
+Each time Memory would roll an owned item, there is a **50%** chance to spawn from the Devil Room pool instead—reopening a path to new items while **Memory's replacement is active**.
 
 ### {{Collectible:584}}
 
@@ -75,7 +63,7 @@ During Memory, gaining another copy of an item you already hold strengthens wisp
 
 ## Trivia
 
-Memory is not about duplicating one chosen item—it makes later rolls keep returning to choices you already made, so the run's build keeps collapsing toward what you already hold.
+Memory is not about duplicating one chosen item—it makes later rolls keep returning to choices you already made, so the run's build keeps collapsing toward what you already hold. Memory is a [Rainbow](/en/systems/rainbow) item with no vanilla icon basis.
 
 <details>
 <summary>Technical details</summary>
