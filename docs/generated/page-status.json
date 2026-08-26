@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T14:51:41Z",
+  "generatedAt": "2026-08-26T16:22:47Z",
   "pages": [
     {
       "slug": "darkness",
@@ -47,8 +47,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/mental-hypnosis.md",
       "en": "wiki/docs/en/items/mental-hypnosis.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "gold-rush",
@@ -335,8 +335,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/wavering-eyes.md",
       "en": "wiki/docs/en/items/wavering-eyes.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "pendulum-star",

@@ -4,9 +4,9 @@ description: "别眨眼，别偏离"
 slug: wavering-eyes
 kind: collectible
 internalKey: Wavering_Eyes
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>摇摆之眼 Wavering Eyes Wavering_Eyes wavering-eyes Wavering Eyes 别眨眼，别偏离 Don&#x27;t blink, don&#x27;t miss 连续用眼泪命中敌人会累计凝视 ↓ 每2层凝视：眼泪方向更加摇摆 每3层凝视：射速提升 5层：可控制眼泪 8层：跟踪眼泪 13层：钩虫眼泪 21层：弹性眼泪 !!! 4次失误后重置计数器 Consecutive tear hits build Focus ↓ Every 2 Focus: tears waver more Every 3 Focus: tears up 5 Focus: controllable tears 8 Focus: homing tears 13 Focus: hook worm tears 21 Focus: rubber tears 4 misses reset the counter</p>
+<p class="wiki-search-index" v-pre>摇摆之眼 Wavering Eyes Wavering_Eyes wavering-eyes Wavering Eyes 别眨眼，别偏离 Don&#x27;t blink, don&#x27;t miss 连续用眼泪命中敌人会累计凝视 ↓ 凝视越高，眼泪摇摆越明显 每3层凝视提升射速 5层：眼泪轻微吸附敌人 8层：追踪眼泪 13层：钩虫眼泪 21层：弹性眼泪 !!! 连续失误会清空凝视 Consecutive tear hits build Focus ↓ Higher Focus: tears waver more in a steady sway Every 3 Focus: tears up 5 Focus: tears gently pull toward nearby foes 8 Focus: homing tears 13 Focus: hook worm tears 21 Focus: rubber tears !!! Too many misses clear Focus</p>
 
 <PublicEntry slug="wavering-eyes" lang="zh" />
 
@@ -14,4 +14,69 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+用眼泪连续命中敌人会积累**凝视**。
+
+凝视没有硬上限。凝视越高，连续发射的眼泪会以越来越大的幅度在瞄准方向两侧**规律左右摆动**（不是每发独立乱飞）；摆动幅度存在上限，不会在高层彻底失控。
+
+| 凝视 | 效果 |
+| ---: | --- |
+| 越高 | 眼泪左右摇摆幅度增大（约每 2 层 +3°，上限约 ±25°） |
+| 每 3 层 | 提升射速 |
+| 5 层 | 眼泪轻微吸附附近敌人 |
+| 8 层 | 追踪眼泪 |
+| 13 层 | 钩虫眼泪 |
+| 21 层 | 弹性眼泪 |
+
+因此，摇摆之眼并不是单纯靠命中不断叠加奖励：**凝视越高，你得到的能力越强，但发射轨迹也会越来越难以直瞄——需要学会驾驭摆动。**
+
+## 失焦
+
+未命中的眼泪会积累**失焦**；命中敌人会逐渐恢复失焦。
+
+| 事件 | 失焦 |
+| --- | --- |
+| 眼泪消失且未命中有效敌人 | +1 |
+| 命中可受伤敌人 | −0.35 |
+| 失焦 ≥ 4 | 凝视与失焦一并清零 |
+
+偶尔打空一发通常不会立刻毁掉已经积累的凝视；连续大量射空才会在失焦积满时触发清零。
+
+清零时会播放短暂的视觉闪烁与轻微失败音效，不会弹出文字提示。
+
+## 注意
+
+- 只有实际命中可受伤敌人的眼泪才会增加凝视。
+- 撞到墙壁、飞出射程或以其他方式消失而没有命中敌人的眼泪都会计入失焦。
+- 凝视不会因为进入新房间而自动清空，可以继续维持。
+- 凝视达到新阈值后，对应的眼泪效果会一直保留，直到失焦积满清零。
+- **每颗眼泪只会结算一次命中或失误**；穿透时同一颗眼泪连续碰到多个敌人不会重复增加凝视。
+- 本道具以**眼泪攻击**为核心；激光、硫磺火、刀等其他攻击类型不在本次机制范围内。
+
+## 使用技巧
+
+摇摆之眼的核心是**维持命中，而不是单纯提高射速狂射**。
+
+低层凝视时眼泪几乎正常；中层开始你会感到轨迹在左右摆，但仍有规律可循。5 层的轻微吸附帮助适应摆动；**8 层**追踪眼泪则正式帮你把摆动“兜”回敌人身上。
+
+多发、散射类攻击会让凝视和失焦都更快变化；如果大量额外眼泪经常落空，维持高凝视会明显更困难。
+
+## 视觉反馈
+
+- **凝视**：眼泪颜色随层数加深；5 层以上偏紫，8 / 13 / 21 层逐级强化拖影感与饱和色。
+- **失焦**：失焦升高时角色轻微抖动、眼泪变暗；接近上限时有明显闪烁；清零时短暂闪白。
+
+颜色变化反映当前凝视与失焦状态，并不额外附带隐藏数值。
+
+<details>
+<summary>技术细节</summary>
+
+- 每颗正常发射的玩家眼泪参与凝视 / 失焦判定；一颗眼泪只会结算一次。
+- 摇摆：每玩家维护相位；每发 `phase += 35°`，偏转 `sin(phase) × amplitude`；`amplitude = min(25, floor(凝视/2) × 3)`。
+- 射速：`0.5 × sqrt(floor(凝视 / 3))`。
+- 5 层：半径 90 内最近敌人，每帧速度方向 lerp 约 4%；8 层起由追踪眼泪接管。
+- 8 / 13 / 21 层分别追加追踪、钩虫与弹性眼泪效果。
+- 凝视与失焦按玩家分别记录在 `gaze` / `defocus`；继续游戏时自旧存档字段迁移；新开一局重置。相位不存档。
+
+</details>

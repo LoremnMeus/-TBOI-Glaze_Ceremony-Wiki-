@@ -28,7 +28,7 @@ For example, after using it in a Devil Room and leaving:
 
 Book of The Law only changes **which pool the spawned item comes from**. It does not turn the destination room into the recorded room type.
 
-While you hold Book of The Law and records remain, queued pool icons orbit the active slot (the front entry is highlighted). The in-game description appends a queued-pool list. When a record is consumed, the front icon flies toward the spawned collectible.
+When records are pending, pool icons appear beside the active slot; the highlighted one is next in line. When a record is used, that icon flies toward the redirected collectible.
 
 ## Notes
 
@@ -41,13 +41,7 @@ So “the next item” is not strictly the next pickup you see—it is the **nex
 
 ## Tips
 
-Book of The Law works best for carrying **hard-to-revisit premium pools** elsewhere.
-
-Use it in a Devil or Angel Room, then redirect Treasure Rooms, shops, and other locations toward that pool.
-
-If the current room's pool is not worth saving, there is little reason to record it early. Its value comes mainly from **where you use it**, not from firing it the moment it charges.
-
-Because same-pool spawns do not waste records, you do not need to rush out of a recorded room type. The first later spawn from **another pool** is what consumes the record.
+Book of The Law works best for carrying hard-to-revisit premium pools elsewhere—record in a Devil or Angel Room, then redirect later spawns from other pools toward that pool.
 
 ## Special interactions
 
@@ -72,14 +66,9 @@ That records the pool for that room, not necessarily the room where you original
 <details>
 <summary>Technical details</summary>
 
-- On use, the pool comes from `GetPoolForRoom` for the current room.
-- Unused records are stored FIFO.
-- Replacement runs only when the original spawn pool differs from the queued record.
-- A record is removed only on pool-consuming requests (`decrease = true`); preview rolls that do not consume the pool leave records intact.
+- Unused records are stored FIFO; replacement runs only when the original spawn pool differs from the front record.
+- A record is removed only when a spawn actually consumes its pool.
 - Records clear on a fresh run; they persist on continue.
-- Book of Belial adds 2 extra Devil Room entries per use when recording pool 3, for 3 total per use.
-- Book of Virtues wisp death simulates an extra Book of The Law use.
-- Car Battery and Book of Belial stack their extra entries (e.g. 6 Devil Room records from one Devil Room use with both).
-- Queue HUD icons and the EID queued-pool line come from a runtime modifier; preview requests with `decrease = false` do not consume records or trigger the fly animation.
+- Car Battery and Book of Belial together in a Devil Room can queue **6** Devil Room records from one use (two uses × three entries each).
 
 </details>
