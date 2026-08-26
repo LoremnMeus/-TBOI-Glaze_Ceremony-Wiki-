@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-26T14:08:22Z",
+  "generatedAt": "2026-08-26T14:15:27Z",
   "version": "1.0.2",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -5167,8 +5167,8 @@
         "en": "Left is Right.Right is Lefted."
       },
       "eid": {
-        "zh": "使用后，下一次生成的道具来自当前房间的道具池",
-        "en": "Record the itempool in this room.#The next item will be selected from this itempool."
+        "zh": "记录当前房间的道具池#下一件来自其他道具池的道具改从记录池生成",
+        "en": "Records this room's item pool#The next item from a different pool is drawn from the recorded pool instead"
       },
       "seijaBuff": {
         "zh": "",
