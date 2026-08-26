@@ -26,7 +26,7 @@ const systems = computed(() => [
   { title: english.value ? 'Blueprint & Fleet' : '蓝图与机群', text: english.value ? 'Build, refit, deploy, and command an independent fleet.' : '制造、改装、编队并指挥独立作战机群。', link: '/systems/blueprint-air-flight' },
   { title: english.value ? 'Control Hub' : '控制中枢', text: english.value ? 'Appoint administrators whose Follies continuously reshape the world.' : '任命管理员，让他们的愚见持续改变世界。', link: '/systems/control-hub' },
   { title: english.value ? 'Knowledge & Reverie' : '知识与遐想', text: english.value ? 'Store items as knowledge, then realize a nearby reverie floor by floor.' : '将道具保存为知识，并按楼层让附近的遐想成为现实。', link: '/systems/death-certificate-knowledge' },
-  { title: english.value ? 'Permanent Effects' : '永久', text: english.value ? 'Items that write cross-run data to your save profile—and how to reset them in ImGui.' : '会写入存档档案、跨局保留的道具效果，以及 ImGui 中的调整入口。', link: '/systems/permanent-effects' },
+  { title: english.value ? 'Permanent Effects' : '永久', text: english.value ? 'Long-lived changes that carry across runs until gameplay clears them.' : '会跨局保留、直到被对应机制消费或清除的长期变化。', link: '/systems/permanent-effects' },
 ])
 
 function local(path) {

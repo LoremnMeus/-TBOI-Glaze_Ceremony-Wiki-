@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-26T13:33:23Z",
+  "generatedAt": "2026-08-26T14:01:38Z",
   "version": "1.0.2",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -1249,8 +1249,8 @@
         "en": "I fall into a loop..."
       },
       "eid": {
-        "zh": "!!! 一次性 #将道具池替换为只包含角色已有的道具",
-        "en": "!!! SINGLE USE #!!! Grants all itempools only contain items that you already have."
+        "zh": "!!! 一次性#本局后续道具只会从角色已拥有的道具中生成#重复持有会提高再次出现的概率",
+        "en": "!!! SINGLE USE#For this run, new collectibles only come from items you already hold#More copies of an item make it more likely to appear again"
       },
       "seijaBuff": {
         "zh": "",
