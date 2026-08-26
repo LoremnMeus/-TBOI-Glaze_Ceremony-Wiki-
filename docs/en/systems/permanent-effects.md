@@ -6,9 +6,11 @@ status: reviewed
 
 # Permanent Effects
 
-In this mod, **permanent** means an effect stored in the player's **profile save** (`PermanentData`): it survives new runs, character swaps, and quitting the game until gameplay consumes it or you clear it manually.
+In this mod, **permanent profile edits** mean long-lived state stored in your **profile save** (`PermanentData`): it survives new runs, character swaps, and quitting the game until gameplay consumes it or you clear it manually.
 
 This is not the same as "permanent for this run only." Examples like Procrastination's floor damage growth or Book of 6 Sin's sin-mini-boss memory live in run state and reset on a fresh run.
+
+**Permanent** is a formal mechanism category in this mod, not an internal dev label. On first mention in Wiki text, explain the observable cross-run behavior before linking here; see the Skill rule on formal mechanism terms.
 
 ## Why this page exists
 
@@ -26,7 +28,11 @@ Permanent effects are easy to miss on the HUD, yet they quietly change later sho
 
 See each item page for triggers, consumption, and edge cases. This page only groups them as **shared profile-level effects**.
 
-## ImGui console
+## Debug Key (planned)
+
+The planned collectible **Debug Key** is intended to grant unified in-game editing of all permanent profile fields (including its own state), supporting a Q4 identity—managing long-term save data as gameplay, not merely opening ImGui. It is not implemented yet; until then, dev builds still edit the fields below via ImGui **Debug → Permanent data**.
+
+## ImGui console (dev builds)
 
 In dev builds, open **RGON ImGui → Debug → Permanent data** to inspect and edit these fields (Spectral rewrites, Remaster channels, Colorblindness bans, Diamond prices, Book of Future progress, etc.). Most sections include restore/clear buttons.
 
