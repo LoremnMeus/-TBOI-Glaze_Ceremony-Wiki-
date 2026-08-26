@@ -32,7 +32,7 @@ For example:
 - 2nd input ID 122 → tens digit **2**
 - 3rd input ID 113 → ones digit **3**
 
-This crafts collectible ID **123** ({{Item:blood-wing}}).
+This crafts collectible ID **123** ({{Collectible:123}}).
 
 Only the hundreds, tens, and ones digits are read. Shorter IDs treat missing higher digits as 0; IDs with four or more digits ignore the thousands place and above.
 
@@ -48,11 +48,11 @@ After confirming, the three inputs are permanently removed from the player and t
 
 ## Special interactions
 
-### {{Collectible:584}} Book of Virtues
+### {{Collectible:584}}
 
 After crafting completes, wisps are spawned for the three invested collectibles.
 
-### {{Collectible:34}} Book of Belial
+### {{Collectible:34}}
 
 Each craft can use one free digit 6 in place of any slot's normal input.
 
