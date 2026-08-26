@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T16:22:47Z",
+  "generatedAt": "2026-08-26T17:25:04Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1872,7 +1872,7 @@
       "zh": "wiki/docs/challenges/swallow-the-sun.md",
       "en": "wiki/docs/en/challenges/swallow-the-sun.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "dragon-flight",
@@ -1967,8 +1967,8 @@
       "kind": "slot",
       "zh": "wiki/docs/slots/bard-beggar.md",
       "en": "wiki/docs/en/slots/bard-beggar.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "rift-beggar",

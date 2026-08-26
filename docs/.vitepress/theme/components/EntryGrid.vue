@@ -36,7 +36,7 @@ function label(entry) {
 
 function imageSrc(entry) {
   if (entry.kind === 'character') return entry.portrait || entry.icon || entry.thumb64
-  if (entry.kind === 'challenge') return entry.thumb64 || entry.icon || entry.thumb32
+  if (entry.kind === 'challenge') return entry.thumb32 || entry.thumb64 || entry.icon
   return entry.thumb32 || entry.icon || entry.thumb64
 }
 

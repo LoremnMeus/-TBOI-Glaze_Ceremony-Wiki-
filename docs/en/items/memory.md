@@ -63,7 +63,11 @@ During Memory, gaining another copy of an item you already hold strengthens wisp
 
 ## Trivia
 
-Memory is not about duplicating one chosen item—it makes later rolls keep returning to choices you already made, so the run's build keeps collapsing toward what you already hold. Memory is a [Rainbow](/en/systems/rainbow) item with no vanilla icon basis.
+Memory is not about duplicating one chosen item—it makes later rolls keep returning to choices you already made, so the run's build keeps collapsing toward what you already hold.
+
+Memory is a [Rainbow](/en/systems/rainbow) item.
+
+It has no vanilla collectible icon basis.
 
 <details>
 <summary>Technical details</summary>

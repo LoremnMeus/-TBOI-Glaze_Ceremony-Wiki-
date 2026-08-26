@@ -20,6 +20,7 @@ Many Rainbow items begin with a thematically related vanilla item and redraw its
 | {{Item:destiny-anchor}} | {{Collectible:127}} | Forget Me Now regenerates the current floor; Destiny Anchor carries part of it into the next floor. |
 | {{Item:procrastination}} | {{Collectible:260}} | Turns postponing the boss fight into permanent damage. |
 | {{Item:mental-disorder}} | {{Collectible:402}} | Chaos disrupts the order of item pools; Mental Disorder disrupts the player's perception of the room's “facts”. |
+| {{Item:mental-hypnosis}} | {{Collectible:13}} | Syringe-set injection imagery; Mental Hypnosis turns special-room visits into orders you must obey. |
 | {{Item:memory}} | — | Later rolls keep returning to items you already hold; no vanilla visual basis. |
 | {{Item:hypermnesia}} | — | Rewards duplicate copies as a follow-up outlet for Memory; no vanilla visual basis. |
 

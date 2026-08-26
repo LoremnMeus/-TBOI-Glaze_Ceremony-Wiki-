@@ -85,12 +85,15 @@ const displayCharacterEntry = computed(() => {
   return (catalog.entries || []).find((row) => row.kind === 'character' && row.slug === slug) || null
 })
 const infoboxIconName = computed(() => {
+  if (entry.value?.kind === 'challenge' && entry.value?.portrait) return ''
   if (entry.value?.kind !== 'challenge' || !displayCharacterEntry.value) return ''
   return `QingPlayer:${displayCharacterEntry.value.internalKey}`
 })
 const infoboxIconSrc = computed(() => {
   const row = entry.value
-  if (!row || infoboxIconName.value) return ''
+  if (!row) return ''
+  if (row.kind === 'challenge' && row.portrait) return row.portrait
+  if (infoboxIconName.value) return ''
   return row.kind === 'character' ? (row.portrait || row.icon) : (row.thumb64 || row.icon || row.portrait)
 })
 
