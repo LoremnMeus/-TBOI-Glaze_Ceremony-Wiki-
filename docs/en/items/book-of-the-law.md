@@ -28,6 +28,8 @@ For example, after using it in a Devil Room and leaving:
 
 Book of The Law only changes **which pool the spawned item comes from**. It does not turn the destination room into the recorded room type.
 
+While you hold Book of The Law and records remain, queued pool icons orbit the active slot (the front entry is highlighted). The in-game description appends a queued-pool list. When a record is consumed, the front icon flies toward the spawned collectible.
+
 ## Notes
 
 - If the next spawn already comes from the **recorded pool**, Book of The Law does nothing and the record is not consumed.
@@ -78,5 +80,6 @@ That records the pool for that room, not necessarily the room where you original
 - Book of Belial adds 2 extra Devil Room entries per use when recording pool 3, for 3 total per use.
 - Book of Virtues wisp death simulates an extra Book of The Law use.
 - Car Battery and Book of Belial stack their extra entries (e.g. 6 Devil Room records from one Devil Room use with both).
+- Queue HUD icons and the EID queued-pool line come from a runtime modifier; preview requests with `decrease = false` do not consume records or trigger the fly animation.
 
 </details>
