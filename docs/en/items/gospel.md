@@ -14,75 +14,47 @@ status: featured
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+## Effects
+
 **Gospel gradually spreads an attack between enemies and ultimately calls down Judgement.**
 
-Every 4th attack produces a Gospel attack. When a Gospel tear hits an enemy, that target receives the Gospel and gains a halo above its head.
+Every 4th valid attack produces a Gospel attack. Hits make enemies receive the Gospel; further damage or kills spread it and invoke Revelation. Enough Revelations in the current room trigger final Judgement.
 
-Further damage can spread Gospel to nearby targets. An affected enemy's death also invokes Revelation and continues the spread. Accumulating enough Revelations in the current room triggers final Judgement.
+Gospel attack → receive Gospel → spread → Revelation → final Judgement
 
 ## Spreading Gospel
 
-### Gospel attacks
+Every 4th valid attack triggers a Gospel attack. With ordinary tears, the fourth tear is converted into a Gospel tear. Lasers, Brimstone, and other attack forms instead fire an additional Gospel tear.
 
-Every 4th valid attack triggers a Gospel attack.
+An enemy hit by a Gospel tear receives the Gospel and displays a halo above its head. The mark does not deal damage over time by itself.
 
-With ordinary tears, the fourth tear is converted into a Gospel tear and gains bonus damage. Lasers, Brimstone, and other attack forms instead fire an additional Gospel tear in the attack direction.
+Further damage to an affected enemy builds spread progress and passes Gospel to nearby enemies that have not yet received it. When an affected ordinary enemy dies, Gospel also spreads to additional nearby targets.
 
-| Source | Damage |
-| --- | ---: |
-| Converted ordinary tear | 175% of the original tear |
-| Additional Gospel tear | 75% of the character's damage |
+## Revelation and final Judgement
 
-### Receiving Gospel
+When an affected ordinary enemy dies, Revelation calls down a holy beam. Bosses do not need to die; sustained damage to an affected Boss can also invoke Revelation.
 
-An enemy hit by a Gospel tear receives the Gospel and displays a halo above its head.
+After **6 Revelations** in the current room, final Judgement begins. It only strikes enemies that have received Gospel and does not attack every enemy in the room unconditionally. Revelation progress does not persist between rooms, and final Judgement can occur only once per room.
 
-The mark does not deal damage over time by itself. It makes that enemy part of Gospel's spreading, Revelation, and Judgement sequence.
+## Notes
 
-### Spreading
-
-Further damage to an affected enemy builds progress toward another spread.
-
-For every accumulated **2.5× character damage**, Gospel spreads to the nearest unaffected enemy within 200 units and deals damage equal to **100% of the character's damage** to that target.
-
-When an affected ordinary enemy dies, Gospel spreads directly to up to 2 nearby new targets.
-
-## Revelation
-
-When an affected ordinary enemy dies, Revelation calls down a holy beam at its position and continues spreading Gospel.
-
-Bosses do not need to die. Every accumulated **8× character damage** dealt to an affected Boss invokes another Revelation.
-
-An ordinary Revelation deals approximately **150% of the character's damage**.
-
-## Final Judgement
-
-After **6 Revelations** in the current room, final Judgement begins.
-
-Every enemy still affected by Gospel is marked. After a short delay, a stronger holy beam strikes each marked position for approximately **200% of the character's damage**.
-
-Final Judgement only targets enemies that have received Gospel; it does not attack every enemy in the room unconditionally.
-
-Revelation progress resets on leaving the room, and final Judgement can occur only once per room.
-
-## Visual cues
-
-Gospel tears carry a prominent golden halo, and enemies that have received Gospel display a halo above their heads.
-
-Revelation immediately calls down a holy beam. Final Judgement first places a brief target marker over every affected enemy, then calls down its stronger beams together.
+- Revelation progress resets on entering a new room.
+- Final Judgement only affects targets that have received Gospel.
+- Receiving Gospel is not a damage-over-time effect.
+- Spreading only selects targets that have not yet received Gospel.
+- Gospel tears and affected enemies display a golden halo; Revelation and final Judgement call down holy beams.
 
 ## Tips
 
 - **Spread Gospel before Judgement.** Final Judgement attacks every affected enemy, so a wider spread increases its total value.
 - **Quickly dying enemies still advance the sequence.** Their deaths contribute Revelation and continue spreading Gospel.
-- **Boss fights do not require a kill to progress.** Sustained damage to an affected Boss can repeatedly invoke Revelation and still reach Judgement.
-- **Watch progress within the room.** Revelation count does not persist between rooms.
+- **Boss fights progress through accumulated damage.** Sustained damage to an affected Boss can repeatedly invoke Revelation.
 
 ## Special interactions
 
 ### {{Seija}} Seija
 
-Under Seija, Gospel no longer spreads to nearby enemies. Reaching a spread threshold instead invokes a dark Revelation on the original target for **75% of the character's damage**, and affected enemies no longer spread Gospel upon death.
+Under Seija, Gospel no longer spreads to nearby enemies. Reaching a spread threshold instead invokes a weaker dark Revelation on the original target, and affected enemies no longer spread Gospel upon death.
 
 Final Judgement can still occur and uses a dark visual treatment.
 
@@ -103,7 +75,7 @@ Rather than merely adding another holy attack, the current design emphasizes Gos
 
 | Parameter | Value |
 | --- | ---: |
-| Gospel attack interval | Every 4 attacks |
+| Gospel attack interval | Every 4 valid attacks |
 | Converted tear damage | 175% |
 | Additional Gospel tear damage | 75% |
 | Damage needed to spread | 2.5× character damage |
@@ -114,6 +86,7 @@ Rather than merely adding another holy attack, the current design emphasizes Gos
 | Revelation damage | 150% |
 | Revelations needed for Judgement | 6 |
 | Final Judgement damage | 200% |
+| Seija dark Revelation damage | 75% |
 
 ### Other rules
 

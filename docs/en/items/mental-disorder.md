@@ -14,74 +14,39 @@ status: featured
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+## Effects
+
 **Mental Disorder occasionally makes the player perceive a second copy of something that should exist only once.**
 
-Upon entering a new room, it may create a “false fact”: an extra pickup or enemy may appear, or one of the player's existing items may temporarily behave as though another copy were held.
+Entering a new room has a **25%** chance to create a “false fact” involving a pickup, an enemy, or an existing item effect the player already holds.
 
-These errors function much like real objects while they exist, but last only for the current room. When the player leaves, reality corrects whatever has not yet been made real.
-
-An error is not necessarily worthless. If the player uses it before reality catches up, the result will usually remain.
-
-## False facts
-
-| Mistaken object | What happens | How it is corrected |
+| Mistaken object | What happens | How it ends |
 | --- | --- | --- |
-| Pickup | An apparently real copy of an ordinary pickup appears | Any unused virtual resources are reclaimed on leaving the room |
-| Enemy | An extra ordinary enemy can move and attack normally | It disappears upon taking its first real hit |
-| Existing item | An existing passive or familiar item temporarily gains one extra copy of its effect | The extra effect is removed on leaving the room |
+| Pickup | An extra pickup appears and can be collected normally | Unused virtual resources are reclaimed on leaving the room |
+| Enemy | An extra enemy can move and attack normally | It disappears upon taking real damage |
+| Existing item | A second copy of an owned item effect is gained temporarily | The extra effect is removed on leaving the room |
 
-### Mistaken pickups
-
-A false pickup can be collected normally, and its resources can be spent immediately.
-
-When leaving the room, only the virtual portion still held by the player is reclaimed. If it has already been spent, the result of that expenditure is not undone.
+Resources from false pickups can be spent normally; anything already consumed is not reclaimed on leaving. Ordinary coins, keys, bombs, hearts, batteries, cards, and pills may become false facts. Special pickups with lasting properties or unsafe rewards are excluded. Cards and pills keep any effect already activated before leaving the room.
 
 ::: tip Spend the fake to buy something real
 If a false fact grants 3 coins and 2 are spent before leaving, the completed purchase is not reversed. Reality only attempts to reclaim the virtual amount that remains.
 :::
 
-Ordinary coins, keys, bombs, hearts, charges, cards, and pills may become false facts. Special pickups with lasting properties or unsafe rewards are excluded.
+False enemies cannot hold the room's doors shut and grant no normal kill reward; one instance of real damage exposes and removes them. Bosses and champions cannot become this kind of false fact.
 
-Cards and pills keep any effect already activated before leaving the room. If the false card or pill is still being held, it may disappear when the error is corrected.
+False item effects only duplicate passive or familiar items the player already owns and which can be copied safely for one room. They never grant a random item the player did not have. Special items that cannot be copied safely are excluded.
 
-### Mistaken enemies
+## Notes
 
-A false enemy moves and attacks like a normal enemy, so it remains dangerous until exposed. Being imaginary does not make its attacks harmless.
-
-It cannot hold the room's doors shut and grants no normal kill reward. Its first instance of real damage tears the error apart and removes it immediately.
-
-Bosses and champions cannot become this kind of false fact.
-
-### Mistaken existing items
-
-Sometimes the error occurs on the player rather than in the room: one passive or familiar item already held temporarily gains the effect of an additional copy.
-
-This never grants a random item the player did not have. The extra effect is removed upon leaving the current room.
-
-Special items that cannot be copied safely for a single room are excluded.
-
-## Creation and correction
-
-Entering a new room has a **25%** chance to attempt to create one false fact. A category can only be selected when the current room or player provides a valid candidate.
-
-Only one false fact can exist at a time. The previous room's error is corrected when the player leaves.
-
-For virtual resources, correction only reclaims what has not yet been made real. Completed purchases, used cards, and other results that have already occurred are not rolled back.
-
-## Visual anomalies
-
-When a false fact appears, the whole screen briefly shifts and separates in colour, signalling that reality has developed an error.
-
-While the error exists, objects in the room may occasionally shift, leave afterimages, or distort in colour. These signs do not reliably identify the false object: a few real objects may briefly show similar interference.
-
-If virtual resources must be reclaimed on leaving, the HUD briefly distorts again and displays what was corrected.
+- Only one false fact can exist at a time.
+- A category with no valid candidate is not selected.
+- The error itself always ends on leaving the room, but results that have already occurred are not rolled back.
+- A false fact is accompanied by brief screen distortion; real objects may also show similar visual interference, so a glitch alone cannot prove which object is false.
 
 ## Tips
 
-- **Use virtual resources quickly.** Converting temporary coins, bombs, keys, or cards into an outcome that has already happened is usually better than trying to carry them away.
-- **Do not treat a visual glitch as proof.** Real objects may also be disturbed briefly.
-- **A false enemy needs only one hit to expose.** Test suspicious enemies with a cheap attack instead of committing full damage.
-- **Make use of the temporary second item.** Its extra effect lasts only for the current room.
+- **Convert virtual resources into outcomes that will not be reversed.** Shopping, opening doors, blowing up rocks, or using cards and pills immediately are common examples.
+- **Test suspicious enemies with one cheap attack.** A false enemy disappears as soon as it takes real damage.
 
 ## Trivia
 

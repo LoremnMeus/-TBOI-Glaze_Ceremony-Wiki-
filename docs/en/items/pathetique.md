@@ -14,53 +14,30 @@ status: featured
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+## Effects
+
 **Pathetique lets a passive item take enemy damage in the player's place.**
 
-When the player would take damage from an enemy, Pathetique temporarily removes one owned passive item and completely negates that hit. Lower-quality items are more likely to be chosen.
+When the player would take damage from an enemy, Pathetique randomly removes one owned passive item temporarily and completely negates that hit. Lower-quality items are more likely to be chosen; each item held this way grants {{Tears}} **+0.5 tears**. Each successful block also releases an attack around the player.
 
-Each item held this way grants **+0.5 tears**. When Pathetique itself leaves the player, all items it removed are returned and their corresponding tears bonus ends.
+If no other passive item remains eligible for sacrifice, Pathetique sacrifices itself as the last resort. When Pathetique leaves the player, all items it removed are returned and their corresponding tears bonus ends.
 
-## Taking the hit
+## Notes
 
-Pathetique responds only to damage caused by enemies. Blood donation machines, Sacrifice Rooms, and other non-enemy damage sources do not trigger it.
-
-Whenever it successfully prevents a hit, it:
-
-- completely negates that damage;
-- temporarily removes one passive item;
-- grants {{Tears}} +0.5 tears;
-- releases an attack around the player.
-
-As long as another item can be sacrificed, Pathetique favours lower-quality items but does not remove them in strict quality order.
-
-## Sacrificed items
-
-Items removed by Pathetique are not permanently lost. They are recorded until the return sequence begins.
-
-Lower quality gives an item a greater chance of being chosen. Low-quality passives therefore tend to absorb more hits, but high-quality items can still be selected.
+- Pathetique responds only to damage caused by enemies. Blood donation machines, Sacrifice Rooms, and other non-enemy damage sources do not trigger it.
+- “Prioritizes low quality” uses weighted random selection, not strict lowest-quality order.
+- High-quality items can still be temporarily removed.
 
 ::: warning No item is completely safe
 “Prioritizes low quality” does not mean high-quality items are protected. Repeatedly relying on Pathetique may still temporarily remove an important item.
 :::
 
-If no other item can be sacrificed, Pathetique can sacrifice **itself** as the final item.
-
-## Returning the items
-
-As soon as the player no longer holds Pathetique, every item it previously sacrificed begins to return.
-
-This happens whether Pathetique sacrificed itself or was removed by another effect.
-
-A short recovery sequence plays before the sacrificed items are returned to the player one by one.
-
-As those items return, the tears bonus provided by their absence also disappears.
+- Losing Pathetique through another effect also begins the return sequence, which plays a short recovery animation.
 
 ## Tips
 
-- **Low-quality passives provide a buffer.** A collection containing several of them makes Pathetique more likely to choose one before a valuable item.
-- **The tears bonus comes from temporary loss.** More withheld items mean more tears now, but returning them ends that bonus.
-- **Do not consider high-quality items completely safe.** Quality changes the selection weight; it is not a strict protection threshold.
-- **Pathetique is the last reserve.** When nothing else can be sacrificed, it can remove itself and begin returning everything held back.
+- **Several low-quality passives make cheaper sacrifices.** When you hold many of them, Pathetique is more likely to remove one of those first.
+- **The tears bonus is tied to withheld items.** Deliberately losing Pathetique returns the items, but also ends the tears bonus they provided.
 
 ## Special interactions
 
