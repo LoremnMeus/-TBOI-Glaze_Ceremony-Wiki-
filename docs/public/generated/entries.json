@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-25T18:37:56Z",
+  "generatedAt": "2026-08-26T09:49:49Z",
   "version": "1.0.2",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -6327,16 +6327,16 @@
         "en": "Dogmatical Judgement"
       },
       "eid": {
-        "zh": "{{Tears}} 每4发眼泪变为福音眼泪并增伤#其他攻击方式会额外发射福音眼泪#福音眼泪使命中的敌人接受福音#持续攻击受福音影响的敌人，会向附近敌人射出圣光并传播福音#受福音影响的敌人死亡时降下启示之光，并继续传播福音#{{BossRoom}} 对Boss造成足够伤害也会降下启示#多次启示后发动最终审判",
-        "en": "{{Tears}} Every 4th tear becomes a Gospel tear with bonus damage#Other attacks fire extra Gospel tears#Gospel tears cause hit enemies to receive the Gospel#Keep attacking affected enemies to fire holy beams that spread Gospel to nearby foes#When an affected enemy dies, Revelation strikes and Gospel keeps spreading#{{BossRoom}} Dealing enough damage to a Boss also invokes Revelation#Repeated Revelations invoke a final Judgement"
+        "zh": "每4次攻击产生{{ColorYellow}}福音攻击{{CR}}#命中使敌人接受福音，并可向附近敌人传播#击杀目标或持续伤害Boss时降下启示#多次启示后发动最终审判",
+        "en": "Every 4th attack produces a {{ColorYellow}}Gospel attack{{CR}}#Hits make enemies receive the Gospel, which can spread to nearby foes#Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation#Repeated Revelations invoke a final Judgement"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "福音无法传播；宣讲与启示改为在自身降下较弱的黑暗之光",
-        "en": "Gospel can no longer spread; Preaching and Revelation instead drop a weaker dark light on the source"
+        "zh": "福音不再传播，改为对原目标降下较弱的黑暗启示",
+        "en": "Gospel no longer spreads, instead invoking a weaker dark Revelation on the original target"
       },
       "icon": "/generated/images/gospel.png",
       "thumb32": "/generated/images/gospel_32.webp",
@@ -10193,16 +10193,16 @@
         "en": "They die for me"
       },
       "eid": {
-        "zh": "{{Tears}} 受伤时失去一个被动道具并抵消伤害，随后+0.5射速#优先失去低品质道具#{{ArrowUp}} 失去此道具时，恢复所有以此法失去的道具",
-        "en": "{{Tears}} Lose a passive item on getting hit, counteract the damage and +0.5 Tears up#Prioritize losing low-quality items#{{ArrowUp}} When losing this item, restore all items lost using this method"
+        "zh": "受到敌人伤害时，失去一个被动道具并抵消伤害#{{Tears}} 每个因此失去的道具使射速+0.5#优先失去低品质道具#失去悲悯时，返还所有因此失去的道具",
+        "en": "Taking enemy damage removes a passive item and negates the hit#{{Tears}} +0.5 tears for each item lost this way#Prioritizes low-quality items#Losing Pathetique returns all items lost this way"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "不增加射速",
-        "en": "Doesn't grant tears up"
+        "zh": "失去道具不再获得射速提升",
+        "en": "Lost items no longer grant tears up"
       },
       "icon": "/generated/images/pathetique.png",
       "thumb32": "/generated/images/pathetique_32.webp",
@@ -10737,8 +10737,8 @@
         "en": "There used to be two."
       },
       "eid": {
-        "zh": "进入房间时概率产生一次{{ColorPurple}}错认{{CR}}#将一个敌人、掉落物或自身效果误认为存在第二份#{{Pickup}} 未被消耗的幻象资源会在离开房间时消失#在此之前使用它，则产生的结果将被保留#幻象敌人能够攻击，但受伤后便会消失#同时只能存在一个错误事实",
-        "en": "Entering a room may cause a {{ColorPurple}}misperception{{CR}}#Mistakes an enemy, pickup, or one of your effects as having a second copy#{{Pickup}} Unspent illusory resources disappear when leaving the room#Spend them before then, and their consequences become real#Illusory enemies can attack, but disappear when hit#Only one false fact may exist at a time"
+        "zh": "进入房间时概率产生一个{{ColorRainbow}}错误事实{{CR}}#将一个敌人、掉落物或已有道具效果错认为存在第二份#离开房间时，未被利用的错误会被纠正#同时只能存在一个错误事实",
+        "en": "Entering a room may create a {{ColorRainbow}}false fact{{CR}}#Mistakes an enemy, pickup, or existing item effect as having a second copy#Unused errors are corrected when leaving the room#Only one false fact may exist at a time"
       },
       "seijaBuff": {
         "zh": "",
@@ -12948,8 +12948,8 @@
         "en": "I ask!"
       },
       "eid": {
-        "zh": "发射普通眼泪的跟班#玩家受伤后临时提升伤害和攻速",
-        "en": "Familiar that shoots tears#{{Damage}} {{Tears}} Temporary boost after taking damage"
+        "zh": "祈祷的跟班#{{AngelRoom}} 天使形态：+15% 天使房转化率#{{DevilRoom}} 受伤后切换为恶魔形态：+15% 恶魔房开启率，再次受伤切回",
+        "en": "Praying familiar#{{AngelRoom}} Angel form: +15% Angel Room conversion#{{DevilRoom}} Taking damage swaps to Devil form: +15% Devil Room chance; swaps back on the next hit"
       },
       "seijaBuff": {
         "zh": "",
@@ -21261,49 +21261,7 @@
           "xmlSummary": "Light"
         }
       },
-      "tecrorunRouteScaling": {
-        "segments": [
-          {
-            "level": 0,
-            "damagePercent": 100,
-            "widthPercent": 100
-          },
-          {
-            "level": 1,
-            "damagePercent": 130,
-            "widthPercent": 115
-          },
-          {
-            "level": 2,
-            "damagePercent": 160,
-            "widthPercent": 130
-          },
-          {
-            "level": 3,
-            "damagePercent": 190,
-            "widthPercent": 145
-          },
-          {
-            "level": 4,
-            "damagePercent": 220,
-            "widthPercent": 160
-          },
-          {
-            "level": 5,
-            "damagePercent": 250,
-            "widthPercent": 175
-          },
-          {
-            "level": 6,
-            "damagePercent": 280,
-            "widthPercent": 190
-          }
-        ],
-        "burstDamageBase": 0.75,
-        "burstDamageStep": 0.35,
-        "burstRadiusBase": 60.0,
-        "burstRadiusStep": 12.0
-      },
+      "tecrorunRouteScaling": {},
       "challengeBase": null,
       "baseStats": null,
       "series": null,

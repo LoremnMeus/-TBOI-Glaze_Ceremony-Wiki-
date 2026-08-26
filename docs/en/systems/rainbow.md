@@ -19,6 +19,7 @@ Many Rainbow items begin with a thematically related vanilla item and redraw its
 | --- | --- | --- |
 | {{Item:destiny-anchor}} | {{Collectible:127}} | Forget Me Now regenerates the current floor; Destiny Anchor carries part of it into the next floor. |
 | {{Item:procrastination}} | {{Collectible:260}} | Turns postponing the boss fight into permanent damage. |
+| {{Item:mental-disorder}} | {{Collectible:402}} | Chaos disrupts the order of item pools; Mental Disorder disrupts the player's perception of the room's “facts”. |
 
 This list contains only entries confirmed to belong to the Rainbow classification. It is not a list of every item with a colourful sprite.
 

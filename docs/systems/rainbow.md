@@ -19,6 +19,7 @@ description: Glaze Ceremony 中具有共同视觉语言与设计联系的道具�
 | --- | --- | --- |
 | {{Item:destiny-anchor}} | {{Collectible:127}} | 遗忘药重新生成当前层；命运锚点则把当前层的一部分带往下一层。 |
 | {{Item:procrastination}} | {{Collectible:260}} | 把拖延 Boss 战转化为永久攻击收益。 |
+| {{Item:mental-disorder}} | {{Collectible:402}} | 混沌打乱道具池的秩序；精神失序扰乱玩家对房间中“事实”的认知。 |
 
 这个列表只收录已经确认属于彩虹分类的条目，不等同于所有使用彩色贴图的道具。
 

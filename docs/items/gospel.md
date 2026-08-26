@@ -4,8 +4,9 @@ kind: collectible
 internalKey: Gospel
 title: 福音
 description: "神的国度带着主权临到"
+status: featured
 ---
-<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 Dogmatical Judgement 每4发眼泪变为福音眼泪并增伤 其他攻击方式会额外发射福音眼泪 福音眼泪使命中的敌人接受福音 持续攻击受福音影响的敌人，会向附近敌人射出圣光并传播福音 受福音影响的敌人死亡时降下启示之光，并继续传播福音 对Boss造成足够伤害也会降下启示 多次启示后发动最终审判 Every 4th tear becomes a Gospel tear with bonus damage Other attacks fire extra Gospel tears Gospel tears cause hit enemies to receive the Gospel Keep attacking affected enemies to fire holy beams that spread Gospel to nearby foes When an affected enemy dies, Revelation strikes and Gospel keeps spreading Dealing enough damage to a Boss also invokes Revelation Repeated Revelations invoke a final Judgement</p>
+<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 Dogmatical Judgement 每4次攻击产生 福音攻击 命中使敌人接受福音，并可向附近敌人传播 击杀目标或持续伤害Boss时降下启示 多次启示后发动最终审判 Every 4th attack produces a Gospel attack Hits make enemies receive the Gospel, which can spread to nearby foes Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation Repeated Revelations invoke a final Judgement</p>
 
 <PublicEntry slug="gospel" lang="zh" />
 
@@ -13,4 +14,111 @@ description: "神的国度带着主权临到"
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+**福音会让攻击在敌人之间逐渐传播，并最终引来审判。**
+
+每 4 次攻击会产生一次福音攻击。福音眼泪命中敌人后，目标会“接受福音”，并在头顶出现光环。
+
+继续攻击这些敌人，可以让福音传播到附近目标；受福音影响的敌人死亡时还会降下启示之光并继续传播。当前房间内累计足够多次启示后，会发动最终审判。
+
+## 福音的传播
+
+### 福音攻击
+
+每 4 次有效攻击触发一次福音攻击。
+
+使用普通眼泪时，第 4 发眼泪会直接转化为福音眼泪并提高伤害；使用激光、硫磺火等其他攻击方式时，则会额外发射福音眼泪。
+
+| 福音攻击 | 伤害 |
+| --- | ---: |
+| 普通眼泪转化 | 原眼泪的 175% |
+| 额外生成的福音眼泪 | 角色攻击的 75% |
+
+### 接受福音
+
+被福音眼泪命中的敌人会接受福音，并在头顶出现光环。
+
+接受福音本身并不会持续造成伤害，而是让该敌人成为传播、启示和最终审判的一部分。
+
+### 传播
+
+继续伤害已经接受福音的敌人，会累计传播进度。
+
+每累计约等于 **2.5 倍角色攻击力**的伤害，福音会传向 200 范围内最近的一个尚未接受福音的敌人，并对其造成一次等于角色攻击力的伤害。
+
+如果受福音影响的普通敌人死亡，福音会直接传播给附近最多 2 个新的目标。
+
+## 启示
+
+受福音影响的普通敌人死亡时，会在其位置降下一次启示之光，并继续传播福音。
+
+Boss 不需要死亡。对已经接受福音的 Boss 每累计造成约 **8 倍角色攻击力**的伤害，也会触发一次启示。
+
+一次普通启示造成约 **150% 角色攻击力**的圣光伤害。
+
+## 最终审判
+
+当前房间累计触发 **6 次启示**后，会发动最终审判。
+
+审判开始时，当前所有仍然接受福音的敌人都会被标记；短暂延迟后，每个目标位置都会降下一次更强的圣光，造成约 **200% 角色攻击力**的伤害。
+
+最终审判只影响已经接受福音的敌人，并不会无条件攻击房间中的所有目标。
+
+启示计数只在当前房间内累计，离开房间后重新开始；同一房间只能发动一次最终审判。
+
+## 视觉提示
+
+福音眼泪带有明显的金色光环；接受福音的敌人头顶也会显示光环。
+
+启示会直接从目标位置降下圣光，而最终审判会先短暂标记所有受福音影响的敌人，再统一降下更强的圣光。
+
+## 使用技巧
+
+- **优先让福音扩散开。** 最终审判会同时攻击所有接受福音的敌人，传播得越广，审判的总收益越高。
+- **小怪死亡也能推进机制。** 受福音影响的普通敌人死亡会立即贡献启示，并继续把福音传播出去。
+- **Boss 战不依赖击杀。** 对接受福音的 Boss 持续输出可以反复触发启示，因此单体 Boss 战同样能够推进最终审判。
+- **注意房间内的启示进度。** 启示计数不会跨房间保留。
+
+## 特殊联动
+
+### Seija
+
+在 Seija 的影响下，福音不再向附近敌人传播。达到传播条件时，改为直接在原目标位置降下一次伤害为角色攻击 **75%** 的黑暗启示；受福音影响的敌人死亡时也不再向附近目标继续传播。
+
+最终审判仍然可以触发，并使用暗色视觉表现。
+
+### 深渊
+
+福音对应的蝗虫命中敌人时，也会使其接受福音。
+
+## 轶事
+
+福音的设计受到《游戏王》中“光道”系列的影响。
+
+相比单纯表现为额外的圣光攻击，当前版本更强调“福音被传播出去”的过程：一个敌人接受福音后，持续攻击与死亡都会把影响扩散到其他敌人，最终累积为启示与审判。
+
+<details>
+<summary>技术细节</summary>
+
+### 核心数值
+
+| 参数 | 数值 |
+| --- | ---: |
+| 福音攻击间隔 | 每 4 次攻击 |
+| 普通眼泪转化伤害 | 175% |
+| 额外福音眼泪伤害 | 75% |
+| 传播所需累计伤害 | 2.5×角色攻击 |
+| 传播范围 | 200 |
+| 传播攻击伤害 | 100% |
+| 死亡传播目标 | 最多 2 个 |
+| Boss 启示所需伤害 | 8×角色攻击 |
+| 启示伤害 | 150% |
+| 最终审判所需启示 | 6 次 |
+| 最终审判伤害 | 200% |
+
+### 其他规则
+
+传播只会选择尚未接受福音的目标。
+
+进入新房间时，启示计数与审判状态重置。
+
+</details>
