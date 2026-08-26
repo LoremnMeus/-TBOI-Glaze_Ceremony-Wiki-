@@ -4,9 +4,9 @@ description: "愿你必有所得"
 slug: alchemy-pot
 kind: collectible
 internalKey: Alchemy_Pot
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>炼金术的掌中锅 Alchemy Pot Alchemy_Pot alchemy-pot Alchemy Pot 愿你必有所得 Handle with transmutation 投入3个道具以精准制作1个道具 制作的道具编号为投入的三个道具依次的百位、十位、个位的和 Invest 3 items to craft a precise collectible The result ID is made from the hundreds, tens, and ones digits of the invested items</p>
+<p class="wiki-search-index" v-pre>炼金术的掌中锅 Alchemy Pot Alchemy_Pot alchemy-pot Alchemy Pot 愿你必有所得 Handle with transmutation 从持有道具中选择并消耗3个道具，制作1个道具 结果编号依次取第1个道具的百位、第2个的十位、第3个的个位 Select and consume 3 held collectibles to craft 1 collectible The result ID uses the 1st item&#x27;s hundreds, 2nd item&#x27;s tens, and 3rd item&#x27;s ones</p>
 
 <PublicEntry slug="alchemy-pot" lang="zh" />
 
@@ -14,4 +14,76 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+**炼金术的掌中锅可以消耗角色已经持有的 3 个道具，用它们的编号指定并制作另一个道具。**
+
+使用后会打开选择界面。依次选择三个投入后：
+
+- 第 1 个道具决定结果编号的**百位**；
+- 第 2 个道具决定结果编号的**十位**；
+- 第 3 个道具决定结果编号的**个位**。
+
+三个位置的顺序会直接改变结果。
+
+例如：
+
+- 第一个投入 ID 121 → 取百位 **1**
+- 第二个投入 ID 122 → 取十位 **2**
+- 第三个投入 ID 113 → 取个位 **3**
+
+最终得到 ID **123** 的道具（{{Item:blood-wing}}）。
+
+只读取百位、十位和个位：不足三位的编号缺少部分视为 0，四位及以上编号的千位和更高位不会参与制作。
+
+确认制作后，三个投入的道具会从角色身上永久消耗，并在附近生成制作出的道具底座。
+
+## 注意
+
+- 只能选择角色已经持有的可投入道具，不是房间里的道具底座。
+- 隐藏道具、任务道具以及炼金术的掌中锅本身不会出现在普通投入列表中。
+- 在最终确认前可以更改选择，也可以再次使用炼金术的掌中锅退出制作；尚未确认的道具不会被消耗。
+- 如果三个数字组成的道具 ID 不存在，则无法完成制作，也不会消耗投入。
+- “结果不存在”和“结果平时无法自然获得”不是同一件事。炼金锅只要求对应的道具 ID 实际存在，并不按普通道具池重新抽取结果。
+
+## 特殊联动
+
+### {{Collectible:584}} 美德书
+
+完成制作后，会按照此次投入的三个道具生成对应魂火。
+
+### {{Collectible:34}} 彼列书
+
+每次制作可以免费使用一次数字 6，代替任意一个位置原本需要投入的道具。
+
+例如将这个免费数字放在第二个位置，结果编号的十位就会固定为 6。
+
+### {{Seija}} Seija
+
+完成配方时有 **50%** 概率制作出错误道具。投入仍会被消耗。
+
+## 使用技巧
+
+- **材料的其他数字没有价值。** 如果一个昂贵道具和一个便宜道具都能提供同一个所需数字，优先投入你更愿意失去的那个。
+- **彼列书可以替代最难凑的一位 6。** 目标编号中只要有一位是 6，就可以把免费数字留给那个位置，再准备另外两个材料。
+
+<details>
+<summary>技术细节</summary>
+
+结果编号的计算只读取三个投入 ID 的最后三位中的指定位置：
+
+| 投入位置 | 读取数字 | 对结果的贡献 |
+| --- | --- | ---: |
+| 第 1 个 | 百位 | 百位 × 100 |
+| 第 2 个 | 十位 | 十位 × 10 |
+| 第 3 个 | 个位 | 个位 |
+
+因此最终编号等于：第一个 ID 的百位 × 100 + 第二个 ID 的十位 × 10 + 第三个 ID 的个位。
+
+输入候选要求对应收藏品可见、不是任务道具，并且不是炼金术的掌中锅自身。
+
+结果端则只要求对应收藏品 ID 存在；炼金锅本身不会再次按照 Hidden、Quest、解锁状态或普通道具池资格筛选结果。
+
+彼列书提供的免费数字在内部对应 ID 666，因此放入三个位置中的任何一个都会提供数字 6，但不会作为真实持有道具被消耗。
+
+</details>

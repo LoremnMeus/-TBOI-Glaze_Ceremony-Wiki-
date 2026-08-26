@@ -4,9 +4,9 @@ description: "Handle with transmutation"
 slug: alchemy-pot
 kind: collectible
 internalKey: Alchemy_Pot
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>炼金术的掌中锅 Alchemy Pot Alchemy_Pot alchemy-pot Alchemy Pot 愿你必有所得 Handle with transmutation 投入3个道具以精准制作1个道具 制作的道具编号为投入的三个道具依次的百位、十位、个位的和 Invest 3 items to craft a precise collectible The result ID is made from the hundreds, tens, and ones digits of the invested items</p>
+<p class="wiki-search-index" v-pre>炼金术的掌中锅 Alchemy Pot Alchemy_Pot alchemy-pot Alchemy Pot 愿你必有所得 Handle with transmutation 从持有道具中选择并消耗3个道具，制作1个道具 结果编号依次取第1个道具的百位、第2个的十位、第3个的个位 Select and consume 3 held collectibles to craft 1 collectible The result ID uses the 1st item&#x27;s hundreds, 2nd item&#x27;s tens, and 3rd item&#x27;s ones</p>
 
 <PublicEntry slug="alchemy-pot" lang="en" />
 
@@ -14,4 +14,76 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+**Alchemy Pot consumes 3 collectibles you already hold and uses their IDs to craft another collectible with a specific result ID.**
+
+Using it opens a selection interface. After choosing three inputs in order:
+
+- the **1st** collectible sets the result ID's **hundreds** digit;
+- the **2nd** sets the **tens** digit;
+- the **3rd** sets the **ones** digit.
+
+Slot order directly changes the outcome.
+
+For example:
+
+- 1st input ID 121 → hundreds digit **1**
+- 2nd input ID 122 → tens digit **2**
+- 3rd input ID 113 → ones digit **3**
+
+This crafts collectible ID **123** ({{Item:blood-wing}}).
+
+Only the hundreds, tens, and ones digits are read. Shorter IDs treat missing higher digits as 0; IDs with four or more digits ignore the thousands place and above.
+
+After confirming, the three inputs are permanently removed from the player and the result spawns as a nearby pickup.
+
+## Notes
+
+- Only collectibles the player currently holds can be selected; room pickups are not used.
+- Hidden collectibles, quest items, and Alchemy Pot itself are excluded from the normal input list.
+- Selections can be changed before final confirmation, and using Alchemy Pot again exits crafting; nothing is consumed until confirmation.
+- If the resulting ID does not exist, crafting cannot be completed and the inputs are not consumed.
+- “The ID does not exist” is not the same as “the result cannot appear naturally.” Alchemy Pot only checks that the target collectible ID exists; it does not reroll through the normal item pool.
+
+## Special interactions
+
+### {{Collectible:584}} Book of Virtues
+
+After crafting completes, wisps are spawned for the three invested collectibles.
+
+### {{Collectible:34}} Book of Belial
+
+Each craft can use one free digit 6 in place of any slot's normal input.
+
+For example, placing the free digit in the second slot fixes the tens digit of the result at 6.
+
+### {{Seija}} Seija
+
+There is a **50%** chance to craft a wrong item instead of the intended result. The inputs are still consumed.
+
+## Tips
+
+- **Only the needed digit matters on each material.** If both an expensive and a cheap collectible provide the same required digit, invest the one you would rather lose.
+- **Book of Belial can cover the hardest 6.** If the target ID needs a 6 in any position, spend the free digit there and supply the other two materials normally.
+
+<details>
+<summary>Technical details</summary>
+
+The result ID reads specific digits from each input ID's last three places:
+
+| Slot | Digit read | Contribution |
+| --- | --- | ---: |
+| 1st | hundreds | hundreds × 100 |
+| 2nd | tens | tens × 10 |
+| 3rd | ones | ones |
+
+Final ID = 1st hundreds × 100 + 2nd tens × 10 + 3rd ones.
+
+Input candidates must be visible collectibles, not quest items, and not Alchemy Pot itself.
+
+The result side only checks that the target collectible ID exists; Alchemy Pot does not re-filter by Hidden, Quest, unlock state, or normal pool eligibility.
+
+Book of Belial's free digit uses internal ID 666, so placing it in any slot provides digit 6 without consuming a real held collectible.
+
+</details>

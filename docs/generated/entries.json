@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-26T11:00:12Z",
+  "generatedAt": "2026-08-26T12:17:21Z",
   "version": "1.0.2",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -2360,8 +2360,8 @@
         "en": "Handle with transmutation"
       },
       "eid": {
-        "zh": "投入3个道具以精准制作1个道具#制作的道具编号为投入的三个道具依次的百位、十位、个位的和",
-        "en": "Invest 3 items to craft a precise collectible#The result ID is made from the hundreds, tens, and ones digits of the invested items"
+        "zh": "从持有道具中选择并消耗3个道具，制作1个道具#结果编号依次取第1个道具的百位、第2个的十位、第3个的个位",
+        "en": "Select and consume 3 held collectibles to craft 1 collectible#The result ID uses the 1st item's hundreds, 2nd item's tens, and 3rd item's ones"
       },
       "seijaBuff": {
         "zh": "",
@@ -2369,7 +2369,7 @@
       },
       "seijaNerf": {
         "zh": "50%概率制作出错误道具",
-        "en": "50% chance to make a wrong item"
+        "en": "50% chance to craft a wrong item"
       },
       "icon": "/generated/images/alchemy-pot.png",
       "thumb32": "/generated/images/alchemy-pot_32.webp",
