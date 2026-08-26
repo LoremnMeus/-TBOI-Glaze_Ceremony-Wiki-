@@ -34,8 +34,6 @@ For example:
 
 This crafts collectible ID **123** ({{Collectible:123}}).
 
-Only the hundreds, tens, and ones digits are read. Shorter IDs treat missing higher digits as 0; IDs with four or more digits ignore the thousands place and above.
-
 Once all three slots are filled, the interface previews the resulting ID. **Crafting can be confirmed only if that ID matches an existing collectible**; otherwise the craft fails and the inputs are not consumed.
 
 After confirming, the three inputs are permanently removed from the player and the result spawns as a nearby pickup.
@@ -45,20 +43,19 @@ After confirming, the three inputs are permanently removed from the player and t
 - Only collectibles the player currently holds can be selected; room pickups are not used.
 - Hidden collectibles, quest items, and Alchemy Pot itself are excluded from the normal input list.
 - Selections can be changed before final confirmation, and using Alchemy Pot again exits crafting; nothing is consumed until confirmation.
-- A result is valid as long as its collectible **exists in the game data**; being locked, hidden, or outside the normal item pool does not by itself block crafting.
-- If the combined ID matches no collectible at all, confirmation is blocked and the inputs are not consumed.
+- A result is valid as long as its collectible ID exists. Being locked, hidden, or outside the normal item pool does not by itself block crafting.
 
 ## Special interactions
 
 ### {{Collectible:584}}
 
-After crafting completes, wisps are spawned for the three invested collectibles.
+After crafting completes, a wisp is spawned for each of the three invested collectibles.
 
 ### {{Collectible:34}}
 
-Each craft can use one free digit 6 in place of any slot's normal input.
+The crafting interface adds a free "6" candidate that can fill any one slot.
 
-For example, placing the free digit in the second slot fixes the tens digit of the result at 6.
+For example, placing it in the second slot fixes the tens digit of the result at 6.
 
 ### {{Seija}} Seija
 
@@ -81,6 +78,8 @@ The result ID reads specific digits from each input ID's last three places:
 | 3rd | ones | ones |
 
 Final ID = 1st hundreds × 100 + 2nd tens × 10 + 3rd ones.
+
+Shorter IDs treat missing higher digits as 0; IDs with four or more digits ignore the thousands place and above.
 
 Input candidates must be visible collectibles, not quest items, and not Alchemy Pot itself.
 

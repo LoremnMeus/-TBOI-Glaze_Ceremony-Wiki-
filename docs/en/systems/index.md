@@ -13,3 +13,4 @@ System pages explain concepts shared by multiple entries. Character, item, and c
 - [Blueprint & Fleet](./blueprint-air-flight)
 - [Control Hub](./control-hub)
 - [Knowledge & Reverie](./death-certificate-knowledge)
+- [Permanent Effects](./permanent-effects)

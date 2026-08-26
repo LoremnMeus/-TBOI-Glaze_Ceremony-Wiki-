@@ -40,6 +40,14 @@ const TAG_LABEL = {
   bob: { zh: '鲍勃', en: 'Bob' },
 }
 
+const CONDITIONAL_EID_FIELDS = [
+  { key: 'bookOfVirtues', prefix: '{{Collectible:584}}' },
+  { key: 'bookOfBelial', prefix: '{{Collectible:34}}' },
+  { key: 'abyssSynic', prefix: '{{Collectible:706}}' },
+  { key: 'seijaBuff', prefix: '{{Seija}}' },
+  { key: 'seijaNerf', prefix: '{{Seija}}' },
+]
+
 const entry = computed(() =>
   (catalog.entries || []).find((row) => row.slug === props.slug) || null,
 )
@@ -51,14 +59,18 @@ const name = computed(() => {
 
 const desc = computed(() => entry.value?.desc?.[props.lang] || '')
 const eid = computed(() => entry.value?.eid?.[props.lang] || '')
-const seijaBuff = computed(() => {
-  const raw = entry.value?.seijaBuff?.[props.lang] || ''
-  return raw ? `{{Seija}} ${raw}` : ''
+
+const conditionalEidLines = computed(() => {
+  if (!entry.value) return []
+  return CONDITIONAL_EID_FIELDS.flatMap(({ key, prefix }) => {
+    const raw = entry.value?.[key]?.[props.lang] || ''
+    if (!raw) return []
+    return [`${prefix} ${raw}`]
+  })
 })
-const seijaNerf = computed(() => {
-  const raw = entry.value?.seijaNerf?.[props.lang] || ''
-  return raw ? `{{Seija}} ${raw}` : ''
-})
+
+const hasEidSection = computed(() => Boolean(eid.value || conditionalEidLines.value.length))
+
 const missingEnglish = computed(() => {
   if (props.lang !== 'en' || !entry.value) return false
   if (entry.value.kind === 'challenge' || entry.value.kind === 'pickup' || entry.value.kind === 'slot') {
@@ -94,11 +106,20 @@ const infoboxIconSrc = computed(() => {
             {{ TAG_LABEL[tag]?.[english ? 'en' : 'zh'] || tag }}
           </span>
         </p>
-        <section v-if="eid || seijaBuff || seijaNerf" class="public-entry__eid" :aria-label="english ? 'In-game description' : '游戏内说明'">
+        <section v-if="hasEidSection" class="public-entry__eid" :aria-label="english ? 'In-game description' : '游戏内说明'">
           <strong class="public-entry__eid-label">{{ english ? 'In-game description' : '游戏内说明' }}</strong>
           <EidMarkup v-if="eid" :text="eid" />
-          <EidMarkup v-if="seijaBuff" :text="seijaBuff" />
-          <EidMarkup v-if="seijaNerf" :text="seijaNerf" />
+          <details v-if="conditionalEidLines.length" class="public-entry__eid-conditions" open>
+            <summary>
+              {{ english ? 'Conditional lines' : '特定情况下显示' }}
+              <span class="public-entry__eid-count">({{ conditionalEidLines.length }})</span>
+            </summary>
+            <EidMarkup
+              v-for="(line, index) in conditionalEidLines"
+              :key="index"
+              :text="line"
+            />
+          </details>
         </section>
       </div>
       <EntryInfobox :entry="entry" :lang="lang" :name="name" :icon-src="infoboxIconSrc" :icon-name="infoboxIconName" />
@@ -121,6 +142,37 @@ const infoboxIconSrc = computed(() => {
 }
 .public-entry__eid { margin: 1rem 0 0; padding: .8rem 1rem; border-left: 3px solid var(--vp-c-brand-1); border-radius: 6px; background: var(--vp-c-bg-soft); }
 .public-entry__eid-label { display: block; margin-bottom: .4rem; color: var(--vp-c-text-2); font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; }
+.public-entry__eid-conditions {
+  margin-top: 0.55rem;
+  padding-top: 0.45rem;
+  border-top: 1px dashed var(--vp-c-divider);
+}
+.public-entry__eid-conditions > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+  list-style: none;
+  color: var(--vp-c-text-2);
+  font-size: 0.82rem;
+  font-weight: 600;
+  user-select: none;
+}
+.public-entry__eid-conditions > summary::-webkit-details-marker {
+  display: none;
+}
+.public-entry__eid-conditions > summary::before {
+  content: '▸';
+  color: var(--vp-c-text-2);
+  width: 0.85rem;
+  flex: 0 0 auto;
+}
+.public-entry__eid-conditions[open] > summary::before {
+  content: '▾';
+}
+.public-entry__eid-count {
+  font-weight: 500;
+}
 .public-entry__tags {
   display: flex;
   flex-wrap: wrap;

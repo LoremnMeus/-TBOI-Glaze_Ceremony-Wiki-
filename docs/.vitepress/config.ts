@@ -18,6 +18,7 @@ const systemSidebarZh = [
       { text: '蓝图与机群', link: '/systems/blueprint-air-flight' },
       { text: '控制中枢', link: '/systems/control-hub' },
       { text: '知识与遐想', link: '/systems/death-certificate-knowledge' },
+      { text: '永久', link: '/systems/permanent-effects' },
     ],
   },
 ]
@@ -33,6 +34,7 @@ const systemSidebarEn = [
       { text: 'Blueprint & Fleet', link: '/en/systems/blueprint-air-flight' },
       { text: 'Control Hub', link: '/en/systems/control-hub' },
       { text: 'Knowledge & Reverie', link: '/en/systems/death-certificate-knowledge' },
+      { text: 'Permanent Effects', link: '/en/systems/permanent-effects' },
     ],
   },
 ]

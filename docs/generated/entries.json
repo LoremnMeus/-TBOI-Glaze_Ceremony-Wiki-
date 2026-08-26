@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-26T12:25:15Z",
+  "generatedAt": "2026-08-26T13:24:59Z",
   "version": "1.0.2",
   "factsSchemaVersion": 1,
   "unlockRewards": {},
@@ -95,6 +95,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -198,6 +210,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/touchstone.png",
       "thumb32": "/generated/images/touchstone_32.webp",
       "thumb32Png": "/generated/images/touchstone_32.png",
@@ -295,6 +319,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -416,6 +452,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tech-9.png",
       "thumb32": "/generated/images/tech-9_32.webp",
       "thumb32Png": "/generated/images/tech-9_32.png",
@@ -507,6 +555,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -611,6 +671,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/mental-hypnosis.png",
       "thumb32": "/generated/images/mental-hypnosis_32.webp",
       "thumb32Png": "/generated/images/mental-hypnosis_32.png",
@@ -708,6 +780,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -822,6 +906,18 @@
       "seijaNerf": {
         "zh": "小跟班的攻速减半",
         "en": "Half the baby's fire rate."
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/air-flight.png",
       "thumb32": "/generated/images/air-flight_32.webp",
@@ -941,6 +1037,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/the-watcher.png",
       "thumb32": "/generated/images/the-watcher_32.webp",
       "thumb32Png": "/generated/images/the-watcher_32.png",
@@ -1047,6 +1155,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/giant-punch.png",
       "thumb32": "/generated/images/giant-punch_32.webp",
       "thumb32Png": "/generated/images/giant-punch_32.png",
@@ -1137,6 +1257,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -1246,6 +1378,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/my-best-friend.png",
       "thumb32": "/generated/images/my-best-friend_32.webp",
       "thumb32Png": "/generated/images/my-best-friend_32.png",
@@ -1348,6 +1492,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -1457,6 +1613,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/brimstream.png",
       "thumb32": "/generated/images/brimstream_32.webp",
       "thumb32Png": "/generated/images/brimstream_32.png",
@@ -1550,6 +1718,18 @@
         "zh": "琉璃化掉落生成率提升减弱，碎冠伤害减半，且不再强化琉璃效果触发率",
         "en": "Weaker glazed pickup bonus, half shatter damage, and no glazed-effect chance bonus"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/crown-of-the-glaze.png",
       "thumb32": "/generated/images/crown-of-the-glaze_32.webp",
       "thumb32Png": "/generated/images/crown-of-the-glaze_32.png",
@@ -1629,6 +1809,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -1714,6 +1906,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/a-shard-of-glaze.png",
       "thumb32": "/generated/images/a-shard-of-glaze_32.webp",
       "thumb32Png": "/generated/images/a-shard-of-glaze_32.png",
@@ -1793,6 +1997,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -1878,6 +2094,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/a-shard-of-meat.png",
       "thumb32": "/generated/images/a-shard-of-meat_32.webp",
       "thumb32Png": "/generated/images/a-shard-of-meat_32.png",
@@ -1957,6 +2185,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -2060,6 +2300,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/black-map.png",
       "thumb32": "/generated/images/black-map_32.webp",
       "thumb32Png": "/generated/images/black-map_32.png",
@@ -2160,6 +2412,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/blaststone.png",
       "thumb32": "/generated/images/blaststone_32.webp",
       "thumb32Png": "/generated/images/blaststone_32.png",
@@ -2257,6 +2521,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -2371,6 +2647,18 @@
         "zh": "50%概率制作出错误道具",
         "en": "50% chance to craft a wrong item"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/alchemy-pot.png",
       "thumb32": "/generated/images/alchemy-pot_32.webp",
       "thumb32Png": "/generated/images/alchemy-pot_32.png",
@@ -2474,6 +2762,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -2584,6 +2884,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-mushroom.png",
       "thumb32": "/generated/images/glaze-mushroom_32.webp",
       "thumb32Png": "/generated/images/glaze-mushroom_32.png",
@@ -2681,6 +2993,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -2939,6 +3263,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/its-a-trick.png",
       "thumb32": "/generated/images/its-a-trick_32.webp",
       "thumb32Png": "/generated/images/its-a-trick_32.png",
@@ -3040,6 +3376,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/apocalypse.png",
       "thumb32": "/generated/images/apocalypse_32.webp",
       "thumb32Png": "/generated/images/apocalypse_32.png",
@@ -3137,6 +3485,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -3246,6 +3606,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/field.png",
       "thumb32": "/generated/images/field_32.webp",
       "thumb32Png": "/generated/images/field_32.png",
@@ -3330,6 +3702,18 @@
         "en": "Sutured enemies persist longer, but damage breaks their sutures much faster"
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -3421,6 +3805,18 @@
         "zh": "价格翻3倍",
         "en": "Triple price"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/more-options.png",
       "thumb32": "/generated/images/more-options_32.webp",
       "thumb32Png": "/generated/images/more-options_32.png",
@@ -3511,6 +3907,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -3626,6 +4034,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/my-emblem.png",
       "thumb32": "/generated/images/my-emblem_32.webp",
       "thumb32Png": "/generated/images/my-emblem_32.png",
@@ -3717,6 +4137,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -3822,6 +4254,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -3937,6 +4381,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/devils-heart.png",
       "thumb32": "/generated/images/devils-heart_32.webp",
       "thumb32Png": "/generated/images/devils-heart_32.png",
@@ -4022,6 +4478,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -4120,8 +4588,8 @@
         "en": "Rewrite what has yet to happen"
       },
       "eid": {
-        "zh": "{{Collectible}} 从道具池中抽取随机道具，直到总品质达到50#生成一个四选一道具",
-        "en": "{{Collectible}} Pulls random items from item pools until their total quality reaches 50#Spawns a 4-choice item selection"
+        "zh": "从当前房间道具池中抽走道具，直到总品质达到50#生成一个四选一道具",
+        "en": "Draws from the current room's item pool until total quality reaches 50#Spawns a 4-choice item selection"
       },
       "seijaBuff": {
         "zh": "",
@@ -4130,6 +4598,18 @@
       "seijaNerf": {
         "zh": "改为生成一个一选一道具",
         "en": "Only spawns a 1-choice item"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/book-of-future.png",
       "thumb32": "/generated/images/book-of-future_32.webp",
@@ -4227,6 +4707,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -4330,6 +4822,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/wavering-eyes.png",
       "thumb32": "/generated/images/wavering-eyes_32.webp",
       "thumb32Png": "/generated/images/wavering-eyes_32.png",
@@ -4416,6 +4920,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -4525,6 +5041,18 @@
       "seijaNerf": {
         "zh": "透特牌以背面出现；卡册先只显示正逆位，首次占卜后才翻开",
         "en": "Thoth cards appear face-down; the codex shows only upright/reversed until the first reading"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/book-of-thoth.png",
       "thumb32": "/generated/images/book-of-thoth_32.webp",
@@ -4650,6 +5178,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/book-of-the-law.png",
       "thumb32": "/generated/images/book-of-the-law_32.webp",
       "thumb32Png": "/generated/images/book-of-the-law_32.png",
@@ -4759,6 +5299,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -4874,6 +5426,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/book-of-voice.png",
       "thumb32": "/generated/images/book-of-voice_32.webp",
       "thumb32Png": "/generated/images/book-of-voice_32.png",
@@ -4971,6 +5535,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -5104,6 +5680,18 @@
         "zh": "只有一条绘制线",
         "en": "Only one draw line"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/nazca.png",
       "thumb32": "/generated/images/nazca_32.webp",
       "thumb32Png": "/generated/images/nazca_32.png",
@@ -5222,6 +5810,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/cloundy.png",
       "thumb32": "/generated/images/cloundy_32.webp",
       "thumb32Png": "/generated/images/cloundy_32.png",
@@ -5313,6 +5913,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -5410,6 +6022,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/wisel.png",
       "thumb32": "/generated/images/wisel_32.webp",
       "thumb32Png": "/generated/images/wisel_32.png",
@@ -5504,6 +6128,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/granel.png",
       "thumb32": "/generated/images/granel_32.webp",
       "thumb32Png": "/generated/images/granel_32.png",
@@ -5590,6 +6226,18 @@
       },
       "seijaNerf": {
         "zh": "大幅提升重铸词条的费用",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
         "en": ""
       },
       "icon": "/generated/images/spectralsword.png",
@@ -5690,6 +6338,18 @@
       "seijaNerf": {
         "zh": "在修改器中每次移动指针都会降低全属性",
         "en": "Lower all stats when moving pointer in the crevice"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/squiresaga.png",
       "thumb32": "/generated/images/squiresaga_32.webp",
@@ -5803,6 +6463,18 @@
         "zh": "能量不会泄露，即使反转已经发生",
         "en": "The world will reverse forever"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/moment.png",
       "thumb32": "/generated/images/moment_32.webp",
       "thumb32Png": "/generated/images/moment_32.png",
@@ -5915,6 +6587,18 @@
         "zh": "改为每层下层时恢复",
         "en": "Shock wave recovers only once each level"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/lofty.png",
       "thumb32": "/generated/images/lofty_32.webp",
       "thumb32Png": "/generated/images/lofty_32.png",
@@ -6011,6 +6695,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -6120,6 +6816,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/heart-change.png",
       "thumb32": "/generated/images/heart-change_32.webp",
       "thumb32Png": "/generated/images/heart-change_32.png",
@@ -6223,6 +6931,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -6337,6 +7057,18 @@
       "seijaNerf": {
         "zh": "福音不再传播，改为对原目标降下较弱的黑暗启示",
         "en": "Gospel no longer spreads, instead invoking a weaker dark Revelation on the original target"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/gospel.png",
       "thumb32": "/generated/images/gospel_32.webp",
@@ -6462,6 +7194,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tiramisu.png",
       "thumb32": "/generated/images/tiramisu_32.webp",
       "thumb32Png": "/generated/images/tiramisu_32.png",
@@ -6574,6 +7318,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/live-broadcast.png",
       "thumb32": "/generated/images/live-broadcast_32.webp",
       "thumb32Png": "/generated/images/live-broadcast_32.png",
@@ -6683,6 +7439,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -6800,6 +7568,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -6921,6 +7701,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/pareidolia.png",
       "thumb32": "/generated/images/pareidolia_32.webp",
       "thumb32Png": "/generated/images/pareidolia_32.png",
@@ -7003,6 +7795,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -7124,6 +7928,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tears-of-pearl.png",
       "thumb32": "/generated/images/tears-of-pearl_32.webp",
       "thumb32Png": "/generated/images/tears-of-pearl_32.png",
@@ -7208,6 +8024,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -7329,6 +8157,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/risemara.png",
       "thumb32": "/generated/images/risemara_32.webp",
       "thumb32Png": "/generated/images/risemara_32.png",
@@ -7435,6 +8275,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/chiastolite.png",
       "thumb32": "/generated/images/chiastolite_32.webp",
       "thumb32Png": "/generated/images/chiastolite_32.png",
@@ -7532,6 +8384,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -7647,6 +8511,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/shadow-bottle.png",
       "thumb32": "/generated/images/shadow-bottle_32.webp",
       "thumb32Png": "/generated/images/shadow-bottle_32.png",
@@ -7746,6 +8622,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/the-true-name.png",
       "thumb32": "/generated/images/the-true-name_32.webp",
       "thumb32Png": "/generated/images/the-true-name_32.png",
@@ -7842,6 +8730,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -7956,6 +8856,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -8077,6 +8989,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/delicate-flower.png",
       "thumb32": "/generated/images/delicate-flower_32.webp",
       "thumb32Png": "/generated/images/delicate-flower_32.png",
@@ -8195,6 +9119,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tech-14.png",
       "thumb32": "/generated/images/tech-14_32.webp",
       "thumb32Png": "/generated/images/tech-14_32.png",
@@ -8298,6 +9234,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -8413,6 +9361,18 @@
       "seijaNerf": {
         "zh": "改为梦见0级道具",
         "en": "Dream about quality 0 items"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/day-dreamer.png",
       "thumb32": "/generated/images/day-dreamer_32.webp",
@@ -8539,6 +9499,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/disequilibrium.png",
       "thumb32": "/generated/images/disequilibrium_32.webp",
       "thumb32Png": "/generated/images/disequilibrium_32.png",
@@ -8638,6 +9610,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -8752,6 +9736,18 @@
         "zh": "75%概率将道具转化为彩虹便便",
         "en": "75% Chance to convert items into rainbow poops"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/philosophers-stone.png",
       "thumb32": "/generated/images/philosophers-stone_32.webp",
       "thumb32Png": "/generated/images/philosophers-stone_32.png",
@@ -8850,6 +9846,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/brilliant.png",
       "thumb32": "/generated/images/brilliant_32.webp",
       "thumb32Png": "/generated/images/brilliant_32.png",
@@ -8941,6 +9949,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -9049,6 +10069,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/ending-count.png",
       "thumb32": "/generated/images/ending-count_32.webp",
       "thumb32Png": "/generated/images/ending-count_32.png",
@@ -9140,6 +10172,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -9255,6 +10299,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/world-arc.png",
       "thumb32": "/generated/images/world-arc_32.webp",
       "thumb32Png": "/generated/images/world-arc_32.png",
@@ -9366,6 +10422,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/final-prism.png",
       "thumb32": "/generated/images/final-prism_32.webp",
       "thumb32Png": "/generated/images/final-prism_32.png",
@@ -9465,6 +10533,18 @@
       "seijaNerf": {
         "zh": "极高概率抽出{{Card55}}",
         "en": "Highly chance to draw {{Card55}}"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/book-of-rune.png",
       "thumb32": "/generated/images/book-of-rune_32.webp",
@@ -9578,6 +10658,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/evil-intervention.png",
       "thumb32": "/generated/images/evil-intervention_32.webp",
       "thumb32Png": "/generated/images/evil-intervention_32.png",
@@ -9677,6 +10769,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/how-to-fly.png",
       "thumb32": "/generated/images/how-to-fly_32.webp",
       "thumb32Png": "/generated/images/how-to-fly_32.png",
@@ -9771,6 +10875,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/illumination.png",
       "thumb32": "/generated/images/illumination_32.webp",
       "thumb32Png": "/generated/images/illumination_32.png",
@@ -9862,6 +10978,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -9976,6 +11104,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -10099,6 +11239,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/book-of-6-sin.png",
       "thumb32": "/generated/images/book-of-6-sin_32.webp",
       "thumb32Png": "/generated/images/book-of-6-sin_32.png",
@@ -10203,6 +11355,18 @@
       "seijaNerf": {
         "zh": "失去道具不再获得射速提升",
         "en": "Lost items no longer grant tears up"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/pathetique.png",
       "thumb32": "/generated/images/pathetique_32.webp",
@@ -10315,6 +11479,18 @@
         "zh": "也会恐惧自己",
         "en": "Also fears Isaac"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/dark-mysticism.png",
       "thumb32": "/generated/images/dark-mysticism_32.webp",
       "thumb32Png": "/generated/images/dark-mysticism_32.png",
@@ -10399,6 +11575,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -10519,6 +11707,18 @@
         "zh": "+3碎心",
         "en": "+3 broken hearts"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/the-suture-needle.png",
       "thumb32": "/generated/images/the-suture-needle_32.webp",
       "thumb32Png": "/generated/images/the-suture-needle_32.png",
@@ -10628,6 +11828,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -10748,6 +11960,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/mental-disorder.png",
       "thumb32": "/generated/images/mental-disorder_32.webp",
       "thumb32Png": "/generated/images/mental-disorder_32.png",
@@ -10859,6 +12083,18 @@
       "seijaNerf": {
         "zh": "拾取的道具有5%概率替换为{{Collectible258}}编号错误",
         "en": "Picked items have a 50% chance to be replaced as {{Collectible258}} Missing No"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/paranoia.png",
       "thumb32": "/generated/images/paranoia_32.webp",
@@ -10985,6 +12221,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/cursed-mask.png",
       "thumb32": "/generated/images/cursed-mask_32.webp",
       "thumb32Png": "/generated/images/cursed-mask_32.png",
@@ -11069,6 +12317,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -11208,6 +12468,18 @@
         "zh": "加快伴生道具环绕速度",
         "en": "Accelerate the surrounding speed of accompanying items"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/nihilistic-artificial-eye.png",
       "thumb32": "/generated/images/nihilistic-artificial-eye_32.webp",
       "thumb32Png": "/generated/images/nihilistic-artificial-eye_32.png",
@@ -11325,6 +12597,18 @@
         "zh": "加快阴影速度",
         "en": "Accelerate shadow speed"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/phantom-crown.png",
       "thumb32": "/generated/images/phantom-crown_32.webp",
       "thumb32Png": "/generated/images/phantom-crown_32.png",
@@ -11435,6 +12719,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -11550,6 +12846,18 @@
         "zh": "只有1个激光发射器",
         "en": "There is only one laser emitter"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/subera-light.png",
       "thumb32": "/generated/images/subera-light_32.webp",
       "thumb32Png": "/generated/images/subera-light_32.png",
@@ -11634,6 +12942,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -11744,6 +13064,18 @@
         "zh": "攻击落地后概率生成下层通道",
         "en": "Probability generation of lower level channels after attack landing"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/shangrila.png",
       "thumb32": "/generated/images/shangrila_32.webp",
       "thumb32Png": "/generated/images/shangrila_32.png",
@@ -11828,6 +13160,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -11934,6 +13278,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -12046,6 +13402,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -12172,6 +13540,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/core-brooch.png",
       "thumb32": "/generated/images/core-brooch_32.webp",
       "thumb32Png": "/generated/images/core-brooch_32.png",
@@ -12269,6 +13649,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -12390,6 +13782,18 @@
         "zh": "饥饿的小饿魔追着玩家咬并逐渐损失生命",
         "en": "The little hungry demon chased after the player to bite and gradually lost their life"
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/hunger-burger.png",
       "thumb32": "/generated/images/hunger-burger_32.webp",
       "thumb32Png": "/generated/images/hunger-burger_32.png",
@@ -12490,6 +13894,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/muscae-volitantes.png",
       "thumb32": "/generated/images/muscae-volitantes_32.webp",
       "thumb32Png": "/generated/images/muscae-volitantes_32.png",
@@ -12576,6 +13992,18 @@
       "seijaNerf": {
         "zh": "黑潮的蔓延速度大幅提高#黑潮避开所有掉落物，且不再吞噬它们",
         "en": "The tide spreads much faster#The tide avoids all pickups and no longer consumes them"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/charons-sign.png",
       "thumb32": "/generated/images/charons-sign_32.webp",
@@ -12668,6 +14096,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -12771,6 +14211,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/baby-anna.png",
       "thumb32": "/generated/images/baby-anna_32.webp",
       "thumb32Png": "/generated/images/baby-anna_32.png",
@@ -12862,6 +14314,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -12959,6 +14423,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/baby-marri.png",
       "thumb32": "/generated/images/baby-marri_32.webp",
       "thumb32Png": "/generated/images/baby-marri_32.png",
@@ -13050,6 +14526,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -13148,6 +14636,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/baby-lu.png",
       "thumb32": "/generated/images/baby-lu_32.webp",
       "thumb32Png": "/generated/images/baby-lu_32.png",
@@ -13238,6 +14738,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -13346,6 +14858,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/dragon-tooth.png",
       "thumb32": "/generated/images/dragon-tooth_32.webp",
       "thumb32Png": "/generated/images/dragon-tooth_32.png",
@@ -13445,6 +14969,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/reserved-judgment.png",
       "thumb32": "/generated/images/reserved-judgment_32.webp",
       "thumb32Png": "/generated/images/reserved-judgment_32.png",
@@ -13535,6 +15071,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -13635,6 +15183,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/remaster.png",
       "thumb32": "/generated/images/remaster_32.webp",
       "thumb32Png": "/generated/images/remaster_32.png",
@@ -13725,6 +15285,18 @@
         "en": "On each new floor, also spawn 1 Ultra Secret portal"
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -13827,6 +15399,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/golden-slot.png",
       "thumb32": "/generated/images/golden-slot_32.webp",
       "thumb32Png": "/generated/images/golden-slot_32.png",
@@ -13926,6 +15510,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/procrastination.png",
       "thumb32": "/generated/images/procrastination_32.webp",
       "thumb32Png": "/generated/images/procrastination_32.png",
@@ -14014,6 +15610,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/sacred-mind-shield.png",
       "thumb32": "/generated/images/sacred-mind-shield_32.webp",
       "thumb32Png": "/generated/images/sacred-mind-shield_32.png",
@@ -14098,6 +15706,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -14192,6 +15812,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -14301,6 +15933,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/abiogenesis.png",
       "thumb32": "/generated/images/abiogenesis_32.webp",
       "thumb32Png": "/generated/images/abiogenesis_32.png",
@@ -14403,6 +16047,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -14512,6 +16168,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/ember.png",
       "thumb32": "/generated/images/ember_32.webp",
       "thumb32Png": "/generated/images/ember_32.png",
@@ -14587,6 +16255,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -14668,6 +16348,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/dark-particle.png",
       "thumb32": "/generated/images/dark-particle_32.webp",
       "thumb32Png": "/generated/images/dark-particle_32.png",
@@ -14743,6 +16435,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -14824,6 +16528,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/devils-joke.png",
       "thumb32": "/generated/images/devils-joke_32.webp",
       "thumb32Png": "/generated/images/devils-joke_32.png",
@@ -14899,6 +16615,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -14980,6 +16708,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/puncture-symbol.png",
       "thumb32": "/generated/images/puncture-symbol_32.webp",
       "thumb32Png": "/generated/images/puncture-symbol_32.png",
@@ -15055,6 +16795,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -15136,6 +16888,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/transition-symbol.png",
       "thumb32": "/generated/images/transition-symbol_32.webp",
       "thumb32Png": "/generated/images/transition-symbol_32.png",
@@ -15211,6 +16975,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -15292,6 +17068,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/straining-symbol.png",
       "thumb32": "/generated/images/straining-symbol_32.webp",
       "thumb32Png": "/generated/images/straining-symbol_32.png",
@@ -15367,6 +17155,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -15448,6 +17248,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/pause.png",
       "thumb32": "/generated/images/pause_32.webp",
       "thumb32Png": "/generated/images/pause_32.png",
@@ -15523,6 +17335,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -15604,6 +17428,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/consistent-expectations.png",
       "thumb32": "/generated/images/consistent-expectations_32.webp",
       "thumb32Png": "/generated/images/consistent-expectations_32.png",
@@ -15679,6 +17515,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -15760,6 +17608,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/broken-brooch.png",
       "thumb32": "/generated/images/broken-brooch_32.webp",
       "thumb32Png": "/generated/images/broken-brooch_32.png",
@@ -15835,6 +17695,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -15916,6 +17788,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/qings-soul.png",
       "thumb32": "/generated/images/qings-soul_32.webp",
       "thumb32Png": "/generated/images/qings-soul_32.png",
@@ -15991,6 +17875,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -16072,6 +17968,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/0-the-fool.png",
       "thumb32": "/generated/images/0-the-fool_32.webp",
       "thumb32Png": "/generated/images/0-the-fool_32.png",
@@ -16147,6 +18055,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -16228,6 +18148,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/i-the-invoker.png",
       "thumb32": "/generated/images/i-the-invoker_32.webp",
       "thumb32Png": "/generated/images/i-the-invoker_32.png",
@@ -16303,6 +18235,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -16384,6 +18328,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/ii-the-high-priestess.png",
       "thumb32": "/generated/images/ii-the-high-priestess_32.webp",
       "thumb32Png": "/generated/images/ii-the-high-priestess_32.png",
@@ -16459,6 +18415,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -16540,6 +18508,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/iv-the-emperor.png",
       "thumb32": "/generated/images/iv-the-emperor_32.webp",
       "thumb32Png": "/generated/images/iv-the-emperor_32.png",
@@ -16615,6 +18595,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -16696,6 +18688,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/vi-lover.png",
       "thumb32": "/generated/images/vi-lover_32.webp",
       "thumb32Png": "/generated/images/vi-lover_32.png",
@@ -16771,6 +18775,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -16852,6 +18868,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/viii-adjustment.png",
       "thumb32": "/generated/images/viii-adjustment_32.webp",
       "thumb32Png": "/generated/images/viii-adjustment_32.png",
@@ -16927,6 +18955,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -17008,6 +19048,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/x-the-wheel-of-destiny.png",
       "thumb32": "/generated/images/x-the-wheel-of-destiny_32.webp",
       "thumb32Png": "/generated/images/x-the-wheel-of-destiny_32.png",
@@ -17083,6 +19135,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -17164,6 +19228,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xii-the-hanged-man.png",
       "thumb32": "/generated/images/xii-the-hanged-man_32.webp",
       "thumb32Png": "/generated/images/xii-the-hanged-man_32.png",
@@ -17239,6 +19315,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -17320,6 +19408,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xiv-art.png",
       "thumb32": "/generated/images/xiv-art_32.webp",
       "thumb32Png": "/generated/images/xiv-art_32.png",
@@ -17395,6 +19495,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -17476,6 +19588,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xvi-the-tower.png",
       "thumb32": "/generated/images/xvi-the-tower_32.webp",
       "thumb32Png": "/generated/images/xvi-the-tower_32.png",
@@ -17551,6 +19675,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -17632,6 +19768,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xviii-the-moon.png",
       "thumb32": "/generated/images/xviii-the-moon_32.webp",
       "thumb32Png": "/generated/images/xviii-the-moon_32.png",
@@ -17707,6 +19855,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -17788,6 +19948,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xx-the-aeon.png",
       "thumb32": "/generated/images/xx-the-aeon_32.webp",
       "thumb32Png": "/generated/images/xx-the-aeon_32.png",
@@ -17863,6 +20035,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -17944,6 +20128,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/0-the-fool-reversed.png",
       "thumb32": "/generated/images/0-the-fool-reversed_32.webp",
       "thumb32Png": "/generated/images/0-the-fool-reversed_32.png",
@@ -18019,6 +20215,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -18100,6 +20308,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/ii-the-high-priestess-reversed.png",
       "thumb32": "/generated/images/ii-the-high-priestess-reversed_32.webp",
       "thumb32Png": "/generated/images/ii-the-high-priestess-reversed_32.png",
@@ -18175,6 +20395,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -18256,6 +20488,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/iv-the-emperor-reversed.png",
       "thumb32": "/generated/images/iv-the-emperor-reversed_32.webp",
       "thumb32Png": "/generated/images/iv-the-emperor-reversed_32.png",
@@ -18331,6 +20575,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -18412,6 +20668,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/vi-the-lover-reversed.png",
       "thumb32": "/generated/images/vi-the-lover-reversed_32.webp",
       "thumb32Png": "/generated/images/vi-the-lover-reversed_32.png",
@@ -18487,6 +20755,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -18568,6 +20848,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/viii-adjustment-reversed.png",
       "thumb32": "/generated/images/viii-adjustment-reversed_32.webp",
       "thumb32Png": "/generated/images/viii-adjustment-reversed_32.png",
@@ -18643,6 +20935,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -18724,6 +21028,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/x-the-wheel-of-destiny-reversed.png",
       "thumb32": "/generated/images/x-the-wheel-of-destiny-reversed_32.webp",
       "thumb32Png": "/generated/images/x-the-wheel-of-destiny-reversed_32.png",
@@ -18799,6 +21115,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -18880,6 +21208,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xii-the-hanged-man-reversed.png",
       "thumb32": "/generated/images/xii-the-hanged-man-reversed_32.webp",
       "thumb32Png": "/generated/images/xii-the-hanged-man-reversed_32.png",
@@ -18955,6 +21295,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -19036,6 +21388,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xiii-death-reversed.png",
       "thumb32": "/generated/images/xiii-death-reversed_32.webp",
       "thumb32Png": "/generated/images/xiii-death-reversed_32.png",
@@ -19111,6 +21475,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -19192,6 +21568,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xiv-art-reversed.png",
       "thumb32": "/generated/images/xiv-art-reversed_32.webp",
       "thumb32Png": "/generated/images/xiv-art-reversed_32.png",
@@ -19267,6 +21655,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -19348,6 +21748,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xvi-the-tower-reversed.png",
       "thumb32": "/generated/images/xvi-the-tower-reversed_32.webp",
       "thumb32Png": "/generated/images/xvi-the-tower-reversed_32.png",
@@ -19423,6 +21835,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -19504,6 +21928,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xviii-the-moon-reversed.png",
       "thumb32": "/generated/images/xviii-the-moon-reversed_32.webp",
       "thumb32Png": "/generated/images/xviii-the-moon-reversed_32.png",
@@ -19579,6 +22015,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -19660,6 +22108,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xx-the-aeon-reversed.png",
       "thumb32": "/generated/images/xx-the-aeon-reversed_32.webp",
       "thumb32Png": "/generated/images/xx-the-aeon-reversed_32.png",
@@ -19735,6 +22195,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -19816,6 +22288,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xix-the-eclipse.png",
       "thumb32": "/generated/images/xix-the-eclipse_32.webp",
       "thumb32Png": "/generated/images/xix-the-eclipse_32.png",
@@ -19891,6 +22375,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -19972,6 +22468,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tecros-soul.png",
       "thumb32": "/generated/images/tecros-soul_32.webp",
       "thumb32Png": "/generated/images/tecros-soul_32.png",
@@ -20047,6 +22555,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -20128,6 +22648,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/zeiss-soul.png",
       "thumb32": "/generated/images/zeiss-soul_32.webp",
       "thumb32Png": "/generated/images/zeiss-soul_32.png",
@@ -20203,6 +22735,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -20284,6 +22828,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/xxi-the-profound-reversed.png",
       "thumb32": "/generated/images/xxi-the-profound-reversed_32.webp",
       "thumb32Png": "/generated/images/xxi-the-profound-reversed_32.png",
@@ -20362,6 +22918,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/v-the-sting.png",
       "thumb32": "/generated/images/v-the-sting_32.webp",
       "thumb32Png": "/generated/images/v-the-sting_32.png",
@@ -20437,6 +23005,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -20539,6 +23119,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/w-qing_portrait.png",
       "thumb32": "/generated/images/w-qing_portrait_32.webp",
       "thumb32Png": "/generated/images/w-qing_portrait_32.png",
@@ -20633,6 +23225,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -21211,6 +23815,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tecro_portrait.png",
       "thumb32": "/generated/images/tecro_portrait_32.webp",
       "thumb32Png": "/generated/images/tecro_portrait_32.png",
@@ -21306,6 +23922,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -21507,6 +24135,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/anna_portrait.png",
       "thumb32": "/generated/images/anna_portrait_32.webp",
       "thumb32Png": "/generated/images/anna_portrait_32.png",
@@ -21595,6 +24235,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -21689,6 +24341,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/zeis_portrait.png",
       "thumb32": "/generated/images/zeis_portrait_32.webp",
       "thumb32Png": "/generated/images/zeis_portrait_32.png",
@@ -21775,6 +24439,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/zeiz_portrait.png",
       "thumb32": "/generated/images/zeiz_portrait_32.webp",
       "thumb32Png": "/generated/images/zeiz_portrait_32.png",
@@ -21853,6 +24529,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/fusion-destiny.png",
       "thumb32": "/generated/images/fusion-destiny_32.webp",
       "thumb32Png": "/generated/images/fusion-destiny_32.png",
@@ -21925,6 +24613,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -22003,6 +24703,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/heterothermal-concentric.png",
       "thumb32": "/generated/images/heterothermal-concentric_32.webp",
       "thumb32Png": "/generated/images/heterothermal-concentric_32.png",
@@ -22075,6 +24787,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -22153,6 +24877,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/louvre-puzzle.png",
       "thumb32": "/generated/images/louvre-puzzle_32.webp",
       "thumb32Png": "/generated/images/louvre-puzzle_32.png",
@@ -22225,6 +24961,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -22308,6 +25056,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/invisible.png",
       "thumb32": "/generated/images/invisible_32.webp",
       "thumb32Png": "/generated/images/invisible_32.png",
@@ -22382,6 +25142,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -22460,6 +25232,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/cookie-clicker.png",
       "thumb32": "/generated/images/cookie-clicker_32.webp",
       "thumb32Png": "/generated/images/cookie-clicker_32.png",
@@ -22535,6 +25319,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/safe-driving.png",
       "thumb32": "/generated/images/safe-driving_32.webp",
       "thumb32Png": "/generated/images/safe-driving_32.png",
@@ -22607,6 +25403,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -22687,6 +25495,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/dragon-flight.png",
       "thumb32": "/generated/images/dragon-flight_32.webp",
       "thumb32Png": "/generated/images/dragon-flight_32.png",
@@ -22760,6 +25580,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -22913,6 +25745,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-heart-half.png",
       "thumb32": "/generated/images/glaze-heart-half_32.webp",
       "thumb32Png": "/generated/images/glaze-heart-half_32.png",
@@ -23060,6 +25904,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -23213,6 +26069,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-bomb.png",
       "thumb32": "/generated/images/glaze-bomb_32.webp",
       "thumb32Png": "/generated/images/glaze-bomb_32.png",
@@ -23360,6 +26228,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -23513,6 +26393,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-battery.png",
       "thumb32": "/generated/images/glaze-battery_32.webp",
       "thumb32Png": "/generated/images/glaze-battery_32.png",
@@ -23660,6 +26552,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -23813,6 +26717,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-big-poop.png",
       "thumb32": "/generated/images/glaze-big-poop_32.webp",
       "thumb32Png": "/generated/images/glaze-big-poop_32.png",
@@ -23963,6 +26879,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-coin.png",
       "thumb32": "/generated/images/glaze-coin_32.webp",
       "thumb32Png": "/generated/images/glaze-coin_32.png",
@@ -24107,6 +27035,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/blueprint-prototype.png",
       "thumb32": "/generated/images/blueprint-prototype_32.webp",
       "thumb32Png": "/generated/images/blueprint-prototype_32.png",
@@ -24182,6 +27122,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -24263,6 +27215,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/rift-beggar.png",
       "thumb32": "/generated/images/rift-beggar_32.webp",
       "thumb32Png": "/generated/images/rift-beggar_32.png",
@@ -24338,6 +27302,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
@@ -24419,6 +27395,18 @@
         "zh": "",
         "en": ""
       },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/bloody-messenger.png",
       "thumb32": "/generated/images/bloody-messenger_32.webp",
       "thumb32Png": "/generated/images/bloody-messenger_32.png",
@@ -24494,6 +27482,18 @@
         "en": ""
       },
       "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
         "zh": "",
         "en": ""
       },
