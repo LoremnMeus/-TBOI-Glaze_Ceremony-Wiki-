@@ -80,13 +80,13 @@ Revelation immediately calls down a holy beam. Final Judgement first places a br
 
 ## Special interactions
 
-### Seija
+### {{Seija}} Seija
 
 Under Seija, Gospel no longer spreads to nearby enemies. Reaching a spread threshold instead invokes a dark Revelation on the original target for **75% of the character's damage**, and affected enemies no longer spread Gospel upon death.
 
 Final Judgement can still occur and uses a dark visual treatment.
 
-### Abyss
+### {{Collectible:706}} Abyss
 
 Gospel's locust also makes enemies receive Gospel when it hits them.
 

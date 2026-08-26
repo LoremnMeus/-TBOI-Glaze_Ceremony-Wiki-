@@ -60,6 +60,8 @@
 
 行内示例：{{Item:gospel}} {{Item:blue-print}} {{Damage}} {{SoulHeart}} {{Warning}} {{QingPlayer:wq}}
 
+“特殊联动”下的具体对象标题也应直接使用对应标记，例如 `### {{Seija}} Seija`、`### {{Collectible:706}} 深渊`，使头像或道具图标与名称一起显示。
+
 拷贝模板：[格式参考](/markup-cheatsheet)。
 
 ## EID 状态图标

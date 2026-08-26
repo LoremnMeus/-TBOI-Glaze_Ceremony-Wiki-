@@ -32,10 +32,6 @@ export function eidMarkupPlugin(md: {
       const open = state.tokens[index]
       const inline = state.tokens[index + 1]
       const close = state.tokens[index + 2]
-      if (inMechanicsBody && open.type === 'heading_open' && open.tag === 'h3' && close.type === 'heading_close') {
-        open.tag = 'h2'
-        close.tag = 'h2'
-      }
       if (open.type !== 'heading_open' || open.tag !== 'h2' || inline.type !== 'inline' || close.type !== 'heading_close') continue
       const heading = String(inline.content || '').trim()
       if (heading !== '机制说明' && heading !== 'Mechanics') continue

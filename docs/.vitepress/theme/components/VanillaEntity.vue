@@ -25,6 +25,15 @@ const iconMark = computed(() => `${props.entityType.charAt(0).toUpperCase()}${pr
 </template>
 
 <style scoped>
-.vanilla-entity { display: inline-flex; align-items: center; gap: .18em; white-space: nowrap; font-weight: 600; }
+.vanilla-entity {
+  display: inline-flex;
+  align-items: center;
+  gap: .18em;
+  white-space: nowrap;
+  font-weight: 600;
+  line-height: inherit;
+  vertical-align: middle;
+}
+.vanilla-entity > span { line-height: inherit; }
 .eid-missing { color: var(--vp-c-danger-1); }
 </style>

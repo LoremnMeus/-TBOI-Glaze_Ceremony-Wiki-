@@ -64,7 +64,7 @@ As those items return, the tears bonus provided by their absence also disappears
 
 ## Special interactions
 
-### Seija
+### {{Seija}} Seija
 
 Under Seija, Pathetique still sacrifices items to negate enemy damage, but sacrificed items no longer grant tears up.
 
