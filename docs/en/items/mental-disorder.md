@@ -40,12 +40,12 @@ False item effects only duplicate passive or familiar items the player already o
 
 - Only one false fact can exist at a time.
 - A category with no valid candidate is not selected.
-- The error itself always ends on leaving the room, but results that have already occurred are not rolled back.
+- On leaving the room, the current false fact ends. Only unspent virtual resources are reclaimed.
 - A false fact is accompanied by brief screen distortion; real objects may also show similar visual interference, so a glitch alone cannot prove which object is false.
 
 ## Tips
 
-- **Convert virtual resources into outcomes that will not be reversed.** Shopping, opening doors, blowing up rocks, or using cards and pills immediately are common examples.
+- **Spend virtual resources before leaving.** Shopping, opening doors, blowing up rocks, or using cards and pills immediately keeps the benefit you already gained.
 - **Test suspicious enemies with one cheap attack.** A false enemy disappears as soon as it takes real damage.
 
 ## Trivia

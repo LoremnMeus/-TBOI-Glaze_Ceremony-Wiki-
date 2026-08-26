@@ -88,10 +88,4 @@ Rather than merely adding another holy attack, the current design emphasizes Gos
 | Final Judgement damage | 200% |
 | Seija dark Revelation damage | 75% |
 
-### Other rules
-
-Spreading only selects targets that have not yet received Gospel.
-
-Entering a new room resets the Revelation count and Judgement state.
-
 </details>
