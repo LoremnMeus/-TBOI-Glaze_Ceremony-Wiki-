@@ -1,9 +1,2010 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-28T06:16:18Z",
+  "generatedAt": "2026-08-28T06:18:33Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
-  "unlockRewards": {},
+  "unlockRewards": {
+    "wq::MegaSatan": [
+      {
+        "slug": "chiastolite",
+        "kind": "collectible",
+        "names": {
+          "zh": "无名刃：心灾",
+          "en": "Chiastolite"
+        }
+      }
+    ],
+    "wq::Lamb": [
+      {
+        "slug": "touchstone",
+        "kind": "collectible",
+        "names": {
+          "zh": "无名刃·弑金",
+          "en": "Touchstone"
+        }
+      }
+    ],
+    "wq::BlueBaby": [
+      {
+        "slug": "multiknife",
+        "kind": "collectible",
+        "names": {
+          "zh": "倍增重刃",
+          "en": "Multiknife"
+        }
+      }
+    ],
+    "wq::Hush": [
+      {
+        "slug": "alchemy-pot",
+        "kind": "collectible",
+        "names": {
+          "zh": "炼金术的掌中锅",
+          "en": "Alchemy Pot"
+        }
+      }
+    ],
+    "wq::BossRush": [
+      {
+        "slug": "assassins-eye",
+        "kind": "collectible",
+        "names": {
+          "zh": "刺杀者之眼",
+          "en": "Assassin's Eye"
+        }
+      }
+    ],
+    "wq::Delirium": [
+      {
+        "slug": "mental-hypnosis",
+        "kind": "collectible",
+        "names": {
+          "zh": "精神控制",
+          "en": "Mental Hypnosis"
+        }
+      }
+    ],
+    "wq::Isaac": [
+      {
+        "slug": "pageant-cross-dresser",
+        "kind": "collectible",
+        "names": {
+          "zh": "盛装男娘",
+          "en": "Pageant Cross-dresser"
+        }
+      }
+    ],
+    "wq::Satan": [
+      {
+        "slug": "super-bombs",
+        "kind": "collectible",
+        "names": {
+          "zh": "超级炸弹",
+          "en": "Super Bombs"
+        }
+      }
+    ],
+    "wq::Beast": [
+      {
+        "slug": "delicate-flower",
+        "kind": "collectible",
+        "names": {
+          "zh": "娇嫩的花",
+          "en": "Delicate Flower"
+        }
+      }
+    ],
+    "wq::Mother": [
+      {
+        "slug": "black-map",
+        "kind": "collectible",
+        "names": {
+          "zh": "黑地图",
+          "en": "Black Map"
+        }
+      }
+    ],
+    "wq::GreedMode": [
+      {
+        "slug": "gold-rush",
+        "kind": "collectible",
+        "names": {
+          "zh": "淘金热",
+          "en": "Gold Rush"
+        }
+      }
+    ],
+    "Spwq::Lamb": [
+      {
+        "slug": "theseuss-sign",
+        "kind": "collectible",
+        "names": {
+          "zh": "忒修斯之印",
+          "en": "Theseus's Sign"
+        }
+      },
+      {
+        "slug": "charons-sign",
+        "kind": "collectible",
+        "names": {
+          "zh": "卡戎之印",
+          "en": "Charon's Sign"
+        }
+      }
+    ],
+    "Spwq::BlueBaby": [
+      {
+        "slug": "the-watcher",
+        "kind": "collectible",
+        "names": {
+          "zh": "监视",
+          "en": "The Watcher"
+        }
+      }
+    ],
+    "Spwq::BossRush": [
+      {
+        "slug": "seekers-eye",
+        "kind": "collectible",
+        "names": {
+          "zh": "求索者之眼",
+          "en": "Seeker's Eye"
+        }
+      }
+    ],
+    "Spwq::Delirium": [
+      {
+        "slug": "memory",
+        "kind": "collectible",
+        "names": {
+          "zh": "回忆",
+          "en": "Memory"
+        }
+      }
+    ],
+    "Spwq::Isaac": [
+      {
+        "slug": "remaster",
+        "kind": "collectible",
+        "names": {
+          "zh": "重制版！",
+          "en": "Remaster!"
+        }
+      }
+    ],
+    "Spwq::Beast": [
+      {
+        "slug": "my-best-friend",
+        "kind": "collectible",
+        "names": {
+          "zh": "小青最好的朋友",
+          "en": "My Best Friend"
+        }
+      }
+    ],
+    "Spwq::Mother": [
+      {
+        "slug": "live-broadcast",
+        "kind": "collectible",
+        "names": {
+          "zh": "直播姬",
+          "en": "Live Broadcast"
+        }
+      }
+    ],
+    "Spwq::GreedMode": [
+      {
+        "slug": "fates-draw",
+        "kind": "collectible",
+        "names": {
+          "zh": "注定一抽",
+          "en": "Fate's Draw"
+        }
+      }
+    ],
+    "Spwq::Satan": [
+      {
+        "slug": "tech-9",
+        "kind": "collectible",
+        "names": {
+          "zh": "科技IX",
+          "en": "Tech IX"
+        }
+      }
+    ],
+    "Spwq::MegaSatan": [
+      {
+        "slug": "brimstream",
+        "kind": "collectible",
+        "names": {
+          "zh": "硫磺激流",
+          "en": "Brimstream"
+        }
+      },
+      {
+        "slug": "blaststone",
+        "kind": "collectible",
+        "names": {
+          "zh": "硫磺爆射",
+          "en": "Blaststone"
+        }
+      }
+    ],
+    "Spwq::Hush": [
+      {
+        "slug": "philosophers-stone",
+        "kind": "collectible",
+        "names": {
+          "zh": "贤者之石",
+          "en": "Philosopher's Stone"
+        }
+      },
+      {
+        "slug": "qings-soul",
+        "kind": "card",
+        "names": {
+          "zh": "小青的灵魂石",
+          "en": "Qing's Soul"
+        }
+      }
+    ],
+    "Tecrorun::Isaac": [
+      {
+        "slug": "tech-14",
+        "kind": "collectible",
+        "names": {
+          "zh": "科技XIV",
+          "en": "Tech 14"
+        }
+      }
+    ],
+    "Tecrorun::Lamb": [
+      {
+        "slug": "field",
+        "kind": "collectible",
+        "names": {
+          "zh": "逆反力场",
+          "en": "Anti-Field"
+        }
+      }
+    ],
+    "annA::Hush": [
+      {
+        "slug": "calamity",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象灾变",
+          "en": "Calamity"
+        }
+      },
+      {
+        "slug": "annas-soul",
+        "kind": "card",
+        "names": {
+          "zh": "安娜的魂石",
+          "en": "Anna's Soul"
+        }
+      }
+    ],
+    "wq::custom_col_1784813595360": [
+      {
+        "slug": "glaze-mushroom",
+        "kind": "collectible",
+        "names": {
+          "zh": "琉璃的蘑菇",
+          "en": "Glaze Mushroom"
+        }
+      }
+    ],
+    "Tecro::Lamb": [
+      {
+        "slug": "ritual-sting",
+        "kind": "collectible",
+        "names": {
+          "zh": "血仪刺刃",
+          "en": "Ritual Sting"
+        }
+      }
+    ],
+    "Zeis::Lamb": [
+      {
+        "slug": "nihilistic-artificial-eye",
+        "kind": "collectible",
+        "names": {
+          "zh": "虚无假眼",
+          "en": "Nihilistic Artificial Eye"
+        }
+      }
+    ],
+    "annA::BlueBaby": [
+      {
+        "slug": "shangrila",
+        "kind": "collectible",
+        "names": {
+          "zh": "香格里拉",
+          "en": "Shangrila"
+        }
+      }
+    ],
+    "Tecrorun::custom_col_1784813595360": [
+      {
+        "slug": "glaze-mirror",
+        "kind": "collectible",
+        "names": {
+          "zh": "琉璃镜片",
+          "en": "Glaze Mirror"
+        }
+      }
+    ],
+    "wq::Tainted": [
+      {
+        "slug": "my-hat",
+        "kind": "collectible",
+        "names": {
+          "zh": "青的帽子",
+          "en": "Qing's Hat"
+        }
+      },
+      {
+        "slug": "my-emblem",
+        "kind": "collectible",
+        "names": {
+          "zh": "小青的纹章",
+          "en": "Qing's Emblem"
+        }
+      },
+      {
+        "slug": "sp-w-qing",
+        "kind": "character",
+        "names": {
+          "zh": "青",
+          "en": "Qing"
+        }
+      }
+    ],
+    "Marriano::BlueBaby": [
+      {
+        "slug": "pathetique",
+        "kind": "collectible",
+        "names": {
+          "zh": "悲悯",
+          "en": "Pathetique"
+        }
+      }
+    ],
+    "Marriano::Satan": [
+      {
+        "slug": "suture-needle",
+        "kind": "collectible",
+        "names": {
+          "zh": "缝合针",
+          "en": "Suture Needle"
+        }
+      }
+    ],
+    "Anna::custom_col_1784813595360": [
+      {
+        "slug": "pendulum-star",
+        "kind": "collectible",
+        "names": {
+          "zh": "回荡之星",
+          "en": "Pendulum Star"
+        }
+      }
+    ],
+    "Tecro::MegaSatan": [
+      {
+        "slug": "darkness",
+        "kind": "collectible",
+        "names": {
+          "zh": "暗之六面",
+          "en": "Darkness"
+        }
+      }
+    ],
+    "Autio::Isaac": [
+      {
+        "slug": "abiogenesis",
+        "kind": "collectible",
+        "names": {
+          "zh": "无生源论",
+          "en": "Abiogenesis"
+        }
+      }
+    ],
+    "Autio::BlueBaby": [
+      {
+        "slug": "dark-mysticism",
+        "kind": "collectible",
+        "names": {
+          "zh": "暗黑神秘学",
+          "en": "Dark Mysticism"
+        }
+      }
+    ],
+    "Lu::Isaac": [
+      {
+        "slug": "book-of-6-sin",
+        "kind": "collectible",
+        "names": {
+          "zh": "六罪论",
+          "en": "Book of 6 sin"
+        }
+      }
+    ],
+    "Tecrorun::Hush": [
+      {
+        "slug": "illumination",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象破幻",
+          "en": "Illumination"
+        }
+      },
+      {
+        "slug": "tecros-soul",
+        "kind": "card",
+        "names": {
+          "zh": "泰克罗的魂石",
+          "en": "Tecro's Soul"
+        }
+      }
+    ],
+    "Tecrorun::BossRush": [
+      {
+        "slug": "subera-light",
+        "kind": "collectible",
+        "names": {
+          "zh": "次时代炬火",
+          "en": "Subera Light"
+        }
+      }
+    ],
+    "Anna::MegaSatan": [
+      {
+        "slug": "evil-intervention",
+        "kind": "collectible",
+        "names": {
+          "zh": "邪恶干涉",
+          "en": "Evil Intervention"
+        }
+      }
+    ],
+    "annA::MegaSatan": [
+      {
+        "slug": "dimension-contact",
+        "kind": "collectible",
+        "names": {
+          "zh": "次元之楔",
+          "en": "Dimension Contact"
+        }
+      }
+    ],
+    "Zeis::MegaSatan": [
+      {
+        "slug": "nazca",
+        "kind": "collectible",
+        "names": {
+          "zh": "纳兹卡巨画",
+          "en": "Nazca"
+        }
+      },
+      {
+        "slug": "tzolkin",
+        "kind": "collectible",
+        "names": {
+          "zh": "卓尔金神历",
+          "en": "Tzolkin"
+        }
+      }
+    ],
+    "Tecro::Isaac": [
+      {
+        "slug": "book-of-rune",
+        "kind": "collectible",
+        "names": {
+          "zh": "卢恩之书",
+          "en": "Book of Rune"
+        }
+      }
+    ],
+    "Marriano::Hush": [
+      {
+        "slug": "disequilibrium",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象失权",
+          "en": "Disequilibrium"
+        }
+      }
+    ],
+    "Zeis::Isaac": [
+      {
+        "slug": "book-of-vision",
+        "kind": "collectible",
+        "names": {
+          "zh": "觅之书",
+          "en": "Book of Vision"
+        }
+      }
+    ],
+    "Zeis::Hush": [
+      {
+        "slug": "cloundy",
+        "kind": "collectible",
+        "names": {
+          "zh": "云玩大佬",
+          "en": "Cloundy"
+        }
+      }
+    ],
+    "Autio::Hush": [
+      {
+        "slug": "chasm",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象入渊",
+          "en": "Chasm"
+        }
+      }
+    ],
+    "Zeiz::Hush": [
+      {
+        "slug": "contemplation",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象窥井",
+          "en": "Contemplation"
+        }
+      },
+      {
+        "slug": "zeiss-soul",
+        "kind": "card",
+        "names": {
+          "zh": "泽伊斯的魂石",
+          "en": "Zeis's Soul"
+        }
+      }
+    ],
+    "Zeiz::Lamb": [
+      {
+        "slug": "d-v-f",
+        "kind": "collectible",
+        "names": {
+          "zh": "D-V-F",
+          "en": "D-V-F"
+        }
+      }
+    ],
+    "Anna::Lamb": [
+      {
+        "slug": "core-brooch",
+        "kind": "collectible",
+        "names": {
+          "zh": "魔法胸针",
+          "en": "Core Brooch"
+        }
+      }
+    ],
+    "Lu::MomsHeart": [
+      {
+        "slug": "baby-lu",
+        "kind": "collectible",
+        "names": {
+          "zh": "宝宝露",
+          "en": "Baby Lu"
+        }
+      }
+    ],
+    "Autio::MomsHeart": [
+      {
+        "slug": "baby-autio",
+        "kind": "collectible",
+        "names": {
+          "zh": "宝宝艾提奥",
+          "en": "Baby Autio"
+        }
+      }
+    ],
+    "Marriano::MomsHeart": [
+      {
+        "slug": "baby-marri",
+        "kind": "collectible",
+        "names": {
+          "zh": "宝宝玛丽",
+          "en": "Baby Marri"
+        }
+      }
+    ],
+    "Zeiz::MomsHeart": [
+      {
+        "slug": "baby-zeis",
+        "kind": "collectible",
+        "names": {
+          "zh": "宝宝泽伊斯",
+          "en": "Baby Zeis"
+        }
+      }
+    ],
+    "Tecrorun::MomsHeart": [
+      {
+        "slug": "baby-tecro",
+        "kind": "collectible",
+        "names": {
+          "zh": "宝宝泰克罗",
+          "en": "Baby Tecro"
+        }
+      }
+    ],
+    "annA::MomsHeart": [
+      {
+        "slug": "baby-anna",
+        "kind": "collectible",
+        "names": {
+          "zh": "宝宝安娜",
+          "en": "Baby Anna"
+        }
+      }
+    ],
+    "Tecrorun::GreedMode": [
+      {
+        "slug": "brilliant",
+        "kind": "collectible",
+        "names": {
+          "zh": "辉煌",
+          "en": "Brilliant"
+        }
+      }
+    ],
+    "Zeiz::custom_col_1784813595360": [
+      {
+        "slug": "its-a-trick",
+        "kind": "collectible",
+        "names": {
+          "zh": "鸭架",
+          "en": "Wire duck hanger"
+        }
+      }
+    ],
+    "Marriano::Lamb": [
+      {
+        "slug": "fresh-death",
+        "kind": "collectible",
+        "names": {
+          "zh": "鲜活死者",
+          "en": "Fresh Death"
+        }
+      },
+      {
+        "slug": "the-suture-needle",
+        "kind": "collectible",
+        "names": {
+          "zh": "新式缝合针",
+          "en": "The Suture Needle"
+        }
+      }
+    ],
+    "Marriano::BossRush": [
+      {
+        "slug": "colorblindness",
+        "kind": "collectible",
+        "names": {
+          "zh": "傲慢或是偏见",
+          "en": "Pride or Prejudice"
+        }
+      }
+    ],
+    "Autio::Satan": [
+      {
+        "slug": "dragon-tooth",
+        "kind": "collectible",
+        "names": {
+          "zh": "深渊龙牙",
+          "en": "Dragon Tooth"
+        }
+      }
+    ],
+    "Zeiz::Isaac": [
+      {
+        "slug": "book-of-voice",
+        "kind": "collectible",
+        "names": {
+          "zh": "假象之书",
+          "en": "Book of Voice"
+        }
+      }
+    ],
+    "annA::BossRush": [
+      {
+        "slug": "spectralsword",
+        "kind": "collectible",
+        "names": {
+          "zh": "妖刀·逢魔",
+          "en": "Spectral Sword"
+        }
+      },
+      {
+        "slug": "squiresaga",
+        "kind": "collectible",
+        "names": {
+          "zh": "妖刻·白隙",
+          "en": "Squiresaga"
+        }
+      }
+    ],
+    "Marriano::GreedMode": [
+      {
+        "slug": "consistent-expectations",
+        "kind": "trinket",
+        "names": {
+          "zh": "期望协定",
+          "en": "Consistent Expectations"
+        }
+      }
+    ],
+    "Zeiz::GreedMode": [
+      {
+        "slug": "skiel",
+        "kind": "collectible",
+        "names": {
+          "zh": "痛苦因子",
+          "en": "Skiel"
+        }
+      },
+      {
+        "slug": "wisel",
+        "kind": "collectible",
+        "names": {
+          "zh": "绝望因子",
+          "en": "Wisel"
+        }
+      },
+      {
+        "slug": "granel",
+        "kind": "collectible",
+        "names": {
+          "zh": "泯灭因子",
+          "en": "Granel"
+        }
+      }
+    ],
+    "Zeiz::Satan": [
+      {
+        "slug": "heart-change",
+        "kind": "collectible",
+        "names": {
+          "zh": "心变",
+          "en": "Heart Change"
+        }
+      }
+    ],
+    "Tecrorun::Satan": [
+      {
+        "slug": "ingestion-to-night",
+        "kind": "collectible",
+        "names": {
+          "zh": "夜之摄取",
+          "en": "Ingestion to Night"
+        }
+      }
+    ],
+    "Tecrorun::BlueBaby": [
+      {
+        "slug": "lofty",
+        "kind": "collectible",
+        "names": {
+          "zh": "至高之阵",
+          "en": "Lofty"
+        }
+      }
+    ],
+    "Tecro::BlueBaby": [
+      {
+        "slug": "risemara",
+        "kind": "collectible",
+        "names": {
+          "zh": "勇者祝福",
+          "en": "Risemara"
+        }
+      }
+    ],
+    "Zeis::BossRush": [
+      {
+        "slug": "ending-count",
+        "kind": "collectible",
+        "names": {
+          "zh": "终末倒数",
+          "en": "Ending Count"
+        }
+      }
+    ],
+    "Zeiz::BossRush": [
+      {
+        "slug": "muscae-volitantes",
+        "kind": "collectible",
+        "names": {
+          "zh": "飞蚊症",
+          "en": "Muscae Volitantes"
+        }
+      }
+    ],
+    "Anna::GreedMode": [
+      {
+        "slug": "reserved-judgment",
+        "kind": "collectible",
+        "names": {
+          "zh": "保留意见",
+          "en": "Reserved Judgment"
+        }
+      }
+    ],
+    "Zeis::BlueBaby": [
+      {
+        "slug": "the-true-name",
+        "kind": "collectible",
+        "names": {
+          "zh": "真实之名",
+          "en": "The true name"
+        }
+      }
+    ],
+    "wq::Greedier": [
+      {
+        "slug": "giant-punch",
+        "kind": "collectible",
+        "names": {
+          "zh": "巨大化",
+          "en": "Giant Punch"
+        }
+      }
+    ],
+    "Anna::BossRush": [
+      {
+        "slug": "book-of-future",
+        "kind": "collectible",
+        "names": {
+          "zh": "未来之书",
+          "en": "Book of Future"
+        }
+      }
+    ],
+    "Tecro::Mother": [
+      {
+        "slug": "tiramisu",
+        "kind": "collectible",
+        "names": {
+          "zh": "提拉米苏",
+          "en": "Tiramisu"
+        }
+      }
+    ],
+    "Tecrorun::Mother": [
+      {
+        "slug": "moment",
+        "kind": "collectible",
+        "names": {
+          "zh": "妖星·一瞬",
+          "en": "Moment"
+        }
+      }
+    ],
+    "Tecrorun::Greedier": [
+      {
+        "slug": "v-the-sting-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "V - 密仪?",
+          "en": "V - Sting?"
+        }
+      }
+    ],
+    "Tecro::Greedier": [
+      {
+        "slug": "v-the-sting",
+        "kind": "card",
+        "names": {
+          "zh": "V - 密仪",
+          "en": "V - Sting"
+        }
+      }
+    ],
+    "Zeis::Greedier": [
+      {
+        "slug": "xxi-the-profound",
+        "kind": "card",
+        "names": {
+          "zh": "XXI - 深邃",
+          "en": "XXI - Profound"
+        }
+      }
+    ],
+    "Tecro::BossRush": [
+      {
+        "slug": "d773",
+        "kind": "collectible",
+        "names": {
+          "zh": "D773",
+          "en": "D773"
+        }
+      }
+    ],
+    "Zeiz::Greedier": [
+      {
+        "slug": "xxi-the-profound-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XXI - 深邃?",
+          "en": "XXI - Profound?"
+        }
+      }
+    ],
+    "Anna::Greedier": [
+      {
+        "slug": "xix-the-eclipse",
+        "kind": "card",
+        "names": {
+          "zh": "XIX - 日食",
+          "en": "XIX - Eclipse"
+        }
+      }
+    ],
+    "annA::Greedier": [
+      {
+        "slug": "xix-the-eclipse-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XIX - 食日?",
+          "en": "XIX - Eclipse?"
+        }
+      }
+    ],
+    "Zeis::Delirium": [
+      {
+        "slug": "hypermnesia",
+        "kind": "collectible",
+        "names": {
+          "zh": "超忆症",
+          "en": "Hypermnesia"
+        }
+      }
+    ],
+    "Anna::Isaac": [
+      {
+        "slug": "book-of-the-law",
+        "kind": "collectible",
+        "names": {
+          "zh": "法之书",
+          "en": "Book of The Law"
+        }
+      }
+    ],
+    "Tecro::Beast": [
+      {
+        "slug": "final-prism",
+        "kind": "collectible",
+        "names": {
+          "zh": "最终棱镜",
+          "en": "Final Prism"
+        }
+      }
+    ],
+    "Marriano::Mother": [
+      {
+        "slug": "sacred-mind-shield",
+        "kind": "collectible",
+        "names": {
+          "zh": "神圣心之防护罩－心灵之力",
+          "en": "Sacred Mind Shield"
+        }
+      }
+    ],
+    "Autio::GreedMode": [
+      {
+        "slug": "equality-agreement",
+        "kind": "trinket",
+        "names": {
+          "zh": "平等协议",
+          "en": "Equality Agreement"
+        }
+      }
+    ],
+    "Zeis::Satan": [
+      {
+        "slug": "death-sentence",
+        "kind": "collectible",
+        "names": {
+          "zh": "通灵盘",
+          "en": "Death Sentence"
+        }
+      }
+    ],
+    "Marriano::Delirium": [
+      {
+        "slug": "day-dreamer",
+        "kind": "collectible",
+        "names": {
+          "zh": "白日梦",
+          "en": "Day Dreamer"
+        }
+      }
+    ],
+    "Lu::GreedMode": [
+      {
+        "slug": "bundled-sale",
+        "kind": "trinket",
+        "names": {
+          "zh": "捆绑销售",
+          "en": "Bundled Sale"
+        }
+      }
+    ],
+    "Tecro::Delirium": [
+      {
+        "slug": "acrotomophilia",
+        "kind": "collectible",
+        "names": {
+          "zh": "慕残症",
+          "en": "Acrotomophilia"
+        }
+      }
+    ],
+    "Zeis::GreedMode": [
+      {
+        "slug": "pacification-mark",
+        "kind": "trinket",
+        "names": {
+          "zh": "平罪符",
+          "en": "Pacification Mark"
+        }
+      }
+    ],
+    "Spwq::FullCompletion": [
+      {
+        "slug": "air-flight",
+        "kind": "collectible",
+        "names": {
+          "zh": "空行零号·试作型",
+          "en": "AF-00 Prototype"
+        }
+      },
+      {
+        "slug": "air-terror",
+        "kind": "collectible",
+        "names": {
+          "zh": "飞行界域者",
+          "en": "Air Terror"
+        }
+      },
+      {
+        "slug": "blue-print",
+        "kind": "collectible",
+        "names": {
+          "zh": "蓝图",
+          "en": "Blueprint"
+        }
+      }
+    ],
+    "Marriano::Isaac": [
+      {
+        "slug": "d-plus",
+        "kind": "collectible",
+        "names": {
+          "zh": "D++",
+          "en": "D++"
+        }
+      }
+    ],
+    "Lu::Lamb": [
+      {
+        "slug": "world-arc",
+        "kind": "collectible",
+        "names": {
+          "zh": "世界弧",
+          "en": "World Arc"
+        }
+      }
+    ],
+    "Lu::Satan": [
+      {
+        "slug": "tears-of-pearl",
+        "kind": "collectible",
+        "names": {
+          "zh": "鱼人之泪",
+          "en": "Tears of Pearl"
+        }
+      }
+    ],
+    "annA::Lamb": [
+      {
+        "slug": "drama-of-sorrow-and-joy",
+        "kind": "collectible",
+        "names": {
+          "zh": "悲欢之凶剧",
+          "en": "Drama of sorrow and joy"
+        }
+      }
+    ],
+    "Autio::Lamb": [
+      {
+        "slug": "shadow-bottle",
+        "kind": "collectible",
+        "names": {
+          "zh": "瓶中阴影",
+          "en": "Shadow Bottle"
+        }
+      }
+    ],
+    "Autio::Delirium": [
+      {
+        "slug": "procrastination",
+        "kind": "collectible",
+        "names": {
+          "zh": "拖延症",
+          "en": "Procrastination"
+        }
+      }
+    ],
+    "Zeiz::Mother": [
+      {
+        "slug": "loneliness",
+        "kind": "collectible",
+        "names": {
+          "zh": "孤独",
+          "en": "Loneliness"
+        }
+      }
+    ],
+    "Autio::BossRush": [
+      {
+        "slug": "phantom-crown",
+        "kind": "collectible",
+        "names": {
+          "zh": "幻像冠冕",
+          "en": "Phantom Crown"
+        }
+      }
+    ],
+    "Lu::Mother": [
+      {
+        "slug": "hunger-burger",
+        "kind": "collectible",
+        "names": {
+          "zh": "饿魔汉堡",
+          "en": "Hunger Burger"
+        }
+      }
+    ],
+    "Zeiz::Beast": [
+      {
+        "slug": "pareidolia",
+        "kind": "collectible",
+        "names": {
+          "zh": "妖心·盈月",
+          "en": "Pareidolia"
+        }
+      }
+    ],
+    "Autio::Mother": [
+      {
+        "slug": "wavering-eyes",
+        "kind": "collectible",
+        "names": {
+          "zh": "摇摆之眼",
+          "en": "Wavering Eyes"
+        }
+      }
+    ],
+    "Zeiz::BlueBaby": [
+      {
+        "slug": "gospel",
+        "kind": "collectible",
+        "names": {
+          "zh": "福音",
+          "en": "Gospel"
+        }
+      }
+    ],
+    "Lu::BlueBaby": [
+      {
+        "slug": "cursed-mask",
+        "kind": "collectible",
+        "names": {
+          "zh": "诅咒面具",
+          "en": "Cursed Mask"
+        }
+      }
+    ],
+    "Tecro::custom_col_1784816386034": [
+      {
+        "slug": "puncture-symbol",
+        "kind": "trinket",
+        "names": {
+          "zh": "穿刺符号",
+          "en": "Puncture Symbol"
+        }
+      }
+    ],
+    "Tecro::Tainted": [
+      {
+        "slug": "tecrorun",
+        "kind": "character",
+        "names": {
+          "zh": "泰克罗罗恩",
+          "en": "Tecrorun"
+        }
+      }
+    ],
+    "Anna::BlueBaby": [
+      {
+        "slug": "devils-heart",
+        "kind": "collectible",
+        "names": {
+          "zh": "恶魔的心智",
+          "en": "Devil's Heart"
+        }
+      }
+    ],
+    "Anna::Mother": [
+      {
+        "slug": "cable-jar",
+        "kind": "collectible",
+        "names": {
+          "zh": "罐中雷暴",
+          "en": "Cable Jar"
+        }
+      }
+    ],
+    "Anna::custom_col_1784816386034": [
+      {
+        "slug": "hoarding-symbol",
+        "kind": "trinket",
+        "names": {
+          "zh": "囤积符号",
+          "en": "Hoarding Symbol"
+        }
+      }
+    ],
+    "Anna::Tainted": [
+      {
+        "slug": "anna-tainted",
+        "kind": "character",
+        "names": {
+          "zh": "安奈",
+          "en": "Anna"
+        }
+      }
+    ],
+    "annA::Beast": [
+      {
+        "slug": "little-duck",
+        "kind": "collectible",
+        "names": {
+          "zh": "小黄鸭",
+          "en": "Little Duck"
+        }
+      }
+    ],
+    "Zeis::custom_col_1784816386034": [
+      {
+        "slug": "transition-symbol",
+        "kind": "trinket",
+        "names": {
+          "zh": "迁跃符号",
+          "en": "Transition Symbol"
+        }
+      }
+    ],
+    "Zeis::Tainted": [
+      {
+        "slug": "zeiz",
+        "kind": "character",
+        "names": {
+          "zh": "泽伊兹",
+          "en": "Zeiz"
+        }
+      }
+    ],
+    "Marriano::custom_col_1784816386034": [
+      {
+        "slug": "adhesive-symbol",
+        "kind": "trinket",
+        "names": {
+          "zh": "粘合符号",
+          "en": "Adhesive Symbol"
+        }
+      }
+    ],
+    "Autio::Beast": [
+      {
+        "slug": "regenesis",
+        "kind": "collectible",
+        "names": {
+          "zh": "再世纪",
+          "en": "Regenesis"
+        }
+      }
+    ],
+    "Autio::custom_col_1784816386034": [
+      {
+        "slug": "straining-symbol",
+        "kind": "trinket",
+        "names": {
+          "zh": "下坠符号",
+          "en": "Straining Symbol"
+        }
+      }
+    ],
+    "Lu::Beast": [
+      {
+        "slug": "cup-cat",
+        "kind": "collectible",
+        "names": {
+          "zh": "杯糕猫",
+          "en": "Cup Cat"
+        }
+      }
+    ],
+    "Lu::custom_col_1784816386034": [
+      {
+        "slug": "allocation-symbol",
+        "kind": "trinket",
+        "names": {
+          "zh": "配给符号",
+          "en": "Allocation Symbol"
+        }
+      }
+    ],
+    "Boss::Isaac::GlazeHard": [
+      {
+        "slug": "paranoia",
+        "kind": "collectible",
+        "names": {
+          "zh": "妄想症",
+          "en": "Paranoia"
+        }
+      }
+    ],
+    "Boss::BlueBaby::GlazeHard": [
+      {
+        "slug": "destiny-anchor",
+        "kind": "collectible",
+        "names": {
+          "zh": "命运锚点",
+          "en": "Destiny Anchor"
+        }
+      }
+    ],
+    "Boss::Eden::GlazeHard": [
+      {
+        "slug": "mental-disorder",
+        "kind": "collectible",
+        "names": {
+          "zh": "精神失序",
+          "en": "Mental Disorder"
+        }
+      }
+    ],
+    "Boss::Keeper::GlazeNormal": [
+      {
+        "slug": "glaze-coin",
+        "kind": "pickup",
+        "names": {
+          "zh": "琉璃硬币",
+          "en": "Glaze Coin"
+        }
+      }
+    ],
+    "SpecialUnlock::Crushed": [
+      {
+        "slug": "round-trip-rail-ticket",
+        "kind": "card",
+        "names": {
+          "zh": "双行火车票",
+          "en": "Round trip Rail Ticket"
+        }
+      }
+    ],
+    "SpecialUnlock::DefeatZennith": [
+      {
+        "slug": "aphasia",
+        "kind": "collectible",
+        "names": {
+          "zh": "失语症",
+          "en": "Aphasia"
+        }
+      }
+    ],
+    "Boss::Isaac::custom_col_1785574945065": [
+      {
+        "slug": "0-the-fool",
+        "kind": "card",
+        "names": {
+          "zh": "0 - 旅者",
+          "en": "0 - The Fool"
+        }
+      }
+    ],
+    "Boss::Eve::custom_col_1785574945065": [
+      {
+        "slug": "i-the-witch",
+        "kind": "card",
+        "names": {
+          "zh": "I - 魔女",
+          "en": "I - The Witch"
+        }
+      },
+      {
+        "slug": "i-the-invoker",
+        "kind": "card",
+        "names": {
+          "zh": "I - 魔启",
+          "en": "I - The Invoker"
+        }
+      },
+      {
+        "slug": "i-the-wizard",
+        "kind": "card",
+        "names": {
+          "zh": "I - 魔导",
+          "en": "I - The Wizard"
+        }
+      }
+    ],
+    "Boss::Magdalene::custom_col_1785574945065": [
+      {
+        "slug": "vi-lover",
+        "kind": "card",
+        "names": {
+          "zh": "VI - 爱",
+          "en": "VI - Lover"
+        }
+      }
+    ],
+    "Boss::Isaac_B::custom_col_1785574945065": [
+      {
+        "slug": "0-the-fool-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "0 - 旅者?",
+          "en": "0 - The Fool?"
+        }
+      }
+    ],
+    "Boss::Lilith::custom_col_1785574945065": [
+      {
+        "slug": "iii-the-empress",
+        "kind": "card",
+        "names": {
+          "zh": "III - 女帝",
+          "en": "III - The Empress"
+        }
+      }
+    ],
+    "Boss::Bethany::custom_col_1785574945065": [
+      {
+        "slug": "ii-the-high-priestess",
+        "kind": "card",
+        "names": {
+          "zh": "II - 女司祭",
+          "en": "II - The High Priestess"
+        }
+      }
+    ],
+    "Boss::Judas::custom_col_1785574945065": [
+      {
+        "slug": "iv-the-emperor",
+        "kind": "card",
+        "names": {
+          "zh": "IV - 帝王",
+          "en": "IV - The Emperor"
+        }
+      },
+      {
+        "slug": "xiv-art-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XIV - 艺术?",
+          "en": "XIV - Art?"
+        }
+      }
+    ],
+    "Boss::Cain::custom_col_1785574945065": [
+      {
+        "slug": "v-the-hierophant",
+        "kind": "card",
+        "names": {
+          "zh": "V - 教导",
+          "en": "V - The Hierophant"
+        }
+      },
+      {
+        "slug": "viii-adjustment",
+        "kind": "card",
+        "names": {
+          "zh": "VIII - 调节",
+          "en": "VIII - Adjustment"
+        }
+      }
+    ],
+    "Boss::BlueBaby::custom_col_1785574945065": [
+      {
+        "slug": "xiii-faint",
+        "kind": "card",
+        "names": {
+          "zh": "XIII - 长眠",
+          "en": "XIII - Faint"
+        }
+      }
+    ],
+    "Boss::Eve_B::custom_col_1785574945065": [
+      {
+        "slug": "i-the-sage-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "I - 贤者?",
+          "en": "I - The Sage?"
+        }
+      }
+    ],
+    "Boss::Judas_B::custom_col_1785574945065": [
+      {
+        "slug": "xiv-art",
+        "kind": "card",
+        "names": {
+          "zh": "XIV - 艺术",
+          "en": "XIV - Art"
+        }
+      },
+      {
+        "slug": "iv-the-emperor-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "IV - 帝王?",
+          "en": "IV - The Emperor?"
+        }
+      }
+    ],
+    "Boss::Azazel_B::custom_col_1785574945065": [
+      {
+        "slug": "xv-the-devil-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XV - 邪心?",
+          "en": "XV - The Devil?"
+        }
+      }
+    ],
+    "Boss::Azazel::custom_col_1785574945065": [
+      {
+        "slug": "xv-the-devil",
+        "kind": "card",
+        "names": {
+          "zh": "XV - 邪心",
+          "en": "XV - The Devil"
+        }
+      }
+    ],
+    "Boss::Samson::custom_col_1785574945065": [
+      {
+        "slug": "vii-chariot",
+        "kind": "card",
+        "names": {
+          "zh": "VII - 巨炮",
+          "en": "VII - Chariot"
+        }
+      },
+      {
+        "slug": "xi-lure",
+        "kind": "card",
+        "names": {
+          "zh": "XI - 欲望",
+          "en": "XI - Lure"
+        }
+      }
+    ],
+    "Boss::Samson_B::custom_col_1785574945065": [
+      {
+        "slug": "vii-the-chariot-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "VII - 巨像?",
+          "en": "VII - The Chariot?"
+        }
+      },
+      {
+        "slug": "xi-lure-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XI - 欲望?",
+          "en": "XI - Lure?"
+        }
+      }
+    ],
+    "Boss::Magdalene_B::custom_col_1785574945065": [
+      {
+        "slug": "vi-the-lover-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "VI - 爱?",
+          "en": "VI - The Lover?"
+        }
+      }
+    ],
+    "Boss::Apollyon::custom_col_1785574945065": [
+      {
+        "slug": "xxi-the-universe",
+        "kind": "card",
+        "names": {
+          "zh": "XXI - 宇宙",
+          "en": "XXI - The Universe"
+        }
+      }
+    ],
+    "Boss::Keeper::custom_col_1785574945065": [
+      {
+        "slug": "ix-the-hermit",
+        "kind": "card",
+        "names": {
+          "zh": "IX - 隐者",
+          "en": "IX - The Hermit"
+        }
+      }
+    ],
+    "Boss::Forgotten::custom_col_1785574945065": [
+      {
+        "slug": "xvii-the-star",
+        "kind": "card",
+        "names": {
+          "zh": "XVII - 星坠",
+          "en": "XVII - The Star"
+        }
+      },
+      {
+        "slug": "xviii-the-moon",
+        "kind": "card",
+        "names": {
+          "zh": "XVIII - 太阴",
+          "en": "XVIII - The Moon"
+        }
+      },
+      {
+        "slug": "xix-the-sun",
+        "kind": "card",
+        "names": {
+          "zh": "XIX - 太阳",
+          "en": "XIX - The Sun"
+        }
+      }
+    ],
+    "Boss::Lost::custom_col_1785574945065": [
+      {
+        "slug": "xii-the-hanged-man",
+        "kind": "card",
+        "names": {
+          "zh": "XII - 缚者",
+          "en": "XII - The Hanged Man"
+        }
+      }
+    ],
+    "Boss::Eden::custom_col_1785574945065": [
+      {
+        "slug": "xx-the-aeon",
+        "kind": "card",
+        "names": {
+          "zh": "XX - 永恒",
+          "en": "XX - The Aeon"
+        }
+      }
+    ],
+    "Boss::Lazarus::custom_col_1785574945065": [
+      {
+        "slug": "xvi-the-tower",
+        "kind": "card",
+        "names": {
+          "zh": "XVI - 尖塔",
+          "en": "XVI - The Tower"
+        }
+      }
+    ],
+    "Boss::JacobEsau::custom_col_1785574945065": [
+      {
+        "slug": "x-the-wheel-of-destiny",
+        "kind": "card",
+        "names": {
+          "zh": "X - 命运",
+          "en": "X - The Wheel of Destiny"
+        }
+      }
+    ],
+    "Boss::Cain_B::custom_col_1785574945065": [
+      {
+        "slug": "v-the-hierophant-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "V - 教导?",
+          "en": "V - The Hierophant?"
+        }
+      },
+      {
+        "slug": "viii-adjustment-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "VIII - 调节?",
+          "en": "VIII - Adjustment?"
+        }
+      }
+    ],
+    "Boss::BlueBaby_B::custom_col_1785574945065": [
+      {
+        "slug": "xiii-faint-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XIII - 长眠?",
+          "en": "XIII - Faint?"
+        }
+      },
+      {
+        "slug": "xiii-death-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XIII - 死神?",
+          "en": "XIII - Death?"
+        }
+      },
+      {
+        "slug": "xiii-the-corpse-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XIII - 尸首?",
+          "en": "XIII - The Corpse?"
+        }
+      }
+    ],
+    "Boss::Lazarus_B::custom_col_1785574945065": [
+      {
+        "slug": "xvi-the-tower-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XVI - 尖塔?",
+          "en": "XVI - The Tower?"
+        }
+      }
+    ],
+    "Boss::Eden_B::custom_col_1785574945065": [
+      {
+        "slug": "xx-the-aeon-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XX - 永恒?",
+          "en": "XX - The Aeon?"
+        }
+      }
+    ],
+    "Boss::Lost_B::custom_col_1785574945065": [
+      {
+        "slug": "xii-the-hanged-man-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XII - 缚者?",
+          "en": "XII - The Hanged Man?"
+        }
+      }
+    ],
+    "Boss::Keeper_B::custom_col_1785574945065": [
+      {
+        "slug": "ix-the-hermit-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "IX - 隐者?",
+          "en": "IX - The Hermit?"
+        }
+      }
+    ],
+    "Boss::Apollyon_B::custom_col_1785574945065": [
+      {
+        "slug": "xxi-the-universe-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XXI - 宇宙?",
+          "en": "XXI - The Universe?"
+        }
+      }
+    ],
+    "Boss::Forgotten_B::custom_col_1785574945065": [
+      {
+        "slug": "xvii-the-stars-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XVII - 星辰?",
+          "en": "XVII - The Stars?"
+        }
+      },
+      {
+        "slug": "xviii-the-moon-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XVIII - A?",
+          "en": "XVIII - A?"
+        }
+      },
+      {
+        "slug": "xix-the-sun-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XIX - 太阳?",
+          "en": "XIX - The Sun?"
+        }
+      }
+    ],
+    "Boss::Bethany_B::custom_col_1785574945065": [
+      {
+        "slug": "ii-the-high-priestess-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "II - 女司祭?",
+          "en": "II - The High Priestess?"
+        }
+      }
+    ],
+    "Boss::Lilith_B::custom_col_1785574945065": [
+      {
+        "slug": "iii-the-empress-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "III - 女帝?",
+          "en": "III - The Empress?"
+        }
+      }
+    ],
+    "Boss::Jacob_B::custom_col_1785574945065": [
+      {
+        "slug": "x-the-wheel-of-destiny-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "X - 命运?",
+          "en": "X - The Wheel of Destiny?"
+        }
+      }
+    ],
+    "custom_row_1785848579295::BlueBaby": [
+      {
+        "slug": "bloody-map",
+        "kind": "collectible",
+        "names": {
+          "zh": "红地图",
+          "en": "Bloody Map"
+        }
+      }
+    ],
+    "custom_row_1785848579295::MegaSatan": [
+      {
+        "slug": "blood-wing",
+        "kind": "collectible",
+        "names": {
+          "zh": "血翼",
+          "en": "Blood Wing"
+        }
+      }
+    ],
+    "custom_row_1785848579295::GreedMode": [
+      {
+        "slug": "golden-slot",
+        "kind": "collectible",
+        "names": {
+          "zh": "黄金抽奖机",
+          "en": "Golden Slot"
+        }
+      }
+    ],
+    "SpecialUnlock::custom_event_1786539528390": [
+      {
+        "slug": "broken-brooch",
+        "kind": "trinket",
+        "names": {
+          "zh": "破碎的胸针",
+          "en": "Broken Brooch"
+        }
+      }
+    ],
+    "SpecialUnlock::custom_event_1786539547154": [
+      {
+        "slug": "devils-joke",
+        "kind": "trinket",
+        "names": {
+          "zh": "恶魔的把戏",
+          "en": "Devil's Joke"
+        }
+      }
+    ],
+    "SpecialUnlock::Cookie_Clicker": [
+      {
+        "slug": "pause",
+        "kind": "trinket",
+        "names": {
+          "zh": "暂停？",
+          "en": "Pause？"
+        }
+      }
+    ],
+    "SpecialUnlock::Fans_Service": [
+      {
+        "slug": "fraternity",
+        "kind": "collectible",
+        "names": {
+          "zh": "博爱",
+          "en": "Fraternity"
+        }
+      }
+    ],
+    "SpecialUnlock::Feels_Like_Dead_Ashes": [
+      {
+        "slug": "ember",
+        "kind": "collectible",
+        "names": {
+          "zh": "余烬",
+          "en": "Ember"
+        }
+      }
+    ],
+    "SpecialUnlock::Louvre_puzzle": [
+      {
+        "slug": "torn-moon",
+        "kind": "trinket",
+        "names": {
+          "zh": "塔罗牌残片？",
+          "en": "Torn Moon？"
+        }
+      }
+    ],
+    "SpecialUnlock::Safe_Driving": [
+      {
+        "slug": "hyper-velocity",
+        "kind": "collectible",
+        "names": {
+          "zh": "和谐号",
+          "en": "Hyper Velocity"
+        }
+      }
+    ],
+    "SpecialUnlock::Swallow_The_Sun": [
+      {
+        "slug": "dark-particle",
+        "kind": "trinket",
+        "names": {
+          "zh": "黑暗脆块",
+          "en": "Dark Particle"
+        }
+      }
+    ],
+    "SpecialUnlock::Unstable_State": [
+      {
+        "slug": "d-nan",
+        "kind": "collectible",
+        "names": {
+          "zh": "非数骰子",
+          "en": "D NAN"
+        }
+      }
+    ],
+    "SpecialUnlock::custom_event_1787476895318": [
+      {
+        "slug": "book-of-thoth",
+        "kind": "collectible",
+        "names": {
+          "zh": "透特之书",
+          "en": "Book of Thoth"
+        }
+      },
+      {
+        "slug": "torn-emperor",
+        "kind": "trinket",
+        "names": {
+          "zh": "透特卡残片",
+          "en": "Torn Emperor"
+        }
+      }
+    ]
+  },
   "atlas": {
     "webp": "/generated/images/icon-atlas.webp",
     "png": "/generated/images/icon-atlas.png",
@@ -49,7 +2050,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用泰克罗完成超级撒旦",
+          "en": "Complete MegaSatan as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -161,7 +2171,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用小青完成羔羊",
+          "en": "Complete Lamb as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -273,7 +2292,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Tainted",
+        "text": {
+          "zh": "使用小青完成里角色/特殊",
+          "en": "Complete Tainted as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -403,7 +2431,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用青完成撒旦",
+          "en": "Complete Satan as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -509,7 +2546,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用小青完成Boss Rush",
+          "en": "Complete BossRush as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -622,7 +2668,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Delirium",
+        "text": {
+          "zh": "使用小青完成精神错乱",
+          "en": "Complete Delirium as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -734,7 +2789,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用小青完成贪婪模式",
+          "en": "Complete GreedMode as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -858,7 +2922,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "FullCompletion",
+        "text": {
+          "zh": "使用青完成全标记",
+          "en": "Complete FullCompletion as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -988,7 +3061,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用青完成???",
+          "en": "Complete BlueBaby as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -1106,7 +3188,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用小青完成究极贪婪",
+          "en": "Complete Greedier as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -1211,7 +3302,16 @@
           "removeOn": 0.05
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Delirium",
+        "text": {
+          "zh": "使用青完成精神错乱",
+          "en": "Complete Delirium as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -1329,7 +3429,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用青完成祸兽",
+          "en": "Complete Beast as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -1446,7 +3555,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用小青完成撒旦",
+          "en": "Complete Satan as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -1564,7 +3682,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用青完成超级撒旦",
+          "en": "Complete MegaSatan as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -2251,7 +4378,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用小青完成母亲",
+          "en": "Complete Mother as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -2363,7 +4499,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用青完成超级撒旦",
+          "en": "Complete MegaSatan as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -2475,7 +4620,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用安奈完成祸兽",
+          "en": "Complete Beast as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -2598,7 +4752,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用小青完成死寂",
+          "en": "Complete Hush as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -2716,7 +4879,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "FullCompletion",
+        "text": {
+          "zh": "使用青完成全标记",
+          "en": "Complete FullCompletion as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -2835,7 +5007,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "custom_col_1784813595360",
+        "text": {
+          "zh": "使用小青完成琉璃王子（结局2）",
+          "en": "Complete custom_col_1784813595360 as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -2947,7 +5128,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用小青完成以撒",
+          "en": "Complete Isaac as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -3214,7 +5404,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "custom_col_1784813595360",
+        "text": {
+          "zh": "使用泽伊兹完成琉璃王子（结局2）",
+          "en": "Complete custom_col_1784813595360 as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -3439,7 +5638,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用Marriano完成Boss Rush",
+          "en": "Complete BossRush as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -3557,7 +5765,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用泰克罗罗恩完成羔羊",
+          "en": "Complete Lamb as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -3656,7 +5873,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用Marriano完成撒旦",
+          "en": "Complete Satan as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -3861,7 +6087,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用青完成贪婪模式",
+          "en": "Complete GreedMode as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -3985,7 +6220,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Tainted",
+        "text": {
+          "zh": "使用小青完成里角色/特殊",
+          "en": "Complete Tainted as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4091,7 +6335,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用泰克罗罗恩完成撒旦",
+          "en": "Complete Satan as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4208,7 +6461,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用泰克罗完成Boss Rush",
+          "en": "Complete BossRush as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4332,7 +6594,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用安娜完成???",
+          "en": "Complete BlueBaby as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4432,7 +6703,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用泽伊兹完成羔羊",
+          "en": "Complete Lamb as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4550,7 +6830,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用安娜完成Boss Rush",
+          "en": "Complete BossRush as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4661,7 +6950,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Safe_Driving",
+        "text": {
+          "zh": "挑战：安全驾驶",
+          "en": "Safe Driving"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4773,7 +7071,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用Autio完成母亲",
+          "en": "Complete Mother as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4874,7 +7181,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "custom_col_1784813595360",
+        "text": {
+          "zh": "使用安娜完成琉璃王子（结局2）",
+          "en": "Complete custom_col_1784813595360 as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4993,7 +7309,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "custom_event_1787476895318",
+        "text": {
+          "zh": "击败阿莱斯特",
+          "en": "custom event 1787476895318"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5129,7 +7454,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用安娜完成以撒",
+          "en": "Complete Isaac as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5253,7 +7587,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用泽伊斯托斯完成以撒",
+          "en": "Complete Isaac as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5377,7 +7720,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用泽伊兹完成以撒",
+          "en": "Complete Isaac as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5489,7 +7841,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "DefeatZennith",
+        "text": {
+          "zh": "击败zennith",
+          "en": "DefeatZennith"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5631,7 +7992,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用泽伊斯托斯完成超级撒旦",
+          "en": "Complete MegaSatan as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5761,7 +8131,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用泽伊斯托斯完成死寂",
+          "en": "Complete Hush as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5867,7 +8246,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用泽伊兹完成贪婪模式",
+          "en": "Complete GreedMode as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5973,7 +8361,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用泽伊兹完成贪婪模式",
+          "en": "Complete GreedMode as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6079,7 +8476,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用泽伊兹完成贪婪模式",
+          "en": "Complete GreedMode as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6179,7 +8585,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用安奈完成Boss Rush",
+          "en": "Complete BossRush as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6290,7 +8705,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用安奈完成Boss Rush",
+          "en": "Complete BossRush as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6414,7 +8838,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用泰克罗罗恩完成母亲",
+          "en": "Complete Mother as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6538,7 +8971,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用泰克罗罗恩完成???",
+          "en": "Complete BlueBaby as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6649,7 +9091,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用青完成羔羊",
+          "en": "Complete Lamb as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6767,7 +9218,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用泽伊兹完成撒旦",
+          "en": "Complete Satan as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6885,7 +9345,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用安娜完成母亲",
+          "en": "Complete Mother as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7009,7 +9478,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用泽伊兹完成???",
+          "en": "Complete BlueBaby as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7145,7 +9623,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用泰克罗完成母亲",
+          "en": "Complete Mother as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7269,7 +9756,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用青完成母亲",
+          "en": "Complete Mother as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7393,7 +9889,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用安奈完成羔羊",
+          "en": "Complete Lamb as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7522,7 +10027,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用泽伊斯托斯完成超级撒旦",
+          "en": "Complete MegaSatan as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7652,7 +10166,16 @@
           "removeOn": 0.05
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用泽伊兹完成祸兽",
+          "en": "Complete Beast as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7879,7 +10402,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用Lu完成撒旦",
+          "en": "Complete Satan as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -7978,7 +10510,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Unstable_State",
+        "text": {
+          "zh": "挑战：不稳定体",
+          "en": "Unstable State"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8108,7 +10649,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用泰克罗完成???",
+          "en": "Complete BlueBaby as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8226,7 +10776,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用小青完成超级撒旦",
+          "en": "Complete MegaSatan as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8338,7 +10897,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用安奈完成死寂",
+          "en": "Complete Hush as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8462,7 +11030,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用Autio完成羔羊",
+          "en": "Complete Lamb as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8573,7 +11150,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用泽伊斯托斯完成???",
+          "en": "Complete BlueBaby as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8684,7 +11270,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "FullCompletion",
+        "text": {
+          "zh": "使用青完成全标记",
+          "en": "Complete FullCompletion as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8810,7 +11405,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Delirium",
+        "text": {
+          "zh": "使用泽伊斯托斯完成精神错乱",
+          "en": "Complete Delirium as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -8940,7 +11544,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用小青完成祸兽",
+          "en": "Complete Beast as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -9070,7 +11683,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用泰克罗罗恩完成以撒",
+          "en": "Complete Isaac as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -9188,7 +11810,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用青完成Boss Rush",
+          "en": "Complete BossRush as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -9313,7 +11944,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "Delirium",
+        "text": {
+          "zh": "使用Marriano完成精神错乱",
+          "en": "Complete Delirium as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -9450,7 +12090,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用Marriano完成死寂",
+          "en": "Complete Hush as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -9687,7 +12336,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用青完成死寂",
+          "en": "Complete Hush as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -9797,7 +12455,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用泰克罗罗恩完成贪婪模式",
+          "en": "Complete GreedMode as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -9903,7 +12570,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Fans_Service",
+        "text": {
+          "zh": "挑战：粉丝服务",
+          "en": "Fans Service"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10020,7 +12696,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用泽伊斯托斯完成Boss Rush",
+          "en": "Complete BossRush as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10126,7 +12811,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用安奈完成超级撒旦",
+          "en": "Complete MegaSatan as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10250,7 +12944,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用Lu完成羔羊",
+          "en": "Complete Lamb as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10373,7 +13076,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用泰克罗完成祸兽",
+          "en": "Complete Beast as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10485,7 +13197,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用泰克罗完成以撒",
+          "en": "Complete Isaac as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10609,7 +13330,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用安娜完成超级撒旦",
+          "en": "Complete MegaSatan as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10826,7 +13556,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用泰克罗罗恩完成死寂",
+          "en": "Complete Hush as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -10932,7 +13671,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用泽伊兹完成死寂",
+          "en": "Complete Hush as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11058,7 +13806,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用Autio完成死寂",
+          "en": "Complete Hush as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11190,7 +13947,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用Lu完成以撒",
+          "en": "Complete Isaac as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11307,7 +14073,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用Marriano完成???",
+          "en": "Complete BlueBaby as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11430,7 +14205,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用Autio完成???",
+          "en": "Complete BlueBaby as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11529,7 +14313,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用Marriano完成羔羊",
+          "en": "Complete Lamb as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11658,7 +14451,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用Marriano完成羔羊",
+          "en": "Complete Lamb as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11782,7 +14584,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "custom_col_1784813595360",
+        "text": {
+          "zh": "使用泰克罗罗恩完成琉璃王子（结局2）",
+          "en": "Complete custom_col_1784813595360 as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -11911,7 +14722,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Eden::GlazeHard",
+        "text": {
+          "zh": "使用Boss完成Eden::GlazeHard",
+          "en": "Complete Eden::GlazeHard as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12035,7 +14855,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Isaac::GlazeHard",
+        "text": {
+          "zh": "使用Boss完成Isaac::GlazeHard",
+          "en": "Complete Isaac::GlazeHard as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12172,7 +15001,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用Lu完成???",
+          "en": "Complete BlueBaby as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12271,7 +15109,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用泰克罗完成羔羊",
+          "en": "Complete Lamb as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12419,7 +15266,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用泽伊斯托斯完成羔羊",
+          "en": "Complete Lamb as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12548,7 +15404,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用Autio完成Boss Rush",
+          "en": "Complete BossRush as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12673,7 +15538,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "custom_row_1785848579295",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用Noia完成超级撒旦",
+          "en": "Complete MegaSatan as Noia"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12797,7 +15671,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用泰克罗罗恩完成Boss Rush",
+          "en": "Complete BossRush as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12896,7 +15779,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用Marriano完成以撒",
+          "en": "Complete Isaac as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13015,7 +15907,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用安奈完成???",
+          "en": "Complete BlueBaby as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13114,7 +16015,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "BlueBaby::GlazeHard",
+        "text": {
+          "zh": "使用Boss完成BlueBaby::GlazeHard",
+          "en": "Complete BlueBaby::GlazeHard as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13232,7 +16142,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "Delirium",
+        "text": {
+          "zh": "使用泰克罗完成精神错乱",
+          "en": "Complete Delirium as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13356,7 +16275,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用泽伊兹完成母亲",
+          "en": "Complete Mother as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13491,7 +16419,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用安娜完成羔羊",
+          "en": "Complete Lamb as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13733,7 +16670,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用Lu完成母亲",
+          "en": "Complete Mother as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13845,7 +16791,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "BossRush",
+        "text": {
+          "zh": "使用泽伊兹完成Boss Rush",
+          "en": "Complete BossRush as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13944,7 +16899,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Lamb",
+        "text": {
+          "zh": "使用青完成羔羊",
+          "en": "Complete Lamb as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14050,7 +17014,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "MomsHeart",
+        "text": {
+          "zh": "使用泰克罗罗恩完成妈妈的心",
+          "en": "Complete MomsHeart as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14162,7 +17135,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "MomsHeart",
+        "text": {
+          "zh": "使用安奈完成妈妈的心",
+          "en": "Complete MomsHeart as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14268,7 +17250,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "MomsHeart",
+        "text": {
+          "zh": "使用泽伊兹完成妈妈的心",
+          "en": "Complete MomsHeart as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14374,7 +17365,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "MomsHeart",
+        "text": {
+          "zh": "使用Marriano完成妈妈的心",
+          "en": "Complete MomsHeart as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14480,7 +17480,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "MomsHeart",
+        "text": {
+          "zh": "使用Autio完成妈妈的心",
+          "en": "Complete MomsHeart as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14587,7 +17596,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "MomsHeart",
+        "text": {
+          "zh": "使用Lu完成妈妈的心",
+          "en": "Complete MomsHeart as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14692,7 +17710,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用小青完成???",
+          "en": "Complete BlueBaby as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14809,7 +17836,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用Autio完成撒旦",
+          "en": "Complete Satan as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -14920,7 +17956,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用安娜完成贪婪模式",
+          "en": "Complete GreedMode as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15025,7 +18070,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用泽伊斯托斯完成撒旦",
+          "en": "Complete Satan as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15134,7 +18188,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用青完成以撒",
+          "en": "Complete Isaac as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15239,7 +18302,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "custom_row_1785848579295",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用Noia完成???",
+          "en": "Complete BlueBaby as Noia"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15350,7 +18422,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "custom_row_1785848579295",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用Noia完成贪婪模式",
+          "en": "Complete GreedMode as Noia"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15461,7 +18542,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "Delirium",
+        "text": {
+          "zh": "使用Autio完成精神错乱",
+          "en": "Complete Delirium as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15561,7 +18651,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用Marriano完成母亲",
+          "en": "Complete Mother as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15766,7 +18865,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用Lu完成祸兽",
+          "en": "Complete Beast as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -15884,7 +18992,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用Autio完成以撒",
+          "en": "Complete Isaac as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16001,7 +19118,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用Autio完成祸兽",
+          "en": "Complete Beast as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16119,7 +19245,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Feels_Like_Dead_Ashes",
+        "text": {
+          "zh": "挑战：心如死灰",
+          "en": "Feels Like Dead Ashes"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16209,7 +19344,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用泽伊斯托斯完成贪婪模式",
+          "en": "Complete GreedMode as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16299,7 +19443,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Swallow_The_Sun",
+        "text": {
+          "zh": "挑战：食日",
+          "en": "Swallow The Sun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16389,7 +19542,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "custom_event_1787476895318",
+        "text": {
+          "zh": "击败阿莱斯特",
+          "en": "custom event 1787476895318"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16479,7 +19641,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "custom_event_1786539547154",
+        "text": {
+          "zh": "进入恶魔房后，在3秒内退出",
+          "en": "custom event 1786539547154"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16569,7 +19740,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Louvre_puzzle",
+        "text": {
+          "zh": "挑战：卢浮宫难题",
+          "en": "Louvre puzzle"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16659,7 +19839,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "custom_col_1784816386034",
+        "text": {
+          "zh": "使用泰克罗完成六使徒（结局3）",
+          "en": "Complete custom_col_1784816386034 as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16749,7 +19938,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "custom_col_1784816386034",
+        "text": {
+          "zh": "使用安娜完成六使徒（结局3）",
+          "en": "Complete custom_col_1784816386034 as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16839,7 +20037,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "custom_col_1784816386034",
+        "text": {
+          "zh": "使用泽伊斯托斯完成六使徒（结局3）",
+          "en": "Complete custom_col_1784816386034 as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16929,7 +20136,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "custom_col_1784816386034",
+        "text": {
+          "zh": "使用Marriano完成六使徒（结局3）",
+          "en": "Complete custom_col_1784816386034 as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17019,7 +20235,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "custom_col_1784816386034",
+        "text": {
+          "zh": "使用Autio完成六使徒（结局3）",
+          "en": "Complete custom_col_1784816386034 as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17109,7 +20334,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "custom_col_1784816386034",
+        "text": {
+          "zh": "使用Lu完成六使徒（结局3）",
+          "en": "Complete custom_col_1784816386034 as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17199,7 +20433,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Cookie_Clicker",
+        "text": {
+          "zh": "挑战：曲奇点击者",
+          "en": "Cookie Clicker"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17289,7 +20532,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Autio",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用Autio完成贪婪模式",
+          "en": "Complete GreedMode as Autio"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17379,7 +20631,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Marriano",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用Marriano完成贪婪模式",
+          "en": "Complete GreedMode as Marriano"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17469,7 +20730,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用Lu完成贪婪模式",
+          "en": "Complete GreedMode as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17559,7 +20829,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "custom_event_1786539528390",
+        "text": {
+          "zh": "用尽恶魔胸针",
+          "en": "custom event 1786539528390"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17739,7 +21018,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用青完成死寂",
+          "en": "Complete Hush as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17829,7 +21117,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Crushed",
+        "text": {
+          "zh": "被碾碎",
+          "en": "Crushed"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -17919,7 +21216,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Isaac::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Isaac::custom_col_1785574945065",
+          "en": "Complete Isaac::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18009,7 +21315,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Eve::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Eve::custom_col_1785574945065",
+          "en": "Complete Eve::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18099,7 +21414,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Eve::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Eve::custom_col_1785574945065",
+          "en": "Complete Eve::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18189,7 +21513,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Eve::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Eve::custom_col_1785574945065",
+          "en": "Complete Eve::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18279,7 +21612,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Bethany::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Bethany::custom_col_1785574945065",
+          "en": "Complete Bethany::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18369,7 +21711,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Lilith::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Lilith::custom_col_1785574945065",
+          "en": "Complete Lilith::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18459,7 +21810,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Judas::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Judas::custom_col_1785574945065",
+          "en": "Complete Judas::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18549,7 +21909,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Cain::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Cain::custom_col_1785574945065",
+          "en": "Complete Cain::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18639,7 +22008,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Magdalene::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Magdalene::custom_col_1785574945065",
+          "en": "Complete Magdalene::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18729,7 +22107,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Samson::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Samson::custom_col_1785574945065",
+          "en": "Complete Samson::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18819,7 +22206,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Cain::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Cain::custom_col_1785574945065",
+          "en": "Complete Cain::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18909,7 +22305,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Keeper::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Keeper::custom_col_1785574945065",
+          "en": "Complete Keeper::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18999,7 +22404,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "JacobEsau::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成JacobEsau::custom_col_1785574945065",
+          "en": "Complete JacobEsau::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19089,7 +22503,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Samson::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Samson::custom_col_1785574945065",
+          "en": "Complete Samson::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19179,7 +22602,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Lost::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Lost::custom_col_1785574945065",
+          "en": "Complete Lost::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19269,7 +22701,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "BlueBaby::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成BlueBaby::custom_col_1785574945065",
+          "en": "Complete BlueBaby::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19359,7 +22800,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Judas_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Judas_B::custom_col_1785574945065",
+          "en": "Complete Judas_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19449,7 +22899,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Azazel::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Azazel::custom_col_1785574945065",
+          "en": "Complete Azazel::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19539,7 +22998,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Lazarus::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Lazarus::custom_col_1785574945065",
+          "en": "Complete Lazarus::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19629,7 +23097,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Forgotten::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Forgotten::custom_col_1785574945065",
+          "en": "Complete Forgotten::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19719,7 +23196,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Forgotten::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Forgotten::custom_col_1785574945065",
+          "en": "Complete Forgotten::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19809,7 +23295,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Forgotten::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Forgotten::custom_col_1785574945065",
+          "en": "Complete Forgotten::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19899,7 +23394,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Eden::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Eden::custom_col_1785574945065",
+          "en": "Complete Eden::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -19989,7 +23493,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Apollyon::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Apollyon::custom_col_1785574945065",
+          "en": "Complete Apollyon::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20079,7 +23592,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Isaac_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Isaac_B::custom_col_1785574945065",
+          "en": "Complete Isaac_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20169,7 +23691,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Eve_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Eve_B::custom_col_1785574945065",
+          "en": "Complete Eve_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20259,7 +23790,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Bethany_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Bethany_B::custom_col_1785574945065",
+          "en": "Complete Bethany_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20349,7 +23889,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Lilith_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Lilith_B::custom_col_1785574945065",
+          "en": "Complete Lilith_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20439,7 +23988,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Judas_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Judas_B::custom_col_1785574945065",
+          "en": "Complete Judas_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20529,7 +24087,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Cain_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Cain_B::custom_col_1785574945065",
+          "en": "Complete Cain_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20619,7 +24186,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Magdalene_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Magdalene_B::custom_col_1785574945065",
+          "en": "Complete Magdalene_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20709,7 +24285,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Samson_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Samson_B::custom_col_1785574945065",
+          "en": "Complete Samson_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20799,7 +24384,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Cain_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Cain_B::custom_col_1785574945065",
+          "en": "Complete Cain_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20889,7 +24483,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Keeper_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Keeper_B::custom_col_1785574945065",
+          "en": "Complete Keeper_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -20979,7 +24582,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Jacob_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Jacob_B::custom_col_1785574945065",
+          "en": "Complete Jacob_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21069,7 +24681,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Samson_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Samson_B::custom_col_1785574945065",
+          "en": "Complete Samson_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21159,7 +24780,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Lost_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Lost_B::custom_col_1785574945065",
+          "en": "Complete Lost_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21249,7 +24879,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "BlueBaby_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成BlueBaby_B::custom_col_1785574945065",
+          "en": "Complete BlueBaby_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21339,7 +24978,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "BlueBaby_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成BlueBaby_B::custom_col_1785574945065",
+          "en": "Complete BlueBaby_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21429,7 +25077,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "BlueBaby_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成BlueBaby_B::custom_col_1785574945065",
+          "en": "Complete BlueBaby_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21519,7 +25176,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Judas::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Judas::custom_col_1785574945065",
+          "en": "Complete Judas::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21609,7 +25275,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Azazel_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Azazel_B::custom_col_1785574945065",
+          "en": "Complete Azazel_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21699,7 +25374,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Lazarus_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Lazarus_B::custom_col_1785574945065",
+          "en": "Complete Lazarus_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21789,7 +25473,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Forgotten_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Forgotten_B::custom_col_1785574945065",
+          "en": "Complete Forgotten_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21879,7 +25572,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Forgotten_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Forgotten_B::custom_col_1785574945065",
+          "en": "Complete Forgotten_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -21969,7 +25671,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Forgotten_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Forgotten_B::custom_col_1785574945065",
+          "en": "Complete Forgotten_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22059,7 +25770,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Eden_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Eden_B::custom_col_1785574945065",
+          "en": "Complete Eden_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22149,7 +25869,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Apollyon_B::custom_col_1785574945065",
+        "text": {
+          "zh": "使用Boss完成Apollyon_B::custom_col_1785574945065",
+          "en": "Complete Apollyon_B::custom_col_1785574945065 as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22239,7 +25968,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用安娜完成究极贪婪",
+          "en": "Complete Greedier as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22329,7 +26067,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用安奈完成究极贪婪",
+          "en": "Complete Greedier as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22419,7 +26166,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用泰克罗罗恩完成死寂",
+          "en": "Complete Hush as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22509,7 +26265,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "annA",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用安奈完成死寂",
+          "en": "Complete Hush as Anna"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22599,7 +26364,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用泽伊兹完成死寂",
+          "en": "Complete Hush as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22689,7 +26463,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用泽伊斯托斯完成究极贪婪",
+          "en": "Complete Greedier as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22779,7 +26562,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用泽伊兹完成究极贪婪",
+          "en": "Complete Greedier as Zeiz"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22869,7 +26661,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用泰克罗完成究极贪婪",
+          "en": "Complete Greedier as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -22959,7 +26760,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用泰克罗罗恩完成究极贪婪",
+          "en": "Complete Greedier as Tecrorun"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -23152,7 +26962,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "wq",
+        "conditionKey": "Tainted",
+        "text": {
+          "zh": "使用小青完成里角色/特殊",
+          "en": "Complete Tainted as Qing"
+        }
+      },
       "characterBase": {
         "startingHealth": [
           {
@@ -23848,7 +27667,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "Tainted",
+        "text": {
+          "zh": "使用泰克罗完成里角色/特殊",
+          "en": "Complete Tainted as Tecro"
+        }
+      },
       "characterBase": {
         "startingHealth": [
           {
@@ -24168,7 +27996,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Anna",
+        "conditionKey": "Tainted",
+        "text": {
+          "zh": "使用安娜完成里角色/特殊",
+          "en": "Complete Tainted as Anna"
+        }
+      },
       "characterBase": {
         "startingHealth": [
           {
@@ -24376,7 +28213,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Tainted",
+        "text": {
+          "zh": "使用泽伊斯托斯完成里角色/特殊",
+          "en": "Complete Tainted as Zeis"
+        }
+      },
       "characterBase": {
         "startingHealth": [
           {
@@ -24589,7 +28435,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "fraternity",
+          "kind": "collectible",
+          "names": {
+            "zh": "博爱",
+            "en": "Fraternity"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -24763,7 +28618,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "ember",
+          "kind": "collectible",
+          "names": {
+            "zh": "余烬",
+            "en": "Ember"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -24850,7 +28714,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "torn-moon",
+          "kind": "trinket",
+          "names": {
+            "zh": "塔罗牌残片？",
+            "en": "Torn Moon？"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -24937,7 +28810,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "d-nan",
+          "kind": "collectible",
+          "names": {
+            "zh": "非数骰子",
+            "en": "D NAN"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -25205,7 +29087,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "pause",
+          "kind": "trinket",
+          "names": {
+            "zh": "暂停？",
+            "en": "Pause？"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -25292,7 +29183,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "hyper-velocity",
+          "kind": "collectible",
+          "names": {
+            "zh": "和谐号",
+            "en": "Hyper Velocity"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -25379,7 +29279,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "dark-particle",
+          "kind": "trinket",
+          "names": {
+            "zh": "黑暗脆块",
+            "en": "Dark Particle"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -26824,7 +30733,16 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Boss",
+        "conditionKey": "Keeper::GlazeNormal",
+        "text": {
+          "zh": "使用Boss完成Keeper::GlazeNormal",
+          "en": "Complete Keeper::GlazeNormal as Boss"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
