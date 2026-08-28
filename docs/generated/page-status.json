@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T17:25:04Z",
+  "generatedAt": "2026-08-28T06:16:18Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1039,8 +1039,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/remaster.md",
       "en": "wiki/docs/en/items/remaster.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "bloody-map",
@@ -1736,7 +1736,7 @@
       "zh": "wiki/docs/characters/sp-w-qing.md",
       "en": "wiki/docs/en/characters/sp-w-qing.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "tecro",
@@ -1760,7 +1760,7 @@
       "zh": "wiki/docs/characters/anna.md",
       "en": "wiki/docs/en/characters/anna.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "anna-tainted",
@@ -1888,15 +1888,15 @@
       "zh": "wiki/docs/pickups/glaze-heart.md",
       "en": "wiki/docs/en/pickups/glaze-heart.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "glaze-heart-half",
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-heart-half.md",
       "en": "wiki/docs/en/pickups/glaze-heart-half.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "glaze-key",
