@@ -44,18 +44,16 @@ At 5 shards, the crown only changes these pickups’ **extra** rewards (full pic
 
 Only damage that actually gets through defenses and costs real health shatters the crown. Devil deals, blood donation machines, curse doors, and similar special drains do not.
 
-A shatter is also a counterattack: it fires fragments by former tier and may drop one extra random glazed pickup (at most one per shatter). Losing the crown is not pure waste.
+A shatter is also a counterattack: it fires fragments by former tier and may drop one extra random glazed pickup (at most one per shatter).
 
 ## Notes
 
-- The tier-3 chance bonus only boosts the crown’s own refraction and enemy-glazing rolls—not every glaze-family effect in the run.
+- The tier-3 chance bonus only boosts the crown’s own refraction and enemy-glazing rolls.
 - Damage fully blocked by Holy Mantle does not shatter the crown.
 
-## Special synergies
+## Special interactions
 
-### {{Seija}} Seija
-
-Weaker glazed-pickup spawn bonus; half shatter damage; no tier-3 chance multiplier.
+- {{Seija}}: weakens how much the crown raises glazed-pickup spawn rates; halves shatter damage; tier 3 no longer raises refraction / enemy-glazing chances.
 
 ## Tips
 

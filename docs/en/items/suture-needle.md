@@ -28,31 +28,22 @@ It is a timed active that fully recharges in about **5** seconds. On use it rele
 
 Keep hitting a sutured corpse: it ruptures sooner **and** stores part of that follow-up damage into the final blast—especially worth it next to a pack of enemies.
 
-Bosses can be marked, but they never enter a full sutured-corpse state. If they die while marked, they rupture immediately without the extra “dead but walking” window.
+Bosses can be marked, but they never enter a full sutured-corpse state. If they die while marked, they rupture immediately.
 
 ## Notes
 
-- A few special enemies and bosses cannot be sutured; switch targets if nothing happens.
-- {{Collectible:356}} Car Battery’s extra fire is ignored—you do not get a second suture wave.
+- A few special enemies and bosses cannot be sutured.
+- {{Collectible:356}}’s extra fire is ignored—you do not get a second suture wave.
 
-## Special synergies
+## Special interactions
 
-### {{Collectible:34}} Book of Belial
-
-Each sutured corpse grants **+0.2** Damage for the room, up to **+2**. Resets when you leave the room.
-
-### {{Collectible:584}} Book of Virtues
-
-Maintains at most one dedicated suture wisp. Each sutured corpse grows and strengthens it; when a corpse ruptures, the wisp fires toward the blast.
-
-### {{Seija}} Seija
-
-Sutured corpses last about **2** seconds instead of about **1**, but further hits break the thread twice as fast.
+- {{Collectible:34}}: each sutured corpse grants **+0.2** Damage for the room, up to **+2**; resets when you leave.
+- {{Collectible:584}}: spawns a dedicated wisp; sutured corpses strengthen it, and it attacks the rupture point when they burst.
+- {{Seija}}: sutured corpses last longer, but further hits break the thread faster.
 
 ## Tips
 
 - Snap the thread inside dense packs so the rupture hits more targets.
-- Keep shooting after an enemy becomes a sutured corpse: you both accelerate the rupture and raise its damage.
 
 <details>
 <summary>Technical details</summary>
@@ -61,5 +52,6 @@ Sutured corpses last about **2** seconds instead of about **1**, but further hit
 - Normal rupture: about `1.5×` player damage plus `20%` of stored follow-up hits, capped at `6×` player damage.
 - Boss death while marked: `5×` player damage blast, no corpse phase.
 - Charge: `300` frames (~5 seconds).
+- Seija: corpse duration ≈ 2 seconds (normally ≈ 1), break rate doubled.
 
 </details>

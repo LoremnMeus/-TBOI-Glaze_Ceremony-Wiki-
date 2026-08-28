@@ -16,17 +16,16 @@ status: featured
 
 ## Effects
 
-Uncleared rooms spawn little ducks. Keep hitting them until they burst into a ring of high-damage tears.
+Uncleared rooms spawn little ducks. Keep filling them until they burst into a ring of high-damage tears.
 
-Entering an uncleared room spawns **3** ducks **per copy** (6 with two copies, 9 with three). Each duck bursts after **7** attack events; how hard each hit lands does not change that count. Normal damage is intercepted—you are filling them, not killing them. Their sprite shifts as the counter rises, so you can see when they are nearly full.
+Entering an uncleared room spawns **3** ducks **per copy**. Each duck bursts after **7** effective fills—your attacks are the main way; how hard each hit lands does not change the count. Normal damage is intercepted: you are filling them, not killing them. Their sprite shifts as the meter rises, so you can see when they are nearly full.
 
-On burst they fire **8–12** tears, each dealing `1.5 × player damage + 5`.
+On burst they fire **9–12** tears, each dealing `1.5 × player damage + 5`.
 
 ## Notes
 
-- Enemy projectiles that hit a duck also raise its counter, but that is not a playstyle you need to build around.
-- The meter counts hits, not damage totals.
+- Enemy projectiles and similar contacts can sometimes advance the meter, but that is not a playstyle you need to build around.
 
 ## Tips
 
-- High-rate, multi-hit attacks fill ducks faster because the item tracks hit count, not damage sum.
+- High-rate, multi-hit attacks fill ducks faster because the item tracks fill count, not damage sum.

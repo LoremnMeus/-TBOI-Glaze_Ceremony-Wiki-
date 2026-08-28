@@ -18,7 +18,7 @@ status: featured
 
 Darkness switches you onto a soul-heart life type, then makes black hearts serve as health, damage, a growth goal, and devil-deal currency at once.
 
-While held (under REPENTOGON) your health type becomes soul hearts. The item itself grants **+1** Black Heart.
+While held, your health becomes a soul-heart system and you gain **1** Black Heart.
 
 Damage scales with black hearts: about **+0.8** Damage per black heart, plus roughly **0.3%** multiplicative growth per black heart. Extra copies raise the additive part further.
 
@@ -42,17 +42,16 @@ These payments truly spend the matching black / soul hearts.
 ## Notes
 
 - “Gradually” means kill-count progress, not a random slow recolor.
-- If nothing can be stained, progress is not fully wiped—it stays near the next trigger.
 
 ## Tips
 
-- Normal soul hearts are not “lesser black hearts”: kills can stain them, so soul rewards are future damage stock.
+- Soul hearts can be stained into black hearts over kills, so soul rewards are also future damage stock.
 - Before a Devil Room, don’t only count total soul health—black hearts fund both damage and deal prices, so spending them also softens your hits.
 
 <details>
 <summary>Technical details</summary>
 
 - With one copy, additive damage is about `+0.8` per black heart, then multiplied by `(1 + blackHearts × 0.003)`; more copies raise the additive factor.
-- Without REPENTOGON, red-heart containers convert to black hearts (Keeper-like cases keep some containers).
+- If nothing can be stained, progress is not fully wiped—it stays near the next trigger.
 
 </details>
