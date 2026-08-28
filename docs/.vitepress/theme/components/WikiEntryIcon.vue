@@ -63,7 +63,8 @@ const label = computed(() => {
 const src = computed(() => {
   const row = parsed.value.row
   if (!row) return ''
-  return withBase(row.thumb32 || row.icon || row.portrait || '')
+  // Prefer PNG for pixel-art pickups/items; some WebP exports of sparse sprites look empty.
+  return withBase(row.thumb32Png || row.thumb32 || row.icon || row.portrait || '')
 })
 </script>
 

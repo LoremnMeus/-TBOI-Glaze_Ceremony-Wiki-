@@ -30,9 +30,7 @@ Full manufacturing, module, bandwidth and prototype rules live on {{System:bluep
 
 ## Refitting
 
-Blueprint does not permanently consume items used in a recipe.
-
-Items assigned as a base or module still belong to the player; Blueprint only marks them as currently allocated. Uninstalling a module, swapping a base, or dismantling a craft returns that item to the allocatable pool.
+Items used as a base or module are not deleted; they are temporarily allocated to the current loadout. Uninstalling a module, swapping a base, or dismantling a craft returns that item to the allocatable pool.
 
 Finished craft can be changed again in Stock, so the first build does not have to lock in a whole-run loadout.
 

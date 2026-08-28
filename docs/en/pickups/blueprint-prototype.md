@@ -33,21 +33,21 @@ Natural spawns only happen while someone holds {{Item:blue-print}}. Shared modul
 
 ### Cleared rooms
 
-In ordinary cleared rooms where Blueprint is held and the room had clearable enemies, the base chance is about:
+In ordinary cleared rooms where Blueprint is held and the room had clearable enemies, the base chance is:
 
 **2% + 0.3% × Luck**, clamped to **0.5%–6%**.
 
 Misses that meet the conditions build pity:
 
-- roughly from the **15th** miss the chance rises;
+- from the **15th** miss the chance rises;
 - the **25th** qualifying clear guarantees a spawn.
 
 A successful spawn resets pity. With no Blueprint held, nothing drops and pity does not advance.
 
 ### Shops
 
-- first shop visit: about **12.5%**
-- after Restock opportunities: about **6.25%**
+- first shop visit: **12.5%**
+- after Restock opportunities: **6.25%**
 
 Shop price follows the displayed item's quality, then Restock markup and {{Collectible:64}}:
 

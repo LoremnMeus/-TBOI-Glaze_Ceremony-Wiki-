@@ -66,7 +66,7 @@ Only items placed in module slots contribute to that craft's combat loadout. Con
 
 A separate Blueprint compatibility catalogue can eventually cover individual items; this page documents the common rules.
 
-Module behavior follows the Blueprint's implemented compatibility. Some items are translated into an equivalent behavior suitable for a craft rather than reproducing the original effect word for word.
+Module behavior follows the Blueprint's implemented compatibility. Some items are translated into an equivalent behavior suitable for a craft rather than reproducing the original effect word for word. The same chassis can become a Brimstone gunship, a Mom's Knife striker, a familiar carrier or a bomber — those differences come from modules, not a second chassis.
 
 ### Item allocation
 
@@ -143,18 +143,11 @@ Force does not change formation, and Guard does not remove the reticle.
 
 <WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/combat.jpg" :ready="true" alt="Tainted Qing commanding several craft with the reticle" caption="The reticle guides the fleet, while formation and fire control independently determine position and target selection." />
 
-## Manufacturing Air Flight
-
-You are not picking different craft roles from a menu. You are designing different loadouts of {{Item:air-flight}}.
-
-The same chassis can become a Brimstone gunship, a Mom's Knife striker, a Tech X controller, a familiar carrier, a bomber, a high-rate status craft, an orbital defence craft, or almost any TearFlag build. Those differences come from bases and modules — not a second chassis.
-
 ## Tips
 
-- A high-quality base provides more slots but not its own effect. Compare that frame value with what the item would provide as a module.
-- A complete craft at the back of Formation can still be placed on standby. Move craft that must remain active toward the front.
+- Keep craft that must stay online toward the front of Formation; complete craft at the back can still sit on standby for lack of bandwidth.
 - Auto suits ordinary rooms; Force is useful for concentrating fire on fires, poop or a chosen position.
-- Standby craft are not lost. Alternative loadouts can remain stored until Formation gives them bandwidth.
+- Alternative loadouts can remain stored until Formation gives them bandwidth.
 
 ## Related content
 
