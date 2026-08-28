@@ -16,9 +16,9 @@ status: featured
 
 ## Effects
 
-Crown of the Glaze grows by picking up glazed drops, then asks you to keep high tiers despite the risk of a full shatter on real damage.
+Crown of the Glaze rewards you for stacking shards all the way to a full crown—and pressures you not to take a hit that smashes it.
 
-Any supported glazed pickup → **+1** shard, up to **5**. Higher tiers unlock attack and glaze-related powers. On real effective damage, every shard shatters at once and sprays fragments based on the lost tier.
+Picking up any supported glazed drop grants **1** shard, up to **5**. Higher tiers unlock attack and glaze-related powers. On real effective damage, every shard shatters at once and sprays fragments based on the lost tier.
 
 | Shards | Unlock |
 | --- | --- |

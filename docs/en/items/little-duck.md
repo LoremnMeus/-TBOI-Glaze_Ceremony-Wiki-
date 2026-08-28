@@ -16,9 +16,9 @@ status: featured
 
 ## Effects
 
-Uncleared rooms spawn little ducks. Keep filling them until they burst into a ring of high-damage tears.
+Little Ducks are not enemies—they are one-shot weapons left in the room for you to “feed” full.
 
-Entering an uncleared room spawns **3** ducks **per copy**. Each duck bursts after **7** effective fills—your attacks are the main way; how hard each hit lands does not change the count. Normal damage is intercepted: you are filling them, not killing them. Their sprite shifts as the meter rises, so you can see when they are nearly full.
+Entering an uncleared room spawns **3** ducks **per copy**. Hitting a duck does not truly hurt it; it gradually fills. After **7** effective fills it bursts and fires tears outward. Your attacks are the main way to fill them; how hard each hit lands does not change the count. Their sprite shifts as the meter rises, so you can see when they are nearly full.
 
 On burst they fire **9–12** tears, each dealing `1.5 × player damage + 5`.
 
@@ -29,3 +29,7 @@ On burst they fire **9–12** tears, each dealing `1.5 × player damage + 5`.
 ## Tips
 
 - High-rate, multi-hit attacks fill ducks faster because the item tracks fill count, not damage sum.
+
+## Trivia
+
+The ducks take after the rubber ducks in *Where's My Water?*. That game collects ducks by running water through them; here, “pouring something into the duck” becomes filling them with attacks until they burst.

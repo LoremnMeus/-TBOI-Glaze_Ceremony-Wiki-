@@ -16,11 +16,9 @@ status: featured
 
 ## Effects
 
-Darkness switches you onto a soul-heart life type, then makes black hearts serve as health, damage, a growth goal, and devil-deal currency at once.
+Once you have Darkness, black hearts become the run’s most important resource: your health, your damage, and your Devil Deal currency.
 
-While held, your health becomes a soul-heart system and you gain **1** Black Heart.
-
-Damage scales with black hearts: about **+0.8** Damage per black heart, plus roughly **0.3%** multiplicative growth per black heart. Extra copies raise the additive part further.
+While held, your health becomes a soul-heart system and you gain **1** Black Heart. Damage scales with black hearts: about **+0.8** Damage per black heart, plus roughly **0.3%** multiplicative growth per black heart. Extra copies raise the additive part further.
 
 ### Kill staining
 
