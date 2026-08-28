@@ -50,6 +50,8 @@
 {{Trinket:pacification-mark}}
 {{Card:0-the-fool}}
 {{Character:zeis}}
+{{Pickup:glaze-heart}}
+{{Pickup:glaze-heart-half}}
 {{System:thoth-cards}}
 {{QingPlayer:wq}}
 {{QingCollectible:Gospel}}
@@ -58,7 +60,7 @@
 
 `{{Wiki:gospel}}` 也可以。代码块里的 `{{...}}` 只显示原文，不会当 Vue 解析。
 
-行内示例：{{Item:gospel}} {{Item:blue-print}} {{Damage}} {{SoulHeart}} {{Warning}} {{QingPlayer:wq}}
+行内示例：{{Item:gospel}} {{Item:blue-print}} {{Pickup:glaze-heart-half}} {{Damage}} {{SoulHeart}} {{Warning}} {{QingPlayer:wq}}
 
 “特殊联动”下的具体对象标题也应直接使用对应标记，例如 `### {{Seija}} Seija`、`### {{Collectible:706}} 深渊`，使头像或道具图标与名称一起显示。
 

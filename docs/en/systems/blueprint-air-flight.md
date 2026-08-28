@@ -87,6 +87,17 @@ Each prototype has its own record and can serve only one recipe at a time. Remov
 
 </details>
 
+### {{Collectible:619}} mirror slots
+
+When {{Character:sp-w-qing}} has {{Collectible:619}}, each craft gains **one mirror module slot**.
+
+- It may only reference an item you **currently own** that supports Blueprint compatibility, and it **cannot** be used as a base.
+- It **does not consume** that item's Blueprint allocation: the same real item can still be a base or normal module on another craft.
+- **Multiple craft may mirror the same item**; each craft still has only this one mirror slot.
+- If you lose the referenced item, that mirror breaks until you regain it or change the loadout.
+
+Unlike prototypes, mirrors are not independently allocatable manufacturing resources. They only project tech you already hold.
+
 ## Managing the fleet
 
 ### Blueprint tabs

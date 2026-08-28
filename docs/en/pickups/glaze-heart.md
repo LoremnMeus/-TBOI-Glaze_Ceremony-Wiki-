@@ -18,11 +18,11 @@ status: featured
 
 **A Glaze Heart looks at your current health layout, then tries to become something that layout actually needs.**
 
-On pickup, it first checks for health that needs repair:
+Under the vanilla health system, pickup first repairs special health:
 
-- If you have a {{BrokenHeart}} Broken Heart, it removes 1 Broken Heart first;
-- Otherwise, if you have a {{RottenHeart}} Rotten Heart, it processes 1 Rotten Heart first;
-- Only when neither is present does it choose an effect from heart types you already have and can still gain.
+- If you have a {{BrokenHeart}} Broken Heart, it removes 1 Broken Heart first; a **full** Glaze Heart also grants half a {{SoulHeart}} Soul Heart;
+- Otherwise, if you have a {{RottenHeart}} Rotten Heart, it removes 1 Rotten Heart first;
+- Only when neither is present does it choose from heart types you already have and can still gain.
 
 So it is not an equal roll across every heart type. It behaves more like an adaptive catch-all heart.
 
@@ -44,11 +44,11 @@ It will not usually give you a heart unrelated to your current health structure.
 
 ## Broken and Rotten Hearts
 
-Broken and Rotten Hearts are not ordinary random outcomes. They have the highest priority.
+Under vanilla health, Broken and Rotten Hearts are not ordinary random outcomes. They have the highest priority.
 
-While any Broken Hearts remain, a Glaze Heart will clear Broken Hearts instead of restoring normal health.
+While any Broken Hearts remain, a full or half Glaze Heart clears Broken Hearts before restoring normal health. A **full** Glaze Heart also grants half a Soul Heart after removing one Broken Heart; a half Glaze Heart only removes the Broken Heart.
 
-Only after Broken Hearts are gone does Rotten Heart become the next priority.
+Only after Broken Hearts are gone does Rotten Heart become the next priority. A full Glaze Heart removes 1 Rotten Heart; a half Glaze Heart removes 1 Rotten Heart and also loses half a red heart.
 
 The more abnormal your health bar is, the more a Glaze Heart tends to "repair" it rather than simply add more health.
 
@@ -75,11 +75,11 @@ Holding the crown raises the chance that ordinary hearts convert into Glaze Hear
 
 Each successful Glaze Heart pickup also adds 1 Crown shard to the holder.
 
-When the crown reaches full shards, a {{Pickup:glaze-heart-half}} Half Glaze Heart that would spawn is upgraded into a full Glaze Heart.
+When the crown reaches full shards, a {{Pickup:glaze-heart-half}} that would spawn is upgraded into a full Glaze Heart.
 
 ## Tips
 
-- **Pick it up first while you have Broken Hearts.** Clearing Broken Hearts is usually more valuable than treating it as normal healing.
+- **Pick it up first while you have Broken Hearts.** A full Glaze Heart clears a Broken Heart and grants half a Soul Heart—usually better than normal healing.
 - **It is reliable when you are missing red health.** If special-heart attempts fail and you can heal red, it becomes red healing.
 - **To copy a special heart, own it first.** Black, Bone, Golden, and Eternal results all require that type to already exist on your health bar.
 - **The crown makes it more common.** In a {{Item:crown-of-the-glaze}} build, Glaze Hearts are both a reward and fuel for more shards.
@@ -89,17 +89,16 @@ When the crown reaches full shards, a {{Pickup:glaze-heart-half}} Half Glaze Hea
 
 - A Glaze Heart is only consumed after it successfully applies a health effect.
 - Shop Glaze Hearts still follow normal purchase rules; they are not eaten when payment fails or no effect is available.
-- With a supported custom health system installed, it can also imitate some custom hearts you already have.
+- With a supported custom health system installed, if you currently own a recognized custom heart type, a Glaze Heart may imitate that custom heart **before** Broken/Rotten handling. This changes priority; it is not merely an extra fallback option.
 
 <details>
 <summary>Technical details</summary>
 
-- A full Glaze Heart heals for 2 half-heart units internally.
-- Vanilla health priority is: Broken → Rotten → special-heart chance checks → red → remaining obtainable special hearts.
-- Special-heart attempts are sequential, not an equal-weight lottery; do not treat each check rate as a final result chance.
-- Base glaze conversion is 1/25.
-- Each player with Broken Hearts adds a further 1/5 keep-check after a successful conversion roll.
-- CustomHealthAPI custom hearts that are not banned and currently owned are tried before Broken/Rotten handling.
+- A full Glaze Heart heals for 2 half-heart units internally; a half heals for 1.
+- Order: CustomHealthAPI custom hearts (when available) → Broken → Rotten → special-heart chance checks → red → remaining obtainable special hearts.
+- Full hearts removing Broken Hearts also `AddSoulHearts(1)`; half hearts removing Rotten Hearts also `AddHearts(-1)`.
+- Special-heart attempts are sequential, not an equal-weight lottery.
+- Base glaze conversion is 1/25; each player with Broken Hearts adds a further 1/5 keep-check after a successful conversion roll.
 - Successful pickup triggers related glaze-curse pickup effects and notifies {{Item:crown-of-the-glaze}} to add a shard.
 - Crown spawn multipliers are roughly: none 1.0× (4%), 1 copy 1.5× (6%), 2 copies 1.75× (7%), 3+ copies 2.0× (8%); Seija-style weakening caps the multiplier near 1.2×.
 

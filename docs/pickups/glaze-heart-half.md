@@ -16,9 +16,9 @@ status: featured
 
 ## 效果
 
-与 {{Pickup:glaze-heart}} 使用相同的模仿规则，但只提供半颗心的生命量；{{BrokenHeart}} 碎心、{{RottenHeart}} 腐心等特殊处理仍按自身规则生效。
+与 {{Pickup:glaze-heart}} 使用相同的模仿规则，但只提供半颗心的生命量。
 
-完整的生命优先级、特殊心复制逻辑与使用思路，见 {{Pickup:glaze-heart}}。
+与完整心的差异主要体现在治疗量，以及碎心/腐心时的附带收益不同：半心移除碎心时**不会**额外给予魂心；移除腐心时还会额外失去半颗红心。完整优先级与构筑思路见 {{Pickup:glaze-heart}}。
 
 ## 出现与冠冕
 

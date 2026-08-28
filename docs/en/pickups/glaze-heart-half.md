@@ -16,9 +16,9 @@ status: featured
 
 ## Effects
 
-Uses the same imitation rules as {{Pickup:glaze-heart}}, but only provides half a heart of healing. {{BrokenHeart}} Broken Heart and {{RottenHeart}} Rotten Heart handling still follow their own priority rules.
+Uses the same imitation rules as {{Pickup:glaze-heart}}, but only provides half a heart of healing.
 
-For the full health priority, special-heart copying, and play tips, see {{Pickup:glaze-heart}}.
+The main differences are healing amount and the side effects when clearing Broken/Rotten Hearts: a half Glaze Heart does **not** grant a Soul Heart when removing a Broken Heart, and removing a Rotten Heart also costs half a red heart. Full priority and play tips live on {{Pickup:glaze-heart}}.
 
 ## Appearance and Crown
 

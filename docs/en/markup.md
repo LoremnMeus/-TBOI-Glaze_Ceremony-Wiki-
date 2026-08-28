@@ -33,6 +33,9 @@ Do not use `{{Collectible72}}` for Gospel; that number is a **vanilla** collecti
 {{Trinket:pacification-mark}}
 {{Card:0-the-fool}}
 {{Character:zeis}}
+{{Pickup:glaze-heart}}
+{{Pickup:glaze-heart-half}}
+{{System:thoth-cards}}
 ```
 
 `{{Wiki:gospel}}` works too.

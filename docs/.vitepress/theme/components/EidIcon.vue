@@ -10,7 +10,7 @@ const props = defineProps({
 
 const COLLECTIBLE = /^Collectible:?\s*(\d+)$/i
 const TRINKET = /^Trinket:?\s*(\d+)$/i
-const WIKI_ENTRY = /^(?:Item|Trinket|Card|Character|Challenge|System|Wiki)[:/]/i
+const WIKI_ENTRY = /^(?:Item|Trinket|Card|Character|Challenge|Pickup|Slot|System|Wiki)[:/]/i
 const QING_PLAYER = /^QingPlayer[:/]\s*(.+)$/i
 
 const wikiEntry = computed(() => WIKI_ENTRY.test(props.name))

@@ -31,7 +31,7 @@ const { lang } = useData()
 
 const parsed = computed(() => {
   const raw = (props.name || '').trim()
-  const match = raw.match(/^(Item|Trinket|Card|Character|Challenge|System|Wiki)[:/]\s*(.+)$/i)
+  const match = raw.match(/^(Item|Trinket|Card|Character|Challenge|Pickup|Slot|System|Wiki)[:/]\s*(.+)$/i)
   const token = (match ? match[2] : raw).trim()
   if (match?.[1]?.toLowerCase() === 'system' && SYSTEMS[token]) {
     return { row: { kind: 'system', slug: token, internalKey: token, names: SYSTEMS[token] }, token }

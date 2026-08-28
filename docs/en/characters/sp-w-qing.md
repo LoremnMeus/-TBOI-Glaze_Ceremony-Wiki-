@@ -44,37 +44,11 @@ Build rules, base quality, module occupancy, prototypes, and compatibility detai
 
 The first time you open Blueprint, you can also enter an interactive tutorial. It uses simulated craft and materials and does not consume real run resources.
 
-## How to think during a run
+## Deployment and command
 
-On a normal character, "Is this pickup strong?" often settles the question.
+Manufacturing a craft does not mean every craft fights at once. Qing has limited **control bandwidth**; the formation assigns it front to back, so **craft nearer the front deploy first**. Craft without bandwidth return to **standby** beside Qing—they stop seeking targets, stop firing, and any combat familiars assigned to them stop attacking as well.
 
-With Qing, there is another layer:
-
-> **"Which craft should this belong to?"**
-
-A strong offensive pickup might become the core module of a main striker, while another craft can focus on a different weapon type, familiars, or support effects.
-
-The same pool of pickups can become completely different fleets depending on how you split them.
-
-Using a high-quality item as a base also means giving up its chance to become a special module on that craft, in exchange for more slots and better overall performance.
-
-What you are really building is not Qing herself, but the division of labor across the fleet.
-
-## Deployment and standby
-
-Manufacturing a craft does not mean every craft fights at once.
-
-Qing has limited **control bandwidth**. The formation assigns bandwidth from front to back, so:
-
-> **Craft nearer the front deploy first.**
-
-Craft without bandwidth are not lost. They return to Qing's side on **standby**, stop seeking targets, stop firing, and any combat familiars assigned to them stop attacking as well.
-
-Stock answers "Which craft do I own?" Formation answers "Who is fighting right now?"
-
-Default bandwidth and exact allocation rules are on {{System:blueprint-air-flight}}.
-
-## Combat command
+Stock answers "Which craft do I own?" Formation answers "Who is fighting right now?" Default bandwidth and exact allocation rules are on {{System:blueprint-air-flight}}.
 
 In combat, Qing mainly does two things: **decide where the fleet is** and **decide what it attacks**. These are independent.
 
@@ -88,8 +62,6 @@ In combat, Qing mainly does two things: **decide where the fleet is** and **deci
 - **Auto**: craft seek valid targets on their own.
 - **Suppression**: craft stop choosing targets freely and focus fire on the reticle position.
 
-That gives four combinations:
-
 | Formation | Fire control | Best for |
 | --- | --- | --- |
 | Cruise | Auto | Normal room clearing with free target selection |
@@ -98,8 +70,6 @@ That gives four combinations:
 | Guard | Suppression | Tight formation fire on the reticle |
 
 Guard is not Suppression, and Suppression does not automatically recall craft. **One controls position; the other controls the target.**
-
-## Controls
 
 - **Fire direction / hold LMB**: move the command reticle.
 - **Ctrl / MMB**: toggle Cruise / Guard.
@@ -110,50 +80,33 @@ The reticle is always present. Switching formation or fire control does not remo
 
 ## Building a fleet
 
+With Qing, picking up an item also asks: **"Which craft should this belong to?"**
+
 You do not need a complete fleet plan from minute one. Getting stable damage on the first basic craft is usually better than leaving yourself helpless while planning for the future.
 
-As pickups accumulate, start assigning roles:
+As pickups accumulate, assign roles—for example one main damage craft, one with a completely different weapon, one built around familiars or special modules, and one backup further back in formation.
 
-- one main damage craft;
-- one with a completely different weapon type;
-- one built around familiars or special modules;
-- one backup craft you can promote when needed.
+Using a high-quality item as a base means giving up its chance to become a special module on that craft, in exchange for more slots and better overall performance. What you are really building is not Qing herself, but the division of labor across the fleet. Craft types and compatibility details live on {{System:blueprint-air-flight}}.
 
-Currently available craft types and their traits are on {{System:blueprint-air-flight}}; Blueprint coverage and module compatibility are still expanding.
+## {{Collectible:619}}: Redundant Design
 
-## Birthright: Redundant Design
-
-With **Birthright**, each real item can also become **one mirror module**:
-
-- Mirrors install only as **modules** on **another** craft, never as a base;
-- Each craft can hold at most **1** mirror module;
-- Mirror modules keep the full item effect, but a craft carrying one costs **+1 control bandwidth**.
-
-Birthright therefore trades **bandwidth for redundancy**—for example, craft A keeps the real module while craft B carries a mirror of the same item, making B a more expensive deployment.
-
-See {{System:blueprint-air-flight}} for how mirrors differ from prototypes and real modules.
+With {{Collectible:619}}, each craft gains one mirror module slot that can copy a compatible item you currently own. Details—allocation, multi-craft mirroring, and what happens if you lose the source item—are on {{System:blueprint-air-flight}}.
 
 ## Tips
 
-- **Make sure something can shoot before you optimize the fleet.** The first basic craft needs no real base and is the fastest way to establish firepower.
-- **Check a high-quality pickup's module value before using it as a base.** A high-quality base grants more slots and better overall stats, but it will not grant that item's special ability to the craft.
-- **Formation order is your backup plan.** Craft above bandwidth are not wasted; change priority to change who is actually fighting.
-- **Auto mode does not need constant babysitting.** Let the fleet clear normal rooms; save Suppression for bosses, dangerous targets, or precise shots.
+- **Make sure something can shoot first.** The first basic craft needs no real base and is the fastest way to establish firepower.
+- **Formation order is your backup plan.** Craft above bandwidth are not wasted; change priority to change who is fighting.
 - **Guard solves positioning; Suppression solves targeting.** When something feels wrong, ask whether you need to change where craft are or what they are shooting.
-- **Change your mind freely.** Existing craft can be reconfigured. Qing's building loop is closer to continuously adjusting a fleet than making one irreversible choice per pickup.
 
 ## Special interactions
 
-Qing has custom names and remarks for some items tied to herself, her craft, or her past.
+Qing has custom names and remarks for some items tied to herself, her craft, or her past—for example custom names for {{Item:air-flight}} and {{Item:air-terror}}.
 
-For example, {{Item:air-flight}} and {{Item:air-terror}} receive custom names and remarks from her perspective; some items related to regular Qing may also get names that suggest she does not fully recognize them.
-
-These lines express character state. They do not guarantee extra Blueprint behavior. Whether an item can be installed as a module, and what it actually does there, still follows {{System:blueprint-air-flight}} compatibility rules.
+These lines express character state. They do not guarantee extra Blueprint behavior. Whether an item can be installed as a module, and what it actually does there, still follows {{System:blueprint-air-flight}}.
 
 ## Notes
 
 - **Qing cannot perform normal attacks.** Offensive pickups in the inventory do not restore ordinary tear firing for her.
 - **Only pickups installed as modules on a craft** grant that craft Blueprint combat abilities; bases mainly define craft scale and baseline performance.
-- **Each craft has its own combat stats and module layout**, not a copy of Qing's current attack panel.
 - **Standby craft and their combat familiars do not participate in the current fight.**
-- **Blueprint, module compatibility, and available craft types are still expanding**; the system page tracks the precise rules as they grow.
+- **Not every pickup has a Blueprint module effect**; see {{System:blueprint-air-flight}} for compatibility.
