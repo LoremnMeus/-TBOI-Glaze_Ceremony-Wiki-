@@ -4,7 +4,7 @@ description: "Death is only a broken thread"
 slug: suture-needle
 kind: collectible
 internalKey: Suture_Needle
-status: stub
+status: featured
 ---
 <p class="wiki-search-index" v-pre>缝合针 Suture Needle Suture_Needle suture-needle Suture Needle 死亡只是线断了 Death is only a broken thread 自动充能 使用时缝合附近的敌人，持续数秒 期间死亡的敌人会被强行维持活动一段时间 继续攻击会拆开缝线 缝线断裂时撕裂身体并伤害附近敌人 Recharges over time Sutures nearby enemies for a few seconds Enemies that die during this window continue moving briefly Further damage causes their sutures to break faster When the sutures completely break, their bodies rupture and damage nearby enemies</p>
 
@@ -12,6 +12,54 @@ status: stub
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+<!-- Manual body: the generator will not overwrite this file. -->
 
-To be written.
+## Effects
+
+Suture Needle turns enemies that should already be dead into short-lived, still-moving bombs you can keep damaging.
+
+It is a timed active that fully recharges in about **5** seconds. On use it releases an expanding suture wave that marks legal enemies for about **3** seconds.
+
+| Stage | What you see | How to read it |
+| --- | --- | --- |
+| Suture | A wave sweeps enemies | They keep a suture mark for about 3 seconds |
+| Sutured corpse | A normal enemy takes lethal damage but keeps moving | It is already “dead”, just held together |
+| Rupture | Time runs out, or further hits snap the thread | Nearby enemies take splash damage |
+
+Keep hitting a sutured corpse: it ruptures sooner **and** stores part of that follow-up damage into the final blast—especially worth it next to a pack of enemies.
+
+Bosses can be marked, but they never enter a full sutured-corpse state. If they die while marked, they rupture immediately without the extra “dead but walking” window.
+
+## Notes
+
+- A few special enemies and bosses cannot be sutured; switch targets if nothing happens.
+- {{Collectible:356}} Car Battery’s extra fire is ignored—you do not get a second suture wave.
+
+## Special synergies
+
+### {{Collectible:34}} Book of Belial
+
+Each sutured corpse grants **+0.2** Damage for the room, up to **+2**. Resets when you leave the room.
+
+### {{Collectible:584}} Book of Virtues
+
+Maintains at most one dedicated suture wisp. Each sutured corpse grows and strengthens it; when a corpse ruptures, the wisp fires toward the blast.
+
+### {{Seija}} Seija
+
+Sutured corpses last about **2** seconds instead of about **1**, but further hits break the thread twice as fast.
+
+## Tips
+
+- Snap the thread inside dense packs so the rupture hits more targets.
+- Keep shooting after an enemy becomes a sutured corpse: you both accelerate the rupture and raise its damage.
+
+<details>
+<summary>Technical details</summary>
+
+- Wave radius ≈ 180; rupture radius ≈ 90.
+- Normal rupture: about `1.5×` player damage plus `20%` of stored follow-up hits, capped at `6×` player damage.
+- Boss death while marked: `5×` player damage blast, no corpse phase.
+- Charge: `300` frames (~5 seconds).
+
+</details>
