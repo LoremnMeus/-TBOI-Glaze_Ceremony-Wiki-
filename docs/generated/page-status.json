@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T07:04:01Z",
+  "generatedAt": "2026-08-28T07:40:10Z",
   "pages": [
     {
       "slug": "darkness",
@@ -63,8 +63,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/air-flight.md",
       "en": "wiki/docs/en/items/air-flight.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "the-watcher",
@@ -199,8 +199,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/air-terror.md",
       "en": "wiki/docs/en/items/air-terror.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "glaze-mushroom",
@@ -599,8 +599,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/blue-print.md",
       "en": "wiki/docs/en/items/blue-print.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "hypermnesia",
@@ -1975,8 +1975,8 @@
       "kind": "pickup",
       "zh": "wiki/docs/pickups/blueprint-prototype.md",
       "en": "wiki/docs/en/pickups/blueprint-prototype.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "bard-beggar",

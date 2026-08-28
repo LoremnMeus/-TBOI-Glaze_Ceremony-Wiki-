@@ -25,13 +25,15 @@ The Blueprint may store more craft than can fight at once. Control bandwidth det
 
 ## Building a craft
 
-The Build tab first selects a chassis, then accepts one base and a set of modules. Completed craft enter Stock and Formation, and may later be refitted or dismantled without an additional fee.
+Every Blueprint craft is built on the {{Item:air-flight}} frame. Differences come from the base, modules and formation — not from preset roles.
+
+The Build tab opens **New Design**, then accepts a base and modules. Completed craft enter Stock and Formation, and may later be refitted or dismantled without an additional fee. Finished designs are serialized as **AF01, AF02, …** (with optional model letters).
 
 <WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/build.jpg" :ready="true" alt="The Blueprint Build tab with a base, module slots and item tokens" caption="The base establishes the frame; surrounding module slots determine the craft's actual abilities." />
 
-### The first craft
+### The first craft: AF-00 tech
 
-Qing's first **AF-00 Prototype** requires no base item. It is treated as a quality-2 base with 3 module slots and a 1.00× base multiplier, ensuring that the character can establish a basic attack before acquiring a complete recipe.
+{{Item:air-flight}} (AF-00 Prototype) is the platform's prototype technology. Qing's first formal design requires no base item. It is treated as a quality-2 base with 3 module slots and a 1.00× base multiplier, ensuring that the character can establish a basic attack before acquiring a complete recipe.
 
 While Stock already contains at least one regular craft, manufacturing another requires assigning one real item as its base.
 
@@ -78,14 +80,13 @@ Removing a module or dismantling a craft releases the allocation immediately.
 The Blueprint records which recipe currently uses each copy. It still belongs to Qing and retains any passive effect that can apply to Qing, but the same copy cannot serve another craft as a base or module at the same time.
 :::
 
-<details>
-<summary>Advanced: item prototypes</summary>
+### Prototype modules
 
-An item prototype is an additional module resource. It may replace a real item in a module slot without increasing the actual collectible count, but it **cannot pay for a base**.
+A prototype is one extra module-install right.
 
-Each prototype has its own record and can serve only one recipe at a time. Removing it returns that copy to prototype stock rather than creating unlimited uses.
+It does not increase how many items you actually own, and it cannot serve as a base. Each prototype can occupy only one craft at a time.
 
-</details>
+Spawn rates, shop prices and drop rules live on {{Pickup:blueprint-prototype}}.
 
 ### {{Collectible:619}} mirror slots
 
@@ -105,7 +106,7 @@ Unlike prototypes, mirrors are not independently allocatable manufacturing resou
 | Tab | Purpose |
 | --- | --- |
 | Formation | Set deployment intent and bandwidth priority |
-| Build | Select a chassis and manufacture a new craft |
+| Build | Open **New Design** and manufacture a new Air Flight |
 | Stock | Inspect, refit or dismantle existing craft |
 
 A short Blueprint press toggles Auto/Force fire control. Holding it until the progress bar completes opens management. See {{Character:sp-w-qing}} for the complete controls.
@@ -142,12 +143,11 @@ Force does not change formation, and Guard does not remove the reticle.
 
 <WikiScreenshot src="/images/screenshots/systems/blueprint-fleet/combat.jpg" :ready="true" alt="Tainted Qing commanding several craft with the reticle" caption="The reticle guides the fleet, while formation and fire control independently determine position and target selection." />
 
-## Available craft
+## Manufacturing Air Flight
 
-| Craft | Role | Features |
-| --- | --- | --- |
-| **AF-00 Prototype** | Standard | The first can be built for free; Blueprint modules establish its independent combat loadout |
-| {{Item:air-terror}} | Projectile defence | Cruises automatically, intercepts nearby hostile projectiles and briefly leaves a damaging aura |
+You are not picking different craft roles from a menu. You are designing different loadouts of {{Item:air-flight}}.
+
+The same chassis can become a Brimstone gunship, a Mom's Knife striker, a Tech X controller, a familiar carrier, a bomber, a high-rate status craft, an orbital defence craft, or almost any TearFlag build. Those differences come from bases and modules — not a second chassis.
 
 ## Tips
 
@@ -159,6 +159,9 @@ Force does not change formation, and Guard does not remove the reticle.
 ## Related content
 
 - {{Character:sp-w-qing}} — the character who commands the Blueprint fleet
+- {{Item:blue-print}} — the active and its three management tabs
+- {{Pickup:blueprint-prototype}} — prototype spawns and prices
+- {{Item:air-flight}} — Blueprint's base craft platform
 
 ## Gallery
 

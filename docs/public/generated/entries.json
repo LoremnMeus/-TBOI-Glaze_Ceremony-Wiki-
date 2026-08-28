@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-28T07:04:01Z",
+  "generatedAt": "2026-08-28T07:40:10Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -5042,8 +5042,8 @@
         "en": "Hello...Again?"
       },
       "eid": {
-        "zh": "自动巡航的小跟班，快速收集敌弹并短暂留下{{Collectible331}}伤害性光环",
-        "en": "An automatic cruising familiar quickly collects enemy bullets and briefly leaves a {{Collectible331}} damage halo."
+        "zh": "自动巡航并追逐附近的敌方弹幕#接触弹幕后将其清除",
+        "en": "An automatic cruising familiar that chases nearby enemy projectiles#Clears them on contact"
       },
       "seijaBuff": {
         "zh": "",
@@ -11451,8 +11451,8 @@
         "en": "Don't worry, I've got the plans"
       },
       "eid": {
-        "zh": "使用后打开蓝图面板#{{Collectible}} 将道具作为成本制造飞行器，或作为模块赋予其效果#飞行器拥有独立属性与攻击方式，仅受模块影响#{{Battery}} 飞行器需要占用控制带宽才能投入战斗#每个道具只能被蓝图占用一次#{{Collectible}} 持有时有概率生成道具原型模块，可额外使用一次对应模块#可随时重新编队、拆装并返还成本",
-        "en": "Use to open the Blueprint panel#{{Collectible}} Assign an item as a Flight cost, or install it as a module#Flights have independent stats and attacks, affected only by modules#{{Battery}} Active Flights consume control bandwidth#Each item can only be assigned to Blueprint once#{{Collectible}} While held, item prototype modules may appear, granting one extra use of that module#Freely reorganize, uninstall modules, and reclaim costs"
+        "zh": "长按打开蓝图，制造并管理飞行器#{{Collectible}} 底座决定机体性能，模块赋予攻击与特殊能力#{{Battery}} 控制带宽决定当前能够出战的机体#持有时有机会发现道具原型",
+        "en": "Hold to open Blueprint and manage your craft fleet#{{Collectible}} Base frames set craft power; modules grant attacks and abilities#{{Battery}} Control bandwidth limits how many crafts can fight at once#While held, Item Prototypes may appear"
       },
       "seijaBuff": {
         "zh": "",
@@ -31324,8 +31324,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "#{{Collectible}} 拾取后，将其中展示的道具记录为1份原型模块#原型模块存入蓝图仓库，可额外装配1次对应道具效果#只能作为模块使用，不能作为飞行器成本",
-        "en": "#{{Collectible}} On pickup, records the displayed item as 1 prototype module#Stored in Blueprint inventory, granting 1 extra installation of that item's effect#Modules only; cannot be used as a Flight cost"
+        "zh": "#{{Collectible}} 拾取后，将其中展示的道具记录为1份原型模块#原型模块存入蓝图仓库，可额外装配1次对应道具效果#只能作为模块使用，不能作为飞行器底座",
+        "en": "#{{Collectible}} On pickup, records the displayed item as 1 prototype module#Stored in Blueprint inventory, granting 1 extra installation of that item's effect#Modules only; cannot be used as a craft base"
       },
       "seijaBuff": {
         "zh": "",

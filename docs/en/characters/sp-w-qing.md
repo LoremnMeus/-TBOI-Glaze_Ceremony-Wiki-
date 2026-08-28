@@ -86,7 +86,7 @@ You do not need a complete fleet plan from minute one. Getting stable damage on 
 
 As pickups accumulate, assign roles—for example one main damage craft, one with a completely different weapon, one built around familiars or special modules, and one backup further back in formation.
 
-Using a high-quality item as a base means giving up its chance to become a special module on that craft, in exchange for more slots and better overall performance. What you are really building is not Qing herself, but the division of labor across the fleet. Craft types and compatibility details live on {{System:blueprint-air-flight}}.
+Using a high-quality item as a base means giving up its chance to become a special module on that craft, in exchange for more slots and better overall performance. What you are really building is not Qing herself, but the division of labor across the fleet. Compatibility details live on {{System:blueprint-air-flight}}.
 
 ## {{Collectible:619}}: Redundant Design
 

@@ -4,13 +4,49 @@ kind: collectible
 internalKey: Blue_Print
 title: 蓝图
 description: "别担心，我有图纸"
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>蓝图 Blueprint Blue_Print blue-print Blue Print Blue Print 别担心，我有图纸 Don&#x27;t worry, I&#x27;ve got the plans 使用后打开蓝图面板 将道具作为成本制造飞行器，或作为模块赋予其效果 飞行器拥有独立属性与攻击方式，仅受模块影响 飞行器需要占用控制带宽才能投入战斗 每个道具只能被蓝图占用一次 持有时有概率生成道具原型模块，可额外使用一次对应模块 可随时重新编队、拆装并返还成本 Use to open the Blueprint panel Assign an item as a Flight cost, or install it as a module Flights have independent stats and attacks, affected only by modules Active Flights consume control bandwidth Each item can only be assigned to Blueprint once While held, item prototype modules may appear, granting one extra use of that module Freely reorganize, uninstall modules, and reclaim costs</p>
+<p class="wiki-search-index" v-pre>蓝图 Blueprint Blue_Print blue-print Blue Print Blue Print 别担心，我有图纸 Don&#x27;t worry, I&#x27;ve got the plans 长按打开蓝图，制造并管理飞行器 底座决定机体性能，模块赋予攻击与特殊能力 控制带宽决定当前能够出战的机体 持有时有机会发现道具原型 Hold to open Blueprint and manage your craft fleet Base frames set craft power; modules grant attacks and abilities Control bandwidth limits how many crafts can fight at once While held, Item Prototypes may appear</p>
 
 <PublicEntry slug="blue-print" lang="zh" />
 
 ## 机制说明
 
-<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
+## 效果
 
-待撰写。
+蓝图是 {{Character:sp-w-qing}} 用来制造和管理机群的核心工具。
+
+长按蓝图打开管理面板，可以在三个页面之间切换：
+
+| 页面 | 用途 |
+| --- | --- |
+| 编队 | 决定哪些机体启用，以及有限控制带宽优先分配给谁 |
+| 制造 | 「新建设计」：为新的空行安排底座与模块 |
+| 仓库 | 查看已经制造的机体，重新改装或拆除 |
+
+短按蓝图不会打开面板，而会切换机群的**自动 / 压制**火控模式。
+
+完整的制造、模块、带宽与原型规则见 {{System:blueprint-air-flight}}。
+
+## 重新改装
+
+蓝图不会永久消耗用于制造的道具。
+
+作为底座或模块的真实道具仍然属于玩家，只是在当前配置中被蓝图占用。卸下模块、替换底座或拆除机体后，对应道具会重新变成可分配资源。
+
+已经制造完成的机体也可以再次进入仓库修改，因此不需要在第一次制造时决定整局最终配置。
+
+## 道具原型
+
+持有蓝图时，游戏中有机会出现 {{Pickup:blueprint-prototype}}。
+
+原型记录一件可以被蓝图使用的道具，并提供额外的一次模块安装机会；它不会增加玩家真正持有的道具数量，也不能作为机体底座。
+
+原型的生成与使用规则见 {{Pickup:blueprint-prototype}}。
+
+## 相关内容
+
+- {{Character:sp-w-qing}} — 以蓝图与机群作战的角色
+- {{System:blueprint-air-flight}} — 完整制造与舰队规则
+- {{Pickup:blueprint-prototype}} — 额外模块资源
+- {{Item:air-flight}} — Blueprint 的基础机体平台
