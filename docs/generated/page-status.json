@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T06:53:58Z",
+  "generatedAt": "2026-08-28T07:04:01Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1111,6 +1111,22 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/ember.md",
       "en": "wiki/docs/en/items/ember.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "cheaters-blessing",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/cheaters-blessing.md",
+      "en": "wiki/docs/en/items/cheaters-blessing.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
+      "slug": "the-voice",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/the-voice.md",
+      "en": "wiki/docs/en/items/the-voice.md",
       "zhStatus": "stub",
       "enStatus": "stub"
     },

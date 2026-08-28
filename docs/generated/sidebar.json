@@ -602,6 +602,14 @@
           {
             "text": "余烬",
             "link": "/items/ember"
+          },
+          {
+            "text": "作弊者的祝福",
+            "link": "/items/cheaters-blessing"
+          },
+          {
+            "text": "声音",
+            "link": "/items/the-voice"
           }
         ]
       }
@@ -1741,6 +1749,14 @@
           {
             "text": "Ember",
             "link": "/en/items/ember"
+          },
+          {
+            "text": "Cheater's Blessing",
+            "link": "/en/items/cheaters-blessing"
+          },
+          {
+            "text": "The Voice",
+            "link": "/en/items/the-voice"
           }
         ]
       }

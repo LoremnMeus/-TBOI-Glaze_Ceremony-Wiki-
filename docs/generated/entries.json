@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-28T06:53:58Z",
+  "generatedAt": "2026-08-28T07:04:01Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -296,6 +296,16 @@
         }
       }
     ],
+    "Spwq::custom_col_1784813595360": [
+      {
+        "slug": "more-options",
+        "kind": "collectible",
+        "names": {
+          "zh": "更多更多选择！",
+          "en": "More and more Options!"
+        }
+      }
+    ],
     "Tecro::Lamb": [
       {
         "slug": "ritual-sting",
@@ -586,6 +596,16 @@
         }
       }
     ],
+    "Lu::Hush": [
+      {
+        "slug": "deconstruction",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象解构",
+          "en": "Deconstruction"
+        }
+      }
+    ],
     "Lu::MomsHeart": [
       {
         "slug": "baby-lu",
@@ -704,6 +724,16 @@
         }
       }
     ],
+    "Zeis::Mother": [
+      {
+        "slug": "cheaters-blessing",
+        "kind": "collectible",
+        "names": {
+          "zh": "作弊者的祝福",
+          "en": "Cheater's Blessing"
+        }
+      }
+    ],
     "Zeiz::Isaac": [
       {
         "slug": "book-of-voice",
@@ -711,6 +741,14 @@
         "names": {
           "zh": "假象之书",
           "en": "Book of Voice"
+        }
+      },
+      {
+        "slug": "the-voice",
+        "kind": "collectible",
+        "names": {
+          "zh": "声音",
+          "en": "The Voice"
         }
       }
     ],
@@ -858,6 +896,16 @@
         }
       }
     ],
+    "Spwq::Greedier": [
+      {
+        "slug": "apocalypse",
+        "kind": "collectible",
+        "names": {
+          "zh": "世末天依",
+          "en": "Apocalypse"
+        }
+      }
+    ],
     "Anna::BossRush": [
       {
         "slug": "book-of-future",
@@ -935,6 +983,16 @@
         "names": {
           "zh": "XXI - 深邃?",
           "en": "XXI - Profound?"
+        }
+      }
+    ],
+    "Tecro::GreedMode": [
+      {
+        "slug": "qings-faceted-market-diamond",
+        "kind": "collectible",
+        "names": {
+          "zh": "钻石",
+          "en": "Diamond"
         }
       }
     ],
@@ -1151,6 +1209,16 @@
         "names": {
           "zh": "孤独",
           "en": "Loneliness"
+        }
+      }
+    ],
+    "Zeis::Beast": [
+      {
+        "slug": "fantastic-inspiration",
+        "kind": "collectible",
+        "names": {
+          "zh": "灵感",
+          "en": "Inspiration"
         }
       }
     ],
@@ -1404,6 +1472,16 @@
         }
       }
     ],
+    "SpecialUnlock::DefeatGlaze": [
+      {
+        "slug": "crown-of-the-glaze",
+        "kind": "collectible",
+        "names": {
+          "zh": "琉璃的冠冕",
+          "en": "Crown of the glaze"
+        }
+      }
+    ],
     "SpecialUnlock::DefeatZennith": [
       {
         "slug": "aphasia",
@@ -1411,6 +1489,16 @@
         "names": {
           "zh": "失语症",
           "en": "Aphasia"
+        }
+      }
+    ],
+    "SpecialUnlock::custom_event_1785574291152": [
+      {
+        "slug": "a-shard-of-coin",
+        "kind": "collectible",
+        "names": {
+          "zh": "铸币之余",
+          "en": "A Shard of Coin"
         }
       }
     ],
@@ -1926,6 +2014,16 @@
         }
       }
     ],
+    "SpecialUnlock::Dragon_Flight": [
+      {
+        "slug": "how-to-fly",
+        "kind": "collectible",
+        "names": {
+          "zh": "论如何飞行",
+          "en": "How to Fly"
+        }
+      }
+    ],
     "SpecialUnlock::Fans_Service": [
       {
         "slug": "fraternity",
@@ -2057,7 +2155,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用泰克罗完成超级撒旦",
-          "en": "Complete MegaSatan as Tecro"
+          "en": "Complete Mega Satan as Tecro"
         }
       },
       "characterBase": null,
@@ -2178,7 +2276,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用小青完成羔羊",
-          "en": "Complete Lamb as Qing"
+          "en": "Complete The Lamb as Qing"
         }
       },
       "characterBase": null,
@@ -2299,7 +2397,7 @@
         "conditionKey": "Tainted",
         "text": {
           "zh": "使用小青完成里角色/特殊",
-          "en": "Complete Tainted as Qing"
+          "en": "Complete Tainted / Special as Qing"
         }
       },
       "characterBase": null,
@@ -2553,7 +2651,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用小青完成Boss Rush",
-          "en": "Complete BossRush as Qing"
+          "en": "Complete Boss Rush as Qing"
         }
       },
       "characterBase": null,
@@ -2796,7 +2894,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用小青完成贪婪模式",
-          "en": "Complete GreedMode as Qing"
+          "en": "Complete Greed Mode as Qing"
         }
       },
       "characterBase": null,
@@ -2929,7 +3027,7 @@
         "conditionKey": "FullCompletion",
         "text": {
           "zh": "使用青完成全标记",
-          "en": "Complete FullCompletion as Qing"
+          "en": "Complete Full Completion as Qing"
         }
       },
       "characterBase": null,
@@ -3068,7 +3166,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用青完成???",
-          "en": "Complete BlueBaby as Qing"
+          "en": "Complete ??? as Qing"
         }
       },
       "characterBase": null,
@@ -3436,7 +3534,7 @@
         "conditionKey": "Beast",
         "text": {
           "zh": "使用青完成祸兽",
-          "en": "Complete Beast as Qing"
+          "en": "Complete The Beast as Qing"
         }
       },
       "characterBase": null,
@@ -3689,7 +3787,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用青完成超级撒旦",
-          "en": "Complete MegaSatan as Qing"
+          "en": "Complete Mega Satan as Qing"
         }
       },
       "characterBase": null,
@@ -3796,7 +3894,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "DefeatGlaze",
+        "text": {
+          "zh": "击败Glaze",
+          "en": "DefeatGlaze"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -3890,7 +3997,16 @@
         "noeden"
       ],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "custom_event_1785574291152",
+        "text": {
+          "zh": "击败乞丐国王",
+          "en": "custom event 1785574291152"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -4506,7 +4622,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用青完成超级撒旦",
-          "en": "Complete MegaSatan as Qing"
+          "en": "Complete Mega Satan as Qing"
         }
       },
       "characterBase": null,
@@ -4627,7 +4743,7 @@
         "conditionKey": "Beast",
         "text": {
           "zh": "使用安奈完成祸兽",
-          "en": "Complete Beast as Anna"
+          "en": "Complete The Beast as Anna"
         }
       },
       "characterBase": null,
@@ -4886,7 +5002,7 @@
         "conditionKey": "FullCompletion",
         "text": {
           "zh": "使用青完成全标记",
-          "en": "Complete FullCompletion as Qing"
+          "en": "Complete Full Completion as Qing"
         }
       },
       "characterBase": null,
@@ -5014,7 +5130,7 @@
         "conditionKey": "custom_col_1784813595360",
         "text": {
           "zh": "使用小青完成琉璃王子（结局2）",
-          "en": "Complete custom_col_1784813595360 as Qing"
+          "en": "Complete 琉璃王子（结局2） as Qing"
         }
       },
       "characterBase": null,
@@ -5411,7 +5527,7 @@
         "conditionKey": "custom_col_1784813595360",
         "text": {
           "zh": "使用泽伊兹完成琉璃王子（结局2）",
-          "en": "Complete custom_col_1784813595360 as Zeiz"
+          "en": "Complete 琉璃王子（结局2） as Zeiz"
         }
       },
       "characterBase": null,
@@ -5526,7 +5642,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用青完成究极贪婪",
+          "en": "Complete Greedier as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -5644,8 +5769,8 @@
         "characterKey": "Marriano",
         "conditionKey": "BossRush",
         "text": {
-          "zh": "使用Marriano完成Boss Rush",
-          "en": "Complete BossRush as Marriano"
+          "zh": "使用玛丽亚诺完成Boss Rush",
+          "en": "Complete Boss Rush as Marriano"
         }
       },
       "characterBase": null,
@@ -5772,7 +5897,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用泰克罗罗恩完成羔羊",
-          "en": "Complete Lamb as Tecrorun"
+          "en": "Complete The Lamb as Tecrorun"
         }
       },
       "characterBase": null,
@@ -5879,7 +6004,7 @@
         "characterKey": "Marriano",
         "conditionKey": "Satan",
         "text": {
-          "zh": "使用Marriano完成撒旦",
+          "zh": "使用玛丽亚诺完成撒旦",
           "en": "Complete Satan as Marriano"
         }
       },
@@ -5982,7 +6107,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Spwq",
+        "conditionKey": "custom_col_1784813595360",
+        "text": {
+          "zh": "使用青完成琉璃王子（结局2）",
+          "en": "Complete 琉璃王子（结局2） as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -6094,7 +6228,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用青完成贪婪模式",
-          "en": "Complete GreedMode as Qing"
+          "en": "Complete Greed Mode as Qing"
         }
       },
       "characterBase": null,
@@ -6227,7 +6361,7 @@
         "conditionKey": "Tainted",
         "text": {
           "zh": "使用小青完成里角色/特殊",
-          "en": "Complete Tainted as Qing"
+          "en": "Complete Tainted / Special as Qing"
         }
       },
       "characterBase": null,
@@ -6468,7 +6602,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用泰克罗完成Boss Rush",
-          "en": "Complete BossRush as Tecro"
+          "en": "Complete Boss Rush as Tecro"
         }
       },
       "characterBase": null,
@@ -6601,7 +6735,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用安娜完成???",
-          "en": "Complete BlueBaby as Anna"
+          "en": "Complete ??? as Anna"
         }
       },
       "characterBase": null,
@@ -6710,7 +6844,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用泽伊兹完成羔羊",
-          "en": "Complete Lamb as Zeiz"
+          "en": "Complete The Lamb as Zeiz"
         }
       },
       "characterBase": null,
@@ -6837,7 +6971,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用安娜完成Boss Rush",
-          "en": "Complete BossRush as Anna"
+          "en": "Complete Boss Rush as Anna"
         }
       },
       "characterBase": null,
@@ -7077,7 +7211,7 @@
         "characterKey": "Autio",
         "conditionKey": "Mother",
         "text": {
-          "zh": "使用Autio完成母亲",
+          "zh": "使用艾提奥完成母亲",
           "en": "Complete Mother as Autio"
         }
       },
@@ -7188,7 +7322,7 @@
         "conditionKey": "custom_col_1784813595360",
         "text": {
           "zh": "使用安娜完成琉璃王子（结局2）",
-          "en": "Complete custom_col_1784813595360 as Anna"
+          "en": "Complete 琉璃王子（结局2） as Anna"
         }
       },
       "characterBase": null,
@@ -7999,7 +8133,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用泽伊斯托斯完成超级撒旦",
-          "en": "Complete MegaSatan as Zeis"
+          "en": "Complete Mega Satan as Zeis"
         }
       },
       "characterBase": null,
@@ -8253,7 +8387,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用泽伊兹完成贪婪模式",
-          "en": "Complete GreedMode as Zeiz"
+          "en": "Complete Greed Mode as Zeiz"
         }
       },
       "characterBase": null,
@@ -8368,7 +8502,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用泽伊兹完成贪婪模式",
-          "en": "Complete GreedMode as Zeiz"
+          "en": "Complete Greed Mode as Zeiz"
         }
       },
       "characterBase": null,
@@ -8483,7 +8617,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用泽伊兹完成贪婪模式",
-          "en": "Complete GreedMode as Zeiz"
+          "en": "Complete Greed Mode as Zeiz"
         }
       },
       "characterBase": null,
@@ -8592,7 +8726,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用安奈完成Boss Rush",
-          "en": "Complete BossRush as Anna"
+          "en": "Complete Boss Rush as Anna"
         }
       },
       "characterBase": null,
@@ -8712,7 +8846,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用安奈完成Boss Rush",
-          "en": "Complete BossRush as Anna"
+          "en": "Complete Boss Rush as Anna"
         }
       },
       "characterBase": null,
@@ -8978,7 +9112,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用泰克罗罗恩完成???",
-          "en": "Complete BlueBaby as Tecrorun"
+          "en": "Complete ??? as Tecrorun"
         }
       },
       "characterBase": null,
@@ -9098,7 +9232,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用青完成羔羊",
-          "en": "Complete Lamb as Qing"
+          "en": "Complete The Lamb as Qing"
         }
       },
       "characterBase": null,
@@ -9485,7 +9619,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用泽伊兹完成???",
-          "en": "Complete BlueBaby as Zeiz"
+          "en": "Complete ??? as Zeiz"
         }
       },
       "characterBase": null,
@@ -9896,7 +10030,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用安奈完成羔羊",
-          "en": "Complete Lamb as Anna"
+          "en": "Complete The Lamb as Anna"
         }
       },
       "characterBase": null,
@@ -10034,7 +10168,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用泽伊斯托斯完成超级撒旦",
-          "en": "Complete MegaSatan as Zeis"
+          "en": "Complete Mega Satan as Zeis"
         }
       },
       "characterBase": null,
@@ -10173,7 +10307,7 @@
         "conditionKey": "Beast",
         "text": {
           "zh": "使用泽伊兹完成祸兽",
-          "en": "Complete Beast as Zeiz"
+          "en": "Complete The Beast as Zeiz"
         }
       },
       "characterBase": null,
@@ -10408,7 +10542,7 @@
         "characterKey": "Lu",
         "conditionKey": "Satan",
         "text": {
-          "zh": "使用Lu完成撒旦",
+          "zh": "使用露完成撒旦",
           "en": "Complete Satan as Lu"
         }
       },
@@ -10656,7 +10790,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用泰克罗完成???",
-          "en": "Complete BlueBaby as Tecro"
+          "en": "Complete ??? as Tecro"
         }
       },
       "characterBase": null,
@@ -10783,7 +10917,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用小青完成超级撒旦",
-          "en": "Complete MegaSatan as Qing"
+          "en": "Complete Mega Satan as Qing"
         }
       },
       "characterBase": null,
@@ -11036,8 +11170,8 @@
         "characterKey": "Autio",
         "conditionKey": "Lamb",
         "text": {
-          "zh": "使用Autio完成羔羊",
-          "en": "Complete Lamb as Autio"
+          "zh": "使用艾提奥完成羔羊",
+          "en": "Complete The Lamb as Autio"
         }
       },
       "characterBase": null,
@@ -11157,7 +11291,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用泽伊斯托斯完成???",
-          "en": "Complete BlueBaby as Zeis"
+          "en": "Complete ??? as Zeis"
         }
       },
       "characterBase": null,
@@ -11277,7 +11411,7 @@
         "conditionKey": "FullCompletion",
         "text": {
           "zh": "使用青完成全标记",
-          "en": "Complete FullCompletion as Qing"
+          "en": "Complete Full Completion as Qing"
         }
       },
       "characterBase": null,
@@ -11551,7 +11685,7 @@
         "conditionKey": "Beast",
         "text": {
           "zh": "使用小青完成祸兽",
-          "en": "Complete Beast as Qing"
+          "en": "Complete The Beast as Qing"
         }
       },
       "characterBase": null,
@@ -11817,7 +11951,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用青完成Boss Rush",
-          "en": "Complete BossRush as Qing"
+          "en": "Complete Boss Rush as Qing"
         }
       },
       "characterBase": null,
@@ -11950,7 +12084,7 @@
         "characterKey": "Marriano",
         "conditionKey": "Delirium",
         "text": {
-          "zh": "使用Marriano完成精神错乱",
+          "zh": "使用玛丽亚诺完成精神错乱",
           "en": "Complete Delirium as Marriano"
         }
       },
@@ -12096,7 +12230,7 @@
         "characterKey": "Marriano",
         "conditionKey": "Hush",
         "text": {
-          "zh": "使用Marriano完成死寂",
+          "zh": "使用玛丽亚诺完成死寂",
           "en": "Complete Hush as Marriano"
         }
       },
@@ -12213,7 +12347,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Lu",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用露完成死寂",
+          "en": "Complete Hush as Lu"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -12462,7 +12605,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用泰克罗罗恩完成贪婪模式",
-          "en": "Complete GreedMode as Tecrorun"
+          "en": "Complete Greed Mode as Tecrorun"
         }
       },
       "characterBase": null,
@@ -12703,7 +12846,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用泽伊斯托斯完成Boss Rush",
-          "en": "Complete BossRush as Zeis"
+          "en": "Complete Boss Rush as Zeis"
         }
       },
       "characterBase": null,
@@ -12818,7 +12961,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用安奈完成超级撒旦",
-          "en": "Complete MegaSatan as Anna"
+          "en": "Complete Mega Satan as Anna"
         }
       },
       "characterBase": null,
@@ -12950,8 +13093,8 @@
         "characterKey": "Lu",
         "conditionKey": "Lamb",
         "text": {
-          "zh": "使用Lu完成羔羊",
-          "en": "Complete Lamb as Lu"
+          "zh": "使用露完成羔羊",
+          "en": "Complete The Lamb as Lu"
         }
       },
       "characterBase": null,
@@ -13083,7 +13226,7 @@
         "conditionKey": "Beast",
         "text": {
           "zh": "使用泰克罗完成祸兽",
-          "en": "Complete Beast as Tecro"
+          "en": "Complete The Beast as Tecro"
         }
       },
       "characterBase": null,
@@ -13337,7 +13480,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用安娜完成超级撒旦",
-          "en": "Complete MegaSatan as Anna"
+          "en": "Complete Mega Satan as Anna"
         }
       },
       "characterBase": null,
@@ -13450,7 +13593,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "characterKey": null,
+        "conditionKey": "Dragon_Flight",
+        "text": {
+          "zh": "挑战：飞龙在天",
+          "en": "Dragon Flight"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -13812,7 +13964,7 @@
         "characterKey": "Autio",
         "conditionKey": "Hush",
         "text": {
-          "zh": "使用Autio完成死寂",
+          "zh": "使用艾提奥完成死寂",
           "en": "Complete Hush as Autio"
         }
       },
@@ -13953,7 +14105,7 @@
         "characterKey": "Lu",
         "conditionKey": "Isaac",
         "text": {
-          "zh": "使用Lu完成以撒",
+          "zh": "使用露完成以撒",
           "en": "Complete Isaac as Lu"
         }
       },
@@ -14079,8 +14231,8 @@
         "characterKey": "Marriano",
         "conditionKey": "BlueBaby",
         "text": {
-          "zh": "使用Marriano完成???",
-          "en": "Complete BlueBaby as Marriano"
+          "zh": "使用玛丽亚诺完成???",
+          "en": "Complete ??? as Marriano"
         }
       },
       "characterBase": null,
@@ -14211,8 +14363,8 @@
         "characterKey": "Autio",
         "conditionKey": "BlueBaby",
         "text": {
-          "zh": "使用Autio完成???",
-          "en": "Complete BlueBaby as Autio"
+          "zh": "使用艾提奥完成???",
+          "en": "Complete ??? as Autio"
         }
       },
       "characterBase": null,
@@ -14319,8 +14471,8 @@
         "characterKey": "Marriano",
         "conditionKey": "Lamb",
         "text": {
-          "zh": "使用Marriano完成羔羊",
-          "en": "Complete Lamb as Marriano"
+          "zh": "使用玛丽亚诺完成羔羊",
+          "en": "Complete The Lamb as Marriano"
         }
       },
       "characterBase": null,
@@ -14457,8 +14609,8 @@
         "characterKey": "Marriano",
         "conditionKey": "Lamb",
         "text": {
-          "zh": "使用Marriano完成羔羊",
-          "en": "Complete Lamb as Marriano"
+          "zh": "使用玛丽亚诺完成羔羊",
+          "en": "Complete The Lamb as Marriano"
         }
       },
       "characterBase": null,
@@ -14591,7 +14743,7 @@
         "conditionKey": "custom_col_1784813595360",
         "text": {
           "zh": "使用泰克罗罗恩完成琉璃王子（结局2）",
-          "en": "Complete custom_col_1784813595360 as Tecrorun"
+          "en": "Complete 琉璃王子（结局2） as Tecrorun"
         }
       },
       "characterBase": null,
@@ -14723,13 +14875,13 @@
         }
       ],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Eden::GlazeHard",
+        "characterKey": "Eden",
+        "conditionKey": "GlazeHard",
         "text": {
-          "zh": "使用Boss完成Eden::GlazeHard",
-          "en": "Complete Eden::GlazeHard as Boss"
+          "zh": "使用伊甸完成琉璃（困难）",
+          "en": "Complete Glaze (Hard) as 伊甸"
         }
       },
       "characterBase": null,
@@ -14856,13 +15008,13 @@
         }
       ],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Isaac::GlazeHard",
+        "characterKey": "Isaac",
+        "conditionKey": "GlazeHard",
         "text": {
-          "zh": "使用Boss完成Isaac::GlazeHard",
-          "en": "Complete Isaac::GlazeHard as Boss"
+          "zh": "使用以撒完成琉璃（困难）",
+          "en": "Complete Glaze (Hard) as 以撒"
         }
       },
       "characterBase": null,
@@ -15007,8 +15159,8 @@
         "characterKey": "Lu",
         "conditionKey": "BlueBaby",
         "text": {
-          "zh": "使用Lu完成???",
-          "en": "Complete BlueBaby as Lu"
+          "zh": "使用露完成???",
+          "en": "Complete ??? as Lu"
         }
       },
       "characterBase": null,
@@ -15116,7 +15268,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用泰克罗完成羔羊",
-          "en": "Complete Lamb as Tecro"
+          "en": "Complete The Lamb as Tecro"
         }
       },
       "characterBase": null,
@@ -15273,7 +15425,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用泽伊斯托斯完成羔羊",
-          "en": "Complete Lamb as Zeis"
+          "en": "Complete The Lamb as Zeis"
         }
       },
       "characterBase": null,
@@ -15410,8 +15562,8 @@
         "characterKey": "Autio",
         "conditionKey": "BossRush",
         "text": {
-          "zh": "使用Autio完成Boss Rush",
-          "en": "Complete BossRush as Autio"
+          "zh": "使用艾提奥完成Boss Rush",
+          "en": "Complete Boss Rush as Autio"
         }
       },
       "characterBase": null,
@@ -15545,7 +15697,7 @@
         "conditionKey": "MegaSatan",
         "text": {
           "zh": "使用Noia完成超级撒旦",
-          "en": "Complete MegaSatan as Noia"
+          "en": "Complete Mega Satan as Noia"
         }
       },
       "characterBase": null,
@@ -15678,7 +15830,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用泰克罗罗恩完成Boss Rush",
-          "en": "Complete BossRush as Tecrorun"
+          "en": "Complete Boss Rush as Tecrorun"
         }
       },
       "characterBase": null,
@@ -15785,7 +15937,7 @@
         "characterKey": "Marriano",
         "conditionKey": "Isaac",
         "text": {
-          "zh": "使用Marriano完成以撒",
+          "zh": "使用玛丽亚诺完成以撒",
           "en": "Complete Isaac as Marriano"
         }
       },
@@ -15914,7 +16066,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用安奈完成???",
-          "en": "Complete BlueBaby as Anna"
+          "en": "Complete ??? as Anna"
         }
       },
       "characterBase": null,
@@ -16016,13 +16168,13 @@
         }
       ],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "BlueBaby::GlazeHard",
+        "characterKey": "BlueBaby",
+        "conditionKey": "GlazeHard",
         "text": {
-          "zh": "使用Boss完成BlueBaby::GlazeHard",
-          "en": "Complete BlueBaby::GlazeHard as Boss"
+          "zh": "使用???完成琉璃（困难）",
+          "en": "Complete Glaze (Hard) as ???"
         }
       },
       "characterBase": null,
@@ -16426,7 +16578,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用安娜完成羔羊",
-          "en": "Complete Lamb as Anna"
+          "en": "Complete The Lamb as Anna"
         }
       },
       "characterBase": null,
@@ -16540,7 +16692,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用泽伊斯托斯完成祸兽",
+          "en": "Complete The Beast as Zeis"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -16676,7 +16837,7 @@
         "characterKey": "Lu",
         "conditionKey": "Mother",
         "text": {
-          "zh": "使用Lu完成母亲",
+          "zh": "使用露完成母亲",
           "en": "Complete Mother as Lu"
         }
       },
@@ -16798,7 +16959,7 @@
         "conditionKey": "BossRush",
         "text": {
           "zh": "使用泽伊兹完成Boss Rush",
-          "en": "Complete BossRush as Zeiz"
+          "en": "Complete Boss Rush as Zeiz"
         }
       },
       "characterBase": null,
@@ -16906,7 +17067,7 @@
         "conditionKey": "Lamb",
         "text": {
           "zh": "使用青完成羔羊",
-          "en": "Complete Lamb as Qing"
+          "en": "Complete The Lamb as Qing"
         }
       },
       "characterBase": null,
@@ -17021,7 +17182,7 @@
         "conditionKey": "MomsHeart",
         "text": {
           "zh": "使用泰克罗罗恩完成妈妈的心",
-          "en": "Complete MomsHeart as Tecrorun"
+          "en": "Complete Mom's Heart as Tecrorun"
         }
       },
       "characterBase": null,
@@ -17142,7 +17303,7 @@
         "conditionKey": "MomsHeart",
         "text": {
           "zh": "使用安奈完成妈妈的心",
-          "en": "Complete MomsHeart as Anna"
+          "en": "Complete Mom's Heart as Anna"
         }
       },
       "characterBase": null,
@@ -17257,7 +17418,7 @@
         "conditionKey": "MomsHeart",
         "text": {
           "zh": "使用泽伊兹完成妈妈的心",
-          "en": "Complete MomsHeart as Zeiz"
+          "en": "Complete Mom's Heart as Zeiz"
         }
       },
       "characterBase": null,
@@ -17371,8 +17532,8 @@
         "characterKey": "Marriano",
         "conditionKey": "MomsHeart",
         "text": {
-          "zh": "使用Marriano完成妈妈的心",
-          "en": "Complete MomsHeart as Marriano"
+          "zh": "使用玛丽亚诺完成妈妈的心",
+          "en": "Complete Mom's Heart as Marriano"
         }
       },
       "characterBase": null,
@@ -17486,8 +17647,8 @@
         "characterKey": "Autio",
         "conditionKey": "MomsHeart",
         "text": {
-          "zh": "使用Autio完成妈妈的心",
-          "en": "Complete MomsHeart as Autio"
+          "zh": "使用艾提奥完成妈妈的心",
+          "en": "Complete Mom's Heart as Autio"
         }
       },
       "characterBase": null,
@@ -17602,8 +17763,8 @@
         "characterKey": "Lu",
         "conditionKey": "MomsHeart",
         "text": {
-          "zh": "使用Lu完成妈妈的心",
-          "en": "Complete MomsHeart as Lu"
+          "zh": "使用露完成妈妈的心",
+          "en": "Complete Mom's Heart as Lu"
         }
       },
       "characterBase": null,
@@ -17717,7 +17878,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用小青完成???",
-          "en": "Complete BlueBaby as Qing"
+          "en": "Complete ??? as Qing"
         }
       },
       "characterBase": null,
@@ -17842,7 +18003,7 @@
         "characterKey": "Autio",
         "conditionKey": "Satan",
         "text": {
-          "zh": "使用Autio完成撒旦",
+          "zh": "使用艾提奥完成撒旦",
           "en": "Complete Satan as Autio"
         }
       },
@@ -17963,7 +18124,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用安娜完成贪婪模式",
-          "en": "Complete GreedMode as Anna"
+          "en": "Complete Greed Mode as Anna"
         }
       },
       "characterBase": null,
@@ -18309,7 +18470,7 @@
         "conditionKey": "BlueBaby",
         "text": {
           "zh": "使用Noia完成???",
-          "en": "Complete BlueBaby as Noia"
+          "en": "Complete ??? as Noia"
         }
       },
       "characterBase": null,
@@ -18429,7 +18590,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用Noia完成贪婪模式",
-          "en": "Complete GreedMode as Noia"
+          "en": "Complete Greed Mode as Noia"
         }
       },
       "characterBase": null,
@@ -18548,7 +18709,7 @@
         "characterKey": "Autio",
         "conditionKey": "Delirium",
         "text": {
-          "zh": "使用Autio完成精神错乱",
+          "zh": "使用艾提奥完成精神错乱",
           "en": "Complete Delirium as Autio"
         }
       },
@@ -18657,7 +18818,7 @@
         "characterKey": "Marriano",
         "conditionKey": "Mother",
         "text": {
-          "zh": "使用Marriano完成母亲",
+          "zh": "使用玛丽亚诺完成母亲",
           "en": "Complete Mother as Marriano"
         }
       },
@@ -18759,7 +18920,16 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Tecro",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用泰克罗完成贪婪模式",
+          "en": "Complete Greed Mode as Tecro"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -18871,8 +19041,8 @@
         "characterKey": "Lu",
         "conditionKey": "Beast",
         "text": {
-          "zh": "使用Lu完成祸兽",
-          "en": "Complete Beast as Lu"
+          "zh": "使用露完成祸兽",
+          "en": "Complete The Beast as Lu"
         }
       },
       "characterBase": null,
@@ -18998,7 +19168,7 @@
         "characterKey": "Autio",
         "conditionKey": "Isaac",
         "text": {
-          "zh": "使用Autio完成以撒",
+          "zh": "使用艾提奥完成以撒",
           "en": "Complete Isaac as Autio"
         }
       },
@@ -19124,8 +19294,8 @@
         "characterKey": "Autio",
         "conditionKey": "Beast",
         "text": {
-          "zh": "使用Autio完成祸兽",
-          "en": "Complete Beast as Autio"
+          "zh": "使用艾提奥完成祸兽",
+          "en": "Complete The Beast as Autio"
         }
       },
       "characterBase": null,
@@ -19335,6 +19505,209 @@
       }
     },
     {
+      "slug": "cheaters-blessing",
+      "kind": "collectible",
+      "internalKey": "Cheater_s_Blessing",
+      "xmlId": 101,
+      "xmlName": "Cheater's Blessing",
+      "itemType": "passive",
+      "quality": 4,
+      "tags": [
+        "offensive",
+        "summonable"
+      ],
+      "pools": [],
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeis",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用泽伊斯托斯完成母亲",
+          "en": "Complete Mother as Zeis"
+        }
+      },
+      "characterBase": null,
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "作弊者的祝福",
+        "en": "Cheater's Blessing"
+      },
+      "desc": {
+        "zh": "你打得也太好了！",
+        "en": "I'm so glad that you cheat so many times"
+      },
+      "eid": {
+        "zh": "只会在一局游戏中输入rewind指令第3次后生成#拾取时获得一层{{Collectible313}}#全属性极小幅上升",
+        "en": "It will only be generated after entering the rewind command for the third time in a game#Obtain one {{Collectible313}} when pickup#Stats up very very small"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "受伤后使用{{Collectible422}}",
+        "en": "Use {{Collectible422}} on getting hit"
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/cheaters-blessing.png",
+      "thumb32": "/generated/images/cheaters-blessing_32.webp",
+      "thumb32Png": "/generated/images/cheaters-blessing_32.png",
+      "thumb64": "/generated/images/cheaters-blessing_64.webp",
+      "thumb64Png": "/generated/images/cheaters-blessing_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 352,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "the-voice",
+      "kind": "collectible",
+      "internalKey": "The_Voice",
+      "xmlId": 170,
+      "xmlName": "The Voice",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [
+        "offensive"
+      ],
+      "pools": [],
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "characterKey": "Zeiz",
+        "conditionKey": "Isaac",
+        "text": {
+          "zh": "使用泽伊兹完成以撒",
+          "en": "Complete Isaac as Zeiz"
+        }
+      },
+      "characterBase": null,
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "声音",
+        "en": "The Voice"
+      },
+      "desc": {
+        "zh": "现在，只剩我们两个了",
+        "en": "Now it's just the two of us"
+      },
+      "eid": {
+        "zh": "它已经不再需要那本书#低语响起时，主动栏会留下声音的虚影#{{Collectible}} 使用虚影即可回应低语#确认交易后立即支付要求并获得许诺",
+        "en": "It no longer needs the book#When a whisper starts, a phantom remains in the active slot#{{Collectible}} Use the phantom to answer#Confirming pays the demand and grants the promise immediately"
+      },
+      "seijaBuff": {
+        "zh": "拒绝低语时获得较小的替代报酬",
+        "en": "Refusing a whisper grants a small substitute reward"
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "回应低语时生成假象魂火#魂火存在时，低语提出的要求降低一级，许诺不变",
+        "en": "Answering a whisper spawns an illusion wisp#While it lasts, the whisper's demand drops by one tier; the promise stays the same"
+      },
+      "bookOfBelial": {
+        "zh": "低语面板中额外出现“加倍接受”#支付更大的代价，并获得更高的许诺",
+        "en": "The whisper panel gains Double Accept#Pay a greater cost for a greater promise"
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/the-voice.png",
+      "thumb32": "/generated/images/the-voice_32.webp",
+      "thumb32Png": "/generated/images/the-voice_32.png",
+      "thumb64": "/generated/images/the-voice_64.webp",
+      "thumb64Png": "/generated/images/the-voice_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 384,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "internalKey": "Pacification_Mark",
@@ -19351,7 +19724,7 @@
         "conditionKey": "GreedMode",
         "text": {
           "zh": "使用泽伊斯托斯完成贪婪模式",
-          "en": "Complete GreedMode as Zeis"
+          "en": "Complete Greed Mode as Zeis"
         }
       },
       "characterBase": null,
@@ -19427,7 +19800,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 416,
         "y": 256,
         "w": 32,
         "h": 32
@@ -19526,7 +19899,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 448,
         "y": 256,
         "w": 32,
         "h": 32
@@ -19625,7 +19998,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 480,
         "y": 256,
         "w": 32,
         "h": 32
@@ -19724,8 +20097,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 256,
+        "x": 0,
+        "y": 288,
         "w": 32,
         "h": 32
       }
@@ -19823,8 +20196,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 256,
+        "x": 32,
+        "y": 288,
         "w": 32,
         "h": 32
       }
@@ -19846,7 +20219,7 @@
         "conditionKey": "custom_col_1784816386034",
         "text": {
           "zh": "使用泰克罗完成六使徒（结局3）",
-          "en": "Complete custom_col_1784816386034 as Tecro"
+          "en": "Complete 六使徒（结局3） as Tecro"
         }
       },
       "characterBase": null,
@@ -19922,7 +20295,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 64,
         "y": 288,
         "w": 32,
         "h": 32
@@ -19945,7 +20318,7 @@
         "conditionKey": "custom_col_1784816386034",
         "text": {
           "zh": "使用安娜完成六使徒（结局3）",
-          "en": "Complete custom_col_1784816386034 as Anna"
+          "en": "Complete 六使徒（结局3） as Anna"
         }
       },
       "characterBase": null,
@@ -20021,7 +20394,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 96,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20044,7 +20417,7 @@
         "conditionKey": "custom_col_1784816386034",
         "text": {
           "zh": "使用泽伊斯托斯完成六使徒（结局3）",
-          "en": "Complete custom_col_1784816386034 as Zeis"
+          "en": "Complete 六使徒（结局3） as Zeis"
         }
       },
       "characterBase": null,
@@ -20120,7 +20493,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 128,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20142,8 +20515,8 @@
         "characterKey": "Marriano",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用Marriano完成六使徒（结局3）",
-          "en": "Complete custom_col_1784816386034 as Marriano"
+          "zh": "使用玛丽亚诺完成六使徒（结局3）",
+          "en": "Complete 六使徒（结局3） as Marriano"
         }
       },
       "characterBase": null,
@@ -20219,7 +20592,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 160,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20241,8 +20614,8 @@
         "characterKey": "Autio",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用Autio完成六使徒（结局3）",
-          "en": "Complete custom_col_1784816386034 as Autio"
+          "zh": "使用艾提奥完成六使徒（结局3）",
+          "en": "Complete 六使徒（结局3） as Autio"
         }
       },
       "characterBase": null,
@@ -20318,7 +20691,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 192,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20340,8 +20713,8 @@
         "characterKey": "Lu",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用Lu完成六使徒（结局3）",
-          "en": "Complete custom_col_1784816386034 as Lu"
+          "zh": "使用露完成六使徒（结局3）",
+          "en": "Complete 六使徒（结局3） as Lu"
         }
       },
       "characterBase": null,
@@ -20417,7 +20790,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 224,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20516,7 +20889,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 256,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20538,8 +20911,8 @@
         "characterKey": "Autio",
         "conditionKey": "GreedMode",
         "text": {
-          "zh": "使用Autio完成贪婪模式",
-          "en": "Complete GreedMode as Autio"
+          "zh": "使用艾提奥完成贪婪模式",
+          "en": "Complete Greed Mode as Autio"
         }
       },
       "characterBase": null,
@@ -20615,7 +20988,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 288,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20637,8 +21010,8 @@
         "characterKey": "Marriano",
         "conditionKey": "GreedMode",
         "text": {
-          "zh": "使用Marriano完成贪婪模式",
-          "en": "Complete GreedMode as Marriano"
+          "zh": "使用玛丽亚诺完成贪婪模式",
+          "en": "Complete Greed Mode as Marriano"
         }
       },
       "characterBase": null,
@@ -20714,7 +21087,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 320,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20736,8 +21109,8 @@
         "characterKey": "Lu",
         "conditionKey": "GreedMode",
         "text": {
-          "zh": "使用Lu完成贪婪模式",
-          "en": "Complete GreedMode as Lu"
+          "zh": "使用露完成贪婪模式",
+          "en": "Complete Greed Mode as Lu"
         }
       },
       "characterBase": null,
@@ -20813,7 +21186,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 352,
         "y": 288,
         "w": 32,
         "h": 32
@@ -20912,7 +21285,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 384,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21002,7 +21375,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 416,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21101,7 +21474,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 448,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21200,7 +21573,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 480,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21217,13 +21590,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Isaac::custom_col_1785574945065",
+        "characterKey": "Isaac",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Isaac::custom_col_1785574945065",
-          "en": "Complete Isaac::custom_col_1785574945065 as Boss"
+          "zh": "使用以撒完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 以撒"
         }
       },
       "characterBase": null,
@@ -21299,8 +21672,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 288,
+        "x": 0,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -21316,13 +21689,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Eve::custom_col_1785574945065",
+        "characterKey": "Eve",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Eve::custom_col_1785574945065",
-          "en": "Complete Eve::custom_col_1785574945065 as Boss"
+          "zh": "使用夏娃完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 夏娃"
         }
       },
       "characterBase": null,
@@ -21398,8 +21771,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 288,
+        "x": 32,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -21415,13 +21788,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Eve::custom_col_1785574945065",
+        "characterKey": "Eve",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Eve::custom_col_1785574945065",
-          "en": "Complete Eve::custom_col_1785574945065 as Boss"
+          "zh": "使用夏娃完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 夏娃"
         }
       },
       "characterBase": null,
@@ -21497,7 +21870,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 64,
         "y": 320,
         "w": 32,
         "h": 32
@@ -21514,13 +21887,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Eve::custom_col_1785574945065",
+        "characterKey": "Eve",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Eve::custom_col_1785574945065",
-          "en": "Complete Eve::custom_col_1785574945065 as Boss"
+          "zh": "使用夏娃完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 夏娃"
         }
       },
       "characterBase": null,
@@ -21596,7 +21969,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 96,
         "y": 320,
         "w": 32,
         "h": 32
@@ -21613,13 +21986,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Bethany::custom_col_1785574945065",
+        "characterKey": "Bethany",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Bethany::custom_col_1785574945065",
-          "en": "Complete Bethany::custom_col_1785574945065 as Boss"
+          "zh": "使用伯大尼完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 伯大尼"
         }
       },
       "characterBase": null,
@@ -21695,7 +22068,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 128,
         "y": 320,
         "w": 32,
         "h": 32
@@ -21712,13 +22085,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Lilith::custom_col_1785574945065",
+        "characterKey": "Lilith",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Lilith::custom_col_1785574945065",
-          "en": "Complete Lilith::custom_col_1785574945065 as Boss"
+          "zh": "使用莉莉丝完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 莉莉丝"
         }
       },
       "characterBase": null,
@@ -21794,7 +22167,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 160,
         "y": 320,
         "w": 32,
         "h": 32
@@ -21811,13 +22184,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Judas::custom_col_1785574945065",
+        "characterKey": "Judas",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Judas::custom_col_1785574945065",
-          "en": "Complete Judas::custom_col_1785574945065 as Boss"
+          "zh": "使用犹大完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 犹大"
         }
       },
       "characterBase": null,
@@ -21893,7 +22266,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -21910,13 +22283,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Cain::custom_col_1785574945065",
+        "characterKey": "Cain",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Cain::custom_col_1785574945065",
-          "en": "Complete Cain::custom_col_1785574945065 as Boss"
+          "zh": "使用该隐完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 该隐"
         }
       },
       "characterBase": null,
@@ -21992,7 +22365,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22009,13 +22382,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Magdalene::custom_col_1785574945065",
+        "characterKey": "Magdalene",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Magdalene::custom_col_1785574945065",
-          "en": "Complete Magdalene::custom_col_1785574945065 as Boss"
+          "zh": "使用抹大拉完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 抹大拉"
         }
       },
       "characterBase": null,
@@ -22091,7 +22464,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22108,13 +22481,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Samson::custom_col_1785574945065",
+        "characterKey": "Samson",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Samson::custom_col_1785574945065",
-          "en": "Complete Samson::custom_col_1785574945065 as Boss"
+          "zh": "使用参孙完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 参孙"
         }
       },
       "characterBase": null,
@@ -22190,7 +22563,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22207,13 +22580,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Cain::custom_col_1785574945065",
+        "characterKey": "Cain",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Cain::custom_col_1785574945065",
-          "en": "Complete Cain::custom_col_1785574945065 as Boss"
+          "zh": "使用该隐完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 该隐"
         }
       },
       "characterBase": null,
@@ -22289,7 +22662,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22306,13 +22679,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Keeper::custom_col_1785574945065",
+        "characterKey": "Keeper",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Keeper::custom_col_1785574945065",
-          "en": "Complete Keeper::custom_col_1785574945065 as Boss"
+          "zh": "使用店主完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 店主"
         }
       },
       "characterBase": null,
@@ -22388,7 +22761,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22405,13 +22778,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "JacobEsau::custom_col_1785574945065",
+        "characterKey": "JacobEsau",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成JacobEsau::custom_col_1785574945065",
-          "en": "Complete JacobEsau::custom_col_1785574945065 as Boss"
+          "zh": "使用雅各和以扫完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 雅各和以扫"
         }
       },
       "characterBase": null,
@@ -22487,7 +22860,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22504,13 +22877,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Samson::custom_col_1785574945065",
+        "characterKey": "Samson",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Samson::custom_col_1785574945065",
-          "en": "Complete Samson::custom_col_1785574945065 as Boss"
+          "zh": "使用参孙完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 参孙"
         }
       },
       "characterBase": null,
@@ -22586,7 +22959,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22603,13 +22976,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Lost::custom_col_1785574945065",
+        "characterKey": "Lost",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Lost::custom_col_1785574945065",
-          "en": "Complete Lost::custom_col_1785574945065 as Boss"
+          "zh": "使用游魂完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 游魂"
         }
       },
       "characterBase": null,
@@ -22685,7 +23058,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22702,13 +23075,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "BlueBaby::custom_col_1785574945065",
+        "characterKey": "BlueBaby",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成BlueBaby::custom_col_1785574945065",
-          "en": "Complete BlueBaby::custom_col_1785574945065 as Boss"
+          "zh": "使用???完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as ???"
         }
       },
       "characterBase": null,
@@ -22784,7 +23157,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22801,13 +23174,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Judas_B::custom_col_1785574945065",
+        "characterKey": "Judas_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Judas_B::custom_col_1785574945065",
-          "en": "Complete Judas_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化犹大完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化犹大"
         }
       },
       "characterBase": null,
@@ -22883,8 +23256,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -22900,13 +23273,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Azazel::custom_col_1785574945065",
+        "characterKey": "Azazel",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Azazel::custom_col_1785574945065",
-          "en": "Complete Azazel::custom_col_1785574945065 as Boss"
+          "zh": "使用阿撒泻勒完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 阿撒泻勒"
         }
       },
       "characterBase": null,
@@ -22982,8 +23355,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 32,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -22999,13 +23372,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Lazarus::custom_col_1785574945065",
+        "characterKey": "Lazarus",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Lazarus::custom_col_1785574945065",
-          "en": "Complete Lazarus::custom_col_1785574945065 as Boss"
+          "zh": "使用拉撒路完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 拉撒路"
         }
       },
       "characterBase": null,
@@ -23081,7 +23454,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 64,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23098,13 +23471,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Forgotten::custom_col_1785574945065",
+        "characterKey": "Forgotten",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Forgotten::custom_col_1785574945065",
-          "en": "Complete Forgotten::custom_col_1785574945065 as Boss"
+          "zh": "使用遗骸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 遗骸"
         }
       },
       "characterBase": null,
@@ -23180,7 +23553,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 96,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23197,13 +23570,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Forgotten::custom_col_1785574945065",
+        "characterKey": "Forgotten",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Forgotten::custom_col_1785574945065",
-          "en": "Complete Forgotten::custom_col_1785574945065 as Boss"
+          "zh": "使用遗骸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 遗骸"
         }
       },
       "characterBase": null,
@@ -23279,7 +23652,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 128,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23296,13 +23669,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Forgotten::custom_col_1785574945065",
+        "characterKey": "Forgotten",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Forgotten::custom_col_1785574945065",
-          "en": "Complete Forgotten::custom_col_1785574945065 as Boss"
+          "zh": "使用遗骸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 遗骸"
         }
       },
       "characterBase": null,
@@ -23378,7 +23751,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 160,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23395,13 +23768,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Eden::custom_col_1785574945065",
+        "characterKey": "Eden",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Eden::custom_col_1785574945065",
-          "en": "Complete Eden::custom_col_1785574945065 as Boss"
+          "zh": "使用伊甸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 伊甸"
         }
       },
       "characterBase": null,
@@ -23477,7 +23850,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23494,13 +23867,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Apollyon::custom_col_1785574945065",
+        "characterKey": "Apollyon",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Apollyon::custom_col_1785574945065",
-          "en": "Complete Apollyon::custom_col_1785574945065 as Boss"
+          "zh": "使用亚玻伦完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 亚玻伦"
         }
       },
       "characterBase": null,
@@ -23576,7 +23949,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23593,13 +23966,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Isaac_B::custom_col_1785574945065",
+        "characterKey": "Isaac_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Isaac_B::custom_col_1785574945065",
-          "en": "Complete Isaac_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化以撒完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化以撒"
         }
       },
       "characterBase": null,
@@ -23675,7 +24048,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23692,13 +24065,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Eve_B::custom_col_1785574945065",
+        "characterKey": "Eve_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Eve_B::custom_col_1785574945065",
-          "en": "Complete Eve_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化夏娃完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化夏娃"
         }
       },
       "characterBase": null,
@@ -23774,7 +24147,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23791,13 +24164,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Bethany_B::custom_col_1785574945065",
+        "characterKey": "Bethany_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Bethany_B::custom_col_1785574945065",
-          "en": "Complete Bethany_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化伯大尼完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化伯大尼"
         }
       },
       "characterBase": null,
@@ -23873,7 +24246,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23890,13 +24263,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Lilith_B::custom_col_1785574945065",
+        "characterKey": "Lilith_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Lilith_B::custom_col_1785574945065",
-          "en": "Complete Lilith_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化莉莉丝完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化莉莉丝"
         }
       },
       "characterBase": null,
@@ -23972,7 +24345,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -23989,13 +24362,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Judas_B::custom_col_1785574945065",
+        "characterKey": "Judas_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Judas_B::custom_col_1785574945065",
-          "en": "Complete Judas_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化犹大完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化犹大"
         }
       },
       "characterBase": null,
@@ -24071,7 +24444,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24088,13 +24461,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Cain_B::custom_col_1785574945065",
+        "characterKey": "Cain_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Cain_B::custom_col_1785574945065",
-          "en": "Complete Cain_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化该隐完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化该隐"
         }
       },
       "characterBase": null,
@@ -24170,7 +24543,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24187,13 +24560,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Magdalene_B::custom_col_1785574945065",
+        "characterKey": "Magdalene_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Magdalene_B::custom_col_1785574945065",
-          "en": "Complete Magdalene_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化抹大拉完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化抹大拉"
         }
       },
       "characterBase": null,
@@ -24269,7 +24642,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24286,13 +24659,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Samson_B::custom_col_1785574945065",
+        "characterKey": "Samson_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Samson_B::custom_col_1785574945065",
-          "en": "Complete Samson_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化参孙完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化参孙"
         }
       },
       "characterBase": null,
@@ -24368,7 +24741,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24385,13 +24758,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Cain_B::custom_col_1785574945065",
+        "characterKey": "Cain_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Cain_B::custom_col_1785574945065",
-          "en": "Complete Cain_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化该隐完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化该隐"
         }
       },
       "characterBase": null,
@@ -24467,8 +24840,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -24484,13 +24857,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Keeper_B::custom_col_1785574945065",
+        "characterKey": "Keeper_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Keeper_B::custom_col_1785574945065",
-          "en": "Complete Keeper_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化店主完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化店主"
         }
       },
       "characterBase": null,
@@ -24566,8 +24939,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 32,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -24583,13 +24956,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Jacob_B::custom_col_1785574945065",
+        "characterKey": "Jacob_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Jacob_B::custom_col_1785574945065",
-          "en": "Complete Jacob_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化雅各完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化雅各"
         }
       },
       "characterBase": null,
@@ -24665,7 +25038,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 64,
         "y": 384,
         "w": 32,
         "h": 32
@@ -24682,13 +25055,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Samson_B::custom_col_1785574945065",
+        "characterKey": "Samson_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Samson_B::custom_col_1785574945065",
-          "en": "Complete Samson_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化参孙完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化参孙"
         }
       },
       "characterBase": null,
@@ -24764,7 +25137,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 96,
         "y": 384,
         "w": 32,
         "h": 32
@@ -24781,13 +25154,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Lost_B::custom_col_1785574945065",
+        "characterKey": "Lost_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Lost_B::custom_col_1785574945065",
-          "en": "Complete Lost_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化游魂完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化游魂"
         }
       },
       "characterBase": null,
@@ -24863,7 +25236,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 128,
         "y": 384,
         "w": 32,
         "h": 32
@@ -24880,13 +25253,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "BlueBaby_B::custom_col_1785574945065",
+        "characterKey": "BlueBaby_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成BlueBaby_B::custom_col_1785574945065",
-          "en": "Complete BlueBaby_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化???完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化???"
         }
       },
       "characterBase": null,
@@ -24962,7 +25335,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 160,
         "y": 384,
         "w": 32,
         "h": 32
@@ -24979,13 +25352,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "BlueBaby_B::custom_col_1785574945065",
+        "characterKey": "BlueBaby_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成BlueBaby_B::custom_col_1785574945065",
-          "en": "Complete BlueBaby_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化???完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化???"
         }
       },
       "characterBase": null,
@@ -25061,7 +25434,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25078,13 +25451,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "BlueBaby_B::custom_col_1785574945065",
+        "characterKey": "BlueBaby_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成BlueBaby_B::custom_col_1785574945065",
-          "en": "Complete BlueBaby_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化???完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化???"
         }
       },
       "characterBase": null,
@@ -25160,7 +25533,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25177,13 +25550,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Judas::custom_col_1785574945065",
+        "characterKey": "Judas",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Judas::custom_col_1785574945065",
-          "en": "Complete Judas::custom_col_1785574945065 as Boss"
+          "zh": "使用犹大完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 犹大"
         }
       },
       "characterBase": null,
@@ -25259,7 +25632,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25276,13 +25649,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Azazel_B::custom_col_1785574945065",
+        "characterKey": "Azazel_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Azazel_B::custom_col_1785574945065",
-          "en": "Complete Azazel_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化阿撒泻勒完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化阿撒泻勒"
         }
       },
       "characterBase": null,
@@ -25358,7 +25731,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25375,13 +25748,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Lazarus_B::custom_col_1785574945065",
+        "characterKey": "Lazarus_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Lazarus_B::custom_col_1785574945065",
-          "en": "Complete Lazarus_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化拉撒路完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化拉撒路"
         }
       },
       "characterBase": null,
@@ -25457,7 +25830,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25474,13 +25847,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Forgotten_B::custom_col_1785574945065",
+        "characterKey": "Forgotten_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Forgotten_B::custom_col_1785574945065",
-          "en": "Complete Forgotten_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化遗骸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化遗骸"
         }
       },
       "characterBase": null,
@@ -25556,7 +25929,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25573,13 +25946,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Forgotten_B::custom_col_1785574945065",
+        "characterKey": "Forgotten_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Forgotten_B::custom_col_1785574945065",
-          "en": "Complete Forgotten_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化遗骸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化遗骸"
         }
       },
       "characterBase": null,
@@ -25655,7 +26028,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25672,13 +26045,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Forgotten_B::custom_col_1785574945065",
+        "characterKey": "Forgotten_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Forgotten_B::custom_col_1785574945065",
-          "en": "Complete Forgotten_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化遗骸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化遗骸"
         }
       },
       "characterBase": null,
@@ -25754,7 +26127,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25771,13 +26144,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Eden_B::custom_col_1785574945065",
+        "characterKey": "Eden_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Eden_B::custom_col_1785574945065",
-          "en": "Complete Eden_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化伊甸完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化伊甸"
         }
       },
       "characterBase": null,
@@ -25853,7 +26226,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -25870,13 +26243,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Apollyon_B::custom_col_1785574945065",
+        "characterKey": "Apollyon_B",
+        "conditionKey": "custom_col_1785574945065",
         "text": {
-          "zh": "使用Boss完成Apollyon_B::custom_col_1785574945065",
-          "en": "Complete Apollyon_B::custom_col_1785574945065 as Boss"
+          "zh": "使用堕化亚玻伦完成阿莱斯特",
+          "en": "Complete 阿莱斯特 as 堕化亚玻伦"
         }
       },
       "characterBase": null,
@@ -25952,7 +26325,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26051,8 +26424,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -26150,8 +26523,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 32,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -26249,7 +26622,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 64,
         "y": 416,
         "w": 32,
         "h": 32
@@ -26348,7 +26721,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 96,
         "y": 416,
         "w": 32,
         "h": 32
@@ -26447,7 +26820,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 128,
         "y": 416,
         "w": 32,
         "h": 32
@@ -26546,7 +26919,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 160,
         "y": 416,
         "w": 32,
         "h": 32
@@ -26645,7 +27018,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -26744,7 +27117,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -26843,7 +27216,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -26969,7 +27342,7 @@
         "conditionKey": "Tainted",
         "text": {
           "zh": "使用小青完成里角色/特殊",
-          "en": "Complete Tainted as Qing"
+          "en": "Complete Tainted / Special as Qing"
         }
       },
       "characterBase": {
@@ -27674,7 +28047,7 @@
         "conditionKey": "Tainted",
         "text": {
           "zh": "使用泰克罗完成里角色/特殊",
-          "en": "Complete Tainted as Tecro"
+          "en": "Complete Tainted / Special as Tecro"
         }
       },
       "characterBase": {
@@ -28003,7 +28376,7 @@
         "conditionKey": "Tainted",
         "text": {
           "zh": "使用安娜完成里角色/特殊",
-          "en": "Complete Tainted as Anna"
+          "en": "Complete Tainted / Special as Anna"
         }
       },
       "characterBase": {
@@ -28220,7 +28593,7 @@
         "conditionKey": "Tainted",
         "text": {
           "zh": "使用泽伊斯托斯完成里角色/特殊",
-          "en": "Complete Tainted as Zeis"
+          "en": "Complete Tainted / Special as Zeis"
         }
       },
       "characterBase": {
@@ -29377,7 +29750,16 @@
       "startingCard": null,
       "startingPill": null,
       "requiredAchievements": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "slug": "how-to-fly",
+          "kind": "collectible",
+          "names": {
+            "zh": "论如何飞行",
+            "en": "How to Fly"
+          }
+        }
+      ],
       "roomFilter": [],
       "pickupVariant": null,
       "pickupSubType": null,
@@ -29583,7 +29965,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29745,7 +30127,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29907,7 +30289,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30069,7 +30451,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30231,7 +30613,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30393,7 +30775,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30555,7 +30937,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30717,8 +31099,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -30734,13 +31116,13 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "character_mark",
+        "type": "boss_mark",
         "source": "unlock_board",
-        "characterKey": "Boss",
-        "conditionKey": "Keeper::GlazeNormal",
+        "characterKey": "Keeper",
+        "conditionKey": "GlazeNormal",
         "text": {
-          "zh": "使用Boss完成Keeper::GlazeNormal",
-          "en": "Complete Keeper::GlazeNormal as Boss"
+          "zh": "使用店主完成琉璃（普通）",
+          "en": "Complete Glaze (Normal) as 店主"
         }
       },
       "characterBase": null,
@@ -30888,8 +31270,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 32,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -30978,7 +31360,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31068,7 +31450,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31158,7 +31540,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31248,7 +31630,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31338,7 +31720,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31428,7 +31810,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
