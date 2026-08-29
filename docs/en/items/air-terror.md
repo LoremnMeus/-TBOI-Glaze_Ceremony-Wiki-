@@ -20,12 +20,13 @@ Intercepted shots become falling {{Collectible:331}} tears: the tear body does n
 
 With nothing to chase, it orbits near the player.
 
-## Intercept range
-
-- search radius **200**;
-- intercept and convert within distance **20**.
-
 ## Related
 
 - {{Item:air-flight}} — the base craft platform for Blueprint fleets
-- {{Character:sp-w-qing}} — may use a custom name for this item
+
+<details>
+<summary>Technical details</summary>
+
+- Search radius 200; intercept and convert within distance 20.
+
+</details>

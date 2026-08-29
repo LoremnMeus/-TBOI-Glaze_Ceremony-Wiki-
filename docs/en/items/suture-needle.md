@@ -20,11 +20,11 @@ Suture Needle turns enemies that should already be dead into short-lived, still-
 
 It is a timed active that fully recharges in about **5** seconds. On use it releases an expanding suture wave that marks legal enemies for about **3** seconds.
 
-| Stage | What you see | How to read it |
-| --- | --- | --- |
-| Suture | A wave sweeps enemies | They keep a suture mark for about 3 seconds |
-| Sutured corpse | A normal enemy takes lethal damage but keeps moving | It is already “dead”, just held together |
-| Rupture | Time runs out, or further hits snap the thread | Nearby enemies take splash damage |
+| State | Effect |
+| --- | --- |
+| Suture | Enemies gain a suture mark for about 3 seconds |
+| Sutured corpse | A normal enemy that takes lethal damage keeps moving briefly and can still be hit |
+| Rupture | When the suture runs out or further hits snap it, nearby enemies take damage |
 
 Keep hitting a sutured corpse: it ruptures sooner **and** stores part of that follow-up damage into the final blast—especially worth it next to a pack of enemies.
 

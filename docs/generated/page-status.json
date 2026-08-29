@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T08:03:16Z",
+  "generatedAt": "2026-08-29T16:51:00Z",
   "pages": [
     {
       "slug": "darkness",
@@ -15,16 +15,16 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/touchstone.md",
       "en": "wiki/docs/en/items/touchstone.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "my-hat",
       "kind": "collectible",
       "zh": "wiki/docs/items/my-hat.md",
       "en": "wiki/docs/en/items/my-hat.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "tech-9",
@@ -39,8 +39,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/assassins-eye.md",
       "en": "wiki/docs/en/items/assassins-eye.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "mental-hypnosis",
@@ -55,8 +55,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/gold-rush.md",
       "en": "wiki/docs/en/items/gold-rush.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "air-flight",
@@ -79,8 +79,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/giant-punch.md",
       "en": "wiki/docs/en/items/giant-punch.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "memory",
@@ -95,24 +95,24 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/my-best-friend.md",
       "en": "wiki/docs/en/items/my-best-friend.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "super-bombs",
       "kind": "collectible",
       "zh": "wiki/docs/items/super-bombs.md",
       "en": "wiki/docs/en/items/super-bombs.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "brimstream",
       "kind": "collectible",
       "zh": "wiki/docs/items/brimstream.md",
       "en": "wiki/docs/en/items/brimstream.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "crown-of-the-glaze",

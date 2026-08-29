@@ -58,7 +58,7 @@ A shatter is also a counterattack: it fires fragments by former tier and may dro
 ## Tips
 
 - Near full crown, decide whether the next glazed pickup is worth risking a shatter to keep.
-- Shatter can refund a glazed resource—so hits are not pure loss—but you still drop every tier effect.
+- Shatter may drop a glazed resource, so taking risk at low tiers costs relatively little.
 
 <details>
 <summary>Technical details</summary>

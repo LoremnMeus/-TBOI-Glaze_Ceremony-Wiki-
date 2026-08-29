@@ -18,8 +18,6 @@ status: reviewed
 
 The Bard Beggar takes a gift you can afford and writes it into a **song** that only works on the **next floor**. Paying is immediate; the blessing covers that entire floor and clears on the floor after. You can only take one song per encounter.
 
-You are trading resources on this floor for a **full-floor advantage on the next one**.
-
 | Gift | Song | Next-floor effect |
 | --- | --- | --- |
 | {{Coin}} 5 coins | **Song of Plenty** | First shop buy refunds 8–12¢, up to what you paid |
@@ -36,7 +34,7 @@ Near the Bard Beggar, your character lifts the currently selected gift.
 - Press Drop / RT to cancel;
 - Gifts you cannot afford are omitted from the list.
 
-Resources are spent immediately and the next-floor blessing is locked in. The bard sings and leaves.
+Resources are spent immediately and the next-floor blessing is locked in.
 
 ## Rule details
 
@@ -62,7 +60,7 @@ War Song charges are spent in boss rooms and other enemy rooms; plan your route 
 
 The Bard Beggar can appear on the first visit to certain secret-exit rooms.
 
-After one gift, the bard sings and leaves.
+After one gift, the Bard Beggar leaves.
 
 <details>
 <summary>Technical details</summary>

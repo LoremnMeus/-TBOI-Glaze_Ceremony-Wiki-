@@ -45,8 +45,6 @@ Tears that vanish without a valid hit build **Defocus**; hits gradually recover 
 
 A single whiff usually will not instantly wipe Focus; long miss streaks fill Defocus and trigger the reset.
 
-On reset, a brief visual flash and quiet fail sound play—no popup text.
-
 ## Notes
 
 - Only tears that actually hit vulnerable enemies increase Focus.
@@ -66,10 +64,7 @@ High-volume or spread fire changes Focus and Defocus faster; if many extra tears
 
 ## Visual feedback
 
-- **Focus:** tear tint deepens with tiers; 5+ purple bias, 8 / 13 / 21 add stronger trail feel and saturation.
-- **Defocus:** light player jitter, darker tears, flicker near the cap; brief white flash on reset.
-
-Color shows Focus / Defocus state only—no hidden stat tiers beyond the table above.
+Tear color and player flicker show Focus and Defocus; the cues grow clearer as you near the Defocus cap. They only reflect current state—no hidden numbers beyond the table above.
 
 <details>
 <summary>Technical details</summary>
@@ -79,6 +74,7 @@ Color shows Focus / Defocus state only—no hidden stat tiers beyond the table a
 - Tears up: `0.5 × sqrt(floor(Focus / 3))`.
 - 5 Focus: nearest foe within 90, velocity direction lerp ~4% per frame; 8+ uses real homing.
 - 8 / 13 / 21 add homing, hook worm, and rubber tear flags.
+- Focus: tear tint deepens; 5+ purple bias; 8 / 13 / 21 stronger trail / saturation. Defocus: light jitter, darker tears, flicker near cap; brief white flash and quiet fail sound on reset (no popup).
 - Focus and Defocus stored per player in `gaze` / `defocus`; migrated from legacy save keys on continue; fresh run clears both. Phase is not saved.
 
 </details>

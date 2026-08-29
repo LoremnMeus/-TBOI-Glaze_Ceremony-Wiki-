@@ -14,18 +14,29 @@ status: reviewed
 
 ## Effects
 
-**Art briefly extracts rainbow pigment from kills and stacks it into pickups nearby.**
+For a short time after use, killing enemies grants rainbow pigments. Every 3 pigments craft one random basic pickup.
 
-- Lasts **30** seconds.
-- Kill yields: normal **1**, champion **2**, boss **3** (once per boss).
-- Stack: 1st orbits; 2nd becomes a half-craft phantom; 3rd completes into the pickup that phantom previewed.
-- The 2nd-pigment phantom **previews** the final pickup type; the 3rd pigment turns it into a real pickup. The phantom follows you across rooms.
-- After the timer, new extraction stops; existing pigment and half-crafts still finish.
+The effect lasts **30** seconds. Possible pickups are a red heart, coin, bomb, key, or little battery.
+
+Different enemies grant different amounts:
+
+| Enemy | Pigments |
+| --- | ---: |
+| Normal | 1 |
+| Champion | 2 |
+| Boss | 3 |
+
+The 2nd pigment previews which pickup this craft will create; the 3rd pigment spawns that pickup.
+
+After the timer ends, no new pigments are gained, but pigments already collected and unfinished crafts remain and can still be completed later.
 
 ## Notes
 
-- Multi-phase bosses do not re-award pigment for the same boss.
+- The same boss grants pigment only once; multi-phase bosses do not award it again.
+- Unfinished crafts persist across rooms.
 
 ## Synergies
 
-- {{Collectible:451}}: duration becomes **45** seconds.
+### {{Collectible:451}}
+
+Duration increases to **45** seconds.

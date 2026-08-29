@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Assassin_s_Eye
 status: stub
 ---
-<p class="wiki-search-index" v-pre>刺杀者之眼 Assassin&#x27;s Eye Assassin_s_Eye assassins-eye Assassin&#x27;s Eye 彗星袭月 Savour the Dark 角色的眼泪学会刺杀 Tears assassinate enemies when getting closed</p>
+<p class="wiki-search-index" v-pre>刺杀者之眼 Assassin&#x27;s Eye Assassin_s_Eye assassins-eye Assassin&#x27;s Eye 彗星袭月 Savour the Dark 泪弹会伺机刺向附近的敌人 Tears will seize openings to strike nearby enemies</p>
 
 <PublicEntry slug="assassins-eye" lang="zh" />
 
@@ -14,4 +14,10 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+刺杀者之眼会让飞行中的泪弹伺机刺向附近敌人。
+
+找到目标后，泪弹会快速斩过敌人并继续飞行。同一颗泪弹完成一次刺杀后需要短暂间隔，之后仍能再次寻找目标。部分非泪弹攻击会通过额外生成刺杀泪弹来获得兼容效果。
+
+被深渊吸收后，对应蝗虫也会主动刺杀附近敌人。

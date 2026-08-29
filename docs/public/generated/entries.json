@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T08:03:16Z",
+  "generatedAt": "2026-08-29T16:51:00Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -2320,8 +2320,8 @@
         "en": "Borrow my blade"
       },
       "eid": {
-        "zh": "#{{QingPlayer:wq}} 使用后，本房间内攻击方式变为青的刀法#重复使用使攻击次数+1",
-        "en": "#{{QingPlayer:wq}} on use, replaces your attack with Qing's blade style for the current room#Repeated uses grant +1 attack count"
+        "zh": "#{{QingPlayer:wq}} 使用后，本房间内攻击方式变为青的刀法",
+        "en": "#{{QingPlayer:wq}} On use, replaces your attack with Qing's blade style for the current room"
       },
       "seijaBuff": {
         "zh": "",
@@ -2461,8 +2461,8 @@
         "en": "It's too big!"
       },
       "eid": {
-        "zh": "阻挡来自脑袋上的眼泪攻击#站在跳起来的敌人身体下方造成伤害",
-        "en": "Blocks damage from projectiles falling from above.#Standing under the jumping enemy's body to inflict damage."
+        "zh": "巨大的帽子跟随角色并阻挡接触到的敌方弹幕#持续向同一方向攻击，松开后将帽子掷出；命中敌人后将其罩住并减速",
+        "en": "A giant hat follows you and blocks enemy projectiles it touches#Keep firing in one direction, then release to throw the hat; enemies caught by it are slowed"
       },
       "seijaBuff": {
         "zh": "",
@@ -2719,8 +2719,8 @@
         "en": "Savour the Dark"
       },
       "eid": {
-        "zh": "角色的眼泪学会刺杀",
-        "en": "Tears assassinate enemies when getting closed"
+        "zh": "泪弹会伺机刺向附近的敌人",
+        "en": "Tears will seize openings to strike nearby enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -2966,8 +2966,8 @@
         "en": "All that glitters..."
       },
       "eid": {
-        "zh": "进入新房间时，普通岩石有概率变成愚人金块#破坏{{ColorGold}}愚人金块{{CR}}时，33%概率生成2~4只黄金蜘蛛",
-        "en": "Entering a new room gives normal rocks a chance to become fool's gold#Destroying {{ColorGold}}fool's gold{{CR}} has a 33% chance to spawn 2-4 golden spiders"
+        "zh": "进入新房间时，部分岩石会变成{{ColorGold}}愚人金{{CR}}#炸开愚人金可能发现硬币，也可能一无所获",
+        "en": "Entering a new room can turn some rocks into {{ColorGold}}fool's gold{{CR}}#Bombing fool's gold may uncover coins—or nothing at all"
       },
       "seijaBuff": {
         "zh": "",
@@ -3394,8 +3394,8 @@
         "en": "God-o-hand-o-Crash!"
       },
       "eid": {
-        "zh": "↑ 总血量低于生命上限时，角色变大，攻击翻倍#↓ 总血量高于生命上限时，角色变小，攻击减半",
-        "en": "↑ Double damage when your total hearts are less than heart containers#↓ Half damage when more than it"
+        "zh": "↑ 生命未满时，角色巨大化，攻击翻倍#↓ 满血后拥有额外生命时，角色缩小，攻击减半",
+        "en": "↑ While below normal full health, grow larger and deal double damage#↓ While holding health beyond normal capacity, shrink and deal half damage"
       },
       "seijaBuff": {
         "zh": "",
@@ -3639,8 +3639,8 @@
         "en": "Do you really have a friend?"
       },
       "eid": {
-        "zh": "{{Chest}} 生成2个随机箱子#{{GoldenChest}} 金箱子改为开出头部相关道具#{{Chest}} 普通箱子也有小概率开出这些道具",
-        "en": "{{Chest}} Spawns 2 random chests#{{GoldenChest}} Golden chests give head-themed items instead#{{Chest}} Regular and spiked chests have a small chance to give head-themed items"
+        "zh": "{{Chest}} 拾取时生成2个随机箱子#{{GoldenChest}} 箱子中有机会发现小青的‘朋友’#{{GoldenChest}} 金箱子最容易找到它们",
+        "en": "{{Chest}} Spawns 2 random chests on pickup#{{GoldenChest}} Chests may contain Qing's ‘friends’#{{GoldenChest}} Golden chests are the most reliable place to find them"
       },
       "seijaBuff": {
         "zh": "",
@@ -3767,7 +3767,7 @@
         "en": "My pocket doomsday"
       },
       "eid": {
-        "zh": "{{Bomb}} +5超大炸弹#{{Timer}} 无超大炸弹时，1个炸弹闲置20秒后成长为超大炸弹#{{Collectible483}} 无主动时，超大炸弹闲置2分钟后成长为妈咪炸弹",
+        "zh": "{{Bomb}} +5超大炸弹#{{Timer}} 没有超大炸弹时，20秒未使用炸弹会使1枚炸弹成长为超大炸弹#{{Collectible483}} 主动槽为空时，超大炸弹闲置2分钟后会成长为妈咪炸弹",
         "en": "{{Bomb}} +5 Giga Bombs#{{Timer}} With no Giga Bombs, leave bombs unused for 20 seconds to grow 1 into a Giga Bomb#{{Collectible483}} With no active item, leave a Giga Bomb unused for 2 minutes to grow it into Mama Mega"
       },
       "seijaBuff": {
@@ -3906,8 +3906,8 @@
         "en": "Devil's trick."
       },
       "eid": {
-        "zh": "带有硫磺火柱的火箭跟班#{{BrimstoneCurse}} 被火箭炸到的敌人对硫磺火脆弱",
-        "en": "Spawn a rocket baby with wake of brimstone.#{{BrimstoneCurse}} Enemies being exploded will be fragile to brimstone"
+        "zh": "生成不断穿行于战场的硫磺火箭#火箭高速掠过敌人，并在身后留下短暂的硫磺火航迹",
+        "en": "Spawns a brimstone rocket that repeatedly crosses the battlefield#It streaks through enemies at high speed and leaves a brief damaging brimstone trail"
       },
       "seijaBuff": {
         "zh": "",
@@ -3926,8 +3926,8 @@
         "en": ""
       },
       "abyssSynic": {
-        "zh": "移速较快，命中后造成硫磺火脆弱的蝗虫",
-        "en": "Locust that is fast and deals fragile to brimstone."
+        "zh": "高速飞行时留下短暂硫磺火航迹的蝗虫",
+        "en": "A locust that leaves a brief brimstone trail while flying quickly"
       },
       "icon": "/generated/images/brimstream.png",
       "thumb32": "/generated/images/brimstream_32.webp",

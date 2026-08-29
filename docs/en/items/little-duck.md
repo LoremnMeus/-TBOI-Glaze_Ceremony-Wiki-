@@ -18,7 +18,7 @@ status: featured
 
 Little Ducks are not enemies—they are one-shot weapons left in the room, waiting to be “fed” full.
 
-Entering an uncleared room spawns **3** ducks **per copy**. Hitting a duck does not truly hurt it; it gradually fills. After **7** effective fills it bursts and fires tears outward. Player attacks are the main way to fill them; how hard each hit lands does not change the count. Their sprite shifts as the meter rises, so the fill level is visible at a glance.
+Entering an uncleared room spawns **3** ducks **per copy**. Hitting a duck does not truly hurt it; it gradually fills. After **7** effective fills it bursts and fires tears outward. Player attacks are the main way to fill them; how hard each hit lands does not change the count. A duck’s look changes as it fills, so you can judge how close it is to bursting.
 
 On burst they fire **9–12** tears, each dealing `1.5 × player damage + 5`.
 

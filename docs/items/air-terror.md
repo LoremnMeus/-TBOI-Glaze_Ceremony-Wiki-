@@ -20,12 +20,13 @@ status: reviewed
 
 没有可追的弹幕时，它会回到玩家附近绕行。
 
-## 拦截范围
-
-- 搜索半径 **200**；
-- 距离 **20** 内完成拦截并转化。
-
 ## 相关内容
 
 - {{Item:air-flight}} — 蓝图机群的基础机体
-- {{Character:sp-w-qing}} — 可能对它有专属称呼
+
+<details>
+<summary>技术细节</summary>
+
+- 搜索半径 200；距离 20 内完成拦截并转化。
+
+</details>
