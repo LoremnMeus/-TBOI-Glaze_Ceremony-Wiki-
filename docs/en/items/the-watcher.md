@@ -6,7 +6,7 @@ kind: collectible
 internalKey: The_Watcher
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>监视 The Watcher The_Watcher the-watcher The Watcher 观察者 observer watcher 老大哥在看着你 Big Brother is watching 移速不会低于1.5 低速时展开逐渐扩大的监视域，锁定自身与附近敌人 锁定完成后爆炸，伤害为 攻击力 ×4 +20 Move speed cannot fall below 1.5 Moving slowly expands a watch zone that locks onto you and nearby enemies Full locks explode for Damage ×4 +20</p>
+<p class="wiki-search-index" v-pre>监视 The Watcher The_Watcher the-watcher The Watcher 观察者 observer watcher 老大哥在看着你 Big Brother is watching 移速不会低于1.5 低速时展开逐渐扩大的监视域，锁定自身与附近敌人 锁定完成后爆炸，伤害为 攻击力 ×4 +20 地上的监视也会锁定附近目标并开火 Move speed cannot fall below 1.5 Moving slowly expands a watch zone that locks onto you and nearby enemies Full locks explode for Damage ×4 +20 While on the ground, The Watcher also locks onto nearby targets and fires</p>
 
 <PublicEntry slug="the-watcher" lang="en" />
 
@@ -24,6 +24,12 @@ The point is not standing perfectly still. You choose between keeping the watch 
 - Closer enemies lock faster; distant targets can still be watched, but take longer.
 - Fully locked enemies are bombed for {{Damage}} **Damage ×4 +20**.
 - When self-lock completes, the camera fires on you for the same blast damage.
+
+## On the pedestal
+
+While uncollected, The Watcher already works as a neutral device: it shows a watch halo only (no camera), periodically locks the nearest player or enemy in range, fires a weaker blast, then cools down. Picking it up stops that behavior immediately.
+
+It takes no side—you can bait enemies into the blast, but standing too close puts you under the same lock.
 
 ## Keeping the watch
 
@@ -84,5 +90,8 @@ If you keep moving too long, unfinished locks fade—so choose between locking m
 - Enemy cooldown: **150** frames
 - Boss cooldown: **210** frames
 - Blast damage: player damage **×4 +20**
+- Pedestal watch radius: **130**
+- Pedestal targets: **1** (nearest)
+- Pedestal lock: about **90** frames; flat blast damage **30**; cooldown about **150** frames
 
 </details>

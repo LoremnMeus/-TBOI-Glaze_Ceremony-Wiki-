@@ -23,3 +23,8 @@ status: reviewed
 ## Notes
 
 - Does not trigger if you already hold {{Collectible:12}}.
+- When overgrowth starts, it can consume one extra Boss-room item roll beyond the original pedestal reward (for example, quietly taking {{Collectible:12}} out of the pools). Milder than it sounds—usually once per run—but it is a real cost versus older builds.
+
+## Tips
+
+- Taking the original item before the mycelium finishes does not cancel growth already underway. You can keep the original and still receive the final Magic Mushroom when the process completes. At most once per trigger—no infinite duplicates.

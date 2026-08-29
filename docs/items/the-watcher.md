@@ -6,7 +6,7 @@ kind: collectible
 internalKey: The_Watcher
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>监视 The Watcher The_Watcher the-watcher The Watcher 观察者 observer watcher 老大哥在看着你 Big Brother is watching 移速不会低于1.5 低速时展开逐渐扩大的监视域，锁定自身与附近敌人 锁定完成后爆炸，伤害为 攻击力 ×4 +20 Move speed cannot fall below 1.5 Moving slowly expands a watch zone that locks onto you and nearby enemies Full locks explode for Damage ×4 +20</p>
+<p class="wiki-search-index" v-pre>监视 The Watcher The_Watcher the-watcher The Watcher 观察者 observer watcher 老大哥在看着你 Big Brother is watching 移速不会低于1.5 低速时展开逐渐扩大的监视域，锁定自身与附近敌人 锁定完成后爆炸，伤害为 攻击力 ×4 +20 地上的监视也会锁定附近目标并开火 Move speed cannot fall below 1.5 Moving slowly expands a watch zone that locks onto you and nearby enemies Full locks explode for Damage ×4 +20 While on the ground, The Watcher also locks onto nearby targets and fires</p>
 
 <PublicEntry slug="the-watcher" lang="zh" />
 
@@ -24,6 +24,12 @@ status: reviewed
 - 敌人离你越近，锁定速度越快；远处目标仍能被监视，但需要更长时间。
 - 敌人完成锁定后会被轰炸，爆炸伤害为 {{Damage}} **攻击力 ×4 +20**。
 - 自身锁定完成后，摄像头也会向角色开火并引发同等伤害的爆炸。
+
+## 地上的监视
+
+未拾取时，底座上的监视本身也会作为中立装置工作：只显示监视光圈（不出现摄像头），周期性锁定附近最近的玩家或敌人，完成后造成一次较弱爆炸，再进入冷却。捡起后该行为立即停止。
+
+它不站在任何一边——你可以引怪去挨炸，但自己靠太近同样会被盯上。
 
 ## 怎样维持监视
 
@@ -84,5 +90,8 @@ status: reviewed
 - 敌方冷却：**150** 帧
 - Boss 冷却：**210** 帧
 - 爆炸伤害：角色伤害 **×4 +20**
+- 地面底座监视半径：**130**
+- 地面同时目标：**1**（最近者）
+- 地面锁定约：**90** 帧；爆炸伤害固定 **30**；冷却约 **150** 帧
 
 </details>
