@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T16:51:00Z",
+  "generatedAt": "2026-08-29T18:21:37Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -3639,8 +3639,8 @@
         "en": "Do you really have a friend?"
       },
       "eid": {
-        "zh": "{{Chest}} 拾取时生成2个随机箱子#{{GoldenChest}} 箱子中有机会发现小青的‘朋友’#{{GoldenChest}} 金箱子最容易找到它们",
-        "en": "{{Chest}} Spawns 2 random chests on pickup#{{GoldenChest}} Chests may contain Qing's ‘friends’#{{GoldenChest}} Golden chests are the most reliable place to find them"
+        "zh": "{{Chest}} 拾取时生成2个随机箱子#{{GoldenChest}} 金箱开出道具时，会改为随机“朋友”#{{Chest}} 普通箱与刺箱有10%概率开出“朋友”",
+        "en": "{{Chest}} Spawns 2 random chests on pickup#{{GoldenChest}} Golden Chest collectibles become random “friends”#{{Chest}} Normal and Spiked Chests have a 10% chance to contain a “friend”"
       },
       "seijaBuff": {
         "zh": "",
@@ -3767,8 +3767,8 @@
         "en": "My pocket doomsday"
       },
       "eid": {
-        "zh": "{{Bomb}} +5超大炸弹#{{Timer}} 没有超大炸弹时，20秒未使用炸弹会使1枚炸弹成长为超大炸弹#{{Collectible483}} 主动槽为空时，超大炸弹闲置2分钟后会成长为妈咪炸弹",
-        "en": "{{Bomb}} +5 Giga Bombs#{{Timer}} With no Giga Bombs, leave bombs unused for 20 seconds to grow 1 into a Giga Bomb#{{Collectible483}} With no active item, leave a Giga Bomb unused for 2 minutes to grow it into Mama Mega"
+        "zh": "{{Bomb}} +5超大炸弹#{{Timer}} 没有超大炸弹时，20秒未使用炸弹会使1枚炸弹成长为超大炸弹#{{Collectible483}} 主主动槽为空时，2分钟未使用炸弹会使1枚超大炸弹成长为妈咪炸弹",
+        "en": "{{Bomb}} +5 Giga Bombs#{{Timer}} With no Giga Bombs, leave bombs unused for 20 seconds to grow 1 into a Giga Bomb#{{Collectible483}} With the primary active slot empty, leave bombs unused for 2 minutes to grow 1 Giga Bomb into Mama Mega"
       },
       "seijaBuff": {
         "zh": "",

@@ -4,9 +4,9 @@ description: "那么，你真的有朋友吗？"
 slug: my-best-friend
 kind: collectible
 internalKey: My_Best_Friend
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>小青最好的朋友 My Best Friend My_Best_Friend my-best-friend My Best Friend 那么，你真的有朋友吗？ Do you really have a friend? 拾取时生成2个随机箱子 箱子中有机会发现小青的‘朋友’ 金箱子最容易找到它们 Spawns 2 random chests on pickup Chests may contain Qing&#x27;s ‘friends’ Golden chests are the most reliable place to find them</p>
+<p class="wiki-search-index" v-pre>小青最好的朋友 My Best Friend My_Best_Friend my-best-friend My Best Friend 那么，你真的有朋友吗？ Do you really have a friend? 拾取时生成2个随机箱子 金箱开出道具时，会改为随机“朋友” 普通箱与刺箱有10%概率开出“朋友” Spawns 2 random chests on pickup Golden Chest collectibles become random “friends” Normal and Spiked Chests have a 10% chance to contain a “friend”</p>
 
 <PublicEntry slug="my-best-friend" lang="zh" />
 
@@ -14,18 +14,38 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-小青把一批名字或外形带有“头”、又像同伴的道具认作自己的朋友。拾取时会立即生成 **2 个随机箱子**；此后，金箱子开出道具时会从这份朋友名单中选择，普通箱子与刺箱也有约 **10%** 的机会改为开出朋友。
+## 效果
 
-### 谁是“朋友”
+小青会把箱子里偶尔翻出来的奇怪脑袋，当成自己新认识的“朋友”。
 
-名单目前包括 Cricket's Head、Tammy's Head、Bob's Rotten Head、Steven、Guppy's Head、Abel、Goat Head、Fate's Reward、Head of the Keeper、Voodoo Head 与 Decap Attack。找到朋友时会出现彩色烟雾、提示音，并让持有者做出开心动作。
+拾取时会立即生成 **2 个随机箱子**。
 
-### 注意
+之后：
 
-- 金箱子只在原本会生成道具时替换道具池，不会把每个金箱子强行变成道具。
-- 普通箱子与刺箱触发朋友奖励时，会以该道具替代本次箱子掉落。
-- 多份道具仍只生成各自拾取时的箱子；箱子发现朋友的概率不会随份数提高。
+- 金箱子原本要开出收藏品时，该收藏品会改从“朋友”列表中选择；
+- 普通箱与刺箱有 **10%** 概率把本次掉落替换为一名“朋友”。
 
-### 趣闻
+找到朋友时会有明显提示。
 
-“朋友”的判定刻意带有文字游戏：它既包含真正的跟班，也包含一批只有脑袋或名字里带 Head 的道具。
+持有小青最好的朋友期间，这些道具即使从宝物房等其他来源出现，EID 也会使用小青给它们起的“朋友”称呼。
+
+## “朋友”名单
+
+| 道具 | 小青的称呼 |
+| --- | --- |
+| {{Collectible:4}} | 小狗朋友 |
+| {{Collectible:38}} | 塔米朋友 |
+| {{Collectible:42}} | 鲍勃朋友 |
+| {{Collectible:50}} | 史蒂文朋友 |
+| {{Collectible:145}} | 嗝屁猫朋友 |
+| {{Collectible:188}} | 亚伯朋友 |
+| {{Collectible:215}} | 山羊朋友 |
+| {{Collectible:361}} | 命运朋友 |
+| {{Collectible:429}} | 店主朋友 |
+| {{Collectible:599}} | 巫毒朋友 |
+| {{Collectible:729}} | 断头朋友 |
+
+## 注意
+
+- 金箱子只有在原本会生成收藏品时才会把结果换成朋友，并不是所有金箱子都会额外产生一个道具。
+- 重复持有不会提高普通箱与刺箱的 10% 朋友概率。

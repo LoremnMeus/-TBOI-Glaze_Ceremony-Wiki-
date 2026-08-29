@@ -4,7 +4,7 @@ description: "All that glitters..."
 slug: gold-rush
 kind: collectible
 internalKey: Gold_Rush
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>淘金热 Gold Rush Gold_Rush gold-rush Gold Rush 发光的不都是金子 All that glitters... 进入新房间时，部分岩石会变成 愚人金 炸开愚人金可能发现硬币，也可能一无所获 Entering a new room can turn some rocks into fool&#x27;s gold Bombing fool&#x27;s gold may uncover coins—or nothing at all</p>
 
@@ -16,9 +16,9 @@ status: stub
 
 ## Effects
 
-Gold Rush turns some normal rocks in new rooms into glittering fool's gold. Bombing one is a gamble that can leave nothing behind.
+Gold Rush turns some normal rocks into fool's gold worth bombing on a gamble.
 
-Each fool's-gold rock rolls independently:
+Each rock rolls independently when bombed:
 
 | Outcome | Chance | Contents |
 | --- | ---: | --- |
@@ -29,8 +29,14 @@ Each fool's-gold rock rolls independently:
 
 ## Tips
 
-Fool's gold does not reliably repay the value of a bomb. Skipping it can be sensible when bombs are scarce; rich veins and special finds are the payoff for taking that risk.
+Fool's gold does not reliably repay a bomb on average. Skip it when bombs are scarce; gamble for rich veins or special finds only when you can afford the loss.
+
+## Synergies
+
+### {{Collectible:706}}
+
+When absorbed by Abyss, it becomes a golden locust with a small chance to turn enemies gold on hit.
 
 ## Trivia
 
-A gold rush is a frantic pursuit of wealth, while fool's gold is a mineral that resembles gold without necessarily being valuable. The tagline “All that glitters...” becomes part of the mechanic through the empty-vein result.
+A gold rush is a frantic pursuit of gold, while fool's gold is a mineral that looks like gold without matching its value. The tagline “All that glitters...” matches the chance of mining nothing at all.

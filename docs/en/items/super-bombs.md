@@ -4,9 +4,9 @@ description: "My pocket doomsday"
 slug: super-bombs
 kind: collectible
 internalKey: Super_Bombs
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>超级炸弹 Super Bombs Super_Bombs super-bombs Super Bombs 口袋里的末日 My pocket doomsday +5超大炸弹 没有超大炸弹时，20秒未使用炸弹会使1枚炸弹成长为超大炸弹 主动槽为空时，超大炸弹闲置2分钟后会成长为妈咪炸弹 +5 Giga Bombs With no Giga Bombs, leave bombs unused for 20 seconds to grow 1 into a Giga Bomb With no active item, leave a Giga Bomb unused for 2 minutes to grow it into Mama Mega</p>
+<p class="wiki-search-index" v-pre>超级炸弹 Super Bombs Super_Bombs super-bombs Super Bombs 口袋里的末日 My pocket doomsday +5超大炸弹 没有超大炸弹时，20秒未使用炸弹会使1枚炸弹成长为超大炸弹 主主动槽为空时，2分钟未使用炸弹会使1枚超大炸弹成长为妈咪炸弹 +5 Giga Bombs With no Giga Bombs, leave bombs unused for 20 seconds to grow 1 into a Giga Bomb With the primary active slot empty, leave bombs unused for 2 minutes to grow 1 Giga Bomb into Mama Mega</p>
 
 <PublicEntry slug="super-bombs" lang="en" />
 
@@ -14,14 +14,28 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-Super Bombs lets unused explosives keep “growing.” Picking it up immediately grants **5 Giga Bombs**.
+## Effects
 
-### Bomb → Giga Bomb
+Super Bombs lets unused bombs gradually grow into larger explosives.
 
-If the player has bombs but no Giga Bombs, a **20-second** timer begins. Using no bombs for the full duration converts one bomb into a Giga Bomb. This stage stops whenever a Giga Bomb is already available, so it does not automatically upgrade the whole inventory.
+Picking it up immediately grants **5 Giga Bombs**.
 
-### Giga Bomb → Mama Mega
+While you have no Giga Bombs but still hold regular bombs, a **20-second** timer starts. If no bombs are used during that time, one regular bomb grows into a Giga Bomb.
 
-With at least one Giga Bomb and an empty primary active slot, a **2-minute** timer begins. Keeping those conditions converts one Giga Bomb into {{Collectible:483}} in the primary active slot.
+As long as you already hold any Giga Bomb, that regular-bomb growth stage does not continue.
 
-The bomb HUD displays the target and remaining time and animates each transformation. Using a bomb resets the current timer; losing the required resources or filling the primary active slot stops the relevant stage. Pausing does not advance growth.
+If you hold a Giga Bomb and the primary active slot is empty, a separate **2-minute** timer starts. Leaving bombs unused for that long grows one Giga Bomb into {{Collectible:483}} and places it in the primary active slot.
+
+A timer near the bomb HUD shows which stage is growing and how much time remains.
+
+## Notes
+
+- Using any bomb restarts the current growth timer.
+- If growth conditions break mid-way—for example you gain a Giga Bomb, or the primary active slot is filled—the matching timer clears, and later runs start from scratch when conditions return.
+- Pausing the game does not advance growth.
+
+## Tips
+
+The regular-bomb stage only runs while your inventory has no Giga Bombs, so spending the last Giga Bomb is what lets the next regular bomb start growing again.
+
+Whether to keep the primary active slot empty for Mama Mega is a trade-off against the value of whatever active item you would otherwise use.

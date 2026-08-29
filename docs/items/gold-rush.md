@@ -4,7 +4,7 @@ description: "发光的不都是金子"
 slug: gold-rush
 kind: collectible
 internalKey: Gold_Rush
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>淘金热 Gold Rush Gold_Rush gold-rush Gold Rush 发光的不都是金子 All that glitters... 进入新房间时，部分岩石会变成 愚人金 炸开愚人金可能发现硬币，也可能一无所获 Entering a new room can turn some rocks into fool&#x27;s gold Bombing fool&#x27;s gold may uncover coins—or nothing at all</p>
 
@@ -16,9 +16,9 @@ status: stub
 
 ## 效果
 
-淘金热会把新房间中的部分普通岩石变成闪闪发光的愚人金；炸开它们是一场可能空手而归的赌局。
+淘金热会把一些普通岩石变成值得花炸弹赌一把的愚人金。
 
-每块愚人金独立结算：
+炸开愚人金后，每块石头独立决定结果：
 
 | 结果 | 概率 | 内容 |
 | --- | ---: | --- |
@@ -29,8 +29,14 @@ status: stub
 
 ## 使用技巧
 
-愚人金不会稳定赚回炸弹的价值。炸弹紧缺时可以放弃开采；资源充足时，富矿与特殊发现才值得承担空矿风险。
+愚人金的平均回报并不能保证补回一颗炸弹。炸弹紧缺时可以直接放弃；炸弹富余时，才更适合赌富矿或特殊发现。
+
+## 特殊联动
+
+### {{Collectible:706}}
+
+被深渊吸收后会生成金色蝗虫，命中敌人时有小概率施加点金。
 
 ## 轶事
 
-“淘金热”指对财富的狂热追逐；“愚人金”则是外表像黄金、实际未必值钱的矿物。副标题“发光的不都是金子”通过空矿结果直接体现在玩法中。
+“淘金热”指人们对黄金的狂热追逐；“愚人金”则是外观看似黄金、实际价值不同的矿物。副标题“发光的不都是金子”也直接对应可能一无所获的开采结果。
