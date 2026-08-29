@@ -14,17 +14,22 @@ status: reviewed
 
 ## Effects
 
-**The Fool samples summonable item phantoms from the room pool and orbits them around you for a choice.**
+On use, offers up to 5 items from the current item pool that can become wisps.
 
-- By default it samples **5** summonable phantoms that orbit at roughly radius 80.
-- Sampling does not permanently consume the pool; only the chosen item is **removed from the item pool** for the rest of the run (not a single draw consumption).
-- Touch a phantom to take its wisp; the rest fade.
-- Leaving the room without choosing clears all phantoms with no pool change.
+Those candidates appear as phantoms around the player. Touch one phantom to confirm the choice:
+
+- The chosen item is removed from that run's corresponding item pool and spawns as its wisp.
+- The other phantoms disappear without consuming their items.
+- Leaving the room without choosing cancels the effect and leaves the pool unchanged.
+
+Here, “sacrifice” means removing the chosen item from the run's item pool, not spending a single draw.
 
 ## Notes
 
-- If the pool has few summonable items, you may see fewer than 5; if none qualify, you get no wisp.
+- If the current item pool has no valid candidates, no phantoms appear.
 
 ## Synergies
 
-- {{Collectible:451}}: phantoms rise from 5 to 8.
+### {{Collectible:451}}
+
+The number of selectable phantoms increases to 8.

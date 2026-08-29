@@ -16,7 +16,7 @@ status: featured
 
 ## Effect
 
-**Remaster!** lets two characters in different timelines swap the journeys ahead of them.
+**Remaster! lets two characters in different timelines swap the journeys ahead of them.**
 
 Using it opens a floor selector. After choosing another floor and confirming, a time rift opens in front of the character and sends them there.
 
@@ -28,24 +28,10 @@ Suppose character A uses Remaster! on **Basement I** and chooses **Cathedral**:
 2. The crossing leaves a timeline record: **Cathedral → Basement I**.
 3. In some later run, when character B **first enters** Cathedral, that record **triggers automatically**.
 4. The rift opens again in front of B and pulls them in.
-5. B is sent to the Basement I A originally left, taking over the other end of that journey.
+5. B is sent to the Basement I that A originally left, and continues the run from there.
 6. At the same time, the A who once crossed here emerges from the other side of the rift, completing a timeline swap that can span two separate runs.
 
-The first use of Remaster! therefore shows only the first half of the event. The other half may not appear until much later, with a completely different character. The route A skipped does not vanish—it may eventually be taken over by a later B.
-
-## Timeline record
-
-Each crossing leaves a timeline record that persists across runs as a [permanent](/en/systems/permanent-effects) edit. It remains until the matching return completes. When a character later enters the recorded target floor, the return **triggers automatically**—holding Remaster! again is not required.
-
-## Synergies
-
-### {{Collectible:584}}
-
-If you hold Book of Virtues when the crossing starts, your current wisps are saved into the timeline record. The character who later completes the return receives those wisps.
-
-### {{Collectible:34}}
-
-If you hold Book of Belial when the crossing starts, key combat stats from the departing character are recorded. After return, that floor inherits the **stronger** value for each tracked stat between the two travelers.
+The first use of Remaster! therefore shows only the first half of the event. The other half may not appear until much later, with a completely different character. The route A left early does not vanish—it may be re-entered later by another character.
 
 ## Choosing a floor
 
@@ -58,12 +44,26 @@ After using the item:
 
 Most major floors and their variants are available, including late-game routes. You cannot choose the floor you are already on—only an error sound plays, and the use is not consumed.
 
+## Timeline record
+
+Each crossing leaves a timeline record that persists across runs as a [permanent](/en/systems/permanent-effects) edit. It remains until the matching return completes. When a character later enters the recorded target floor, the return **triggers automatically**—holding Remaster! again is not required.
+
 ## Notes
 
 - **Future returns are mandatory.** If a qualifying character enters a recorded target floor, the timeline event begins whether or not they hold Remaster!.
 - **It swaps future progress, not two saved room states.** Crossings re-enter the target stage with a fresh layout rather than restoring the exact rooms you left behind.
 - **A timeline event does not loop forever.** Once its other half completes and no related crossing remains pending, the record ends.
 - **Arriving on a crossed floor does not instantly trigger another automatic return.** You must leave that floor before a new timeline event can fire.
+
+## Synergies
+
+### {{Collectible:584}}
+
+If you hold Book of Virtues when the crossing starts, your current wisps are saved into the timeline record. The character who later completes the return receives those wisps.
+
+### {{Collectible:34}}
+
+If you hold Book of Belial when the crossing starts, key combat stats from the departing character are recorded. After return, that floor inherits the **stronger** value for each tracked stat between the two travelers.
 
 ## Tips
 
@@ -73,7 +73,7 @@ Most major floors and their variants are available, including late-game routes. 
 
 The name **Remaster!** comes from the REMASTER development stage in *Crushed In Time*, and also points at this mod's own Qing Remaster release.
 
-Its cross-run structure instead draws on *Crushed In Time*'s plot of characters being displaced and replaced across different development builds of the same game. In that game, “time” is the project's version history, and a character can appear in a version position that was not originally theirs.
+Its cross-run structure instead draws on how *Crushed In Time* treats “time” as different development builds of the same game: a character may be placed into a development-version position that originally belonged to someone else.
 
 Remaster! rewrites that relationship as floors: after one character leaves the current floor for another place, a cross-run timeline record remains; when a later character reaches the other end of that record, they are sent back to the floor the first traveler left, while the earlier traveler reappears from the other end of the rift.
 
