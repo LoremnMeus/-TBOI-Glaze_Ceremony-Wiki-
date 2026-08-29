@@ -12,7 +12,11 @@ status: featured
 
 ## Mechanics
 
-Each use of Golden Slot spends 1 coin on a draw. A miss grants nothing but raises the chance of later draws; a win clears the losing streak and returns the next draw to its minimum chance.
+## Effects
+
+**Each use of Golden Slot spends 1 coin on a draw.**
+
+A miss grants nothing but raises the chance of later draws; a win clears the losing streak and returns the next draw to its minimum chance.
 
 Every reward is golden-themed, with a very small chance to produce a Mega Chest or Trophy.
 

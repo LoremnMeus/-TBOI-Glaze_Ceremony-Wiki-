@@ -33,17 +33,17 @@ Suppose character A uses Remaster! on **Basement I** and chooses **Cathedral**:
 
 The first use of Remaster! therefore shows only the first half of the event. The other half may not appear until much later, with a completely different character. The route A skipped does not vanish—it may eventually be taken over by a later B.
 
-## Timeline swap
+## Timeline record
 
 Each crossing leaves a timeline record that persists across runs as a [permanent](/en/systems/permanent-effects) edit. It remains until the matching return completes. When a character later enters the recorded target floor, the return **triggers automatically**—holding Remaster! again is not required.
 
 ## Synergies
 
-### {{Collectible584}} Book of Virtues
+### {{Collectible:584}}
 
 If you hold Book of Virtues when the crossing starts, your current wisps are saved into the timeline record. The character who later completes the return receives those wisps.
 
-### {{Collectible34}} Book of Belial
+### {{Collectible:34}}
 
 If you hold Book of Belial when the crossing starts, key combat stats from the departing character are recorded. After return, that floor inherits the **stronger** value for each tracked stat between the two travelers.
 
@@ -71,9 +71,11 @@ Most major floors and their variants are available, including late-game routes. 
 
 ## Trivia
 
-**Development self-reference.** The mod's current release is Qing Remaster, and Remaster! was the first item added during the remaster period—the name points at the project version itself and serves as an in-game memorial to that era.
+The name **Remaster!** comes from the REMASTER development stage in *Crushed In Time*, and also points at this mod's own Qing Remaster release.
 
-***Curshed in Time* neta.** That game revolves around time travel between development versions; "Remaster" corresponds to its fifth-chapter timeline, and the A/B fate-swap design comes from there. When a future character is pulled into the rift while the character who once used Remaster! emerges from the other side, the player is seeing the same crossing from two moments in time.
+Its cross-run structure instead draws on *Crushed In Time*'s plot of characters being displaced and replaced across different development builds of the same game. In that game, “time” is the project's version history, and a character can appear in a version position that was not originally theirs.
+
+Remaster! rewrites that relationship as floors: after one character leaves the current floor for another place, a cross-run timeline record remains; when a later character reaches the other end of that record, they are sent back to the floor the first traveler left, while the earlier traveler reappears from the other end of the rift.
 
 <details>
 <summary>Technical details</summary>

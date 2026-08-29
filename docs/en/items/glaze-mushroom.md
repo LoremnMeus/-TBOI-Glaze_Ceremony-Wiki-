@@ -14,7 +14,7 @@ status: reviewed
 
 ## Effects
 
-**Glaze Mushroom adds a heart container and one chance for Boss rewards to be overgrown into Magic Mushroom.**
+**Glaze Mushroom adds a heart container and gives Boss-pool pedestals a chance to be overgrown into Magic Mushroom; after a successful overgrowth, it does not trigger again this run.**
 
 - {{Heart}} +1 full red heart container.
 - Boss-pool pedestals have a **20%** chance for mycelium to space-colonize, weave a mat cocoon, silently become {{Collectible:12}} under cover, blush red-white from the top, then peel away to reveal the mushroom.
@@ -23,7 +23,7 @@ status: reviewed
 ## Notes
 
 - Does not trigger if you already hold {{Collectible:12}}.
-- When overgrowth starts, it can consume one extra Boss-room item roll beyond the original pedestal reward (for example, quietly taking {{Collectible:12}} out of the pools). Milder than it sounds—usually once per run—but it is a real cost versus older builds.
+- When overgrowth starts, it can therefore consume one extra Boss-room item-pool roll.
 
 ## Tips
 

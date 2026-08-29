@@ -47,4 +47,4 @@ status: reviewed
 - {{Character:sp-w-qing}} — 以蓝图与机群作战的角色
 - {{System:blueprint-air-flight}} — 完整制造与舰队规则
 - {{Pickup:blueprint-prototype}} — 额外模块资源
-- {{Item:air-flight}} — Blueprint 的基础机体平台
+- {{Item:air-flight}} — 蓝图的基础机体平台

@@ -12,7 +12,9 @@ status: featured
 
 ## Mechanics
 
-Book of Thoth is a codex that fills out over the run and turns faces already seen into reusable spells.
+## Effects
+
+**Book of Thoth is a codex that fills out over the run and turns faces already seen into reusable spells.**
 
 It records Thoth cards encountered during the run. New faces build Revelation, which can be spent to arrange recorded cards into a spread that plays itself across later combat rooms.
 

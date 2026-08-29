@@ -12,9 +12,11 @@ status: featured
 
 ## Mechanics
 
-Procrastination rewards exploring before killing a boss. While held, it permanently grants damage every 30 seconds until the floor's cap is reached or any boss dies. As long as the current room contains a living boss, combat cannot lock its doors, allowing the fight to be left and resumed later.
-
 ## Effects
+
+**Procrastination rewards exploring before killing a boss.**
+
+While held, it permanently grants damage every 30 seconds until the floor's cap is reached or any boss dies. As long as the current room contains a living boss, combat cannot lock its doors, allowing the fight to be left and resumed later.
 
 | Rule | Value |
 | --- | ---: |

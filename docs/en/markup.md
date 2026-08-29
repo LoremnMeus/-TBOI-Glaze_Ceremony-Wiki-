@@ -48,6 +48,8 @@ Common marks: `{{Damage}}` `{{Tears}}` `{{Speed}}` `{{Heart}}` `{{SoulHeart}}` `
 
 A leading `↑` / `↓` is rendered as `{{ArrowUp}}` / `{{ArrowDown}}`, same as in-game EID.
 
+The EID shorthand `!!!` is rendered as `{{Warning}}`, matching in-game External Item Descriptions.
+
 Color tags `{{ColorGold}}...{{CR}}` currently drop styling in the wiki.
 
 ## Math

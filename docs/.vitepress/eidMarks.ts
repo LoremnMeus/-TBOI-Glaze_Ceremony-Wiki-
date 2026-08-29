@@ -15,7 +15,17 @@ const ARROW_ICONS: Record<string, string> = {
 function splitPlainText(text: string): MarkPart[] {
   const parts: MarkPart[] = []
   let buffer = ''
-  for (const ch of text) {
+  let i = 0
+  while (i < text.length) {
+    // EID 简写：!!! → {{Warning}}（与 External Item Descriptions eid_data.lua 一致）
+    if (text.startsWith('!!!', i)) {
+      if (buffer) parts.push({ type: 'text', value: buffer })
+      buffer = ''
+      parts.push({ type: 'icon', value: 'Warning' })
+      i += 3
+      continue
+    }
+    const ch = text[i]
     const icon = ARROW_ICONS[ch]
     if (icon) {
       if (buffer) parts.push({ type: 'text', value: buffer })
@@ -24,6 +34,7 @@ function splitPlainText(text: string): MarkPart[] {
     } else {
       buffer += ch
     }
+    i += 1
   }
   if (buffer) parts.push({ type: 'text', value: buffer })
   return parts

@@ -66,7 +66,12 @@ If you keep moving too long, unfinished locks fade—so choose between locking m
 - Only a few enemies are actively locked at once; existing locks, bosses, and nearer enemies take priority.
 - Enemies that already entered the blast sequence still explode even if the camera closes afterward.
 - Bombed enemies cool down before they can lock again.
-- {{Seija}}: watch range covers the whole room, and Watcher explosions cannot hurt you.
+
+## Synergies
+
+### {{Seija}}
+
+Watch range covers the whole room, and Watcher explosions cannot hurt you.
 
 <details>
 <summary>Technical details</summary>

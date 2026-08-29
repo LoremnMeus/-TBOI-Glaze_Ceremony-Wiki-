@@ -154,7 +154,7 @@ status: featured
 - {{Character:sp-w-qing}} — 使用蓝图机群作战的角色
 - {{Item:blue-print}} — 蓝图主动与三个管理页面
 - {{Pickup:blueprint-prototype}} — 原型模块的生成与价格
-- {{Item:air-flight}} — Blueprint 的基础机体平台
+- {{Item:air-flight}} — 蓝图的基础机体平台
 
 ## 画廊
 

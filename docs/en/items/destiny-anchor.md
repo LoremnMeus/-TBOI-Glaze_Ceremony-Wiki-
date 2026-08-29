@@ -12,23 +12,27 @@ status: featured
 
 ## Mechanics
 
-Destiny Anchor carries rooms encountered on the current floor into the next one. Using it drops an anchor at the player's position and records the room together with nearby enemies and terrain. On the next floor, that piece of the past looks for another room in which to appear.
+## Effects
+
+**Destiny Anchor carries rooms encountered on the current floor into the next one.**
+
+Using it drops an anchor at the player's position and records the room together with nearby enemies and terrain. On the next floor, that piece of the past looks for another room in which to appear.
 
 If the next floor cannot fit the original room shape, only the saved area around the anchor is reproduced instead of losing the anchor entirely.
 
 ## How to use
 
-### 1. Drop an anchor
+### Dropping and retrieving anchors
 
 Using Destiny Anchor in an eligible room places an anchor beneath the player. Up to 3 rooms can be anchored on a floor.
 
 Using it again in the same anchored room retrieves that anchor and frees one slot.
 
-### 2. Choose the saved area
+### Capture range
 
 A normal 1×1 room is effectively captured across its playable area. In large or irregular rooms, only an area around the anchor roughly the size of a normal room is recorded. A border on the floor shows the actual capture area.
 
-### 3. Reproduce it next floor
+### How reproduction works next floor
 
 On the next floor, each anchor searches for a suitable unexplored room. If its shape and doors are compatible, the original room is reproduced as completely as possible. If no shape matches, a normal-sized room carries only the area saved around the anchor.
 
@@ -40,11 +44,11 @@ Anchoring a weaker boss therefore does not remove the next floor's boss fight; i
 
 ## Synergies
 
-### {{Collectible584}} Book of Virtues
+### {{Collectible:584}}
 
 Successfully setting a **new** anchor spawns a Destiny Wisp to guard it, up to 3 per floor. The wisp attacks automatically near its anchor, returns when the anchored room is revisited, and fully heals after that room is reproduced on the next floor. Retrieving the anchor or extinguishing the wisp prevents it from returning.
 
-### {{Collectible34}} Book of Belial
+### {{Collectible:34}}
 
 While holding Book of Belial, Destiny Anchor can record a Devil Room. If the next floor successfully opens a Devil Room, the anchored room appears there again with as much of its original content and layout as possible.
 
