@@ -14,6 +14,7 @@ import WikiHome from './components/WikiHome.vue'
 import FeaturedEntries from './components/FeaturedEntries.vue'
 import CategoryLanding from './components/CategoryLanding.vue'
 import VanillaEntity from './components/VanillaEntity.vue'
+import SeijaMark from './components/SeijaMark.vue'
 import AnnaSpecialInteractions from './components/AnnaSpecialInteractions.vue'
 import TecroSpecialInteractions from './components/TecroSpecialInteractions.vue'
 import TecrorunRouteScaling from './components/TecrorunRouteScaling.vue'
@@ -40,6 +41,7 @@ export default {
     app.component('FeaturedEntries', FeaturedEntries)
     app.component('CategoryLanding', CategoryLanding)
     app.component('VanillaEntity', VanillaEntity)
+    app.component('SeijaMark', SeijaMark)
     app.component('AnnaSpecialInteractions', AnnaSpecialInteractions)
     app.component('TecroSpecialInteractions', TecroSpecialInteractions)
     app.component('TecrorunRouteScaling', TecrorunRouteScaling)

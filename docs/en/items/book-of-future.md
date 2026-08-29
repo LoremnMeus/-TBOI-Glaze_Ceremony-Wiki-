@@ -16,13 +16,13 @@ status: reviewed
 
 ## Effects
 
-**Book of Future draws a batch of "future items" from the current room's item pool and trades them for a 4-choice selection right now.**
+**Book of Future spends items that might have appeared later in exchange for one choice right now.**
 
 On use, it keeps pulling from the **item pool that matches the current room** until the combined quality of those pulls reaches **50**. Drawn items appear as colored afterimages orbiting the player; then **4** mutually exclusive candidates spawn nearby.
 
-Those candidates also come from the **same current-room pool**, rolled fresh by the engine—they are **not** the specific items you just drew as afterimages. Taking one removes the rest.
+Those candidates also come from the **same current-room pool**, rolled fresh by the engine—they are **not** the specific items just drawn as afterimages. Taking one removes the rest.
 
-These pulls **actually consume** the corresponding pool. Book of Future therefore changes not only what you get immediately, but also what that pool can still offer later.
+These pulls **actually consume** the corresponding pool. Book of Future therefore changes not only what appears immediately, but also what that pool can still offer later.
 
 ## Future escape
 
@@ -52,7 +52,7 @@ On use, one randomly chosen drawn item spawns as its matching item wisp.
 
 Adds **2** candidates from the Devil Room item pool to the selection. They belong to the same choice group; picking any one removes the rest.
 
-### {{Seija}} Seija
+### {{Seija}}
 
 Only **1** candidate spawns instead of a 4-choice.
 

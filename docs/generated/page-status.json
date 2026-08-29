@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T10:37:51Z",
+  "generatedAt": "2026-08-29T05:42:32Z",
   "pages": [
     {
       "slug": "darkness",
@@ -71,8 +71,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/the-watcher.md",
       "en": "wiki/docs/en/items/the-watcher.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "giant-punch",
@@ -207,8 +207,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/glaze-mushroom.md",
       "en": "wiki/docs/en/items/glaze-mushroom.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "pageant-cross-dresser",
@@ -239,8 +239,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/colorblindness.md",
       "en": "wiki/docs/en/items/colorblindness.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "field",
@@ -691,6 +691,14 @@
       "enStatus": "stub"
     },
     {
+      "slug": "cheaters-blessing",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/cheaters-blessing.md",
+      "en": "wiki/docs/en/items/cheaters-blessing.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
       "slug": "dimension-contact",
       "kind": "collectible",
       "zh": "wiki/docs/items/dimension-contact.md",
@@ -1099,6 +1107,14 @@
       "enStatus": "stub"
     },
     {
+      "slug": "the-voice",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/the-voice.md",
+      "en": "wiki/docs/en/items/the-voice.md",
+      "zhStatus": "stub",
+      "enStatus": "stub"
+    },
+    {
       "slug": "regenesis",
       "kind": "collectible",
       "zh": "wiki/docs/items/regenesis.md",
@@ -1115,22 +1131,6 @@
       "enStatus": "stub"
     },
     {
-      "slug": "cheaters-blessing",
-      "kind": "collectible",
-      "zh": "wiki/docs/items/cheaters-blessing.md",
-      "en": "wiki/docs/en/items/cheaters-blessing.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
-    },
-    {
-      "slug": "the-voice",
-      "kind": "collectible",
-      "zh": "wiki/docs/items/the-voice.md",
-      "en": "wiki/docs/en/items/the-voice.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
-    },
-    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -1143,8 +1143,8 @@
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/dark-particle.md",
       "en": "wiki/docs/en/trinkets/dark-particle.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "torn-emperor",
@@ -1223,8 +1223,8 @@
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pause.md",
       "en": "wiki/docs/en/trinkets/pause.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "equality-agreement",
@@ -1287,8 +1287,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/0-the-fool.md",
       "en": "wiki/docs/en/cards/0-the-fool.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "i-the-witch",
@@ -1415,8 +1415,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xiv-art.md",
       "en": "wiki/docs/en/cards/xiv-art.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xv-the-devil",
@@ -1879,8 +1879,8 @@
       "kind": "challenge",
       "zh": "wiki/docs/challenges/safe-driving.md",
       "en": "wiki/docs/en/challenges/safe-driving.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "swallow-the-sun",

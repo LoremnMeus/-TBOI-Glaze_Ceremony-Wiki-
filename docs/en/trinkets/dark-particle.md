@@ -4,14 +4,16 @@ description: "Flammable and delicious"
 slug: dark-particle
 kind: trinket
 internalKey: Dark_Particle
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>黑暗脆块 Dark Particle Dark_Particle dark-particle Dark Particle 易燃又美味？ Flammable and delicious 初次拾取时+1黑心 初次失去时+1碎心 +1 black heart when first pick +1 broken heart when first lose</p>
+<p class="wiki-search-index" v-pre>黑暗脆块 Dark Particle Dark_Particle dark-particle Dark Particle 易燃又美味？ Flammable and delicious 获得时+2黑心 失去时+1碎心 +2 Black Hearts on pickup +1 Broken Heart when lost</p>
 
 <PublicEntry slug="dark-particle" lang="en" />
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+## Effects
 
-To be written.
+**On pickup you immediately gain 2 black hearts; when you later lose that copy, it leaves 1 broken heart.**
+
+Each gained copy grants {{BlackHeart}} +2 black hearts. Each lost copy that was previously gained leaves {{BrokenHeart}} +1 broken heart.

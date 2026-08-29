@@ -4,6 +4,7 @@ import { withBase } from 'vitepress'
 import EidIcon from './EidIcon.vue'
 import EidMarkup from './EidMarkup.vue'
 import VanillaEntity from './VanillaEntity.vue'
+import WikiEntryIcon from './WikiEntryIcon.vue'
 import catalog from '../../../generated/entries.json'
 
 const props = defineProps({
@@ -65,14 +66,38 @@ const chargeInfo = computed(() => {
   const type = String(row.chargeType || 'room').toLowerCase()
   const max = row.maxCharges == null ? 1 : Number(row.maxCharges)
   const initial = row.initCharge == null ? max : Number(row.initCharge)
+  // Isaac timed charges store duration in frames (30 fps).
+  const timedSeconds = type === 'timed' && max > 0 ? max / 30 : null
+  const showBar = type === 'room' && max > 0 && max <= 12
   return {
     type,
     max,
     initial,
-    visualMax: Math.max(0, Math.min(12, Math.round(max))),
-    visualInitial: Math.max(0, Math.min(12, Math.round(initial))),
+    timedSeconds,
+    showBar,
+    visualMax: showBar ? Math.round(max) : 0,
+    visualInitial: showBar ? Math.max(0, Math.min(Math.round(max), Math.round(initial))) : 0,
   }
 })
+
+function chargeSummary(info) {
+  if (!info) return ''
+  if (info.type === 'timed' && info.timedSeconds != null) {
+    const sec = Number.isInteger(info.timedSeconds)
+      ? String(info.timedSeconds)
+      : info.timedSeconds.toFixed(1).replace(/\.0$/, '')
+    return en.value ? `${sec}s timed` : `${sec} 秒计时`
+  }
+  if (info.type === 'special') {
+    if (info.max <= 0) return en.value ? 'Special' : '特殊充能'
+    return en.value ? `Special · max ${info.max}` : `特殊充能 · 上限 ${info.max}`
+  }
+  if (info.max <= 0) return en.value ? 'No charge' : '无需充能'
+  if (info.type === 'room' && info.max > 12) {
+    return en.value ? `${info.initial}/${info.max} rooms` : `${info.initial}/${info.max} 格房间充能`
+  }
+  return `${info.initial}/${info.max}`
+}
 
 function poolName(id) {
   const row = POOL_LABELS[id]
@@ -129,13 +154,22 @@ function wikiKind(kind) {
           <div class="entry-infobox__charge-label">
             <EidIcon name="Battery" />
             <span>{{ CHARGE_TYPE_LABELS[chargeInfo.type]?.[en ? 1 : 0] || chargeInfo.type }}</span>
-            <strong v-if="chargeInfo.max > 0">{{ chargeInfo.initial }}/{{ chargeInfo.max }}</strong>
-            <strong v-else>{{ en ? 'None' : '无需充能' }}</strong>
+            <strong>{{ chargeSummary(chargeInfo) }}</strong>
           </div>
-          <div v-if="chargeInfo.visualMax" class="entry-infobox__charge-bar" :style="{ gridTemplateColumns: `repeat(${chargeInfo.visualMax}, minmax(0, 1fr))` }" :aria-label="`${chargeInfo.initial}/${chargeInfo.max}`">
+          <div
+            v-if="chargeInfo.showBar"
+            class="entry-infobox__charge-bar"
+            :style="{ gridTemplateColumns: `repeat(${chargeInfo.visualMax}, minmax(0, 1fr))` }"
+            :aria-label="`${chargeInfo.initial}/${chargeInfo.max}`"
+          >
             <i v-for="index in chargeInfo.visualMax" :key="index" :class="{ filled: index <= chargeInfo.visualInitial }" />
           </div>
-          <small v-if="chargeInfo.initial !== chargeInfo.max">{{ en ? `Starts with ${chargeInfo.initial}` : `开局 ${chargeInfo.initial} 格` }}</small>
+          <small v-if="chargeInfo.type === 'timed' && chargeInfo.initial === 0">
+            {{ en ? 'Starts empty' : '开局为空' }}
+          </small>
+          <small v-else-if="chargeInfo.type === 'room' && chargeInfo.showBar && chargeInfo.initial !== chargeInfo.max">
+            {{ en ? `Starts with ${chargeInfo.initial}` : `开局 ${chargeInfo.initial} 格` }}
+          </small>
         </dd>
       </template>
 
@@ -168,7 +202,24 @@ function wikiKind(kind) {
 
       <template v-if="entry.unlock">
         <dt>{{ en ? 'Unlock' : '解锁条件' }}</dt>
-        <dd>{{ entry.unlock.text?.[lang] || entry.unlock.conditionKey }}</dd>
+        <dd>
+          <div>{{ entry.unlock.text?.[lang] || entry.unlock.conditionKey }}</div>
+          <div v-if="entry.unlock.siblings?.length" class="entry-infobox__siblings">
+            <small>{{ en ? 'Also unlocks:' : '同条件还可解锁：' }}</small>
+            <div class="entry-infobox__icons">
+              <WikiEntryIcon
+                v-for="sib in entry.unlock.siblings"
+                :key="sib.slug"
+                :name="`${wikiKind(sib.kind)}:${sib.slug}`"
+              />
+            </div>
+          </div>
+        </dd>
+      </template>
+
+      <template v-if="entry.hidden">
+        <dt>{{ en ? 'Availability' : '获取方式' }}</dt>
+        <dd>{{ en ? 'Hidden / special item' : '隐藏 / 特殊道具（不会出现在普通道具池）' }}</dd>
       </template>
 
       <template v-if="entry.kind === 'challenge' && entry.challengeBase?.number">
@@ -317,6 +368,8 @@ function wikiKind(kind) {
 .entry-infobox__charge-bar i { grid-column: span 1; height: 7px; border: 1px solid color-mix(in srgb, var(--vp-c-text-2) 45%, transparent); border-radius: 2px; background: var(--vp-c-bg); }
 .entry-infobox__charge-bar i.filled { border-color: color-mix(in srgb, var(--vp-c-yellow-1, #d8a72d) 75%, var(--vp-c-divider)); background: var(--vp-c-yellow-1, #d8a72d); }
 .entry-infobox__charge small { display: block; margin-top: .25rem; color: var(--vp-c-text-2); }
+.entry-infobox__siblings { margin-top: .35rem; }
+.entry-infobox__siblings small { display: block; color: var(--vp-c-text-2); margin-bottom: .2rem; }
 .entry-infobox__chips > span { padding: 0 .35rem; border: 1px solid var(--vp-c-divider); border-radius: 999px; }
 .entry-infobox__technical { border-top: 1px solid var(--vp-c-divider); }
 .entry-infobox__technical summary { cursor: pointer; padding: .55rem .65rem; color: var(--vp-c-text-2); }

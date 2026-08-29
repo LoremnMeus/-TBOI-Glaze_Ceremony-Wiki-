@@ -16,15 +16,15 @@ status: featured
 
 ## Effects
 
-**A Glaze Heart looks at your current health layout, then tries to become something that layout actually needs.**
+**A Glaze Heart is an adaptive catch-all heart that fits the current health bar.**
 
 Under the vanilla health system, pickup first repairs special health:
 
-- If you have a {{BrokenHeart}} Broken Heart, it removes 1 Broken Heart first; a **full** Glaze Heart also grants half a {{SoulHeart}} Soul Heart;
-- Otherwise, if you have a {{RottenHeart}} Rotten Heart, it removes 1 Rotten Heart first;
-- Only when neither is present does it choose from heart types you already have and can still gain.
+- If a {{BrokenHeart}} Broken Heart is present, it removes 1 Broken Heart first; a **full** Glaze Heart also grants half a {{SoulHeart}} Soul Heart;
+- Otherwise, if a {{RottenHeart}} Rotten Heart is present, it removes 1 Rotten Heart first;
+- Only when neither is present does it choose from heart types the player already has and can still gain.
 
-So it is not an equal roll across every heart type. It behaves more like an adaptive catch-all heart.
+It is not an equal roll across every heart type—it tries to become the life reward that makes the most sense to pick up right now.
 
 ## What can it become?
 

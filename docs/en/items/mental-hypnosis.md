@@ -16,20 +16,20 @@ status: reviewed
 
 ## Effect
 
-At the start of each floor, Mental Hypnosis builds a random **room order** from the special room types that exist on that floor and shows the remaining sequence in the HUD.
+Mental Hypnosis turns each floor’s special rooms into a visit route that must be completed in order.
 
-Whenever you **enter a counted special room for the first time**:
+At the start of each floor, it builds a random **room order** from the special room types that exist on that floor and shows the remaining sequence in the HUD.
 
-- If its room type matches the current instruction, you immediately receive a random reward.
-- If you enter a different special room instead, you immediately receive a random punishment.
+Whenever a counted special room is **entered for the first time**:
 
-Whether you succeed or fail, that instruction is consumed and the next one becomes active.
+- If its room type matches the current instruction, a random reward is granted immediately.
+- If a different special room is entered instead, a random punishment is applied immediately.
 
-The item is not asking you to “find every listed room.” It asks you to **plan the order in which you visit this floor’s special rooms**.
+Whether the step succeeds or fails, that instruction is consumed and the next one becomes active.
 
 **Normal rooms do not count. Only the first visit to a counted special room is checked.**
 
-For example, if the order is Treasure Room → Shop → Boss Room, passing through normal rooms does not affect progress. If the second step wants a Shop but you enter a Curse Room first, that step fails and you are punished, then the next instruction continues—the whole list is not reset.
+For example, if the order is Treasure Room → Shop → Boss Room, passing through normal rooms does not affect progress. If the second step wants a Shop but a Curse Room is entered first, that step fails and a punishment is applied, then the next instruction continues—the whole list is not reset.
 
 ## Rewards
 
@@ -58,9 +58,9 @@ A bad step only costs that one punishment. The remaining instructions can still 
 
 ## Trivia
 
-Mental Hypnosis is a [Rainbow](/en/systems/rainbow) item. Its sprite is redrawn from Spun-set collectibles such as {{Collectible:13}}.
+Mental Hypnosis is built around following external instructions: special rooms on a floor are organized into an ordered route that must be completed in sequence.
 
-The syringe set evokes injection and imposed compliance; Mental Hypnosis turns a floor's special-room order into instructions you must follow.
+Its sprite is redrawn from Spun-set collectibles such as {{Collectible:13}}; the syringe imagery of injection and imposed compliance echoes that “follow the order” play pattern.
 
 <details>
 <summary>Technical details</summary>

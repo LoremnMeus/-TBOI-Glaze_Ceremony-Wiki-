@@ -16,7 +16,7 @@ status: featured
 
 ## Effects
 
-Crown of the Glaze rewards you for stacking shards all the way to a full crown—and pressures you not to take a hit that smashes it.
+The more intact Crown of the Glaze is, the stronger it grows; taking damage shatters every carefully stacked shard.
 
 Picking up any supported glazed drop grants **1** shard, up to **5**. Higher tiers unlock attack and glaze-related powers. On real effective damage, every shard shatters at once and sprays fragments based on the lost tier.
 

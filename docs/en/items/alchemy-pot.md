@@ -16,7 +16,7 @@ status: reviewed
 
 ## Effects
 
-**Alchemy Pot consumes 3 collectibles you already hold and uses their IDs to craft another collectible with a specific result ID.**
+**Alchemy Pot splits three owned collectible IDs apart and stitches them into one new collectible ID.**
 
 Using it opens a selection interface. After choosing three inputs in order:
 
@@ -57,7 +57,7 @@ The crafting interface adds a free "6" candidate that can fill any one slot.
 
 For example, placing it in the second slot fixes the tens digit of the result at 6.
 
-### {{Seija}} Seija
+### {{Seija}}
 
 There is a **50%** chance to craft a wrong item instead of the intended result. The inputs are still consumed.
 

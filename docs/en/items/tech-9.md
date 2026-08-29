@@ -16,7 +16,7 @@ status: featured
 
 ## Effects
 
-Tech IX occasionally tacks one more Technology weapon onto the attack you already fired.
+Tech IX occasionally tacks one more Technology weapon onto the attack just fired.
 
 That extra shot may be a Technology laser or a Tech X ring. More Luck and more copies of Tech IX make the follow-up show up more often.
 

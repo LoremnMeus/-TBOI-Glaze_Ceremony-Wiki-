@@ -52,7 +52,7 @@ After **6 Revelations** in the current room, final Judgement begins. It only str
 
 ## Special interactions
 
-### {{Seija}} Seija
+### {{Seija}}
 
 Under Seija, Gospel no longer spreads to nearby enemies. Reaching a spread threshold instead invokes a weaker dark Revelation on the original target, and affected enemies no longer spread Gospel upon death.
 

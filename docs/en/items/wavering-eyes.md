@@ -16,9 +16,11 @@ status: reviewed
 
 ## Effects
 
+Wavering Eyes makes consecutive hits grow stronger—and tears harder to fire straight.
+
 Landing tears on enemies builds **Focus**.
 
-Focus has no hard cap. Higher Focus makes consecutive tears **sway left and right** in a steady pattern around your aim—not independent random scatter per shot. Sway amplitude is capped so high Focus does not become uncontrollable.
+Focus has no hard cap. Higher Focus makes consecutive tears **sway left and right** in a steady pattern around the aim direction—not independent random scatter per shot. Sway amplitude is capped so high Focus does not become uncontrollable.
 
 | Focus | Effect |
 | ---: | --- |
@@ -29,7 +31,7 @@ Focus has no hard cap. Higher Focus makes consecutive tears **sway left and righ
 | 13 | Hook worm tears |
 | 21 | Rubber tears |
 
-Wavering Eyes is not a pure stacking reward: **the higher your Focus, the stronger you become—and the more you must learn to ride the sway.**
+Wavering Eyes is not a pure stacking reward: **the higher the Focus, the stronger the shots—and the harder they are to aim straight.**
 
 ## Defocus
 

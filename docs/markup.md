@@ -62,7 +62,7 @@
 
 行内示例：{{Item:gospel}} {{Item:blue-print}} {{Pickup:glaze-heart-half}} {{Damage}} {{SoulHeart}} {{Warning}} {{QingPlayer:wq}}
 
-“特殊联动”下的具体对象标题也应直接使用对应标记，例如 `### {{Seija}} Seija`、`### {{Collectible:706}} 深渊`，使头像或道具图标与名称一起显示。
+“特殊联动”下的具体对象标题也应直接使用对应标记，例如 `### {{Seija}}`、`### {{Collectible:706}}`，使头像或道具图标与名称一起显示（名称由 markup 内联，不要手写重复）。
 
 拷贝模板：[格式参考](/markup-cheatsheet)。
 
@@ -77,7 +77,7 @@
 - 资源：`{{Coin}}` `{{Bomb}}` `{{Key}}` `{{Battery}}` `{{Card}}` `{{Pill}}` `{{Rune}}` `{{Trinket}}`
 - 房间：`{{TreasureRoom}}` `{{Shop}}` `{{BossRoom}}` `{{DevilRoom}}` `{{AngelRoom}}` `{{SecretRoom}}` `{{Planetarium}}` `{{SacrificeRoom}}`
 - 状态：`{{Warning}}` `{{Timer}}` `{{Poison}}` `{{Burning}}` `{{Fear}}` `{{Slow}}` `{{Charm}}` `{{Confusion}}` `{{HolyMantle}}` `{{ArrowUp}}` `{{ArrowDown}}`
-- 正邪：`{{Seija}}` `{{SeijaB}}`
+- 正邪：`{{Seija}}` `{{SeijaB}}`（正文会内联「正邪 / Seija」名称；**游戏内说明**区块仅显示图标，与其他 EID 图标一致）
 - 品质：`{{Quality0}}` `{{Quality1}}` `{{Quality2}}` `{{Quality3}}` `{{Quality4}}`
 
 原版实体使用类型 + XML ID：`{{Collectible:619}}` `{{Trinket:1}}` `{{Card:1}}` `{{Pill:1}}`。它们会同时渲染正式名称和图标；不要按中文名引用，也不要自行翻译。旧式 `{{Collectible619}}` 仍可作为纯图标使用，但百科正文优先使用带冒号的实体引用。

@@ -1,12 +1,12 @@
 ---
-title: Air Terror
+title: Air Guard 01 - Standard
 description: "Hello...Again?"
 slug: air-terror
 kind: collectible
 internalKey: Air_Terror
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>飞行界域者 Air Terror Air_Terror air-terror Air Terror 敌人已锁定！ Hello...Again? 自动巡航并追逐附近的敌方弹幕 接触弹幕后将其清除 An automatic cruising familiar that chases nearby enemy projectiles Clears them on contact</p>
+<p class="wiki-search-index" v-pre>空御一号-标准型 Air Guard 01 - Standard Air_Terror air-terror Air Terror 敌人已锁定！ Hello...Again? 自动巡航，追逐并拦截附近的敌方弹幕 拦截后将其转化为竖直落下的 泪弹，下落时留下伤害光环 Cruises automatically, chases and intercepts nearby enemy projectiles Converts them into falling tears that leave a damaging aura</p>
 
 <PublicEntry slug="air-terror" lang="en" />
 
@@ -14,23 +14,16 @@ status: reviewed
 
 ## Effects
 
-Air Terror is an automatic defensive familiar: it seeks nearby enemy projectiles, chases them, and clears them on contact.
+Air Guard 01 - Standard cruises on its own, chases nearby enemy projectiles, and intercepts them on contact.
+
+Intercepted shots become falling {{Collectible:331}} tears: the tear body does not collide with enemies, but the Godhead aura around it deals damage while they fall.
 
 With nothing to chase, it orbits near the player.
 
-The current build does **not** leave a damaging aura after an intercept.
-
-It is a standalone collectible familiar, **not** a {{Item:blue-print}} chassis. Tainted Qing's Blueprint fleet uses {{Item:air-flight}} as its only standard platform.
-
 ## Intercept range
 
-- searches enemy projectiles within about **200**;
-- removes a projectile when closing to about **20**.
-
-## Notes
-
-- It clears projectiles; it does not turn them into a reliable damage source.
-- If older text still mentions a “damage halo,” trust current gameplay and this page.
+- search radius **200**;
+- intercept and convert within distance **20**.
 
 ## Related
 

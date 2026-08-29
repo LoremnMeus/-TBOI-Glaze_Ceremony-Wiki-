@@ -12,9 +12,9 @@ status: featured
 
 ## Mechanics
 
-Book of Thoth records the Thoth cards encountered during the run. New faces build Revelation, which can be spent to arrange recorded cards into a spread that plays itself across later combat rooms.
+Book of Thoth is a codex that fills out over the run and turns faces already seen into reusable spells.
 
-As the codex fills out, a small collection gradually becomes a reusable library of effects.
+It records Thoth cards encountered during the run. New faces build Revelation, which can be spent to arrange recorded cards into a spread that plays itself across later combat rooms.
 
 <WikiScreenshot src="/images/screenshots/items/book-of-thoth/codex.jpg" :ready="true" alt="The Book of Thoth codex screen" caption="The codex records upright and reversed Thoth faces separately. Faces not yet recorded remain hidden." />
 
@@ -90,7 +90,7 @@ Cards played for free by the spread do not generate Revelation. Losing and later
 ## Special interactions
 
 - {{Collectible34}} **Book of Belial:** spread capacity increases from 3 to 4 while the cost remains 3 Revelation. All four faces follow the normal random and once-per-floor rules.
-- {{Seija}} **Seija:** Thoth pickups conceal their identity. Newly recorded faces first enter the codex unrevealed; they still grant Revelation and may be selected, but are revealed together only when the first spread is successfully formed. Leaving the Seija state also reveals pending entries.
+- {{Seija}}: Thoth pickups conceal their identity. Newly recorded faces first enter the codex unrevealed; they still grant Revelation and may be selected, but are revealed together only when the first spread is successfully formed. Leaving the Seija state also reveals pending entries.
 - {{Collectible584}} **Book of Virtues:** wisps created by Book of Thoth drop a tarot card when extinguished.
 
 ## Details and edge cases

@@ -76,7 +76,7 @@
             "link": "/items/gold-rush"
           },
           {
-            "text": "空行零号·试作型",
+            "text": "空行零号-试做版",
             "link": "/items/air-flight"
           },
           {
@@ -144,7 +144,7 @@
             "link": "/items/alchemy-pot"
           },
           {
-            "text": "飞行界域者",
+            "text": "空御一号-标准型",
             "link": "/items/air-terror"
           },
           {
@@ -392,6 +392,10 @@
             "link": "/items/ending-count"
           },
           {
+            "text": "作弊者的祝福",
+            "link": "/items/cheaters-blessing"
+          },
+          {
             "text": "次元之楔",
             "link": "/items/dimension-contact"
           },
@@ -596,20 +600,16 @@
             "link": "/items/abiogenesis"
           },
           {
+            "text": "声音",
+            "link": "/items/the-voice"
+          },
+          {
             "text": "再世纪",
             "link": "/items/regenesis"
           },
           {
             "text": "余烬",
             "link": "/items/ember"
-          },
-          {
-            "text": "作弊者的祝福",
-            "link": "/items/cheaters-blessing"
-          },
-          {
-            "text": "声音",
-            "link": "/items/the-voice"
           }
         ]
       }
@@ -1291,7 +1291,7 @@
             "link": "/en/items/alchemy-pot"
           },
           {
-            "text": "Air Terror",
+            "text": "Air Guard 01 - Standard",
             "link": "/en/items/air-terror"
           },
           {
@@ -1539,6 +1539,10 @@
             "link": "/en/items/ending-count"
           },
           {
+            "text": "Cheater's Blessing",
+            "link": "/en/items/cheaters-blessing"
+          },
+          {
             "text": "Dimension Contact",
             "link": "/en/items/dimension-contact"
           },
@@ -1743,20 +1747,16 @@
             "link": "/en/items/abiogenesis"
           },
           {
+            "text": "The Voice",
+            "link": "/en/items/the-voice"
+          },
+          {
             "text": "Regenesis",
             "link": "/en/items/regenesis"
           },
           {
             "text": "Ember",
             "link": "/en/items/ember"
-          },
-          {
-            "text": "Cheater's Blessing",
-            "link": "/en/items/cheaters-blessing"
-          },
-          {
-            "text": "The Voice",
-            "link": "/en/items/the-voice"
           }
         ]
       }

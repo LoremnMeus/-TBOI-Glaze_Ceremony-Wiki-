@@ -35,7 +35,7 @@ If no other passive item remains eligible for sacrifice, Pathetique sacrifices i
 
 ## Special interactions
 
-### {{Seija}} Seija
+### {{Seija}}
 
 Under Seija, Pathetique still sacrifices items to negate enemy damage, but sacrificed items no longer grant tears up.
 

@@ -1,12 +1,12 @@
 ---
-title: 空行零号·试作型
+title: 空行零号-试做版
 description: "滴..注入成功.."
 slug: air-flight
 kind: collectible
 internalKey: Air_Flight
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>空行零号·试作型 AF-00 Prototype Air_Flight air-flight Air Flight 滴..注入成功.. Hello World 与你攻击方式相同，自动攻击敌人的小跟班 A baby mimics your attack and automaticly targets enemies</p>
+<p class="wiki-search-index" v-pre>空行零号-试做版 AF-00 Prototype Air_Flight air-flight Air Flight 滴..注入成功.. Hello World 与你攻击方式相同，自动攻击敌人的小跟班 A baby mimics your attack and automaticly targets enemies</p>
 
 <PublicEntry slug="air-flight" lang="zh" />
 
@@ -14,7 +14,7 @@ status: reviewed
 
 ## 效果
 
-空行零号·试作型既是一件自动模仿玩家攻击的宝宝道具，也是 {{Character:sp-w-qing}} 在 {{System:blueprint-air-flight}} 中唯一的标准机体平台。
+空行零号既是会模仿角色攻击的宝宝，也是 {{Character:sp-w-qing}} 制造所有标准飞行器的原型机。
 
 ## 作为普通道具
 

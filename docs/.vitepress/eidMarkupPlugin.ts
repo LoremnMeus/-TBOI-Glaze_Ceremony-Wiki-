@@ -6,6 +6,9 @@ function eidIconHtml(name: string): string {
   if (entity) {
     return `<VanillaEntity entity-type="${entity[1].toLowerCase()}" entity-id="${entity[2]}" />`
   }
+  if (/^SeijaB?$/i.test(escaped)) {
+    return `<SeijaMark name="${escaped}" />`
+  }
   return `<EidIcon name="${escaped}" />`
 }
 

@@ -16,9 +16,9 @@ status: featured
 
 ## Effects
 
-Once you have Darkness, black hearts become the run’s most important resource: your health, your damage, and your Devil Deal currency.
+While Darkness is held, black hearts become the run’s most important resource: health, damage, and Devil Deal currency.
 
-While held, your health becomes a soul-heart system and you gain **1** Black Heart. Damage scales with black hearts: about **+0.8** Damage per black heart, plus roughly **0.3%** multiplicative growth per black heart. Extra copies raise the additive part further.
+Health becomes a soul-heart system, and the player gains **1** Black Heart. Damage scales with black hearts: about **+0.8** Damage per black heart, plus roughly **0.3%** multiplicative growth per black heart. Extra copies raise the additive part further.
 
 ### Kill staining
 

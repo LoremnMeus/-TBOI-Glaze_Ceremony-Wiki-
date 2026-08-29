@@ -10892,6 +10892,7 @@
     "Brilliant": "collectibles_Brilliant.png",
     "Fraternity": "collectibles_Fraternity.png",
     "Ending_Count": "collectibles_Ending_Count.png",
+    "Cheater_s_Blessing": "collectibles_Cheater_s_blessing.png",
     "Dimension_Contact": "collectibles_Dimension_Contact.png",
     "World_Arc": "collectibles_World_Arc.png",
     "Final_Prism": "collectibles_Final_prism.png",
@@ -10943,10 +10944,9 @@
     "Qing_Faceted_Market_Diamond": "collectibles_Diamond.png",
     "Cup_Cat": "collectibles_Cup_Cat.png",
     "Abiogenesis": "collectibles_Abiogenesis.png",
+    "The_Voice": "collectibles_The_Voice.png",
     "Regenesis": "collectibles_Regenesis.png",
-    "Ember": "collectibles_Embers.png",
-    "Cheater_s_Blessing": "collectibles_Cheater_s_blessing.png",
-    "The_Voice": "collectibles_The_Voice.png"
+    "Ember": "collectibles_Embers.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -11035,6 +11035,7 @@
     "98": "collectibles_Brilliant.png",
     "99": "collectibles_Fraternity.png",
     "100": "collectibles_Ending_Count.png",
+    "101": "collectibles_Cheater_s_blessing.png",
     "102": "collectibles_Dimension_Contact.png",
     "103": "collectibles_World_Arc.png",
     "104": "collectibles_Final_prism.png",
@@ -11086,10 +11087,9 @@
     "167": "collectibles_Diamond.png",
     "168": "collectibles_Cup_Cat.png",
     "169": "collectibles_Abiogenesis.png",
+    "170": "collectibles_The_Voice.png",
     "171": "collectibles_Regenesis.png",
-    "172": "collectibles_Embers.png",
-    "101": "collectibles_Cheater_s_blessing.png",
-    "170": "collectibles_The_Voice.png"
+    "172": "collectibles_Embers.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",

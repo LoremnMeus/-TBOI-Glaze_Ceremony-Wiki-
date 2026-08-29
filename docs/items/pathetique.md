@@ -35,7 +35,7 @@ status: featured
 
 ## 特殊联动
 
-### {{Seija}} Seija
+### {{Seija}}
 
 在 Seija 的影响下，悲悯仍然能够牺牲道具来抵消伤害，但不再因被牺牲的道具获得射速提升。
 

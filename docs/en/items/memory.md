@@ -16,16 +16,16 @@ status: reviewed
 
 ## Effects
 
-On use, **Memory vanishes immediately** and makes the rest of the run keep spawning duplicates of what you already hold.
+Memory stops the run from seeking new build directions and instead keeps repeating choices already made.
 
-From that moment, you largely stop gaining new build pieces and instead keep copying choices you already made. Whenever the game tries to roll a collectible from a pool, the result is replaced with something every player currently holds. This lasts until the run ends.
+On use, **Memory vanishes immediately**. Whenever the game later tries to roll a collectible from a pool, the result is replaced with something every player currently holds. This lasts until the run ends.
 
 It is not uniform random among owned items:
 
 - an item held **once** has weight **1**;
 - extra copies add weight, so duplicates are more likely to appear again.
 
-Memory therefore pushes your build to collapse further toward items you have already repeated.
+Memory therefore pushes the build to collapse further toward items that have already been repeated.
 
 ## Notes
 
@@ -63,11 +63,7 @@ During Memory, gaining another copy of an item you already hold strengthens wisp
 
 ## Trivia
 
-Memory is not about duplicating one chosen item—it makes later rolls keep returning to choices you already made, so the run's build keeps collapsing toward what you already hold.
-
-Memory is a [Rainbow](/en/systems/rainbow) item.
-
-It has no vanilla collectible icon basis.
+Memory is built around the cognitive theme of returning to experiences already lived: later collectible rolls keep coming back to choices the run already owns.
 
 <details>
 <summary>Technical details</summary>

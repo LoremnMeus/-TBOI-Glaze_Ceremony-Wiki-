@@ -4,6 +4,7 @@ import catalog from '../../../generated/entries.json'
 import MissingTranslation from './MissingTranslation.vue'
 import EidMarkup from './EidMarkup.vue'
 import EntryInfobox from './EntryInfobox.vue'
+import { TAG_LABEL } from '../tagLabels'
 
 const props = defineProps({
   slug: { type: String, required: true },
@@ -11,34 +12,6 @@ const props = defineProps({
 })
 
 const english = computed(() => props.lang === 'en')
-
-const TAG_LABEL = {
-  summonable: { zh: '可召唤', en: 'Summonable' },
-  offensive: { zh: '攻击性', en: 'Offensive' },
-  devil: { zh: '恶魔', en: 'Devil' },
-  angel: { zh: '天使', en: 'Angel' },
-  book: { zh: '书', en: 'Book' },
-  quest: { zh: '任务', en: 'Quest' },
-  nogreed: { zh: '贪婪禁用', en: 'No greed' },
-  noeden: { zh: '伊甸除外', en: 'No Eden' },
-  lazarusshared: { zh: '拉萨路共享', en: 'Lazarus shared' },
-  mushroom: { zh: '蘑菇', en: 'Mushroom' },
-  baby: { zh: '宝宝', en: 'Baby' },
-  syringe: { zh: '针筒', en: 'Syringe' },
-  food: { zh: '食物', en: 'Food' },
-  mom: { zh: '妈妈', en: 'Mom' },
-  guppy: { zh: '加普', en: 'Guppy' },
-  fly: { zh: '苍蝇', en: 'Fly' },
-  tech: { zh: '科技', en: 'Tech' },
-  unique: { zh: '独特', en: 'Unique' },
-  teardrop: { zh: '泪滴', en: 'Tear' },
-  nolostbr: { zh: '游魂无长子名分', en: 'No Lost BR' },
-  dead: { zh: '死灵', en: 'Dead' },
-  poop: { zh: '大便', en: 'Poop' },
-  stars: { zh: '星星', en: 'Stars' },
-  battery: { zh: '电池', en: 'Battery' },
-  bob: { zh: '鲍勃', en: 'Bob' },
-}
 
 const CONDITIONAL_EID_FIELDS = [
   { key: 'bookOfVirtues', prefix: '{{Collectible:584}}' },
@@ -111,7 +84,7 @@ const infoboxIconSrc = computed(() => {
         </p>
         <section v-if="hasEidSection" class="public-entry__eid" :aria-label="english ? 'In-game description' : '游戏内说明'">
           <strong class="public-entry__eid-label">{{ english ? 'In-game description' : '游戏内说明' }}</strong>
-          <EidMarkup v-if="eid" :text="eid" />
+          <EidMarkup v-if="eid" :text="eid" :labeled-icons="false" />
           <details v-if="conditionalEidLines.length" class="public-entry__eid-conditions" open>
             <summary>
               {{ english ? 'Conditional lines' : '特定情况下显示' }}
@@ -121,6 +94,7 @@ const infoboxIconSrc = computed(() => {
               v-for="(line, index) in conditionalEidLines"
               :key="index"
               :text="line"
+              :labeled-icons="false"
             />
           </details>
         </section>
