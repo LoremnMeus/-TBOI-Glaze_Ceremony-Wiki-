@@ -27,11 +27,11 @@ Afterwards:
 
 Finding a friend gives a clear cue.
 
-While My Best Friend is held, those items keep Qing's “friend” nicknames in EID even if they appear from another source such as a Treasure Room.
+While this item is held, those collectibles show Qing's “friend” nicknames even when they appear from somewhere else.
 
 ## Friend roster
 
-| Collectible | Qing's name |
+| Collectible | Display name |
 | --- | --- |
 | {{Collectible:4}} | Puppy Friend |
 | {{Collectible:38}} | Tammy Friend |

@@ -18,9 +18,7 @@ status: reviewed
 
 Brimstream is a rocket that repeatedly crosses the battlefield from off-screen, leaving a brief burning brimstone trail behind each pass.
 
-In combat it picks a roughly straight line through the enemy group, enters from a screen edge at high speed, and exits through the opposite side. Once a pass begins, the route stays fixed and does not keep turning to chase targets.
-
-Directly flying through enemies deals heavy damage without stopping the rocket. The leftover trail continues to hurt enemies that linger in it.
+In combat, the rocket repeatedly streaks across the room from a screen edge and tries to cut through enemy groups. It does not stop on hit, and the brimstone trail left behind keeps dealing damage.
 
 Before the next pass, a cue appears on the screen edge so you can tell which direction the rocket will enter from.
 
@@ -28,13 +26,11 @@ With no enemies left, the rocket returns near the player and stops leaving damag
 
 ## Notes
 
-- The rocket follows a pre-chosen route; it is not a missile that keeps tracking one enemy.
-- Hitting an enemy does not end the current pass.
-- Multiple Brimstream rockets can leave their own trails at the same time.
+- After entering, the rocket does not keep tracking enemies, so fast-moving targets may leave the planned path.
 
 ## Tips
 
-Against slow enemies, packs that sit still, or fights that need sustained damage, leftover trails can keep dealing damage after the rocket has gone. Once the next entry direction is visible, you can also bait enemies into the coming path.
+Once the entry direction appears, bait enemies onto the coming route or near an existing trail.
 
 ## Synergies
 
