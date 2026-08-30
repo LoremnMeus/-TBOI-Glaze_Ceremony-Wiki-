@@ -14,19 +14,19 @@ status: reviewed
 
 ## Effects
 
-Air Guard 01 - Standard cruises on its own, chases nearby enemy projectiles, and intercepts them on contact.
+Air Guard 01 automatically intercepts nearby enemy shots, then turns them into falling counterattacks from above.
 
-Intercepted shots become falling {{Collectible:331}} tears: the tear body does not collide with enemies, but the Godhead aura around it deals damage while they fall.
+When it finds an enemy projectile, it chases and removes it. The intercepted shot becomes a vertically falling {{Collectible:331}} tear; the tear itself does not collide with enemies, but leaves a damaging Godhead aura while falling.
 
-With nothing to chase, it orbits near the player.
+With nothing left to intercept, Air Guard 01 returns to cruise near the player.
 
 ## Related
 
-- {{Item:air-flight}} — the base craft platform for Blueprint fleets
+* {{Item:air-flight}} — part of the same Qing drone / Blueprint family.
 
 <details>
 <summary>Technical details</summary>
 
-- Search radius 200; intercept and convert within distance 20.
+Air Guard 01 searches for enemy projectiles within about 200 units, and finishes the intercept at about 20 units.
 
 </details>

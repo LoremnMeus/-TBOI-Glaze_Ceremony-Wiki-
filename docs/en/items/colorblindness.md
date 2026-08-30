@@ -14,31 +14,32 @@ status: reviewed
 
 ## Effects
 
-**Pride or Prejudice turns floor pedestals into one-time like / dislike targets; judgment changes later item pools, not the pedestal in front of you.**
+Pride or Prejudice lets you judge pedestals on the floor directly. Judging does not change the item in front of you; it changes that item's later fate in the item pools.
 
-Approaching a valid pedestal shows control hints and locks onto the nearest one.
+Approaching a judgeable pedestal shows control hints.
 
 ## How to judge
 
 | Action | Keyboard | Controller |
-| --- | --- | --- |
+| -- | -------- | ----------- |
 | Like | Ctrl + E | Drop + shoot right |
 | Dislike | Ctrl + Q | Drop + shoot left |
 
 ## Judgment results
 
-| Judgment | Result |
-| --- | --- |
+| Judgment | Effect |
+| ----- | --------------------------- |
 | 👍 Like | Add another copy of that item into the pedestal's current item pool for this run |
-| 👎 Dislike | Remove it from this run's pools, and ban it once more on the next fresh start |
+| 👎 Dislike | Ban that item from this run's pools, and ban it once more on the next fresh start |
 
 ## Notes
 
-- Judging neither removes nor duplicates the physical pedestal.
-- Each pedestal can be judged only once.
-- Blind pedestals cannot be judged.
-- The “next run” ban is consumed when the next fresh run starts; continuing a save does not spend it early.
+* Judging neither copies nor deletes the physical pedestal in front of you.
+* Each pedestal can be judged only once.
+* Blind pedestals whose contents cannot be seen cannot be judged.
+* The “next-run ban” from a dislike applies only once; it clears after the next fresh start uses it.
+* Continuing the current save does not spend the next-run ban early.
 
 ## Tips
 
-- You can dislike an item you still want, then pick up the copy in front of you: keep this run's reward while blocking later repeats and carrying the ban into the next run.
+You can dislike an item you still want, then pick up the copy in front of you: keep this run's reward while blocking later repeats this run, and keep it missing once more next run.

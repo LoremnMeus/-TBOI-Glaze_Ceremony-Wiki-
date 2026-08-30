@@ -14,17 +14,21 @@ status: reviewed
 
 ## Effects
 
-Glaze Mushroom lets one Boss reward gradually grow into Magic Mushroom.
+Glaze Mushroom lets one Boss reward this run be overgrown by mycelium until it becomes {{Collectible:12}}.
 
-- {{Heart}} +1 full red heart container.
-- Items from the Boss item pool have a **20%** chance to start being overgrown by mycelium; when growth finishes, that item becomes {{Collectible:12}}.
-- After it triggers successfully once, it does not trigger again this run.
+* {{EmptyHeart}} +1 Heart container.
+* Items from the Boss pool have a **20%** chance to start being covered by mycelium.
+* When the mycelium matures, the infected pedestal hatches {{Collectible:12}}.
+* After one successful trigger, it will not trigger again this run.
+
+The infection is visible on the pedestal: you can watch the mycelium grow, cover, and ripen.
 
 ## Notes
 
-- Does not trigger if you already hold {{Collectible:12}}.
-- When overgrowth starts, it may consume one extra Boss-room item-pool roll.
+* Conversion will not trigger again if you already hold {{Collectible:12}}.
+* The per-run chance is only spent after a full infection successfully starts.
+* Once infection begins, the mycelium has already taken root; picking up the original item early does not stop the later hatch.
 
 ## Tips
 
-- Once mycelium growth has started, taking the original item early does not stop it. You can keep the original and still receive the final {{Collectible:12}}.
+If a Boss reward starts growing mycelium, you can take the original item first. The mycelium keeps growing, so you can still get the hatched {{Collectible:12}}.

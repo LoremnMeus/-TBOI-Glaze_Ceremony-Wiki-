@@ -4,14 +4,25 @@ description: "超级豪华究极无敌涩涩！"
 slug: pageant-cross-dresser
 kind: collectible
 internalKey: Pageant_Cross_dresser
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>盛装男娘 Pageant Cross-dresser Pageant_Cross_dresser pageant-cross-dresser Pageant Cross-dresser 超级豪华究极无敌涩涩！ Ultimate grand sexy 每1个皮肤+0.1幸运 随机获得10个皮肤 +0.1 Luck up per costume ↑ Add 10 random costumes</p>
+<p class="wiki-search-index" v-pre>盛装男娘 Pageant Cross-dresser Pageant_Cross_dresser pageant-cross-dresser Pageant Cross-dresser 超级豪华究极无敌涩涩！ Ultimate grand sexy +2幸运 随机穿上10件装扮 +2 Luck Wear 10 random costumes</p>
 
 <PublicEntry slug="pageant-cross-dresser" lang="zh" />
 
 ## 机制说明
 
-<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
+## 效果
 
-待撰写。
+盛装男娘会大幅提高幸运，并把角色打扮得格外夸张。
+
+* {{Luck}} +2 幸运。
+* 拾取第一份时，随机穿上 **10 件**来自其他道具的装扮。
+* 重复持有时，每份额外再获得 +2 幸运，并增加 **5 件**随机装扮。
+
+随机获得的装扮只有外观效果，不会同时获得对应道具的能力。
+
+## 注意
+
+* 幸运提升是固定值，不取决于当前实际穿着多少件装扮。
+* D4、D100 等重新生成角色道具或外观的效果可能使随机装扮重新分配，但不会影响已经获得的固定幸运。

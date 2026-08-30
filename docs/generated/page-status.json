@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T18:31:07Z",
+  "generatedAt": "2026-08-30T05:36:46Z",
   "pages": [
     {
       "slug": "darkness",
@@ -167,16 +167,16 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/black-map.md",
       "en": "wiki/docs/en/items/black-map.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "blaststone",
       "kind": "collectible",
       "zh": "wiki/docs/items/blaststone.md",
       "en": "wiki/docs/en/items/blaststone.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "little-duck",
@@ -215,24 +215,24 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/pageant-cross-dresser.md",
       "en": "wiki/docs/en/items/pageant-cross-dresser.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
-      "slug": "its-a-trick",
+      "slug": "glaze-core",
       "kind": "collectible",
-      "zh": "wiki/docs/items/its-a-trick.md",
-      "en": "wiki/docs/en/items/its-a-trick.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zh": "wiki/docs/items/glaze-core.md",
+      "en": "wiki/docs/en/items/glaze-core.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "apocalypse",
       "kind": "collectible",
       "zh": "wiki/docs/items/apocalypse.md",
       "en": "wiki/docs/en/items/apocalypse.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "colorblindness",

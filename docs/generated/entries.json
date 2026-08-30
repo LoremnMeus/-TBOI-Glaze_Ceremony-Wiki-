@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-29T18:31:07Z",
+  "generatedAt": "2026-08-30T05:36:46Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -678,11 +678,11 @@
     ],
     "Zeiz::custom_col_1784813595360": [
       {
-        "slug": "its-a-trick",
+        "slug": "glaze-core",
         "kind": "collectible",
         "names": {
-          "zh": "鸭架",
-          "en": "Wire duck hanger"
+          "zh": "琉璃之核",
+          "en": "Glaze Core"
         }
       }
     ],
@@ -902,7 +902,7 @@
         "kind": "collectible",
         "names": {
           "zh": "世末天依",
-          "en": "Apocalypse"
+          "en": "World's End Tianyi"
         }
       }
     ],
@@ -5422,8 +5422,8 @@
         "en": "Ultimate grand sexy"
       },
       "eid": {
-        "zh": "{{Luck}} 每1个皮肤+0.1幸运#随机获得10个皮肤",
-        "en": "{{Luck}} +0.1 Luck up per costume#↑ Add 10 random costumes"
+        "zh": "{{Luck}} +2幸运#随机穿上10件装扮",
+        "en": "{{Luck}} +2 Luck#Wear 10 random costumes"
       },
       "seijaBuff": {
         "zh": "",
@@ -5465,7 +5465,7 @@
       }
     },
     {
-      "slug": "its-a-trick",
+      "slug": "glaze-core",
       "kind": "collectible",
       "internalKey": "It_s_a_trick",
       "xmlId": 29,
@@ -5475,182 +5475,7 @@
       "tags": [
         "offensive"
       ],
-      "pools": [
-        {
-          "id": "treasure",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "shop",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "boss",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "devil",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "angel",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "secret",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "library",
-          "weight": 1,
-          "decreaseBy": 0.1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "shellGame",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "goldenChest",
-          "weight": 1,
-          "decreaseBy": 0.4,
-          "removeOn": 0.1
-        },
-        {
-          "id": "redChest",
-          "weight": 1,
-          "decreaseBy": 0.4,
-          "removeOn": 0.1
-        },
-        {
-          "id": "beggar",
-          "weight": 1,
-          "decreaseBy": 0.5,
-          "removeOn": 0.1
-        },
-        {
-          "id": "demonBeggar",
-          "weight": 0.5,
-          "decreaseBy": 0.5,
-          "removeOn": 0.05
-        },
-        {
-          "id": "curse",
-          "weight": 1,
-          "decreaseBy": 0.5,
-          "removeOn": 0.1
-        },
-        {
-          "id": "keyMaster",
-          "weight": 1,
-          "decreaseBy": 0.5,
-          "removeOn": 0.1
-        },
-        {
-          "id": "batteryBum",
-          "weight": 1,
-          "decreaseBy": 0.5,
-          "removeOn": 0.1
-        },
-        {
-          "id": "momsChest",
-          "weight": 1,
-          "decreaseBy": 0.5,
-          "removeOn": 0.1
-        },
-        {
-          "id": "greedTreasure",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "greedBoss",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "greedShop",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "greedCurse",
-          "weight": 1,
-          "decreaseBy": 0.5,
-          "removeOn": 0.1
-        },
-        {
-          "id": "greedDevil",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "greedAngel",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "ultraSecret",
-          "weight": 1,
-          "decreaseBy": 0.4,
-          "removeOn": 0.1
-        },
-        {
-          "id": "bombBum",
-          "weight": 1,
-          "decreaseBy": 0.5,
-          "removeOn": 0.1
-        },
-        {
-          "id": "planetarium",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "oldChest",
-          "weight": 1,
-          "decreaseBy": 0.4,
-          "removeOn": 0.1
-        },
-        {
-          "id": "babyShop",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "woodenChest",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
-          "id": "rottenBeggar",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        }
-      ],
+      "pools": [],
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
@@ -5692,16 +5517,16 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "鸭架",
-        "en": "Wire duck hanger"
+        "zh": "琉璃之核",
+        "en": "Glaze Core"
       },
       "desc": {
-        "zh": "",
-        "en": "You Are Fooled Again!!"
+        "zh": "成为所见之物",
+        "en": "Become what you see"
       },
       "eid": {
-        "zh": "{{Tears}} 射速+0.7",
-        "en": "{{Tears}} +0.7Tears up"
+        "zh": "{{Room}} 使用后，本房间获得其伪装道具的效果#每次使用有5%概率永久变为该道具",
+        "en": "{{Room}} On use, gain the disguised item's effect for the room#Each use has a 5% chance to permanently become that item"
       },
       "seijaBuff": {
         "zh": "",
@@ -5723,15 +5548,22 @@
         "zh": "",
         "en": ""
       },
-      "icon": "/generated/images/its-a-trick.png",
-      "thumb32": "/generated/images/its-a-trick_32.webp",
-      "thumb32Png": "/generated/images/its-a-trick_32.png",
-      "thumb64": "/generated/images/its-a-trick_64.webp",
-      "thumb64Png": "/generated/images/its-a-trick_64.png",
+      "icon": "/generated/images/glaze-core.png",
+      "thumb32": "/generated/images/glaze-core_32.webp",
+      "thumb32Png": "/generated/images/glaze-core_32.png",
+      "thumb64": "/generated/images/glaze-core_64.webp",
+      "thumb64Png": "/generated/images/glaze-core_64.png",
       "portrait": null,
       "aliases": {
-        "zh": [],
-        "en": []
+        "zh": [
+          "鸭架",
+          "its-a-trick"
+        ],
+        "en": [
+          "It's a trick!!",
+          "Wire duck hanger",
+          "its-a-trick"
+        ]
       },
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
@@ -5752,8 +5584,7 @@
       "quality": 2,
       "tags": [
         "summonable",
-        "offensive",
-        "baby"
+        "offensive"
       ],
       "pools": [
         {
@@ -5817,15 +5648,15 @@
       "slotEnum": null,
       "names": {
         "zh": "世末天依",
-        "en": "Apocalypse"
+        "en": "World's End Tianyi"
       },
       "desc": {
-        "zh": "",
-        "en": "Forever and Never"
+        "zh": "至少这一次，我们相遇了",
+        "en": "At least this time, we met"
       },
       "eid": {
-        "zh": "{{Chargeable}} 蓄力发射{{Collectible643}} 启示光波的宝宝",
-        "en": "{{Chargeable}} Spawn a baby familiar that follows Isaac and will charge a shot while firing.#Releasing it will fire a {{Collectible643}} light beam."
+        "zh": "安全的房间中偶尔会遇见来自另一条世界线的天依#在她离开前靠近，会收到一份小礼物",
+        "en": "Occasionally encounter a Tianyi from another worldline in safe rooms#Approach her before she leaves to receive a small gift"
       },
       "seijaBuff": {
         "zh": "",
@@ -5855,7 +5686,9 @@
       "portrait": null,
       "aliases": {
         "zh": [],
-        "en": []
+        "en": [
+          "Apocalypse"
+        ]
       },
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
