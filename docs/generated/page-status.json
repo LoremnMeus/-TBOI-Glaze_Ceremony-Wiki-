@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T11:54:24Z",
+  "generatedAt": "2026-08-30T12:15:20Z",
   "pages": [
     {
       "slug": "darkness",
@@ -559,40 +559,40 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/risemara.md",
       "en": "wiki/docs/en/items/risemara.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "chiastolite",
       "kind": "collectible",
       "zh": "wiki/docs/items/chiastolite.md",
       "en": "wiki/docs/en/items/chiastolite.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "calamity",
       "kind": "collectible",
       "zh": "wiki/docs/items/calamity.md",
       "en": "wiki/docs/en/items/calamity.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "shadow-bottle",
       "kind": "collectible",
       "zh": "wiki/docs/items/shadow-bottle.md",
       "en": "wiki/docs/en/items/shadow-bottle.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "the-true-name",
       "kind": "collectible",
       "zh": "wiki/docs/items/the-true-name.md",
       "en": "wiki/docs/en/items/the-true-name.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "blue-print",

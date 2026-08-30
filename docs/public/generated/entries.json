@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T11:54:24Z",
+  "generatedAt": "2026-08-30T12:15:20Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -1167,7 +1167,7 @@
         "slug": "tears-of-pearl",
         "kind": "collectible",
         "names": {
-          "zh": "鱼人之泪",
+          "zh": "鲛人之泪",
           "en": "Tears of Pearl"
         }
       }
@@ -10767,7 +10767,7 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "鱼人之泪",
+        "zh": "鲛人之泪",
         "en": "Tears of Pearl"
       },
       "desc": {
@@ -11026,8 +11026,8 @@
         "en": "Once more again"
       },
       "eid": {
-        "zh": "全属性随机上升/下降#接近拾取其的空底座可将其放下以刷取最佳的属性加成#最高值：#{{Damage}} +3攻击#{{Tears}} +1.5射速#{{Range}} +4.5射程#{{Speed}} +0.6移速#{{Luck}} +6幸运#{{Shotspeed}} +0.6弹速",
-        "en": "Randomly gain stats bonus when pickup#Can be put back and pick up again to reroll its stats bonus#Maximum：#{{Damage}} +3 damage#{{Tears}} +1.5 tear#{{Range}} +4.5 range#{{Speed}} +0.6 speed#{{Luck}} +6 luck#{{Shotspeed}} +0.6 shotspeed"
+        "zh": "拾取时，为6项基础属性分别随机生成评级#评级决定对应属性的上升或下降幅度#靠近原本的空底座可将其放回#不满意？重新拾取，再来一次",
+        "en": "On pickup, roll grades for 6 basic stats#Each grade sets how much that stat rises or falls#Return it to its original empty pedestal#Not happy? Pick it up again and reroll"
       },
       "seijaBuff": {
         "zh": "",
@@ -11155,8 +11155,8 @@
         "en": "Sacrifice with blood"
       },
       "eid": {
-        "zh": "隐身的心剑跟班#自动标记心剑附身的敌人#附身的敌人受到伤害后，斩出其当前生命的20%#斩出的生命缓缓飞回敌人体内#对Boss只斩出5%",
-        "en": "Invisible chiastolite familiar#Automatically marks one enemy#Cut out 20% the enemy's hitpoints when it get hit#Only cut out 5% of the Bosses#The hitpoints will slowly fly back to the enemy after that"
+        "zh": "心剑会自动附身于一名敌人#目标受到伤害时，暂时斩出其当前生命的20%#被斩出的生命会在短暂延迟后飞回目标#Boss仅斩出5%，且额外伤害存在上限",
+        "en": "A heart blade automatically possesses an enemy#When that foe takes damage, temporarily cut out 20% of its current HP#The cut HP flies back to the target after a short delay#Bosses lose only 5%, and the bonus cut has a damage cap"
       },
       "seijaBuff": {
         "zh": "",
@@ -11176,7 +11176,7 @@
       },
       "abyssSynic": {
         "zh": "斩出少许血量的蝗虫",
-        "en": "Chiastolite familiar that cuts out a small amount of health"
+        "en": "Locust that cuts out a small amount of health"
       },
       "icon": "/generated/images/chiastolite.png",
       "thumb32": "/generated/images/chiastolite_32.webp",
@@ -11288,8 +11288,8 @@
         "en": "II"
       },
       "eid": {
-        "zh": "只能通过清理Boss房间来充能#靠近一扇门来使用，清除门后房间",
-        "en": "Only can be charged by clearing boss rooms#Destroy target room completely"
+        "zh": "{{BossRoom}} 只能通过清理Boss房获得充能（满充通常需2个Boss房）#靠近一扇门使用，对门后的未清理房间发动灾变#灾变会提前清除该房间中的敌人，包括Boss房#进入被灾变的房间时，将直接视为已被清理",
+        "en": "{{BossRoom}} Only recharges by clearing Boss rooms (full charge usually needs 2)#Use near a door to calamitize the uncleared room beyond it#Clears that room's enemies in advance, including Boss rooms#Entering a calamitized room treats it as already cleared"
       },
       "seijaBuff": {
         "zh": "",
@@ -11301,7 +11301,7 @@
       },
       "bookOfVirtues": {
         "zh": "发射生成小型硫磺火柱眼泪的魂火",
-        "en": "Grants a wisp that fires small brimstone fire pillars tears"
+        "en": "Grants a wisp that fires tears which spawn small brimstone pillars"
       },
       "bookOfBelial": {
         "zh": "",
@@ -11423,8 +11423,8 @@
         "en": "Just like inferno"
       },
       "eid": {
-        "zh": "进入房间后召唤一个随机友方阴影敌人",
-        "en": "Summon a shadow enemy when entering one room"
+        "zh": "首次进入未清理房间时，召唤1名随机友方阴影敌人#重复持有会额外召唤",
+        "en": "On first entry to an uncleared room, summon 1 random friendly shadow enemy#Extra copies summon additional shadows"
       },
       "seijaBuff": {
         "zh": "",
@@ -11545,8 +11545,8 @@
         "en": "ATEM!"
       },
       "eid": {
-        "zh": "从所有道具中猜测一个道具，随后揭示道具池中的下一个道具#猜中的场合，生成那个道具和{{Collectible628}}",
-        "en": "Guess one item in all items and reveal the next item#Success:Spawn that item and {{Collectible628}}"
+        "zh": "使用后，从所有道具中选择1件作为你的猜测#随后揭示当前道具池的下一件道具#猜中：生成你猜的道具，并额外生成{{Collectible628}}死亡证明#猜错：本次预测失败",
+        "en": "On use, pick 1 collectible from all items as your guess#Then reveal the next item from the current item pool#Correct: spawn that item plus {{Collectible628}} Death Certificate#Wrong: the prediction fails"
       },
       "seijaBuff": {
         "zh": "",
@@ -11557,12 +11557,12 @@
         "en": ""
       },
       "bookOfVirtues": {
-        "zh": "成功后生成三个随机道具魂火",
-        "en": "Spawn three random items wisp after success"
+        "zh": "猜中后生成对应道具的魂火",
+        "en": "On a correct guess, spawn a wisp of that item"
       },
       "bookOfBelial": {
-        "zh": "只从恶魔道具池中揭示道具",
-        "en": "Only reveal items from devil items"
+        "zh": "改为从恶魔房道具池揭示下一件道具",
+        "en": "Reveal from the Devil Room pool instead"
       },
       "abyssSynic": {
         "zh": "",
@@ -11685,8 +11685,8 @@
         "en": "Don't worry, I've got the plans"
       },
       "eid": {
-        "zh": "长按打开蓝图，制造并管理飞行器#{{Collectible}} 底座决定机体性能，模块赋予攻击与特殊能力#{{Battery}} 控制带宽决定当前能够出战的机体#持有时有机会发现道具原型",
-        "en": "Hold to open Blueprint and manage your craft fleet#{{Collectible}} Base frames set craft power; modules grant attacks and abilities#{{Battery}} Control bandwidth limits how many crafts can fight at once#While held, Item Prototypes may appear"
+        "zh": "长按使用打开蓝图，制造并管理飞行器#{{Collectible}} 机体底座决定基础性能，装入的道具成为攻击或功能模块#{{Battery}} 控制带宽限制同时出战的飞行器#持有蓝图时，有机会发现可用于制造的道具原型",
+        "en": "Hold to open Blueprint and craft / manage your fleet#{{Collectible}} Frame pedestals set base power; installed items become attack or utility modules#{{Battery}} Control bandwidth limits how many crafts can fight at once#While held, Item Prototypes for crafting may appear"
       },
       "seijaBuff": {
         "zh": "",

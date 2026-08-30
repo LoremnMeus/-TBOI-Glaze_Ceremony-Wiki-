@@ -6,7 +6,7 @@ title: 蓝图
 description: "别担心，我有图纸"
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>蓝图 Blueprint Blue_Print blue-print Blue Print Blue Print 别担心，我有图纸 Don&#x27;t worry, I&#x27;ve got the plans 长按打开蓝图，制造并管理飞行器 底座决定机体性能，模块赋予攻击与特殊能力 控制带宽决定当前能够出战的机体 持有时有机会发现道具原型 Hold to open Blueprint and manage your craft fleet Base frames set craft power; modules grant attacks and abilities Control bandwidth limits how many crafts can fight at once While held, Item Prototypes may appear</p>
+<p class="wiki-search-index" v-pre>蓝图 Blueprint Blue_Print blue-print Blue Print Blue Print 别担心，我有图纸 Don&#x27;t worry, I&#x27;ve got the plans 长按使用打开蓝图，制造并管理飞行器 机体底座决定基础性能，装入的道具成为攻击或功能模块 控制带宽限制同时出战的飞行器 持有蓝图时，有机会发现可用于制造的道具原型 Hold to open Blueprint and craft / manage your fleet Frame pedestals set base power; installed items become attack or utility modules Control bandwidth limits how many crafts can fight at once While held, Item Prototypes for crafting may appear</p>
 
 <PublicEntry slug="blue-print" lang="zh" />
 
@@ -15,6 +15,8 @@ status: reviewed
 ## 效果
 
 蓝图是 {{Character:sp-w-qing}} 用来制造和管理机群的核心工具。
+
+道具被用于制造以后，**不会直接把该道具本体效果加到角色身上**，而是转化为飞行器的底座性能或模块行为。
 
 长按蓝图打开管理面板，可以在三个页面之间切换：
 

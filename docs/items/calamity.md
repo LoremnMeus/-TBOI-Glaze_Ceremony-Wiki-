@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Calamity
 status: stub
 ---
-<p class="wiki-search-index" v-pre>天象灾变 Calamity Calamity calamity Calamity II II 只能通过清理Boss房间来充能 靠近一扇门来使用，清除门后房间 Only can be charged by clearing boss rooms Destroy target room completely</p>
+<p class="wiki-search-index" v-pre>天象灾变 Calamity Calamity calamity Calamity II II 只能通过清理Boss房获得充能（满充通常需2个Boss房） 靠近一扇门使用，对门后的未清理房间发动灾变 灾变会提前清除该房间中的敌人，包括Boss房 进入被灾变的房间时，将直接视为已被清理 Only recharges by clearing Boss rooms (full charge usually needs 2) Use near a door to calamitize the uncleared room beyond it Clears that room&#x27;s enemies in advance, including Boss rooms Entering a calamitized room treats it as already cleared</p>
 
 <PublicEntry slug="calamity" lang="zh" />
 
@@ -14,4 +14,26 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+天象灾变的充能不会通过普通房间恢复。必须清理 Boss 房才能积累，因此一次完整使用需要长期携带与准备；准备完成后，可以隔门直接清除一个尚未进入的房间，包括 Boss 房。
+
+靠近一扇门使用后，目标是门另一侧的未清理房间，而不是当前房间。灾变会提前清除该房间中的敌人；真正进入时，房间会按「已被清理」的状态加载，多数非关键地形也会被清掉。
+
+它真正的价值不是持续 DPS，而是把过去若干层的 Boss 投入，兑换成一次未来路径上的绝对裁决：「这个房间，我不打了。」
+
+## 充能
+
+主动槽容量为 **2** 格，类型为特殊充能。清理 Boss 房时，通常按房间形状增加充能：常规形状 **+1**，部分异形房间可能 +2。
+
+因此从空槽到满充，**通常需要清理 2 个 Boss 房**（至少跨两层积累）。主动槽在此期间几乎没有日常收益，这正是允许删除 Boss 房的成本。
+
+拾取时自带 1 格初始充能，所以第一次发动可能更快凑满。
+
+## Boss 房
+
+灾变可以作用于 Boss 房。若关键 Boss 房被提前清除，流程仍会补出继续前进所需的下层入口、箱子路线或虚空路线等出口，避免卡死。
+
+## 注意
+
+- 目标房间必须尚未清理；已清过的房间无法再发动。
