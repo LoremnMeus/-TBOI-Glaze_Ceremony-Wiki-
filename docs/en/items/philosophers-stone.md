@@ -43,9 +43,8 @@ Example: a bad pedestal that sequences into a strong passive soon is worth the b
 
 **Warning: ~75% fail chance.** On fail the pedestal is destroyed and replaced with a rainbow poop—fuel and the room item are both wasted.
 
-### {{Collectible584}}
-
-Book of Virtues: spawns a wisp that fires golden tears.
+### {{Collectible:584}}
+Spawns a wisp that fires golden tears.
 
 ## Tips
 

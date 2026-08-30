@@ -19,10 +19,11 @@ status: reviewed
 
 **Final Prism is a sustain charge-up weapon: the longer you keep it firing, the stronger it gets.**
 
-- First use starts about **6** rainbow beams and keeps them up on special charge (not a one-shot dump).
-- While active it drains charge; at 0 the beams stop. A full bar only lasts on the order of ~10+ seconds, so you weave firing and recharging.
-- Beams converge and ramp damage/visuals over time; full form needs about **40** seconds of continuous fire.
-- Pressing again while active spends about **10** charge and adds **+3** beams.
+First use starts about **6** rainbow beams. While active it drains charge; at 0 the beams stop. A full bar only lasts on the order of ~10+ seconds, so you weave firing and recharging.
+
+Beams converge and ramp damage/visuals over time; full form needs about **40** seconds of continuous fire.
+
+Pressing again while active spends about **10** charge and adds **+3** beams.
 
 Think of it as: **preheat first, then decide whether to buy denser beams.**
 
@@ -34,14 +35,11 @@ Think of it as: **preheat first, then decide whether to buy denser beams.**
 
 ## Synergies
 
-### {{Collectible34}}
+### {{Collectible:34}}
+Brimstone-styled beams.
 
-Book of Belial: brimstone-styled beams.
+### {{Collectible:584}}
+Wisps that fire lasers with you.
 
-### {{Collectible584}}
-
-Book of Virtues: wisps that fire lasers with you.
-
-### {{Collectible356}}
-
-Car Battery: affects the extra-beam press.
+### {{Collectible:356}}
+Affects the extra-beam press.

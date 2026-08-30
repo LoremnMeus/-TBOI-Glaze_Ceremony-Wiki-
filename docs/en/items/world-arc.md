@@ -24,7 +24,7 @@ One-line loop: **use → floor-long random passive → World Arc flees → find 
 ### What happens on use
 
 - World Arc leaves the active slot and grants **1** random passive for the floor.
-- **It is not permanently lost**: it hides in another room on the floor (usually avoiding super secrets) and respawns on a pedestal when you enter.
+- **It is not permanently lost**: it hides in another room on the floor and **never hides in Ultra Secret Rooms**. Enter that room to see it on a pedestal again.
 - Pick it up to use again for another floor temporary.
 
 ### If you cannot find it
@@ -37,17 +37,14 @@ Every successful reclaim-and-reuse buys another floor-long passive. More finds, 
 
 ## Synergies
 
-### {{Collectible356}}
+### {{Collectible:356}}
+One use grants two temporary passives.
 
-Car Battery: one use grants two temporary passives.
+### {{Collectible:34}}
+Temporary passives roll from the Devil pool.
 
-### {{Collectible34}}
-
-Book of Belial: temporary passives roll from the Devil pool.
-
-### {{Collectible584}}
-
-Book of Virtues: also spawns a random item wisp.
+### {{Collectible:584}}
+Also spawns a random item wisp.
 
 ## Tips
 

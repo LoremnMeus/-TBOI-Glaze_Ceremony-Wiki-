@@ -20,8 +20,8 @@ status: reviewed
 **Bloody Map marks Ultra Secret Rooms each floor and may station a Bloody Messenger there.**
 
 - {{UltraSecretRoom}} Reveals Ultra Secrets on floor entry
-- Messenger chance rises with copy count (about 40% each, capping at guaranteed)
-- Messengers can grant extra Ultra-Secret-related rewards (see that page); this item's extra grants are limited by default
+- Messenger chance: about **40%** per Bloody Map copy, stacking until guaranteed
+- Messengers can grant extra Ultra-Secret-related rewards; at most **2** such grants per run. See the Bloody Messenger page.
 
 ## Synergies
 

@@ -34,13 +34,11 @@ status: reviewed
 
 ## 特殊联动
 
-### {{Collectible34}}
+### {{Collectible:34}}
+可从当前高度向下抛射眼泪。
 
-彼列之书：可从当前高度向下抛射眼泪。
-
-### {{Collectible584}}
-
-美德之书：魂火会从高处飘落。
+### {{Collectible:584}}
+魂火会从高处飘落。
 
 ## 使用技巧
 

@@ -23,7 +23,7 @@ status: reviewed
 
 Speed, tears, damage, range, shot speed, luck.
 
-### Three-way example
+### Choice example
 
 Suppose the roll shows **Damage / Luck / Tears**:
 

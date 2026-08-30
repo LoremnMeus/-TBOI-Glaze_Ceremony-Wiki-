@@ -37,9 +37,8 @@ The other six pay out the first time each is defeated in the run (or immediately
 
 ## Synergies
 
-### {{Collectible34}}
-
-Book of Belial: Pride's choice rolls from the Devil pool.
+### {{Collectible:34}}
+Pride's choice rolls from the Devil pool.
 
 ## Tips
 

@@ -33,14 +33,22 @@ Only at about **1** absolute heart does a touch solidify them. Higher health pus
 
 ### What they can become
 
-| Kind | Relative weight (feel) |
-| --- | --- |
-| Soul hearts | Very common |
-| Double red / nickels / charged keys / double bombs / items | Common |
-| Grab bags / dimes | Mid |
-| Gold hearts / eternal / gold keys / gold bombs | Rare |
+Illusions may become soul hearts, double red hearts, nickels, charged keys, double bombs, random items, grab bags, dimes, or rarer rewards like gold hearts, eternal hearts, gold keys, and gold bombs.
 
-Still weighted random—the table is intuition, not a guarantee.
+<details>
+<summary>Relative weights</summary>
+
+| Reward | Weight |
+| --- | ---: |
+| Soul heart | 10 |
+| Nickel | 8 |
+| Item | 7 |
+| Double red heart | 5 |
+| Charged key / double bomb | 4 each |
+| Dime / grab bag | 3 each |
+| Gold heart / eternal / gold key / gold bomb | 1 each |
+
+</details>
 
 ## Tips
 

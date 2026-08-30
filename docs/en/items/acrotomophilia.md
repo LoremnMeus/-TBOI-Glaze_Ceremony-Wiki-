@@ -29,7 +29,7 @@ Bigger red losses often add a filled rotten heart—not a fixed heart per hit.
 Losing heart containers grants matching {{BrokenHeart}} Broken Hearts.
 Losing two containers typically leaves broken hearts as the scar.
 
-### Cancel example
+### How rotten and broken hearts cancel
 
 If you hold both broken and rotten hearts, they cancel pair by pair and adjust red health.
 **That auto-settle alone will not kill you**; if it would, a minimum of life remains.

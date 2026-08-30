@@ -39,6 +39,6 @@ status: reviewed
 
 ## Synergies
 
-### {{Collectible477}}
+### {{Collectible:706}}
 
-Absorbing this item with Void also leaves technology limiters.
+When absorbed by Abyss, the matching locust leaves technology limiters as it moves.

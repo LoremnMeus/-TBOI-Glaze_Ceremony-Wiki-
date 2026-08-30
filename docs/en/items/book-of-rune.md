@@ -36,9 +36,8 @@ While holding a rune you can also carry one extra card or pill.
 
 ## Synergies
 
-### {{Collectible584}}
-
-Book of Virtues: special wisps when runes spawn successfully.
+### {{Collectible:584}}
+Special wisps when runes spawn successfully.
 
 ### {{Seija}}
 

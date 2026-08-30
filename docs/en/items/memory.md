@@ -61,6 +61,10 @@ While any such wisp lives, Memory stays active; **when all wisps die, Memory end
 
 During Memory, gaining another copy of an item you already hold strengthens wisps: more max HP and current HP, gradually larger size. Wisps refill to full HP on entering a new room.
 
+### {{Collectible:706}}
+
+When absorbed by Abyss, it becomes a colorful locust.
+
 ## Trivia
 
 Memory is built around the cognitive theme of returning to experiences already lived: later collectible rolls keep coming back to choices the run already owns.

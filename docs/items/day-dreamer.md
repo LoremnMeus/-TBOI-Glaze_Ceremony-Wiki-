@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Day_Dreamer
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>白日梦 Day Dreamer Day_Dreamer day-dreamer Day Dreamer 如果四级道具能从天上掉下来就好了 If only my wish would come true 每层开始后，离开起始房前完全静止约5秒入睡 在睡梦中选择心仪的4级道具 梦境最多约60秒；结束后该效果落到身上并持续本层 持有睡衣/毛毯/捕梦网时可提前结束 Each floor, before leaving the starting room, stand still ~5s to fall asleep Choose a desired quality 4 item in your sleep Dream lasts up to ~60s; on wake the effect lands for the floor With PJs/Blanket/Dream Catcher, you can end early</p>
+<p class="wiki-search-index" v-pre>白日梦 Day Dreamer Day_Dreamer day-dreamer Day Dreamer 如果四级道具能从天上掉下来就好了 If only my wish would come true 每层开始时，在初始房间静止约5秒后入睡 在睡梦中选择心仪的4级道具 60秒后那个道具落到身上并在本层持续 按下 提前确认当前梦想 At the beginning of each floor, fall asleep in the starting room after standing still ~5s Choose the desired quality 4 item in your sleep 60 seconds later, that item lands on Isaac for the floor Press to confirm the current dream early</p>
 
 <PublicEntry slug="day-dreamer" lang="zh" />
 
@@ -17,39 +17,33 @@ status: reviewed
 
 ## 效果
 
-**白日梦让你每层做一次“梦见四级被动，再把它带到现实”的流程。**
+**每层开始时，只要还没有离开起始房，原地站定约 5 秒就会进入梦境。**
 
-### 如何开始做梦
+梦里会轮流出现品质 4 的被动道具。选中的道具不会立刻生效；梦醒后，角色获得它的效果直到本层结束。
 
-- 进入新层后会获得一次做梦资格。
-- **离开本层起始房间后，本层资格会消失**，因此通常要在起始房静止入梦。
-- 完全不动约 **5** 秒即可入睡（有输入或移动会打断计时）。
+梦境最多持续约 60 秒。离开起始房前没有入睡，则本层不能再次做梦。
 
-### 梦里发生什么
+### 如何选道具
 
-- 梦中会出现品质 **4** 的被动候选；角色自身基本不能自由移动（捕梦网例外）。
-- 候选会轮换展示；射击可换下一个梦想（有冷却）。
-- 丢弃键提前结束梦境通常需要睡衣 / 毛毯；捕梦网另有可走动选梦的流程。
+梦境中，射击可切换当前候选。按下丢弃键可提前确认：当前选中的道具在梦醒时成为本层临时效果。
 
-### 60 秒意味着什么
+不按确认时，梦境也会在约 60 秒后自动结束并结算当前候选。
 
-**不是“拿到效果后再维持 60 秒”，而是“梦境最长约 60 秒；梦醒时效果才落到身上”。**
-
-醒来后，选中的被动会作为本层临时效果生效，换层消失。每层只能成功做一次（资格用完或换房清空后本层不再入梦）。
+移动或操作会打断入睡计时；开始做梦前请在起始房站定。
 
 ## 特殊联动
 
-### {{Collectible566}}
+### {{Collectible:566}}
 
-捕梦网：梦中可以走动浏览，最多约 15 个候选，贴近并停下选中；也可用丢弃键提前结束。
+改为可走动的梦境：梦中可用方向键浏览并选择候选。
 
-### {{Collectible428}}
+### {{Collectible:428}}
 
-睡衣：静止计时加快，更容易入睡；可用丢弃键提前醒。
+大幅加快入睡速度。
 
-### {{Collectible535}}
+### {{Collectible:535}}
 
-毛毯：候选刷新更快；可用丢弃键提前醒。
+梦境候选的刷新速度翻倍。
 
 ### {{Seija}}
 
@@ -57,5 +51,4 @@ status: reviewed
 
 ## 使用技巧
 
-- 进层后先在起始房站好再逛图，避免资格被换房清掉。
-- 先看清候选再决定是否提前结束；提前结束同样会立刻结算当前梦想。
+进层后先在起始房入梦，再开始探索；换房会清掉本层做梦资格。

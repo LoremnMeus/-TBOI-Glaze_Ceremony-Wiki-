@@ -34,13 +34,11 @@ High enough visual lift lets you clear obstacles and briefly ignore entity colli
 
 ## Synergies
 
-### {{Collectible34}}
+### {{Collectible:34}}
+Throw tears down from your current height.
 
-Book of Belial: throw tears down from your current height.
-
-### {{Collectible584}}
-
-Book of Virtues: wisps drift down from above.
+### {{Collectible:584}}
+Wisps drift down from above.
 
 ## Tips
 

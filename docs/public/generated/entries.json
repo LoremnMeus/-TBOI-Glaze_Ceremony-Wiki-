@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T16:18:50Z",
+  "generatedAt": "2026-08-30T16:51:37Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -12369,8 +12369,8 @@
         "en": "If only my wish would come true"
       },
       "eid": {
-        "zh": "每层开始后，离开起始房前完全静止约5秒入睡#在睡梦中选择心仪的4级道具#{{Timer}} 梦境最多约60秒；结束后该效果落到身上并持续本层#持有{{Collectible428}}/{{Collectible535}}/{{Collectible566}}时可提前结束",
-        "en": "Each floor, before leaving the starting room, stand still ~5s to fall asleep#Choose a desired quality 4 item in your sleep#{{Timer}} Dream lasts up to ~60s; on wake the effect lands for the floor#With {{Collectible428}}/{{Collectible535}}/{{Collectible566}}, you can end early"
+        "zh": "每层开始时，在初始房间静止约5秒后入睡#在睡梦中选择心仪的4级道具#{{Timer}} 60秒后那个道具落到身上并在本层持续#按下 {{ButtonRT}} 提前确认当前梦想",
+        "en": "At the beginning of each floor, fall asleep in the starting room after standing still ~5s#Choose the desired quality 4 item in your sleep#{{Timer}} 60 seconds later, that item lands on Isaac for the floor#Press {{ButtonRT}} to confirm the current dream early"
       },
       "seijaBuff": {
         "zh": "",

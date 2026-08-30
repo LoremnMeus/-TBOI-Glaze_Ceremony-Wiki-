@@ -21,10 +21,16 @@ status: reviewed
 
 Normal homing curves toward a target. Seeking can briefly stop, reacquire a nearby enemy, and path around obstacles when needed.
 
-- Each tear re-seeks at most **3** times.
-- Damage scales after successful re-seeks: about **×1.00 → ×1.15 → ×1.30 → ×1.50** (after 0/1/2/3 seeks).
-- Clear line flies straight; otherwise it may path around. Spectral tears still ignore walls.
-- If blocked with no path, it may slide along walls; failing that, seeking ends.
+Each tear re-seeks at most **3** times. Damage scales after successful re-seeks:
+
+| Seeks so far | Damage mult |
+| ---: | ---: |
+| 0 | ×1.00 |
+| 1 | ×1.15 |
+| 2 | ×1.30 |
+| 3 | ×1.50 |
+
+Clear line flies straight; otherwise it may path around. Spectral tears still ignore walls. If blocked with no path, it may slide along walls; failing that, seeking ends.
 
 ## Tips
 
@@ -33,4 +39,4 @@ Normal homing curves toward a target. Seeking can briefly stop, reacquire a near
 
 ## Notes
 
-Some special tears (e.g. Ludovico-style) do not participate.
+Some special tears do not participate, such as Ludovico-style tears.

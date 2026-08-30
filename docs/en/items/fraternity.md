@@ -18,4 +18,6 @@ Each additional copy grants another halo that can seek its own target, allowing 
 
 ## Synergies
 
-- Abyss creates a charm halo when it consumes this item.
+### {{Collectible:706}}
+
+When absorbed by Abyss, the matching locust has a chance to charm enemies.

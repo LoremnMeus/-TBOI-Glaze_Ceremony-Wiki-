@@ -36,9 +36,8 @@ status: reviewed
 
 ## 特殊联动
 
-### {{Collectible584}}
-
-美德之书：成功生成符文时产生特殊魂火。
+### {{Collectible:584}}
+成功生成符文时产生特殊魂火。
 
 ### {{Seija}}
 

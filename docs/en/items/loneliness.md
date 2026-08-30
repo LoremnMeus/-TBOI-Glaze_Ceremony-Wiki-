@@ -21,13 +21,15 @@ status: reviewed
 
 ### First death
 
-A short ritual plays: Loneliness leaves the inventory, you refill and continue, and another usable character joins mid-ritual.
+A short ritual plays: Loneliness leaves the inventory, you refill and continue, and another selectable character joins.
 
-### What the partner really is
+### What the partner is
 
 The guest has their own health, attacks, and HUD and truly keeps playing with you—not a familiar.
 
-Both share the same input set; a second health bar appears. You can move and fire each character (controls feel like co-op habits).
+### How the second character is controlled
+
+The rescue character is bound to **the same controller** as you. Both characters respond to the same move and fire inputs at once—not two independent co-op control schemes. A second health bar and HUD appear on screen.
 
 ### Later deaths
 
@@ -35,8 +37,8 @@ If one falls again with no other revive, that character drops out and **the surv
 
 ### Who can appear
 
-Some special forms and mod-only characters are skipped. You do not need a blacklist—rolls use currently available selectable characters.
+Some special forms and mod-only characters are skipped. Rolls use ordinary characters from the selectable pool.
 
 ## Tips
 
-Treat it as a second life plus a permanent second character, not a reusable revive trinket. Learn the dual-control rhythm right after it triggers.
+Treat it as a second life plus a permanent second character, not a reusable revive trinket. After it triggers, get used to both characters moving and shooting together.

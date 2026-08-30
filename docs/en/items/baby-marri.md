@@ -28,7 +28,7 @@ status: reviewed
 It boosts the chance that **after a Devil/Angel deal room successfully opens**, the room becomes an Angel Room.
 It is not a free +15% to spawn Angel Rooms from nothing.
 
-Devil form raises overall deal-room open chance (before conversion).
+Devil form raises overall deal-room open chance.
 
 ## How it triggers
 
@@ -37,7 +37,3 @@ Damage swaps forms; the matching bonus stays while that form is active.
 ## Multiple copies
 
 Each baby adds +15%; all babies share the player's form state.
-
-## Trivia
-
-Echoes the character's Angel/Devil tension, not a full kit.

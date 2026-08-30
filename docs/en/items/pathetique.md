@@ -27,7 +27,7 @@ On enemy damage:
 4. burst attack around Isaac;
 5. if no other passives remain, Pathetique sacrifices itself last.
 
-**Losing Pathetique returns every recorded sacrifice** (except itself) and clears the tears bonus. Items are not permanently destroyed.
+**Losing Pathetique returns every recorded sacrifice and clears the tears bonus.** Pathetique itself is not returned as an extra item; it already left when sacrificed or lost. Those passives are not permanently destroyed.
 
 ### Example
 

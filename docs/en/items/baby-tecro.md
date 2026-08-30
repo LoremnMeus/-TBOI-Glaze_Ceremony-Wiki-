@@ -22,9 +22,9 @@ status: reviewed
 ## Controls
 
 - Hold fire to charge a thin beam preview that follows aim
-- Need about half charge to fire; fuller charge adds wall reflections, up to about **3**
+- Need at least half charge to fire; fuller charge adds wall reflections, up to about **3**
 - Release locks the path; the baby dashes and damages along it
-- Path damage is a fraction of your damage (weaker than the full character pierce)
+- Path damage is about **40%** of your damage
 
 ## Multiple copies
 
@@ -33,7 +33,3 @@ Each copy is its own baby with independent charge and dash.
 ## Tips
 
 Aim bounce lines through packs before release; open empty rooms gain less from reflections.
-
-## Trivia
-
-Echoes the character's reflecting pierce idea, not a full kit.

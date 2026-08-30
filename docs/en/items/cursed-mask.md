@@ -25,9 +25,8 @@ status: reviewed
 
 ## Synergies
 
-### {{Collectible260}}
-
-Black Candle: keep the damage, **stop the spin**—a strong upgrade.
+### {{Collectible:260}}
+Keep the damage, **stop the spin**—a strong upgrade.
 
 ### {{Seija}}
 

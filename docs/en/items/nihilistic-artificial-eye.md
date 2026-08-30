@@ -29,7 +29,7 @@ More accurately:
 
 1. Picking up the eye grants **2** charges to force another eye from the pool.
 2. Every later pool roll can hit (~**1/10**) and force this item.
-3. A charge is spent only when a hit actually consumes the roll.
+3. A charge is spent only when that roll actually becomes the eye.
 4. Until both charges are spent, later rolls can still hit.
 
 So the two extras may appear quickly—or much later.

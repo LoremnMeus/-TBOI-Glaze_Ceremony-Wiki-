@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Day_Dreamer
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>白日梦 Day Dreamer Day_Dreamer day-dreamer Day Dreamer 如果四级道具能从天上掉下来就好了 If only my wish would come true 每层开始后，离开起始房前完全静止约5秒入睡 在睡梦中选择心仪的4级道具 梦境最多约60秒；结束后该效果落到身上并持续本层 持有睡衣/毛毯/捕梦网时可提前结束 Each floor, before leaving the starting room, stand still ~5s to fall asleep Choose a desired quality 4 item in your sleep Dream lasts up to ~60s; on wake the effect lands for the floor With PJs/Blanket/Dream Catcher, you can end early</p>
+<p class="wiki-search-index" v-pre>白日梦 Day Dreamer Day_Dreamer day-dreamer Day Dreamer 如果四级道具能从天上掉下来就好了 If only my wish would come true 每层开始时，在初始房间静止约5秒后入睡 在睡梦中选择心仪的4级道具 60秒后那个道具落到身上并在本层持续 按下 提前确认当前梦想 At the beginning of each floor, fall asleep in the starting room after standing still ~5s Choose the desired quality 4 item in your sleep 60 seconds later, that item lands on Isaac for the floor Press to confirm the current dream early</p>
 
 <PublicEntry slug="day-dreamer" lang="en" />
 
@@ -17,39 +17,33 @@ status: reviewed
 
 ## Effects
 
-**Day Dreamer is a once-per-floor loop: dream a quality-4 passive, then bring it into reality for the floor.**
+**At the start of each floor, if you have not left the starting room yet, standing still for about 5 seconds puts you to sleep.**
 
-### How dreaming starts
+Quality 4 passives cycle while you dream. The chosen item does not apply immediately; when you wake, you gain its effect until the floor ends.
 
-- Each new floor grants one dream attempt.
-- **Leaving the floor's starting room clears that attempt**, so you usually stand still there.
-- About **5** seconds of no input and no movement falls asleep (movement resets the timer).
+The dream lasts up to about 60 seconds. If you leave the starting room without falling asleep, you cannot dream again on that floor.
 
-### What happens in the dream
+### How to choose
 
-- Quality **4** passive candidates appear; you mostly cannot freely move (Dream Catcher is the exception).
-- Candidates cycle; shooting rerolls with a cooldown.
-- Early end with the drop button usually needs PJs / Blanket; Dream Catcher has its own walk-and-pick flow.
+Shoot to cycle candidates. Press drop to confirm early: the current pick becomes this floor's temporary effect when you wake.
 
-### What the 60 seconds means
+Without an early confirm, the dream still ends after about 60 seconds and settles on the current candidate.
 
-**It is not “keep the buff for 60 seconds.” It is “the dream lasts up to about 60 seconds; the effect lands when you wake.”**
-
-On wake, the chosen passive applies as a floor-long temporary effect and clears on the next floor.
+Movement or input interrupts the sleep timer; stand still in the starting room before exploring.
 
 ## Synergies
 
-### {{Collectible566}}
+### {{Collectible:566}}
 
-Dream Catcher: walk among up to ~15 candidates and stop near one to select; drop button can end early.
+Enter a walkable dream: move with directions to browse and pick candidates.
 
-### {{Collectible428}}
+### {{Collectible:428}}
 
-PJs: stand-still timer fills much faster; drop button can wake early.
+Greatly speeds up falling asleep.
 
-### {{Collectible535}}
+### {{Collectible:535}}
 
-Blanket: candidates refresh faster; drop button can wake early.
+Doubles how fast dream candidates refresh.
 
 ### {{Seija}}
 
@@ -57,5 +51,4 @@ Dreams quality **0** items instead.
 
 ## Tips
 
-- Dream in the starting room before exploring, or the attempt is lost.
-- Ending early still settles the current dream immediately.
+Dream in the starting room before exploring; leaving clears this floor's attempt.

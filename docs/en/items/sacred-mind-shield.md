@@ -17,19 +17,31 @@ status: reviewed
 
 ## Effects
 
-**Sacred Mind Shield grants one protective heart per copy: block a punitive hit, explode a mind wave, then turn the shield into a permanent heart.**
+**Each copy grants one protective heart. It blocks one punitive hit that would truly cost health, then releases a shockwave and turns that shield into a permanent heart.**
 
-- **1** protective heart per copy (not normal red/soul hearts)
-- Only **punitive real damage** (fake damage, devil deals, blood banks, curse doors, etc. do not trigger)
-- On trigger: negate → spend 1 layer → huge mind shockwave → **+1** heart container (soul-heart characters get soul hearts)
-- Wave damage is roughly “ten-ish × your damage plus a fixed chunk”
-- Enemies **directly killed** by that wave: permanent slight {{Damage}} up and {{Shotspeed}} down; at most **5** kills count per wave
-- When the room has many enemies (~**5+**): wave ignores armor and spreads to other rooms this floor
+### Shield
+
+One protective heart per copy. It is neither a red heart nor a soul heart. Fake damage, devil deals, blood banks, and curse doors do not trigger it.
+
+### After the shield breaks
+
+On trigger: negate the hit, spend one layer, release a large mind shockwave, then convert the spent layer into **+1** heart container. Soul-heart characters receive a soul heart instead.
+
+Enemies directly killed by the wave grant permanent growth: slight {{Damage}} up and {{Shotspeed}} down. At most **5** kills count per wave.
+
+If the room has **5** or more enemies, the wave ignores armor and spreads to other rooms on this floor.
 
 ## Notes
 
-Growth is permanent across rooms, not a temporary room buff.
+Growth persists across rooms; it is not a temporary room buff.
+
+<details>
+<summary>Technical details</summary>
+
+Shockwave damage is `10 × Damage + 40`.
+
+</details>
 
 ## Tips
 
-Before baiting a punitive hit for the convert+clear, check enemy count—crowded rooms benefit more from the spread.
+Before baiting a punitive hit for the convert-and-clear, check enemy count—crowded rooms benefit more from the spread.

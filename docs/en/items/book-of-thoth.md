@@ -94,6 +94,7 @@ Cards played for free by the spread do not generate Revelation. Losing and later
 - {{Collectible34}} **Book of Belial:** spread capacity increases from 3 to 4 while the cost remains 3 Revelation. All four faces follow the normal random and once-per-floor rules.
 - {{Seija}}: Thoth pickups conceal their identity. Newly recorded faces first enter the codex unrevealed; they still grant Revelation and may be selected, but are revealed together only when the first spread is successfully formed. Leaving the Seija state also reveals pending entries.
 - {{Collectible584}} **Book of Virtues:** wisps created by Book of Thoth drop a tarot card when extinguished.
+- {{Collectible:706}} **Abyss:** the matching locust may spawn a card on hit.
 
 ## Details and edge cases
 
