@@ -35,7 +35,7 @@ If two trains' hitboxes overlap, they crash: a **1000**-damage explosion at the 
 
 When a wisp should spawn on launch, **2** Peace wisps are created. While any Peace wisp remains, one hit dealing damage amount ≥ **2** is fully blocked, then all Peace wisps vanish.
 
-(The EID says “2 hearts or more”; the current check is `amount >= 2` in the same half-heart units as this item’s “5 damage,” i.e. at least one full heart.)
+(The EID says “2 hearts or more”; in practice, one hit dealing at least a full heart in the same units as this item’s “5 damage” is blocked.)
 
 ### {{Collectible:706}}
 
@@ -54,6 +54,6 @@ The matching Abyss locust is extremely fast.
 <summary>Technical details</summary>
 
 - Charge: 3.
-- Enemy damage: `250 + 5 * player.Damage`; player: `TakeDamage(5)`; crash: `BombExplosionEffects(..., 1000)` and `ShakeScreen(60)`.
+- Enemies: `250 + 5 × Damage`; players: 5 damage; train crash: 1000-damage explosion at the meeting point with a heavy screen shake.
 
 </details>

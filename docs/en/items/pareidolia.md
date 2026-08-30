@@ -32,15 +32,25 @@ At full moon, resonate on the current gaze target. Base damage is about `1.5 × 
 
 ## Synergies
 
-Several eye items modify resonance:
+Several eye items change full-moon resonance. Expand only when you need a specific combo:
+
+<details>
+<summary>Eye synergy grid</summary>
 
 | Item | Resonance change |
 | --- | --- |
-| {{Collectible:245}} / {{Collectible:379}} | Adds a pupil, then adds holy-light damage or a wider strike |
-| {{Collectible:2}} / {{Collectible:55}} / {{Collectible:558}} | Adds side-moon attacks, rear holy light, or random-direction attacks |
-| {{Collectible:169}} | Enlarges the main pupil and adds thin holy-light strikes |
-| {{Collectible:572}} | Turns holy light purple and strikes the crosshair |
+| {{Collectible:245}} | Extra pupil while gazing; holy light strikes again for half damage |
+| {{Collectible:379}} | Extra pupil while gazing; holy light covers a wider area |
+| {{Collectible:2}} | Side moons at full moon prefer other enemies |
+| {{Collectible:55}} | Rear pupil also fires holy light at the mirrored spot |
+| {{Collectible:558}} | Full moon spawns extra mini moons in random directions |
+| {{Collectible:169}} | Main pupil grows larger; thin holy lights fire around it |
+| {{Collectible:572}} | Holy light turns purple and also strikes the crosshair |
 | {{Collectible:261}} | Holy light deals more damage closer to the moon |
-| {{Collectible:410}} / {{Collectible:329}} | Evil Eyes join the attack; the Ludovico tear is also struck |
-| {{Collectible:68}} / {{Collectible:152}} | Adds a brief or sustained Technology laser at full moon |
-| {{Collectible:395}} | Creates a shrinking Technology ring on the target when gaze begins |
+| {{Collectible:410}} | Orbiting Evil Eyes fire at enemies during full moon |
+| {{Collectible:329}} | Holy light also strikes your controlled Ludovico tear |
+| {{Collectible:68}} | Full moon also fires a brief Technology laser |
+| {{Collectible:152}} | Full moon also sustains a Technology laser |
+| {{Collectible:395}} | When gaze begins, a Technology ring appears on the target and shrinks away |
+
+</details>

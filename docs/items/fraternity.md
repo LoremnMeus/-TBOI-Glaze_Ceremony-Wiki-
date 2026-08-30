@@ -4,14 +4,18 @@ description: "爱屋及乌"
 slug: fraternity
 kind: collectible
 internalKey: Fraternity
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>博爱 Fraternity Fraternity fraternity Fraternity 爱屋及乌 love me,love my dog 角色身上出现一个魅惑光环 光环魅惑接近的敌人，随后附着在那个敌人上 A charm halo appears on Isaac The halo enchants the approaching enemy and then attaches to it</p>
+<p class="wiki-search-index" v-pre>博爱 Fraternity Fraternity fraternity Fraternity 爱屋及乌 love me,love my dog 生成一个跟随角色的魅惑光环 光环靠近敌人后会魅惑目标，并转而跟随该敌人 Spawn a charm halo that follows the character Approaching an enemy charms it, then the halo follows that target</p>
 
 <PublicEntry slug="fraternity" lang="zh" />
 
-## 机制说明
+## 效果
 
-<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
+角色身边出现一个魅惑光环。光环接近敌人时会魅惑它，随后附着在该敌人身上并跟随其行动。
 
-待撰写。
+每多持有一份博爱，就会多获得一个可以独立寻找目标的光环，因此能同时影响更多敌人。
+
+## 联动
+
+- 虚空之口吞噬本道具时，会生成魅惑光环。

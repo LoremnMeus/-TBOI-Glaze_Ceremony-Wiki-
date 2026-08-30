@@ -32,15 +32,25 @@ status: reviewed
 
 ## 特殊联动
 
-多种眼睛类道具会改变共鸣：
+多种眼睛类道具会改变满月共鸣。需要查具体组合时再展开：
+
+<details>
+<summary>眼类联动一览</summary>
 
 | 道具 | 共鸣变化 |
 | --- | --- |
-| {{Collectible:245}} / {{Collectible:379}} | 多一只瞳孔；追加圣光伤害或扩大范围 |
-| {{Collectible:2}} / {{Collectible:55}} / {{Collectible:558}} | 追加小月攻击、后方圣光或随机方向攻击 |
-| {{Collectible:169}} | 放大主瞳孔，并在周围追加细圣光 |
+| {{Collectible:245}} | 注视时多一只瞳孔；圣光再造成一半伤害 |
+| {{Collectible:379}} | 注视时多一只瞳孔；圣光范围变大 |
+| {{Collectible:2}} | 满月时两侧小月优先攻击其他敌人 |
+| {{Collectible:55}} | 后方瞳孔也会向对称位置发射圣光 |
+| {{Collectible:558}} | 满月时额外生成随机方向的小月 |
+| {{Collectible:169}} | 主瞳孔变大，周围追加细圣光 |
 | {{Collectible:572}} | 圣光变为紫色，并打击准星位置 |
-| {{Collectible:261}} | 越靠近月亮，圣光伤害越高 |
-| {{Collectible:410}} / {{Collectible:329}} | 邪眼加入射击；路德维希之泪也会受到圣光打击 |
-| {{Collectible:68}} / {{Collectible:152}} | 满月时追加短暂或持续的科技激光 |
-| {{Collectible:395}} | 注视开始时，在目标处生成逐渐收缩的科技激光圈 |
+| {{Collectible:261}} | 离月亮越近，圣光伤害越高 |
+| {{Collectible:410}} | 满月时环绕的邪眼会向敌人射击 |
+| {{Collectible:329}} | 注视中的路德维希之泪也会受到圣光打击 |
+| {{Collectible:68}} | 满月时短暂追加一道科技激光 |
+| {{Collectible:152}} | 满月时持续追加一道科技激光 |
+| {{Collectible:395}} | 注视开始时，目标处出现逐渐收缩的科技激光圈 |
+
+</details>

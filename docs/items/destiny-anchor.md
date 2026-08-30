@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Destiny_Anchor
 status: featured
 ---
-<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 下层后在其他房间复现 房型不匹配时，仅复现锚点周围区域 再次使用可收回当前房间的锚点 Anchors the current room on use, up to 3 per floor Reappears elsewhere on the next floor If room shape differs, only the area around the anchor returns Use again in an anchored room to retrieve its anchor</p>
+<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 进入下一层时，锚定内容会优先映射到普通房间 无法完整复现时，仅保留部分锚定内容 再次使用可取消当前房间的锚定 Anchors the current room on use, up to 3 per floor On the next floor, anchored content prefers mapping into normal rooms If it cannot fully reproduce, only part of the anchored content returns Use again in an anchored room to cancel that anchor</p>
 
 <PublicEntry slug="destiny-anchor" lang="zh" />
 
@@ -34,7 +34,7 @@ status: featured
 
 ### 下一层如何复现
 
-进入下一层后，每个锚点都会尝试寻找一个尚未探索的合适房间。如果房型与门位兼容，原房间会尽量完整复现；如果无法匹配，则改用一个普通大小的房间，只复现锚点周围保存的区域。
+进入下一层后，每个锚点都会优先寻找合适的**普通房间**作为复现位置。如果房型与门位兼容，原房间会尽量完整复现；如果无法匹配，则改用一个普通大小的房间，只复现锚点周围保存的区域。
 
 ## Boss 房
 
@@ -90,6 +90,5 @@ Boss 房也可以被锚定，但不会替换下一层正常的 Boss 房。它会
 - 通路修复优先保留原布局；必须修改时，会清除或软化阻塞格，而不是取消整次复现。
 - Boss 来源不会选择 Boss 房作为复现目标。
 - 贪婪模式、Ascent 流程和部分后期特殊楼层无法使用。
-- 该机制需要 REPENTOGON。
 
 </details>

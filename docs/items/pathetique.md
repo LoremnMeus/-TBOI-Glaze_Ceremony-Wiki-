@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Pathetique
 status: featured
 ---
-<p class="wiki-search-index" v-pre>悲悯 Pathetique Pathetique pathetique Pathetique 它们被迫为我而死 They die for me 受到敌人伤害时，失去一个被动道具并抵消伤害 射速 每个因此失去的道具使射速+0.5 优先失去低品质道具 失去悲悯时，返还所有因此失去的道具 Taking enemy damage removes a passive item and negates the hit Tears +0.5 tears for each item lost this way Prioritizes low-quality items Losing Pathetique returns all items lost this way</p>
+<p class="wiki-search-index" v-pre>悲悯 Pathetique Pathetique pathetique Pathetique 它们被迫为我而死 They die for me 受到敌人伤害时，牺牲1件被动道具并抵消伤害 低品质道具更容易被牺牲 射速 每件被牺牲的道具使射速+0.5，并在牺牲时释放攻击 失去悲悯时，返还所有因此失去的道具 Taking enemy damage sacrifices 1 passive item and negates the hit Lower-quality items are more likely to be sacrificed Tears Each sacrificed item grants +0.5 tears and releases an attack Losing Pathetique returns all items lost this way</p>
 
 <PublicEntry slug="pathetique" lang="zh" />
 
@@ -41,14 +41,12 @@ status: featured
 
 ## 轶事
 
-“悲悯”最初的中文名称为“悲怆”。由于 EID 所使用的字体无法正确显示其中的字符，后来将名称修改为现在的“悲悯”。
-
 其设计受到《游戏王》“珠泪哀歌”系列的影响。从这一语境来看，被悲悯移除的道具就像暂时被“送入墓地”，并以这些失去的道具换取抵伤与射速收益。
 
 当悲悯自己成为被送走的最后一件道具时，此前被它带走的道具会全部重新回到玩家身上。这对应了“送墓本身成为效果发动条件”的设计思路，也让悲悯自身成为整个回收过程的触发点。
 
 <details>
-<summary>技术细节</summary>
+<summary>精确规则</summary>
 
 ### 品质选择权重
 

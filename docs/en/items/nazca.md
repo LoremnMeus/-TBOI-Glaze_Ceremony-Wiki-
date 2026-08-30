@@ -27,16 +27,14 @@ Standing on painted lines raises damage and speed, while enemies standing on the
 - Repeated passes increase line density.
 - The room's drawing disappears when you leave.
 
-## Standing on lines
+## Line effects
 
 Denser lines underfoot:
 
-- multiplicative {{Damage}} (capped);
-- a small {{Speed}} bonus.
+- {{Damage}} up;
+- {{Speed}} up.
 
-## Enemies on lines
-
-Enemies on heated cells take periodic damage; denser lines hurt more. Damage is attributed to the owning player.
+Enemies on heated cells take periodic damage; denser lines hurt more.
 
 ## Extra copies
 
@@ -55,12 +53,12 @@ Abyss spawns three matching locusts.
 ## Tips
 
 - Thicken a safe zone first, then pull enemies into the painted ground.
-- Duplicates are for a larger field, not an instant room clear.
+- Fighting around repeatedly painted areas lets you use both the stat bonuses and the line damage at once.
 
 <details>
 <summary>Technical details</summary>
 
-- Brush count: `copies × 2 + 4 + floor(stage / 2)`; density cap `10 + 2×(copies−1)`.
+- Brush count: `copies × 2 + 4 + floor(stage / 2)` (usually 6+ from the first copy); density cap `10 + 2×(copies−1)`.
 - Player damage ≈ +3% mul per heat (cap +50%); speed ≈ +0.015 per heat.
 - Enemy damage ≈ every 10 frames `0.15 × Damage × heat`.
 - Seija: 1 painter, heat cap ≤ 5.

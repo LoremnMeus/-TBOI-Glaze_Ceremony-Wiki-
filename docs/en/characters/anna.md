@@ -95,8 +95,7 @@ The list below is **exclusive display text only**.
 It is not Anna's full compatibility list:
 
 - items without custom text may still work or have hidden compatibility;
-- items with custom text do not necessarily gain extra mechanics;
-- actual behavior still depends on the item and the current implementation.
+- exclusive text only means Anna shows different wording—it does not guarantee an extra mechanic. Check the matching item page for the real effect.
 
 <AnnaSpecialInteractions />
 
@@ -111,8 +110,8 @@ Before leaving a cleared room with resources still on the floor, recall them int
 
 - Anna's black hole saves state for many entity types and reconstructs them on release.
 - Different entity categories use different capture weights, release paths, and special rules; do not read this as one simple universal "mass formula."
-- Pickups store type, subtype, price, charge, shop state, and related fields when possible.
-- Some entities, effects, and room objects are excluded from capture.
-- Many attack-style items have Anna-specific compatibility; `Special_Des` covers only part of them as exclusive display text.
+- Pickups restore type, subtype, price, charge, shop state, and related fields when possible.
+- Some entities, effects, and room objects cannot be captured.
+- Many attack-style items have Anna-specific compatibility; the list above covers only part of them as exclusive display text.
 
 </details>

@@ -4,14 +4,34 @@ description: "Darkside Reproduction"
 slug: dark-mysticism
 kind: collectible
 internalKey: Dark_Mysticism
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>暗黑神秘学 Dark Mysticism Dark_Mysticism dark-mysticism Dark Mysticism 暗面重现 Darkside Reproduction 50%概率抵消受到的伤害，并释放黑色眼睛恐惧敌人 50% probability of counteracting damage received and releasing black eyes to fear enemies</p>
+<p class="wiki-search-index" v-pre>暗黑神秘学 Dark Mysticism Dark_Mysticism dark-mysticism Dark Mysticism 暗面重现 Darkside Reproduction 50%概率抵消受到的伤害 成功时向四周释放高伤害的黑色眼泪，并恐惧敌人 50% chance to negate damage taken On success, fire high-damage black tears in four directions and fear enemies</p>
 
 <PublicEntry slug="dark-mysticism" lang="en" />
 
 ## Mechanics
 
+
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+**Dark Mysticism lets half of incoming hits fall into the dark side. When a hit is negated, Isaac also unleashes a strong black counterattack in four directions.**
+
+On damage, there is a **50%** chance to fully negate the hit and:
+
+- play a dark counter effect;
+- fire one special black tear in each cardinal direction;
+- deal about `5 × Damage` per tear;
+- show strong dark / fear visuals.
+
+## Synergies
+
+### {{Seija}}
+
+On a successful negate, Isaac is also feared for about **3** seconds.
+
+## Tips
+
+Strong when you expect contact damage; remember half of hits still apply normally.

@@ -4,14 +4,16 @@ description: "III"
 slug: contemplation
 kind: collectible
 internalKey: Contemplation
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象窥井 Contemplation Contemplation contemplation Contemplation III III 死亡证明 进入新房间时，4%概率进入死亡证明层的随机房间，并在倒数随机1-3秒后立刻离开 Death Certificate When entering a new room, 4% chance to enter a random room in the death certificate level and leave immediately after a random 1-3 seconds</p>
+<p class="wiki-search-index" v-pre>天象窥井 Contemplation Contemplation contemplation Contemplation III III 穿门进入未探索房间时，每份本道具有4%概率窥见死亡证明层 短暂进入其中的随机房间 1-3秒后继续前往原本的目标房间 When entering an unexplored room through a door, each copy has a 4% chance to glimpse the Death Certificate floor Briefly visit a random room there Continue to the original destination after 1-3 seconds</p>
 
 <PublicEntry slug="contemplation" lang="en" />
 
-## Mechanics
+## Effects
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+When passing through a door toward an unexplored room, each copy of Contemplation has a 4% chance to reveal a glimpse of the Death Certificate dimension.
 
-To be written.
+The player briefly enters a random room there, remains for one to three seconds, then continues to the original destination.
+
+The check only occurs when entering an unexplored room through a door. Returning to an explored room cannot trigger it.

@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Pathetique
 status: featured
 ---
-<p class="wiki-search-index" v-pre>悲悯 Pathetique Pathetique pathetique Pathetique 它们被迫为我而死 They die for me 受到敌人伤害时，失去一个被动道具并抵消伤害 射速 每个因此失去的道具使射速+0.5 优先失去低品质道具 失去悲悯时，返还所有因此失去的道具 Taking enemy damage removes a passive item and negates the hit Tears +0.5 tears for each item lost this way Prioritizes low-quality items Losing Pathetique returns all items lost this way</p>
+<p class="wiki-search-index" v-pre>悲悯 Pathetique Pathetique pathetique Pathetique 它们被迫为我而死 They die for me 受到敌人伤害时，牺牲1件被动道具并抵消伤害 低品质道具更容易被牺牲 射速 每件被牺牲的道具使射速+0.5，并在牺牲时释放攻击 失去悲悯时，返还所有因此失去的道具 Taking enemy damage sacrifices 1 passive item and negates the hit Lower-quality items are more likely to be sacrificed Tears Each sacrificed item grants +0.5 tears and releases an attack Losing Pathetique returns all items lost this way</p>
 
 <PublicEntry slug="pathetique" lang="en" />
 
@@ -41,14 +41,12 @@ Under Seija, Pathetique still sacrifices items to negate enemy damage, but sacri
 
 ## Trivia
 
-Pathetique's original Chinese name was “悲怆”. It was later changed to “悲悯” because the font used by EID could not display one of its characters correctly.
-
 Its design was influenced by the “Tearlaments” archetype from *Yu-Gi-Oh!* In that context, items removed by Pathetique are temporarily “sent to the Graveyard”, trading their absence for damage protection and tears.
 
 When Pathetique becomes the final item sent away, the effect reverses and returns everything it previously took. This follows the idea of sending a card to the Graveyard as the condition that activates another effect, with Pathetique itself beginning the recovery sequence.
 
 <details>
-<summary>Technical details</summary>
+<summary>Exact rules</summary>
 
 ### Quality selection weights
 

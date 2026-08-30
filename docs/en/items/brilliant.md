@@ -4,14 +4,16 @@ description: "To the gold of eternity"
 slug: brilliant
 kind: collectible
 internalKey: Brilliant
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>辉煌 Brilliant Brilliant brilliant Brilliant 献给永恒之金 To the gold of eternity +3金心 商品价格下降金心总数 此道具价格不高于角色的硬币数量 +3 Golden Heart The number of golden hearts due to a decrease in commodity prices</p>
+<p class="wiki-search-index" v-pre>辉煌 Brilliant Brilliant brilliant Brilliant 献给永恒之金 To the gold of eternity +3金心 每颗金心使硬币商品价格-1 辉煌自身在商店中的价格不会超过当前持有的硬币 +3 Golden Heart Each Golden Heart reduces coin prices by 1 Brilliant&#x27;s shop price never exceeds your current coins</p>
 
 <PublicEntry slug="brilliant" lang="en" />
 
-## Mechanics
+## Effects
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+- Grants three Golden Hearts.
+- Each Golden Heart reduces coin prices in shops by one coin.
+- Brilliant's own shop price cannot exceed Isaac's current coin count.
 
-To be written.
+More Golden Hearts provide a larger discount, and prices can be reduced to free.

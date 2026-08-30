@@ -4,14 +4,22 @@ description: "Please wait a moment..."
 slug: ending-count
 kind: collectible
 internalKey: Ending_Count
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>终末倒数 Ending Count Ending_Count ending-count Ending Count 请稍等片刻... Please wait a moment... 使用后，随机主动道具从角色头顶逐渐飘落 30s后角色接收并使用之 Random active items gradually fall from above the character&#x27;s head After 30 seconds, Isaac receives and uses it</p>
+<p class="wiki-search-index" v-pre>终末倒数 Ending Count Ending_Count ending-count Ending Count 请稍等片刻... Please wait a moment... 使用后抽取一个随机主动道具效果，并显示在角色头顶 30秒后自动发动该主动道具一次 Draw a random active-item effect and display it above the character After 30 seconds, automatically activate it once</p>
 
 <PublicEntry slug="ending-count" lang="en" />
 
-## Mechanics
+## Effects
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+On use, a random active item appears above Isaac and begins a 30-second countdown. When time runs out, Isaac automatically activates that item once without placing it in the active slot.
 
-To be written.
+The selection is weighted rather than uniform: higher-quality, longer-charge, and especially unusual active items generally appear less often.
+
+## Multiple uses
+
+Several countdowns can coexist. If two are about to finish within a few seconds of each other, the earlier one speeds up so their effects do not stack at exactly the same moment.
+
+## Synergies
+
+- Car Battery makes the corresponding countdown effect activate one additional time.

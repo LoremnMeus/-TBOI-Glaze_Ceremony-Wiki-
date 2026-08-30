@@ -25,7 +25,7 @@ Each time the possessed target takes damage, an extra slice of current HP is rem
 - Normal enemies: about 20%
 - Bosses: about 5%
 
-Each extra cut is capped at `Damage × 10`, with a minimum cap of 100 damage.
+Each extra cut counts as **at least 100 damage**, and never more than `Damage × 10`.
 
 ## HP return
 

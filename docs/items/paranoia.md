@@ -4,7 +4,7 @@ description: "这里有个骰子"
 slug: paranoia
 kind: collectible
 internalKey: Paranoia
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>妄想症 Paranoia Paranoia paranoia Paranoia 这里有个骰子 There is a dice 被拾取的道具有50%概率保留在原地 Picked items have a 50% chance of remaining in place</p>
 
@@ -12,6 +12,23 @@ status: stub
 
 ## 机制说明
 
-<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+<!-- 人工正文：生成器不会覆盖本文件。 -->
+
+## 效果
+
+**妄想症让一半的道具拾取像“骰子还在原处”。**
+
+拾取道具时有 **50%** 概率：角色正常获得该道具，但原底座仍留在原地。商店道具仍须正常付款。
+
+主动道具拾取时会妥善处理原主动掉落，避免无效覆盖。
+
+## 特殊联动
+
+### {{Seija}}
+
+拾取时有 **5%** 总概率把结果替换为 {{Collectible:258}}（先进入妄想分支，再在分支内以低概率变成编号错误）。
+
+## 注意
+
+若妄想症本身出现在商店，其售价不会低于你当前持有的硬币数（动态说明会显示）。

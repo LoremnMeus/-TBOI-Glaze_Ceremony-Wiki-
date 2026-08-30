@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T13:16:30Z",
+  "generatedAt": "2026-08-30T15:29:17Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -11963,8 +11963,8 @@
         "en": "Wish you a better future"
       },
       "eid": {
-        "zh": "拾取/下层后获得一朵花#受伤后花朵就会破碎#可选的送达对象：有脑袋的店主、撒旦、天使",
-        "en": "Gain a flower when pick it up and when entering the next level#The flower will fade away on getting hit#Flowers can be sent to:#Keepers with head、Satan、Angel"
+        "zh": "拾取时获得1朵花，每层开始时重新获得#{{Warning}} 受到敌人伤害会失去1朵花#靠近店主、撒旦或天使时，可以将花赠送给对方#不同对象会给予不同回礼",
+        "en": "Gain 1 flower on pickup and replenish it at the start of each floor#{{Warning}} Enemy damage destroys 1 flower#Approach a Keeper, Satan, or an Angel to give them a flower#Different recipients give different rewards"
       },
       "seijaBuff": {
         "zh": "",
@@ -12104,8 +12104,8 @@
         "en": "Prosperity leads to decline"
       },
       "eid": {
-        "zh": "在身后留下科技限制器#有敌人经过时，距离为1格的限制器间生成激光并在数秒后消除",
-        "en": "Leave technology limiters behind Isaac#When an enemy passes by, a laser is generated between limiters at a distance of 1 grid and eliminated after a few seconds"
+        "zh": "行走时在经过的格子留下科技限制器#相邻限制器之间形成可触发的连接#敌人穿过连接时发射短暂激光，并消耗其中一个限制器",
+        "en": "Walking leaves technology limiters on crossed grid cells#Adjacent limiters form triggerable connections#Enemies crossing a connection fire a brief laser and consume one limiter"
       },
       "seijaBuff": {
         "zh": "",
@@ -12369,8 +12369,8 @@
         "en": "If only my wish would come true"
       },
       "eid": {
-        "zh": "每层开始时，在初始房间静止5s后入睡#在睡梦中选择心仪的4级道具#{{Timer}} 60s后那个道具落到身上并在本层持续#按下 {{ButtonRT}} 提前结束梦境",
-        "en": "At the beginning of each floor, fall asleep in the initial room after a 5 seconds doing completely nothing#Choose the desired quality 4 item in your sleep#{{Timer}} 60 seconds later, that item will land on Isaac#Press {{ButtonRT}} to end the dream in advance"
+        "zh": "每层开始时，在初始房间静止5s后入睡#在睡梦中选择心仪的4级道具#{{Timer}} 60s后那个道具落到身上并在本层持续#按下 {{ButtonRT}} 提前确认当前梦想",
+        "en": "At the beginning of each floor, fall asleep in the initial room after a 5 seconds doing completely nothing#Choose the desired quality 4 item in your sleep#{{Timer}} 60 seconds later, that item will land on Isaac#Press {{ButtonRT}} to confirm the current dream early"
       },
       "seijaBuff": {
         "zh": "",
@@ -12518,7 +12518,7 @@
       },
       "eid": {
         "zh": "缝合你的恶魔房与天使房#{{DevilRoom}} 恶魔侧道具需要血量交易#{{AngelRoom}} 天使侧道具只能拿一个",
-        "en": "Sew your {{DevilRoom}} devil room and {{AngelRoom}} angel room together"
+        "en": "Sew your {{DevilRoom}} Devil Room and {{AngelRoom}} Angel Room together#{{DevilRoom}} Devil items require health trading#{{AngelRoom}} Only one angel item can be taken"
       },
       "seijaBuff": {
         "zh": "",
@@ -12642,8 +12642,8 @@
         "en": "VI"
       },
       "eid": {
-        "zh": "{{Card78}} 下层时生成3张红钥匙碎片#{{UltraSecretRoom}} 楼层中至多4个特殊房间的布局位置变为与红隐藏相同#{{Card78}} 进入那些特殊房间后生成1张红钥匙碎片",
-        "en": "{{Card78}} Spawns 3 red key fragments each level#{{UltraSecretRoom}} The layout positions of up to 4 special rooms in the floor will become the same as that of the UltraSecret Room#{{Card78}} Spawn 1 red key fragment after entering those special rooms"
+        "zh": "{{Card78}} 每层开始时生成3张红钥匙碎片#将最多4个特殊房间移到地图外的红房位置#需要使用红钥匙碎片重新找到这些房间#首次进入被移动的特殊房间时，返还1张红钥匙碎片",
+        "en": "{{Card78}} Spawn 3 Cracked Keys at the start of each floor#Move up to 4 special rooms beyond the normal map as red rooms#Use Cracked Keys to find those rooms again#Entering a moved room for the first time returns 1 Cracked Key"
       },
       "seijaBuff": {
         "zh": "",
@@ -12786,8 +12786,8 @@
         "en": "Masterpiece"
       },
       "eid": {
-        "zh": "{{Battery}} 需要接触并吸收3个空道具底座以充满充能#将距你最近的道具转化为快速切换的数个与其连号的道具",
-        "en": "{{Battery}} Contact and absorb 3 empty pedestals to fully charge#Convert the item closest to Isaac into several items whose number are close to it for quick switching"
+        "zh": "{{Battery}} 接触并吸收3个空道具底座可充满充能#使用时，使最近的道具底座在数个前序编号道具之间快速切换#{{EID}} 持有时会显示该道具对应的变化序列",
+        "en": "{{Battery}} Contact and absorb 3 empty pedestals to fully charge#Make the nearest pedestal rapidly cycle through several preceding item IDs#{{EID}} While held, shows that item's transformation sequence"
       },
       "seijaBuff": {
         "zh": "",
@@ -12907,8 +12907,8 @@
         "en": "To the gold of eternity"
       },
       "eid": {
-        "zh": "{{GoldenHeart}} +3金心#商品价格下降金心总数#此道具价格不高于角色的硬币数量",
-        "en": "{{GoldenHeart}} +3 Golden Heart#The number of golden hearts due to a decrease in commodity prices"
+        "zh": "{{GoldenHeart}} +3金心#{{Shop}} 每颗金心使硬币商品价格-1#{{Coin}} 辉煌自身在商店中的价格不会超过当前持有的硬币",
+        "en": "{{GoldenHeart}} +3 Golden Heart#{{Shop}} Each Golden Heart reduces coin prices by 1#{{Coin}} Brilliant's shop price never exceeds your current coins"
       },
       "seijaBuff": {
         "zh": "",
@@ -13024,8 +13024,8 @@
         "en": "love me,love my dog"
       },
       "eid": {
-        "zh": "{{Charm}} 角色身上出现一个魅惑光环#{{Charm}} 光环魅惑接近的敌人，随后附着在那个敌人上",
-        "en": "{{Charm}} A charm halo appears on Isaac#{{Charm}} The halo enchants the approaching enemy and then attaches to it"
+        "zh": "{{Charm}} 生成一个跟随角色的魅惑光环#光环靠近敌人后会魅惑目标，并转而跟随该敌人",
+        "en": "{{Charm}} Spawn a charm halo that follows the character#Approaching an enemy charms it, then the halo follows that target"
       },
       "seijaBuff": {
         "zh": "",
@@ -13152,8 +13152,8 @@
         "en": "Please wait a moment..."
       },
       "eid": {
-        "zh": "使用后，随机主动道具从角色头顶逐渐飘落#{{Timer}} 30s后角色接收并使用之",
-        "en": "Random active items gradually fall from above the character's head#{{Timer}} After 30 seconds, Isaac receives and uses it"
+        "zh": "使用后抽取一个随机主动道具效果，并显示在角色头顶#{{Timer}} 30秒后自动发动该主动道具一次",
+        "en": "Draw a random active-item effect and display it above the character#{{Timer}} After 30 seconds, automatically activate it once"
       },
       "seijaBuff": {
         "zh": "",
@@ -13373,8 +13373,8 @@
         "en": "I found a new passage!"
       },
       "eid": {
-        "zh": "生成几只来自未清理房间的敌方怪物#对应位置怪物视为被清理",
-        "en": "Spawns several enemies from uncleaned rooms#The corresponding monster is considered as cleared"
+        "zh": "从尚未探索的房间中随机拉来2-3名敌人#这些敌人会在当前房间与你战斗#击败后，它们不会再在原本的房间中出现",
+        "en": "Pull 2-3 enemies from unexplored rooms#Fight them in the current room#Defeated enemies will not appear in their original rooms"
       },
       "seijaBuff": {
         "zh": "",
@@ -13508,8 +13508,8 @@
         "en": "The world is so small!"
       },
       "eid": {
-        "zh": "!!! 一次性#获得一个持续一层的随机被动道具效果#此道具在本层随机房间中重新出现#若没有被找回，也在下层出现",
-        "en": "!!! SINGLE USE#Obtain a random passive item effect that lasts for one level#This item reappears in the random room in this floor#It also appears in the next level if not retrieved."
+        "zh": "使用后消失，并获得一个持续本层的随机被动道具效果#世界弧随后藏进本层另一间房#找到它即可再次使用#本层未找到时，下层会再次出现",
+        "en": "Disappears on use and grants a random passive effect for the floor#World Arc then hides in another room on the floor#Find it to use it again#If left behind, it reappears on the next floor"
       },
       "seijaBuff": {
         "zh": "",
@@ -13642,8 +13642,8 @@
         "en": "A gift from another world"
       },
       "eid": {
-        "zh": "自动充能#使用后放出六道彩色激光并逐渐消耗充能",
-        "en": "Charge automatically#Release six colored lasers and gradually consume charging energy"
+        "zh": "自动恢复充能#使用后维持6道彩色激光，并持续消耗充能#持续照射时，光束会逐渐聚拢并大幅增强#再次使用可额外消耗充能，增加光束数量",
+        "en": "Recharges automatically#Maintains 6 rainbow lasers while draining charge#Beams gradually converge and grow much stronger#Use again to spend extra charge and add more beams"
       },
       "seijaBuff": {
         "zh": "",
@@ -13765,8 +13765,8 @@
         "en": "Return three, draw three..."
       },
       "eid": {
-        "zh": "{{Rune}} 本房间中每使用过一张符文，就抽一张符文，上限3张#{{Rune}} 持有符文时可以多带一张卡片或药丸",
-        "en": "{{Rune}} For every rune used in this room, draw one rune with a maximum of 3 runes#{{Rune}} Allow Isaac to carry 2 cards whe he have a rune"
+        "zh": "{{Rune}} 首次拾取：生成1张随机符文#{{Rune}} 本房间每使用1张符文，为卢恩之书记录1次，最多3次#使用本书时，按记录数量生成等量随机符文，并清空记录#{{Rune}} 持有符文时，可以额外携带1张卡牌或药丸#离开房间时清空未兑现的记录",
+        "en": "{{Rune}} First pickup: Spawns 1 random rune#{{Rune}} Using a rune in this room records 1 use, up to 3#Use the book to spawn that many random runes and clear the record#{{Rune}} Carry 1 extra card or pill while holding a rune#Unused records are lost upon leaving the room"
       },
       "seijaBuff": {
         "zh": "",
@@ -13900,8 +13900,8 @@
         "en": "Embrace ominous"
       },
       "eid": {
-        "zh": "概率发射穿透并追踪敌人的蝴蝶眼泪#蝴蝶会吸收敌方泪弹与硫磺火#最后炸开并返还出来",
-        "en": "Probability to launch piercing and chasing evil tears#Counteract enemy tear bullets, and fire brimstone after hitting the enemy"
+        "zh": "概率发射穿透并追踪敌人的蝴蝶泪#蝴蝶泪会吞噬接触的敌方弹幕，并截断敌方激光#蝴蝶消失时，将吸收的攻击转化为友方泪弹与硫磺火返还",
+        "en": "Chance to fire a piercing, homing butterfly tear#It devours enemy projectiles and intercepts enemy lasers#On disappearing, returns absorbed attacks as friendly tears and Brimstone"
       },
       "seijaBuff": {
         "zh": "",
@@ -14022,8 +14022,8 @@
         "en": "Tap Tap tap!"
       },
       "eid": {
-        "zh": "让角色能够跳跃着飞行",
-        "en": "Enable characters to fly"
+        "zh": "使用后向上跳跃，随后逐渐落下#连续使用可以不断升高#飞得足够高时，可以越过障碍与敌人",
+        "en": "Leap upward on use, then gradually fall#Use repeatedly to keep climbing#At sufficient height, pass over obstacles and enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -14149,8 +14149,8 @@
         "en": "I"
       },
       "eid": {
-        "zh": "!!! 一次性 #{{Collectible580}} 向投掷方向连续开启红房间直至碰到边界",
-        "en": "!!! SINGLE USE #{{Collectible580}} Continuously open red room towards the throwing direction until it touches the boundary"
+        "zh": "!!! 一次性#使用后举起道具，再按攻击方向确认#{{Collectible580}} 沿该方向连续开启红房，直到无法继续延伸",
+        "en": "!!! SINGLE USE#Use to hold it overhead, then press a fire direction to confirm#{{Collectible580}} Opens Red Rooms along that direction until the path can extend no farther"
       },
       "seijaBuff": {
         "zh": "",
@@ -14276,8 +14276,8 @@
         "en": "III"
       },
       "eid": {
-        "zh": "{{Collectible628}} 进入新房间时，4%概率进入死亡证明层的随机房间，并在倒数随机1-3秒后立刻离开",
-        "en": "{{Collectible628}} When entering a new room, 4% chance to enter a random room in the death certificate level and leave immediately after a random 1-3 seconds"
+        "zh": "穿门进入未探索房间时，每份本道具有4%概率窥见死亡证明层#短暂进入其中的随机房间#1-3秒后继续前往原本的目标房间",
+        "en": "When entering an unexplored room through a door, each copy has a 4% chance to glimpse the Death Certificate floor#Briefly visit a random room there#Continue to the original destination after 1-3 seconds"
       },
       "seijaBuff": {
         "zh": "",
@@ -14413,8 +14413,8 @@
         "en": "V"
       },
       "eid": {
-        "zh": "{{SecretRoom}} 在隐藏房中生成一个传送绳，通往一个额外的奖励房间",
-        "en": "{{SecretRoom}}Spawns a conveyor rope in the secret room, leading to an additional reward room"
+        "zh": "{{SecretRoom}} 隐藏房中会出现通往“深渊”的吊索#接触吊索后进入一个独立的深渊房间#深渊中藏有额外奖励，之后可通过吊索返回",
+        "en": "{{SecretRoom}} A hanger leading to the Chasm appears in Secret Rooms#Touch it to enter a separate Chasm room#Find extra rewards there, then use the hanger to return"
       },
       "seijaBuff": {
         "zh": "",
@@ -14556,8 +14556,8 @@
         "en": "Except Anger"
       },
       "eid": {
-        "zh": "防止爆炸伤害#根据本局杀死的七罪小Boss获得效果：#嫉妒：眼泪获得穿透与灵体效果#{{Card}} 贪婪：抽3张卡#{{Collectible}} 傲慢：生成随机道具池三选一道具#{{Card31}} 色欲：生成一张小丑卡#{{Coin}} 懒惰：商店价格永久-1#{{Card78}} 暴食：生成2个红钥匙碎片",
-        "en": "Grants immunity to explosions#Obtain effects based on the Sins mini-Bosses killed in this game：#Envy：Grants spectral and piercing tear effects#{{Card}} Greed: Draw 3 cards#{{Collectible}} Pride: Allow Isaac to choose between 3 items.#{{Card31}} Lust:Spawns a Joker card#{{Coin}} Sloth：Store Price -1#{{Card78}} Gluttony: Spawns 2 red key fragments"
+        "zh": "防止爆炸伤害#本局首次击败对应七罪时获得奖励：#嫉妒：永久获得穿透与灵体泪#{{Card}} 贪婪：生成3张卡牌#{{Collectible}} 傲慢：生成随机道具三选一#{{Card31}} 色欲：生成一张小丑卡#{{Coin}} 懒惰：商店价格永久-1#{{Card78}} 暴食：生成2个红钥匙碎片",
+        "en": "Grants immunity to explosions#Gain a reward the first time each corresponding Sin is defeated:#Envy: Permanently grants piercing and spectral tears#{{Card}} Greed: Spawns 3 cards#{{Collectible}} Pride: Spawns a choice of 3 random items#{{Card31}} Lust: Spawns a Joker card#{{Coin}} Sloth: Permanently reduces shop prices by 1#{{Card78}} Gluttony: Spawns 2 Cracked Keys"
       },
       "seijaBuff": {
         "zh": "",
@@ -14684,8 +14684,8 @@
         "en": "They die for me"
       },
       "eid": {
-        "zh": "受到敌人伤害时，失去一个被动道具并抵消伤害#{{Tears}} 每个因此失去的道具使射速+0.5#优先失去低品质道具#失去悲悯时，返还所有因此失去的道具",
-        "en": "Taking enemy damage removes a passive item and negates the hit#{{Tears}} +0.5 tears for each item lost this way#Prioritizes low-quality items#Losing Pathetique returns all items lost this way"
+        "zh": "受到敌人伤害时，牺牲1件被动道具并抵消伤害#低品质道具更容易被牺牲#{{Tears}} 每件被牺牲的道具使射速+0.5，并在牺牲时释放攻击#失去悲悯时，返还所有因此失去的道具",
+        "en": "Taking enemy damage sacrifices 1 passive item and negates the hit#Lower-quality items are more likely to be sacrificed#{{Tears}} Each sacrificed item grants +0.5 tears and releases an attack#Losing Pathetique returns all items lost this way"
       },
       "seijaBuff": {
         "zh": "",
@@ -14818,16 +14818,16 @@
         "en": "Darkside Reproduction"
       },
       "eid": {
-        "zh": "{{Fear}} 50%概率抵消受到的伤害，并释放黑色眼睛恐惧敌人",
-        "en": "{{Fear}} 50% probability of counteracting damage received and releasing black eyes to fear enemies"
+        "zh": "50%概率抵消受到的伤害#成功时向四周释放高伤害的黑色眼泪，并恐惧敌人",
+        "en": "50% chance to negate damage taken#On success, fire high-damage black tears in four directions and fear enemies"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "也会恐惧自己",
-        "en": "Also fears Isaac"
+        "zh": "成功抵消伤害时也会恐惧自己",
+        "en": "Also fears yourself when a hit is negated"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -14939,7 +14939,7 @@
       },
       "eid": {
         "zh": "获得3个随机被动道具的效果",
-        "en": "Obtain the effect of 3 random passive items"
+        "en": "Grants the effects of 3 random passive items"
       },
       "seijaBuff": {
         "zh": "",
@@ -15088,24 +15088,24 @@
         "en": "Left Ventricular Puncture"
       },
       "eid": {
-        "zh": "失去所有{{Heart}}红心，+1{{BrokenHeart}}碎心，将房间中道具转化为{{Item:Fresh_Death}}鲜活死者",
-        "en": "Lose all {{Heart}} red hearts，+1{{BrokenHeart}} broken hearts，convert pedestal in rooms into {{Item:Fresh_Death}} Fresh Death"
+        "zh": "失去所有{{Heart}}红心并+1{{BrokenHeart}}碎心#将房间中的道具底座全部转化为{{Item:Fresh_Death}}鲜活死者#每份鲜活死者提供3个随机被动道具效果",
+        "en": "Lose all {{Heart}} red hearts and gain +1{{BrokenHeart}} broken heart#Convert all pedestals in the room into {{Item:Fresh_Death}} Fresh Death#Each Fresh Death grants 3 random passive effects"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "+3碎心",
-        "en": "+3 broken hearts"
+        "zh": "总计+3碎心",
+        "en": "+3 broken hearts total"
       },
       "bookOfVirtues": {
-        "zh": "鲜活死者只提供天使道具池的被动效果",
-        "en": "Item Fresh Death only provide passive effects from angel item pool"
+        "zh": "{{Item:Fresh_Death}}鲜活死者只提供天使道具池的被动效果",
+        "en": "{{Item:Fresh_Death}} Fresh Death only rolls Angel pool passives"
       },
       "bookOfBelial": {
         "zh": "{{Item:Fresh_Death}}鲜活死者只提供恶魔道具池的被动效果",
-        "en": "Item Fresh Death only provide passive effects from devil item pool"
+        "en": "{{Item:Fresh_Death}} Fresh Death only rolls Devil pool passives"
       },
       "abyssSynic": {
         "zh": "",
@@ -15223,8 +15223,8 @@
         "en": "Kind of dazzling"
       },
       "eid": {
-        "zh": "生成4-8个琉璃掉落物#20%概率偏折弹幕",
-        "en": "Spawns several glaze pickups on pickup#20% chance to deflect enemy projectiles"
+        "zh": "生成4-8个琉璃掉落物#{{Luck}} 靠近角色的敌方弹幕有概率被镜面偏折",
+        "en": "Spawns 4-8 glaze pickups#{{Luck}} Nearby enemy projectiles may be mirrored away"
       },
       "seijaBuff": {
         "zh": "",
@@ -15507,7 +15507,7 @@
       },
       "seijaNerf": {
         "zh": "拾取的道具有5%概率替换为{{Collectible258}}编号错误",
-        "en": "Picked items have a 50% chance to be replaced as {{Collectible258}} Missing No"
+        "en": "5% chance for picked items to become {{Collectible258}} Missing No"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -15646,12 +15646,12 @@
         "en": "You feel dizzy and dizzy"
       },
       "eid": {
-        "zh": "进入房间的一段时间内，旋转你的射击方向#{{Tears}} +0.35射速#{{Damage}} +2攻击",
-        "en": "Rotate your shooting direction during a period of time after entering the room#{{Tears}} +0.35 Tears up#{{Damage}} +2 Damage up"
+        "zh": "进入房间后，射击方向会持续旋转并逐渐减慢#{{Damage}} +2攻击#{{Collectible260}} 保留属性提升，但不会再旋转射击方向",
+        "en": "After entering a room, your firing direction spins and gradually slows#{{Damage}} +2 Damage#{{Collectible260}} Keeps the damage bonus, but no longer spins your aim"
       },
       "seijaBuff": {
-        "zh": "+2射速#瞄准线跟踪敌人",
-        "en": "+2 Tears up#Line of sight tracking enemy"
+        "zh": "{{Tears}} +2射速#旋转中的瞄准方向会尝试追踪敌人",
+        "en": "{{Tears}} +2 Tears#Spinning aim tries to track nearby enemies"
       },
       "seijaNerf": {
         "zh": "",
@@ -15915,8 +15915,8 @@
         "en": "I can't see..."
       },
       "eid": {
-        "zh": "此道具伴生有3个随机道具以供4选1#{{Damage}} +0.33攻击#拾取时向所有道具池加入两个{{Item:Nihilistic_Artificial_Eye}}虚无假眼",
-        "en": "This item is accompanied by 3 random items to choose 1#{{Damage}} +0.33 Damage up#Add a {{Item:Nihilistic_Artificial_Eye}} Nihilistic Artificial Eye into all itempools on pickup"
+        "zh": "此道具伴生3件随机道具，组成四选一#{{Damage}} +0.33攻击#拾取后，在之后的道具池抽取中加入2次{{Item:Nihilistic_Artificial_Eye}}虚无假眼替换机会",
+        "en": "Spawns with 3 random pedestals as a 4-choice set#{{Damage}} +0.33 Damage#On pickup, adds 2 future {{Item:Nihilistic_Artificial_Eye}} Nihilistic Artificial Eye replacement chances to item-pool rolls"
       },
       "seijaBuff": {
         "zh": "",
@@ -15924,7 +15924,7 @@
       },
       "seijaNerf": {
         "zh": "加快伴生道具环绕速度",
-        "en": "Accelerate the surrounding speed of accompanying items"
+        "en": "Speeds up the orbiting companion pedestals"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -16055,16 +16055,16 @@
         "en": "Mocking Nothingness"
       },
       "eid": {
-        "zh": "{{Chargeable}} 蓄力发射阴影对接触的敌人造成伤害#玩家受伤前与阴影换位并免伤",
-        "en": "{{Chargeable}} Charge up and launch shadows to deal damage to enemies in contact# Players should switch positions with shadows before getting injured and avoid damage"
+        "zh": "{{Chargeable}} 蓄力发射一个向前移动并伤害敌人的幻影#即将受伤时，与存活的幻影换位并抵消伤害#换位途中无敌，并在抵达后对周围敌人造成伤害",
+        "en": "{{Chargeable}} Charge to fire a moving phantom that damages enemies on contact#Before taking damage, swap with a living phantom and negate the hit#Invincible during the dash; damages nearby enemies on arrival"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "加快阴影速度",
-        "en": "Accelerate shadow speed"
+        "zh": "加快幻影速度",
+        "en": "Speeds up the phantom"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -16191,8 +16191,8 @@
         "en": "Flying + Harvesting Blood"
       },
       "eid": {
-        "zh": "↑ 飞行#{{Chargeable}} 靠近墙壁移动以蓄力，蓄力完成后无敌冲刺4秒并向后喷射30%攻击伤害的硫磺火",
-        "en": "↑ Flight#{{Chargeable}} Move close to the wall to accumulate power, and after accumulating power, sprint invincibly for 4 seconds and spray 30% attack damage brimstones fire backwards"
+        "zh": "{{Flight}} 获得飞行#{{Chargeable}} 持续贴墙移动完成蓄力#蓄满后离墙会无敌冲刺约2秒，并向后喷射30%攻击伤害的硫磺火",
+        "en": "{{Flight}} Grants flight#{{Chargeable}} Keep moving along walls to finish charging#Leaving the wall after a full charge starts an invincible dash for about 2 seconds and sprays 30% damage Brimstone behind you"
       },
       "seijaBuff": {
         "zh": "",
@@ -16326,8 +16326,8 @@
         "en": "Break the old days"
       },
       "eid": {
-        "zh": "6个自动瞄准敌人的激光发射器 #{{Chargeable}} 蓄力后分别发射造成30%攻击伤害的激光",
-        "en": "6 laser launchers with automatic aiming at enemies #{{Chargeable}} After accumulating power, fire lasers that deal 30% of attack damage each"
+        "zh": "6个自动瞄准敌人的激光发射器#{{Chargeable}} 蓄力后分别发射造成30%攻击伤害的激光",
+        "en": "6 auto-aiming laser emitters#{{Chargeable}} After charging, each fires a laser dealing 30% of your damage"
       },
       "seijaBuff": {
         "zh": "",
@@ -16335,7 +16335,7 @@
       },
       "seijaNerf": {
         "zh": "只有1个激光发射器",
-        "en": "There is only one laser emitter"
+        "en": "Only 1 laser emitter"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -16436,8 +16436,8 @@
         "en": "Stitching to death"
       },
       "eid": {
-        "zh": "触发此道具使用次数因数的骰子的效果",
-        "en": "The effect of triggering the dice with the factor of the number of times this item is used"
+        "zh": "{{Battery}} 拥有至少1格充能时即可使用，并消耗当前全部充能#D的数字增加所消耗的充能数#随后触发编号能整除当前D的所有骰子效果#D1始终触发，主动槽会预览本次结果",
+        "en": "{{Battery}} Usable with at least 1 charge; spends all current charges#Increases D by the charges spent#Then triggers every listed die whose number divides the new D#D1 always fires; the active slot previews the result"
       },
       "seijaBuff": {
         "zh": "",
@@ -16566,16 +16566,16 @@
         "en": "Kashtira Arrival"
       },
       "eid": {
-        "zh": "玩家攻击时从上空不断生成安全的导弹、激光炮进行自动攻击",
-        "en": "When players attack, they continuously generate safe missiles and laser cannons from above for automatic attacks"
+        "zh": "持续攻击时，周期性呼叫来自上空的随机火力支援#支援包括导弹、硫磺火炮与旋转激光装置#这些攻击不会伤害角色",
+        "en": "While firing, periodically calls random aerial support from above#Support includes missiles, brimstone cannons, and spinning laser devices#These attacks cannot harm the player"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "攻击落地后概率生成下层通道",
-        "en": "Probability generation of lower level channels after attack landing"
+        "zh": "空袭路径上会随机生成通往下层的活板门",
+        "en": "Aerial support paths may spawn trapdoors to the next floor"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -16677,8 +16677,8 @@
         "en": "The past still waits ahead"
       },
       "eid": {
-        "zh": "使用时锚定当前房间，每层最多3个#{{ArrowDown}} 下层后在其他房间复现#房型不匹配时，仅复现锚点周围区域#再次使用可收回当前房间的锚点",
-        "en": "Anchors the current room on use, up to 3 per floor#{{ArrowDown}} Reappears elsewhere on the next floor#If room shape differs, only the area around the anchor returns#Use again in an anchored room to retrieve its anchor"
+        "zh": "使用时锚定当前房间，每层最多3个#进入下一层时，锚定内容会优先映射到普通房间#无法完整复现时，仅保留部分锚定内容#再次使用可取消当前房间的锚定",
+        "en": "Anchors the current room on use, up to 3 per floor#On the next floor, anchored content prefers mapping into normal rooms#If it cannot fully reproduce, only part of the anchored content returns#Use again in an anchored room to cancel that anchor"
       },
       "seijaBuff": {
         "zh": "",
@@ -16806,8 +16806,8 @@
         "en": "Rotten and Broken"
       },
       "eid": {
-        "zh": "{{RottenHeart}} 失去红心后填充一颗腐心#{{BrokenHeart}} 失去心之容器后填充一颗碎心#腐心与碎心相互抵消且不致死",
-        "en": "{{RottenHeart}} After losing the red heart, fill it with a rotten heart#{{BrokenHeart}} After losing the container of the heart, fill it with a broken heart#Rotten and broken hearts cancel each other out without causing death"
+        "zh": "{{RottenHeart}} 红心血量减少时，将部分空缺转化为腐心#{{BrokenHeart}} 失去心之容器时，获得对应数量的碎心#腐心与碎心会彼此抵消，且不会因此直接致死",
+        "en": "{{RottenHeart}} When red heart health drops, converts part of the gap into Rotten Hearts#{{BrokenHeart}} Losing Heart Containers grants matching Broken Hearts#Rotten and Broken Hearts cancel each other and cannot kill you by that cancel alone"
       },
       "seijaBuff": {
         "zh": "",
@@ -16941,8 +16941,8 @@
         "en": "Journey convergence"
       },
       "eid": {
-        "zh": "角色死亡时随机生成一个其他角色，由其将角色复活#此法生成的所有角色均死亡时游戏才结束",
-        "en": "When a character dies, a random other character is generated to revive the character# The game only ends when all characters generated by this method die"
+        "zh": "角色死亡时，随机召来一名其他角色将其复活#被召来的角色会留下并与你一同行动#此后必须两名角色都死亡，游戏才真正结束",
+        "en": "On death, summons a random other character to revive you#The summoned character stays and travels with you#The run only truly ends when both characters are dead"
       },
       "seijaBuff": {
         "zh": "",
@@ -17087,8 +17087,8 @@
         "en": "Sacrifice of Heavenly Selection"
       },
       "eid": {
-        "zh": "#!!! 最多可用10次#从三种属性中挑选1项提升，降低另外2项属性#耗尽后生成饰品{{Trinket:Broken_Brooch}}破碎的胸针",
-        "en": "#!!! Can be used up to 10 times# Select 1 attribute from three to improve and 2 attributes to decrease# Generate trinket {{Trinket:Broken_Brooch}} after depletion"
+        "zh": "!!! 最多选择10次#每次随机展示3项基础属性#选择其中1项强化，同时削弱另外2项#用尽后碎裂为{{Trinket:Broken_Brooch}}破碎的胸针",
+        "en": "!!! Choose up to 10 times#Each use shows 3 random base stats#Pick 1 to boost; the other 2 are weakened#When spent, shatters into {{Trinket:Broken_Brooch}} Broken Brooch"
       },
       "seijaBuff": {
         "zh": "",
@@ -17210,8 +17210,8 @@
         "en": "Redemption by Illusion"
       },
       "eid": {
-        "zh": "清理房间后有概率生成掉落物和道具的幻像#仅当角色剩余最后一格血时，碰触幻像变为现实",
-        "en": "After cleaning the room, chance to generate illusions of pickups and trinkets. #Only when the character has the last remaining health, touching the illusion becomes reality"
+        "zh": "清理房间后有概率生成奖励幻像#幻像可能是资源或道具#仅当角色剩余最后1格生命时，触碰幻像才会使其变为现实",
+        "en": "Clearing a room may spawn a reward illusion#Illusions can be pickups or items#Only with 1 absolute heart left does touching turn them real"
       },
       "seijaBuff": {
         "zh": "",
@@ -17351,8 +17351,8 @@
         "en": "Delicious finale"
       },
       "eid": {
-        "zh": "{{Heart}} +2心之容器#{{Damage}} +1攻击#{{Speed}} +0.3移速#杀死敌人时生成小饿魔咬咬敌人并将其恐惧",
-        "en": "{{Heart}} +2 Heart Container#{{Damage}} +1 Damage#{{Speed}} +0.3 Move Speed#Generate a little hungry demon to bite and scare enemies when killing them"
+        "zh": "{{Heart}} +2心之容器#{{Damage}} +1攻击#{{Speed}} +0.3移速#击杀敌人时生成小饿魔，追咬其他敌人并使其恐惧",
+        "en": "{{Heart}} +2 Heart Containers#{{Damage}} +1 Damage#{{Speed}} +0.3 Speed#Killing enemies spawns little hungers that bite and fear other enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -17360,7 +17360,7 @@
       },
       "seijaNerf": {
         "zh": "饥饿的小饿魔追着玩家咬并逐渐损失生命",
-        "en": "The little hungry demon chased after the player to bite and gradually lost their life"
+        "en": "Hungry little hungers chase the player to bite and gradually lose life"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -17474,8 +17474,8 @@
         "en": "Magic of Flies"
       },
       "eid": {
-        "zh": "使用后，飞来一群彩色苍蝇：#!!! 66%概率留下数只彩虹苍蝇#{{Trinket}} 33%概率留下随机饰品#{{Beelzebub}} 1%概率留下随机道具",
-        "en": "After use, a group of colorful flies come：#!!! 66% probability of leaving multiple rainbow flies#{{Trinket}} 33% probability of leaving a random trinket#{{Beelzebub}} 1% probability of leaving a random item"
+        "zh": "使用后召来一群彩色飞蚊：#66%：留下2-3只彩虹苍蝇#{{Trinket}} 33%：留下随机饰品#{{Collectible}} 1%：留下随机道具",
+        "en": "On use, summons a swarm of colorful flies:#66%: leave 2-3 rainbow flies#{{Trinket}} 33%: leave a random trinket#{{Collectible}} 1%: leave a random item"
       },
       "seijaBuff": {
         "zh": "",
@@ -17487,11 +17487,11 @@
       },
       "bookOfVirtues": {
         "zh": "留下的苍蝇被替换为一颗彩虹魂火",
-        "en": "The remaining flies is replaced as a rainbow wisp"
+        "en": "Leftover flies become a rainbow wisp"
       },
       "bookOfBelial": {
         "zh": "留下的彩虹苍蝇变得血红，伤害路径上的敌人。留下的苍蝇被替换为{{Trinket113}}战争蝗虫",
-        "en": "The remaining rainbow flies turn blood red, and the enemies in their path are damaged. The remaining flies is replaced by a {{Trinket113}} War Locust."
+        "en": "Rainbow flies turn blood-red and damage enemies on their path; leftover flies become {{Trinket113}} War Locust"
       },
       "abyssSynic": {
         "zh": "",
@@ -17708,11 +17708,11 @@
       },
       "desc": {
         "zh": "我来刺穿！",
-        "en": "I find!"
+        "en": "I pierce!"
       },
       "eid": {
-        "zh": "{{Chargeable}} 蓄力发射自己的跟班#在墙壁间快速弹射3次",
-        "en": "{{Chargeable}} Charge to launch the familiar#Bounces between walls 3 times"
+        "zh": "{{Chargeable}} 持续攻击时预览一条可在墙壁间反射的突刺路线#松开后沿锁定路线高速突进并伤害敌人#蓄力越高，可延伸的反射次数越多",
+        "en": "{{Chargeable}} While firing, preview a wall-reflecting pierce path#Release to dash along the locked path and damage enemies#Higher charge extends more reflections"
       },
       "seijaBuff": {
         "zh": "",
@@ -17831,11 +17831,11 @@
       },
       "desc": {
         "zh": "我来吞噬！",
-        "en": "I eat!"
+        "en": "I devour!"
       },
       "eid": {
-        "zh": "{{Chargeable}} 蓄力发射自己的跟班#飞行时留下硫磺火尾迹",
-        "en": "{{Chargeable}} Charge to launch the familiar#Leaves a {{Collectible118}} Brimstone trail while flying"
+        "zh": "{{Chargeable}} 蓄力后向瞄准方向高速发射宝宝#飞行过程中在身后留下{{Collectible118}}硫磺火尾迹#撞墙后短暂停留，随后返回",
+        "en": "{{Chargeable}} Charge, then launch the familiar toward your aim#Leaves a {{Collectible118}} Brimstone trail while flying#Briefly sticks to walls, then returns"
       },
       "seijaBuff": {
         "zh": "",
@@ -17951,8 +17951,8 @@
         "en": "I know!"
       },
       "eid": {
-        "zh": "沉睡的跟班#每层醒来并复制你见到的第一个道具",
-        "en": "Sleeping familiar#Wakes each floor to copy the first pedestal item seen"
+        "zh": "每层开始时沉睡#发现道具底座后醒来并飞向目标#到达后复制一份该道具，本层仅触发一次",
+        "en": "Starts each floor asleep#Wakes on finding an item pedestal and flies to it#Copies that item on arrival; once per floor"
       },
       "seijaBuff": {
         "zh": "",
@@ -18065,11 +18065,11 @@
       },
       "desc": {
         "zh": "我来质疑！",
-        "en": "I ask!"
+        "en": "I question!"
       },
       "eid": {
-        "zh": "祈祷的跟班#{{AngelRoom}} 天使形态：+15% 天使房转化率#{{DevilRoom}} 受伤后切换为恶魔形态：+15% 恶魔房开启率，再次受伤切回",
-        "en": "Praying familiar#{{AngelRoom}} Angel form: +15% Angel Room conversion#{{DevilRoom}} Taking damage swaps to Devil form: +15% Devil Room chance; swaps back on the next hit"
+        "zh": "{{AngelRoom}} 初始为天使形态：每只宝宝使天使房转化率+15%#受到伤害后切换为恶魔形态：每只使天魔房开启率+15%#再次受到伤害时切回天使形态",
+        "en": "{{AngelRoom}} Starts in Angel form: +15% Angel Room conversion per baby#Taking damage swaps to Devil form: +15% Devil/Angel deal chance per baby#Taking damage again swaps back to Angel form"
       },
       "seijaBuff": {
         "zh": "",
@@ -18182,11 +18182,11 @@
       },
       "desc": {
         "zh": "我来掌控！",
-        "en": "I hang!"
+        "en": "I command!"
       },
       "eid": {
-        "zh": "飞向敌人的跟班#{{Fear}} 在落点留下恐惧光圈，随后返回",
-        "en": "Familiar that teleports onto enemies#{{Fear}} Leaves a fear aura, then returns"
+        "zh": "自动飞向敌人，并在目标附近展开恐惧光环#光环持续恐惧并伤害范围内的敌人#停留一段时间后返回角色身边",
+        "en": "Flies to enemies and deploys a fear aura near the target#The aura keeps applying fear and damages enemies inside#Returns after lingering for a short time"
       },
       "seijaBuff": {
         "zh": "",
@@ -18303,8 +18303,8 @@
         "en": "I plan!"
       },
       "eid": {
-        "zh": "每层揭示3个特殊房间的跟班#清理这些特殊房间后打开一个奖励房间",
-        "en": "Familiar that reveals 3 special rooms each floor#Clearing them opens a reward room"
+        "zh": "每层揭示数个尚未探索的特殊房间#宝宝会进行一次仪式，并依次标记这些房间#随后生成用于前往已标记房间的传送入口",
+        "en": "Each floor reveals several unexplored special rooms#Performs a ritual and marks those rooms in sequence#Then spawns portals that lead through the marked rooms"
       },
       "seijaBuff": {
         "zh": "",

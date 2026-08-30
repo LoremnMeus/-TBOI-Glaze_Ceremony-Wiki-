@@ -58,21 +58,17 @@ War Song charges are spent in boss rooms and other enemy rooms; plan your route 
 
 ## Where it appears
 
-The Bard Beggar can appear on the first visit to certain secret-exit rooms.
+On the first visit to certain secret-exit rooms, it appears about half the time.
 
 After one gift, the Bard Beggar leaves.
 
 <details>
 <summary>Technical details</summary>
 
-- The Bard Beggar uses a fixed four-offer system; legacy random payment logic is not part of current gameplay.
 - Only affordable offers appear in the selection list.
-- Confirming stores a `pending` blessing.
-- Entering the next floor promotes `pending` to `active`.
-- Entering the floor after that clears the blessing, so it covers exactly one full floor.
-- Song of Plenty rolls 8–12¢ refund; the actual refund is the minimum of that roll and the purchase price.
-- War Song checks for living enemies on room entry, not a fixed room type.
-- Requiem ignores Fake Damage.
-- On first entry to `ROOM_SECRET_EXIT`, current implementation spawns the Bard Beggar about 49% of the time.
+- Confirming spends immediately and saves the blessing for the **next floor**; it clears when you leave that floor.
+- Song of Plenty rolls an 8–12¢ refund, capped by the purchase price.
+- War Song counts rooms that still have living enemies on entry, not a fixed room-type list.
+- Requiem only blocks damage that would actually remove hearts.
 
 </details>

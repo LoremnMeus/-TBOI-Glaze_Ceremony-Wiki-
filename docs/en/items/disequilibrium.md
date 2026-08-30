@@ -4,14 +4,22 @@ description: "IV"
 slug: disequilibrium
 kind: collectible
 internalKey: Disequilibrium
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象失权 Disequilibrium Disequilibrium disequilibrium Disequilibrium IV IV 缝合你的恶魔房与天使房 恶魔侧道具需要血量交易 天使侧道具只能拿一个 Sew your devil room and angel room together</p>
+<p class="wiki-search-index" v-pre>天象失权 Disequilibrium Disequilibrium disequilibrium Disequilibrium IV IV 缝合你的恶魔房与天使房 恶魔侧道具需要血量交易 天使侧道具只能拿一个 Sew your Devil Room and Angel Room together Devil items require health trading Only one angel item can be taken</p>
 
 <PublicEntry slug="disequilibrium" lang="en" />
 
-## Mechanics
+## Effects
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+Disequilibrium stitches the floor's Angel Room and Devil Room together. Entering either side also reveals the other side's deals in the same room.
 
-To be written.
+- Devil-side items still cost health.
+- Only one Angel-side item may still be taken.
+
+The item expands the available choices without removing either room's normal deal rules.
+
+## Synergies
+
+- Duality keeps entrances to both sides available.
+- Heart Change makes the opened room count as both an Angel Room and a Devil Room.

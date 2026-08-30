@@ -72,13 +72,12 @@ If a use fails to finish writing enough "future," the book escapes with its part
 <summary>Technical details</summary>
 
 - Target total quality: **50**; maximum pulls per use: **50** items.
-- Both the "future" draws and the 4-choice candidates bind to the current room pool (`GetPoolForRoom`); draws use `decrease=true`.
-- The 4-choice pedestals spawn at SubType **0**; the engine assigns concrete IDs from the current room pool on init (not from the `targets` afterimage list).
+- Both the "future" draws and the 4-choice candidates bind to the current room's item pool and consume it normally.
+- The 4-choice pedestals are assigned fresh IDs from that pool by the engine—not the afterimage items that were pulled away.
 - Afterimage color follows item quality.
-- Normal use spawns **4** pickups sharing one `OptionsPickupIndex`.
+- Normal use spawns **4** mutually exclusive candidates; taking one removes the rest.
 - Car Battery only adds 2 candidates to that group; it does not repeat the pool draw.
-- Book of Belial adds 2 Devil Room pool (pool 3) candidates to the same group.
-- **Escape progress** persists across runs in `Book_of_Future_progress` (accumulated quality; cleared after a successful 4-choice). On escape the book is removed from the player; the next pickup resumes from saved progress.
-- `Item_Book_of_Future_post.lua` in the repo is an unloaded legacy script, **not** current behavior.
+- Book of Belial adds 2 Devil Room pool candidates to the same group.
+- Escape progress keeps accumulated quality across runs and clears after a successful 4-choice. On escape the book is removed; the next pickup resumes from saved progress.
 
 </details>

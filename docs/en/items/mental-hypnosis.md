@@ -65,13 +65,12 @@ Its sprite is redrawn from Spun-set collectibles such as {{Collectible:13}}; the
 <details>
 <summary>Technical details</summary>
 
-- On each new floor, eligible room types are collected and shuffled into an instruction list.
-- Normal rooms and several technical room types are excluded.
-- Matching uses room type, not a specific RoomDescriptor.
-- Each counted room resolves only on first entry.
-- Both success and failure advance the instruction index by 1.
-- Stat rewards and penalties persist across floors within the same run.
-- On REPENTOGON, hidden-room ordering has extra handling to avoid obviously impossible sequences.
+- On each new floor, special rooms present on the floor are shuffled into an ordered type list.
+- Normal rooms and several unsuitable room types are excluded.
+- Matching uses room type; any room of the required type completes that step.
+- Each counted room resolves only on first entry; success or failure advances to the next instruction.
+- Stat rewards and penalties last for the rest of the run and are not cleared on new floors.
+- Some awkwardly placed secret rooms are ordered so the route stays reasonably completable.
 - Greed Mode has additional ordering rules for some special room types.
 
 ### Reward and punishment tables
@@ -83,7 +82,7 @@ Its sprite is redrawn from Spun-set collectibles such as {{Collectible:13}}; the
 | Damage | +0.5 |
 | Tears | +0.35 |
 | Shot Speed | +0.15 |
-| Range | +1 (internal +40 TearRange) |
+| Range | +1 |
 | Speed | +0.15 |
 | Luck | +1 |
 | Size | ×0.9 |
@@ -103,7 +102,7 @@ Its sprite is redrawn from Spun-set collectibles such as {{Collectible:13}}; the
 | Damage | −0.2 |
 | Tears | −0.2 |
 | Shot Speed | −0.1 |
-| Range | −0.5 (internal −20 TearRange) |
+| Range | −0.5 |
 | Speed | −0.1 |
 | Luck | −0.5 |
 | Size | ×1.12 |

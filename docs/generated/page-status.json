@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T13:16:30Z",
+  "generatedAt": "2026-08-30T15:29:17Z",
   "pages": [
     {
       "slug": "darkness",
@@ -615,80 +615,80 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/delicate-flower.md",
       "en": "wiki/docs/en/items/delicate-flower.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "tech-14",
       "kind": "collectible",
       "zh": "wiki/docs/items/tech-14.md",
       "en": "wiki/docs/en/items/tech-14.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "seekers-eye",
       "kind": "collectible",
       "zh": "wiki/docs/items/seekers-eye.md",
       "en": "wiki/docs/en/items/seekers-eye.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "day-dreamer",
       "kind": "collectible",
       "zh": "wiki/docs/items/day-dreamer.md",
       "en": "wiki/docs/en/items/day-dreamer.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "disequilibrium",
       "kind": "collectible",
       "zh": "wiki/docs/items/disequilibrium.md",
       "en": "wiki/docs/en/items/disequilibrium.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "deconstruction",
       "kind": "collectible",
       "zh": "wiki/docs/items/deconstruction.md",
       "en": "wiki/docs/en/items/deconstruction.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "philosophers-stone",
       "kind": "collectible",
       "zh": "wiki/docs/items/philosophers-stone.md",
       "en": "wiki/docs/en/items/philosophers-stone.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "brilliant",
       "kind": "collectible",
       "zh": "wiki/docs/items/brilliant.md",
       "en": "wiki/docs/en/items/brilliant.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "fraternity",
       "kind": "collectible",
       "zh": "wiki/docs/items/fraternity.md",
       "en": "wiki/docs/en/items/fraternity.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "ending-count",
       "kind": "collectible",
       "zh": "wiki/docs/items/ending-count.md",
       "en": "wiki/docs/en/items/ending-count.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "cheaters-blessing",
@@ -703,80 +703,80 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/dimension-contact.md",
       "en": "wiki/docs/en/items/dimension-contact.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "world-arc",
       "kind": "collectible",
       "zh": "wiki/docs/items/world-arc.md",
       "en": "wiki/docs/en/items/world-arc.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "final-prism",
       "kind": "collectible",
       "zh": "wiki/docs/items/final-prism.md",
       "en": "wiki/docs/en/items/final-prism.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "book-of-rune",
       "kind": "collectible",
       "zh": "wiki/docs/items/book-of-rune.md",
       "en": "wiki/docs/en/items/book-of-rune.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "evil-intervention",
       "kind": "collectible",
       "zh": "wiki/docs/items/evil-intervention.md",
       "en": "wiki/docs/en/items/evil-intervention.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "how-to-fly",
       "kind": "collectible",
       "zh": "wiki/docs/items/how-to-fly.md",
       "en": "wiki/docs/en/items/how-to-fly.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "illumination",
       "kind": "collectible",
       "zh": "wiki/docs/items/illumination.md",
       "en": "wiki/docs/en/items/illumination.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "contemplation",
       "kind": "collectible",
       "zh": "wiki/docs/items/contemplation.md",
       "en": "wiki/docs/en/items/contemplation.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "chasm",
       "kind": "collectible",
       "zh": "wiki/docs/items/chasm.md",
       "en": "wiki/docs/en/items/chasm.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "book-of-6-sin",
       "kind": "collectible",
       "zh": "wiki/docs/items/book-of-6-sin.md",
       "en": "wiki/docs/en/items/book-of-6-sin.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "unknown",
+      "enStatus": "unknown"
     },
     {
       "slug": "pathetique",
@@ -791,32 +791,32 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/dark-mysticism.md",
       "en": "wiki/docs/en/items/dark-mysticism.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "fresh-death",
       "kind": "collectible",
       "zh": "wiki/docs/items/fresh-death.md",
       "en": "wiki/docs/en/items/fresh-death.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "the-suture-needle",
       "kind": "collectible",
       "zh": "wiki/docs/items/the-suture-needle.md",
       "en": "wiki/docs/en/items/the-suture-needle.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "glaze-mirror",
       "kind": "collectible",
       "zh": "wiki/docs/items/glaze-mirror.md",
       "en": "wiki/docs/en/items/glaze-mirror.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "mental-disorder",
@@ -831,72 +831,72 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/paranoia.md",
       "en": "wiki/docs/en/items/paranoia.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "cursed-mask",
       "kind": "collectible",
       "zh": "wiki/docs/items/cursed-mask.md",
       "en": "wiki/docs/en/items/cursed-mask.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "ritual-sting",
       "kind": "collectible",
       "zh": "wiki/docs/items/ritual-sting.md",
       "en": "wiki/docs/en/items/ritual-sting.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "nihilistic-artificial-eye",
       "kind": "collectible",
       "zh": "wiki/docs/items/nihilistic-artificial-eye.md",
       "en": "wiki/docs/en/items/nihilistic-artificial-eye.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "phantom-crown",
       "kind": "collectible",
       "zh": "wiki/docs/items/phantom-crown.md",
       "en": "wiki/docs/en/items/phantom-crown.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "blood-wing",
       "kind": "collectible",
       "zh": "wiki/docs/items/blood-wing.md",
       "en": "wiki/docs/en/items/blood-wing.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "subera-light",
       "kind": "collectible",
       "zh": "wiki/docs/items/subera-light.md",
       "en": "wiki/docs/en/items/subera-light.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "d-plus",
       "kind": "collectible",
       "zh": "wiki/docs/items/d-plus.md",
       "en": "wiki/docs/en/items/d-plus.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "shangrila",
       "kind": "collectible",
       "zh": "wiki/docs/items/shangrila.md",
       "en": "wiki/docs/en/items/shangrila.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "destiny-anchor",
@@ -911,104 +911,104 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/acrotomophilia.md",
       "en": "wiki/docs/en/items/acrotomophilia.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "loneliness",
       "kind": "collectible",
       "zh": "wiki/docs/items/loneliness.md",
       "en": "wiki/docs/en/items/loneliness.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "core-brooch",
       "kind": "collectible",
       "zh": "wiki/docs/items/core-brooch.md",
       "en": "wiki/docs/en/items/core-brooch.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "fantastic-inspiration",
       "kind": "collectible",
       "zh": "wiki/docs/items/fantastic-inspiration.md",
       "en": "wiki/docs/en/items/fantastic-inspiration.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "hunger-burger",
       "kind": "collectible",
       "zh": "wiki/docs/items/hunger-burger.md",
       "en": "wiki/docs/en/items/hunger-burger.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "muscae-volitantes",
       "kind": "collectible",
       "zh": "wiki/docs/items/muscae-volitantes.md",
       "en": "wiki/docs/en/items/muscae-volitantes.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "charons-sign",
       "kind": "collectible",
       "zh": "wiki/docs/items/charons-sign.md",
       "en": "wiki/docs/en/items/charons-sign.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "baby-tecro",
       "kind": "collectible",
       "zh": "wiki/docs/items/baby-tecro.md",
       "en": "wiki/docs/en/items/baby-tecro.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "baby-anna",
       "kind": "collectible",
       "zh": "wiki/docs/items/baby-anna.md",
       "en": "wiki/docs/en/items/baby-anna.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "baby-zeis",
       "kind": "collectible",
       "zh": "wiki/docs/items/baby-zeis.md",
       "en": "wiki/docs/en/items/baby-zeis.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "baby-marri",
       "kind": "collectible",
       "zh": "wiki/docs/items/baby-marri.md",
       "en": "wiki/docs/en/items/baby-marri.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "baby-autio",
       "kind": "collectible",
       "zh": "wiki/docs/items/baby-autio.md",
       "en": "wiki/docs/en/items/baby-autio.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "baby-lu",
       "kind": "collectible",
       "zh": "wiki/docs/items/baby-lu.md",
       "en": "wiki/docs/en/items/baby-lu.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "multiknife",

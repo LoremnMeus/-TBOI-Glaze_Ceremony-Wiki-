@@ -39,8 +39,8 @@ While held, it totals **extra copies** across your inventory (the first copy of 
 <details>
 <summary>Technical details</summary>
 
-- Duplicate count: `auxi.get_player_s_item_count` (sum of `GetCollectibleNum - 1` per item, quest excluded).
-- Per duplicate point: +0.05 Speed, +0.15 Tears, +0.5 Damage, +40 internal Range (displayed as +1), +1 Luck (via `EvaluateCache`).
-- {{Item:memory}} lists Hypermnesia in `ignorers`; replacement callbacks skip it.
+- Duplicate count: from the second copy of each item onward, quest items excluded; co-op sums all players.
+- Per duplicate point: +0.05 Speed, +0.15 Tears, +0.5 Damage, +1 Range, +1 Luck.
+- {{Item:memory}} will not replace Hypermnesia.
 
 </details>

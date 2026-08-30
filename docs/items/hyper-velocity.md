@@ -52,6 +52,6 @@ status: reviewed
 <summary>技术细节</summary>
 
 - 充能：3。
-- 敌伤：`250 + 5 * player.Damage`；角色：`TakeDamage(5)`；相撞：`BombExplosionEffects(..., 1000)` 并 `ShakeScreen(60)`。
+- 对敌人：`250 + 5 × 攻击`；对角色：5 点伤害；两车相撞：交汇处 1000 伤害爆炸并剧烈震动。
 
 </details>

@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Destiny_Anchor
 status: featured
 ---
-<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 下层后在其他房间复现 房型不匹配时，仅复现锚点周围区域 再次使用可收回当前房间的锚点 Anchors the current room on use, up to 3 per floor Reappears elsewhere on the next floor If room shape differs, only the area around the anchor returns Use again in an anchored room to retrieve its anchor</p>
+<p class="wiki-search-index" v-pre>命运锚点 Destiny Anchor Destiny_Anchor destiny-anchor Destiny Anchor 过去仍在前方等待 The past still waits ahead 使用时锚定当前房间，每层最多3个 进入下一层时，锚定内容会优先映射到普通房间 无法完整复现时，仅保留部分锚定内容 再次使用可取消当前房间的锚定 Anchors the current room on use, up to 3 per floor On the next floor, anchored content prefers mapping into normal rooms If it cannot fully reproduce, only part of the anchored content returns Use again in an anchored room to cancel that anchor</p>
 
 <PublicEntry slug="destiny-anchor" lang="en" />
 
@@ -34,7 +34,7 @@ A normal 1×1 room is effectively captured across its playable area. In large or
 
 ### How reproduction works next floor
 
-On the next floor, each anchor searches for a suitable unexplored room. If its shape and doors are compatible, the original room is reproduced as completely as possible. If no shape matches, a normal-sized room carries only the area saved around the anchor.
+On the next floor, each anchor prefers a suitable **normal room**. If its shape and doors are compatible, the original room is reproduced as completely as possible. If no shape matches, a normal-sized room carries only the area saved around the anchor.
 
 ## Boss rooms
 
@@ -90,6 +90,5 @@ Forget Me Now regenerates the current floor, while Destiny Anchor carries part o
 - Path repair preserves the original layout where possible and removes or softens blocking cells instead of cancelling reproduction.
 - A boss source never selects a Boss Room as its destination.
 - Greed Mode, the Ascent sequence and some late special floors are disabled.
-- This mechanic requires REPENTOGON.
 
 </details>

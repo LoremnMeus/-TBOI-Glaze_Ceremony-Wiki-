@@ -4,14 +4,16 @@ description: "献给永恒之金"
 slug: brilliant
 kind: collectible
 internalKey: Brilliant
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>辉煌 Brilliant Brilliant brilliant Brilliant 献给永恒之金 To the gold of eternity +3金心 商品价格下降金心总数 此道具价格不高于角色的硬币数量 +3 Golden Heart The number of golden hearts due to a decrease in commodity prices</p>
+<p class="wiki-search-index" v-pre>辉煌 Brilliant Brilliant brilliant Brilliant 献给永恒之金 To the gold of eternity +3金心 每颗金心使硬币商品价格-1 辉煌自身在商店中的价格不会超过当前持有的硬币 +3 Golden Heart Each Golden Heart reduces coin prices by 1 Brilliant&#x27;s shop price never exceeds your current coins</p>
 
 <PublicEntry slug="brilliant" lang="zh" />
 
-## 机制说明
+## 效果
 
-<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
+- 获得 3 颗金心。
+- 每拥有 1 颗金心，商店中的硬币价格降低 1 枚硬币。
+- 购买辉煌本身时，它的价格不会高于角色当前拥有的硬币数。
 
-待撰写。
+金心越多，折扣越大；价格最低可以降至免费。

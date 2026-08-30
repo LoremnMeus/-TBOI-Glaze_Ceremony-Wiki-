@@ -61,8 +61,8 @@ Under Belial, each **gain** of a heart-type resource also grants half a black he
 <summary>Technical details</summary>
 
 - Charge 5; quality 2.
-- Vision stacks are room-scoped module state and clear on new room.
-- Listens to the basic resource counter callback; short filter blocks recursive self-writes.
-- Belial black hearts only on heart-type changes with `count > 0`.
+- Vision stacks can stack and clear when you leave the room.
+- Extra resource changes caused by this item do not retrigger itself.
+- Belial black hearts only on heart-type gains, not on losses.
 
 </details>

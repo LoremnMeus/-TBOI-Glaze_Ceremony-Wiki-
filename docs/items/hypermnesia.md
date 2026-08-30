@@ -39,8 +39,8 @@ status: reviewed
 <details>
 <summary>技术细节</summary>
 
-- 重复计数：`auxi.get_player_s_item_count`（各道具 `GetCollectibleNum - 1` 之和，排除任务道具）。
-- 每点重复份数：+0.05 移速、+0.15 射速、+0.5 攻击、+40 内部射程（显示为 +1）、+1 幸运（经 `EvaluateCache` 应用）。
-- {{Item:memory}} 的 `ignorers` 包含超忆症 ID，替换回调不会覆盖其生成结果。
+- 重复计数：各道具从第二份起计入，排除任务道具；多人时按所有玩家合计。
+- 每点重复份数：+0.05 移速、+0.15 射速、+0.5 攻击、+1 射程、+1 幸运。
+- {{Item:memory}} 不会把超忆症替换掉。
 
 </details>
