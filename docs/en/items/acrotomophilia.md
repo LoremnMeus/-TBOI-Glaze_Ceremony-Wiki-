@@ -33,3 +33,8 @@ Losing two containers typically leaves broken hearts as the scar.
 
 If you hold both broken and rotten hearts, they cancel pair by pair and adjust red health.
 **That auto-settle alone will not kill you**; if it would, a minimum of life remains.
+
+## Trivia
+
+- Rainbow item.
+- Art borrows Eden's Blessing rose; rainbow-flower imagery contrasts the pathological name (designer-confirmed).

@@ -36,3 +36,7 @@ status: reviewed
 ## 相关道具
 
 {{Item:spectralsword}} 修改持有者自身；妖刻·白隙则把同样的「切割」用于房间中的对象。
+
+## 轶事
+
+- 效果设计参考 Terrorbane 的神剑改属性思路；卡图并非直接挪用。

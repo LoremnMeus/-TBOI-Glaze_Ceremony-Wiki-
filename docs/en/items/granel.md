@@ -46,3 +46,7 @@ The pedestal cycles Skiel → Wisel → Granel; **you receive whichever form is 
 ## Synergies
 
 For each other Factor you hold, this item's charge rate increases by 15% (115% with two, 130% with all three).
+
+## Trivia
+
+- Together with Skiel and Wisel, points to Yu-Gi-Oh! Meklord Emperors (the three machine emperors).

@@ -46,3 +46,7 @@ Steer this run toward the Age you want; formation/shift cues appear when one Age
 | Technology | Pick tech-leaning items, spend active charge, grab batteries, use slot machines |
 | Faith | Enter Angel/Devil rooms and take items there, pay devil prices, sacrifice, take Key Pieces |
 | Ruin | Clear rooms, change floors, or fight bosses while scarce (low HP, few coins/keys/bombs, few items) |
+
+## Trivia
+
+- Named after Yu-Gi-Oh! Regenesis; this item passes the run's century as legacy into the next run (not a literal end-of-opponent-turn recover).

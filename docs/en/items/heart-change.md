@@ -32,3 +32,7 @@ After both wings break, entering the next floor spawns 1 Angel pool item and 1 D
 - Each wing can break only once before the pair is restored; revisiting the same room type does not produce another heart.
 - If only one wing is broken, entering a new floor neither restores the wings nor spawns items. Both must be broken first.
 - Losing this item's flight does not remove flight granted by another source.
+
+## Trivia
+
+- Named after the Yu-Gi-Oh! card of the same name; name only.

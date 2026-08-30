@@ -17,31 +17,13 @@ status: reviewed
 
 ## Effects
 
-**Chasm drops a hanger in Secret Rooms leading into a separate Chasm pocket area.**
+**Chasm drops a hanger in related Secret Rooms leading into a separate Chasm extra area.**
 
-### What the Chasm is
+While held, a hanger appears in {{SecretRoom}} Secret Rooms (and the greed-mode counterpart). Touch it to be lifted into a custom Chasm room—not a normal red room or an extension of the secret room. It shows its own area name and applies darkness.
 
-A custom standalone room layout—not a normal red room or an extension of the secret room. It shows its own area name, applies darkness, and removes ordinary doors.
+Inside are extra rewards and a self-contained layout. Leave only via the return hanger; it sends you back to a safe spot.
 
-### How to enter
+## Notes
 
-While held, a hanger appears in {{SecretRoom}} Secret Rooms (and the greed-mode counterpart). Touch it to be lifted and sent into the Chasm.
-
-### Inside
-
-Extra rewards and a self-contained layout. Darkness-style visuals apply and exits are stripped—leave only via the return hanger.
-
-### Can you return?
-
-Yes. The hanger inside sends you back to a safe spot. After leaving, that Chasm visit is cleaned up and is not treated as a normal adjacent room you casually re-enter.
-
-### Spawn rules (short)
-
-- Secret rooms spawn the entrance hanger while you hold the item.
-- Multiple Chasm layouts can roll.
-- Odd doors toward the Chasm are removed so it is not a normal hallway.
-
-## Tips
-
-- Check Secret Rooms for the hanger—it is a real reward layer.
-- Finish other secret-room pickups before diving if you may not sweep the same way after return.
+- The Chasm does not leave ordinary doors you can walk back through.
+- While you still hold the item, you can re-enter through the Secret Room hanger.

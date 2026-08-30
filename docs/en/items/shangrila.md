@@ -19,11 +19,7 @@ status: reviewed
 
 **While you keep firing, Shangrila periodically calls random aerial support that cannot hurt you.**
 
-### Rhythm
-
-- Needs **held fire** for a bit—not one airstrike per tear
-- Checks about once per second; each call has a short aim window (~2s)
-- Stopping fire breaks the cadence until you shoot again
+Needs **held fire** for a bit—not one airstrike per tear. Stopping fire breaks the cadence until you shoot again.
 
 ### Support types
 
@@ -42,3 +38,15 @@ Extra copies add more salvo rounds inside a single support call.
 ### {{Seija}}
 
 Trapdoors to the next floor can spawn on strike paths and interrupt fights.
+
+## Trivia
+
+- Named after Yu-Gi-Oh! Kashtira (怒刹帝利) and Shangri-La Cocoon (香格里拉茧).
+- The cocoon was designed as a floating celestial body, so the item was placed in the Planetarium pool.
+
+<details>
+<summary>Technical details</summary>
+
+Call cadence checks about once per second; each aim / wind-up window is roughly two seconds.
+
+</details>

@@ -22,3 +22,7 @@ status: reviewed
 - {{Heart}} **+1** Heart Container
 - With any other {{Guppy}} item: +1 {{SoulHeart}} and 1 random card or rune
 - Once per Cup Cat; rewards still pay out if Cup Cat is picked first and the Guppy condition is met later
+
+## Trivia
+
+- Art taken directly from Yu-Gi-Oh! Cupcat (黯蜜); mechanics were redesigned.

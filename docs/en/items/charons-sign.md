@@ -44,3 +44,7 @@ Spreads much faster, but stops eating pickups and shields them—more clear-help
 ## Tips
 
 Route high-value rooms early; when the tide nears, prioritize treasure/shop pickups first.
+
+## Trivia
+
+- Inspired by Eastward's Black Tide and the train Charon; the item does include an approaching black-tide mechanic.

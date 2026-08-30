@@ -10,7 +10,6 @@ status: reviewed
 
 <PublicEntry slug="cursed-mask" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
@@ -26,12 +25,12 @@ status: reviewed
 ## Synergies
 
 ### {{Collectible:260}}
-Keep the damage, **stop the spin**—a strong upgrade.
+Keep the damage, **stop the spin**.
 
 ### {{Seija}}
 
 Grants tears instead, and the spin tries to lock onto enemies.
 
-## Tips
+## Trivia
 
-Without Black Candle, save critical shots for after the spin has clearly slowed; the first ~15 seconds are the fastest.
+- Inspired by the Peglin relic Cursed Mask, with the same core design.

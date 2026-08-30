@@ -42,3 +42,7 @@ Special wisps when runes spawn successfully.
 ### {{Seija}}
 
 Spawned runes are very likely rune shards.
+
+## Trivia
+
+- Inspired by Yu-Gi-Oh! Runick / Fountain of the Runick: recycle spells then draw; this book records at most 3 rune uses per room.

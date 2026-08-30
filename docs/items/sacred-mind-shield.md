@@ -10,7 +10,6 @@ status: reviewed
 
 <PublicEntry slug="sacred-mind-shield" lang="zh" />
 
-
 ## 机制说明
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
@@ -31,13 +30,6 @@ status: reviewed
 
 房间内敌人达到 **5** 个及以上时，冲击波无视护甲，并向本层其他房间传播。
 
-## 注意
+## 轶事
 
-成长跨房间永久保留，不是单房临时加成。
-
-<details>
-<summary>技术细节</summary>
-
-冲击波伤害为 `10 × Damage + 40`。
-
-</details>
+- 名称来自游戏王同名卡；保留「先防护、再反击」的思路。

@@ -29,6 +29,10 @@ Opening the pause menu forces an immediate reroll. In Greed Mode, only same-type
 - The lock cannot be held forever; past full charge, keeping Drop pressed no longer freezes cards.
 - Empty slots stay empty—only already-held cards are replaced.
 
+## Trivia
+
+- Inspired by Yugi's clutch draw moments in Yu-Gi-Oh!; the art references "A Card of Fate" (命运的一枚).
+
 <details>
 <summary>Detailed rules</summary>
 

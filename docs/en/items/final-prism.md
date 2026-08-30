@@ -26,6 +26,10 @@ On use it keeps **6** rainbow beams firing. Continuous fire makes beams converge
 - Keep the prism on target; preheat needs continuous fire, so toggling on and off is weaker.
 - Let charge recover before starting another preheat cycle.
 
+## Trivia
+
+- Name, visuals, and attack pattern reference Terraria's Final Prism.
+
 <details>
 <summary>Technical details</summary>
 
@@ -34,14 +38,3 @@ On use it keeps **6** rainbow beams firing. Continuous fire makes beams converge
 - Pressing again while active spends about **10** charge and adds **+3** beams.
 
 </details>
-
-## Synergies
-
-### {{Collectible:34}}
-Brimstone-styled beams.
-
-### {{Collectible:584}}
-Wisps that fire lasers with you.
-
-### {{Collectible:356}}
-Affects the extra-beam press.

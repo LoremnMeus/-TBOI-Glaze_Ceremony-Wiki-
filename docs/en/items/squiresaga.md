@@ -36,3 +36,7 @@ Editable targets broadly include:
 ## Related
 
 {{Item:spectralsword}} modifies its holder; Squiresaga applies the same idea of “cutting” to objects in the room.
+
+## Trivia
+
+- Effect design takes after Terrorbane's godsword-style stat editing; the art is not a direct lift.

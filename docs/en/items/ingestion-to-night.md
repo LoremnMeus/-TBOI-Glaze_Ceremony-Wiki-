@@ -16,31 +16,23 @@ status: drafted
 
 ## Effects
 
-**Ingestion to Night can plunge rooms into true darkness — and that darkness is your weapon. Hold fire and night gathers from the screen edges, slowly revealing fang-like shapes; release and the night swallows you. After a brief blackout you open your eyes to a room already mauled by night, with enemy shots gone.**
+**Ingestion to Night grants flight and turns darkness into a weapon: some newly entered rooms go truly dark; hold fire to charge, release to ingest—devastating room enemies and eating their projectiles.**
 
-Grants flight. About **25%** of first-visited rooms become Pitch Black.
+Grants flight. About **25%** of first-visited rooms fall into darkness until you leave.
 
-## Ingestion
+### Ingestion
 
-- Charge in **any** combat-capable room — Pitch Black is not required.
-- Release from ~**90** frames; full at **180**.
-- Faster charge (~×1.5) in Pitch Black.
+Hold fire to charge, release to fire. Darkness is not required. A full charge takes a few seconds; the earliest release is about half of full. Charging is faster in dark rooms (~×1.5).
 
-## Night Swallow
+On release, Isaac is briefly swallowed by night; damage and projectile clear resolve before control returns.
 
-Noise curtains push inward; soft black fangs grow from the edges and only become obvious near full charge. On release they turn toward you once, close in, blackout briefly, then resolve the night assault.
+### Damage
 
-## Damage
-
-- Normal enemies take scaling damage; weak leftovers are often finished.
-- Bosses take capped %-HP plus damage scaling — not a delete button.
+- Normal enemies take more damage the longer you charged; weak leftovers are often executed.
+- Bosses take scaled damage plus capped %-HP—not a delete button.
 - Enemy projectiles are removed on resolve (not reflected).
 
-## Darkness
+### Sun / Reverse Sun
 
-Natural Pitch Black is a room penalty. The noise/fang overlay is skill VFX and works in lit rooms too.
-
-## Sun / Reverse Sun
-
-- **Sun**: clears natural night and stops this item from spawning more Pitch Black this floor; ingestion still works.
-- **Reverse Sun**: new combat rooms enter Pitch Black and charge at dark-room speed; full charge slightly boosts boss %-HP. You still hold to charge.
+- **Sun**: clears the current natural darkness and stops this item from randomly darkening more rooms this floor; ingestion still works.
+- **Reverse Sun**: first visits this floor always go dark and charge at dark-room speed; full charge slightly boosts boss %-HP. You still hold to charge.

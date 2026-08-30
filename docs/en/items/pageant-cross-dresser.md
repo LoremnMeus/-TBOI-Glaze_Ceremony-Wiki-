@@ -21,8 +21,3 @@ Pageant Cross-dresser sharply raises Luck and dresses the player in an exaggerat
 * Each extra copy grants another +2 Luck and **5** more random costumes.
 
 Random costumes are cosmetic only; they do not grant the abilities of those collectibles.
-
-## Notes
-
-* The Luck bonus is a fixed value and does not depend on how many costumes you are actually wearing.
-* Effects that rebuild player items or appearance, such as D4 or D100, may reshuffle the random costumes, but they do not change the fixed Luck already gained.

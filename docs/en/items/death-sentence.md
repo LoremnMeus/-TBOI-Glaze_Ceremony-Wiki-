@@ -34,3 +34,7 @@ Always hold an extra **6**; for Devil-pool items, 6 can wildcard any character.
 ### {{Collectible:584}}
 
 A letter wisp; if it dies while you still hold this item, regain that letter.
+
+## Trivia
+
+- Inspired by Bakura's Ouija board spelling FINAL / DEATH letters in Yu-Gi-Oh!.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T18:07:51Z",
+  "generatedAt": "2026-08-30T19:30:40Z",
   "pages": [
     {
       "slug": "darkness",
@@ -687,8 +687,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/ending-count.md",
       "en": "wiki/docs/en/items/ending-count.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "cheaters-blessing",

@@ -52,3 +52,9 @@ Dreams quality **0** items instead.
 ## Tips
 
 Dream in the starting room before exploring; leaving clears this floor's attempt.
+
+## Trivia
+
+- Day Dreamer is one of this mod's **rainbow** items.
+- Its sprite is a recolor of vanilla **Depression**, keeping that item's cloud shape.
+- Clouds and daydreams share a visual link: dream or fantasy scenes are often shown floating in clouds, and this item's look follows that image.

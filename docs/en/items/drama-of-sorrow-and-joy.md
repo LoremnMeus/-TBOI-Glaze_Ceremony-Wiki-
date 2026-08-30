@@ -36,3 +36,7 @@ A foe marked with both masks enters Tragicomedy. On death it triggers an empower
 
 - Marks must be applied before death for the exit effect to fire.
 - Both masks on one target are required for Tragicomedy.
+
+## Trivia
+
+- Inspired by Yu-Gi-Oh! "Abyss Playhouse — Fantastic Theater" (死狱乡); name/imagery only, not a remake.

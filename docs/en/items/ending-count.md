@@ -10,6 +10,10 @@ status: reviewed
 
 <PublicEntry slug="ending-count" lang="en" />
 
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
 On use, a random active item appears above Isaac and begins a 30-second countdown. When time runs out, Isaac automatically activates that item once without placing it in the active slot.
@@ -22,4 +26,12 @@ Several countdowns can coexist. If two are about to finish within a few seconds 
 
 ## Synergies
 
-- Car Battery makes the corresponding countdown effect activate one additional time.
+- {{Collectible:356}} Car Battery makes the corresponding countdown effect activate one additional time.
+
+## Tips
+
+If a countdown has not resolved yet, exiting the run and Continue clears unsettled hovering active effects.
+
+## Trivia
+
+The name references *Countdown to the End* (终末的倒计时); the gameplay is mostly unrelated.

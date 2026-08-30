@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Paranoia makes half of your pickups feel like the die is still on the pedestal.**
+**After pickup, there is a half chance the pedestal remains in place.**
 
 When you pick an item, there is a **50%** chance you gain it normally while the pedestal stays. Shop items still require full payment.
 
@@ -32,3 +32,8 @@ Actives handle your previous active drop so the swap does not soft-lock.
 ## Notes
 
 If Paranoia itself is in a shop, its price will not be lower than your current coin count (shown dynamically).
+
+## Trivia
+
+- Rainbow item.
+- Art borrows the D6; the Desc "There is a dice" matches that gag.

@@ -19,12 +19,7 @@ status: reviewed
 
 **Contemplation sometimes diverts an unexplored door transit into a brief Death Certificate glimpse.**
 
-### Example flow
-
-1. You take a door into an **unexplored** room.
-2. Each copy rolls **4%**.
-3. On success you briefly visit a random room on the Death Certificate dimension.
-4. After about **1–3** seconds you continue into the original destination.
+When taking a door into an **unexplored** room, each copy has a **4%** chance to briefly send Isaac into a random Death Certificate room, then after about **1–3** seconds continue to the original destination.
 
 ## Notes
 
@@ -34,4 +29,4 @@ status: reviewed
 
 ## Tips
 
-When the screen blacks out or you are moved to a strange room, glance for loot, then wait for the handoff back to your path.
+The glimpse is short (about 1–3 seconds). Prepare before you enter; once it triggers, grab the nearest easy pedestal—do not expect time to tour the whole room.

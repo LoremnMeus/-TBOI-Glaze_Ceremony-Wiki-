@@ -24,3 +24,7 @@ status: reviewed
 - Angel-related entities there drop to about **10%** HP
 - Each successful pollution grants {{Damage}} **+1** Damage for the rest of the run
 - Extra copies each add one more pollution use
+
+## Trivia
+
+- Inspired by Yu-Gi-Oh! Abyss Actor — Super Producer / Abyss Beast Magnum; light/dark resources are abstracted into polluting Angel Rooms.

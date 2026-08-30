@@ -35,3 +35,7 @@ status: reviewed
 ### Seija
 
 With no enemies found, little hungers slowly hurt themselves and may bite nearby players.
+
+## Trivia
+
+- Named after Yu-Gi-Oh! Hungry Burger; Hungry Burger later appears as a terminal dish in later Hungry Burger material, hence the Desc about a showstopping course.

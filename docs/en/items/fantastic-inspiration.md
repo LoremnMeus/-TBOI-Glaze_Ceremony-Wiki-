@@ -17,21 +17,9 @@ status: reviewed
 
 ## Effects
 
-**Inspiration leaves reward illusions after clears that you cannot claim immediately. Only when absolute hearts are down to the last heart do they become real rewards.**
+**Inspiration leaves reward illusions after clears that cannot be claimed immediately. Only when absolute hearts are down to the last heart do they become real rewards.**
 
-### When illusions spawn
-
-About **60%** chance after clearing a room.
-
-### Why they look stronger when low
-
-Lower absolute health makes illusions brighter and more solid. At high health they stay teasing ghosts; at the last heart they look like real pickups.
-
-### How to claim
-
-Only when absolute hearts are **≤ 1** does a touch solidify them. Higher health pushes you away.
-
-### What they can become
+About **60%** chance after clearing a room. Lower absolute health makes illusions brighter and more solid; only at absolute hearts **≤ 1** does a touch solidify them—higher health pushes Isaac away.
 
 Illusions may become soul hearts, double red hearts, nickels, charged keys, double bombs, random items, grab bags, dimes, or rarer rewards like gold hearts, eternal hearts, gold keys, and gold bombs.
 
@@ -50,6 +38,7 @@ Illusions may become soul hearts, double red hearts, nickels, charged keys, doub
 
 </details>
 
-## Tips
+## Trivia
 
-Clear first and scout illusions; only drop to the last heart if the reward is worth the risk.
+- Points to *Vernet: Shape of Fantasy* (凡尔纳：幻想之形).
+- The protagonist rediscovers inspiration in extremity; this item links inspiration to phantoms that only become real at ≤1 absolute heart.

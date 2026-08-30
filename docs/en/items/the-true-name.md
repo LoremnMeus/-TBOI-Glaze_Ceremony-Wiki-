@@ -41,3 +41,7 @@ Reveal from the Devil Room pool instead.
 ### {{Collectible:584}}
 
 On a correct guess, spawn a wisp of that item.
+
+## Trivia
+
+- Inspired by the Yu-Gi-Oh! card of the same name: guess correctly for a reward; harder to cheat the answer in Isaac.

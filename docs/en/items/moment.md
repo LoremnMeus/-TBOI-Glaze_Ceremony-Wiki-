@@ -38,3 +38,7 @@ Above **300** total energy, the Morning Star Device begins venting stored energy
 ### {{Seija}}
 
 Under Seija, the Morning Star Device cannot vent energy. Bonuses can keep accumulating, but Zero Reversal will no longer end through natural venting once triggered.
+
+## Trivia
+
+- Name and Zero Reversal nod to Yu-Gi-Oh! 5D's MOMENT / Zero Reverse.

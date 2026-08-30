@@ -42,3 +42,8 @@ Some special forms and mod-only characters are skipped. Rolls use ordinary chara
 ## Tips
 
 After it triggers, a second character joins permanently—do not plan around a reusable revive. Get used to both characters sharing movement and fire.
+
+## Trivia
+
+- Inspired by FAR: Lone Sails and Changing Tides; the endings meet here.
+- Kept emotionally restrained: confluence, not a melodrama essay.

@@ -49,3 +49,7 @@ Taking damage lowers the current active's cap by 2, to a minimum of 2. Charge ab
 ### {{Collectible:706}}
 
 The corresponding locust has a low chance to create 1 energy orb when it hits an enemy, with a 15-second cooldown.
+
+## Trivia
+
+- Inspired by Yu-Gi-Oh! Thunder Dragons / "Thunder Spirit" (雷精); the design revolves around electricity and the number 2 (cap compressed to 2, fail +2, hurt −2).

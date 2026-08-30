@@ -21,7 +21,6 @@ status: reviewed
 
 On damage, there is a **50%** chance to fully negate the hit and:
 
-- play a dark counter effect;
 - fire one special black tear in each cardinal direction;
 - deal about `5 × Damage` per tear;
 - show strong dark / fear visuals.
@@ -32,6 +31,7 @@ On damage, there is a **50%** chance to fully negate the hit and:
 
 On a successful negate, Isaac is also feared for about **3** seconds.
 
-## Tips
+## Trivia
 
-Strong when you expect contact damage; remember half of hits still apply normally.
+- The name comes from the Yu-Gi-Oh! card Dark Mysticism (暗黑神秘学).
+- The defense mainly references Dark Sanctuary (暗黑圣域)—a chance to block and counter.

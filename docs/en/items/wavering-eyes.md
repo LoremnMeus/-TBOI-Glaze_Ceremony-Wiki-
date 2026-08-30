@@ -59,18 +59,6 @@ A single whiff usually will not instantly wipe Focus; long miss streaks fill Def
 - Focus builds from hits, not empty fire; high-volume or spread shots that miss make high Focus harder to hold.
 - Soft pull at tier **5** and homing at **8** help steer sway back onto targets—they do not replace aiming.
 
-## Visual feedback
+## Trivia
 
-Tear color and player flicker show Focus and Defocus; the cues grow clearer as you near the Defocus cap. They only reflect current state—no hidden numbers beyond the table above.
-
-<details>
-<summary>Technical details</summary>
-
-- Each normally fired player tear gets one Focus / Defocus resolution; one tear only counts once.
-- Sway: per-player phase; each shot `phase += 35°`, offset `sin(phase) × amplitude`; `amplitude = min(25, floor(Focus/2) × 3)`.
-- Tears up: `0.5 × sqrt(floor(Focus / 3))`.
-- 5 Focus: nearest foe within 90, velocity direction lerp ~4% per frame; 8+ uses real homing.
-- 8 / 13 / 21 add homing, hook worm, and rubber tear flags.
-- Focus: tear tint deepens; 5+ purple bias; 8 / 13 / 21 stronger trail / saturation. Defocus: light jitter, darker tears, flicker near cap; brief white flash and quiet fail sound on reset (no popup).
-
-</details>
+- Named after the Yu-Gi-Oh! card "Wavering Eyes"; name only—the mechanics are not a remake of that card.

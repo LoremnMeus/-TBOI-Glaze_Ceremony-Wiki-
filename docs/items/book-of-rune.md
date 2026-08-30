@@ -42,3 +42,7 @@ status: reviewed
 ### {{Seija}}
 
 生成的符文极大概率变成符文碎片。
+
+## 轶事
+
+- 灵感来自游戏王「神碑」/ Fountain of the Runick：回收魔法后再抽牌；本书单房最多记录 3 次符文使用。

@@ -65,7 +65,7 @@ When absorbed by Abyss, it becomes a colorful locust.
 
 ## Trivia
 
-Memory is built around the cognitive theme of returning to experiences already lived: later collectible rolls keep coming back to choices the run already owns.
+- Rainbow item.
 
 <details>
 <summary>Technical details</summary>

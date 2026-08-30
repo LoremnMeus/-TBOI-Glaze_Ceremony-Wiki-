@@ -38,3 +38,7 @@ Taking damage loses Tzolkin and blocks that hit; linked temporary items leave wi
 
 - Temporary pedestals use a distinct look.
 - After loss, the next collectible drawn from the item pool is forced to be Tzolkin.
+
+## Trivia
+
+- Inspired by Yu-Gi-Oh! Red Dragon; takes the idea of a new Red Dragon Synchro level enabling another Dragon Synchro.

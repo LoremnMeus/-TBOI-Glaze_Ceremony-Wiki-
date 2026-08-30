@@ -50,3 +50,7 @@ Spawns a wisp that fires golden tears.
 
 - In multi-item rooms, position first.
 - Empties are scarce—do not force ugly sequences.
+
+## Trivia
+
+- Inspired by Potion Craft's philosopher's stone and its transmutation gameplay.

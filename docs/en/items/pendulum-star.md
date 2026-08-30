@@ -35,6 +35,10 @@ At the next **lowest point** of the swing, stored tears are fired again from the
 - Shooting across the scale between the stars fills memory more reliably than aiming at a single star.
 - For a burst, bank several crossings first, then take the echo volley at the next bottom.
 
+## Trivia
+
+- Themed after Yu-Gi-Oh! Pendulum Summon.
+
 <details>
 <summary>Technical details</summary>
 

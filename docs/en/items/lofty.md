@@ -44,3 +44,7 @@ Under Seija, shield uses recover once per floor instead of once per room.
 ### {{Collectible:706}}
 
 The corresponding locust releases a small shockwave dealing **50% of character damage** when it hits an enemy.
+
+## Trivia
+
+- Inspired by Revolver's Mirror Force in Yu-Gi-Oh! VRAINS; the item Desc also hints at it.

@@ -21,7 +21,7 @@ status: reviewed
 
 On use, pick a color and sacrifice a held collectible to charge it. The primary color gains full weight; adjacent colors can gain partial charge. Champions also feed matching colors. Clearing a room drains all six colors by **3%**.
 
-Each color starts near **10%**. Key thresholds: **0%**, **below 50%**, **above 90%**, **above 150%**, **above 250%** (not every color has every tier).
+Each color starts near **100%**. Key thresholds: **0%**, **below 50%**, **above 90%**, **above 150%**, **above 250%** (not every color has every tier).
 
 ## Color thresholds
 
@@ -84,6 +84,6 @@ Each color starts near **10%**. Key thresholds: **0%**, **below 50%**, **above 9
 | >150% | 33% chance to block hits |
 | >250% | Much higher champion rate |
 
-## Tips
+## Trivia
 
-Low bands are punishment zones—push a primary color past 90% before chasing 150% / 250%. Room-clear drain is constant pressure; do not park colors in danger bands forever.
+Originally a Tecrorun character mechanic; later removed as unclear and unfun, then reworked into the standalone Ritual Sting.

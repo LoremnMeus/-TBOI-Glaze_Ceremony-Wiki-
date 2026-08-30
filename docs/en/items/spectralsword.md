@@ -42,3 +42,7 @@ A separate page offers discrete trades (coins ↔ bombs/keys, coins → half sou
 ## Versus Squiresaga
 
 Spectral Sword edits **you**; {{QingCollectible:Squiresaga}} edits **the world**.
+
+## Trivia
+
+- Inspired by Dicey Dungeons' UI-based stat editing—not a full remake.

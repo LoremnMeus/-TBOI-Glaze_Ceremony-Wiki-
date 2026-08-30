@@ -42,3 +42,7 @@ status: reviewed
 ## 与妖刻·白隙
 
 妖刀·逢魔修改角色自身；{{QingCollectible:Squiresaga}} 妖刻·白隙则把同样的「切割」指向世界中的对象。
+
+## 轶事
+
+- 灵感来自 Dicey Dungeons 的 UI 属性编辑，并非完整复刻。

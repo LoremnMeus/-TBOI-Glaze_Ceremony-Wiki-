@@ -46,10 +46,6 @@ The streak persists across rooms and floors for the entire run until a win. As i
 
 After 8 misses the cap has been reached; further misses do not increase the chance.
 
-::: tip Numbers may still change
-These rates and reward weights are the **current defaults** and may still be tuned; do not treat them as a permanent contract.
-:::
-
 ## Rewards
 
 After a win, the reward is selected with the following probabilities:
@@ -83,7 +79,7 @@ These are final probabilities for the current use, not cumulative run-wide odds 
 
 #### {{Collectible:34}}
 
-Each draw costs 2 coins. Win chance is unchanged; after a win, two candidate rewards are rolled and only the one with the higher predefined tier is spawned. This is “pick the better of two,” not two rewards.
+Each draw costs 2 coins. Win chance is unchanged; after a win, two candidate rewards are rolled and only the higher predefined tier is spawned—better reward quality, not an easier win, and not two rewards.
 
 #### {{Collectible:584}}
 
@@ -92,12 +88,6 @@ A miss creates a golden wisp, up to 3; a new one replaces the oldest. A wisp or 
 #### {{Collectible:356}}
 
 The extra activation does not perform a second draw or spend another coin.
-
-## Tips
-
-- **Keep coins available at a high streak.** Near 40%, preserving enough money for more than one attempt is often more flexible if further coins remain available.
-- **Reassess after a win.** The next draw immediately returns to 10%, unlike a draw backed by several misses.
-- **Book of Belial improves reward quality, not win chance.** Its higher price only changes reward selection after a win.
 
 ## Details and edge cases
 

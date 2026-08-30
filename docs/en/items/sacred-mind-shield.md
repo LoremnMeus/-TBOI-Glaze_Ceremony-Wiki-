@@ -10,7 +10,6 @@ status: reviewed
 
 <PublicEntry slug="sacred-mind-shield" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
@@ -31,13 +30,6 @@ Enemies directly killed by the wave grant permanent growth: slight {{Damage}} up
 
 If the room has **5** or more enemies, the wave ignores armor and spreads to other rooms on this floor.
 
-## Notes
+## Trivia
 
-Growth persists across rooms; it is not a temporary room buff.
-
-<details>
-<summary>Technical details</summary>
-
-Shockwave damage is `10 × Damage + 40`.
-
-</details>
+- Named after the Yu-Gi-Oh! card of the same name; keeps the protect-then-counter idea.

@@ -25,22 +25,17 @@ Passive: explosion immunity.
 
 The other six pay out the first time each is defeated in the run (or immediately if already beaten when you pick this up).
 
-| Sin | Reward | Kind |
-| --- | --- | --- |
-| Envy | Permanent piercing + spectral tears | Permanent |
-| Greed | 3 random cards | One-shot |
-| Pride | Choice of 3 random items | One-shot |
-| Lust | 1 Joker card | One-shot |
-| Sloth | Shop prices −1 for the run (can reach free) | Permanent |
-| Gluttony | 2 Cracked Keys | One-shot |
-| Wrath | **No kill reward** (cover = blast immunity) | — |
+| Sin | Reward |
+| --- | --- |
+| Envy | **Run-long**: piercing + spectral tears (persists across rooms and floors) |
+| Greed | 3 random cards |
+| Pride | Choice of 3 random items |
+| Lust | 1 Joker card |
+| Sloth | **Run-long**: shop prices −1 (can reach free; applies to later shops) |
+| Gluttony | 2 Cracked Keys |
+| Wrath | **No kill reward** (cover = blast immunity) |
 
 ## Synergies
 
 ### {{Collectible:34}}
 Pride's choice rolls from the Devil pool.
-
-## Tips
-
-- Treat explosive rooms as already-purchased protection—do not expect a Wrath payout.
-- Sloth stacks into shop planning; Envy is a long-term tear quality spike.

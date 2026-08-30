@@ -43,3 +43,7 @@ Wisps drift down from above.
 ## Tips
 
 Pre-hop before spikes or ledges. Do not assume “holding the book = wings.”
+
+## Trivia
+
+- Inspired by Flappy Bird.

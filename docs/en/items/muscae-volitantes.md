@@ -17,9 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Muscae Volitantes is a simple three-tier lottery: usually a few rainbow flies, sometimes a trinket, rarely an item.**
-
-On use, colorful flies gather for about **40** frames, then:
+**Muscae Volitantes summons a swarm of colorful flies and randomly leaves rainbow flies, a trinket, or an item.**
 
 | Chance | Result |
 | ---: | --- |
@@ -36,3 +34,8 @@ Fly rewards become War Locusts; gathering flies can also damage enemies on their
 ### {{Collectible:584}}
 
 Fly rewards become a rainbow wisp.
+
+## Trivia
+
+- Classified as a rainbow item.
+- The sprite is a recolor of {{Collectible:434}} Jar of Flies.

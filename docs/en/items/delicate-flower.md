@@ -52,3 +52,7 @@ Shop and secret-room Keepers switch to the matching reward row by room type.
 
 - Only enemy damage removes flowers.
 - Extra copies increase how many flowers you can keep and refill each floor.
+
+## Trivia
+
+- Inspired by Hollow Knight's Delicate Flower quest: fragile, and other NPCs can receive it.

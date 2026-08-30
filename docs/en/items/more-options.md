@@ -33,7 +33,3 @@ Prices also rise by about **1%–35%** at random (at least +1). The item does no
 ### {{Seija}}
 
 For positive (coin) prices, the bump becomes “add twice the original price,” so totals land at about **triple**. Special heart-cost prices still use the normal rewrite rules.
-
-## Tips
-
-Either/or raises the chance to get the item you want, but prices also rise; the bump is an option fee—whether it is worth it depends on other ways to get goods on the floor.
