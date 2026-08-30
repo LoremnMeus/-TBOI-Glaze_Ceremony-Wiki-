@@ -41,8 +41,8 @@ Trapdoors to the next floor can spawn on strike paths and interrupt fights.
 
 ## Trivia
 
-- Named after Yu-Gi-Oh! Kashtira (怒刹帝利) and Shangri-La Cocoon (香格里拉茧).
-- The cocoon was designed as a floating celestial body, so the item was placed in the Planetarium pool.
+- Shangrila points to Yu-Gi-Oh! Kashtira (怒刹帝利 / 六世坏), including Kashtira Shangri-La.
+- Shangri-La appears as a huge floating celestial body, so this item was placed in the Planetarium pool.
 
 <details>
 <summary>Technical details</summary>

@@ -52,4 +52,5 @@ The corresponding locust has a low chance to create 1 energy orb when it hits an
 
 ## Trivia
 
-- Inspired by Yu-Gi-Oh! Thunder Dragons / "Thunder Spirit" (雷精); the design revolves around electricity and the number 2 (cap compressed to 2, fail +2, hurt −2).
+- Cable Jar points to Yu-Gi-Oh! Spright (雷精).
+- Spright plays heavily around Level / Rank / Link-2 and the number **2**, so this item also ties electricity to the number 2.

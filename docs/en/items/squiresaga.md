@@ -39,4 +39,4 @@ Editable targets broadly include:
 
 ## Trivia
 
-- Effect design takes after Terrorbane's godsword-style stat editing; the art is not a direct lift.
+- Effect inspiration comes from a godsword in *Terrorbane* that can cut things open.

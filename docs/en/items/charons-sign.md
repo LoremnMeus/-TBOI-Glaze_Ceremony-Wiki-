@@ -47,4 +47,6 @@ Route high-value rooms early; when the tide nears, prioritize treasure/shop pick
 
 ## Trivia
 
-- Inspired by Eastward's Black Tide and the train Charon; the item does include an approaching black-tide mechanic.
+- Charon's Sign points to *Eastward*.
+- The protagonists travel east while fleeing the Black Tide that consumes the world along their path; their important train is named Charon.
+- This item's approaching black tide comes from that setting.

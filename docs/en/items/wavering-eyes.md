@@ -61,4 +61,4 @@ A single whiff usually will not instantly wipe Focus; long miss streaks fill Def
 
 ## Trivia
 
-- Named after the Yu-Gi-Oh! card "Wavering Eyes"; name only—the mechanics are not a remake of that card.
+- Named after the Yu-Gi-Oh! card "Wavering Eyes"; this item borrows the card name only.

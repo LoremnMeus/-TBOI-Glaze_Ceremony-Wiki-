@@ -45,4 +45,5 @@ Spawned runes are very likely rune shards.
 
 ## Trivia
 
-- Inspired by Yu-Gi-Oh! Runick / Fountain of the Runick: recycle spells then draw; this book records at most 3 rune uses per room.
+- Book of Rune points to Yu-Gi-Oh! Runick, especially the Field Spell Fountain of the Runick.
+- Fountain of the Runick returns Runick Quick-Play Spells from the GY to the Deck and draws for each returned; this item's recovery loop takes inspiration from that.

@@ -39,4 +39,4 @@ status: reviewed
 
 ## 轶事
 
-- 效果设计参考 Terrorbane 的神剑改属性思路；卡图并非直接挪用。
+- 效果灵感来自 *Terrorbane* 中一把能够斩开事物的神剑。

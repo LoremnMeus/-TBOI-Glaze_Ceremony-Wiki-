@@ -41,4 +41,5 @@ Taking damage loses Tzolkin and blocks that hit; linked temporary items leave wi
 
 ## Trivia
 
-- Inspired by Yu-Gi-Oh! Red Dragon; takes the idea of a new Red Dragon Synchro level enabling another Dragon Synchro.
+- Points to Yu-Gi-Oh! Red Dragon.
+- The newer Red Dragon can use a high-Level Synchro as a reference to Special Summon another Dragon Synchro of the same Level; this item borrows that “trade an existing Synchro Level for another big dragon” idea.

@@ -27,4 +27,5 @@ status: reviewed
 
 ## Trivia
 
-- Inspired by Yu-Gi-Oh! Abyss Actor — Super Producer / Abyss Beast Magnum; light/dark resources are abstracted into polluting Angel Rooms.
+- Design points to Yu-Gi-Oh! Bystial Magnamhut (深渊之兽 玛格巨龙).
+- The card uses LIGHT / DARK monsters in the GY as resources; this item abstracts that into eroding and polluting Angel Rooms.

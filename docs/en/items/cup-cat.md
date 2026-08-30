@@ -25,4 +25,4 @@ status: reviewed
 
 ## Trivia
 
-- Art taken directly from Yu-Gi-Oh! Cupcat (黯蜜); mechanics were redesigned.
+- Art is taken from Cupcat in Yu-Gi-Oh! Patissciel (黯蜜); the in-mod effect uses an independent design.

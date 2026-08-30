@@ -44,4 +44,5 @@ On a correct guess, spawn a wisp of that item.
 
 ## Trivia
 
-- Inspired by the Yu-Gi-Oh! card of the same name: guess correctly for a reward; harder to cheat the answer in Isaac.
+- Points to the Yu-Gi-Oh! card of the same name, "The True Name".
+- Both the card and this item reward correctly guessing designated content; in Isaac it is harder to pre-arrange the answer the way a card game can.

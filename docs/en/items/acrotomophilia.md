@@ -36,5 +36,5 @@ If you hold both broken and rotten hearts, they cancel pair by pair and adjust r
 
 ## Trivia
 
-- Rainbow item.
-- Art borrows Eden's Blessing rose; rainbow-flower imagery contrasts the pathological name (designer-confirmed).
+- Acrotomophilia is a rainbow item; its art is based on the rose from Eden's Blessing.
+- The bright rainbow flower was chosen to contrast with the condition the name points to.

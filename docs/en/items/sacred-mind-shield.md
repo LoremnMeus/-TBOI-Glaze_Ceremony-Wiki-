@@ -32,4 +32,4 @@ If the room has **5** or more enemies, the wave ignores armor and spreads to oth
 
 ## Trivia
 
-- Named after the Yu-Gi-Oh! card of the same name; keeps the protect-then-counter idea.
+- Points to the Yu-Gi-Oh! card of the same name (神圣心之防护罩－心灵之力); this item likewise centers on blocking damage and counterattacking.

@@ -37,4 +37,4 @@ A letter wisp; if it dies while you still hold this item, regain that letter.
 
 ## Trivia
 
-- Inspired by Bakura's Ouija board spelling FINAL / DEATH letters in Yu-Gi-Oh!.
+- Points to Bakura's Ouija Board system in Yu-Gi-Oh!. That deck also requires gathering letters in order to spell **FINAL / DEATH** for a special win.

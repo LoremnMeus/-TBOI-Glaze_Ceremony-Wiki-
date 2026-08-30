@@ -39,4 +39,4 @@ A foe marked with both masks enters Tragicomedy. On death it triggers an empower
 
 ## Trivia
 
-- Inspired by Yu-Gi-Oh! "Abyss Playhouse — Fantastic Theater" (死狱乡); name/imagery only, not a remake.
+- Named after Yu-Gi-Oh! Abyss Playhouse (死狱乡).

@@ -45,4 +45,4 @@ Spectral Sword edits **you**; {{QingCollectible:Squiresaga}} edits **the world**
 
 ## Trivia
 
-- Inspired by Dicey Dungeons' UI-based stat editing—not a full remake.
+- The final design was inspired by *Dicey Dungeons*, especially editing character stats in its own UI.
