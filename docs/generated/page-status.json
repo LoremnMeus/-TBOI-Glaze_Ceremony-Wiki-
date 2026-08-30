@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T07:29:37Z",
+  "generatedAt": "2026-08-30T11:54:24Z",
   "pages": [
     {
       "slug": "darkness",
@@ -407,80 +407,80 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/skiel.md",
       "en": "wiki/docs/en/items/skiel.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "wisel",
       "kind": "collectible",
       "zh": "wiki/docs/items/wisel.md",
       "en": "wiki/docs/en/items/wisel.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "granel",
       "kind": "collectible",
       "zh": "wiki/docs/items/granel.md",
       "en": "wiki/docs/en/items/granel.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "spectralsword",
       "kind": "collectible",
       "zh": "wiki/docs/items/spectralsword.md",
       "en": "wiki/docs/en/items/spectralsword.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "squiresaga",
       "kind": "collectible",
       "zh": "wiki/docs/items/squiresaga.md",
       "en": "wiki/docs/en/items/squiresaga.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "moment",
       "kind": "collectible",
       "zh": "wiki/docs/items/moment.md",
       "en": "wiki/docs/en/items/moment.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "lofty",
       "kind": "collectible",
       "zh": "wiki/docs/items/lofty.md",
       "en": "wiki/docs/en/items/lofty.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "theseuss-sign",
       "kind": "collectible",
       "zh": "wiki/docs/items/theseuss-sign.md",
       "en": "wiki/docs/en/items/theseuss-sign.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "heart-change",
       "kind": "collectible",
       "zh": "wiki/docs/items/heart-change.md",
       "en": "wiki/docs/en/items/heart-change.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "cable-jar",
       "kind": "collectible",
       "zh": "wiki/docs/items/cable-jar.md",
       "en": "wiki/docs/en/items/cable-jar.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "gospel",
@@ -495,64 +495,64 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/tiramisu.md",
       "en": "wiki/docs/en/items/tiramisu.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "live-broadcast",
       "kind": "collectible",
       "zh": "wiki/docs/items/live-broadcast.md",
       "en": "wiki/docs/en/items/live-broadcast.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "drama-of-sorrow-and-joy",
       "kind": "collectible",
       "zh": "wiki/docs/items/drama-of-sorrow-and-joy.md",
       "en": "wiki/docs/en/items/drama-of-sorrow-and-joy.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "tzolkin",
       "kind": "collectible",
       "zh": "wiki/docs/items/tzolkin.md",
       "en": "wiki/docs/en/items/tzolkin.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "pareidolia",
       "kind": "collectible",
       "zh": "wiki/docs/items/pareidolia.md",
       "en": "wiki/docs/en/items/pareidolia.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "reversal-film",
       "kind": "collectible",
       "zh": "wiki/docs/items/reversal-film.md",
       "en": "wiki/docs/en/items/reversal-film.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "tears-of-pearl",
       "kind": "collectible",
       "zh": "wiki/docs/items/tears-of-pearl.md",
       "en": "wiki/docs/en/items/tears-of-pearl.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "d-nan",
       "kind": "collectible",
       "zh": "wiki/docs/items/d-nan.md",
       "en": "wiki/docs/en/items/d-nan.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "risemara",

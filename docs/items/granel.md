@@ -4,9 +4,9 @@ description: "你的未来由我惩戒"
 slug: granel
 kind: collectible
 internalKey: Granel
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>泯灭因子 Granel Granel granel Granel 你的未来由我惩戒 Your future is trailed in vanishment 长按蓄力，点按加快蓄力，否则缓缓减少蓄力值 蓄力完成后向四角喷射火焰 作为底座道具出现时，在2秒后转化为痛苦因子。 Long press to accumulate power,press repeatedly to accelerate power accumulation Fire flames in four directions when charged</p>
+<p class="wiki-search-index" v-pre>泯灭因子 Granel Granel granel Granel 你的未来由我惩戒 Your future shall be judged by me 持续攻击蓄力，反复点按可加快蓄力 停止攻击后蓄力逐渐流失 蓄满后向四周连续喷射大量火焰 Hold fire to charge; repeated taps charge faster Charge gradually decays while not firing At full charge, unleash waves of flames in four directions</p>
 
 <PublicEntry slug="granel" lang="zh" />
 
@@ -14,4 +14,43 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+**持续攻击为泯灭因子蓄力，快速点按还能进一步加快速度；蓄满后，会连续向四周喷射大量火焰。**
+
+它拥有三因子中最长的蓄力时间，但完整发动后的攻击持续时间也最长。
+
+## 如何使用
+
+- 持续攻击即可缓慢积累蓄力。
+- 反复点按攻击可以更快积累。
+- 停止攻击后，蓄力会逐渐下降。
+- 满蓄后自动发动。
+
+## 火焰
+
+完整发动会连续产生多轮四向火焰。
+
+火焰：
+
+- 每一轮发射都会带有一定偏移；
+- 因此最终形成覆盖较广的交叉火网；
+- 不同火焰存在细微随机差异；
+- 部分火焰会追踪敌人；
+- 单个火焰伤害不高，但完整攻击包含大量火焰。
+
+## 三因子
+
+痛苦因子、绝望因子与泯灭因子属于同一组道具。
+
+当它们作为可拾取道具生成时，底座会在三种因子之间轮换；**拾取时显示的是哪一种，就获得哪一种。**
+
+```text
+痛苦因子 → 绝望因子 → 泯灭因子 → …
+```
+
+拾取以后，获得的道具不会继续自行变化。
+
+## 特殊联动
+
+每多持有一种其他因子，本道具的蓄力速度提高 15%（持有两种为 115%，三种齐全为 130%）。

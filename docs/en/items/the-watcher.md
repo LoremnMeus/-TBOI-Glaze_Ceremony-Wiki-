@@ -6,7 +6,7 @@ kind: collectible
 internalKey: The_Watcher
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>监视 The Watcher The_Watcher the-watcher The Watcher 观察者 observer watcher 老大哥在看着你 Big Brother is watching 移速不会低于1.5 低速时展开逐渐扩大的监视域，锁定自身与附近敌人 锁定完成后爆炸，伤害为 攻击力 ×4 +20 地上的监视也会锁定附近目标并开火 Move speed cannot fall below 1.5 Moving slowly expands a watch zone that locks onto you and nearby enemies Full locks explode for Damage ×4 +20 While on the ground, The Watcher also locks onto nearby targets and fires</p>
+<p class="wiki-search-index" v-pre>监视 The Watcher The_Watcher the-watcher The Watcher 观察者 observer watcher 老大哥在看着你 Big Brother is watching 移速不会低于1.5 低速时展开逐渐扩大的监视域，锁定自身与附近敌人 锁定完成后爆炸，伤害为 攻击力 ×4 +20 地上的监视也会锁定附近目标并开火 Speed Move speed cannot fall below 1.5 Moving slowly expands a watch zone that locks onto you and nearby enemies Full locks explode for Damage ×4 +20 While on the ground, The Watcher also locks onto nearby targets and fires</p>
 
 <PublicEntry slug="the-watcher" lang="en" />
 

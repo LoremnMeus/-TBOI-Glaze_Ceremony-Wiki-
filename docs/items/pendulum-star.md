@@ -1,12 +1,12 @@
 ---
-title: 回荡之星
+title: 灵摆之星
 description: "刻度设置完毕"
 slug: pendulum-star
 kind: collectible
 internalKey: Pendulum_Star
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>回荡之星 Pendulum Star Pendulum_Star pendulum-star Pendulum Star 刻度设置完毕 Scale set 生成一对摆动的灵摆星 穿过两星之间的泪弹会被记录 灵摆摆至最低点时，从另一侧再次召唤这些泪弹 Spawns a pair of swinging pendulum stars Tears that cross between them are recorded At the next bottom of the swing, those tears are resummoned from the opposite star</p>
+<p class="wiki-search-index" v-pre>灵摆之星 Pendulum Star Pendulum_Star pendulum-star Pendulum Star 刻度设置完毕 Scale set 生成一对摆动的灵摆星 穿过两星之间的泪弹会被记录 灵摆摆至最低点时，从另一侧再次召唤这些泪弹 Spawns a pair of swinging pendulum stars Tears that cross between them are recorded At the next bottom of the swing, those tears are resummoned from the opposite star</p>
 
 <PublicEntry slug="pendulum-star" lang="zh" />
 

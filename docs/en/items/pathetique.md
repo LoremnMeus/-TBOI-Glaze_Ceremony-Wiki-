@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Pathetique
 status: featured
 ---
-<p class="wiki-search-index" v-pre>悲悯 Pathetique Pathetique pathetique Pathetique 它们被迫为我而死 They die for me 受到敌人伤害时，失去一个被动道具并抵消伤害 每个因此失去的道具使射速+0.5 优先失去低品质道具 失去悲悯时，返还所有因此失去的道具 Taking enemy damage removes a passive item and negates the hit +0.5 tears for each item lost this way Prioritizes low-quality items Losing Pathetique returns all items lost this way</p>
+<p class="wiki-search-index" v-pre>悲悯 Pathetique Pathetique pathetique Pathetique 它们被迫为我而死 They die for me 受到敌人伤害时，失去一个被动道具并抵消伤害 射速 每个因此失去的道具使射速+0.5 优先失去低品质道具 失去悲悯时，返还所有因此失去的道具 Taking enemy damage removes a passive item and negates the hit Tears +0.5 tears for each item lost this way Prioritizes low-quality items Losing Pathetique returns all items lost this way</p>
 
 <PublicEntry slug="pathetique" lang="en" />
 

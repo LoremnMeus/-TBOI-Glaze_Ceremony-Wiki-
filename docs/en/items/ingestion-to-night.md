@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Ingestion_to_Night
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>夜之摄取 Ingestion to Night Ingestion_to_Night ingestion-to-night Ingestion to Night 长夜生牙 The night has teeth 33%概率使黑暗笼罩房间 蓄力潜入黑暗，发动斩击并反击弹幕 ↑ 在黑暗中30%概率免疫攻击 ↑ 飞行 +1攻击 33% chance for rooms to become pitch black Charge in darkness to unleash slashes and counter projectiles ↑ 30% chance to ignore damage in darkness ↑ Flight +1 damage</p>
+<p class="wiki-search-index" v-pre>夜之摄取 Ingestion to Night Ingestion_to_Night ingestion-to-night Ingestion to Night 长夜生牙 The night has teeth ↑ 飞行 按住攻击呼唤夜色，松开后发动摄取 夜将你吞下，并重创敌人、吞噬敌弹 新房间有概率陷入黑暗 黑暗房间中摄取更快 ↑ Flight Hold fire to call the night, then release to ingest Night swallows you, then devastates enemies and eats projectiles New rooms may become pitch black Charging is faster in darkness</p>
 
 <PublicEntry slug="ingestion-to-night" lang="en" />
 
@@ -16,37 +16,31 @@ status: drafted
 
 ## Effects
 
-**Ingestion to Night lets you dive into a room's darkness, charge there, and release what you took in.**
+**Ingestion to Night can plunge rooms into true darkness — and that darkness is your weapon. Hold fire and night gathers from the screen edges, slowly revealing fang-like shapes; release and the night swallows you. After a brief blackout you open your eyes to a room already mauled by night, with enemy shots gone.**
 
-While held, gain flight and **+1** damage. About **33%** of new rooms become pitch black; picking up the item also blacks out the current room.
+Grants flight. About **25%** of first-visited rooms become Pitch Black.
 
-Hold fire in darkness to build Ingestion:
+## Ingestion
 
-| Depth | Roughly |
-| --- | --- |
-| Shallow | Thin edge fog |
-| Mid | Darkness pushes inward |
-| Deep (~130+) | About **30%** chance to ignore enemy damage; tooth-like forms become readable |
-| Extreme (~180+) | Release fire to slash and swallow nearby enemy shots, then spit them back |
+- Charge in **any** combat-capable room — Pitch Black is not required.
+- Release from ~**90** frames; full at **180**.
+- Faster charge (~×1.5) in Pitch Black.
 
-The Sun clears this darkness for the run; Reverse Sun reintroduces and strengthens night. Tarot draws can bias toward those cards.
+## Night Swallow
 
-## Notes
+Noise curtains push inward; soft black fangs grow from the edges and only become obvious near full charge. On release they turn toward you once, close in, blackout briefly, then resolve the night assault.
 
-- Slash waves and projectile counters scale with Ingestion.
-- Edge/tooth visuals are still being tuned; thresholds above are the gameplay source of truth.
+## Damage
 
-## Synergies
+- Normal enemies take scaling damage; weak leftovers are often finished.
+- Bosses take capped %-HP plus damage scaling — not a delete button.
+- Enemy projectiles are removed on resolve (not reflected).
 
-### {{Collectible:706}}
+## Darkness
 
-The matching locust can fear enemies.
+Natural Pitch Black is a room penalty. The noise/fang overlay is skill VFX and works in lit rooms too.
 
-<details>
-<summary>Technical details</summary>
+## Sun / Reverse Sun
 
-- Damage ignore around counter &gt; 130 (~30%).
-- Slash window around counter &gt; 180; waves ≈ `floor((counter-180)/90)+1`.
-- Noise sheets from `codex_work/tools/generate_ingestion_noise.py`.
-
-</details>
+- **Sun**: clears natural night and stops this item from spawning more Pitch Black this floor; ingestion still works.
+- **Reverse Sun**: new combat rooms enter Pitch Black and charge at dark-room speed; full charge slightly boosts boss %-HP. You still hold to charge.

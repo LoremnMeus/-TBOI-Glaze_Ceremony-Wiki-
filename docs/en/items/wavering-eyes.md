@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Wavering_Eyes
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>摇摆之眼 Wavering Eyes Wavering_Eyes wavering-eyes Wavering Eyes 别眨眼，别偏离 Don&#x27;t blink, don&#x27;t miss 连续用眼泪命中敌人会累计凝视 ↓ 凝视越高，眼泪摇摆越明显 每3层凝视提升射速 5层：眼泪轻微吸附敌人 弯勺魔术 8层：追踪眼泪 钩形虫 13层：钩虫眼泪 橡胶胶水 21层：弹性眼泪 !!! 连续失误会清空凝视 Consecutive tear hits build Focus ↓ Higher Focus: tears waver more in a steady sway Every 3 Focus: tears up 5 Focus: tears gently pull toward nearby foes Spoon Bender 8 Focus: homing tears Hook Worm 13 Focus: hook worm tears Rubber Cement 21 Focus: rubber tears !!! Too many misses clear Focus</p>
+<p class="wiki-search-index" v-pre>摇摆之眼 Wavering Eyes Wavering_Eyes wavering-eyes Wavering Eyes 别眨眼，别偏离 Don&#x27;t blink, don&#x27;t miss 连续用眼泪命中敌人会累计凝视 ↓ 凝视越高，眼泪摇摆越明显 射速 每3层凝视提升射速 5层：眼泪轻微吸附敌人 弯勺魔术 8层：追踪眼泪 钩形虫 13层：钩虫眼泪 橡胶胶水 21层：弹性眼泪 !!! 连续失误会清空凝视 Consecutive tear hits build Focus ↓ Higher Focus: tears waver more in a steady sway Tears Every 3 Focus: tears up 5 Focus: tears gently pull toward nearby foes Spoon Bender 8 Focus: homing tears Hook Worm 13 Focus: hook worm tears Rubber Cement 21 Focus: rubber tears !!! Too many misses clear Focus</p>
 
 <PublicEntry slug="wavering-eyes" lang="en" />
 

@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Dragon_Tooth
 status: stub
 ---
-<p class="wiki-search-index" v-pre>深渊龙牙 Dragon Tooth Dragon_Tooth dragon-tooth Dragon Tooth 随我步入深渊 Follow me into the abyss 1.5倍伤害 污染下一个天使房为 恶魔房道具池，触发后+1攻击 x1.5 Damage multiplier Pollution the next angel room into Devil Room item pool, after triggering +1 Damage</p>
+<p class="wiki-search-index" v-pre>深渊龙牙 Dragon Tooth Dragon_Tooth dragon-tooth Dragon Tooth 随我步入深渊 Follow me into the abyss 攻击 1.5倍伤害 污染下一个天使房为 恶魔房道具池，触发后+1攻击 Damage x1.5 Damage multiplier Pollution the next angel room into Devil Room item pool, after triggering +1 Damage</p>
 
 <PublicEntry slug="dragon-tooth" lang="zh" />
 

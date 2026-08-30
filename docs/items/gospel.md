@@ -6,7 +6,7 @@ title: 福音
 description: "神的国度带着主权临到"
 status: featured
 ---
-<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 Dogmatical Judgement 每4次攻击产生 福音攻击 命中使敌人接受福音，并可向附近敌人传播 击杀目标或持续伤害Boss时降下启示 多次启示后发动最终审判 Every 4th attack produces a Gospel attack Hits make enemies receive the Gospel, which can spread to nearby foes Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation Repeated Revelations invoke a final Judgement</p>
+<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 Dogmatical Judgement 每4次攻击产生 福音攻击 命中使敌人接受福音，并可向附近敌人传播 击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示 本房间累计6次启示后发动最终审判 Every 4th attack produces a Gospel attack Hits make enemies receive the Gospel, which can spread to nearby foes Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation After 6 Revelations in the room, invoke final Judgement</p>
 
 <PublicEntry slug="gospel" lang="zh" />
 

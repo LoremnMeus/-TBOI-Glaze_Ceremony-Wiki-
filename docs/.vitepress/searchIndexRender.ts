@@ -57,6 +57,20 @@ function expandEntityMarks(text: string, lang: 'zh' | 'en' | null): string {
     return false
   }
 
+  const semanticStatWords: Record<string, NamePair> = {
+    damage: { zh: '攻击', en: 'Damage' },
+    damagesmall: { zh: '攻击', en: 'Damage' },
+    speed: { zh: '移速', en: 'Speed' },
+    speedsmall: { zh: '移速', en: 'Speed' },
+    tears: { zh: '射速', en: 'Tears' },
+    tearssmall: { zh: '射速', en: 'Tears' },
+    range: { zh: '射程', en: 'Range' },
+    rangesmall: { zh: '射程', en: 'Range' },
+    shotspeed: { zh: '弹速', en: 'Shot Speed' },
+    luck: { zh: '幸运', en: 'Luck' },
+    lucksmall: { zh: '幸运', en: 'Luck' },
+  }
+
   let current = String(text || '')
   current = current.replace(
     /\{\{\s*(Collectible|Trinket|Card|Pill)\s*:?\s*(\d+)\s*\}\}/gi,
@@ -78,6 +92,14 @@ function expandEntityMarks(text: string, lang: 'zh' | 'en' | null): string {
     /\{\{\s*Character\s*:\s*([^}\s]+)\s*\}\}/gi,
     (match, token: string, offset: number, source: string) => {
       const names = markNameIndex[`character:${String(token).toLowerCase()}`]
+      if (alreadyNamed(source.slice(offset + match.length), names)) return ' '
+      return pickName(names, lang) || ' '
+    },
+  )
+  current = current.replace(
+    /\{\{\s*(Damage|Speed|Tears|Range|Shotspeed|Luck|DamageSmall|TearsSmall|SpeedSmall|RangeSmall|LuckSmall)\s*\}\}/gi,
+    (match, key: string, offset: number, source: string) => {
+      const names = semanticStatWords[String(key).toLowerCase()]
       if (alreadyNamed(source.slice(offset + match.length), names)) return ' '
       return pickName(names, lang) || ' '
     },

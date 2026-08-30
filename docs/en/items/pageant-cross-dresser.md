@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Pageant_Cross_dresser
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>盛装男娘 Pageant Cross-dresser Pageant_Cross_dresser pageant-cross-dresser Pageant Cross-dresser 超级豪华究极无敌涩涩！ Ultimate grand sexy +2幸运 随机穿上10件装扮 +2 Luck Wear 10 random costumes</p>
+<p class="wiki-search-index" v-pre>盛装男娘 Pageant Cross-dresser Pageant_Cross_dresser pageant-cross-dresser Pageant Cross-dresser 超级豪华究极无敌涩涩！ Ultimate grand sexy 幸运 +2幸运 随机穿上10件装扮 Luck +2 Luck Wear 10 random costumes</p>
 
 <PublicEntry slug="pageant-cross-dresser" lang="en" />
 

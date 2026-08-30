@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T07:29:37Z",
+  "generatedAt": "2026-08-30T11:54:24Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -397,7 +397,7 @@
         "slug": "pendulum-star",
         "kind": "collectible",
         "names": {
-          "zh": "回荡之星",
+          "zh": "灵摆之星",
           "en": "Pendulum Star"
         }
       }
@@ -2010,7 +2010,7 @@
         "kind": "trinket",
         "names": {
           "zh": "暂停？",
-          "en": "Pause？"
+          "en": "Pause?"
         }
       }
     ],
@@ -6251,8 +6251,8 @@
         "en": "My Drawwww!!!!"
       },
       "eid": {
-        "zh": "持有的卡牌会不断变为同种类的另一张牌#按住{{ButtonDrop}}可以暂时锁定当前牌",
-        "en": "Held cards keep changing into another card of the same type#Hold {{ButtonDrop}} to briefly lock your current cards"
+        "zh": "持有的卡牌会不断变为同种类的另一张牌#按住{{ButtonRT}}可以暂时锁定当前牌#锁定过久会蓄满并再次洗牌，需松开后再锁定",
+        "en": "Held cards keep changing into another card of the same type#Hold {{ButtonRT}} to briefly lock your current cards#Holding too long fills a charge and reshuffles; release before locking again"
       },
       "seijaBuff": {
         "zh": "",
@@ -6521,8 +6521,8 @@
         "en": "The night has teeth"
       },
       "eid": {
-        "zh": "{{CurseDarkness}} 33%概率使黑暗笼罩房间#{{CurseDarkness}} 蓄力潜入黑暗，发动斩击并反击弹幕#↑ 在黑暗中30%概率免疫攻击#↑ 飞行 #{{Damage}} +1攻击",
-        "en": "{{CurseDarkness}} 33% chance for rooms to become pitch black#{{CurseDarkness}} Charge in darkness to unleash slashes and counter projectiles#↑ 30% chance to ignore damage in darkness#↑ Flight#{{Damage}} +1 damage"
+        "zh": "↑ 飞行#按住攻击呼唤夜色，松开后发动摄取#夜将你吞下，并重创敌人、吞噬敌弹#{{Warning}} 新房间有概率陷入黑暗#黑暗房间中摄取更快",
+        "en": "↑ Flight#Hold fire to call the night, then release to ingest#Night swallows you, then devastates enemies and eats projectiles#{{Warning}} New rooms may become pitch black#Charging is faster in darkness"
       },
       "seijaBuff": {
         "zh": "",
@@ -7373,7 +7373,7 @@
       "pickupEnum": null,
       "slotEnum": null,
       "names": {
-        "zh": "回荡之星",
+        "zh": "灵摆之星",
         "en": "Pendulum Star"
       },
       "desc": {
@@ -8235,7 +8235,7 @@
       },
       "eid": {
         "zh": "在房间中不断绘制地缚图线#敌人站在线上会持续受到伤害#站在线上时，根据图线浓度提高{{Damage}}攻击与{{Speed}}移速",
-        "en": "Keeps drawing earthbound lines across the room#Enemies standing on the lines take damage over time#Standing on denser lines raises {{Damage}} and {{Speed}}"
+        "en": "Keeps drawing earthbound lines across the room#Enemies standing on the lines take damage over time#Standing on denser lines raises {{Damage}} Damage and {{Speed}} Speed"
       },
       "seijaBuff": {
         "zh": "",
@@ -8507,11 +8507,11 @@
       },
       "desc": {
         "zh": "你的过去由我笼罩",
-        "en": "Your past is lying in pain"
+        "en": "Your past is shrouded by me"
       },
       "eid": {
-        "zh": "#{{Chargeable}} 长按蓄力，否则清空蓄力值 #蓄力完成后自动向身后发射因子网 #作为底座道具出现时，在2秒后转化为{{Item:Wisel}}。",
-        "en": "{{Chargeable}} Hold down to charge, or the charge value will be reset#Fire factor network when charged"
+        "zh": "{{Chargeable}} 持续攻击进行蓄力#蓄满后展开由泪弹连接而成的因子网#松开攻击会失去当前蓄力",
+        "en": "{{Chargeable}} Keep firing to charge#At full charge, release a linked web of tears#Releasing fire resets the current charge"
       },
       "seijaBuff": {
         "zh": "",
@@ -8642,11 +8642,11 @@
       },
       "desc": {
         "zh": "你的现在由我咒缚",
-        "en": "Your present is immersed in dispair"
+        "en": "Your present is bound by me"
       },
       "eid": {
-        "zh": "#{{Chargeable}} 反复点击以蓄力，否则逐渐减少蓄力值 #蓄力完成后，向前方发射冲击波纹 #作为底座道具出现时，在2秒后转化为{{Item:Granel}}。",
-        "en": "{{Chargeable}} Press repeatedly to accumulate power,otherwise lose power gradually #Fire Shooting Waves when charged"
+        "zh": "{{Chargeable}} 反复点按攻击进行蓄力#停止攻击后蓄力逐渐流失#蓄满后向攻击方向连续释放大型冲击波",
+        "en": "{{Chargeable}} Repeatedly tap fire to charge#Charge gradually decays while not firing#At full charge, release a series of large shockwaves"
       },
       "seijaBuff": {
         "zh": "",
@@ -8777,11 +8777,11 @@
       },
       "desc": {
         "zh": "你的未来由我惩戒",
-        "en": "Your future is trailed in vanishment"
+        "en": "Your future shall be judged by me"
       },
       "eid": {
-        "zh": "#{{Chargeable}} 长按蓄力，点按加快蓄力，否则缓缓减少蓄力值 #蓄力完成后向四角喷射火焰 #作为底座道具出现时，在2秒后转化为{{Item:Skiel}}。",
-        "en": "{{Chargeable}} Long press to accumulate power,press repeatedly to accelerate power accumulation #Fire flames in four directions when charged"
+        "zh": "{{Chargeable}} 持续攻击蓄力，反复点按可加快蓄力#停止攻击后蓄力逐渐流失#蓄满后向四周连续喷射大量火焰",
+        "en": "{{Chargeable}} Hold fire to charge; repeated taps charge faster#Charge gradually decays while not firing#At full charge, unleash waves of flames in four directions"
       },
       "seijaBuff": {
         "zh": "",
@@ -8901,15 +8901,15 @@
         "en": "Out of its sheath"
       },
       "eid": {
-        "zh": "举起妖刀，挥向房间中的道具#在面板中花费1{{Coin}}，随机重铸一个前缀和一个后缀#词缀永久绑定该道具，持有时获得对应效果#面板也可永久改写其名字与描述#支持中文输入法#可重复付费重新随机词缀",
-        "en": "Raise the blade and swing at a room item#In the editor, spend 1{{Coin}} to roll one random prefix and suffix#Affixes permanently bind to that item and grant effects while held#The editor can also permanently rewrite its name and description#Affixes can be reforged repeatedly"
+        "zh": "使用后唤出寄宿于刀中的妖鬼#妖鬼可以重新分配角色的属性，并转换部分基础资源#想得到什么，就必须从自己身上割下别的东西",
+        "en": "Use to call the oni that dwells in the blade#It can redistribute your stats and convert some basic resources#To gain something, you must cut something else from yourself"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "大幅提升重铸词条的费用",
+        "zh": "",
         "en": ""
       },
       "bookOfVirtues": {
@@ -9033,8 +9033,8 @@
         "en": "My blade burns"
       },
       "eid": {
-        "zh": "#斩开事物的间隙 #在间隙中调整它们的属性 #按下 {{ButtonRT}} 结束属性操作 #按下 {{ButtonLB}} 与 {{ButtonRB}} 在项内切换",
-        "en": "#Cut out the crevice of an entity #Adjust their attributes in the crevice(ONLY CHINESE) #Press{{ButtonRT}}to end attribute adjusting#Press{{ButtonLB}}and{{ButtonRB}}switch in attributes"
+        "zh": "使用后挥刀选择附近的对象，斩开它的“间隙”#在间隙中查看并修改该对象支持的属性#可作用于敌人、掉落物、机关与部分地形#不同对象可修改的内容不同",
+        "en": "Use to swing the blade and select a nearby object, cutting open its \"gap\"#Inspect and modify attributes supported by that object#Works on enemies, pickups, mechanisms, and some grid entities#Available attributes depend on the target"
       },
       "seijaBuff": {
         "zh": "",
@@ -9168,8 +9168,8 @@
         "en": "lasrever dlroW"
       },
       "eid": {
-        "zh": "{{ArrowUp}} 回收利用攻击的剩余能量，对敌人造成伤害并转化为属性提升 #提升达到一定值后，会泄露提升的属性防止过载 #!!! 过量的能量吸收导致零点反转",
-        "en": "Recover the remaining energy of all attack methods and convert it into attribute enhancement#!!! Overload will reverse the world for sometime and overturn all attribute enhancement"
+        "zh": "回收攻击留下的残余能量#回收的能量会逐渐转化为随机属性提升#能量过高后开始自动泄露#{{Warning}} 严重过载会触发零点反转，使积累的属性反向生效",
+        "en": "Recover residual energy left by your attacks#Recovered energy gradually becomes random stat bonuses#Excess energy is automatically vented#{{Warning}} Severe overload triggers Zero Reversal, reversing the accumulated bonuses"
       },
       "seijaBuff": {
         "zh": "",
@@ -9303,8 +9303,8 @@
         "en": "Bottomless despair abyss"
       },
       "eid": {
-        "zh": "阻挡每个房间第一次受到的伤害，并出释放冲击波消除弹幕 #在冲击波碰撞的敌人处再次释放冲击波 #{{Chargeable}} 冲击波未被消耗时，可蓄力释放小型冲击波",
-        "en": "Block the first damage to each room and release shock wave#Release shock wave again at the enemies touched by the shock wave #{{Chargeable}} Charge to shoot small shock wave before you take damage"
+        "zh": "每个房间首次受伤时阻挡伤害，并释放扩张的冲击波#冲击波命中敌人后，会从目标处再次扩散#{{Chargeable}} 本房间护盾尚未触发时，持续攻击蓄力可主动释放冲击波",
+        "en": "Block the first hit in each room and release an expanding shockwave#Enemies touched by the wave emit another shockwave#{{Chargeable}} While the room's shield is unused, hold fire to charge and release a shockwave"
       },
       "seijaBuff": {
         "zh": "",
@@ -9435,8 +9435,8 @@
         "en": "Terms under revision"
       },
       "eid": {
-        "zh": "此道具以下效果在触发或下层时逐渐改写",
-        "en": "The following effects rewrite after triggering or entering a new floor"
+        "zh": "持有2条会不断改写的条款#完成条款后执行对应结果，并随机改写其中一部分#进入新一层时也会改写1条条款#当前条款与进度显示在下方",
+        "en": "Hold 2 clauses that are continuously rewritten#Completing a clause performs its result and randomly rewrites part of it#Entering a new floor also rewrites 1 clause#Current clauses and progress are shown below"
       },
       "seijaBuff": {
         "zh": "",
@@ -9564,8 +9564,8 @@
         "en": "Demon in body,angel in mind"
       },
       "eid": {
-        "zh": "↑ 飞行直到翅膀折断 #{{BlackHeart}} 进入天使房折断恶魔翅膀，生成1个黑心 #{{EternalHeart}} 进入恶魔房折断天使翅膀，生成1个白心 #{{Collectible}} 双翅均折断后，下层生成天使、恶魔房道具各一个，然后恢复双翅",
-        "en": "↑ Grants flight when two wing exists #Break Devil's wing when entering angel room #Break Angel's wing when entering devil room #Recover both wings when then are broken and spawn 2 item from angel and devil's item pool after entering a new level"
+        "zh": "{{Flight}} 双翼完整时获得飞行#{{AngelRoom}} 首次进入天使房：折断恶魔翼，生成1个{{BlackHeart}} 黑心#{{DevilRoom}} 首次进入恶魔房：折断天使翼，生成1个{{EternalHeart}} 永恒之心#{{Collectible}} 双翼均折断后，下层生成天使与恶魔道具各1件，并恢复双翼",
+        "en": "{{Flight}} Grants flight while both wings are intact#{{AngelRoom}} First Angel Room visit: break the Devil wing and spawn 1 {{BlackHeart}} Black Heart#{{DevilRoom}} First Devil Room visit: break the Angel wing and spawn 1 {{EternalHeart}} Eternal Heart#{{Collectible}} After both wings break, the next floor spawns 1 Angel and 1 Devil item, then restores both wings"
       },
       "seijaBuff": {
         "zh": "",
@@ -9693,8 +9693,8 @@
         "en": "Slightly leaky"
       },
       "eid": {
-        "zh": "{{Battery}} 将主动充能上限设置为2，溢出的充能以球的形式泄露出来#使用主动时有 当前上限/原上限 概率成功使用#失败：泄露所有充能，上限+2#{{Warning}} 受伤时上限-2",
-        "en": "{{Battery}} Sets the primary active's charge cap to 2; excess charge leaks out as energy orbs#On use: current cap/base cap chance to succeed#Failure: leak all charge; cap +2#{{Warning}} Taking damage reduces the cap by 2"
+        "zh": "{{Battery}} 将主主动槽中有充能主动的上限压缩至2格#溢出的充能会泄露为留在房间中的能量球#使用主动时，按当前上限/原始上限的概率正常发动#失败：泄露所有充能并释放雷暴，上限+2#{{Warning}} 受伤时上限-2，并泄露超出新上限的充能",
+        "en": "{{Battery}} Compresses the charge cap of charged primary actives to 2#Excess charge leaks into energy orbs that remain in the room#On use: current cap/original cap chance to activate normally#Failure: leak all charge in a thunderstorm; cap +2#{{Warning}} Taking damage lowers the cap by 2 and leaks charge above the new cap"
       },
       "seijaBuff": {
         "zh": "",
@@ -9828,8 +9828,8 @@
         "en": "Dogmatical Judgement"
       },
       "eid": {
-        "zh": "每4次攻击产生{{ColorYellow}}福音攻击{{CR}}#命中使敌人接受福音，并可向附近敌人传播#击杀目标或持续伤害Boss时降下启示#多次启示后发动最终审判",
-        "en": "Every 4th attack produces a {{ColorYellow}}Gospel attack{{CR}}#Hits make enemies receive the Gospel, which can spread to nearby foes#Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation#Repeated Revelations invoke a final Judgement"
+        "zh": "每4次攻击产生{{ColorYellow}}福音攻击{{CR}}#命中使敌人接受福音，并可向附近敌人传播#击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示#本房间累计6次启示后发动最终审判",
+        "en": "Every 4th attack produces a {{ColorYellow}}Gospel attack{{CR}}#Hits make enemies receive the Gospel, which can spread to nearby foes#Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation#After 6 Revelations in the room, invoke final Judgement"
       },
       "seijaBuff": {
         "zh": "",
@@ -9971,12 +9971,12 @@
         "en": "Tiramisu"
       },
       "desc": {
-        "zh": "血量上升+道具变得美味",
+        "zh": "血量上升 + 道具变得美味",
         "en": "Health Up + Tastes Tasty"
       },
       "eid": {
-        "zh": "{{EmptyHeart}} +1血上限 #↑ 属性提升时，额外提供40%逐渐减少的属性增幅量",
-        "en": "{{EmptyHeart}} +1 Health up #↑ Stats gaining will bring about a fading bonus stats about 40%"
+        "zh": "{{EmptyHeart}} +1血上限#获得属性提升时，额外获得一部分相同属性#额外属性会逐渐消退#短时间连续获得属性提升时，额外收益逐次降低",
+        "en": "{{EmptyHeart}} +1 Health up#When you gain stats, also gain a portion of the same boost#The bonus stats fade over time#Rapid successive stat gains yield smaller bonuses each time"
       },
       "seijaBuff": {
         "zh": "",
@@ -10110,8 +10110,8 @@
         "en": "Going live!"
       },
       "eid": {
-        "zh": "游戏进入直播模式 #可以实时与弹幕互动 #{{ArrowUp}} 人气值足够会有老板送来礼物，提升属性",
-        "en": "Starts a live broadcast #Viewer comments react to events in real time #{{ArrowUp}} Building popularity attracts sponsors whose gifts grant fading stat boosts"
+        "zh": "开启直播模式，观众会实时评论你的行为#精彩表现提高人气，失误与冷场可能使人气下降#{{ArrowUp}} 人气越高，直播间越活跃#高人气时可能收到赞助礼物，获得临时属性提升",
+        "en": "Starts a live stream; viewers comment on your actions in real time#Strong plays raise popularity; mistakes and downtime can lower it#{{ArrowUp}} Higher popularity makes the chat more active#High popularity may bring sponsor gifts with temporary stat boosts"
       },
       "seijaBuff": {
         "zh": "",
@@ -10245,8 +10245,8 @@
         "en": "Leader To Despia"
       },
       "eid": {
-        "zh": "概率发射交替出现的悲剧与喜剧面具眼泪#悲剧：敌人死亡后，将死亡化作追击敌人的爆炸#喜剧：敌人死亡后，作为友方演员再次登台#同时戴上两张面具的敌人将出演{{ColorPurple}}凶剧{{CR}}#凶剧退场时同时触发强化的悲剧与喜剧",
-        "en": "Chance to fire alternating tragedy and comedy mask tears#Tragedy: slain enemies turn their death into a chasing explosion#Comedy: slain enemies take the stage again as brief friendly actors#Enemies wearing both masks perform {{ColorPurple}}Tragicomedy{{CR}}#Tragicomedy's curtain call triggers empowered tragedy and comedy"
+        "zh": "概率发射交替出现的悲剧与喜剧面具泪#悲剧：标记的敌人死亡后，将死亡化为追击爆炸#喜剧：标记的敌人死亡后，作为短暂友方演员再次登台#同时戴上两种面具的敌人将出演{{ColorPurple}}凶剧{{CR}}#凶剧退场时同时触发强化的悲剧与喜剧",
+        "en": "Chance to fire alternating tragedy and comedy mask tears#Tragedy: marked foes explode into a chasing blast on death#Comedy: marked foes briefly return as friendly actors#Foes wearing both masks perform {{ColorPurple}}Tragicomedy{{CR}}#Tragicomedy's exit triggers empowered tragedy and comedy"
       },
       "seijaBuff": {
         "zh": "",
@@ -10395,8 +10395,8 @@
         "en": "Replay the divine calendar"
       },
       "eid": {
-        "zh": "使用后选择一件持有的被动道具，将其变为临时道具#然后生成同品质的三选一底座，其被拾取后也是临时道具#{{Warning}} 受伤时自动失去此道具并阻止伤害，并将此道具置于道具池顶部。#再次获得后恢复失去的临时道具",
-        "en": "On use, choose a held passive and convert it into a temporary item#Then spawn a same-quality 3-choice set; the picked one is also temporary#{{Warning}} On hit, lose this item, block the damage, and put this item at the top of the item pool#Reclaiming it restores the lost temporary items"
+        "zh": "使用后选择一件持有的被动道具，将其变为临时道具#生成3个接近该品质的道具供选择，拾取的道具同样为临时道具#{{Warning}} 受伤时失去卓尔金神历并抵挡本次伤害#之后再次获得卓尔金神历时，恢复失去的临时道具",
+        "en": "On use, choose a held passive and convert it into a temporary item#Spawn 3 choices near that quality; the one you pick is also temporary#{{Warning}} Taking damage loses Tzolkin and blocks that hit#Reclaiming Tzolkin restores the lost temporary items"
       },
       "seijaBuff": {
         "zh": "",
@@ -10536,8 +10536,8 @@
         "en": "Moonlight Domain"
       },
       "eid": {
-        "zh": "对敌人造成伤害会注视目标并逐渐积累月相#月相会在敌人死亡或切换目标后保留#{{Damage}} 盈满时对注视目标发动一次妖眼共鸣",
-        "en": "Damaging enemies marks a gaze target and builds moon phase#Moon phase is kept when the target dies or changes#{{Damage}} At full moon, unleash a Yokai Eye resonance on the gaze target"
+        "zh": "对敌人造成伤害会开始注视目标，并逐渐积累月相#切换目标或目标死亡不会失去已有月相#{{Damage}} 月相盈满时，对当前注视目标发动妖眼共鸣",
+        "en": "Damaging foes begins a gaze and builds moon phase#Changing targets or killing the target keeps current moon phase#{{Damage}} At full moon, unleash Yokai Eye resonance on the gaze target"
       },
       "seijaBuff": {
         "zh": "",
@@ -10634,8 +10634,8 @@
         "en": "Cast Fate On Me"
       },
       "eid": {
-        "zh": "剧情道具 #将它贴在某个门上 #按剧情拾取：立刻将你传送回到初始房间",
-        "en": "When pasting it on the door to go home, open the room leading to the death certificate floor."
+        "zh": "{{Quest}} 剧情道具#用于特定剧情中的门#按剧情拾取时，会立刻将角色送回初始房间",
+        "en": "{{Quest}} Story item#Used with certain story doors#Picking it up during the story sequence returns you to the starting room"
       },
       "seijaBuff": {
         "zh": "",
@@ -10775,8 +10775,8 @@
         "en": "Nobility Cherisher"
       },
       "eid": {
-        "zh": "概率发射珍珠眼泪 #珍珠眼泪落地后吸收周围的飞弹 #地上的珍珠可以踢动",
-        "en": "Grants a chance to fire pearl tears.#Pearl tears can absorb surrounding projectiles after landing and can be kicked around."
+        "zh": "概率发射珍珠泪#珍珠落地后停留，可被角色踢动#接触敌方弹幕时将其吞下，并反向射回友方泪弹#一颗珍珠只能承受有限次数碰撞",
+        "en": "Chance to fire pearl tears#Pearls linger on the ground and can be kicked#Contact with enemy shots swallows them and fires a friendly tear back#Each pearl only endures a limited number of impacts"
       },
       "seijaBuff": {
         "zh": "",
@@ -10885,8 +10885,8 @@
         "en": "Warning: division by zero"
       },
       "eid": {
-        "zh": "将房间内道具重置成错误道具#将房间内错误道具重置成道具",
-        "en": "Roll the normal items in the room into glitched items.#Roll the glitched items in the room into normal items."
+        "zh": "将房间内的普通道具重置为错误道具#将错误道具重新重置为普通道具",
+        "en": "Rerolls normal collectibles into glitched items#Rerolls glitched items back into normal collectibles"
       },
       "seijaBuff": {
         "zh": "",
@@ -10898,11 +10898,11 @@
       },
       "bookOfVirtues": {
         "zh": "发射随机特效子弹的魂火",
-        "en": "Grants a wisp that fires random special effects bullets."
+        "en": "Grants a wisp that fires tears with random effects"
       },
       "bookOfBelial": {
         "zh": "将房间内错误道具重置成恶魔房道具",
-        "en": "Roll the glitched items in the room into items from devil room."
+        "en": "Rerolls glitched items into Devil Room items"
       },
       "abyssSynic": {
         "zh": "",
@@ -21317,7 +21317,7 @@
       "slotEnum": null,
       "names": {
         "zh": "暂停？",
-        "en": "Pause？"
+        "en": "Pause?"
       },
       "desc": {
         "zh": "即时游戏开始了！",
@@ -30479,7 +30479,7 @@
           "kind": "trinket",
           "names": {
             "zh": "暂停？",
-            "en": "Pause？"
+            "en": "Pause?"
           }
         }
       ],

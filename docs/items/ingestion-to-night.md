@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Ingestion_to_Night
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>夜之摄取 Ingestion to Night Ingestion_to_Night ingestion-to-night Ingestion to Night 长夜生牙 The night has teeth 33%概率使黑暗笼罩房间 蓄力潜入黑暗，发动斩击并反击弹幕 ↑ 在黑暗中30%概率免疫攻击 ↑ 飞行 +1攻击 33% chance for rooms to become pitch black Charge in darkness to unleash slashes and counter projectiles ↑ 30% chance to ignore damage in darkness ↑ Flight +1 damage</p>
+<p class="wiki-search-index" v-pre>夜之摄取 Ingestion to Night Ingestion_to_Night ingestion-to-night Ingestion to Night 长夜生牙 The night has teeth ↑ 飞行 按住攻击呼唤夜色，松开后发动摄取 夜将你吞下，并重创敌人、吞噬敌弹 新房间有概率陷入黑暗 黑暗房间中摄取更快 ↑ Flight Hold fire to call the night, then release to ingest Night swallows you, then devastates enemies and eats projectiles New rooms may become pitch black Charging is faster in darkness</p>
 
 <PublicEntry slug="ingestion-to-night" lang="zh" />
 
@@ -16,37 +16,32 @@ status: drafted
 
 ## 效果
 
-**夜之摄取让角色潜入房间的黑暗：在黑暗里蓄力，再把蓄积的摄取一次吐出来。**
+**夜之摄取会让部分新房间真正陷入黑暗，但这种夜色也是你的武器。持续按住攻击后，黑暗会从房间四周向角色聚拢，并逐渐显露出牙形；松开后，长夜会将角色整个吞下。短暂失去视野后重新睁眼，房间中的敌人已经遭到夜袭，敌方弹幕也会被一并吞没。**
 
-持有后获得飞行与 **+1** 攻击。约 **33%** 的新房间会变成全黑房间；拾取本道具时当前房间也会立刻变黑。
+持有后获得飞行。约 **25%** 的首次进入的新房间会变成 Pitch Black（自然黑夜会一直保持到你离开）。
 
-在黑暗中按住射击可积累摄取值：
+## 摄取
 
-| 摄取深度 | 大致表现 |
-| --- | --- |
-| 浅 | 边缘暗雾，几乎不挡视野 |
-| 中 | 黑暗向中央伸展 |
-| 深（约 130 以上） | 约 **30%** 概率免疫敌人伤害；牙形结构逐渐可辨 |
-| 极深（约 180 以上） | 松开射击发动暗影斩击，并吞噬附近敌弹再反向射出 |
+- **任意有战斗意义的房间**都可以按住射击开始摄取，不必先处于 Pitch Black。
+- 约 **90** 帧起可松开释放；**180** 帧为满摄取。
+- 自然 Pitch Black 房间中蓄力更快（约 ×1.5）。
 
-太阳牌会驱散本局的夜之摄取黑暗；逆太阳会重新引入并强化夜晚。塔罗抽取有机会偏向这两张牌。
+## 夜之吞噬
 
-## 注意
+黑暗从屏幕四周侵入，噪声边缘逐渐拉出尖形；接近满蓄时才明确读成牙。松开后四周合拢，短暂黑屏，再睁眼时夜袭已经结算。
 
-- 斩击与弹幕反击的精确半径、波数随摄取值升高。
-- 视觉层（边缘侵蚀与牙）仍在迭代；玩法阈值以上表为准。
+## 伤害
 
-## 特殊联动
+- 普通敌人随蓄力加深受到更高伤害，弱残敌常在睁眼时已被处决。
+- Boss 吃固定倍率伤害加有上限的百分比伤害，不会被异常秒杀。
+- 结算时清除当前房间敌弹（不反射）。
 
-### {{Collectible:706}}
+## 黑暗
 
-对应蝗虫有概率使敌人恐惧。
+- **自然 Pitch Black** 是房间负面状态。
+- **摄取视觉**（噪声幕与牙）是技能演出，不依赖房间是否已黑。
 
-<details>
-<summary>技术细节</summary>
+## 太阳 / 逆太阳
 
-- 伤害免疫阈值约 counter &gt; 130，判定约 30%。
-- 斩击启动约 counter &gt; 180；波数约 `floor((counter-180)/90)+1`。
-- 噪声贴图由 `codex_work/tools/generate_ingestion_noise.py` 生成。
-
-</details>
+- **太阳**：驱散当前自然黑夜，并阻止本层继续随机生成 Pitch Black；摄取能力仍可用。
+- **逆太阳**：本层新战斗房进入 Pitch Black，摄取使用黑暗房蓄力速度；满蓄对 Boss 的百分比伤害略强化。仍需自己按住完成摄取。
