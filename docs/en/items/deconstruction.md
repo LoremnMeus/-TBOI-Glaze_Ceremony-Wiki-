@@ -19,7 +19,7 @@ status: reviewed
 
 **Deconstruction tears some special rooms off the normal map and turns the floor into a Cracked Key treasure hunt.**
 
-At floor start it spawns Cracked Keys equal to **copies + 2**. One copy usually means **3** keys. Then it swaps special rooms with off-map red-room slots. One copy can move up to **4** rooms, limited by how many eligible special rooms exist on the floor.
+At floor start it spawns Cracked Keys equal to **copies + 2**. With one copy that is **3** keys. Then it swaps special rooms with off-map red-room slots. One copy can move up to **4** rooms, limited by how many eligible special rooms exist on the floor.
 
 ### Exploration example
 
@@ -27,7 +27,8 @@ A shop or treasure room that used to sit on the normal map may now sit beyond it
 
 ### What can move
 
-- Targets are usually **1×1, four-door** special rooms—not default combat rooms or Boss rooms.
+- Only **1×1, four-door** special rooms move. Default combat rooms, Boss rooms, and Mini-Boss rooms never move.
+- How many rooms move depends on eligible special rooms on the floor and how many copies you hold.
 - Moved rooms keep their room type and contents; only the route becomes a red-room path.
 
 ## Tips

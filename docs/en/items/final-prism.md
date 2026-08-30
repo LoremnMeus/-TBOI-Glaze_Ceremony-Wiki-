@@ -19,19 +19,22 @@ status: reviewed
 
 **Final Prism is a sustain charge-up weapon: the longer you keep it firing, the stronger it gets.**
 
-First use starts about **6** rainbow beams. While active it drains charge; at 0 the beams stop. A full bar only lasts on the order of ~10+ seconds, so you weave firing and recharging.
-
-Beams converge and ramp damage/visuals over time; full form needs about **40** seconds of continuous fire.
-
-Pressing again while active spends about **10** charge and adds **+3** beams.
-
-Think of it as: **preheat first, then decide whether to buy denser beams.**
+On use it keeps **6** rainbow beams firing while draining charge. Continuous fire makes beams converge and grow stronger. Pressing again spends extra charge to add more beams.
 
 ## Tips
 
 - Keep the prism on target—uptime beats toggling.
 - Let charge recover before a second preheat cycle.
 - Only spend the +3 beams when you need density.
+
+<details>
+<summary>Technical details</summary>
+
+- A full bar lasts on the order of ~10+ seconds; weave firing and recharging.
+- Full form needs about **40** seconds of continuous fire.
+- Pressing again while active spends about **10** charge and adds **+3** beams.
+
+</details>
 
 ## Synergies
 

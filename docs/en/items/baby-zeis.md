@@ -31,7 +31,3 @@ Automatic when a valid pedestal appears. No active key.
 ## Multiple copies
 
 Each baby has **its own floor progress**. Two babies can each copy a different pedestal once per floor—they will not all pile onto one stand.
-
-## Trivia
-
-Echoes the character's “know and copy” vibe, not a full kit.

@@ -33,7 +33,3 @@ Each copy dashes and charges on its own.
 ## Tips
 
 Dash through hallway packs so the trail sweeps the line; wall hits are a short stick, not a fail.
-
-## Trivia
-
-Echoes the character's brimstone dash vibe, not a full kit.

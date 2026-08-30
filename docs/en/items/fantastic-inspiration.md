@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Inspiration's fantasy: you can see the reward early, but it only becomes real near death.**
+**Inspiration leaves reward illusions after clears that you cannot claim immediately. Only when absolute hearts are down to the last heart do they become real rewards.**
 
 ### When illusions spawn
 
@@ -25,11 +25,11 @@ About **60%** chance after clearing a room.
 
 ### Why they look stronger when low
 
-Lower absolute health makes illusions brighter and more solid. At high health they stay teasing ghosts.
+Lower absolute health makes illusions brighter and more solid. At high health they stay teasing ghosts; at the last heart they look like real pickups.
 
 ### How to claim
 
-Only at about **1** absolute heart does a touch solidify them. Higher health pushes you away.
+Only when absolute hearts are **≤ 1** does a touch solidify them. Higher health pushes you away.
 
 ### What they can become
 
@@ -52,4 +52,4 @@ Illusions may become soul hearts, double red hearts, nickels, charged keys, doub
 
 ## Tips
 
-Clear first and scout illusions; only bleed down if the fake item is worth the risk.
+Clear first and scout illusions; only bleed down to the last heart if the fake item is worth the risk.

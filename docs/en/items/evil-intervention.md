@@ -19,7 +19,7 @@ status: reviewed
 
 **Evil Intervention's loop is swallow enemy fire, then repay it when the butterfly tear dies.**
 
-Firing can spawn a piercing homing butterfly tear (luck helps; roughly from ~**5%** up to ~**20%**).
+Firing can spawn a piercing homing butterfly tear. Higher luck raises the chance.
 
 ### What it swallows
 
@@ -32,6 +32,13 @@ When the butterfly expires:
 
 - each eaten projectile returns one friendly tear;
 - swallowed laser energy returns multiple brimstone beams (more energy → more beams).
+
+<details>
+<summary>Technical details</summary>
+
+Chance uses `check_rand(Luck, 20, 5, 7)`: about **8.7%** at Luck 0, capped at **20%** when Luck ≥ **7**.
+
+</details>
 
 ## Tips
 

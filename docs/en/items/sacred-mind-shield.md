@@ -17,11 +17,11 @@ status: reviewed
 
 ## Effects
 
-**Each copy grants one protective heart. It blocks one punitive hit that would truly cost health, then releases a shockwave and turns that shield into a permanent heart.**
+**Each copy grants one protective heart. After blocking a hit that would truly cost health, it releases a shockwave and turns that shield into a permanent heart.**
 
 ### Shield
 
-One protective heart per copy. It is neither a red heart nor a soul heart. Fake damage, devil deals, blood banks, and curse doors do not trigger it.
+One protective heart per copy. It is neither a red heart nor a soul heart. The shield only answers normal damage; devil deals, blood banks, curse doors, and similar special health payments do not consume it.
 
 ### After the shield breaks
 

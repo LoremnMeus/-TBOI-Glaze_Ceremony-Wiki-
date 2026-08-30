@@ -35,7 +35,3 @@ Not free teleport to any revealed special—follow the “next stop” chain.
 ## Multiple copies
 
 Each extra Baby Lu lengthens the floor plan by one room.
-
-## Trivia
-
-Echoes the character's route-planning vibe, not a full character kit.

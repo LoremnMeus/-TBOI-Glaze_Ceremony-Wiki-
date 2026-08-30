@@ -19,7 +19,7 @@ status: reviewed
 
 **Delicate Flower is resource management: protect the flower, then choose who to gift it to.**
 
-- Pickup grants flowers (copies set how many you can hold/refill); each new floor refills by copy count.
+- Each copy grants **1** flower; each new floor refills by copy count.
 - Enemy damage removes 1 flower; at 0 the headpiece disappears.
 - Near a valid recipient you lift the flower; touch them to gift it and spend 1.
 
