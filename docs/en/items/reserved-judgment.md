@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Reserved Judgment lets you trial a choice item this floor, then buy the real copy next floor for a fixed price.**
+**Reserved Judgment can reserve one item from a multi-choice pedestal group for a floor trial; on the next floor the real item reappears at a fixed price.**
 
 - Near a real option pedestal group, press {{ButtonRT}} (Drop) to reserve one
 - Each option group holds **1** reservation and cannot be re-marked

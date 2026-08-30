@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Philosopher's Stone burns empty pedestals as fuel to reforge the nearest non-empty pedestal along a nearby ID sequence.**
+**Philosopher's Stone charges from empty pedestals and reforges the nearest non-empty pedestal into another item along a nearby ID sequence.**
 
 ### How to charge
 

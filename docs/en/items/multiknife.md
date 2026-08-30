@@ -17,11 +17,11 @@ status: reviewed
 
 ## Effects
 
-**Multiknife spends all charges as doubling steps on one heavy swing.**
+**Multiknife spends the entire current charge bar on one swing; each extra charge doubles the blade's damage and size again.**
 
 - {{Battery}} Usable at **1+** charge; spends the whole bar
 - {{Damage}} **1** charge = **100%** of your damage; each extra charge doubles again
-- Swing size grows with charge; very high charge soft-caps visually and on collision
+- Swing size grows with charge; very high charge reaches a size/collision cap
 
 ### Early tiers
 

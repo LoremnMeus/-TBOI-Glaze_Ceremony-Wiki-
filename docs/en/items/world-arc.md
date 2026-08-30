@@ -17,21 +17,21 @@ status: reviewed
 
 ## Effects
 
-**use → floor-long random passive → World Arc flees → find it in another room → use again.**
+**On use, World Arc grants a floor-long random passive and hides in another room on the floor; reclaiming it allows another use, and temporary passives stack.**
 
 ### What happens on use
 
 - World Arc leaves the active slot and grants **1** random passive for the floor.
-- **It is not permanently lost**: it hides in another room on the floor and **never hides in Ultra Secret Rooms**. Enter that room to see it on a pedestal again.
+- It hides in another room on the floor and **never hides in Ultra Secret Rooms**. Enter that room to see it on a pedestal again.
 - Pick it up to use again; each use **adds** another floor temporary passive and does not replace prior ones.
 
 ### If you cannot find it
 
-Floor passives clear on the next floor. A missed World Arc **is not gone forever**—it re-hides on the next floor.
+Floor passives clear on the next floor. A missed World Arc is not removed from the run—it re-hides on the next floor.
 
 ### Why chase it
 
-Every successful reclaim-and-reuse stacks another floor-long passive. More finds, thicker floor.
+Every successful reclaim-and-reuse stacks another floor-long passive.
 
 ## Synergies
 

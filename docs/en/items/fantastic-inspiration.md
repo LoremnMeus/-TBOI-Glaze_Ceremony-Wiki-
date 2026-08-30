@@ -52,4 +52,4 @@ Illusions may become soul hearts, double red hearts, nickels, charged keys, doub
 
 ## Tips
 
-Clear first and scout illusions; only bleed down to the last heart if the fake item is worth the risk.
+Clear first and scout illusions; only drop to the last heart if the reward is worth the risk.

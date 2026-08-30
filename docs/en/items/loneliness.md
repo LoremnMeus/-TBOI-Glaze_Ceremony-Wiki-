@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Loneliness saves you once. On death, a random character arrives, revives you, and stays as a partner; Loneliness then vanishes. As long as one survivor remains, the run does not end immediately.**
+**Loneliness triggers once on death: a random character arrives, revives Isaac, and stays as a partner; Loneliness then vanishes. As long as one survivor remains, the run does not end immediately.**
 
 ### First death
 

@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Core Brooch offers three stats each use: boost one, lightly weaken the other two. After 10 picks it shatters.**
+**Core Brooch shows three base stats each use: strengthen one and weaken the other two. After 10 picks it shatters.**
 
 ### Candidate stats
 

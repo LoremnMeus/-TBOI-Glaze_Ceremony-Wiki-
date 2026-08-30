@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Chasm drops a hanger in Secret Rooms and sends you into a separate “Chasm” pocket area.**
+**Chasm drops a hanger in Secret Rooms leading into a separate Chasm pocket area.**
 
 ### What the Chasm is
 

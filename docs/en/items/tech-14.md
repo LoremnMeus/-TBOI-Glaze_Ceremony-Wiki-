@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Tech XIV is a walk-drawn trap: leave limiters as you move, then punish enemies that cross the lines.**
+**Tech XIV leaves limiters on walked tiles; adjacent limiters link, and enemies crossing a link trigger a short laser.**
 
 ### How to lay wire
 

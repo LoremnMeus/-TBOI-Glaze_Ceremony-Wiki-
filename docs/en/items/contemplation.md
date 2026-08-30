@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Contemplation sometimes yanks you into a Death Certificate glimpse before an unexplored door finishes.**
+**Contemplation sometimes diverts an unexplored door transit into a brief Death Certificate glimpse.**
 
 ### Example flow
 

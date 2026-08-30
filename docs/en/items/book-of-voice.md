@@ -16,7 +16,7 @@ status: reviewed
 
 ## Effects
 
-**Book of Voice keeps whispering. Each demand can be accepted or refused; the more you accept, the more often it speaks, and the closer it comes to becoming The Voice.**
+**Book of Voice keeps making demands; the more that are accepted, the more often it speaks, and the closer it comes to becoming The Voice.**
 
 It starts at **0** charge with a base max of **6**. When full, you can call a whisper. Whispers also begin on their own and temporarily make the book answerable—you do not need to spam the active to “make it work.”
 

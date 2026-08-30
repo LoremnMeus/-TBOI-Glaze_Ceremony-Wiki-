@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Ember copies the last permanently lost other passive/familiar effect, and retargets when you permanently lose another valid item.**
+**Ember copies the most recently permanently removed other passive or familiar effect; losing another valid item switches the copy target.**
 
 - Copies the last permanently lost other passive or familiar
 - Multiple Embers stack copies of the same target

@@ -17,9 +17,9 @@ status: reviewed
 
 ## Effects
 
-**Final Prism is a sustain charge-up weapon: the longer you keep it firing, the stronger it gets.**
+**Final Prism grows stronger the longer it stays firing; while active it drains charge, and pressing again can spend extra charge to add more beams.**
 
-On use it keeps **6** rainbow beams firing while draining charge. Continuous fire makes beams converge and grow stronger. Pressing again spends extra charge to add more beams.
+On use it keeps **6** rainbow beams firing. Continuous fire makes beams converge and grow stronger.
 
 ## Tips
 

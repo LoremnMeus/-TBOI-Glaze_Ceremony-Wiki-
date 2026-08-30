@@ -17,13 +17,13 @@ status: reviewed
 
 ## Effects
 
-**The Diamond is a cross-run market price: leave it unsold and it permanently cheapens; sell to the merchant and future shop prices follow that deal.**
+**The Diamond's shop price changes across runs: leaving it unsold lowers the price; selling it to the Diamond Merchant reprices future shops to that deal.**
 
 - Base shop price **5¢**
-- If it appears as a shop good and you leave without buying: global price permanently halves (floor, min **1¢**); once per pedestal
+- If it appears as a shop good and is left unsold: price halves (floor, min **1¢**); once per pedestal
 - {{Shop}} About a **50%** chance for a Diamond Merchant; sell for any **0–99¢**
-- After a sale, future shop prices **permanently** become that deal price
+- After a sale, future shop prices become that deal price
 
 ## Notes
 
-Prices live in permanent save data across runs — not just this run's dynamic shops.
+These price changes are [permanent](/en/systems/permanent-effects) effects and persist across later runs—not just this run's shops.

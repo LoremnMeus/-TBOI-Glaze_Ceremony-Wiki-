@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Blood Wing grants permanent flight and, after a wall charge, an invincible dash that sprays Brimstone behind you.**
+**Blood Wing grants flight; after a full wall charge, leaving the wall starts an invincible dash with Brimstone trails.**
 
 - {{Flight}} Flight
 - Move along walls for about **2** seconds to finish charging; leaving early decays the charge quickly

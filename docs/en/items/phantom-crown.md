@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Phantom Crown is place-the-shadow-first: pre-store a dodge/counter landing.**
+**Phantom Crown charges a moving phantom; before taking damage, Isaac swaps with a living phantom to negate the hit and burst nearby enemies on landing.**
 
 - Charge and release a moving phantom forward (not a static foot-shadow).
 - It deals contact damage until it hits a wall or leaves bounds.

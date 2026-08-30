@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Evil Intervention's loop is swallow enemy fire, then repay it when the butterfly tear dies.**
+**Evil Intervention has a chance to fire a butterfly tear that can eat enemy shots and snip enemy lasers; when it expires, absorbed attacks return as friendly fire.**
 
 Firing can spawn a piercing homing butterfly tear. Higher luck raises the chance.
 

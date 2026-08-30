@@ -17,12 +17,12 @@ status: reviewed
 
 ## Effects
 
-**Dragon Tooth boosts damage and can rewrite a limited number of Angel Rooms into Devil-pool spaces.**
+**Dragon Tooth raises damage and can pollute a limited number of Angel Rooms so their items roll from the Devil pool; each successful pollution also raises damage further.**
 
 - {{Damage}} **1.5×** damage
 - {{AngelRoom}} **Each copy** can pollute **1** eligible Angel Room: items use the {{DevilRoom}} Devil pool and the room looks bloodied
 - Angel-related entities there drop to about **10%** HP
-- Each successful pollution permanently grants {{Damage}} **+1** Damage
+- Each successful pollution grants {{Damage}} **+1** Damage as a [permanent](/en/systems/permanent-effects) growth
 
 ## Notes
 
