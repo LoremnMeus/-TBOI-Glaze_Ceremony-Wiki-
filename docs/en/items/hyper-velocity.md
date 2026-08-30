@@ -28,7 +28,6 @@ If two trains' hitboxes overlap, they crash: a **1000**-damage explosion at the 
 
 - The train hits Isaac too; standing on the planned track will get him hit repeatedly. Knockback follows the track, so “grazing” the nose is unsafe.
 - Direction is fixed at the moment of launch; the train never turns afterward.
-- The visible car is a non-colliding effect; damage and grid clearing are handled by the mod’s hitbox, not engine collision on the sprite.
 
 ## Synergies
 
@@ -55,8 +54,6 @@ The matching Abyss locust is extremely fast.
 <summary>Technical details</summary>
 
 - Charge: 3.
-- Logic position is advanced by a controller on a fixed direction; visuals are non-colliding Effects; hits use a Lua OBB with sweep tests.
 - Enemy damage: `250 + 5 * player.Damage`; player: `TakeDamage(5)`; crash: `BombExplosionEffects(..., 1000)` and `ShakeScreen(60)`.
-- Car Battery’s second use is skipped in the lift flow, so it does not double-fire trains that way.
 
 </details>

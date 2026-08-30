@@ -4,7 +4,7 @@ description: "Your present is bound by me"
 slug: wisel
 kind: collectible
 internalKey: Wisel
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>绝望因子 Wisel Wisel wisel Wisel 你的现在由我咒缚 Your present is bound by me 反复点按攻击进行蓄力 停止攻击后蓄力逐渐流失 蓄满后向攻击方向连续释放大型冲击波 Repeatedly tap fire to charge Charge gradually decays while not firing At full charge, release a series of large shockwaves</p>
 
@@ -41,15 +41,7 @@ Triggering also gives a light recoil.
 
 ## The Three Factors
 
-Skiel, Wisel, and Granel belong to the same item set.
-
-When they appear as pickups, the pedestal cycles among the three; **you receive whichever form is shown when you pick it up.**
-
-```text
-Skiel → Wisel → Granel → …
-```
-
-After pickup, the item no longer changes on its own.
+The pedestal cycles Skiel → Wisel → Granel; **you receive whichever form is shown when picked up.** It stops changing afterward.
 
 ## Synergies
 

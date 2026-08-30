@@ -4,9 +4,9 @@ description: "Health Up + Tastes Tasty"
 slug: tiramisu
 kind: collectible
 internalKey: Tiramisu
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>提拉米苏 Tiramisu Tiramisu tiramisu Tiramisu 血量上升 + 道具变得美味 Health Up + Tastes Tasty +1血上限 获得属性提升时，额外获得一部分相同属性 额外属性会逐渐消退 短时间连续获得属性提升时，额外收益逐次降低 +1 Health up When you gain stats, also gain a portion of the same boost The bonus stats fade over time Rapid successive stat gains yield smaller bonuses each time</p>
+<p class="wiki-search-index" v-pre>提拉米苏 Tiramisu Tiramisu tiramisu Tiramisu 血量上升 + 道具变得美味 Health Up + Tastes Tasty +1血上限 获得属性提升时，临时复制其中一部分 复制的属性会逐渐消退；连续触发时效果减弱 +1 Health up Stat increases temporarily grant part of the same increase again Copied stats fade over time; rapid triggers weaken the effect</p>
 
 <PublicEntry slug="tiramisu" lang="en" />
 
@@ -16,9 +16,9 @@ status: stub
 
 ## Effects
 
-Tiramisu takes a taste of other stat gains and copies a portion of them.
+Picking it up grants {{EmptyHeart}} +1 heart container. Afterward, stat increases from other sources temporarily grant part of the same increase again.
 
-If another item raises damage by 1, Tiramisu also grants part of that damage boost. It can copy damage, tears, speed, range, luck, and shot speed. Picking it up also grants {{EmptyHeart}} +1 heart container.
+For example, gaining +1 damage also gives a smaller extra damage boost from Tiramisu; that extra portion is gradually digested. It can copy damage, tears, speed, range, luck, and shot speed.
 
 ## Aftertaste
 

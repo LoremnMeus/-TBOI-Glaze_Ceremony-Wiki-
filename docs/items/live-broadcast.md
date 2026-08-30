@@ -4,9 +4,9 @@ description: "成为主播出道吧！"
 slug: live-broadcast
 kind: collectible
 internalKey: Live_Broadcast
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>直播姬 Live Broadcast Live_Broadcast live-broadcast Live Broadcast 成为主播出道吧！ Going live! 开启直播模式，观众会实时评论你的行为 精彩表现提高人气，失误与冷场可能使人气下降 人气越高，直播间越活跃 高人气时可能收到赞助礼物，获得临时属性提升 Starts a live stream; viewers comment on your actions in real time Strong plays raise popularity; mistakes and downtime can lower it Higher popularity makes the chat more active High popularity may bring sponsor gifts with temporary stat boosts</p>
+<p class="wiki-search-index" v-pre>直播姬 Live Broadcast Live_Broadcast live-broadcast Live Broadcast 成为主播出道吧！ Going live! 战斗、拾取与消费等行为会触发观众弹幕 观众评价会改变人气 人气越高，弹幕越活跃，并可能收到赞助礼物 礼物提供临时属性或主动充能 Combat, pickups, and spending can trigger viewer chat Viewer reactions change popularity Higher popularity means livelier chat and possible sponsor gifts Gifts grant temporary stats or active charge</p>
 
 <PublicEntry slug="live-broadcast" lang="zh" />
 
@@ -16,26 +16,28 @@ status: stub
 
 ## 效果
 
-直播姬把当前一局变成一场持续直播：大量常规行为会被识别，观众以弹幕评论，并据此推动人气。
+直播姬把这一局变成持续直播：**角色做事 → 观众发弹幕评价 → 人气变化 → 弹幕密度与礼物随之变化。**
 
-直播会读取的不只是击杀，例如：
+观众会注意许多具体事件，例如：
 
-- 战斗表现好坏；
-- 受伤与危险状态；
-- 拾取资源、选择或放弃道具；
-- 使用药丸；
-- 商店买或不买；
-- 长时间无操作、特殊事件等。
+- 发现高品质道具，或把眼前的道具留在原地；
+- 击败 Boss；
+- 受到伤害，或只剩很少生命；
+- 吃下坏药丸；
+- 在商店面对买不起或放弃购买的商品；
+- 拾取红钥匙、R Key 等容易引起讨论的道具；
+- 长时间不移动、不射击；
+- 死亡，以及迷失游魂的死亡。
 
 ## 人气
 
-直播间有自己的热度等级。热度提高后，弹幕更频繁、事件更密集，正面奖励与高价值赞助也更容易出现。
+观众评价会推动人气。人气越高，弹幕出现得越频繁，也越容易形成密集刷屏。
 
 ## 礼物
 
-较高人气时可能出现赞助礼物。礼物主要提供**临时属性强化**（也可能对主动充能有帮助），属于直播期间的短期收益，不是永久成长。
+事件热度较高时可能出现赞助礼物。拾取礼物可获得临时幸运、射速或攻击，也可能为一个未充满的主动道具补充充能。
 
 ## 注意
 
-- 失误、冷场或危险行为同样可能被人气系统记下，不一定只会涨。
-- 不必背下全部弹幕事件；把表现当直播内容即可。
+- 受伤、坏药丸和长时间无操作同样会招来观众反应。
+- 礼物带来的属性会随时间衰减。

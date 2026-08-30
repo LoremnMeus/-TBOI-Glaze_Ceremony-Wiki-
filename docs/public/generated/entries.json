@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T12:15:20Z",
+  "generatedAt": "2026-08-30T13:16:30Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -9975,8 +9975,8 @@
         "en": "Health Up + Tastes Tasty"
       },
       "eid": {
-        "zh": "{{EmptyHeart}} +1血上限#获得属性提升时，额外获得一部分相同属性#额外属性会逐渐消退#短时间连续获得属性提升时，额外收益逐次降低",
-        "en": "{{EmptyHeart}} +1 Health up#When you gain stats, also gain a portion of the same boost#The bonus stats fade over time#Rapid successive stat gains yield smaller bonuses each time"
+        "zh": "{{EmptyHeart}} +1血上限#获得属性提升时，临时复制其中一部分#复制的属性会逐渐消退；连续触发时效果减弱",
+        "en": "{{EmptyHeart}} +1 Health up#Stat increases temporarily grant part of the same increase again#Copied stats fade over time; rapid triggers weaken the effect"
       },
       "seijaBuff": {
         "zh": "",
@@ -10110,8 +10110,8 @@
         "en": "Going live!"
       },
       "eid": {
-        "zh": "开启直播模式，观众会实时评论你的行为#精彩表现提高人气，失误与冷场可能使人气下降#{{ArrowUp}} 人气越高，直播间越活跃#高人气时可能收到赞助礼物，获得临时属性提升",
-        "en": "Starts a live stream; viewers comment on your actions in real time#Strong plays raise popularity; mistakes and downtime can lower it#{{ArrowUp}} Higher popularity makes the chat more active#High popularity may bring sponsor gifts with temporary stat boosts"
+        "zh": "战斗、拾取与消费等行为会触发观众弹幕#观众评价会改变人气#{{ArrowUp}} 人气越高，弹幕越活跃，并可能收到赞助礼物#礼物提供临时属性或主动充能",
+        "en": "Combat, pickups, and spending can trigger viewer chat#Viewer reactions change popularity#{{ArrowUp}} Higher popularity means livelier chat and possible sponsor gifts#Gifts grant temporary stats or active charge"
       },
       "seijaBuff": {
         "zh": "",
@@ -10395,8 +10395,8 @@
         "en": "Replay the divine calendar"
       },
       "eid": {
-        "zh": "使用后选择一件持有的被动道具，将其变为临时道具#生成3个接近该品质的道具供选择，拾取的道具同样为临时道具#{{Warning}} 受伤时失去卓尔金神历并抵挡本次伤害#之后再次获得卓尔金神历时，恢复失去的临时道具",
-        "en": "On use, choose a held passive and convert it into a temporary item#Spawn 3 choices near that quality; the one you pick is also temporary#{{Warning}} Taking damage loses Tzolkin and blocks that hit#Reclaiming Tzolkin restores the lost temporary items"
+        "zh": "使用后选择1件持有道具，换取接近其品质的三选一#原道具与新获得道具均成为临时道具#{{Warning}} 受伤时抵挡伤害，并失去神历与临时道具#之后重新获得神历时，恢复此前的临时道具",
+        "en": "Choose 1 held item and trade it for a 3-choice near its quality#The original and chosen items both become temporary#{{Warning}} Taking damage blocks the hit and loses Tzolkin and temporary items#Reclaiming Tzolkin restores those temporary items"
       },
       "seijaBuff": {
         "zh": "",
@@ -10775,8 +10775,8 @@
         "en": "Nobility Cherisher"
       },
       "eid": {
-        "zh": "概率发射珍珠泪#珍珠落地后停留，可被角色踢动#接触敌方弹幕时将其吞下，并反向射回友方泪弹#一颗珍珠只能承受有限次数碰撞",
-        "en": "Chance to fire pearl tears#Pearls linger on the ground and can be kicked#Contact with enemy shots swallows them and fires a friendly tear back#Each pearl only endures a limited number of impacts"
+        "zh": "概率发射珍珠泪#珍珠落地后停留，可被角色踢动#接触敌方弹幕时将其吞下，并反向射回友方泪弹#每颗珍珠最多反射或碰撞5次",
+        "en": "Chance to fire pearl tears#Pearls linger on the ground and can be kicked#Contact with enemy shots swallows them and fires a friendly tear back#Each pearl can reflect or collide up to 5 times"
       },
       "seijaBuff": {
         "zh": "",

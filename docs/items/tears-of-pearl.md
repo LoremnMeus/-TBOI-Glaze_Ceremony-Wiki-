@@ -4,9 +4,9 @@ description: "高尚者为我悼哭"
 slug: tears-of-pearl
 kind: collectible
 internalKey: Tears_of_Pearl
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>鲛人之泪 Tears of Pearl Tears_of_Pearl tears-of-pearl Tears of Pearl 高尚者为我悼哭 Nobility Cherisher 概率发射珍珠泪 珍珠落地后停留，可被角色踢动 接触敌方弹幕时将其吞下，并反向射回友方泪弹 一颗珍珠只能承受有限次数碰撞 Chance to fire pearl tears Pearls linger on the ground and can be kicked Contact with enemy shots swallows them and fires a friendly tear back Each pearl only endures a limited number of impacts</p>
+<p class="wiki-search-index" v-pre>鲛人之泪 Tears of Pearl Tears_of_Pearl tears-of-pearl Tears of Pearl 高尚者为我悼哭 Nobility Cherisher 概率发射珍珠泪 珍珠落地后停留，可被角色踢动 接触敌方弹幕时将其吞下，并反向射回友方泪弹 每颗珍珠最多反射或碰撞5次 Chance to fire pearl tears Pearls linger on the ground and can be kicked Contact with enemy shots swallows them and fires a friendly tear back Each pearl can reflect or collide up to 5 times</p>
 
 <PublicEntry slug="tears-of-pearl" lang="zh" />
 
@@ -28,8 +28,8 @@ status: stub
 
 ## 反射
 
-敌方弹幕进入珍珠约 20 单位范围时：原弹幕移除，并在其位置生成一枚方向相反的友方泪弹；同时消耗珍珠的一次承受次数。
+敌方弹幕进入珍珠约 20 单位范围时，原弹幕会被吞下，并在其位置生成一枚方向相反的友方泪弹，同时消耗 1 次耐久。
 
 ## 耐久
 
-一颗珍珠大约可承受 5 次相关碰撞 / 反射。超过后会失去弹跳类能力，不能再当作永久盾牌。
+每颗珍珠共有 5 次耐久，碰撞敌人或反射敌方弹幕都会消耗。耐久耗尽后不再反射弹幕。

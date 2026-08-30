@@ -4,7 +4,7 @@ description: "丑角登场"
 slug: drama-of-sorrow-and-joy
 kind: collectible
 internalKey: Drama_of_sorrow_and_joy
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>悲欢之凶剧 Drama of sorrow and joy Drama_of_sorrow_and_joy drama-of-sorrow-and-joy Drama of sorrow and joy 丑角登场 Leader To Despia 概率发射交替出现的悲剧与喜剧面具泪 悲剧：标记的敌人死亡后，将死亡化为追击爆炸 喜剧：标记的敌人死亡后，作为短暂友方演员再次登台 同时戴上两种面具的敌人将出演 凶剧 凶剧退场时同时触发强化的悲剧与喜剧 Chance to fire alternating tragedy and comedy mask tears Tragedy: marked foes explode into a chasing blast on death Comedy: marked foes briefly return as friendly actors Foes wearing both masks perform Tragicomedy Tragicomedy&#x27;s exit triggers empowered tragedy and comedy</p>
 
@@ -31,8 +31,3 @@ status: stub
 ## 凶剧
 
 同一敌人同时被两种面具标记时进入凶剧状态。其死亡会同时触发强化的悲剧残响与强化喜剧演员（演员寿命约 180 帧）。
-
-## 注意
-
-- 需要先挂上标记，死亡时才结算对应退场效果。
-- 两种面具叠在同一目标上，才是凶剧。

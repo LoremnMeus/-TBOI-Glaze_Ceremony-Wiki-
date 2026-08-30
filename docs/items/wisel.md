@@ -4,7 +4,7 @@ description: "你的现在由我咒缚"
 slug: wisel
 kind: collectible
 internalKey: Wisel
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>绝望因子 Wisel Wisel wisel Wisel 你的现在由我咒缚 Your present is bound by me 反复点按攻击进行蓄力 停止攻击后蓄力逐渐流失 蓄满后向攻击方向连续释放大型冲击波 Repeatedly tap fire to charge Charge gradually decays while not firing At full charge, release a series of large shockwaves</p>
 
@@ -41,15 +41,7 @@ status: drafted
 
 ## 三因子
 
-痛苦因子、绝望因子与泯灭因子属于同一组道具。
-
-当它们作为可拾取道具生成时，底座会在三种因子之间轮换；**拾取时显示的是哪一种，就获得哪一种。**
-
-```text
-痛苦因子 → 绝望因子 → 泯灭因子 → …
-```
-
-拾取以后，获得的道具不会继续自行变化。
+三因子的底座会按痛苦 → 绝望 → 泯灭循环变化；**拾取时显示哪一种，就获得哪一种。**拾取后不再变化。
 
 ## 特殊联动
 

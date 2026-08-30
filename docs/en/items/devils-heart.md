@@ -18,7 +18,7 @@ status: drafted
 
 **Devil's Heart binds a two-way death pact with one enemy: whichever side would die first makes the other pay.**
 
-Use it to lift, then press a fire key to throw a seed. Hitting a vulnerable enemy makes them the host. The pact does **not** remove random collectibles.
+Use it to lift, then press a fire key to throw a seed. Hitting a vulnerable enemy makes them the host.
 
 | Who would die first | Result |
 | --- | --- |

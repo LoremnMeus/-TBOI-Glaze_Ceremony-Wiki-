@@ -4,7 +4,7 @@ description: "Terms under revision"
 slug: theseuss-sign
 kind: collectible
 internalKey: Theseus_s_Sign
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>忒修斯之印 Theseus&#x27;s Sign Theseus_s_Sign theseuss-sign Theseus&#x27;s Sign 条款正在改写 Terms under revision 持有2条会不断改写的条款 完成条款后执行对应结果，并随机改写其中一部分 进入新一层时也会改写1条条款 当前条款与进度显示在下方 Hold 2 clauses that are continuously rewritten Completing a clause performs its result and randomly rewrites part of it Entering a new floor also rewrites 1 clause Current clauses and progress are shown below</p>
 
@@ -31,7 +31,7 @@ The initial clauses are:
 
 Each rewrite changes one component of a clause. It may:
 
-- Raise or lower the required amount by 1, without going below that clause's allowed minimum.
+- Raise or lower the required amount by 1 without producing an invalid requirement.
 - Change the condition to taking damage, healing, or gaining/losing coins, keys, or bombs.
 - Reverse a resource condition between gaining and losing that resource.
 

@@ -4,9 +4,9 @@ description: "祈祷神历的宿命"
 slug: tzolkin
 kind: collectible
 internalKey: Tzolkin
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>卓尔金神历 Tzolkin Tzolkin tzolkin Tzolkin 祈祷神历的宿命 Replay the divine calendar 使用后选择一件持有的被动道具，将其变为临时道具 生成3个接近该品质的道具供选择，拾取的道具同样为临时道具 受伤时失去卓尔金神历并抵挡本次伤害 之后再次获得卓尔金神历时，恢复失去的临时道具 On use, choose a held passive and convert it into a temporary item Spawn 3 choices near that quality; the one you pick is also temporary Taking damage loses Tzolkin and blocks that hit Reclaiming Tzolkin restores the lost temporary items</p>
+<p class="wiki-search-index" v-pre>卓尔金神历 Tzolkin Tzolkin tzolkin Tzolkin 祈祷神历的宿命 Replay the divine calendar 使用后选择1件持有道具，换取接近其品质的三选一 原道具与新获得道具均成为临时道具 受伤时抵挡伤害，并失去神历与临时道具 之后重新获得神历时，恢复此前的临时道具 Choose 1 held item and trade it for a 3-choice near its quality The original and chosen items both become temporary Taking damage blocks the hit and loses Tzolkin and temporary items Reclaiming Tzolkin restores those temporary items</p>
 
 <PublicEntry slug="tzolkin" lang="zh" />
 
@@ -16,9 +16,9 @@ status: stub
 
 ## 效果
 
-卓尔金神历把一件真正持有的被动变成“借来的命运”，再用它换取另一份同样暂时的命运。
+把一件持有道具交给神历，换一组同样暂时的三选一；受伤时神历替角色挡下一击，并带走这些临时道具，直到再次找到它。
 
-使用后大致流程：
+使用后的完整流程：
 
 1. 从当前持有的被动 / 跟班道具中选 1 件；
 2. 该道具转为临时状态；
@@ -37,5 +37,4 @@ status: stub
 ## 注意
 
 - 临时底座有独立外观提示，与普通底座不同。
-- 受伤挡伤是核心循环的一部分，不是额外保险。
 - 失去神历后，下一次从道具池抽出的道具会被强制为卓尔金神历。

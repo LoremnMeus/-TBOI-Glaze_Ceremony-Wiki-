@@ -4,7 +4,7 @@ description: "Earthbound Deity"
 slug: nazca
 kind: collectible
 internalKey: Nazca
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>纳兹卡巨画 Nazca Nazca nazca Nazca 神明立于尘埃之上 Earthbound Deity 在房间中不断绘制地缚图线 敌人站在线上会持续受到伤害 站在线上时，根据图线浓度提高 攻击与 移速 Keeps drawing earthbound lines across the room Enemies standing on the lines take damage over time Standing on denser lines raises Damage and Speed</p>
 
@@ -16,15 +16,16 @@ status: drafted
 
 ## Effects
 
-**Nazca gradually paints earthbound lines across the floor. Those lines are part of the fight, not just VFX.**
+**Nazca sends several visible brushes wandering through the room, continually painting lines across the floor. Repeated passes make the lines denser.**
 
-Invisible painters start near you. Re-tracing the same cells raises density, and the look matches gameplay strength.
+Standing on painted lines raises damage and speed, while enemies standing on them take continuous damage. Denser lines strengthen both effects.
 
 ## Drawing
 
-- About **3** painters for the first copy; each extra copy adds +1.
-- Higher floors draw faster instead of spawning more entities.
-- Each room starts fresh; lines clear on leave.
+- Brushes begin drawing near the character in each new room.
+- They avoid obstacles and prefer areas that have not been painted yet.
+- Repeated passes increase line density.
+- The room's drawing disappears when you leave.
 
 ## Standing on lines
 
@@ -37,11 +38,9 @@ Denser lines underfoot:
 
 Enemies on heated cells take periodic damage; denser lines hurt more. Damage is attributed to the owning player.
 
-## Notes
+## Extra copies
 
-- Don’t only chase foes—stand on thick paint to use it as your own ground.
-- Extra copies add a painter and raise the per-cell density cap.
-- Lines do not persist across rooms.
+Each extra copy adds 2 brushes and raises the maximum density an area can accumulate. Brush count also rises slightly with floor progress.
 
 ## Synergies
 
@@ -61,10 +60,9 @@ Abyss spawns three matching locusts.
 <details>
 <summary>Technical details</summary>
 
-- First copy: 3 painters; +1 painter and heat cap `10 + 2×(copies−1)` per extra.
+- Brush count: `copies × 2 + 4 + floor(stage / 2)`; density cap `10 + 2×(copies−1)`.
 - Player damage ≈ +3% mul per heat (cap +50%); speed ≈ +0.015 per heat.
 - Enemy damage ≈ every 10 frames `0.15 × Damage × heat`.
 - Seija: 1 painter, heat cap ≤ 5.
-- Logic painters + per-player heat map + floor visuals; no controllable familiars.
 
 </details>

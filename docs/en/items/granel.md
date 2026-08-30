@@ -4,7 +4,7 @@ description: "Your future shall be judged by me"
 slug: granel
 kind: collectible
 internalKey: Granel
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>泯灭因子 Granel Granel granel Granel 你的未来由我惩戒 Your future shall be judged by me 持续攻击蓄力，反复点按可加快蓄力 停止攻击后蓄力逐渐流失 蓄满后向四周连续喷射大量火焰 Hold fire to charge; repeated taps charge faster Charge gradually decays while not firing At full charge, unleash waves of flames in four directions</p>
 
@@ -41,15 +41,7 @@ The flames:
 
 ## The Three Factors
 
-Skiel, Wisel, and Granel belong to the same item set.
-
-When they appear as pickups, the pedestal cycles among the three; **you receive whichever form is shown when you pick it up.**
-
-```text
-Skiel → Wisel → Granel → …
-```
-
-After pickup, the item no longer changes on its own.
+The pedestal cycles Skiel → Wisel → Granel; **you receive whichever form is shown when picked up.** It stops changing afterward.
 
 ## Synergies
 

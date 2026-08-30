@@ -4,9 +4,9 @@ description: "Going live!"
 slug: live-broadcast
 kind: collectible
 internalKey: Live_Broadcast
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>直播姬 Live Broadcast Live_Broadcast live-broadcast Live Broadcast 成为主播出道吧！ Going live! 开启直播模式，观众会实时评论你的行为 精彩表现提高人气，失误与冷场可能使人气下降 人气越高，直播间越活跃 高人气时可能收到赞助礼物，获得临时属性提升 Starts a live stream; viewers comment on your actions in real time Strong plays raise popularity; mistakes and downtime can lower it Higher popularity makes the chat more active High popularity may bring sponsor gifts with temporary stat boosts</p>
+<p class="wiki-search-index" v-pre>直播姬 Live Broadcast Live_Broadcast live-broadcast Live Broadcast 成为主播出道吧！ Going live! 战斗、拾取与消费等行为会触发观众弹幕 观众评价会改变人气 人气越高，弹幕越活跃，并可能收到赞助礼物 礼物提供临时属性或主动充能 Combat, pickups, and spending can trigger viewer chat Viewer reactions change popularity Higher popularity means livelier chat and possible sponsor gifts Gifts grant temporary stats or active charge</p>
 
 <PublicEntry slug="live-broadcast" lang="en" />
 
@@ -16,26 +16,28 @@ status: stub
 
 ## Effects
 
-Live Broadcast turns the run into an ongoing stream: many normal actions are recognized, viewers comment in chat, and popularity rises or falls with the show.
+Live Broadcast turns the run into an ongoing stream: **act → receive viewer chat → change popularity → alter chat density and gifts.**
 
-It reacts to more than kills, for example:
+Viewers notice specific events such as:
 
-- combat performance;
-- taking damage and danger states;
-- picking up resources, taking or skipping items;
-- using pills;
-- buying or not buying in shops;
-- long idle stretches and special events.
+- finding a quality-4 item or leaving an item behind;
+- clearing a Boss Room;
+- taking damage or falling to very low health;
+- taking a bad pill;
+- facing an unaffordable or skipped shop item;
+- finding notable items such as Red Key or R Key;
+- spending a long time without moving or firing;
+- dying, including the Lost Soul's death.
 
 ## Popularity
 
-The stream has heat tiers. Higher heat means denser chat, denser events, and better odds of strong rewards or high-value gifts.
+Viewer reactions build popularity. Higher popularity makes comments appear more often and creates denser chat bursts.
 
 ## Gifts
 
-At high popularity, sponsor gifts may appear. They mainly grant **temporary** stat boosts (and may help active charges)—short-term stream rewards, not permanent growth.
+High-event moments may produce sponsor gifts. Gifts temporarily raise luck, tears, or damage, or add charge to an active item that is not full.
 
 ## Notes
 
-- Mistakes, downtime, and danger can be noted too; popularity is not only upward.
-- You do not need every chat event memorized—play as if the run is on stream.
+- Damage, bad pills, and long idle stretches also draw viewer reactions.
+- Gift stat bonuses decay over time.

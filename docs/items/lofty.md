@@ -4,7 +4,7 @@ description: "坠入深不见底的绝望深渊吧"
 slug: lofty
 kind: collectible
 internalKey: Lofty
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>至高之阵 Lofty Lofty lofty Lofty 坠入深不见底的绝望深渊吧 Bottomless despair abyss 每个房间首次受伤时阻挡伤害，并释放扩张的冲击波 冲击波命中敌人后，会从目标处再次扩散 本房间护盾尚未触发时，持续攻击蓄力可主动释放冲击波 Block the first hit in each room and release an expanding shockwave Enemies touched by the wave emit another shockwave While the room&#x27;s shield is unused, hold fire to charge and release a shockwave</p>
 

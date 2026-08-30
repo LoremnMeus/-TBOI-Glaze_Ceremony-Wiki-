@@ -4,7 +4,7 @@ description: "Your past is shrouded by me"
 slug: skiel
 kind: collectible
 internalKey: Skiel
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>痛苦因子 Skiel Skiel skiel Skiel 你的过去由我笼罩 Your past is shrouded by me 持续攻击进行蓄力 蓄满后展开由泪弹连接而成的因子网 松开攻击会失去当前蓄力 Keep firing to charge At full charge, release a linked web of tears Releasing fire resets the current charge</p>
 
@@ -42,15 +42,7 @@ Firing also nudges you slightly along the attack direction.
 
 ## The Three Factors
 
-Skiel, Wisel, and Granel belong to the same item set.
-
-When they appear as pickups, the pedestal cycles among the three; **you receive whichever form is shown when you pick it up.**
-
-```text
-Skiel → Wisel → Granel → …
-```
-
-After pickup, the item no longer changes on its own.
+The pedestal cycles Skiel → Wisel → Granel; **you receive whichever form is shown when picked up.** It stops changing afterward.
 
 ## Synergies
 

@@ -4,7 +4,7 @@ description: "物皆有能"
 slug: moment
 kind: collectible
 internalKey: Moment
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>妖星·一瞬 Moment Moment moment Moment 物皆有能 lasrever dlroW 回收攻击留下的残余能量 回收的能量会逐渐转化为随机属性提升 能量过高后开始自动泄露 严重过载会触发零点反转，使积累的属性反向生效 Recover residual energy left by your attacks Recovered energy gradually becomes random stat bonuses Excess energy is automatically vented Severe overload triggers Zero Reversal, reversing the accumulated bonuses</p>
 
@@ -18,7 +18,7 @@ status: stub
 
 **妖星·一瞬把攻击留下的残余能量收回角色，并逐渐换成属性成长。**
 
-泪弹消失、刀命中、激光持续照射，以及炸弹或火箭结束时，都可能产生会飞回角色的残余能量。回收一份能量会随机增加攻击、射速、射程、移速或幸运；同一属性积累越多，后续实际提升越小。
+各种攻击结束、命中或持续作用时，都可能留下飞回角色的残余能量。回收能量会随机增加攻击、射速、射程、移速或幸运；同一属性积累越多，后续实际提升越小。
 
 总能量超过 **300** 后，晨星装置开始自动泄压，已积累的能量与属性会逐渐降低。若总能量仍超过 **999**，则触发零点反转：积累的属性改为反向生效，画面与房间内容也会出现上下翻转。能量继续泄露至低于 3 后，反转结束并恢复正常。
 

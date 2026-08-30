@@ -4,7 +4,7 @@ description: "物皆有灵"
 slug: spectralsword
 kind: collectible
 internalKey: Spectralsword
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>妖刀·逢魔 Spectral Sword Spectralsword spectralsword Spectralsword 物皆有灵 Out of its sheath 使用后唤出寄宿于刀中的妖鬼 妖鬼可以重新分配角色的属性，并转换部分基础资源 想得到什么，就必须从自己身上割下别的东西 Use to call the oni that dwells in the blade It can redistribute your stats and convert some basic resources To gain something, you must cut something else from yourself</p>
 
@@ -22,10 +22,9 @@ status: drafted
 
 ## 属性重塑
 
-- 内部用**灵质**计价：提高属性消耗灵质，削减属性释放灵质。
-- 首次打开有少量初始灵质，足够一次小型交换。
-- 改的是妖刀施加的 **delta 层**，不是直接覆写最终面板数值。
-- 每项属性有上下限；确认后才写入并刷新缓存。
+- 降低一项属性可以换取**灵质**；提高其他属性则需要消耗灵质。
+- 初次获得时拥有少量灵质，可以立即进行有限调整。
+- 每项属性都有可调整范围，面板会直接预览调整后的结果。
 
 ## 资源转换
 
@@ -33,14 +32,12 @@ status: drafted
 
 ## 确认与重置
 
-- 面板内先预览，**确认重塑**后统一生效。
-- **重置重塑**清空全部属性 delta，并回到初始灵质预算。
+- 面板内的调整会先预览，选择**确认重塑**后才真正生效。
+- **重置重塑**会恢复本道具造成的全部属性调整，并取回初始灵质预算。
 
 ## 注意
 
-- 不能凭空无限制造总价值。
 - 失去妖刀后，重塑属性立即失效；本局内再获得可恢复先前方案。
-- 旧版「词缀 / 改名 / 改描述」已迁出，不再属于本道具。
 
 ## 与妖刻·白隙
 

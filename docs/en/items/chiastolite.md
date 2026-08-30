@@ -4,7 +4,7 @@ description: "Sacrifice with blood"
 slug: chiastolite
 kind: collectible
 internalKey: Chiastolite
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>无名刃：心灾 Chiastolite Chiastolite chiastolite Chiastolite 最好以血浇灌 Sacrifice with blood 心剑会自动附身于一名敌人 目标受到伤害时，暂时斩出其当前生命的20% 被斩出的生命会在短暂延迟后飞回目标 Boss仅斩出5%，且额外伤害存在上限 A heart blade automatically possesses an enemy When that foe takes damage, temporarily cut out 20% of its current HP The cut HP flies back to the target after a short delay Bosses lose only 5%, and the bonus cut has a damage cap</p>
 
@@ -20,12 +20,12 @@ Chiastolite sends a heart blade that auto-possesses an enemy. When that foe take
 
 ## Cut
 
-After a qualifying hit, an extra slice of current HP is removed:
+Each time the possessed target takes damage, an extra slice of current HP is removed:
 
 - Normal enemies: about 20%
 - Bosses: about 5%
 
-The bonus cut is capped (scales with damage, with a floor), so it is not unbounded percent damage.
+Each extra cut is capped at `Damage × 10`, with a minimum cap of 100 damage.
 
 ## HP return
 

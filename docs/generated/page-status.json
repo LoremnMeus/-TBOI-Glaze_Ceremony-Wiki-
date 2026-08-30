@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T12:15:20Z",
+  "generatedAt": "2026-08-30T13:16:30Z",
   "pages": [
     {
       "slug": "darkness",
@@ -271,8 +271,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/fates-draw.md",
       "en": "wiki/docs/en/items/fates-draw.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "my-emblem",
@@ -391,8 +391,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/nazca.md",
       "en": "wiki/docs/en/items/nazca.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "cloundy",
@@ -407,80 +407,80 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/skiel.md",
       "en": "wiki/docs/en/items/skiel.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "wisel",
       "kind": "collectible",
       "zh": "wiki/docs/items/wisel.md",
       "en": "wiki/docs/en/items/wisel.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "granel",
       "kind": "collectible",
       "zh": "wiki/docs/items/granel.md",
       "en": "wiki/docs/en/items/granel.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "spectralsword",
       "kind": "collectible",
       "zh": "wiki/docs/items/spectralsword.md",
       "en": "wiki/docs/en/items/spectralsword.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "squiresaga",
       "kind": "collectible",
       "zh": "wiki/docs/items/squiresaga.md",
       "en": "wiki/docs/en/items/squiresaga.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "moment",
       "kind": "collectible",
       "zh": "wiki/docs/items/moment.md",
       "en": "wiki/docs/en/items/moment.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "lofty",
       "kind": "collectible",
       "zh": "wiki/docs/items/lofty.md",
       "en": "wiki/docs/en/items/lofty.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "theseuss-sign",
       "kind": "collectible",
       "zh": "wiki/docs/items/theseuss-sign.md",
       "en": "wiki/docs/en/items/theseuss-sign.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "heart-change",
       "kind": "collectible",
       "zh": "wiki/docs/items/heart-change.md",
       "en": "wiki/docs/en/items/heart-change.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "cable-jar",
       "kind": "collectible",
       "zh": "wiki/docs/items/cable-jar.md",
       "en": "wiki/docs/en/items/cable-jar.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "gospel",
@@ -495,88 +495,88 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/tiramisu.md",
       "en": "wiki/docs/en/items/tiramisu.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "live-broadcast",
       "kind": "collectible",
       "zh": "wiki/docs/items/live-broadcast.md",
       "en": "wiki/docs/en/items/live-broadcast.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "drama-of-sorrow-and-joy",
       "kind": "collectible",
       "zh": "wiki/docs/items/drama-of-sorrow-and-joy.md",
       "en": "wiki/docs/en/items/drama-of-sorrow-and-joy.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "tzolkin",
       "kind": "collectible",
       "zh": "wiki/docs/items/tzolkin.md",
       "en": "wiki/docs/en/items/tzolkin.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "pareidolia",
       "kind": "collectible",
       "zh": "wiki/docs/items/pareidolia.md",
       "en": "wiki/docs/en/items/pareidolia.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "reversal-film",
       "kind": "collectible",
       "zh": "wiki/docs/items/reversal-film.md",
       "en": "wiki/docs/en/items/reversal-film.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "tears-of-pearl",
       "kind": "collectible",
       "zh": "wiki/docs/items/tears-of-pearl.md",
       "en": "wiki/docs/en/items/tears-of-pearl.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "d-nan",
       "kind": "collectible",
       "zh": "wiki/docs/items/d-nan.md",
       "en": "wiki/docs/en/items/d-nan.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "risemara",
       "kind": "collectible",
       "zh": "wiki/docs/items/risemara.md",
       "en": "wiki/docs/en/items/risemara.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "chiastolite",
       "kind": "collectible",
       "zh": "wiki/docs/items/chiastolite.md",
       "en": "wiki/docs/en/items/chiastolite.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "calamity",
       "kind": "collectible",
       "zh": "wiki/docs/items/calamity.md",
       "en": "wiki/docs/en/items/calamity.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "shadow-bottle",

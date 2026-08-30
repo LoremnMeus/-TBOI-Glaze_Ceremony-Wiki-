@@ -4,7 +4,7 @@ description: "你的过去由我笼罩"
 slug: skiel
 kind: collectible
 internalKey: Skiel
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>痛苦因子 Skiel Skiel skiel Skiel 你的过去由我笼罩 Your past is shrouded by me 持续攻击进行蓄力 蓄满后展开由泪弹连接而成的因子网 松开攻击会失去当前蓄力 Keep firing to charge At full charge, release a linked web of tears Releasing fire resets the current charge</p>
 
@@ -42,15 +42,7 @@ status: drafted
 
 ## 三因子
 
-痛苦因子、绝望因子与泯灭因子属于同一组道具。
-
-当它们作为可拾取道具生成时，底座会在三种因子之间轮换；**拾取时显示的是哪一种，就获得哪一种。**
-
-```text
-痛苦因子 → 绝望因子 → 泯灭因子 → …
-```
-
-拾取以后，获得的道具不会继续自行变化。
+三因子的底座会按痛苦 → 绝望 → 泯灭循环变化；**拾取时显示哪一种，就获得哪一种。**拾取后不再变化。
 
 ## 特殊联动
 

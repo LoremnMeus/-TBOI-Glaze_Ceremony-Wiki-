@@ -4,7 +4,7 @@ description: "神明立于尘埃之上"
 slug: nazca
 kind: collectible
 internalKey: Nazca
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>纳兹卡巨画 Nazca Nazca nazca Nazca 神明立于尘埃之上 Earthbound Deity 在房间中不断绘制地缚图线 敌人站在线上会持续受到伤害 站在线上时，根据图线浓度提高 攻击与 移速 Keeps drawing earthbound lines across the room Enemies standing on the lines take damage over time Standing on denser lines raises Damage and Speed</p>
 
@@ -16,15 +16,16 @@ status: drafted
 
 ## 效果
 
-**纳兹卡巨画会让房间地面逐渐出现越来越完整的地缚图线；这些线本身就是战场的一部分，而不是单纯特效。**
+**纳兹卡巨画会让数支画笔在房间中自行游走，不断在地面留下图线。反复经过同一区域后，图线会越来越浓。**
 
-持有后，数名无形绘制者会从角色附近开始画线。同一区域被反复经过时，图线浓度上升，视觉也会更明显——看到的浓淡就是实际强度。
+角色站在线上时获得攻击与移速提升；敌人踩在线上则持续受到伤害。图线越浓，两种效果越强。
 
 ## 绘制
 
-- 每份基础约 **3** 名绘制者；每额外一份再 +1。
-- 楼层越高，绘制越快，而不是再堆出更多实体。
-- 每个房间重新开画；离开后清空。
+- 进入新房间后，画笔从角色附近开始绘制。
+- 画笔会避开障碍，并倾向寻找尚未绘制的区域。
+- 同一处被多次经过时，图线浓度提高。
+- 离开房间后，本房间的图线消失。
 
 ## 站在线上
 
@@ -37,11 +38,9 @@ status: drafted
 
 敌人踩在有浓度的图线上时，会持续受伤；浓度越高越痛。伤害来源归属对应持有者。
 
-## 注意
+## 重复持有
 
-- 不要只追怪：主动站在已经画浓的区域，才能把巨画变成自己的阵地。
-- 重复持有会多一名绘制者，并提高单格浓度上限。
-- 图线不跨房间保留。
+每额外持有一份增加 2 支画笔，并提高同一区域能够积累的最大浓度。画笔数量也会随楼层略微增加。
 
 ## 特殊联动
 
@@ -61,10 +60,9 @@ status: drafted
 <details>
 <summary>技术细节</summary>
 
-- 第一份 3 painters；每额外一份 +1 painter，浓度上限 `10 + 2×(份数−1)`。
+- 画笔数量：`份数 × 2 + 4 + floor(楼层阶段 / 2)`；浓度上限 `10 + 2×(份数−1)`。
 - 玩家伤害乘算约每层浓度 +3%，上限 +50%；移速约每层 +0.015。
 - 敌伤约每 10 帧 `0.15 × 攻击 × 浓度`。
 - Seija：1 painter，浓度上限至多 5。
-- 逻辑 painter + 分玩家 heat map + 地板视觉；不再生成可控 familiar。
 
 </details>

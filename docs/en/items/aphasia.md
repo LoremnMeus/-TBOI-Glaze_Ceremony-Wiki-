@@ -36,7 +36,7 @@ When you fire a tear and the buffer is not empty, one random word is spent: it a
 ## Notes
 
 - {{EID}} is not scrambled.
-- Vanilla item popups and some Fortune / Tips lines can still be altered; “unaffected” does not cover every external string.
+- Vanilla item popups and some Fortune or Tips text can still be altered.
 - Each tear spends at most one word.
 - Non-tear attacks do not consume word ammo.
 

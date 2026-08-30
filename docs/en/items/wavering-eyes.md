@@ -75,6 +75,5 @@ Tear color and player flicker show Focus and Defocus; the cues grow clearer as y
 - 5 Focus: nearest foe within 90, velocity direction lerp ~4% per frame; 8+ uses real homing.
 - 8 / 13 / 21 add homing, hook worm, and rubber tear flags.
 - Focus: tear tint deepens; 5+ purple bias; 8 / 13 / 21 stronger trail / saturation. Defocus: light jitter, darker tears, flicker near cap; brief white flash and quiet fail sound on reset (no popup).
-- Focus and Defocus stored per player in `gaze` / `defocus`; migrated from legacy save keys on continue; fresh run clears both. Phase is not saved.
 
 </details>
