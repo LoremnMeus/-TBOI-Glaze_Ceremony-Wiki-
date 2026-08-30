@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T05:36:46Z",
+  "generatedAt": "2026-08-30T07:29:37Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -5167,8 +5167,8 @@
         "en": "Hello...Again?"
       },
       "eid": {
-        "zh": "自动巡航，追逐并拦截附近的敌方弹幕#拦截后将其转化为竖直落下的{{Collectible331}}泪弹，下落时留下伤害光环",
-        "en": "Cruises automatically, chases and intercepts nearby enemy projectiles#Converts them into falling {{Collectible331}} tears that leave a damaging aura"
+        "zh": "自动巡航，追逐并拦截附近的敌方弹幕#拦截后将其转化为竖直落下的{{Collectible331}} 神性泪弹，下落时留下伤害光环",
+        "en": "Cruises automatically, chases and intercepts nearby enemy projectiles#Converts them into falling {{Collectible331}} Godhead tears that leave a damaging aura"
       },
       "seijaBuff": {
         "zh": "",
@@ -5297,8 +5297,8 @@
         "en": "I Feel...Glazed..uh?"
       },
       "eid": {
-        "zh": "{{Heart}} +1心之容器#{{BossRoom}} Boss道具池底座有20%被菌丝侵蚀并变为{{Collectible12}}#本局最多触发一次",
-        "en": "{{Heart}} +1 Heart container#{{BossRoom}} Boss-pool pedestals have a 20% chance to be overgrown into {{Collectible12}}#Triggers at most once per run"
+        "zh": "{{Heart}} +1心之容器#{{BossRoom}} Boss道具池底座有20%被菌丝侵蚀并变为{{Collectible12}} 魔法蘑菇#本局最多触发一次",
+        "en": "{{Heart}} +1 Heart container#{{BossRoom}} Boss-pool pedestals have a 20% chance to be overgrown into {{Collectible12}} Magic Mushroom#Triggers at most once per run"
       },
       "seijaBuff": {
         "zh": "",
@@ -5914,8 +5914,8 @@
         "en": "Those who rise up must be drifting down."
       },
       "eid": {
-        "zh": "不移动时眼泪向上飘，随后从地面上重新出现 #移动时眼泪加速下落 #{{Tears}} 射速+1",
-        "en": "Standing still provides floating up tears#otherwise tears slowly float down#{{Tears}} +2 Tears up"
+        "zh": "{{Tears}} 射速上升#停止移动时，泪弹会被反重力送向空中#升天的泪弹会重新落回并获得强化",
+        "en": "{{Tears}} Tears up#While standing still, your tears are pulled skyward#Tears that ascend return stronger"
       },
       "seijaBuff": {
         "zh": "",
@@ -6135,16 +6135,16 @@
         "en": "Also Double Price"
       },
       "eid": {
-        "zh": "商品二选一 #!!! 商品价格随机提升0-35%",
-        "en": "Shop items and devil deals become a selection in two.#All shop items will have a higher price, between 100% and 135%."
+        "zh": "{{Shop}} 商品会额外生成一个二选一选项#{{Warning}} 商品价格随机提高约0–35%",
+        "en": "{{Shop}} Shop items gain an extra either/or choice#{{Warning}} Prices rise randomly by about 0–35%"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "价格翻3倍",
-        "en": "Triple price"
+        "zh": "价格变为约三倍",
+        "en": "Prices become about triple"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -6251,8 +6251,8 @@
         "en": "My Drawwww!!!!"
       },
       "eid": {
-        "zh": "{{Card}} 你持有的所有卡牌均在同种类卡间切换",
-        "en": "{{Card}} Change your card in hand every 0.2 seconds."
+        "zh": "持有的卡牌会不断变为同种类的另一张牌#按住{{ButtonDrop}}可以暂时锁定当前牌",
+        "en": "Held cards keep changing into another card of the same type#Hold {{ButtonDrop}} to briefly lock your current cards"
       },
       "seijaBuff": {
         "zh": "",
@@ -6404,8 +6404,8 @@
         "en": "Finally a home for me.."
       },
       "eid": {
-        "zh": "3个造成每15帧7点接触伤害的纹章宝宝 #让宝宝随着子弹发射组织进攻",
-        "en": "Spawn 3 emblem familiars that follows Isaac and deals 10 collision damage per second. #Emblem familiar can absorb 1 bullet after dealing collision damage. #Familiars will follow Isaac's tear to move around."
+        "zh": "生成3个纹章#大多数跟班会沿着你的泪弹轨迹组织进攻#纹章接触敌人造成伤害，并可拦截敌弹",
+        "en": "Spawns 3 emblems#Most familiars organize attacks along your tear paths#Emblems deal contact damage and can block enemy shots"
       },
       "seijaBuff": {
         "zh": "",
@@ -6784,28 +6784,28 @@
         "en": "Stage a Comeback"
       },
       "eid": {
-        "zh": "使用主动标记敌人 #!!! 角色死亡时将取代被标记的敌人，复活并失去数个随机{{Collectible}}道具，不足时增加{{BrokenHeart}}碎心",
-        "en": "Fire devil's mark at enemy#!!! Revive at a live enemy's position that is marked when you die#After that,remove several {{Collectible}}collectibles or add {{BrokenHeart}} broken hearts and kill the enemy"
+        "zh": "向敌人植入恶魔种子，与其缔结替死契约#你受到致死伤害时，宿主会替你承担死亡#{{Warning}} 宿主先受到致死伤害时，你会替它承担代价",
+        "en": "Plant a devil seed to bind a two-way death pact#If you take lethal damage, the host dies in your place#{{Warning}} If the host would die first, you pay the cost instead"
       },
       "seijaBuff": {
-        "zh": "复活时不消耗道具",
-        "en": "Revive without removing items"
+        "zh": "反向替死时你受伤更轻；正向替死时你仍会受到一点伤害",
+        "en": "You take less when paying for the host, but still take a hit when the host pays for you"
       },
       "seijaNerf": {
         "zh": "",
         "en": ""
       },
       "bookOfVirtues": {
-        "zh": "每个魂火可以替代一个道具被主动抵消",
-        "en": "Each wisp replace a collectible to be removed"
+        "zh": "魂火可使宿主在替死时改为重伤而不死亡",
+        "en": "A wisp can make the host take heavy damage instead of dying for you"
       },
       "bookOfBelial": {
-        "zh": "复活后依次获得：#前5次：{{Collectible51}}#5-12次：{{Collectible462}}#13次以上：{{Collectible118}}",
-        "en": "Gain item depending on reviving time：#1-5：{{Collectible51}}#5-12：{{Collectible462}}#More than 13：{{Collectible118}}"
+        "zh": "宿主替你死后，本房间获得临时攻击提升",
+        "en": "When a host dies for you, gain a temporary room damage up"
       },
       "abyssSynic": {
         "zh": "蝗虫命中敌人也进行标记",
-        "en": "Marking locust"
+        "en": "Abyss locusts can also mark enemies"
       },
       "icon": "/generated/images/devils-heart.png",
       "thumb32": "/generated/images/devils-heart_32.webp",
@@ -7158,8 +7158,8 @@
         "en": ""
       },
       "bookOfVirtues": {
-        "zh": "和平魂火 #角色受到2格心或以上的伤害时，熄灭全部和平魂火，那个伤害被抵消",
-        "en": "Peace wisps prevent one hit of 2 hearts or more, then all vanish"
+        "zh": "和平魂火 #角色受到至少1整心伤害时，熄灭全部和平魂火并抵消该次伤害",
+        "en": "Peace wisps block a hit of at least 1 full heart, then all vanish"
       },
       "bookOfBelial": {
         "zh": "",
@@ -7377,12 +7377,12 @@
         "en": "Pendulum Star"
       },
       "desc": {
-        "zh": "摇晃吧！吾魂之灵摆！",
-        "en": "Pendulum Scale Setting"
+        "zh": "刻度设置完毕",
+        "en": "Scale set"
       },
       "eid": {
-        "zh": "一对不断晃动的跟班，在最低点对敌人造成每帧3.5点伤害",
-        "en": "Spawn a pair of constantly shaking followers deal 3.5 damage per frame to the enemy at the lowest point."
+        "zh": "生成一对摆动的灵摆星#穿过两星之间的泪弹会被记录#灵摆摆至最低点时，从另一侧再次召唤这些泪弹",
+        "en": "Spawns a pair of swinging pendulum stars#Tears that cross between them are recorded#At the next bottom of the swing, those tears are resummoned from the opposite star"
       },
       "seijaBuff": {
         "zh": "",
@@ -7799,12 +7799,12 @@
         "en": "Book of Vision"
       },
       "desc": {
-        "zh": "视线所及，再无安宁",
-        "en": "Doubook Vision"
+        "zh": "看见两次",
+        "en": "See twice"
       },
       "eid": {
-        "zh": "使用后，当前房间内资源获取、消耗量翻倍 #金雷、金钥匙对应3个普通基础",
-        "en": "Double all pickup acquisition and consumption in the current room.#Extra golden bomb/golden key corresponds to 3 bombs/keys."
+        "zh": "本房间内基础资源的获得与消耗都会重复一次#{{GoldenBomb}} {{GoldenKey}} 获得时额外转化为3个对应基础资源",
+        "en": "Basic resource gains and spends in this room are applied again#{{GoldenBomb}} {{GoldenKey}} also grant 3 matching basic resources"
       },
       "seijaBuff": {
         "zh": "",
@@ -7815,12 +7815,12 @@
         "en": ""
       },
       "bookOfVirtues": {
-        "zh": "获得资源时，自动消耗并将资源量+1的魂火",
-        "en": "Spawn a wisp that automatically extinguish and duplicate the pickup on collision."
+        "zh": "每次有效获得资源时，消耗全部觅之书魂火，并按魂火数量额外再复制一次",
+        "en": "On a resource gain, consume Vision wisps and duplicate once more per wisp"
       },
       "bookOfBelial": {
         "zh": "获得心类资源时额外获得半颗黑心",
-        "en": "Grants heart-type pickups an additional half a black heart."
+        "en": "Gaining heart-type resources also grants half a black heart"
       },
       "abyssSynic": {
         "zh": "",
@@ -7948,8 +7948,8 @@
         "en": "Destroy me. Quickly."
       },
       "eid": {
-        "zh": "{{Battery}} 以0充能获得；充满后可主动呼唤低语#低语也会自然响起，并使此书暂时可用#{{Collectible}} 使用后选择接受或拒绝，接受则立即完成交易#每次接受都会让声音更加清晰，并缩短充能",
-        "en": "{{Battery}} Obtained at 0 charge; when full, can call a whisper#Whispers also start on their own and temporarily make this book usable#{{Collectible}} Use to accept or refuse; accepting completes the deal immediately#Each accept makes the voice clearer and shortens charge"
+        "zh": "{{Battery}} 以0充能获得；充满后可主动呼唤低语#低语也会自然响起，并使此书暂时可用#{{Collectible}} 使用后选择接受或拒绝，接受则立即完成交易#每次接受都会让声音更加清晰，并缩短充能#不断接受后，它会发生变化",
+        "en": "{{Battery}} Obtained at 0 charge; when full, can call a whisper#Whispers also start on their own and temporarily make this book usable#{{Collectible}} Use to accept or refuse; accepting completes the deal immediately#Each accept makes the voice clearer and shortens charge#Keep accepting, and it will change"
       },
       "seijaBuff": {
         "zh": "拒绝低语也会获得小型报酬，并使声音更加清晰",
@@ -8071,8 +8071,8 @@
         "en": "Hardly can I ever read"
       },
       "eid": {
-        "zh": "!!! 失去表述文字的能力 #无法表述的文字散落在地上 #{{Damage}} 收集文字，每个文字可以让一发眼泪增加2.5点伤害，并暂时提升0.4攻击 #不会影响EID",
-        "en": "!!! Lose the ability to express words, including most of normal descriptions in the game.#Words scattered around#{{Damage}} Picking up words grants bonus damage"
+        "zh": "大部分普通道具文字会被打乱，并从描述中掉落#拾取文字会暂时提高攻击，并保存为文字弹药#发射泪弹时消耗一个文字，使该泪弹获得额外伤害#不会打乱EID",
+        "en": "Most normal item text is scrambled, and some characters fall to the floor#Picked-up words briefly raise damage and are stored as word ammo#Firing a tear spends one word and boosts that tear#Does not scramble EID"
       },
       "seijaBuff": {
         "zh": "",
@@ -8234,16 +8234,16 @@
         "en": "Earthbound Deity"
       },
       "eid": {
-        "zh": "从角色的身下开始绘制地缚图线 #踩到的敌人受到伤害 #{{Damage}} 站立在地缚图线上获得速度与攻击倍率提升，最高+100%",
-        "en": "Draw nazca lines in the room #{{Damage}} Deal damage to the enemies and grants stats bonus to Isaac"
+        "zh": "在房间中不断绘制地缚图线#敌人站在线上会持续受到伤害#站在线上时，根据图线浓度提高{{Damage}}攻击与{{Speed}}移速",
+        "en": "Keeps drawing earthbound lines across the room#Enemies standing on the lines take damage over time#Standing on denser lines raises {{Damage}} and {{Speed}}"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "只有一条绘制线",
-        "en": "Only one draw line"
+        "zh": "只保留一名绘制者，且图线浓度上限降低",
+        "en": "Only one painter, with a lower line density cap"
       },
       "bookOfVirtues": {
         "zh": "",

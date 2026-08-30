@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Super_Bombs
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>超级炸弹 Super Bombs Super_Bombs super-bombs Super Bombs 口袋里的末日 My pocket doomsday +5超大炸弹 没有超大炸弹时，20秒未使用炸弹会使1枚炸弹成长为超大炸弹 主主动槽为空时，2分钟未使用炸弹会使1枚超大炸弹成长为妈咪炸弹 +5 Giga Bombs With no Giga Bombs, leave bombs unused for 20 seconds to grow 1 into a Giga Bomb With the primary active slot empty, leave bombs unused for 2 minutes to grow 1 Giga Bomb into Mama Mega</p>
+<p class="wiki-search-index" v-pre>超级炸弹 Super Bombs Super_Bombs super-bombs Super Bombs 口袋里的末日 My pocket doomsday +5超大炸弹 没有超大炸弹时，20秒未使用炸弹会使1枚炸弹成长为超大炸弹 妈咪炸弹！ 主主动槽为空时，2分钟未使用炸弹会使1枚超大炸弹成长为妈咪炸弹 +5 Giga Bombs With no Giga Bombs, leave bombs unused for 20 seconds to grow 1 into a Giga Bomb Mama Mega! With the primary active slot empty, leave bombs unused for 2 minutes to grow 1 Giga Bomb into Mama Mega</p>
 
 <PublicEntry slug="super-bombs" lang="zh" />
 

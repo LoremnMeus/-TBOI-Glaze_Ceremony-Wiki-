@@ -4,9 +4,9 @@ description: "快，毁灭我"
 slug: book-of-voice
 kind: collectible
 internalKey: Book_of_Voice
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>假象之书 Book of Voice Book_of_Voice book-of-voice Book of Voice 快，毁灭我 Destroy me. Quickly. 以0充能获得；充满后可主动呼唤低语 低语也会自然响起，并使此书暂时可用 使用后选择接受或拒绝，接受则立即完成交易 每次接受都会让声音更加清晰，并缩短充能 Obtained at 0 charge; when full, can call a whisper Whispers also start on their own and temporarily make this book usable Use to accept or refuse; accepting completes the deal immediately Each accept makes the voice clearer and shortens charge</p>
+<p class="wiki-search-index" v-pre>假象之书 Book of Voice Book_of_Voice book-of-voice Book of Voice 快，毁灭我 Destroy me. Quickly. 以0充能获得；充满后可主动呼唤低语 低语也会自然响起，并使此书暂时可用 使用后选择接受或拒绝，接受则立即完成交易 每次接受都会让声音更加清晰，并缩短充能 不断接受后，它会发生变化 Obtained at 0 charge; when full, can call a whisper Whispers also start on their own and temporarily make this book usable Use to accept or refuse; accepting completes the deal immediately Each accept makes the voice clearer and shortens charge Keep accepting, and it will change</p>
 
 <PublicEntry slug="book-of-voice" lang="zh" />
 
@@ -14,4 +14,73 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+**假象之书会不断对你耳语。每次它提出要求时，都可以接受或拒绝；接受得越多，它就越频繁，也越接近成为真正的「声音」。**
+
+以 **0** 充能入手，基础最大充能 **6**。充满后可以主动呼唤一次低语；低语也会自己响起，并让这本书暂时进入可回应状态——不必一直按着它才「有用」。
+
+低语出现后使用书本，在选项里选择接受或拒绝。接受会立即支付要求并兑现报酬；拒绝则不做交易。
+
+## 顺从
+
+每次接受都会让声音更清晰。顺从加深后：
+
+- 最大充能按顺从程度下降（最低 **1**），低语更容易再次充满；
+- 后期低语更常提出更重的代价与更高的报酬；
+- 顺从足够深时，会出现「毁灭我」——接受后假象之书消失，并留下 {{Item:the-voice}}。
+
+**你越顺从，声音越频繁。**
+
+## 拒绝
+
+可以拒绝。一般不会因此直接失败；书会给出专属反应，然后进入冷却。拒绝不会推进最终释放，但也不会把进度清零。
+
+## 可能的交易
+
+低语按阶段逐渐加重。下表按**类型**概括，不是完整状态机：
+
+| 类型 | 它可能要求什么 | 接受后常见回报 |
+| --- | --- | --- |
+| 资源交换 | 交硬币 / 钥匙 / 炸弹，或丢弃卡牌、药丸 | 箱子、对立资源、魂心等 |
+| 房间清理 | 清掉红心、箱子、商店货架，或放弃底座 | 立刻生成心、锁箱、道具或更高品质多选一 |
+| 身体代价 | 立即受伤、献祭饰品、失去心之容器或低品质道具 | 魂心、高品质道具、永久攻击提升 |
+| 最终邀约 | 「毁灭假象之书」 | 释放其中的声音，道具变为 {{Item:the-voice}} |
+
+早期多为轻量资源交换；中后期更常出现放弃商店 / 底座、受伤换心、删道具换高品质候选；充能已被压到最低时，「毁灭我」权重极高。
+
+## 声音
+
+释放之后，书不再是唯一入口。低语仍会响起；需要回应时，主动栏可能短暂留下声音的虚影，用虚影确认交易。详见 {{Item:the-voice}}。
+
+## 特殊联动
+
+### {{Collectible:59}}
+
+彼列书效果下，可以**加倍接受**：付更高代价，换更高报酬（例如更多候选、恶魔池多选、额外暂时攻击等）。
+
+### {{Collectible:584}}
+
+回应低语时若持有对应魂火，部分要求会降一级（更少资源、改为丢下饰品而非删除等）。
+
+### {{Seija}}
+
+拒绝低语时仍会获得小型报酬，并让声音更清晰——「违逆」反而推进顺从。
+
+## 使用技巧
+
+- 早期低语可以当「有风险的资源转换器」；没把握就拒绝，等下一次。
+- 需要压缩充能、主动逼近释放时，再连续接受中后期重交易。
+- 商店房与道具房的「放弃一切换立即多选一」要按当前构筑判断，不是无条件赚。
+
+## 轶事
+
+- 道具副标题「快，毁灭我」与最终邀约同一句话；释放后的对白会接到 {{Item:the-voice}} 的「现在，只剩我们两个了」。
+
+<details>
+<summary>技术细节</summary>
+
+- 顺从约每接受 1 次 +1（加倍接受 +2）；达到 **9** 进入释放准备；最大充能为 `max(1, 6 − ⌊顺从/2⌋)`。
+- 释放后移除假象之书并给予声音；部分接受路径会永久提高攻击倍率。
+
+</details>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T05:36:46Z",
+  "generatedAt": "2026-08-30T07:29:37Z",
   "pages": [
     {
       "slug": "darkness",
@@ -247,8 +247,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/field.md",
       "en": "wiki/docs/en/items/field.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "suture-needle",
@@ -263,56 +263,56 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/more-options.md",
       "en": "wiki/docs/en/items/more-options.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "fates-draw",
       "kind": "collectible",
       "zh": "wiki/docs/items/fates-draw.md",
       "en": "wiki/docs/en/items/fates-draw.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "my-emblem",
       "kind": "collectible",
       "zh": "wiki/docs/items/my-emblem.md",
       "en": "wiki/docs/en/items/my-emblem.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "ingestion-to-night",
       "kind": "collectible",
       "zh": "wiki/docs/items/ingestion-to-night.md",
       "en": "wiki/docs/en/items/ingestion-to-night.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "d773",
       "kind": "collectible",
       "zh": "wiki/docs/items/d773.md",
       "en": "wiki/docs/en/items/d773.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "devils-heart",
       "kind": "collectible",
       "zh": "wiki/docs/items/devils-heart.md",
       "en": "wiki/docs/en/items/devils-heart.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "d-v-f",
       "kind": "collectible",
       "zh": "wiki/docs/items/d-v-f.md",
       "en": "wiki/docs/en/items/d-v-f.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "book-of-future",
@@ -327,8 +327,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/hyper-velocity.md",
       "en": "wiki/docs/en/items/hyper-velocity.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "wavering-eyes",
@@ -343,8 +343,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/pendulum-star.md",
       "en": "wiki/docs/en/items/pendulum-star.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "book-of-thoth",
@@ -367,32 +367,32 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/book-of-vision.md",
       "en": "wiki/docs/en/items/book-of-vision.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "book-of-voice",
       "kind": "collectible",
       "zh": "wiki/docs/items/book-of-voice.md",
       "en": "wiki/docs/en/items/book-of-voice.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "aphasia",
       "kind": "collectible",
       "zh": "wiki/docs/items/aphasia.md",
       "en": "wiki/docs/en/items/aphasia.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "nazca",
       "kind": "collectible",
       "zh": "wiki/docs/items/nazca.md",
       "en": "wiki/docs/en/items/nazca.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "cloundy",
@@ -1111,8 +1111,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/the-voice.md",
       "en": "wiki/docs/en/items/the-voice.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "regenesis",

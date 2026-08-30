@@ -4,9 +4,9 @@ description: "Finally a home for me.."
 slug: my-emblem
 kind: collectible
 internalKey: My_Emblem
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>小青的纹章 Qing&#x27;s Emblem My_Emblem my-emblem My Emblem 为它们找个家吧！ Finally a home for me.. 3个造成每15帧7点接触伤害的纹章宝宝 让宝宝随着子弹发射组织进攻 Spawn 3 emblem familiars that follows Isaac and deals 10 collision damage per second. Emblem familiar can absorb 1 bullet after dealing collision damage. Familiars will follow Isaac&#x27;s tear to move around.</p>
+<p class="wiki-search-index" v-pre>小青的纹章 Qing&#x27;s Emblem My_Emblem my-emblem My Emblem 为它们找个家吧！ Finally a home for me.. 生成3个纹章 大多数跟班会沿着你的泪弹轨迹组织进攻 纹章接触敌人造成伤害，并可拦截敌弹 Spawns 3 emblems Most familiars organize attacks along your tear paths Emblems deal contact damage and can block enemy shots</p>
 
 <PublicEntry slug="my-emblem" lang="en" />
 
@@ -14,4 +14,19 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+**Qing's Emblem turns most familiars into a strike force that follows tear paths, then returns to formation.**
+
+The first copy spawns **3** emblem familiars; each extra copy adds **1** more. Emblems deal **7** contact damage about every **15** frames. After dealing contact damage, an emblem can absorb enemy projectiles (type 9), limited by how many recent hits it has stored.
+
+While held, emblems take control of most familiars: idle units peel off along the player's tear paths, then return once the tear is gone. A few orbiters and special familiars stay on their normal behavior.
+
+## Notes
+
+- Not every familiar joins the strike—some orbiters, chain-style familiars, and mod-specific specials are excluded.
+- Contact damage and projectile absorption belong to the emblem familiars themselves; commandeered babies do not inherit the absorb.
+
+## Tips
+
+- More familiars mean more units that can ride different tear paths at once; extra Emblem copies mainly add more emblems and front-line contact pressure.

@@ -1,12 +1,12 @@
 ---
 title: 觅之书
-description: "视线所及，再无安宁"
+description: "看见两次"
 slug: book-of-vision
 kind: collectible
 internalKey: Book_of_Vision
-status: stub
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>觅之书 Book of Vision Book_of_Vision book-of-vision Book of Vision 视线所及，再无安宁 Doubook Vision 使用后，当前房间内资源获取、消耗量翻倍 金雷、金钥匙对应3个普通基础 Double all pickup acquisition and consumption in the current room. Extra golden bomb/golden key corresponds to 3 bombs/keys.</p>
+<p class="wiki-search-index" v-pre>觅之书 Book of Vision Book_of_Vision book-of-vision Book of Vision 看见两次 See twice 本房间内基础资源的获得与消耗都会重复一次 获得时额外转化为3个对应基础资源 Basic resource gains and spends in this room are applied again also grant 3 matching basic resources</p>
 
 <PublicEntry slug="book-of-vision" lang="zh" />
 
@@ -14,4 +14,55 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+**觅之书不会复制地上的资源，而是让本房间里发生的基础资源变化再结算一次。**
+
+使用后进入「复视」状态，直到离开当前房间。期间，角色身上被追踪的基础资源一旦增减，就会按相同数量再结算一次：
+
+- 捡 1 硬币 → 实际 +2
+- 花 1 硬币 → 实际 -2
+- 放置 1 炸弹 → 实际消耗 2
+- 捡 1 钥匙 → 实际 +2
+
+它同时放大收益与代价。商店付款、开门、开箱、捐赠机与乞丐等导致的扣资源，同样会被再扣一遍。
+
+## 特殊资源
+
+获得 {{GoldenBomb}} 或 {{GoldenKey}} 时，不会简单「再复制一个无限标记」，而是额外折算为 **3** 个对应的普通炸弹 / 钥匙（按当前复视层数叠加）。
+
+## 注意
+
+- 效果只持续当前房间；换房后清空。
+- 不直接复制底座道具、卡牌、药丸或箱子本体，只处理被追踪的基础资源变化。
+- 覆盖种类包括：炸弹、钥匙、硬币、红心、金心、魂心、永恒之心、腐心、骨心，以及金炸弹 / 金钥匙的折算。
+
+## 特殊联动
+
+### {{Collectible:356}}
+
+车载电池会额外叠一层复视。一次正常使用 + 车载电池后，本房间基础资源变化总量约为 **三倍**（原变化 + 两层复视）。
+
+### {{Collectible:584}}
+
+每个觅之书魂火会在下一次**有效获得**资源时额外再复制一次该变化，然后熄灭。没有复视状态时，仍可单独消耗魂火来复制一次获得。
+
+### {{Collectible:59}}
+
+在彼列书效果下，每次**获得**心类资源时，额外得到半颗黑心。失去心类资源时不会因此送黑心。
+
+## 使用技巧
+
+- 复视期间尽量避免高额付费与无意义的资源消耗；开门、放雷前先想清楚是否值得付双倍。
+- 金炸弹 / 金钥匙在复视下折算很夸张，是明确的爆发收益窗口。
+- 美德书魂火适合留给「即将大额获得」的瞬间，而不是浪费在小额拾取上。
+
+<details>
+<summary>技术细节</summary>
+
+- 充能：5；品质：2。
+- 复视层数存于道具模块的房间态计数；换房清零。
+- 通过基础资源计数回调监听变化；对自身再次写入有短冷却，避免递归。
+- 彼列书黑心仅在 `count > 0` 的心类变化上触发。
+
+</details>

@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Air_Terror
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>空御一号-标准型 Air Guard 01 - Standard Air_Terror air-terror Air Terror 敌人已锁定！ Hello...Again? 自动巡航，追逐并拦截附近的敌方弹幕 拦截后将其转化为竖直落下的 泪弹，下落时留下伤害光环 Cruises automatically, chases and intercepts nearby enemy projectiles Converts them into falling tears that leave a damaging aura</p>
+<p class="wiki-search-index" v-pre>空御一号-标准型 Air Guard 01 - Standard Air_Terror air-terror Air Terror 敌人已锁定！ Hello...Again? 自动巡航，追逐并拦截附近的敌方弹幕 拦截后将其转化为竖直落下的 神性泪弹，下落时留下伤害光环 Cruises automatically, chases and intercepts nearby enemy projectiles Converts them into falling Godhead tears that leave a damaging aura</p>
 
 <PublicEntry slug="air-terror" lang="en" />
 
