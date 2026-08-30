@@ -10,28 +10,29 @@ status: reviewed
 
 <PublicEntry slug="cursed-mask" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Cursed Mask boosts damage, but each room starts with a spinning aim that gradually settles.**
+**Cursed Mask spins your aim while granting a damage bonus.**
 
-- {{Damage}} +**2** Damage
-- After entering a room, firing direction spins and slows over about **25** seconds, then returns to normal. The effect restarts every room.
+- **+2** damage per copy.
+- On room entry aim starts spinning and gradually slows (fast → medium → slow), stopping after about **25** seconds.
+- While spinning you lead shots instead of aiming freely.
 
 ## Synergies
 
-### {{Collectible:260}}
+### {{Collectible260}}
 
-Keeps the damage bonus, but removes the spinning-aim curse.
+Black Candle: keep the damage, **stop the spin**—a strong upgrade.
 
 ### {{Seija}}
 
-Also {{Tears}} +**2** Tears; spinning aim tries to track nearby enemies.
+Grants tears instead, and the spin tries to lock onto enemies.
 
 ## Tips
 
-Do not force precise shots in the first seconds of a room; with Black Candle this is close to a clean +2 Damage.
+Without Black Candle, learn the spin for a few seconds before boss patterns; slower late spin is much kinder.

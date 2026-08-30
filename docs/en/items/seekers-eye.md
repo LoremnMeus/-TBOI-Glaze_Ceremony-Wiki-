@@ -10,15 +10,27 @@ status: reviewed
 
 <PublicEntry slug="seekers-eye" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-Tears that miss their target briefly pause, then seek another nearby enemy. This is not continuous homing: a tear only changes direction after going off course.
+**Seeker's Eye makes tears pause and re-path when they miss, glance, or stall on walls—stronger than plain homing.**
 
-Each tear can seek up to three times, gaining damage after every attempt:
+Normal homing curves toward a target. Seeking can briefly stop, reacquire a nearby enemy, and path around obstacles when needed.
 
-| Seeks | Damage multiplier |
-| ---: | ---: |
-| 0 | 100% |
-| 1 | 115% |
-| 2 | 130% |
-| 3 | 150% |
+- Each tear re-seeks at most **3** times.
+- Damage scales after successful re-seeks: about **×1.00 → ×1.15 → ×1.30 → ×1.50** (after 0/1/2/3 seeks).
+- Clear line flies straight; otherwise it may path around. Spectral tears still ignore walls.
+- If blocked with no path, it may slide along walls; failing that, seeking ends.
+
+## Tips
+
+- **Cluttered rooms are where it shines**—rocks and tables force re-seeks and damage ramps.
+- Open empty rooms gain less because tears rarely need a second seek.
+
+## Notes
+
+Some special tears (e.g. Ludovico-style) do not participate.

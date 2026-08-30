@@ -10,22 +10,22 @@ status: reviewed
 
 <PublicEntry slug="multiknife" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Multiknife turns charges into exponential power: spend more charges to double the swing again and again.**
+**Multiknife spends all charges as doubling steps on one heavy swing.**
 
-- {{Battery}} Usable with at least **1** charge; spends all current charges
-- {{Damage}} **1** charge = **100%** of your damage; each extra charge doubles it (`2^(charges-1)`)
-- Blade size grows with charge; about **7–12** charges use soft visual/collision caps so the HUD/hitbox do not explode with pure powers of two
+- {{Battery}} Usable at **1+** charge; spends the whole bar
+- {{Damage}} **1** charge = **100%** of your damage; each extra charge doubles again
+- Swing size grows with charge; very high charge soft-caps visually and on collision
 
-### Damage multipliers (early tiers)
+### Early tiers
 
-| Charges | Multiplier |
+| Charges | Damage |
 | -: | ---: |
 | 1 | 1× |
 | 2 | 2× |
@@ -40,8 +40,12 @@ Higher charges keep doubling; Book of Belial can raise the cap to **12**.
 
 ### {{Collectible:34}}
 
-+2 max charges (up to 12); blade turns blood-red.
+Charge cap +2 (max 12); blade turns blood-red.
 
 ### {{Collectible:584}}
 
-1 wisp (1 HP / 1 damage) per charge spent.
+Each spent charge spawns a 1-damage / 1-HP wisp.
+
+## Tips
+
+Low charge clears trash; bank full bars for bosses. Huge swings need space.

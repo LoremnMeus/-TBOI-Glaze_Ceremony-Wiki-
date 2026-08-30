@@ -10,27 +10,36 @@ status: reviewed
 
 <PublicEntry slug="nihilistic-artificial-eye" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**A floor Nihilistic Artificial Eye orbits with 3 random pedestals as a 4-choice set, and after pickup it plants two future replacement chances in item-pool rolls.**
+**Nihilistic Artificial Eye appears as a four-way choice: the eye plus three orbiting companions.**
 
-- All four share one choice group: take any one and the rest vanish
-- {{Damage}} +**0.33** Damage
-- Pickup grants **2** future replacement charges: each normal pool roll has about a **10%** chance to become another Nihilistic Artificial Eye; a successful spawn spends one charge, up to **2** successes
+The eye itself grants about **+0.33** damage.
 
-It does **not** insert two copies into every pool up front—it lurks in future rolls until both charges are spent.
+### What “2 replace chances” means
+
+**Not** “the next two pool rolls each check once and stop.”
+
+More accurately:
+
+1. Picking up the eye grants **2** charges to force another eye from the pool.
+2. Every later pool roll can hit (~**1/10**) and force this item.
+3. A charge is spent only when a hit actually consumes the roll.
+4. Until both charges are spent, later rolls can still hit.
+
+So the two extras may appear quickly—or much later.
 
 ## Synergies
 
 ### {{Seija}}
 
-Speeds up the three orbiting options.
+Companion orbit spins faster.
 
 ## Tips
 
-The 4-choice still costs the rest of the set; the replacement charges apply later on pool rolls, not as an instant second eye.
+Treat it as “four-way now + two lottery tickets later,” not “the next two items become eyes.”

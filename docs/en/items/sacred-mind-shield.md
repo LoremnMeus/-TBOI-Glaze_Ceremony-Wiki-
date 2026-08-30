@@ -10,22 +10,26 @@ status: reviewed
 
 <PublicEntry slug="sacred-mind-shield" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Sacred Mind Shield grants one protective heart per copy: block a punitive hit, fire a mind shockwave, then convert the shield into permanent health.**
+**Sacred Mind Shield grants one protective heart per copy: block a punitive hit, explode a mind wave, then turn the shield into a permanent heart.**
 
-- Each copy gives **1** protective heart layer (not a normal red/soul heart)
-- Only blocks **punitive** damage (fake damage, devil deals, IV bag, curse doors, no-penalty hits do not trigger)
-- On trigger: negate hit → spend 1 layer → huge mind shockwave → convert to **+1** Heart Container (soul-heart characters get a Soul Heart)
-- Wave damage is about `10 × Damage + 40`
-- Enemies **directly killed by that wave**: permanent {{Damage}} **×1.05** and {{Shotspeed}} **-0.02**, up to **5** kills per wave
-- If the room has **5+** enemies: the wave ignores armor and spreads to other rooms this floor
+- **1** protective heart per copy (not normal red/soul hearts)
+- Only **punitive real damage** (fake damage, devil deals, blood banks, curse doors, etc. do not trigger)
+- On trigger: negate → spend 1 layer → huge mind shockwave → **+1** heart container (soul-heart characters get soul hearts)
+- Wave damage is roughly “ten-ish × your damage plus a fixed chunk”
+- Enemies **directly killed** by that wave: permanent slight {{Damage}} up and {{Shotspeed}} down; at most **5** kills count per wave
+- When the room has many enemies (~**5+**): wave ignores armor and spreads to other rooms this floor
 
 ## Notes
 
 Growth is permanent across rooms, not a temporary room buff.
+
+## Tips
+
+Before baiting a punitive hit for the convert+clear, check enemy count—crowded rooms benefit more from the spread.

@@ -10,33 +10,34 @@ status: reviewed
 
 <PublicEntry slug="baby-marri" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Marri toggles between Angel and Devil forms, boosting Angel conversion or Devil/Angel deal chance.**
+**Baby Marri swaps Angel/Devil forms and boosts two different deal routes.**
 
-- Starts in **Angel form**: **+15%** Angel Room conversion per baby
-- Taking damage swaps to **Devil form**: **+15%** Devil/Angel deal chance per baby
-- Taking damage again swaps back to Angel form; the mode persists
+- Starts in **Angel form**: **+15%** Angel conversion per baby
+- On damage → **Devil form**: **+15%** Devil/Angel deal chance per baby
+- Damage again returns to Angel; form persists
 
-## Notes
+## What “Angel conversion” means
 
-“Angel Room conversion” is the chance to convert a successful Devil Deal room into an Angel Room — **not** a flat +15% chance to spawn an Angel Room from nothing.
+It boosts the chance that **after a Devil/Angel deal room successfully opens**, the room becomes an Angel Room.
+It is not a free +15% to spawn Angel Rooms from nothing.
 
-Devil form boosts overall deal-room chance (before conversion).
+Devil form raises overall deal-room open chance (before conversion).
 
-## How to trigger
+## How it triggers
 
-Form swaps on taking damage; the matching bonus applies while in that form.
+Damage swaps forms; the matching bonus stays while that form is active.
 
 ## Multiple copies
 
-Bonuses stack per baby (+15% each). Multiple babies share one player form state.
+Each baby adds +15%; all babies share the player's form state.
 
 ## Trivia
 
-It nods to the matching character's Angel/Devil tension, not a full character kit.
+Echoes the character's Angel/Devil tension, not a full kit.

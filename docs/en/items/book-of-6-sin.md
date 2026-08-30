@@ -10,21 +10,38 @@ status: reviewed
 
 <PublicEntry slug="book-of-6-sin" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**Wrath is already written into the cover: Book of 6 Sin directly prevents explosion damage. The other six Sins must each be defeated during the run to earn their rewards.**
+**Book of 6 Sin splits the Deadly Sins into cover Wrath and six kill rewards.**
 
-Each Sin's reward can be claimed once per run. Picking up the book after defeating a Sin immediately grants any corresponding unclaimed reward.
+Passive: explosion immunity.
 
-| Sin | Reward | Type |
+**Wrath alone has no kill reward—because explosion immunity is already on the cover.**
+
+The other six pay out the first time each is defeated in the run (or immediately if already beaten when you pick this up).
+
+| Sin | Reward | Kind |
 | --- | --- | --- |
-| Envy | Piercing and spectral tears | Permanent |
-| Greed | Spawns 3 random cards | One-time |
-| Pride | Spawns a choice of 3 random items | One-time |
-| Lust | Spawns a Joker card | One-time |
-| Sloth | Reduces shop prices by 1 for the run | Permanent |
-| Gluttony | Spawns 2 Cracked Keys | One-time |
+| Envy | Permanent piercing + spectral tears | Permanent |
+| Greed | 3 random cards | One-shot |
+| Pride | Choice of 3 random items | One-shot |
+| Lust | 1 Joker card | One-shot |
+| Sloth | Shop prices −1 for the run (can reach free) | Permanent |
+| Gluttony | 2 Cracked Keys | One-shot |
+| Wrath | **No kill reward** (cover = blast immunity) | — |
 
 ## Synergies
 
-- Book of Belial changes Pride's item choice to the Devil Room pool.
+### {{Collectible34}}
+
+Book of Belial: Pride's choice rolls from the Devil pool.
+
+## Tips
+
+- Treat explosive rooms as already-purchased protection—do not expect a Wrath payout.
+- Sloth stacks into shop planning; Envy is a long-term tear quality spike.

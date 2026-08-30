@@ -10,32 +10,39 @@ status: reviewed
 
 <PublicEntry slug="shangrila" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**While you keep firing, Shangrila periodically calls random aerial support. Missiles, brimstone cannons, and spinning lasers join the fight, and none of them can hurt you.**
+**While you keep firing, Shangrila periodically calls random aerial support that cannot hurt you.**
 
-- Needs **sustained firing**, not a fixed extra shot on every tear
-- Aerial attacks are player-safe
+### Rhythm
+
+- Needs **held fire** for a bit—not one airstrike per tear
+- Checks about once per second; each call has a short aim window (~2s)
+- Stopping fire breaks the cadence until you shoot again
 
 ### Support types
 
-| Type | Behavior |
+| Kind | What you see |
 | --- | --- |
-| Missiles | Drop onto a target area and explode |
-| Brimstone cannons | Deploy above and fire brimstone downward repeatedly |
-| Spinning lasers | Drop a device that spins short lasers across the room |
+| Missiles | Drop from above and explode on the target area |
+| Brimstone cannons | Deploy overhead and fire brimstone downward |
+| Spinning lasers | Drop in and sweep short rotating lasers |
 
 ### Multiple copies
 
-Extra copies strengthen how long some support volleys keep firing.
+Extra copies add more salvo rounds inside a single support call.
 
 ## Synergies
 
-### Seija
+### {{Seija}}
 
-Aerial support paths may spawn trapdoors to the next floor, which can interrupt combat flow.
+Trapdoors to the next floor can spawn on strike paths and interrupt fights.
+
+## Tips
+
+Keep fire held in boss rooms so support rotates; briefly stop if the screen gets too busy.

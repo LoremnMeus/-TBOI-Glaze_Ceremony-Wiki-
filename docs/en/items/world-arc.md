@@ -10,16 +10,46 @@ status: reviewed
 
 <PublicEntry slug="world-arc" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**Each use grants a temporary random passive, but World Arc escapes and hides elsewhere on the floor.**
+**World Arc turns a floor into a relay race to reclaim your active.**
 
-World Arc leaves the active slot and grants a random passive effect for the rest of the floor. It then hides in another room, where it can be found and picked up for another use.
+One-line loop: **use → floor-long random passive → World Arc flees → find it in another room → use again.**
 
-If it is not recovered, it is not lost permanently: it hides again on the next floor. The temporary passive still expires when changing floors.
+### What happens on use
+
+- World Arc leaves the active slot and grants **1** random passive for the floor.
+- **It is not permanently lost**: it hides in another room on the floor (usually avoiding super secrets) and respawns on a pedestal when you enter.
+- Pick it up to use again for another floor temporary.
+
+### If you cannot find it
+
+Floor passives clear on the next floor. A missed World Arc **is not gone forever**—it re-hides on the next floor.
+
+### Why chase it
+
+Every successful reclaim-and-reuse buys another floor-long passive. More finds, thicker floor.
 
 ## Synergies
 
-- Car Battery grants two temporary passives from one use.
-- Book of Belial selects the temporary passive from the Devil Room pool.
-- Book of Virtues creates an additional random item wisp.
+### {{Collectible356}}
+
+Car Battery: one use grants two temporary passives.
+
+### {{Collectible34}}
+
+Book of Belial: temporary passives roll from the Devil pool.
+
+### {{Collectible584}}
+
+Book of Virtues: also spawns a random item wisp.
+
+## Tips
+
+- After use, prioritize unexplored rooms—it is somewhere on the floor.
+- Treat reclaiming it as exploration reward, not a loss penalty.

@@ -10,49 +10,56 @@ status: featured
 
 <PublicEntry slug="pathetique" lang="en" />
 
+
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Pathetique lets a passive item take enemy damage in the player's place.**
+**Pathetique lets a passive item take an enemy hit for you.**
 
-When the player would take damage from an enemy, Pathetique randomly removes one owned passive item temporarily and completely negates that hit. Lower-quality items are more likely to be chosen; each item held this way grants {{Tears}} **+0.5 tears**. Each successful block also releases an attack around the player.
+On enemy damage:
 
-If no other passive item remains eligible for sacrifice, Pathetique sacrifices itself as the last resort. When Pathetique leaves the player, all items it removed are returned and their corresponding tears bonus ends.
+1. temporarily remove one passive by quality-weighted roll and fully negate the hit;
+2. lower quality is likelier, not guaranteed;
+3. each sacrifice grants {{Tears}} **+0.5** tears;
+4. burst attack around Isaac;
+5. if no other passives remain, Pathetique sacrifices itself last.
+
+**Losing Pathetique returns every recorded sacrifice** (except itself) and clears the tears bonus. Items are not permanently destroyed.
+
+### Example
+
+With Q0 / Q1 / Q3 / Q4 held, low quality is favored, but Q4 can still be chosen. Do not assume “Q4 is safe.”
 
 ## Notes
 
-- Pathetique responds only to damage caused by enemies. Blood donation machines, Sacrifice Rooms, and other non-enemy damage sources do not trigger it.
-- “Prioritizes low quality” uses weighted random selection, not strict lowest-quality order; high-quality items can still be chosen.
-- Losing Pathetique through another effect also begins the return sequence, which plays a short recovery animation.
+- Enemy damage only; blood banks / sacrifice rooms do not trigger.
+- Preference is weighted random, not strict lowest-first.
+- Losing Pathetique any other way still returns items after a short recovery beat.
 
 ## Tips
 
-- **Several low-quality passives make cheaper sacrifices.** When you hold many of them, Pathetique is more likely to remove one of those first.
-- **The tears bonus is tied to withheld items.** If Pathetique is removed by another effect, the withheld items return early, but the tears bonus they provided also ends.
+- More low-quality passives make the hit tax cheaper.
+- Dropping Pathetique refunds the vault—and the stacked tears.
 
-## Special interactions
+## Synergies
 
 ### {{Seija}}
 
-Under Seija, Pathetique still sacrifices items to negate enemy damage, but sacrificed items no longer grant tears up.
+Still blocks via sacrifice, but grants no tears bonus.
 
 ## Trivia
 
-Its design was influenced by the “Tearlaments” archetype from *Yu-Gi-Oh!* In that context, items removed by Pathetique are temporarily “sent to the Graveyard”, trading their absence for damage protection and tears.
-
-When Pathetique becomes the final item sent away, the effect reverses and returns everything it previously took. This follows the idea of sending a card to the Graveyard as the condition that activates another effect, with Pathetique itself beginning the recovery sequence.
+Inspired by Yu-Gi-Oh! Tearlaments: sacrificed items feel “sent to the GY” for protection and tears; when Pathetique itself is the last tribute, the GY returns.
 
 <details>
 <summary>Exact rules</summary>
 
-### Quality selection weights
+### Quality weights
 
-Pathetique does not strictly select the lowest-quality item. It uses weighted random selection:
-
-| Item quality | Relative weight |
+| Quality | Weight |
 | --- | ---: |
 | 0 | 100 |
 | 1 | 60 |
@@ -60,14 +67,8 @@ Pathetique does not strictly select the lowest-quality item. It uses weighted ra
 | 3 | 5 |
 | 4 | 1 |
 
-Lower-quality items are therefore much more likely to be chosen, but no eligible quality is absolutely safe.
+### Return
 
-### Damage condition
-
-Only valid damage classified as coming from an enemy can trigger Pathetique.
-
-### Return rules
-
-Pathetique tracks sacrificed items separately for each player. Once that player no longer holds Pathetique, the return sequence adds the other recorded items back and clears the associated tears bonus.
+Per-player sacrifice records; losing Pathetique starts the refund and clears tears.
 
 </details>

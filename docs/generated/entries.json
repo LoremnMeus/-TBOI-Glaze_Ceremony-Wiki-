@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T15:39:39Z",
+  "generatedAt": "2026-08-30T16:18:50Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -12369,8 +12369,8 @@
         "en": "If only my wish would come true"
       },
       "eid": {
-        "zh": "每层开始时，在初始房间静止5s后入睡#在睡梦中选择心仪的4级道具#{{Timer}} 60s后那个道具落到身上并在本层持续#按下 {{ButtonRT}} 提前确认当前梦想",
-        "en": "At the beginning of each floor, fall asleep in the initial room after a 5 seconds doing completely nothing#Choose the desired quality 4 item in your sleep#{{Timer}} 60 seconds later, that item will land on Isaac#Press {{ButtonRT}} to confirm the current dream early"
+        "zh": "每层开始后，离开起始房前完全静止约5秒入睡#在睡梦中选择心仪的4级道具#{{Timer}} 梦境最多约60秒；结束后该效果落到身上并持续本层#持有{{Collectible428}}/{{Collectible535}}/{{Collectible566}}时可提前结束",
+        "en": "Each floor, before leaving the starting room, stand still ~5s to fall asleep#Choose a desired quality 4 item in your sleep#{{Timer}} Dream lasts up to ~60s; on wake the effect lands for the floor#With {{Collectible428}}/{{Collectible535}}/{{Collectible566}}, you can end early"
       },
       "seijaBuff": {
         "zh": "",
@@ -13373,8 +13373,8 @@
         "en": "I found a new passage!"
       },
       "eid": {
-        "zh": "从尚未探索的房间中随机拉来2-3名敌人#这些敌人会在当前房间与你战斗#击败后，它们不会再在原本的房间中出现",
-        "en": "Pull 2-3 enemies from unexplored rooms#Fight them in the current room#Defeated enemies will not appear in their original rooms"
+        "zh": "从尚未探索的房间中随机拉来2-3名敌人#这些敌人会在当前房间与你战斗#借出时，原房间对应位置不会再刷出它们",
+        "en": "Pull 2-3 enemies from unexplored rooms#Fight them in the current room#When borrowed, their original spawn slots will not appear again"
       },
       "seijaBuff": {
         "zh": "",

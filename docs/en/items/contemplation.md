@@ -10,10 +10,28 @@ status: reviewed
 
 <PublicEntry slug="contemplation" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-When passing through a door toward an unexplored room, each copy of Contemplation has a 4% chance to reveal a glimpse of the Death Certificate dimension.
+**Contemplation sometimes yanks you into a Death Certificate glimpse before an unexplored door finishes.**
 
-The player briefly enters a random room there, remains for one to three seconds, then continues to the original destination.
+### Example flow
 
-The check only occurs when entering an unexplored room through a door. Returning to an explored room cannot trigger it.
+1. You take a door into an **unexplored** room.
+2. Each copy rolls **4%**.
+3. On success you briefly visit a random room on the Death Certificate dimension.
+4. After about **1–3** seconds you continue into the original destination.
+
+## Notes
+
+- Only unexplored door entries; revisits do not roll.
+- Other dimensions usually skip the glimpse.
+- Extra copies each add their own 4% chance.
+
+## Tips
+
+Treat the blackout as a short tour: glance for loot, then wait for the handoff back to your path.

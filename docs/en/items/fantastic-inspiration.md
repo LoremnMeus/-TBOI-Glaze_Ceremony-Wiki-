@@ -10,27 +10,38 @@ status: reviewed
 
 <PublicEntry slug="fantastic-inspiration" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Inspiration plants “future rescue” illusions in cleared rooms. You can see them early; they only become real when you are down to one absolute heart.**
+**Inspiration's fantasy: you can see the reward early, but it only becomes real near death.**
 
-### When they appear
+### When illusions spawn
 
-About a **60%** chance after clearing a room.
+About **60%** chance after clearing a room.
 
-### What they can be
+### Why they look stronger when low
 
-Double hearts, Soul Hearts, Golden Hearts, Eternal Hearts, nickels, dimes, Golden Keys, charged keys, double bombs, Golden Bombs, sacks, or a random item from the current pool.
+Lower absolute health makes illusions brighter and more solid. At high health they stay teasing ghosts.
 
-### Why you cannot take them
+### How to claim
 
-While absolute health is above 1, illusions look faint, gently avoid you, and will not cash in.
+Only at about **1** absolute heart does a touch solidify them. Higher health pushes you away.
 
-### When they become real
+### What they can become
 
-At **1** absolute heart left (red/soul/eternal combined), touching the illusion turns it into the real reward shown.
+| Kind | Relative weight (feel) |
+| --- | --- |
+| Soul hearts | Very common |
+| Double red / nickels / charged keys / double bombs / items | Common |
+| Grab bags / dimes | Mid |
+| Gold hearts / eternal / gold keys / gold bombs | Rare |
+
+Still weighted random—the table is intuition, not a guarantee.
+
+## Tips
+
+Clear first and scout illusions; only bleed down if the fake item is worth the risk.

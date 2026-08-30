@@ -10,30 +10,27 @@ status: reviewed
 
 <PublicEntry slug="phantom-crown" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Phantom Crown lets you throw a phantom ahead, then dash-cut to it when a hit is about to land.**
+**Phantom Crown is place-the-shadow-first: pre-store a dodge/counter landing.**
 
-### Create a phantom
-
-Hold fire to charge; at full charge, fire a phantom in your aim direction. It moves forward, damages enemies on contact, and vanishes on solid walls. Rooms usually keep one main phantom.
-
-### Swap on hit
-
-If damage is about to apply and a phantom is alive:
-
-1. cancel that hit;
-2. dash to the phantom while invincible, briefly ignoring some terrain;
-3. leave afterimages along the path;
-4. burst damage nearby enemies on arrival.
-
-With no living phantom, the swap cannot save you.
+- Charge and release a moving phantom forward (not a static foot-shadow).
+- It deals contact damage until it hits a wall or leaves bounds.
+- If you would take damage while it exists: swap with it, negate the hit, and burst nearby enemies on landing.
 
 ## Tips
 
-Throw the phantom into a safe lane or into a pack first; the swap is also an attack, not only a panic button.
+- **Throw the phantom to a safe corner or behind enemies before taking risk.**
+- Treat it as mobility: the landing is where you want to be after the dodge.
+- No phantom means no swap—watch the timer.
+
+## Synergies
+
+### {{Seija}}
+
+Phantom moves faster for earlier setups.

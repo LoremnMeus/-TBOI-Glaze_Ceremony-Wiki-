@@ -10,28 +10,32 @@ status: reviewed
 
 <PublicEntry slug="baby-autio" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Autio flies to enemies and deploys a short fear-and-damage aura before returning.**
+**Baby Autio flies to enemies, drops a fear aura, lingers, then returns.**
 
-- Leaves formation to approach a target area/enemy
-- On arrival, opens a fear aura (~**80** range) that keeps applying fear
-- Deals area damage about every **30** frames (~**7/3** per tick)
-- Stays about **90** frames, then returns, with about **45** frames of cooldown
+- Leaves formation toward a target
+- Deploys a roughly two-tile fear aura that keeps scaring foes inside
+- While lingering, deals a small tick of damage about once per second
+- Stays about **3** seconds, then returns with about **1.5** seconds of cooldown
 
-## How to trigger
+## How it triggers
 
-Automatic seek-and-deploy. No active key.
+Automatic seek and deploy. No active key.
 
 ## Multiple copies
 
-Each copy is another familiar with its own seek, aura, and cooldown.
+Each copy seeks, deploys, and cools down on its own.
+
+## Tips
+
+Use the aura to pin packs or choke points; there is downtime while returning—do not assume permanent coverage.
 
 ## Trivia
 
-It echoes the matching character's area-control fantasy, not a full character kit.
+Echoes the character's area-control vibe, not a full kit.

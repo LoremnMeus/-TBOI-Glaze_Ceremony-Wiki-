@@ -53,6 +53,10 @@ Besides D1, extra dice fire when the new D is divisible by:
 
 Several can fire together. Landing on **D12** triggers D1, D4, D6, and D12.
 
+### Preview example
+
+If the slot shows **D10** with **2** charges, use lands on **D12** and previews D1, D4, D6, and D12. Waiting for **4** charges instead lands on **D14** and only D1 + D7.
+
 ## Notes
 
 - D starts at **0**; the first use with 1–6 charges lands on D1–D6

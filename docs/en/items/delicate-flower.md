@@ -10,23 +10,45 @@ status: reviewed
 
 <PublicEntry slug="delicate-flower" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-Delicate Flower asks Isaac to protect a flower, then deliver it to someone on the floor in exchange for a reward.
+**Delicate Flower is resource management: protect the flower, then choose who to gift it to.**
 
-- Gain one flower on pickup and replenish flowers on each new floor.
-- Taking damage from an enemy destroys one flower.
-- Approach a valid recipient to raise the flower, then touch them to deliver it.
+- Pickup grants flowers (copies set how many you can hold/refill); each new floor refills by copy count.
+- Enemy damage removes 1 flower; at 0 the headpiece disappears.
+- Near a valid recipient you lift the flower; touch them to gift it and spend 1.
 
-## Rewards
+## Recipients and rewards
+
+Do not treat every Keeper as the same reward.
 
 | Recipient | Reward |
 | --- | --- |
-| Satan | Several Red Chests and lower deal prices in the room |
-| Angel | Several White Chests and a higher Angel Room chance on the next floor |
-| Regular Keeper | Several Grab Bags |
-| Shop Keeper | A Restock Machine or lower shop prices in the room |
-| Secret Room Keeper | A random item or several cards |
-| Error Keeper | A glitched item |
+| Satan statue | About **3–7** red chests, plus cheaper priced deals in the room |
+| Angel statue | About **3–6** white chests, plus higher Angel Room chance next floor |
+| Normal Keeper | **2–4** grab bags |
+| Hanging Keeper | Portal to a random **non-default** room on the floor |
+| Error Keeper | 1 error item |
+| Shop Keeper | 1 restock machine |
+| Shop hanging Keeper | Cheaper priced shop items in the room |
+| Secret / super-secret Keeper | 1 random item |
+| Secret / super-secret hanging Keeper | **3–5** cards |
 
-Additional copies let Isaac carry and replenish more flowers.
+Shop and secret-room Keepers switch to the matching reward row by room type.
+
+## Tips
+
+- **If the ideal recipient is not on this floor yet, keeping the flower safe is the play.** Losing it to hits is often worse than waiting.
+- Satan skews toward immediate chests and room discounts; Angel skews toward next-floor routing.
+- Normal Keepers skew resources; hanging Keepers skew exploration.
+- Shop restock helps rerolls; secret hanging Keepers help card economy.
+
+## Notes
+
+- Only enemy damage removes flowers.
+- Extra copies increase how many flowers you can keep and refill each floor.

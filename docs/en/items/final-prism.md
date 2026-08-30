@@ -10,20 +10,38 @@ status: reviewed
 
 <PublicEntry slug="final-prism" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**Final Prism is a sustained weapon that needs time to warm up. Its beams begin spread out and relatively weak, then converge into the prism's full power.**
+**Final Prism is a sustain charge-up weapon: the longer you keep it firing, the stronger it gets.**
 
-On use, it maintains six rainbow lasers while continuously draining its special charge. The longer it fires, the tighter and steadier the beams become and the more damage they deal. The full strengthening process takes about 40 seconds.
+- First use starts about **6** rainbow beams and keeps them up on special charge (not a one-shot dump).
+- While active it drains charge; at 0 the beams stop. A full bar only lasts on the order of ~10+ seconds, so you weave firing and recharging.
+- Beams converge and ramp damage/visuals over time; full form needs about **40** seconds of continuous fire.
+- Pressing again while active spends about **10** charge and adds **+3** beams.
 
-## Additional beams
+Think of it as: **preheat first, then decide whether to buy denser beams.**
 
-Using Final Prism again while it is active spends about 10 additional charge and raises the maximum beam count by about three. This allows a choice between conserving charge or investing more for heavier firepower.
+## Tips
 
-Its special charge recovers automatically while the prism is inactive.
+- Keep the prism on target—uptime beats toggling.
+- Let charge recover before a second preheat cycle.
+- Only spend the +3 beams when you need density.
 
 ## Synergies
 
-- Book of Belial changes the beams into rainbow Brimstone lasers.
-- Book of Virtues creates wisps that fire lasers alongside Isaac.
-- Car Battery affects the additional-use effect.
+### {{Collectible34}}
+
+Book of Belial: brimstone-styled beams.
+
+### {{Collectible584}}
+
+Book of Virtues: wisps that fire lasers with you.
+
+### {{Collectible356}}
+
+Car Battery: affects the extra-beam press.

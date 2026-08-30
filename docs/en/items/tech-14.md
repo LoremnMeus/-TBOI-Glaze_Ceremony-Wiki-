@@ -10,12 +10,35 @@ status: reviewed
 
 <PublicEntry slug="tech-14" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-Isaac leaves technology limiters behind while moving. Nearby limiters connect to form a defensive network.
+**Tech XIV is a walk-drawn trap: leave limiters as you move, then punish enemies that cross the lines.**
 
-When an enemy crosses a connection, it briefly becomes a damaging laser and consumes one of its limiters. Limiters far from Isaac gradually disappear, so the network must be rebuilt through movement.
+### How to lay wire
+
+- The first time you cross a grid cell, a limiter node is left at its center.
+- Only adjacent nodes form a triggerable link—no manual confirm.
+- Keep walking to grow the web naturally.
+
+### How it triggers
+
+- When an enemy crosses a link, a short laser fires and deals damage.
+- One node is consumed, so the line breaks there.
+- Nodes far from Isaac fade; stay near or re-lay wire.
+
+## Tips
+
+- **Wire chokepoints, doorways, and enemy paths—not empty open floors.**
+- Draw a “frame” first, then herd enemies into it.
+- Expect to repair after consumes; lines are not permanent.
 
 ## Synergies
 
-- Abyss leaves technology limiters when it consumes this item.
+### {{Collectible477}}
+
+Absorbing this item with Void also leaves technology limiters.

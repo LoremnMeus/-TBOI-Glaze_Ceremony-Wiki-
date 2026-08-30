@@ -10,19 +10,36 @@ status: reviewed
 
 <PublicEntry slug="book-of-rune" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**Book of Rune records runes spent in the current room, then cashes those records in for new random runes.**
+**Book of Rune's loop: pickup grants a rune → spend runes → record in-room → use the book to draw that many new runes.**
 
-The first pickup spawns one random rune as a starting resource. Regaining the item or picking up additional copies does not repeat this reward.
+1. **First pickup** spawns 1 random rune as starter fuel; later copies usually do not repeat the gift.
+2. Using a rune yourself in the current room records 1, up to **3**.
+3. Use the book to spawn that many **random** runes and clear the record.
+4. **Leaving the room clears** unused records—finish “spend → book” in one room.
 
-Each rune personally used by the player records one use, up to three. Using Book of Rune spawns the same number of random runes and clears the record.
+Drawn runes need not match what you spent.
 
-Unused records disappear upon leaving the room, so the “use runes, then use the book” loop must be completed in one room.
+While holding a rune you can also carry one extra card or pill.
 
-While holding a rune, the player can also carry one additional card or pill.
+## Tips
+
+- The starter rune opens the loop—spend it, then cash out with the book.
+- Plan up to 3 rune uses before leaving the room.
+- Keep a rune when you want the extra pocket slot.
 
 ## Synergies
 
-- Book of Virtues creates a special wisp when runes are successfully generated.
-- Seija gives generated runes a very high chance to become Rune Shards.
+### {{Collectible584}}
+
+Book of Virtues: special wisps when runes spawn successfully.
+
+### {{Seija}}
+
+Spawned runes are very likely rune shards.

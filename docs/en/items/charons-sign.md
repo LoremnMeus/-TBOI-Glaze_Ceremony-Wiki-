@@ -10,41 +10,37 @@ status: reviewed
 
 <PublicEntry slug="charons-sign" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**About 45 seconds after entering a floor, Charon's black tide starts from the starting room and spreads outward along the floor's room network, swallowing terrain and pickups as it goes.**
-
-### When it starts
-
-About **45** seconds after floor entry.
+**Charon's Sign floods the floor from the start room outward—a race against the tide for loot.**
 
 ### How it spreads
 
-From the starting room along connected rooms — a **whole-floor** event, not a puddle only in the current room.
+- About **45** seconds after floor entry, black tide starts in the **starting room**.
+- It advances along room connections; flooded rooms enter the tide state.
 
-### What it consumes
+### Inside flooded rooms
 
-Some terrain, plus ordinary pickups that get pulled in over time.
+- Clearable terrain, bomb entities, and pickups darken and get swallowed.
+- **Players are not directly damaged.**
+- Enemies take ongoing damage; machines/beggars keep a small safe radius.
+- Does not cross dimensions.
 
-### What it avoids
+### The play
 
-Important interactive entities are avoided; players are never hurt by the tide.
-
-### Combat
-
-About **7** damage to enemies every **30** frames.
-
-### Dimensions
-
-The tide does **not** cross other Dimensions.
+**Grab key pickups before the tide arrives.** It is a timer on floor resources, not just cosmetics.
 
 ## Synergies
 
-### Seija
+### {{Seija}}
 
-Spread is much faster, but the tide avoids all pickups and no longer consumes them.
+Spreads much faster, but stops eating pickups and shields them—more clear-help than loot theft.
+
+## Tips
+
+Route high-value rooms early; when the tide nears, prioritize treasure/shop pickups first.

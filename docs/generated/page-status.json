@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T15:39:39Z",
+  "generatedAt": "2026-08-30T16:18:50Z",
   "pages": [
     {
       "slug": "darkness",
@@ -615,32 +615,32 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/delicate-flower.md",
       "en": "wiki/docs/en/items/delicate-flower.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "tech-14",
       "kind": "collectible",
       "zh": "wiki/docs/items/tech-14.md",
       "en": "wiki/docs/en/items/tech-14.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "seekers-eye",
       "kind": "collectible",
       "zh": "wiki/docs/items/seekers-eye.md",
       "en": "wiki/docs/en/items/seekers-eye.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "day-dreamer",
       "kind": "collectible",
       "zh": "wiki/docs/items/day-dreamer.md",
       "en": "wiki/docs/en/items/day-dreamer.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "disequilibrium",
@@ -655,16 +655,16 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/deconstruction.md",
       "en": "wiki/docs/en/items/deconstruction.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "philosophers-stone",
       "kind": "collectible",
       "zh": "wiki/docs/items/philosophers-stone.md",
       "en": "wiki/docs/en/items/philosophers-stone.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "brilliant",
@@ -695,56 +695,56 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/cheaters-blessing.md",
       "en": "wiki/docs/en/items/cheaters-blessing.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "dimension-contact",
       "kind": "collectible",
       "zh": "wiki/docs/items/dimension-contact.md",
       "en": "wiki/docs/en/items/dimension-contact.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "world-arc",
       "kind": "collectible",
       "zh": "wiki/docs/items/world-arc.md",
       "en": "wiki/docs/en/items/world-arc.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "final-prism",
       "kind": "collectible",
       "zh": "wiki/docs/items/final-prism.md",
       "en": "wiki/docs/en/items/final-prism.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "book-of-rune",
       "kind": "collectible",
       "zh": "wiki/docs/items/book-of-rune.md",
       "en": "wiki/docs/en/items/book-of-rune.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "evil-intervention",
       "kind": "collectible",
       "zh": "wiki/docs/items/evil-intervention.md",
       "en": "wiki/docs/en/items/evil-intervention.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "how-to-fly",
       "kind": "collectible",
       "zh": "wiki/docs/items/how-to-fly.md",
       "en": "wiki/docs/en/items/how-to-fly.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "illumination",
@@ -759,24 +759,24 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/contemplation.md",
       "en": "wiki/docs/en/items/contemplation.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "chasm",
       "kind": "collectible",
       "zh": "wiki/docs/items/chasm.md",
       "en": "wiki/docs/en/items/chasm.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "book-of-6-sin",
       "kind": "collectible",
       "zh": "wiki/docs/items/book-of-6-sin.md",
       "en": "wiki/docs/en/items/book-of-6-sin.md",
-      "zhStatus": "unknown",
-      "enStatus": "unknown"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "pathetique",

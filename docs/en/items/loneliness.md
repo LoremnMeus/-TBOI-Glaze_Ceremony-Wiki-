@@ -10,35 +10,33 @@ status: reviewed
 
 <PublicEntry slug="loneliness" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Loneliness saves you once. On death, a random character arrives to revive you and then stays as a partner; Loneliness itself is removed, and the run only truly ends when both characters are dead.**
+**Loneliness saves you once. On death, a random character arrives, revives you, and stays as a partner; Loneliness then vanishes. As long as one survivor remains, the run does not end immediately.**
 
 ### First death
 
-When you would die, a random other eligible character is summoned, joins the revive, and brings you back.
+A short ritual plays: Loneliness leaves the inventory, you refill and continue, and another usable character joins mid-ritual.
 
-### What the partner is
+### What the partner really is
 
-The summon is a real **Player**, not a familiar: separate HUD, full controls, and they keep traveling with you.
+The guest has their own health, attacks, and HUD and truly keeps playing with you—not a familiar.
 
-### Loneliness itself
+Both share the same input set; a second health bar appears. You can move and fire each character (controls feel like co-op habits).
 
-After the rescue, **Loneliness is removed**, so it does not keep summoning a third or fourth character.
+### Later deaths
 
-### Game Over
-
-Afterwards, **both** the original character and the partner must die for a true Game Over.
+If one falls again with no other revive, that character drops out and **the survivor continues the run**. Only when both are down does the run truly end.
 
 ### Who can appear
 
-Some structurally special or unsupported characters are never chosen as rescuers; the exact list can change by version.
+Some special forms and mod-only characters are skipped. You do not need a blacklist—rolls use currently available selectable characters.
 
-### Notes
+## Tips
 
-This page describes single-player. Co-op / multi-input behavior should be verified in-game if it differs.
+Treat it as a second life plus a permanent second character, not a reusable revive trinket. Learn the dual-control rhythm right after it triggers.

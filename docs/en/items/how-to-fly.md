@@ -10,15 +10,38 @@ status: reviewed
 
 <PublicEntry slug="how-to-fly" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**Treat the active button like a pair of wings: each press flaps upward, and stopping lets the player fall.**
+**How to Fly is a jump manual—not permanent Flight.**
 
-Every use makes the player leap upward before naturally descending. Repeated uses build and maintain altitude; once high enough, the player can temporarily pass over enemies and terrain obstacles.
+### Controls
 
-This is not permanent flight. The player returns to the ground after the flapping stops.
+- One press: hop up, then fall.
+- Mash: rise again before landing to stack height.
+- Stop pressing: follow the fall curve back to normal collision.
+
+High enough visual lift lets you clear obstacles and briefly ignore entity collision; too low is just a hop.
+
+## Notes
+
+- **It does not grant permanent Flight.** Keep using it to hold clearance.
+- Car Battery raises a single hop higher.
 
 ## Synergies
 
-- Book of Belial throws tears downward from the player's current height.
-- Book of Virtues creates wisps that drift down from the player's current height.
+### {{Collectible34}}
+
+Book of Belial: throw tears down from your current height.
+
+### {{Collectible584}}
+
+Book of Virtues: wisps drift down from above.
+
+## Tips
+
+Pre-hop before spikes or ledges. Do not assume “holding the book = wings.”

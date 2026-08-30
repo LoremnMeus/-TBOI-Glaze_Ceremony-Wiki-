@@ -10,24 +10,30 @@ status: reviewed
 
 <PublicEntry slug="acrotomophilia" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Acrotomophilia turns lost “whole” health into incomplete hearts: missing red health grows Rotten Hearts, lost containers leave Broken Hearts, and the two cancel each other when both are present.**
+**Acrotomophilia turns lost intact health into broken forms: red-heart loss grows Rotten Hearts, container loss leaves Broken Hearts; the two cancel each other.**
 
-### Red health → Rotten Hearts
+### Red → Rotten
 
-When red heart **health** actually drops, part of that gap becomes {{RottenHeart}} Rotten Hearts.
-It is not a flat Rotten Heart on every hit; it follows how much red health was lost.
+When red **health** actually drops, part of the gap becomes {{RottenHeart}} Rotten Hearts.
+Bigger red losses often add a filled rotten heart—not a fixed heart per hit.
 
-### Containers → Broken Hearts
+### Containers → Broken
 
-Losing Heart Containers grants matching {{BrokenHeart}} Broken Hearts.
+Losing heart containers grants matching {{BrokenHeart}} Broken Hearts.
+Losing two containers typically leaves broken hearts as the scar.
 
-### Cancel rule
+### Cancel example
 
-Rotten and Broken Hearts cancel automatically when both exist, adjusting red health as needed. If that cancel would kill you, a minimum of life is kept so the cancel alone cannot end the run.
+If you hold both broken and rotten hearts, they cancel pair by pair and adjust red health.
+**That auto-settle alone will not kill you**; if it would, a minimum of life remains.
+
+## Tips
+
+Treat chip damage and container loss as two scar currencies that eventually clear each other instead of stacking forever.

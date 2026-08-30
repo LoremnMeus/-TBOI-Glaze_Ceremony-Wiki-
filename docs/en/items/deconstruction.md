@@ -10,10 +10,33 @@ status: reviewed
 
 <PublicEntry slug="deconstruction" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-Three Cracked Keys spawn at the start of each floor. Up to four special rooms are moved beyond the normal map and must be found as Red Rooms.
+**Deconstruction tears some special rooms off the normal map and turns the floor into a Cracked Key treasure hunt.**
 
-Use the Cracked Keys against walls to open a path toward them. The first entry into each displaced special room refunds one Cracked Key, helping the search continue.
+At floor start it spawns Cracked Keys by copy count (about **copies + 2**, often 3). Then it swaps up to several special rooms with off-map red-room slots.
 
-Not every floor contains four eligible rooms; the actual number depends on which special rooms the floor generated.
+### Exploration example
+
+A shop or treasure room that used to sit on the normal map may now sit beyond it. Use Cracked Keys along walls that could connect; the first visit to a moved special room returns **1** Cracked Key so you can keep searching.
+
+### What can move
+
+- Usually **1×1, four-door** special rooms—not default combat rooms or Boss rooms.
+- How many move depends on eligible special rooms and how many copies you hold—not always exactly 4.
+- Moved rooms keep their room type and contents; only the route becomes a red-room path.
+
+## Tips
+
+- Check walls next to the start room and explored halls that look “missing a piece.”
+- Returned keys are your sustain for the next dig.
+- Extra copies raise both starting keys and move cap.
+
+## Notes
+
+Moved rooms are not deleted—they sit on the red-key network. Missing them means missing those special-room rewards.

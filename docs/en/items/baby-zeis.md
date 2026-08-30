@@ -10,28 +10,28 @@ status: reviewed
 
 <PublicEntry slug="baby-zeis" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Zeis sleeps once per floor, then wakes, flies to a free item pedestal, and spawns a real copy.**
+**Baby Zeis sleeps once per floor, then flies to a usable pedestal and copies a real pedestal.**
 
 - Starts each floor asleep
-- Wakes when a copyable pedestal appears, flying to a target not already claimed by another baby
-- On arrival, spawns a real duplicate pedestal; that baby will not copy again this floor
-- Sleeps again on the next floor
+- Wakes on a copyable pedestal and flies to a free target
+- Spawns a real duplicate pedestal on arrival; that baby is done for the floor
+- Resets on the next floor
 
-## How to trigger
+## How it triggers
 
-Automatic after entering a floor, once a valid pedestal is available. No active key.
+Automatic when a valid pedestal appears. No active key.
 
 ## Multiple copies
 
-Each baby keeps its own progress. Multiple babies each copy once per floor and avoid sharing the same target.
+Each baby has **its own floor progress**. Two babies can each copy a different pedestal once per floor—they will not all pile onto one stand.
 
 ## Trivia
 
-It echoes the matching character's “know and copy” fantasy, not a full character kit.
+Echoes the character's “know and copy” vibe, not a full kit.

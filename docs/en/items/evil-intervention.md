@@ -10,10 +10,30 @@ status: reviewed
 
 <PublicEntry slug="evil-intervention" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**Evil Intervention occasionally turns an attack into a butterfly that devours enemy fire. The more it consumes, the more it returns when it disappears.**
+**Evil Intervention's loop is swallow enemy fire, then repay it when the butterfly tear dies.**
 
-Attacks have a chance to become piercing, homing butterfly tears. A butterfly devours enemy projectiles it touches and can also intercept enemy lasers.
+Firing can spawn a piercing homing butterfly tear (luck helps; roughly from ~**5%** up to ~**20%**).
 
-When it disappears, absorbed projectiles return as friendly tears. Absorbed laser energy accumulates and is released as several friendly Brimstone lasers.
+### What it swallows
+
+- **Enemy projectiles**: eaten on contact (+1 count).
+- **Enemy lasers**: snipped and attached to the butterfly, building energy over time.
+
+### How it pays back
+
+When the butterfly expires:
+
+- each eaten projectile returns one friendly tear;
+- swallowed laser energy returns multiple brimstone beams (more energy → more beams).
+
+## Tips
+
+- Send butterflies into dense bullet hell, not empty air.
+- In laser fights, let the butterfly bite the beam for a brimstone dump.

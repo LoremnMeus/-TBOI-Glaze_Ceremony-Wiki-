@@ -10,30 +10,32 @@ status: reviewed
 
 <PublicEntry slug="core-brooch" lang="en" />
 
-## Mechanics
 
+## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Core Brooch offers three stat directions each time: bank hard on one, and pay a small cost on the other two. After 10 choices, the brooch shatters for good.**
+**Core Brooch offers three stats each use: boost one, lightly weaken the other two. After 10 picks it shatters.**
 
-### Six candidate stats
+### Candidate stats
 
-Speed, Tears, Damage, Range, Shot Speed, Luck.
+Speed, tears, damage, range, shot speed, luck.
 
-### Pick one of three
+### Three-way example
 
-Each use shows 3 random stats from the six; boosting one slightly weakens the other two. Counter +1.
+Suppose the roll shows **Damage / Luck / Tears**:
 
-### After 10 uses
+- pick **Damage** → damage rises clearly;
+- **Luck** and **Tears** each dip a little.
 
-The active is removed, shatters, and drops the trinket [Broken Brooch](/en/trinkets/broken-brooch).
+The next use rolls another trio until 10 picks are done.
 
-<details>
-<summary>Technical details</summary>
+### After 10
 
-Internally about +0.3 units on the pick and −0.1 on each reject, then converted by per-stat multipliers. Treat it as one strong gain and two small costs.
+The active is removed and becomes the trinket [Broken Brooch](/trinkets/broken-brooch).
 
-</details>
+## Tips
+
+Boost your build's weakest link, or accept two small hits for one key spike; decide before the 10th pick whether the gamble is still worth it.

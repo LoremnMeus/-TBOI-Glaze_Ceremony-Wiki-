@@ -10,13 +10,44 @@ status: reviewed
 
 <PublicEntry slug="philosophers-stone" lang="en" />
 
+
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-Philosopher's Stone must absorb three emptied item pedestals to charge. Once charged, using it makes the nearest non-empty pedestal rapidly cycle through several items with nearby IDs.
+**Philosopher's Stone burns empty pedestals as fuel to reforge the nearest non-empty pedestal along a nearby ID sequence.**
 
-EID lists the possible transformation sequence before use. The stone must absorb three more empty pedestals before it can be used again.
+### How to charge
+
+- Special charge max **3**: each empty pedestal you touch grants **1** charge and is removed.
+- Most empty pedestals come from taking a normal item and leaving the stand.
+- Another use needs another full set of 3 empties.
+
+### Choosing the target
+
+Use hits the **nearest non-empty pedestal**. In multi-pedestal rooms, stand next to the one you want.
+
+### The sequence
+
+While held, EID shows current item → about **5** following IDs.
+
+**Read the sequence before spending 3 empties.**
+
+Example: a bad pedestal that sequences into a strong passive soon is worth the burn; five weak/quest steps means save the empties.
 
 ## Synergies
 
-- Seija: Using the stone has a 75% chance to fail and turn the target pedestal into Rainbow Poop.
-- Book of Virtues: Creates a wisp that fires golden tears.
+### {{Seija}}
+
+**Warning: ~75% fail chance.** On fail the pedestal is destroyed and replaced with a rainbow poop—fuel and the room item are both wasted.
+
+### {{Collectible584}}
+
+Book of Virtues: spawns a wisp that fires golden tears.
+
+## Tips
+
+- In multi-item rooms, position first.
+- Empties are scarce—do not force ugly sequences.
