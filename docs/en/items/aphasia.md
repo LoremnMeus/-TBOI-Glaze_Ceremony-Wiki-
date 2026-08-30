@@ -42,14 +42,5 @@ When you fire a tear and the buffer is not empty, one random word is spent: it a
 
 ## Tips
 
-- Checking pedestals or new item text is a way to farm falling words.
+- Checking pedestals or new item text farms falling words.
 - Stockpile words before a burst, then empty the buffer into tears.
-- Keep picking words up if you want the temporary damage state to stay high.
-
-<details>
-<summary>Technical details</summary>
-
-- Temporary damage ≈ `(√(n+4)−2)×0.4`, with `n` decaying by ×0.97 about every 10 frames.
-- Per-tear multipliers: non-ASCII ≈ ×2.5, ASCII ≈ ×1.5.
-
-</details>

@@ -39,8 +39,6 @@ Memory therefore pushes the build to collapse further toward items that have alr
 
 Use it after you already hold core items worth duplicating for the best payoff.
 
-Items you already hold multiple copies of gain even higher roll weight; once duplication starts, it tends to snowball.
-
 ## Related items
 
 {{Item:hypermnesia}} is not replaced by Memory and grants stats from extra duplicate copies, turning Memory's repeats into growth. See {{Item:hypermnesia}}.

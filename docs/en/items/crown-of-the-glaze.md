@@ -57,16 +57,5 @@ A shatter is also a counterattack: it fires fragments by former tier and may dro
 
 ## Tips
 
-- Near full crown, decide whether the next glazed pickup is worth risking a shatter to keep.
+- Near full crown, weigh whether the next glazed pickup is worth risking a shatter to keep.
 - Shatter may drop a glazed resource, so taking risk at low tiers costs relatively little.
-
-<details>
-<summary>Technical details</summary>
-
-- Tier 2 refraction base ≈ 22%; each refraction fires two side tears at about `30%` player damage.
-- From tier 3, refraction / enemy-glaze base multiplier ≈ `1.25×` (`1×` under Seija).
-- Tier 4 enemy glaze base ≈ 6%, luck can raise it, hard cap ≈ 12%.
-- Shatter fragment counts by former tier: 6 / 8 / 10 / 12 / 16; each about `40%` player damage. Full 5-tier shatter also adds a weaker room-wide hit and extra fragments.
-- Per shatter event, fragment hits have one 25% chance to spawn a random glazed pickup (max one).
-
-</details>

@@ -39,7 +39,3 @@ Secret rooms revealed by the Blue Map do not disappear from the map.
 ### {{Collectible:333}}
 
 With full-map effects, rooms you have already entered stay on the map as well.
-
-## Tips
-
-Black Map is best for finding routes you have not explored yet: once visited areas fade away, the rooms left on the map are basically your next targets.

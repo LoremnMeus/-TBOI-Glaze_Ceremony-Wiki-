@@ -44,11 +44,6 @@ After **6 Revelations** in the current room, final Judgement begins. It only str
 - Spreading only selects targets that have not yet received Gospel.
 - Gospel tears and affected enemies display a golden halo; Revelation and final Judgement call down holy beams.
 
-## Tips
-
-- **Spread Gospel before Judgement.** Final Judgement attacks every affected enemy, so a wider spread increases its total value.
-- **Quickly dying enemies still advance the sequence.** Their deaths contribute Revelation and continue spreading Gospel.
-
 ## Special interactions
 
 ### {{Seija}}

@@ -41,7 +41,3 @@ Growth persists across rooms; it is not a temporary room buff.
 Shockwave damage is `10 × Damage + 40`.
 
 </details>
-
-## Tips
-
-Before baiting a punitive hit for the convert-and-clear, check enemy count—crowded rooms benefit more from the spread.

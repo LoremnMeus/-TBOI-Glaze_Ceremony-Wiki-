@@ -38,7 +38,3 @@ Glaze Core will not choose active items as normal disguise targets.
 ### {{Collectible:584}}
 
 Using Glaze Core has a low chance to spawn a wisp matching the current disguised item.
-
-## Tips
-
-Glaze Core's value depends on what it is imitating this run. Strong room effects make it a reusable single-room version of that item, while every use also carries a chance to become the real thing permanently.

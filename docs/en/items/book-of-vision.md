@@ -53,16 +53,6 @@ Under Belial, each **gain** of a heart-type resource also grants half a black he
 
 ## Tips
 
-- Avoid expensive spends while vision is active; unlocks and bomb placements cost double.
+- Under vision, unlocks and bomb spends cost double—check net value before expensive pays.
 - Golden Bomb / Key conversion is a strong burst window under vision.
 - Save Virtue wisps for large gains instead of tiny pickups.
-
-<details>
-<summary>Technical details</summary>
-
-- Charge 5; quality 2.
-- Vision stacks can stack and clear when you leave the room.
-- Extra resource changes caused by this item do not retrigger itself.
-- Belial black hearts only on heart-type gains, not on losses.
-
-</details>

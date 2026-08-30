@@ -56,11 +56,8 @@ A single whiff usually will not instantly wipe Focus; long miss streaks fill Def
 
 ## Tips
 
-The core skill is **keeping hits landing**, not simply firing faster.
-
-Low Focus feels almost normal; mid Focus introduces readable sway. Soft pull at **5** helps you adapt; **8** homing tears help steer the sway back onto targets.
-
-High-volume or spread fire changes Focus and Defocus faster; if many extra tears keep missing, holding high Focus becomes much harder.
+- Focus builds from hits, not empty fire; high-volume or spread shots that miss make high Focus harder to hold.
+- Soft pull at tier **5** and homing at **8** help steer sway back onto targets—they do not replace aiming.
 
 ## Visual feedback
 

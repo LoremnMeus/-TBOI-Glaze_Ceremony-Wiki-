@@ -34,4 +34,4 @@ Grants tears instead, and the spin tries to lock onto enemies.
 
 ## Tips
 
-Without Black Candle, learn the spin for a few seconds before boss patterns; slower late spin is much kinder.
+Without Black Candle, save critical shots for after the spin has clearly slowed; the first ~15 seconds are the fastest.

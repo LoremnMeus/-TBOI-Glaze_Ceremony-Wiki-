@@ -33,7 +33,3 @@ Losing two containers typically leaves broken hearts as the scar.
 
 If you hold both broken and rotten hearts, they cancel pair by pair and adjust red health.
 **That auto-settle alone will not kill you**; if it would, a minimum of life remains.
-
-## Tips
-
-Treat chip damage and container loss as two scar currencies that eventually clear each other instead of stacking forever.

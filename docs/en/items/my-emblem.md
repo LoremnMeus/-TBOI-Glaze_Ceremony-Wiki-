@@ -26,7 +26,3 @@ While held, emblems take control of most familiars: idle units peel off along th
 
 - Not every familiar joins the strike—some orbiters, chain-style familiars, and mod-specific specials are excluded.
 - Contact damage and projectile absorption belong to the emblem familiars themselves; commandeered babies do not inherit the absorb.
-
-## Tips
-
-- More familiars mean more units that can ride different tear paths at once; extra Emblem copies mainly add more emblems and front-line contact pressure.
