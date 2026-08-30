@@ -36,4 +36,4 @@ For positive (coin) prices, the bump becomes “add twice the original price,”
 
 ## Tips
 
-- Either/or is worth more on expensive goods: you pay for the option, but the piece you want can still beat opening another shop floor.
+Either/or raises the chance to get the item you want, but prices also rise; the bump is an option fee—whether it is worth it depends on other ways to get goods on the floor.

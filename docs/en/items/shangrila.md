@@ -42,7 +42,3 @@ Extra copies add more salvo rounds inside a single support call.
 ### {{Seija}}
 
 Trapdoors to the next floor can spawn on strike paths and interrupt fights.
-
-## Tips
-
-Keep fire held in boss rooms so support rotates; briefly stop if the screen gets too busy.

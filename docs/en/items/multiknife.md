@@ -23,7 +23,7 @@ status: reviewed
 - {{Damage}} **1** charge = **100%** of your damage; each extra charge doubles again
 - Swing size grows with charge; very high charge reaches a size/collision cap
 
-### Early tiers
+### Charge and damage
 
 | Charges | Damage |
 | -: | ---: |
@@ -45,7 +45,3 @@ Charge cap +2 (max 12); blade turns blood-red.
 ### {{Collectible:584}}
 
 Each spent charge spawns a 1-damage / 1-HP wisp.
-
-## Tips
-
-Low charge clears trash; bank full bars for bosses. Huge swings need space.

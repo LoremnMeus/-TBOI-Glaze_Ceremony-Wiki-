@@ -62,8 +62,6 @@ If the slot shows **D10** with **2** charges, use lands on **D12** and previews 
 - D starts at **0**; the first use with 1–6 charges lands on D1–D6
 - No charge-picker UI: use when you have exactly the step you want
 
-## Tips
+## Planning example
 
-You can skip harsh factors. At **D3**, 1 charge hits D4 (D1+D4); waiting for **2** charges reaches D5 (D1 only).
-
-Trust the active-slot preview before committing charges.
+You can skip harsh factors. At **D3**, 1 charge hits D4 (D1+D4); waiting for **2** charges reaches D5 (D1 only). The active-slot preview shows the result—check the icons before committing more charge.

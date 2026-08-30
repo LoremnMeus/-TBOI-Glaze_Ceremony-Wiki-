@@ -48,7 +48,6 @@ After **6 Revelations** in the current room, final Judgement begins. It only str
 
 - **Spread Gospel before Judgement.** Final Judgement attacks every affected enemy, so a wider spread increases its total value.
 - **Quickly dying enemies still advance the sequence.** Their deaths contribute Revelation and continue spreading Gospel.
-- **Boss fights progress through accumulated damage.** Sustained damage to an affected Boss can repeatedly invoke Revelation.
 
 ## Special interactions
 

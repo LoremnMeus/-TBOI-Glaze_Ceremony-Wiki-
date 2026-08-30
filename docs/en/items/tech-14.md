@@ -21,21 +21,21 @@ status: reviewed
 
 ### How to lay wire
 
-- The first time you cross a grid cell, a limiter node is left at its center.
-- Only adjacent nodes form a triggerable link—no manual confirm.
-- Keep walking to grow the web naturally.
+- Crossing a new floor tile leaves a limiter.
+- Only adjacent limiters form a triggerable link—no manual confirm.
+- Keep walking across neighboring tiles to extend the line.
 
 ### How it triggers
 
 - When an enemy crosses a link, a short laser fires and deals damage.
-- One node is consumed, so the line breaks there.
+- Triggering consumes one node and breaks that connection.
 - Nodes far from Isaac fade; stay near or re-lay wire.
 
 ## Tips
 
-- **Wire chokepoints, doorways, and enemy paths—not empty open floors.**
-- Draw a “frame” first, then herd enemies into it.
-- Expect to repair after consumes; lines are not permanent.
+- Wire chokepoints, doorways, and enemy paths—not empty open floors.
+- Draw a “doorframe” or hallway first, then herd enemies into the lines.
+- Triggered nodes are spent; during longer fights, walk the same tiles again to repair.
 
 ## Synergies
 

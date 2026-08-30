@@ -35,7 +35,3 @@ The next use rolls another trio until 10 picks are done.
 ### After 10
 
 The active is removed and becomes the trinket [Broken Brooch](/trinkets/broken-brooch).
-
-## Tips
-
-Boost your build's weakest link, or accept two small hits for one key spike; decide before the 10th pick whether the gamble is still worth it.

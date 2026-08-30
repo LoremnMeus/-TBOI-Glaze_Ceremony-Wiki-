@@ -34,4 +34,4 @@ status: reviewed
 
 ## Tips
 
-Treat the blackout as a short tour: glance for loot, then wait for the handoff back to your path.
+When the screen blacks out or you are moved to a strange room, glance for loot, then wait for the handoff back to your path.

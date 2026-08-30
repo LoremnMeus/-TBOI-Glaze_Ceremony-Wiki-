@@ -26,4 +26,4 @@ status: reviewed
 
 ## Notes
 
-These price changes are [permanent](/en/systems/permanent-effects) effects and persist across later runs—not just this run's shops.
+These price changes are [permanent](/en/systems/permanent-effects) effects.

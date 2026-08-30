@@ -35,7 +35,7 @@ Full value comes from finishing the foe before the HP returns.
 
 ## Tips
 
-Best with burst, execute effects, and anything that rewards a low-HP window. Do not treat it as permanent 20% damage.
+Best with burst, execute effects, and anything that rewards a low-HP window. The damage bonus only applies while the target is below the HP threshold.
 
 ## Synergies
 

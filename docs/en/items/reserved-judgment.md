@@ -19,7 +19,7 @@ status: reviewed
 
 **Reserved Judgment can reserve one item from a multi-choice pedestal group for a floor trial; on the next floor the real item reappears at a fixed price.**
 
-- Near a real option pedestal group, press {{ButtonRT}} (Drop) to reserve one
+- Near a multi-choice pedestal group, press {{ButtonRT}} to reserve one
 - Each option group holds **1** reservation and cannot be re-marked
 - Pick up the reserved item to trial it this floor; next floor the real copy returns for **15¢**
 - Actives can be reserved; swapping away a trial active destroys its dropped pedestal

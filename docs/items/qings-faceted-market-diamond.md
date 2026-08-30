@@ -26,4 +26,4 @@ status: reviewed
 
 ## 注意
 
-这些价格变化属于[永久](/systems/permanent-effects)效果，会保留到之后的游戏局次，不是只影响本局。
+价格变化属于[永久](/systems/permanent-effects)效果。

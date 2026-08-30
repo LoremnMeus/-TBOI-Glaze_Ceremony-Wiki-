@@ -18,7 +18,7 @@ status: reviewed
 
 **Book of Voice keeps making demands; the more that are accepted, the more often it speaks, and the closer it comes to becoming The Voice.**
 
-It starts at **0** charge with a base max of **6**. When full, you can call a whisper. Whispers also begin on their own and temporarily make the book answerable—you do not need to spam the active to “make it work.”
+It starts at **0** charge with a base max of **6**. When full, you can call a whisper. Whispers also begin on their own and temporarily make the book answerable.
 
 When a whisper is up, use the book and choose Accept or Refuse. Accept pays the demand and grants the reward immediately; Refuse skips the deal.
 
@@ -30,11 +30,9 @@ Each accept makes the voice clearer. As compliance deepens:
 - Later whispers lean toward heavier costs and richer rewards;
 - Deep enough compliance unlocks “Destroy me”—accepting removes the book and leaves {{Item:the-voice}}.
 
-**The more you obey, the more often it speaks.**
-
 ## Refusal
 
-You can refuse. It is not an instant fail state; the book reacts, then cools down. Refusal does not unlock the finale, but it also does not wipe progress.
+You can refuse. Refusal does not raise compliance and does not wipe progress; the book reacts, then cools down.
 
 ## Possible deals
 
@@ -69,9 +67,9 @@ Refusing still grants a small reward and advances clarity—defiance pushes comp
 
 ## Tips
 
-- Early whispers are risky converters; refuse when the cost is wrong and wait for the next one.
-- Accept heavier mid/late deals when you want charge compression and the finale.
-- Shop/pedestal “give everything for an instant choice” is build-dependent, not free value.
+- Early deals are usually cheap; refuse when resources are tight and wait for the next whisper.
+- Accepting repeatedly lowers the charge cap faster and advances The Voice—useful when you want the late stage sooner and can afford the costs.
+- Shop-shelf or pedestal deals should be judged by the room’s current value, because Accept executes immediately.
 
 ## Trivia
 

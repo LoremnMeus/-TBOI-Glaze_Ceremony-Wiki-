@@ -23,11 +23,14 @@ status: reviewed
 - It deals contact damage until it hits a wall or leaves bounds.
 - If you would take damage while it exists: swap with it, negate the hit, and burst nearby enemies on landing.
 
+## Notes
+
+Taking damage after the phantom is gone does not trigger a swap.
+
 ## Tips
 
-- **Throw the phantom to a safe corner or behind enemies before taking risk.**
-- Treat it as mobility: the landing is where you want to be after the dodge.
-- No phantom means no swap—watch the timer.
+- Place the phantom in a safe spot or behind enemies first to control where you land after the swap.
+- Take high-risk hits only while a phantom still exists, so the dodge also repositions you.
 
 ## Synergies
 

@@ -25,7 +25,7 @@ status: reviewed
 
 ### Six Ages
 
-| Age | Summary |
+| Age | Next-run summary |
 | --- | --- |
 | Prosperity | Stronger shops, higher prices |
 | War | Stronger loadout and player power; enemies arm up too |
@@ -34,6 +34,15 @@ status: reviewed
 | Faith | Angel/Devil forces surge; commit to a side |
 | Ruin | Start with rebuild supplies; high-end facilities grow scarce |
 
-## Tips
+## How to shape an Age
 
-Push the behaviors that feed the Age you want, and watch the mid-run cues for when an Age locks in.
+Steer this run toward the Age you want; formation/shift cues appear when one Age hits the threshold and leads clearly.
+
+| Age | Main behaviors this run |
+| --- | --- |
+| Prosperity | Enter shops, earn and spend coins, make expensive purchases |
+| War | Clear rooms and bosses; no-hit or fast clears help; keep damage high |
+| Abundance | Gain heart containers / soul hearts, heal; clear rooms at full health; enter boss rooms healthy |
+| Technology | Pick tech-leaning items, spend active charge, grab batteries, use slot machines |
+| Faith | Enter Angel/Devil rooms and take items there, pay devil prices, sacrifice, take Key Pieces |
+| Ruin | Clear rooms, change floors, or fight bosses while scarce (low HP, few coins/keys/bombs, few items) |

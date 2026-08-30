@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Cup Cat is a heart item with a Guppy-set combo reward: it grants a heart container alone, then pays an extra soul heart and card when held with any other Guppy item.**
+**Cup Cat grants 1 Heart Container; with any other Guppy item, each Cup Cat also pays a soul heart and spawns a card or rune.**
 
 - {{Heart}} **+1** Heart Container
 - With any other {{Guppy}} item: +1 {{SoulHeart}} and 1 random card or rune

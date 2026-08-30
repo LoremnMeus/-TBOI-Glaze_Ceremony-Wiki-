@@ -31,8 +31,7 @@ Room A is your current fight. Use it, and 2–3 monsters may be pulled from unex
 
 ## Tips
 
-- Use when the current room is manageable and you want to front-load later pressure.
-- Later rooms may feel emptier—that is the trade, not a bug.
+Use when the current room is manageable and you want to front-load later pressure; borrowed spawns leave later rooms emptier—that is the mechanical cost.
 
 ## Notes
 

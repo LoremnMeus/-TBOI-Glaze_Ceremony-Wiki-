@@ -41,4 +41,4 @@ Some special forms and mod-only characters are skipped. Rolls use ordinary chara
 
 ## Tips
 
-Treat it as a second life plus a permanent second character, not a reusable revive trinket. After it triggers, get used to both characters moving and shooting together.
+After it triggers, a second character joins permanently—do not plan around a reusable revive. Get used to both characters sharing movement and fire.

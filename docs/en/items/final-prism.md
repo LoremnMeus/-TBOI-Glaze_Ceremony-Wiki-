@@ -23,9 +23,8 @@ On use it keeps **6** rainbow beams firing. Continuous fire makes beams converge
 
 ## Tips
 
-- Keep the prism on target—uptime beats toggling.
-- Let charge recover before a second preheat cycle.
-- Only spend the +3 beams when you need density.
+- Keep the prism on target; preheat needs continuous fire, so toggling on and off is weaker.
+- Let charge recover before starting another preheat cycle.
 
 <details>
 <summary>Technical details</summary>

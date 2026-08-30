@@ -21,12 +21,12 @@ status: reviewed
 
 Firing can spawn a piercing homing butterfly tear. Higher luck raises the chance.
 
-### What it swallows
+### Absorbed attacks
 
 - **Enemy projectiles**: eaten on contact (+1 count).
 - **Enemy lasers**: snipped and attached to the butterfly, building energy over time.
 
-### How it pays back
+### Returned attacks
 
 When the butterfly expires:
 
@@ -42,5 +42,5 @@ Chance uses `check_rand(Luck, 20, 5, 7)`: about **8.7%** at Luck 0, capped at **
 
 ## Tips
 
-- Send butterflies into dense bullet hell, not empty air.
-- In laser fights, let the butterfly bite the beam for a brimstone dump.
+- Dense bullet patterns let the butterfly bank more returned tears.
+- Against sustained lasers, steer the butterfly into the beam to bank a later brimstone dump.

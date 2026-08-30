@@ -25,11 +25,11 @@ status: reviewed
 - It hides in another room on the floor and **never hides in Ultra Secret Rooms**. Enter that room to see it on a pedestal again.
 - Pick it up to use again; each use **adds** another floor temporary passive and does not replace prior ones.
 
-### If you cannot find it
+### How to reclaim it
 
-Floor passives clear on the next floor. A missed World Arc is not removed from the run—it re-hides on the next floor.
+After use, prioritize unexplored rooms—it is somewhere on this floor. Floor passives clear on the next floor; a missed World Arc is not removed from the run—it re-hides on the next floor.
 
-### Why chase it
+### Reuse
 
 Every successful reclaim-and-reuse stacks another floor-long passive.
 
@@ -43,8 +43,3 @@ Temporary passives roll from the Devil pool.
 
 ### {{Collectible:584}}
 Also spawns a random item wisp.
-
-## Tips
-
-- After use, prioritize unexplored rooms—it is somewhere on the floor.
-- Treat reclaiming it as exploration reward, not a loss penalty.
