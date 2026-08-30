@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T15:29:17Z",
+  "generatedAt": "2026-08-30T15:39:39Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1015,32 +1015,32 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/multiknife.md",
       "en": "wiki/docs/en/items/multiknife.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "dragon-tooth",
       "kind": "collectible",
       "zh": "wiki/docs/items/dragon-tooth.md",
       "en": "wiki/docs/en/items/dragon-tooth.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "reserved-judgment",
       "kind": "collectible",
       "zh": "wiki/docs/items/reserved-judgment.md",
       "en": "wiki/docs/en/items/reserved-judgment.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "death-sentence",
       "kind": "collectible",
       "zh": "wiki/docs/items/death-sentence.md",
       "en": "wiki/docs/en/items/death-sentence.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "remaster",
@@ -1055,8 +1055,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/bloody-map.md",
       "en": "wiki/docs/en/items/bloody-map.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "golden-slot",
@@ -1079,32 +1079,32 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/sacred-mind-shield.md",
       "en": "wiki/docs/en/items/sacred-mind-shield.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "qings-faceted-market-diamond",
       "kind": "collectible",
       "zh": "wiki/docs/items/qings-faceted-market-diamond.md",
       "en": "wiki/docs/en/items/qings-faceted-market-diamond.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "cup-cat",
       "kind": "collectible",
       "zh": "wiki/docs/items/cup-cat.md",
       "en": "wiki/docs/en/items/cup-cat.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "abiogenesis",
       "kind": "collectible",
       "zh": "wiki/docs/items/abiogenesis.md",
       "en": "wiki/docs/en/items/abiogenesis.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "the-voice",
@@ -1119,16 +1119,16 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/regenesis.md",
       "en": "wiki/docs/en/items/regenesis.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "ember",
       "kind": "collectible",
       "zh": "wiki/docs/items/ember.md",
       "en": "wiki/docs/en/items/ember.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "pacification-mark",

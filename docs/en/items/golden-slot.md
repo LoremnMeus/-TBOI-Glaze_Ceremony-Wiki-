@@ -46,6 +46,10 @@ The streak persists across rooms and floors for the entire run until a win. As i
 
 After 8 misses the cap has been reached; further misses do not increase the chance.
 
+::: tip Numbers may still change
+These rates and reward weights are the **current defaults** and may still be tuned; do not treat them as a permanent contract.
+:::
+
 ## Rewards
 
 After a win, the reward is selected with the following probabilities:

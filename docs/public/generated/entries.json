@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-30T15:29:17Z",
+  "generatedAt": "2026-08-30T15:39:39Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -18419,8 +18419,8 @@
         "en": "Ten years I honed this sword"
       },
       "eid": {
-        "zh": "拥有至少1格充能时即可使用#消耗当前全部充能，向瞄准方向挥出重刃#{{Damage}} 1格充能造成1点伤害，攻击范围为1#每多1格充能，伤害与范围翻倍",
-        "en": "Can be used with at least 1 charge#Consumes all current charges to swing a heavy blade in the aiming direction#{{Damage}} At 1 charge, deals 1 damage with 1 range#Each additional charge doubles damage and range"
+        "zh": "{{Battery}} 拥有至少1格充能时即可使用#消耗当前全部充能，向瞄准方向挥出重刃#{{Damage}} 1格充能造成100%角色攻击伤害#每多1格充能，伤害与攻击范围翻倍",
+        "en": "{{Battery}} Usable with at least 1 charge#Spends all current charges to swing a heavy blade toward your aim#{{Damage}} 1 charge deals 100% of your damage#Each extra charge doubles damage and swing size"
       },
       "seijaBuff": {
         "zh": "",
@@ -18547,8 +18547,8 @@
         "en": "Follow me into the abyss"
       },
       "eid": {
-        "zh": "{{Damage}} 1.5倍伤害#{{AngelRoom}} 污染下一个天使房为{{DevilRoom}}恶魔房道具池，触发后+1攻击",
-        "en": "{{Damage}} x1.5 Damage multiplier#{{AngelRoom}} Pollution the next angel room into {{DevilRoom}} Devil Room item pool, after triggering +1 Damage"
+        "zh": "{{Damage}} 1.5倍攻击#{{AngelRoom}} 每份本道具可污染1个天使房，使其中道具改用{{DevilRoom}}恶魔房道具池#每成功污染1次，永久{{Damage}} +1攻击",
+        "en": "{{Damage}} x1.5 Damage#{{AngelRoom}} Each copy can pollute 1 Angel Room so its items use the {{DevilRoom}} Devil pool#Each successful pollution permanently grants {{Damage}} +1 Damage"
       },
       "seijaBuff": {
         "zh": "",
@@ -18669,7 +18669,7 @@
         "en": "This isn't final"
       },
       "eid": {
-        "zh": "靠近多选道具时，按{{ButtonRT}}保留其中一个#拾取保留项以在当前层试用道具，并在下层生成售价{{Coin}}15¢的对应道具#主动也可保留；换下试用主动时，掉落的该主动消失",
+        "zh": "靠近多选道具时，按{{ButtonRT}}保留其中一个#每个多选组只能保留1件#拾取保留项以在当前层试用道具，并在下层生成售价{{Coin}}15¢的对应道具#主动也可保留；换下试用主动时，掉落的该主动消失",
         "en": "Near an option group, press {{ButtonRT}} to reserve one item#Each option group can hold 1 reserved item#Pick up the reserved item to trial it this floor; next floor it returns for {{Coin}}15¢#Actives can be reserved; swapping away a trial active removes its dropped pedestal"
       },
       "seijaBuff": {
@@ -18785,8 +18785,8 @@
         "en": "The sentence is final"
       },
       "eid": {
-        "zh": "满充能时自动通灵1个随机字母#使用打开预测面板#用字母拼出英文名，即可获得道具。=可代替名称中的符号#{{Warning}} 集齐“FINAL”时，立即唤醒你的死亡终局",
-        "en": "Fully charged: automatically summon 1 random letter#Use to open the prediction panel#Spell an English name with letters to gain the item; = covers symbols#{{Warning}} Spelling “FINAL” immediately wakes up your death end"
+        "zh": "满充能时自动通灵1个随机字母#使用打开预测面板#用字母拼出道具名称，即可获得对应道具#{{BlankRune}} =可代替名称中的符号#{{Warning}} 集齐“FINAL”时，立即唤醒你的死亡终局",
+        "en": "Fully charged: automatically summon 1 random letter#Use to open the prediction panel#Spell an item name with letters to gain it#{{BlankRune}} = can stand in for symbols in the name#{{Warning}} Spelling “FINAL” immediately wakes your death end"
       },
       "seijaBuff": {
         "zh": "",

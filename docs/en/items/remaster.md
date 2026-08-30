@@ -54,6 +54,7 @@ Each crossing leaves a timeline record that persists across runs as a [permanent
 - **It swaps future progress, not two saved room states.** Crossings re-enter the target stage with a fresh layout rather than restoring the exact rooms you left behind.
 - **A timeline event does not loop forever.** Once its other half completes and no related crossing remains pending, the record ends.
 - **Arriving on a crossed floor does not instantly trigger another automatic return.** You must leave that floor before a new timeline event can fire.
+- **Continuing a saved run** suppresses return checks on the first NEW_LEVEL after load, so you are not immediately bounced by an armed historical tunnel.
 
 ## Synergies
 
