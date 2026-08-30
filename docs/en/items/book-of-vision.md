@@ -50,9 +50,3 @@ Each Vision wisp, on the next **resource gain**, duplicates that gain once more 
 ### {{Collectible:59}}
 
 Under Belial, each **gain** of a heart-type resource also grants half a black heart. Losing hearts does not grant black hearts this way.
-
-## Tips
-
-- Under vision, unlocks and bomb spends cost double—check net value before expensive pays.
-- Golden Bomb / Key conversion is a strong burst window under vision.
-- Save Virtue wisps for large gains instead of tiny pickups.

@@ -31,10 +31,6 @@ Each copy of World's End Tianyi can provide at most one successful meeting per f
 * Travelers do not appear in active combat rooms, Boss Rooms, Devil Rooms, Angel Rooms, or other hard-scripted event rooms.
 * If you miss her, she leaves with the reward.
 
-## Tips
-
-The reward she carries is visible when she appears. If you do not need what she is holding, there is no need to go out of your way to catch her.
-
 ## Trivia
 
 World's End Tianyi draws from “world's end” and Tianyi figures across different worldlines.

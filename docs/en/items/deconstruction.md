@@ -34,8 +34,6 @@ A shop or treasure room that used to sit on the normal map may now sit beyond it
 ## Tips
 
 - Check walls next to the start room and explored halls that look “missing a piece.”
-- Returned keys are your sustain for the next dig.
-- Extra copies raise both starting keys and move cap.
 
 ## Notes
 

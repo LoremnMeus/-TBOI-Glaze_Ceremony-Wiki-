@@ -57,12 +57,6 @@ The effect is floor-bound and does not carry to the next stage.
 - Once the countdown has started, erasure cannot be cancelled—only leave the danger zone, or accept the hub transfer.
 - Hub door sides match surviving border directions; multiple doors on one wall can lead to different neighbors.
 
-## Tips
-
-- **Clear a dead zone from the safe side.** The landing cell is the 3×3 center; stay outside the block so the current room can still be finished after the countdown.
-- **When the final boss room is erased, the next-floor entrance moves to the hub.** Look for the hub, not a boss door that no longer exists.
-- **Large rooms are easy to swallow whole.** If the landing hugs a large-room edge, leave an extra cell of slack rather than hoping only a corner vanishes.
-
 ## Trivia
 
 The name and dual-vector-foil image reference the dimension-reduction weapon in Liu Cixin's *The Three-Body Problem*: compress a region until it can no longer be traversed normally, then let a hub catch the severed borders.

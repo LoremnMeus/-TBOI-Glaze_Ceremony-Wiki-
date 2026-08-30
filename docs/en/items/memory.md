@@ -35,10 +35,6 @@ Memory therefore pushes the build to collapse further toward items that have alr
 - Quest items are excluded from the Memory candidate pool.
 - In co-op, candidates come from **all players'** inventories.
 
-## Tips
-
-Use it after you already hold core items worth duplicating for the best payoff.
-
 ## Related items
 
 {{Item:hypermnesia}} is not replaced by Memory and grants stats from extra duplicate copies, turning Memory's repeats into growth. See {{Item:hypermnesia}}.

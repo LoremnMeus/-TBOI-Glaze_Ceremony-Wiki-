@@ -43,11 +43,6 @@ False item effects only duplicate passive or familiar items the player already o
 - On leaving the room, the current false fact ends. Only unspent virtual resources are reclaimed.
 - A false fact is accompanied by brief screen distortion; real objects may also show similar visual interference, so a glitch alone cannot prove which object is false.
 
-## Tips
-
-- **Spend virtual resources before leaving.** Shopping, opening doors, blowing up rocks, or using cards and pills immediately keeps the benefit you already gained.
-- **Test suspicious enemies with one cheap attack.** A false enemy disappears as soon as it takes real damage.
-
 ## Trivia
 
 Mental Disorder belongs to the [Rainbow](/en/systems/rainbow) classification, and its sprite was redrawn from {{Collectible:402}}.

@@ -77,14 +77,6 @@ Each successful Glaze Heart pickup also adds 1 Crown shard to the holder.
 
 When the crown reaches full shards, a {{Pickup:glaze-heart-half}} that would spawn is upgraded into a full Glaze Heart.
 
-## Tips
-
-- **Pick it up first while you have Broken Hearts.** A full Glaze Heart clears a Broken Heart and grants half a Soul Heart—usually better than normal healing.
-- **It is reliable when you are missing red health.** If special-heart attempts fail and you can heal red, it becomes red healing.
-- **To copy a special heart, own it first.** Black, Bone, Golden, and Eternal results all require that type to already exist on your health bar.
-- **The crown makes it more common.** In a {{Item:crown-of-the-glaze}} build, Glaze Hearts are both a reward and fuel for more shards.
-- **It will not waste itself.** If no acceptable outcome exists, it cannot be picked up.
-
 ## Notes
 
 - A Glaze Heart is only consumed after it successfully applies a health effect.

@@ -39,11 +39,6 @@ Taking damage lowers the current active's cap by 2, to a minimum of 2. Charge ab
 - {{Collectible:63}} still expands total stored charge, but does not change the base cap used by the success chance.
 - The current success chance is displayed near the active-item HUD.
 
-## Tips
-
-- Failure develops capacity for that specific active. Keeping one high-charge active becomes more reliable over time, while frequently swapping actives means developing several separate caps.
-- Energy orbs remain in their original room, allowing them to be collected later when charge is needed.
-
 ## Synergies
 
 ### {{Collectible:706}}

@@ -61,11 +61,6 @@ For example, placing it in the second slot fixes the tens digit of the result at
 
 There is a **50%** chance to craft a wrong item instead of the intended result. The inputs are still consumed.
 
-## Tips
-
-- **Only the needed digit matters on each material.** If both an expensive and a cheap collectible provide the same required digit, invest the one you would rather lose.
-- **Book of Belial can cover the hardest 6.** If the target ID needs a 6 in any position, spend the free digit there and supply the other two materials normally.
-
 <details>
 <summary>Technical details</summary>
 

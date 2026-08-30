@@ -31,11 +31,6 @@ On a new floor, the timer restarts and the amount gained toward the current floo
 - Killing any enemy marked as a boss immediately stops growth for the current floor.
 - Multiple copies increase the damage gained every 30 seconds, but the combined floor cap remains +1. With 2 copies, for example, each interval grants +0.2 and the cap is reached in about 150 seconds.
 
-## Tips
-
-- If shops, treasure rooms or side paths remain, explore them before fighting the boss.
-- Normal room clearing, shopping and exploration all count; there is no need to stand still and wait.
-
 ## Trivia
 
 Procrastination belongs to the [Rainbow](/en/systems/rainbow) classification, and its icon was redrawn from {{Collectible:260}}. It turns “fighting the boss later” into permanent damage growth, making delay itself part of the mechanic.

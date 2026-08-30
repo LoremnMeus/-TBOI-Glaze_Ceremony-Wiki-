@@ -29,7 +29,3 @@ status: reviewed
 ## Multiple copies
 
 Each copy is its own baby with independent charge and dash.
-
-## Tips
-
-Aim bounce lines through packs before release; open empty rooms gain less from reflections.

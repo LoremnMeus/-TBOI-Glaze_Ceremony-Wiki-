@@ -28,12 +28,6 @@ Drawn runes need not match what you spent.
 
 While holding a rune you can also carry one extra card or pill.
 
-## Tips
-
-- The starter rune opens the loop—spend it, then cash out with the book.
-- Plan up to 3 rune uses before leaving the room.
-- Keep a rune when you want the extra pocket slot.
-
 ## Synergies
 
 ### {{Collectible:584}}

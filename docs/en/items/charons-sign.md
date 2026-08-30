@@ -41,10 +41,6 @@ status: reviewed
 
 Spreads much faster, but stops eating pickups and shields them—more clear-help than loot theft.
 
-## Tips
-
-Route high-value rooms early; when the tide nears, prioritize treasure/shop pickups first.
-
 ## Trivia
 
 - Charon's Sign points to *Eastward*.

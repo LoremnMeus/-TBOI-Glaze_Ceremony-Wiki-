@@ -39,10 +39,6 @@ If one falls again with no other revive, that character drops out and **the surv
 
 Some special forms and mod-only characters are skipped. Rolls use ordinary characters from the selectable pool.
 
-## Tips
-
-After it triggers, a second character joins permanently—do not plan around a reusable revive. Get used to both characters sharing movement and fire.
-
 ## Trivia
 
 - Inspired by FAR: Lone Sails and Changing Tides; the endings meet here.

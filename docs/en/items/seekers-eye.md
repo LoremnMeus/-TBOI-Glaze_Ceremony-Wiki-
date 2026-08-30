@@ -32,11 +32,6 @@ Each tear re-seeks at most **3** times. Damage scales after successful re-seeks:
 
 Clear line flies straight; otherwise it may path around. Spectral tears still ignore walls. If blocked with no path, it may slide along walls; failing that, seeking ends.
 
-## Tips
-
-- **Cluttered rooms are where it shines**—rocks and tables force re-seeks and damage ramps.
-- Open empty rooms gain less because tears rarely need a second seek.
-
 ## Notes
 
 Some special tears do not participate, such as Ludovico-style tears.

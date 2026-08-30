@@ -56,8 +56,7 @@ A single whiff usually will not instantly wipe Focus; long miss streaks fill Def
 
 ## Tips
 
-- Focus builds from hits, not empty fire; high-volume or spread shots that miss make high Focus harder to hold.
-- Soft pull at tier **5** and homing at **8** help steer sway back onto targets—they do not replace aiming.
+Soft pull at tier **5** and homing at **8** help steer sway back onto targets—they do not replace aiming.
 
 ## Trivia
 

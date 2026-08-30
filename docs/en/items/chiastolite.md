@@ -33,10 +33,6 @@ Cut HP becomes a visible life entity. After a short delay (~30 frames for normal
 
 Full value comes from finishing the foe before the HP returns.
 
-## Tips
-
-Best with burst, execute effects, and anything that rewards a low-HP window. The damage bonus only applies while the target is below the HP threshold.
-
 ## Synergies
 
 ### {{Collectible:706}}

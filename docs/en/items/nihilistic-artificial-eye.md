@@ -39,7 +39,3 @@ So the two extras may appear quickly—or much later.
 ### {{Seija}}
 
 Companion orbit spins faster.
-
-## Tips
-
-Treat it as “four-way now + two lottery tickets later,” not “the next two items become eyes.”

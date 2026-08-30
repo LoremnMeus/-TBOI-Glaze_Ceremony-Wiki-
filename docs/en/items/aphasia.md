@@ -39,8 +39,3 @@ When you fire a tear and the buffer is not empty, one random word is spent: it a
 - Vanilla item popups and some Fortune or Tips text can still be altered.
 - Each tear spends at most one word.
 - Non-tear attacks do not consume word ammo.
-
-## Tips
-
-- Checking pedestals or new item text farms falling words.
-- Stockpile words before a burst, then empty the buffer into tears.

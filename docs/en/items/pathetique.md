@@ -41,8 +41,7 @@ With Q0 / Q1 / Q3 / Q4 held, low quality is favored, but Q4 can still be chosen.
 
 ## Tips
 
-- More low-quality passives make the hit tax cheaper.
-- Dropping Pathetique refunds the vault—and the stacked tears.
+Dropping Pathetique refunds the vault—and the stacked tears.
 
 ## Synergies
 

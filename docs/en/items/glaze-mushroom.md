@@ -29,6 +29,4 @@ The infection is visible on the pedestal: you can watch the mycelium grow, cover
 * The per-run chance is only spent after a full infection successfully starts.
 * Once infection begins, the mycelium has already taken root; picking up the original item early does not stop the later hatch.
 
-## Tips
-
-If a Boss reward starts growing mycelium, you can take the original item first. The mycelium keeps growing, so you can still get the hatched {{Collectible:12}}.
+## Notes

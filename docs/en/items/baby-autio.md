@@ -31,7 +31,3 @@ Automatic seek and deploy. No active key.
 ## Multiple copies
 
 Each copy seeks, deploys, and cools down on its own.
-
-## Tips
-
-Use the aura to pin packs or choke points; there is downtime while returning—do not assume permanent coverage.

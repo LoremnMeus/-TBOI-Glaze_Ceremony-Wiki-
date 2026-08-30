@@ -27,7 +27,3 @@ The fireball inherits some of your current brimstone look and attack presentatio
 * Blaststone has its own cooldown; spamming double-taps will not keep spawning fireballs.
 * Pull is weaker the farther an enemy is; enemies too far away are not attracted.
 * Once bursting starts, the fireball fires multiple ring attacks rather than a single blast.
-
-## Tips
-
-Aim the fireball into a group of enemies. Pull them together first, then let the following brimstone rings hit several targets at once.

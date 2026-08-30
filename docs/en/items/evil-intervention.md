@@ -42,5 +42,4 @@ Chance uses `check_rand(Luck, 20, 5, 7)`: about **8.7%** at Luck 0, capped at **
 
 ## Tips
 
-- Dense bullet patterns let the butterfly bank more returned tears.
-- Against sustained lasers, steer the butterfly into the beam to bank a later brimstone dump.
+Against sustained lasers, steer the butterfly into the beam to bank a later brimstone dump.

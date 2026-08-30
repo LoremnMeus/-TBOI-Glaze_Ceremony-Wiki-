@@ -35,7 +35,6 @@ status: reviewed
 
 - Wire chokepoints, doorways, and enemy paths—not empty open floors.
 - Draw a “doorframe” or hallway first, then herd enemies into the lines.
-- Triggered nodes are spent; during longer fights, walk the same tiles again to repair.
 
 ## Synergies
 

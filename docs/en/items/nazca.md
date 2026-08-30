@@ -50,11 +50,6 @@ Only **1** painter, with a lower density cap.
 
 Abyss spawns three matching locusts.
 
-## Tips
-
-- Thicken a safe zone first, then pull enemies into the painted ground.
-- Fighting around repeatedly painted areas lets you use both the stat bonuses and the line damage at once.
-
 ## Trivia
 
 - Inspired by Yu-Gi-Oh! Earthbound Immortals / the Nazca Lines.

@@ -22,7 +22,3 @@ status: reviewed
 - {{Flight}} Flight
 - Move along walls for about **2** seconds to finish charging; leaving early decays the charge quickly
 - Leave the wall at full charge: about **2** seconds of invincible dash, spraying blood Brimstone behind you (~**30%** damage each)
-
-## Tips
-
-Finish the wall charge, then peel off toward the lane you want to cross; the dash is short.

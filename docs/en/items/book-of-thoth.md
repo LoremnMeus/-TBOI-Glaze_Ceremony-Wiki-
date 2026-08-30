@@ -82,13 +82,6 @@ Cards played for free by the spread do not generate Revelation. Losing and later
 - Unfinished spreads persist between floors.
 - Entering a new floor resets per-floor face restrictions and room-trigger records.
 
-## Tips
-
-- **One card makes the result certain.** The next eligible room must play that face, which is useful for effects with strict timing.
-- **Three cards stretch Revelation further.** One and three cards both cost 3; if order does not matter, three cards usually provide more total value.
-- **Judge whether random timing is safe.** Broadly useful faces fit multi-card spreads; effects that depend on a specific room state are better read alone.
-- **An unfinished spread is not wasted near the end of a floor.** It carries over, while per-floor face restrictions reset on the next floor.
-
 ## Special interactions
 
 - {{Collectible34}} **Book of Belial:** spread capacity increases from 3 to 4 while the cost remains 3 Revelation. All four faces follow the normal random and once-per-floor rules.

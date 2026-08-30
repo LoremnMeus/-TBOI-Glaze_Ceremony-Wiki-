@@ -40,10 +40,6 @@ Characters with no red-heart capacity that still use another health resource (su
 
 Characters with no comparable health resource stay neutral.
 
-## Tips
-
-Healing under Giant Punch is not always a combat upgrade. Leaving a health gap can keep double damage, while extra soul hearts may push the character from normal into the shrink state.
-
 ## Trivia
 
 Giant Punch references the Yu-Gi-Oh! Equip Spell of the same Chinese name (Megamorph). The original card doubles or halves a monster's original ATK according to relative Life Points; this mod expresses that reversal through current health versus normal capacity.

@@ -43,10 +43,7 @@ Shop and secret-room Keepers switch to the matching reward row by room type.
 
 ## Tips
 
-- **If the ideal recipient is not on this floor yet, keeping the flower safe is the play.** Losing it to hits is often worse than waiting.
-- Satan skews toward immediate chests and room discounts; Angel skews toward next-floor routing.
-- Normal Keepers skew resources; hanging Keepers skew exploration.
-- Shop restock helps rerolls; secret hanging Keepers help card economy.
+**If the ideal recipient is not on this floor yet, keeping the flower safe is the play.** Losing it to hits is often worse than waiting.
 
 ## Notes
 

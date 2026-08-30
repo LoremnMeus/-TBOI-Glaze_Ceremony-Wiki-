@@ -28,10 +28,6 @@ With no enemies left, the rocket returns near the player and stops leaving damag
 
 - After entering, the rocket does not keep tracking enemies, so fast-moving targets may leave the planned path.
 
-## Tips
-
-Once the entry direction appears, bait enemies onto the coming route or near an existing trail.
-
 ## Synergies
 
 ### {{Collectible:118}}

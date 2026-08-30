@@ -43,8 +43,7 @@ These payments truly spend the matching black / soul hearts.
 
 ## Tips
 
-- Soul hearts can be stained into black hearts over kills, so soul rewards are also future damage stock.
-- Before a Devil Room, don’t only count total soul health—black hearts fund both damage and deal prices, so spending them also softens your hits.
+Before a Devil Room, don’t only count total soul health—black hearts fund both damage and deal prices, so spending them also softens your hits.
 
 <details>
 <summary>Technical details</summary>

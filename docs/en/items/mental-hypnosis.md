@@ -50,12 +50,6 @@ A failed step may lower stats, drain resources, or spawn Troll Bombs and similar
 - Stat changes from rewards and punishments last until this run ends and can stack.
 - A new order is generated on every new floor.
 
-## Tips
-
-If a room is not due yet, leave it alone until its icon reaches the front of the queue.
-
-A bad step only costs that one punishment. The remaining instructions can still pay off.
-
 ## Trivia
 
 Mental Hypnosis is built around following external instructions: special rooms on a floor are organized into an ordered route that must be completed in sequence.

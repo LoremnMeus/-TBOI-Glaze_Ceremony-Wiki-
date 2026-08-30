@@ -49,5 +49,4 @@ Steer this run toward the Age you want; formation/shift cues appear when one Age
 
 ## Trivia
 
-- Regenesis points to Yu-Gi-Oh! Regenesis (再世).
-- That series recovers its own “legacy” at the end of each opponent’s turn to complete a Regenesis; this item borrows the theme of an age leaving a legacy for the next age to inherit.
+- Regenesis points to Yu-Gi-Oh! Regenesis (再世). That series recovers its own “legacy” at the end of each opponent’s turn to complete a Regenesis; this item’s century → legacy → next-run structure takes inspiration from that.

@@ -27,11 +27,6 @@ status: reviewed
 
 Taking damage after the phantom is gone does not trigger a swap.
 
-## Tips
-
-- Place the phantom in a safe spot or behind enemies first to control where you land after the swap.
-- Take high-risk hits only while a phantom still exists, so the dodge also repositions you.
-
 ## Synergies
 
 ### {{Seija}}

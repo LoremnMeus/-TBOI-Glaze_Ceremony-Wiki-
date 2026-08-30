@@ -28,7 +28,3 @@ status: reviewed
 ### {{Seija}}
 
 Also spawns a portal to the Ultra Secret on new floors.
-
-## Tips
-
-Check the Ultra Secret mark at floor start; if a Messenger is there, resolve it—do not treat the room as empty.

@@ -39,10 +39,6 @@ When records are pending, pool icons appear beside the active slot; the highligh
 
 So “the next item” is not strictly the next pickup you see—it is the **next collectible that would be rolled from a different pool**.
 
-## Tips
-
-Book of The Law works best for carrying hard-to-revisit premium pools elsewhere—record in a Devil or Angel Room, then redirect later spawns from other pools toward that pool.
-
 ## Special interactions
 
 ### {{Collectible:356}}

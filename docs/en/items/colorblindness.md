@@ -39,7 +39,3 @@ Approaching a judgeable pedestal shows control hints.
 * Blind pedestals whose contents cannot be seen cannot be judged.
 * The “next-run ban” from a dislike applies only once; it clears after the next fresh start uses it.
 * Continuing the current save does not spend the next-run ban early.
-
-## Tips
-
-You can dislike an item you still want, then pick up the copy in front of you: keep this run's reward while blocking later repeats this run, and keep it missing once more next run.

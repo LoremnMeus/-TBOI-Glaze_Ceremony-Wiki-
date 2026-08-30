@@ -70,12 +70,6 @@ A normal anchor records the room's initial enemy and terrain configuration, not 
 If reproduced terrain blocks a necessary entrance, a small number of obstacles may be removed or softened so the room remains traversable. The result may therefore differ slightly from the source layout.
 :::
 
-## Tips
-
-- **Anchor position matters.** In a large room, only the nearby region is saved. Stand near the enemies, obstacles or layout that should return before using the item.
-- **A boss anchor does not skip the next boss.** It creates an additional rematch rather than reducing the next floor's normal boss difficulty.
-- **The room does not need to remain untouched.** Normal anchors read the initial configuration, so the room may be cleared before deciding whether to anchor it.
-
 ## Trivia
 
 Destiny Anchor belongs to the [Rainbow](/en/systems/rainbow) classification. Its icon was completed years before the mechanic was implemented and was redrawn from the icon of {{Collectible:127}}.

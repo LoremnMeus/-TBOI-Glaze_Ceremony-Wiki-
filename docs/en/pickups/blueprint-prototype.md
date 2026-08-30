@@ -76,12 +76,6 @@ Devil-room prototypes use a separate spike price: picking one up deals a **fixed
 
 Mirror slots project tech you already hold; prototypes are independently allocatable install rights. Full mirror rules are on {{System:blueprint-air-flight}}.
 
-## Tips
-
-- Save strong weapon prototypes for craft that already have a solid base but lack a key attack mode.
-- Deal-room prototypes keep pool theme; do not expect arbitrary Treasure-room modules in a Devil room.
-- Track pity when clears keep missing; long dry streaks with Blueprint held often mean you have not reached the guarantee yet.
-
 ## Related
 
 - {{Item:blue-print}} — required for natural prototype spawns

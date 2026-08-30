@@ -50,12 +50,6 @@ The first **three rooms you enter that still have living enemies** grant {{Damag
 
 The first **real hit** on the next floor is fully blocked, regardless of source. Payment spends 1 red heart first, or 1 soul heart if you have no red hearts.
 
-## Tips
-
-For Song of Plenty, save your first shop purchase for something expensive—a cheap item cannot refund more than its price.
-
-War Song charges are spent in boss rooms and other enemy rooms; plan your route if you want all three boosts for specific fights.
-
 ## Where it appears
 
 On the first visit to certain secret-exit rooms, it appears about half the time.

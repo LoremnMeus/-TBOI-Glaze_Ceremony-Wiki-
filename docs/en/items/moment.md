@@ -30,8 +30,7 @@ Above **300** total energy, the Morning Star Device begins venting stored energy
 
 ## Tips
 
-- Long-lasting or rapid attack forms produce residual energy more consistently and reach the automatic venting range more quickly.
-- Near overload, rapidly collecting more energy can cross the Zero Reversal threshold. Allow the Morning Star Device time to vent if stable bonuses matter more than continued growth.
+Near overload, rapidly collecting more energy can cross the Zero Reversal threshold. Allow the Morning Star Device time to vent if stable bonuses matter more than continued growth.
 
 ## Synergies
 

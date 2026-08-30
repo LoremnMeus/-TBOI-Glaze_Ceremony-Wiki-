@@ -46,11 +46,6 @@ Example: a bad pedestal that sequences into a strong passive soon is worth the b
 ### {{Collectible:584}}
 Spawns a wisp that fires golden tears.
 
-## Tips
-
-- In multi-item rooms, position first.
-- Empties are scarce—do not force ugly sequences.
-
 ## Trivia
 
 - Inspired by Potion Craft's philosopher's stone and its transmutation gameplay.

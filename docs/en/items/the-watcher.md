@@ -53,14 +53,6 @@ As self-lock deepens, the halo grows:
 
 Already locked enemies keep a looser retention range, so briefly slipping past the halo edge does not immediately erase their progress.
 
-## Tips
-
-The Watcher rewards converting short safe windows into damage, not total stillness.
-
-Stay slow while enemies are close to finish locks faster. When your own reticle tightens hard, burst away briefly, then settle back into the watch.
-
-If you keep moving too long, unfinished locks fade—so choose between locking more enemies and pulling out in time.
-
 ## Notes
 
 - Only a few enemies are actively locked at once; existing locks, bosses, and nearer enemies take priority.

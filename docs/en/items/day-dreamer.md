@@ -49,10 +49,6 @@ Doubles how fast dream candidates refresh.
 
 Dreams quality **0** items instead.
 
-## Tips
-
-Dream in the starting room before exploring; leaving clears this floor's attempt.
-
 ## Trivia
 
 - Day Dreamer is one of this mod's **rainbow** items.

@@ -29,10 +29,6 @@ Room A is your current fight. Use it, and 2–3 monsters may be pulled from unex
 - Closes doors in the current room so you must clear again.
 - Spawn slots are marked **when borrowed**, not only after you kill the borrowed copies.
 
-## Tips
-
-Use when the current room is manageable and you want to front-load later pressure; borrowed spawns leave later rooms emptier—that is the mechanical cost.
-
 ## Notes
 
 Some special enemy types are ignored.

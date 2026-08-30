@@ -41,10 +41,6 @@ Bosses can be marked, but they never enter a full sutured-corpse state. If they 
 - {{Collectible:584}}: spawns a dedicated wisp; sutured corpses strengthen it, and it attacks the rupture point when they burst.
 - {{Seija}}: sutured corpses last longer, but further hits break the thread faster.
 
-## Tips
-
-- Snap the thread inside dense packs so the rupture hits more targets.
-
 <details>
 <summary>Technical details</summary>
 

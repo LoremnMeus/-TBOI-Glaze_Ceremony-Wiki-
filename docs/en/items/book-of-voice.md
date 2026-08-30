@@ -65,12 +65,6 @@ With matching wisps, some demands soften (fewer resources, drop a trinket instea
 
 Refusing still grants a small reward and advances clarity—defiance pushes compliance.
 
-## Tips
-
-- Early deals are usually cheap; refuse when resources are tight and wait for the next whisper.
-- Accepting repeatedly lowers the charge cap faster and advances The Voice—useful when you want the late stage sooner and can afford the costs.
-- Shop-shelf or pedestal deals should be judged by the room’s current value, because Accept executes immediately.
-
 ## Trivia
 
 - The flavor line “Destroy me. Quickly.” is the same final offer; release dialogue leads into {{Item:the-voice}}.

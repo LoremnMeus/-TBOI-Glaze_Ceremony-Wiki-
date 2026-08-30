@@ -21,11 +21,6 @@ status: reviewed
 
 On use it keeps **6** rainbow beams firing. Continuous fire makes beams converge and grow stronger.
 
-## Tips
-
-- Keep the prism on target; preheat needs continuous fire, so toggling on and off is weaker.
-- Let charge recover before starting another preheat cycle.
-
 ## Trivia
 
 - Name, visuals, and attack pattern reference Terraria's Final Prism.

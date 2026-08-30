@@ -26,10 +26,6 @@ On burst they fire **9–12** tears, each dealing `1.5 × player damage + 5`.
 
 - Enemy projectiles and similar contacts can sometimes advance the meter, but that is not a playstyle you need to build around.
 
-## Tips
-
-- High-rate, multi-hit attacks fill ducks faster because the item tracks fill count, not damage sum.
-
 ## Trivia
 
 The ducks take after the rubber ducks in *Where's My Water?*. That game collects ducks by running water through them; here, “pouring something into the duck” becomes filling them with attacks until they burst.
