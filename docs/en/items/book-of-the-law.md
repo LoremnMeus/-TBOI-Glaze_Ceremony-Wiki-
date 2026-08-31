@@ -61,7 +61,7 @@ That records the pool for that room, not necessarily the room where you original
 
 ## Tips
 
-- Book of The Law is best used to save hard-to-revisit premium pools—for example record in an Angel or Devil Room, then rewrite later pedestal spawns from other pools into that pool.
+- You can record a pool that is hard to revisit—such as in an Angel or Devil Room—then redirect later spawns from other pools to that recorded pool.
 
 <details>
 <summary>Technical details</summary>

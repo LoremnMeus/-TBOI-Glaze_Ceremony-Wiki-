@@ -36,6 +36,11 @@ The next time you obtain Book of Future, drawing resumes from that saved progres
 - Drawn items are shown only as afterimages; they are not part of the selection.
 - A single use attempts at most **50** pulls; it usually stops earlier once total quality reaches 50.
 
+## Tips
+
+- **Where you open the book sets both the cost and the reward.** If you still need a rare pool later, do not burn it for an immediate 4-choice; a pool you no longer value is a better place to pay.
+- The fewer floors remain in a run, the fewer later routes can be affected by pool contents drawn early.
+
 ## Special interactions
 
 ### {{Collectible:356}}
@@ -55,11 +60,6 @@ Adds **2** candidates from the Devil Room item pool to the selection. They belon
 ### {{Seija}}
 
 Only **1** candidate spawns instead of a 4-choice.
-
-## Tips
-
-- **Where you open the book sets both the cost and the reward.** If you still need a rare pool later, do not burn it for an immediate 4-choice; a pool you no longer value is a better place to pay.
-- Near the end of a run, pre-drawn pool contents have fewer chances to matter on later routes, so the long-term cost is usually lower.
 
 ## Trivia
 
