@@ -27,3 +27,7 @@ status: reviewed
 ## 注意
 
 价格变化属于[永久](/systems/permanent-effects)效果。
+
+## 相关道具
+
+完整议价操作与成交后的定价闭环见 {{Slot:qing-diamond-merchant}}。

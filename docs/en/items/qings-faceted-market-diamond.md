@@ -27,3 +27,7 @@ status: reviewed
 ## Notes
 
 These price changes are [permanent](/en/systems/permanent-effects) effects.
+
+## Related
+
+Bargaining UI and the pricing loop: {{Slot:qing-diamond-merchant}}.

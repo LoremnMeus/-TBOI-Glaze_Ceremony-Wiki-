@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T13:12:21Z",
+  "generatedAt": "2026-08-31T13:34:41Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -23545,7 +23545,7 @@
         "en": "XI - Lure"
       },
       "desc": {
-        "zh": "释放他们内心的猛兽",
+        "zh": "欲求皆有其形",
         "en": ""
       },
       "eid": {
@@ -25245,7 +25245,7 @@
         "en": "V - The Hierophant?"
       },
       "desc": {
-        "zh": "...魔入将我",
+        "zh": "所信者亦可背弃",
         "en": ""
       },
       "eid": {
@@ -25457,7 +25457,7 @@
         "en": "VII - The Chariot?"
       },
       "desc": {
-        "zh": "次元· 陷阱· 金字塔",
+        "zh": "前路只待撞碎",
         "en": ""
       },
       "eid": {
@@ -26101,7 +26101,7 @@
         "en": "XIII - Faint?"
       },
       "desc": {
-        "zh": "生死交辉",
+        "zh": "万籁将眠",
         "en": ""
       },
       "eid": {

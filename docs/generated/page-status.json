@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T13:12:21Z",
+  "generatedAt": "2026-08-31T13:34:41Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1919,32 +1919,32 @@
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-key.md",
       "en": "wiki/docs/en/pickups/glaze-key.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "glaze-bomb",
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-bomb.md",
       "en": "wiki/docs/en/pickups/glaze-bomb.md",
-      "zhStatus": "drafted",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "glaze-grabbag",
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-grabbag.md",
       "en": "wiki/docs/en/pickups/glaze-grabbag.md",
-      "zhStatus": "drafted",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "glaze-battery",
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-battery.md",
       "en": "wiki/docs/en/pickups/glaze-battery.md",
-      "zhStatus": "drafted",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "glaze-chest",
@@ -1959,16 +1959,16 @@
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-big-poop.md",
       "en": "wiki/docs/en/pickups/glaze-big-poop.md",
-      "zhStatus": "drafted",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "glaze-coin",
       "kind": "pickup",
       "zh": "wiki/docs/pickups/glaze-coin.md",
       "en": "wiki/docs/en/pickups/glaze-coin.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "blueprint-prototype",
@@ -1983,8 +1983,8 @@
       "kind": "slot",
       "zh": "wiki/docs/slots/bard-beggar.md",
       "en": "wiki/docs/en/slots/bard-beggar.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "rift-beggar",
@@ -1999,24 +1999,24 @@
       "kind": "slot",
       "zh": "wiki/docs/slots/time-beggar.md",
       "en": "wiki/docs/en/slots/time-beggar.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "bloody-messenger",
       "kind": "slot",
       "zh": "wiki/docs/slots/bloody-messenger.md",
       "en": "wiki/docs/en/slots/bloody-messenger.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     },
     {
       "slug": "qing-diamond-merchant",
       "kind": "slot",
       "zh": "wiki/docs/slots/qing-diamond-merchant.md",
       "en": "wiki/docs/en/slots/qing-diamond-merchant.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "featured",
+      "enStatus": "featured"
     }
   ]
 }

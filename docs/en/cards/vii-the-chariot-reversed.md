@@ -6,7 +6,7 @@ kind: card
 internalKey: Chariot_r
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 次元· 陷阱· 金字塔 化身战车高速冲锋，期间无敌且只能有限转向 撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋 Become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge</p>
+<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 前路只待撞碎 化身战车高速冲锋，期间无敌且只能有限转向 撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋 Become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge</p>
 
 <PublicEntry slug="vii-the-chariot-reversed" lang="en" />
 

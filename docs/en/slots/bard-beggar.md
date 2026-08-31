@@ -4,7 +4,7 @@ description: "Offer a resource for a blessing on the next floor Switch gifts wit
 slug: bard-beggar
 kind: slot
 internalKey: Bard_beggar
-status: reviewed
+status: featured
 ---
 <p class="wiki-search-index" v-pre>吟游乞丐 Bard Beggar Bard_beggar bard-beggar Bard_beggar 赠予一份资源，换取下层祝福 靠近后左右切换馈赠，走进确认 按 取消 Offer a resource for a blessing on the next floor Switch gifts with left/right, walk in to confirm Press to cancel</p>
 
@@ -12,57 +12,40 @@ status: reviewed
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+## Effects
 
-## Effect
+The Bard Beggar takes one affordable resource and writes a song that only lasts for the **next floor**. Payment is immediate; the blessing covers that whole floor and ends when leaving it. One song per encounter.
 
-The Bard Beggar takes a gift you can afford and writes it into a **song** that only works on the **next floor**. Paying is immediate; the blessing covers that entire floor and clears on the floor after. You can only take one song per encounter.
-
-| Gift | Song | Next-floor effect |
+| Offer | Song | Next floor |
 | --- | --- | --- |
-| {{Coin}} 5 coins | **Song of Plenty** | First shop buy refunds 8–12¢, up to what you paid |
-| {{Key}} 1 key | **Song of the Road** | Reveals the {{TreasureRoom}} |
-| {{Bomb}} 1 bomb | **War Song** | {{Damage}} +1 in the first 3 combat rooms |
-| {{Heart}} 1 heart | **Requiem** | Blocks the first hit you take |
+| {{Coin}} 5 coins | Song of Plenty | First purchase refunds 8–12¢, up to the real price |
+| {{Key}} 1 key | Song of Travel | Reveals the {{TreasureRoom}} |
+| {{Bomb}} 1 bomb | War Song | {{Damage}} +1 in the first 3 combat rooms |
+| {{Heart}} 1 heart | Requiem | Blocks the first real hit |
 
-## Trading
+## How to trade
 
-Near the Bard Beggar, your character lifts the currently selected gift.
+Approach to raise the current offer.
 
-- Move left/right to switch gifts;
-- Walk into the Bard Beggar to confirm;
-- Press Drop / RT to cancel;
-- Gifts you cannot afford are omitted from the list.
+- Left/right to switch;
+- Walk in to confirm;
+- Drop / RT to cancel;
+- Unaffordable offers do not appear.
 
-Resources are spent immediately and the next-floor blessing is locked in.
-
-## Rule details
+## Extra rules
 
 ### {{Coin}} Song of Plenty
 
-The first shop buy on the next floor refunds 8–12¢, but **not more than you actually paid**.
+First purchase next floor refunds 8–12¢, never more than the price paid.
 
 ### {{Bomb}} War Song
 
-The first **three rooms you enter that still have living enemies** grant {{Damage}} +1; boss rooms can count. Leaving a boosted fight spends one charge (three total).
+The first three rooms that still have living enemies on entry gain {{Damage}} +1 (Boss rooms may count). Each reinforced fight spends one of three charges.
 
 ### {{Heart}} Requiem
 
-The first **real hit** on the next floor is fully blocked, regardless of source. Payment spends 1 red heart first, or 1 soul heart if you have no red hearts.
+Blocks the first real damage next floor. Payment prefers 1 red heart, else 1 soul heart.
 
-## Where it appears
+## Appearance
 
-On the first visit to certain secret-exit rooms, it appears about half the time.
-
-After one gift, the Bard Beggar leaves.
-
-<details>
-<summary>Technical details</summary>
-
-- Only affordable offers appear in the selection list.
-- Confirming spends immediately and saves the blessing for the **next floor**; it clears when you leave that floor.
-- Song of Plenty rolls an 8–12¢ refund, capped by the purchase price.
-- War Song counts rooms that still have living enemies on entry, not a fixed room-type list.
-- Requiem only blocks damage that would actually remove hearts.
-
-</details>
+About half the time on first entry into a Secret Exit room. Leaves after one gift.
