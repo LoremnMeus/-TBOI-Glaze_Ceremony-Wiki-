@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Delicate_Flower
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>娇嫩的花 Delicate Flower Delicate_Flower delicate-flower Delicate Flower 送给爱你的人 Wish you a better future 拾取时获得1朵花，每层开始时重新获得 注意 受到敌人伤害会失去1朵花 靠近店主、撒旦或天使时，可以将花赠送给对方 不同对象会给予不同回礼 Gain 1 flower on pickup and replenish it at the start of each floor Warning Enemy damage destroys 1 flower Approach a Keeper, Satan, or an Angel to give them a flower Different recipients give different rewards</p>
+<p class="wiki-search-index" v-pre>娇嫩的花 Delicate Flower Delicate_Flower delicate-flower Delicate Flower 送给爱你的人 Wish you a better future 拾取时获得1朵花，每层开始时重新获得 受到敌人伤害会失去1朵花 靠近店主、撒旦或天使时，可以将花赠送给对方 不同对象会给予不同回礼 Gain 1 flower on pickup and replenish it at the start of each floor Enemy damage destroys 1 flower Approach a Keeper, Satan, or an Angel to give them a flower Different recipients give different rewards</p>
 
 <PublicEntry slug="delicate-flower" lang="en" />
 

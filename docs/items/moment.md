@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Moment
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>妖星·一瞬 Moment Moment moment Moment 物皆有能 lasrever dlroW 回收攻击留下的残余能量 回收的能量会逐渐转化为随机属性提升 能量过高后开始自动泄露 注意 严重过载会触发零点反转，使积累的属性反向生效 Recover residual energy left by your attacks Recovered energy gradually becomes random stat bonuses Excess energy is automatically vented Warning Severe overload triggers Zero Reversal, reversing the accumulated bonuses</p>
+<p class="wiki-search-index" v-pre>妖星·一瞬 Moment Moment moment Moment 物皆有能 lasrever dlroW 回收攻击留下的残余能量 回收的能量会逐渐转化为随机属性提升 能量过高后开始自动泄露 严重过载会触发零点反转，使积累的属性反向生效 Recover residual energy left by your attacks Recovered energy gradually becomes random stat bonuses Excess energy is automatically vented Severe overload triggers Zero Reversal, reversing the accumulated bonuses</p>
 
 <PublicEntry slug="moment" lang="zh" />
 

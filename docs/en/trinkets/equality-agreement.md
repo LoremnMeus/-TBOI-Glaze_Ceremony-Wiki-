@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Equality_Agreement
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>平等协议 Equality Agreement Equality_Agreement equality-agreement Equality Agreement 看似公平 Seemingly equal 商店 在商店中 硬币为0时，收费的非道具商品变为随机 道具 Shop While Coin coins are 0 in a shop, priced non-item goods become random items</p>
+<p class="wiki-search-index" v-pre>平等协议 Equality Agreement Equality_Agreement equality-agreement Equality Agreement 看似公平 Seemingly equal 在商店中 硬币为0时，收费的非道具商品变为随机 道具 While coins are 0 in a shop, priced non-item goods become random items</p>
 
 <PublicEntry slug="equality-agreement" lang="en" />
 

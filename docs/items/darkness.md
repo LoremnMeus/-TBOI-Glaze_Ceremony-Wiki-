@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Darkness
 status: featured
 ---
-<p class="wiki-search-index" v-pre>暗之六面 Darkness Darkness darkness Darkness 灭于未知 Buried in the past. 黑心 +1黑心 !!! 变为魂心角色 攻击 按黑心数量增加攻击 黑心 击杀敌人逐渐将魂心染成黑心，或填满半黑心 恶魔房 黑心可以等价代替 红心进行恶魔交易 Black Heart +1 Black Heart !!! Changes your health type to soul hearts Damage up based on black hearts Black Heart Kills gradually stain soul hearts into black hearts, or fill half black heart Devil Room Black Heart Black hearts can replace red-heart devil deal costs</p>
+<p class="wiki-search-index" v-pre>暗之六面 Darkness Darkness darkness Darkness 灭于未知 Buried in the past. +1黑心 !!! 变为魂心角色 攻击 按黑心数量增加攻击 击杀敌人逐渐将魂心染成黑心，或填满半黑心 黑心可以等价代替 红心进行恶魔交易 +1 Black Heart !!! Changes your health type to soul hearts Damage up based on black hearts Kills gradually stain soul hearts into black hearts, or fill half black heart Black hearts can replace red-heart devil deal costs</p>
 
 <PublicEntry slug="darkness" lang="zh" />
 

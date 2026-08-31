@@ -6,7 +6,7 @@ kind: card
 internalKey: Universe
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XXI - 宇宙 XXI - The Universe Universe xxi-the-universe XXI - The Universe 星汉灿烂 星象房 从你持有的道具中随机展示3个候选 选择并永久失去其中1件，换取1件星辰类道具 Planetarium Show up to 3 random candidates from items you hold Permanently lose the chosen one for 1 star-themed item</p>
+<p class="wiki-search-index" v-pre>XXI - 宇宙 XXI - The Universe Universe xxi-the-universe XXI - The Universe 星汉灿烂 从你持有的道具中随机展示3个候选 选择并永久失去其中1件，换取1件星辰类道具 Show up to 3 random candidates from items you hold Permanently lose the chosen one for 1 star-themed item</p>
 
 <PublicEntry slug="xxi-the-universe" lang="zh" />
 

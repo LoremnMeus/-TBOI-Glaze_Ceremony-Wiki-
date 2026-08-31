@@ -18,6 +18,6 @@ Pointing and Disappointing centers on multiple {{Item:cloundy}} familiars plus R
 
 ## Synergy
 
-With Rocket in a Jar, Cloundy-placed bombs become rockets and follow the player's rocket-bomb behavior. The challenge stacks several Cloundies for volume; it does not rewrite their door-seeking / swallow AI.
+With Rocket in a Jar, Cloundy-placed bombs become rockets and follow the player's rocket-bomb behavior. Multiple Cloundies make rocket drops more frequent.
 
-See the item pages for general rules; this page only covers the challenge combo.
+Other Cloundy behavior: {{Item:cloundy}}.

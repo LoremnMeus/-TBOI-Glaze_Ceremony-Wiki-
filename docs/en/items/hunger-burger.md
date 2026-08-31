@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Hunger_Burger
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>饿魔汉堡 Hunger Burger Hunger_Burger hunger-burger Hunger Burger 压轴美味！ Delicious finale 红心 +2心之容器 攻击 +1攻击 移速 +0.3移速 击杀敌人时生成小饿魔，追咬其他敌人并使其恐惧 Heart +2 Heart Containers Damage +1 Damage Speed +0.3 Speed Killing enemies spawns little hungers that bite and fear other enemies</p>
+<p class="wiki-search-index" v-pre>饿魔汉堡 Hunger Burger Hunger_Burger hunger-burger Hunger Burger 压轴美味！ Delicious finale +2心之容器 攻击 +1攻击 移速 +0.3移速 击杀敌人时生成小饿魔，追咬其他敌人并使其恐惧 +2 Heart Containers Damage +1 Damage Speed +0.3 Speed Killing enemies spawns little hungers that bite and fear other enemies</p>
 
 <PublicEntry slug="hunger-burger" lang="en" />
 

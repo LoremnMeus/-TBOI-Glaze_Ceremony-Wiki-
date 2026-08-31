@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Cable_Jar
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>罐中雷暴 Cable Jar Cable_Jar cable-jar Cable Jar 你感到有点漏电 Slightly leaky 电池 将主主动槽中有充能主动的上限压缩至2格 溢出的充能会泄露为留在房间中的能量球 使用主动时，按当前上限/原始上限的概率正常发动 失败：泄露所有充能并释放雷暴，上限+2 注意 受伤时上限-2，并泄露超出新上限的充能 Battery Compresses the charge cap of charged primary actives to 2 Excess charge leaks into energy orbs that remain in the room On use: current cap/original cap chance to activate normally Failure: leak all charge in a thunderstorm; cap +2 Warning Taking damage lowers the cap by 2 and leaks charge above the new cap</p>
+<p class="wiki-search-index" v-pre>罐中雷暴 Cable Jar Cable_Jar cable-jar Cable Jar 你感到有点漏电 Slightly leaky 将主主动槽中有充能主动的上限压缩至2格 溢出的充能会泄露为留在房间中的能量球 使用主动时，按当前上限/原始上限的概率正常发动 失败：泄露所有充能并释放雷暴，上限+2 受伤时上限-2，并泄露超出新上限的充能 Compresses the charge cap of charged primary actives to 2 Excess charge leaks into energy orbs that remain in the room On use: current cap/original cap chance to activate normally Failure: leak all charge in a thunderstorm; cap +2 Taking damage lowers the cap by 2 and leaks charge above the new cap</p>
 
 <PublicEntry slug="cable-jar" lang="en" />
 

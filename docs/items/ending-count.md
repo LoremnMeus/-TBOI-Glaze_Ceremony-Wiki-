@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Ending_Count
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>终末倒数 Ending Count Ending_Count ending-count Ending Count 请稍等片刻... Please wait a moment... 使用后抽取一个随机主动道具效果，并显示在角色头顶 计时 30秒后自动发动该主动道具一次 Draw a random active-item effect and display it above the character Timer After 30 seconds, automatically activate it once</p>
+<p class="wiki-search-index" v-pre>终末倒数 Ending Count Ending_Count ending-count Ending Count 请稍等片刻... Please wait a moment... 使用后抽取一个随机主动道具效果，并显示在角色头顶 30秒后自动发动该主动道具一次 Draw a random active-item effect and display it above the character After 30 seconds, automatically activate it once</p>
 
 <PublicEntry slug="ending-count" lang="zh" />
 

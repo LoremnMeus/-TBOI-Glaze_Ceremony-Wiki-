@@ -6,7 +6,7 @@ kind: card
 internalKey: Hierophant
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>V - 教导 V - The Hierophant Hierophant v-the-hierophant V - The Hierophant 愿我纯粹 ↑ 本房间内获得圣心和三圣颂效果 Gain a temporary effect of Sacred Heart and Trisagion.</p>
+<p class="wiki-search-index" v-pre>V - 教导 V - The Hierophant Hierophant v-the-hierophant V - The Hierophant 愿我纯粹 本房间内获得圣心和三圣颂效果 Gain a temporary effect of Sacred Heart and Trisagion.</p>
 
 <PublicEntry slug="v-the-hierophant" lang="en" />
 

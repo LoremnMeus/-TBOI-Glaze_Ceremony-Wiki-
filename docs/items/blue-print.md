@@ -6,7 +6,7 @@ title: 蓝图
 description: "别担心，我有图纸"
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>蓝图 Blueprint Blue_Print blue-print Blue Print Blue Print 别担心，我有图纸 Don&#x27;t worry, I&#x27;ve got the plans 长按使用打开蓝图，制造并管理飞行器 机体底座决定基础性能，装入的道具成为攻击或功能模块 电池 控制带宽限制同时出战的飞行器 持有蓝图时，有机会发现可用于制造的道具原型 Hold to open Blueprint and craft / manage your fleet Frame pedestals set base power; installed items become attack or utility modules Battery Control bandwidth limits how many crafts can fight at once While held, Item Prototypes for crafting may appear</p>
+<p class="wiki-search-index" v-pre>蓝图 Blueprint Blue_Print blue-print Blue Print Blue Print 别担心，我有图纸 Don&#x27;t worry, I&#x27;ve got the plans 长按使用打开蓝图，制造并管理飞行器 机体底座决定基础性能，装入的道具成为攻击或功能模块 控制带宽限制同时出战的飞行器 持有蓝图时，有机会发现可用于制造的道具原型 Hold to open Blueprint and craft / manage your fleet Frame pedestals set base power; installed items become attack or utility modules Control bandwidth limits how many crafts can fight at once While held, Item Prototypes for crafting may appear</p>
 
 <PublicEntry slug="blue-print" lang="zh" />
 

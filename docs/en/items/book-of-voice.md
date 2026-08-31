@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Book_of_Voice
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>假象之书 Book of Voice Book_of_Voice book-of-voice Book of Voice 快，毁灭我 Destroy me. Quickly. 电池 以0充能获得；充满后可主动呼唤低语 低语也会自然响起，并使此书暂时可用 使用后选择接受或拒绝，接受则立即完成交易 每次接受都会让声音更加清晰，并缩短充能 不断接受后，它会发生变化 Battery Obtained at 0 charge; when full, can call a whisper Whispers also start on their own and temporarily make this book usable Use to accept or refuse; accepting completes the deal immediately Each accept makes the voice clearer and shortens charge Keep accepting, and it will change</p>
+<p class="wiki-search-index" v-pre>假象之书 Book of Voice Book_of_Voice book-of-voice Book of Voice 快，毁灭我 Destroy me. Quickly. 以0充能获得；充满后可主动呼唤低语 低语也会自然响起，并使此书暂时可用 使用后选择接受或拒绝，接受则立即完成交易 每次接受都会让声音更加清晰，并缩短充能 不断接受后，它会发生变化 Obtained at 0 charge; when full, can call a whisper Whispers also start on their own and temporarily make this book usable Use to accept or refuse; accepting completes the deal immediately Each accept makes the voice clearer and shortens charge Keep accepting, and it will change</p>
 
 <PublicEntry slug="book-of-voice" lang="en" />
 

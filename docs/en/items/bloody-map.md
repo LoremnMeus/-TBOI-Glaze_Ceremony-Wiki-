@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Bloody_Map
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>红地图 Bloody Map Bloody_Map bloody-map Bloody Map 血绘而成 Drawn in blood 红隐藏房 进入新层时，揭示红隐藏房间 红隐藏房间中有概率出现血红使者 Ultra Secret Room Reveals Ultra Secret Rooms on each new floor Ultra Secret Room Chance to spawn a Bloody Messenger in Ultra Secret Rooms</p>
+<p class="wiki-search-index" v-pre>红地图 Bloody Map Bloody_Map bloody-map Bloody Map 血绘而成 Drawn in blood 进入新层时，揭示红隐藏房间 红隐藏房间中有概率出现血红使者 Reveals Ultra Secret Rooms on each new floor Ultra Secret Room Chance to spawn a Bloody Messenger in Ultra Secret Rooms</p>
 
 <PublicEntry slug="bloody-map" lang="en" />
 

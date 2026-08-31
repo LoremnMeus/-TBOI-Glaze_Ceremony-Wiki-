@@ -1,12 +1,12 @@
 ---
 title: 挑战：食日
-description: "安娜开局 ↑ 掌中黑洞完全吸入敌人后将其直接消灭 !!! 无法拾取任何地面掉落物，包括道具 黑心 进入新层获得2颗黑心、炸弹1炸弹与钥匙1钥匙 难度等级：简单"
+description: "安娜开局 掌中黑洞完全吸入敌人后将其直接消灭 !!! 无法拾取任何地面掉落物，包括道具 进入新层获得2颗黑心、 1炸弹与 1钥匙 难度等级：简单"
 slug: swallow-the-sun
 kind: challenge
 internalKey: Swallow_The_Sun
 status: featured
 ---
-<p class="wiki-search-index" v-pre>挑战：食日 Swallow the Sun Swallow_The_Sun swallow-the-sun Swallow The Sun 安娜开局 ↑ 掌中黑洞完全吸入敌人后将其直接消灭 !!! 无法拾取任何地面掉落物，包括道具 黑心 进入新层获得2颗黑心、炸弹1炸弹与钥匙1钥匙 难度等级：简单 Play as Anna Up Fully sucked-in enemies are devoured !!! Cannot pick up any floor pickups, including items Black Heart Gain 2 Black Hearts, Bomb1 bomb and Key1 key on each new floor Difficulty: Easy</p>
+<p class="wiki-search-index" v-pre>挑战：食日 Swallow the Sun Swallow_The_Sun swallow-the-sun Swallow The Sun 安娜开局 掌中黑洞完全吸入敌人后将其直接消灭 !!! 无法拾取任何地面掉落物，包括道具 进入新层获得2颗黑心、 1炸弹与 1钥匙 难度等级：简单 Play as Anna Fully sucked-in enemies are devoured !!! Cannot pick up any floor pickups, including items Gain 2 Black Hearts, Bomb1 bomb and 1 key on each new floor Difficulty: Easy</p>
 
 <PublicEntry slug="swallow-the-sun" lang="zh" />
 

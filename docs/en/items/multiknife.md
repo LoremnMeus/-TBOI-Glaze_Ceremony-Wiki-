@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Multiknife
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>倍增重刃 Multiknife Multiknife multiknife Multiknife 十年磨一剑 Ten years I honed this sword 电池 拥有至少1格充能时即可使用 消耗当前全部充能，向瞄准方向挥出重刃 攻击 1格充能造成100%角色攻击伤害 每多1格充能，伤害与攻击范围翻倍 Battery Usable with at least 1 charge Spends all current charges to swing a heavy blade toward your aim Damage 1 charge deals 100% of your damage Each extra charge doubles damage and swing size</p>
+<p class="wiki-search-index" v-pre>倍增重刃 Multiknife Multiknife multiknife Multiknife 十年磨一剑 Ten years I honed this sword 拥有至少1格充能时即可使用 消耗当前全部充能，向瞄准方向挥出重刃 攻击 1格充能造成100%角色攻击伤害 每多1格充能，伤害与攻击范围翻倍 Usable with at least 1 charge Spends all current charges to swing a heavy blade toward your aim Damage 1 charge deals 100% of your damage Each extra charge doubles damage and swing size</p>
 
 <PublicEntry slug="multiknife" lang="en" />
 

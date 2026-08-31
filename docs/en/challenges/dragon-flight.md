@@ -14,7 +14,9 @@ status: featured
 
 ## Gameplay
 
-Dragon Flight bans normal shooting and turns the run into aerial combat: {{Item:how-to-fly}} for altitude, Birthright’s Book of Belial path for offense. Book tears linger along the flight path as aerial fire lines.
+Dragon Flight bans normal shooting and turns combat into an aerial fight. Use {{Item:how-to-fly}} to change altitude, and leave book tears along your flight path for sustained fire.
+
+Birthright supplies the Book of Belial path so book attacks can trail behind you in the air.
 
 ## Rules
 

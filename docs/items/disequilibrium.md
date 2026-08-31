@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Disequilibrium
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象失权 Disequilibrium Disequilibrium disequilibrium Disequilibrium IV IV 缝合你的恶魔房与天使房 恶魔房 恶魔侧道具需要血量交易 天使房 天使侧道具只能拿一个 Sew your Devil Room and Angel Room together Devil Room Devil items require health trading Angel Room Only one angel item can be taken</p>
+<p class="wiki-search-index" v-pre>天象失权 Disequilibrium Disequilibrium disequilibrium Disequilibrium IV IV 缝合你的恶魔房与天使房 恶魔侧道具需要血量交易 天使侧道具只能拿一个 Sew your Devil Room and Angel Room together Devil items require health trading Only one angel item can be taken</p>
 
 <PublicEntry slug="disequilibrium" lang="zh" />
 

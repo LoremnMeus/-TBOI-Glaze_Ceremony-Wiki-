@@ -16,7 +16,7 @@ status: featured
 
 Fusion Destiny turns Tainted Cain's crafting into the combat loop: no normal shooting—use the Bag of Crafting to capture enemies into basic pickups, then craft items from those ingredients.
 
-Treasure Rooms and Shops are disabled, so capture → ingredients → craft is the main growth path.
+Treasure Rooms and Shops do not generate; other room types still appear by their usual rules.
 
 ## Capturing enemies
 
@@ -31,4 +31,4 @@ Bosses are not one-shot converted away. Bag hits still grant pickups and knock e
 
 ## Limits
 
-No Treasure Rooms or Shops. Any other item sources still require the craft loop to matter.
+No Treasure Rooms or Shops.

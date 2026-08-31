@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Glaze_Mushroom
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>琉璃的蘑菇 Glaze Mushroom Glaze_Mushroom glaze-mushroom Glaze Mushroom 琉璃蘑菇 我是…嗝……琉璃？ I Feel...Glazed..uh? 红心 +1心之容器 Boss房 Boss道具池底座有20%被菌丝侵蚀并变为 魔法蘑菇 本局最多触发一次 Heart +1 Heart container Boss Room Boss-pool pedestals have a 20% chance to be overgrown into Magic Mushroom Triggers at most once per run</p>
+<p class="wiki-search-index" v-pre>琉璃的蘑菇 Glaze Mushroom Glaze_Mushroom glaze-mushroom Glaze Mushroom 琉璃蘑菇 我是…嗝……琉璃？ I Feel...Glazed..uh? +1心之容器 Boss道具池底座有20%被菌丝侵蚀并变为 魔法蘑菇 本局最多触发一次 +1 Heart container Boss-pool pedestals have a 20% chance to be overgrown into Magic Mushroom Triggers at most once per run</p>
 
 <PublicEntry slug="glaze-mushroom" lang="zh" />
 

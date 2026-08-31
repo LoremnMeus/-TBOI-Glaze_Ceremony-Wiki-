@@ -6,7 +6,7 @@ kind: card
 internalKey: Adjustment_r
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>VIII - 调节? VIII - Adjustment? Adjustment_r viii-adjustment-reversed VIII - Adjustment? 与其纷争，莫如没收 ↑ 将你的全部基础掉落转化为属性 Up Convert all your basic pickups into attributes</p>
+<p class="wiki-search-index" v-pre>VIII - 调节? VIII - Adjustment? Adjustment_r viii-adjustment-reversed VIII - Adjustment? 与其纷争，莫如没收 将你的全部基础掉落转化为属性 Convert all your basic pickups into attributes</p>
 
 <PublicEntry slug="viii-adjustment-reversed" lang="zh" />
 

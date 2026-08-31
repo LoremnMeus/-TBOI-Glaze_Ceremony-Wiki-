@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Hyper_Velocity
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>和谐号 Hyper Velocity Hyper_Velocity hyper-velocity Hyper Velocity 下一站，创死你 Next stop: impact 举起后按方向召唤一列动车 动车撞击敌人并破坏地形 攻击 撞击敌人造成250+5倍角色伤害 注意 动车会对角色造成5点伤害 Hold up the item, then choose a direction to call a train The train runs through enemies and terrain Damage Deals 250 + 5x Isaac&#x27;s damage to enemies Warning Deals 5 damage to Isaac on collision</p>
+<p class="wiki-search-index" v-pre>和谐号 Hyper Velocity Hyper_Velocity hyper-velocity Hyper Velocity 下一站，创死你 Next stop: impact 举起后按方向召唤一列动车 动车撞击敌人并破坏地形 攻击 撞击敌人造成250+5倍角色伤害 动车会对角色造成5点伤害 Hold up the item, then choose a direction to call a train The train runs through enemies and terrain Damage Deals 250 + 5x Isaac&#x27;s damage to enemies Deals 5 damage to Isaac on collision</p>
 
 <PublicEntry slug="hyper-velocity" lang="zh" />
 

@@ -20,4 +20,4 @@ Invisible fades the room away; Tainted Judas must brush Dark Arts trails to brie
 
 - Room contents gradually turn invisible.
 - Areas Dark Arts passes through temporarily reappear (including floor/walls while casting).
-- No Treasure Rooms or Shops—growth leans on encounters and pocket resources.
+- Treasure Rooms and Shops do not generate.

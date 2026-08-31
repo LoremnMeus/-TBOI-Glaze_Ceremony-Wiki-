@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Mental_Hypnosis
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>精神控制 Mental Hypnosis Mental_Hypnosis mental-hypnosis Mental Hypnosis 劳驾你，照做吧 Would you kindly? 宝箱房 每层生成一串特殊房间指令 依次进入对应特殊房间，每次成功获得奖励 注意 提前进入其他特殊房间会受到惩罚 Treasure Room Each floor creates an ordered list of special rooms Enter matching special rooms in order; each success grants a reward Warning Entering other special rooms early causes a punishment</p>
+<p class="wiki-search-index" v-pre>精神控制 Mental Hypnosis Mental_Hypnosis mental-hypnosis Mental Hypnosis 劳驾你，照做吧 Would you kindly? 每层生成一串特殊房间指令 依次进入对应特殊房间，每次成功获得奖励 提前进入其他特殊房间会受到惩罚 Each floor creates an ordered list of special rooms Enter matching special rooms in order; each success grants a reward Entering other special rooms early causes a punishment</p>
 
 <PublicEntry slug="mental-hypnosis" lang="en" />
 

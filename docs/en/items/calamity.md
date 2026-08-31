@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Calamity
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象灾变 Calamity Calamity calamity Calamity II II Boss房 只能通过清理Boss房获得充能（满充通常需2个Boss房） 靠近一扇门使用，对门后的未清理房间发动灾变 灾变会提前清除该房间中的敌人，包括Boss房 进入被灾变的房间时，将直接视为已被清理 Boss Room Only recharges by clearing Boss rooms (full charge usually needs 2) Use near a door to calamitize the uncleared room beyond it Clears that room&#x27;s enemies in advance, including Boss rooms Entering a calamitized room treats it as already cleared</p>
+<p class="wiki-search-index" v-pre>天象灾变 Calamity Calamity calamity Calamity II II 只能通过清理Boss房获得充能（满充通常需2个Boss房） 靠近一扇门使用，对门后的未清理房间发动灾变 灾变会提前清除该房间中的敌人，包括Boss房 进入被灾变的房间时，将直接视为已被清理 Only recharges by clearing Boss rooms (full charge usually needs 2) Use near a door to calamitize the uncleared room beyond it Clears that room&#x27;s enemies in advance, including Boss rooms Entering a calamitized room treats it as already cleared</p>
 
 <PublicEntry slug="calamity" lang="en" />
 

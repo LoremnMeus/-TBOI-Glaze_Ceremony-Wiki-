@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Dark_Particle
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>黑暗脆块 Dark Particle Dark_Particle dark-particle Dark Particle 易燃又美味？ Flammable and delicious 黑心 获得时+2黑心 碎心 失去时+1碎心 Black Heart +2 Black Hearts on pickup Broken Heart +1 Broken Heart when lost</p>
+<p class="wiki-search-index" v-pre>黑暗脆块 Dark Particle Dark_Particle dark-particle Dark Particle 易燃又美味？ Flammable and delicious 获得时+2黑心 失去时+1碎心 +2 Black Hearts on pickup +1 Broken Heart when lost</p>
 
 <PublicEntry slug="dark-particle" lang="en" />
 

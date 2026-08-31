@@ -6,7 +6,7 @@ kind: collectible
 internalKey: D_Plus
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>D++ D++ D_Plus d-plus D Plus 缝合致死 Stitching to death 电池 拥有至少1格充能时即可使用，并消耗当前全部充能 D的数字增加所消耗的充能数 随后触发编号能整除当前D的所有骰子效果 D1始终触发，主动槽会预览本次结果 Battery Usable with at least 1 charge; spends all current charges Increases D by the charges spent Then triggers every listed die whose number divides the new D D1 always fires; the active slot previews the result</p>
+<p class="wiki-search-index" v-pre>D++ D++ D_Plus d-plus D Plus 缝合致死 Stitching to death 拥有至少1格充能时即可使用，并消耗当前全部充能 D的数字增加所消耗的充能数 随后触发编号能整除当前D的所有骰子效果 D1始终触发，主动槽会预览本次结果 Usable with at least 1 charge; spends all current charges Increases D by the charges spent Then triggers every listed die whose number divides the new D D1 always fires; the active slot previews the result</p>
 
 <PublicEntry slug="d-plus" lang="en" />
 

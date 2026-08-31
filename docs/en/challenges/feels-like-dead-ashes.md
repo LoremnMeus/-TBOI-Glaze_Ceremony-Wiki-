@@ -18,7 +18,7 @@ Feels Like Dead Ashes rewrites Tainted Isaac builds: normal passives do not work
 
 ## {{Item:ember}}
 
-The challenge grants **8** Ember layers that do not occupy Tainted Isaac's normal item slots. When a copyable passive (or familiar) is permanently lost, Embers retarget to that effect; all layers share the same “last lost” target.
+The challenge starts with **8** Embers that do not occupy Tainted Isaac's normal item slots. When a copyable passive (or familiar) is permanently lost, Embers retarget to that effect; all Embers share the same “last lost” target.
 
 Full Ember rules: {{Item:ember}}.
 

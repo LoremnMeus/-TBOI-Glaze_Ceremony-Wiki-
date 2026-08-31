@@ -6,7 +6,7 @@ kind: card
 internalKey: Witch
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 冰冻 发射4枚特殊冰冻泪弹 命中的敌人死亡时冻结周围敌人并使房间短暂减速 Freezing Fire 4 special freezing tears When a hit enemy dies, freeze nearby foes and briefly slow the room</p>
+<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 发射4枚特殊冰冻泪弹 命中的敌人死亡时冻结周围敌人并使房间短暂减速 Fire 4 special freezing tears When a hit enemy dies, freeze nearby foes and briefly slow the room</p>
 
 <PublicEntry slug="i-the-witch" lang="zh" />
 
