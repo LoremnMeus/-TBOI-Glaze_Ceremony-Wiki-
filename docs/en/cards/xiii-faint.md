@@ -14,12 +14,21 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
 ## Effects
 
-After use, spawns a bed you can sleep in for the current room. The bed becomes usable after a few seconds.
+Spawn a bed in the current room. After its appear animation finishes, you can sleep in it normally.
 
-## Sleep outcomes
+Sleeping still heals like a normal bed. Depending on the bed's look, Faint may also add an extra outcome.
 
-- **Normal bed:** If the character has no valid red-heart containers, gain 3 soul hearts; otherwise refill red hearts. After waking, teleport to a random room on this floor.
-- **Barren bed:** About a **20%** chance. Darker look; no healing, no teleport, and the bed effect ends.
-- One bed uses ordinary bed logic; with Tarot Cloth, a normal sleep also triggers one Holy Card–style shield.
+## Dream
+
+Usually, a few seconds after waking you are warped to a random room on this floor.
+
+About 20% of the time the bed looks darker. Sleeping in that bed still heals, but does **not** trigger the random-room warp.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Sleeping also triggers {{Card:51}}. The darker bed still triggers this.

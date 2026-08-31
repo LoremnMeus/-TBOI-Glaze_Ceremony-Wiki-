@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, the player immediately enters a short high-speed charge lasting up to about **5.5 seconds**.
@@ -29,6 +32,10 @@ During the charge:
 
 Normally, hitting an impassable wall causes a large explosion that does not hurt the player and ends the charge at once.
 
-With Tarot Cloth, the first wall hit explodes and rebounds so the charge continues; only the second wall hit truly stops it.
-
 Sustained contact with the same target does not re-apply damage every frame.
+
+## Synergies
+
+### {{Collectible:451}}
+
+The first wall hit explodes and bounces; the second wall hit finally stops it.

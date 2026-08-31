@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 Lover? lays out passive item candidates by quality: one each for quality 0 through 4, as an exclusive choice. The item you pick becomes that quality's “beloved.”
@@ -22,7 +25,12 @@ Afterward, other passive items of the same quality that enter the character are 
 
 ## Beloved and betrayal
 
-- Normally one candidate per quality; with Tarot Cloth, two per quality—more total options, still exclusive.
 - Candidates are non-hidden, non-active passives only.
 - When other candidates in the same exclusive group vanish because you normally took one, that is **not** betrayal.
 - If the beloved is abnormally removed, replaced, or “heart-swapped,” you take a broken-heart penalty.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Candidates per quality increase from 1 to 2; still mutual exclusion.

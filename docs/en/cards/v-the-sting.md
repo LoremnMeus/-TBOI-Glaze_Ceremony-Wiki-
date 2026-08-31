@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 The Sting places a sacrifice circle in the room. Standing on it preferably spends half a red heart for one sacrifice and advances rewards by completed count. The circle previews the next sacrifice.
@@ -29,4 +32,10 @@ The Sting places a sacrifice circle in the room. Standing on it preferably spend
 
 After about the 5th sacrifice the circle starts fading; if you still reach the 6th in time, you still get that reward. There are no further stage rewards after that.
 
-With Tarot Cloth, each successful sacrifice also has a 30% chance to drop a soul heart. The circle is a room entity and does not follow a room change.
+ The circle is a room entity and does not follow a room change.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Each successful sacrifice has a **30%** chance to drop an extra {{SoulHeart}}.

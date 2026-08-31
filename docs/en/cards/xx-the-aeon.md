@@ -14,10 +14,18 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 While holding The Aeon, taking damage has about a **5%** chance to spawn an eternal heart.
 
-Active use spawns a Confessional. Tarot Cloth spawns two.
+Active use spawns a Confessional.
 
 One damage event rolls once. Spawned Confessionals follow vanilla Confessional interaction.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Spawns **2** confessionals instead of **1**.

@@ -14,11 +14,12 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 The Invoker predicts **card faces that are truly used later**. After use it immediately shows the current prediction; predictions persist across rooms until they hit.
-
-Normally it predicts **1** face at once; with Tarot Cloth it predicts **3** different faces.
 
 Candidates come from a full tarot-related set: vanilla upright and reversed tarot, plus this mod's Thoth cards. The same face does not repeat within one prediction display. Using The Invoker multiple times can stack hit counts on the same face.
 
@@ -32,4 +33,10 @@ When a later card use hits a still-valid prediction:
 
 Cards **simulated** by effects such as Book of Thoth still count as hits if they resolve through normal card-use settlement—it is not limited to cards played by hand from the pocket slot.
 
-Missed predictions are not cleared automatically by leaving rooms or failing. Tarot Cloth widens how many faces are predicted at once; each face still settles by its own stacked count on a match, rather than merging several predictions into one payout.
+Missed predictions are not cleared automatically by leaving rooms or failing.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Forecast **3** different faces at once. Each face tracks hits independently.

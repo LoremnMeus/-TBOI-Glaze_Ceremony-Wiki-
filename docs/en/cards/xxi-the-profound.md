@@ -14,8 +14,14 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, warp to this floor's Super Secret Room. If no usable target exists on the floor, it falls back to an ordinary teleport.
 
-If you keep holding The Profound into the next floor, that new floor gains extra Super Secret Rooms: **1** normally, **2** while also holding Tarot Cloth.
+## Synergies
+
+### {{Collectible:451}}
+
+Extra {{SuperSecretRoom}} count on the next floor rises from **1** to **2**.

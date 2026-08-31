@@ -14,13 +14,14 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 The Fool? does not grant a wisp on the spot. It **foretells** one item from the current room pool and stores it in a foresight list that persists across rooms.
 
 The next time a new collectible pedestal truly appears on the ground, the foretold item(s) join that pedestal as an **exclusive choice**—you may take only one. If the pedestal had a price, the foretold candidates use the same price.
-
-Normally it foretells **1** item; with Tarot Cloth it foretells **3**, all bound to the same exclusive choice.
 
 ## Rules
 
@@ -28,3 +29,9 @@ Normally it foretells **1** item; with Tarot Cloth it foretells **3**, all bound
 - It affects **pedestals that appear later**, not pedestals already on the ground, and not cards or the room itself.
 - It is unrelated to upright The Fool: upright sacrifices phantoms for wisps immediately; reversed is “foretell → bind to the next pedestal as choose-one.”
 - If the pool is empty when used and no valid foresight forms, no meaningful candidate appears (nothing is invented from nowhere).
+
+## Synergies
+
+### {{Collectible:451}}
+
+Record **3** different foresight items at once; the next pedestal choice merges them with the original item as one mutual-exclusion pick.

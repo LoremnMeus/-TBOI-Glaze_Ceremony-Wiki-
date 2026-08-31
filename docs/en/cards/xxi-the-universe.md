@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, randomly show up to **3** of the player's truly held collectibles as sacrifice candidates.
@@ -26,4 +28,8 @@ With nothing to sacrifice, The Universe is returned and is not wasted.
 
 Rewards come from a fixed pool: mainly planet-set items, Planetarium-related items, and star-themed items this mod designates. When emptied it falls back to a Zodiac-style result.
 
-Tarot Cloth still sacrifices only one item, but the final Universe reward becomes a choose-one of two.
+## Synergies
+
+### {{Collectible:451}}
+
+Still sacrifices 1 item, but the final Universe reward becomes a 2-option pick.

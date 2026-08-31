@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, the current room gradually falls asleep.
@@ -22,4 +25,10 @@ As long as you stop firing, sleep depth keeps rising; **moving does not wake the
 
 As sleep deepens, enemy movement and hostile projectiles slow sharply, but enemies are not fully frozen.
 
-Firing again wakes the room gradually; leaving ends the effect. Tarot Cloth makes sleep deepen faster and waking slower.
+Firing again wakes the room gradually; leaving ends the effect.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Falling asleep is faster and waking is slower.

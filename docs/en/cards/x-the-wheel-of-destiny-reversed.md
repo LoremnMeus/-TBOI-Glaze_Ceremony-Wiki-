@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 Destiny? makes qualifying ground pickups in the current room cycle through several possible forms. Wait for the form you want, then pick it up; the other forms vanish.
@@ -21,7 +24,13 @@ Destiny? makes qualifying ground pickups in the current room cycle through sever
 ## Rotation rules
 
 - Typical participants: hearts, coins, keys, bombs, batteries, capsules, pills, cards, trinkets, and similar basic pickups.
-- Each target expands into **3–5** alternate forms (**5–7** with Tarot Cloth) as one exclusive choice, preserving the original price when possible.
+
 - Candidates orbit the original spot so you can tell them apart.
 - Collectible pedestals are not included.
 - Rotation state clears on the next floor.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Alternate forms per target increase from **3–5** to **5–7**.

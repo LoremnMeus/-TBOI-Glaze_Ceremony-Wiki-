@@ -14,8 +14,17 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
 ## Effects
 
-Opposite of [The Hanged Man](/cards/xii-the-hanged-man): **reversed Thoth cards** that appear later on this floor convert into their upright counterparts.
+Opposite of {{Card:xii-the-hanged-man}}: later **reversed** Thoth cards convert to upright faces for the rest of the floor.
 
-Scope, floor duration, and Error Room conflict handling when both rules exist match the upright card.
+## Conflict
+
+If both conversion rules are active, a conflict sends you to an {{ErrorRoom}} Error Room and clears both rules.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Also drop an extra {{Card:xii-the-hanged-man-reversed}} on the ground.

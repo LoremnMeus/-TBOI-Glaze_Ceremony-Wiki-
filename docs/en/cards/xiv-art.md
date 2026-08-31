@@ -14,10 +14,18 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
-After use, enter a painting window: about **30 seconds** normally, **45** with Tarot Cloth.
+After use, enter a painting window: about **60 seconds**.
 
 Kills during that time drop rainbow paint. Normals drop 1, elites more, bosses up to 3 (a given boss settles once).
 
 Every **3** paints synthesize one basic pickup (heart, coin, bomb, key, or battery). Leftover paint fades quickly when time ends.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Painting time lasts **90 seconds** instead of **60**.

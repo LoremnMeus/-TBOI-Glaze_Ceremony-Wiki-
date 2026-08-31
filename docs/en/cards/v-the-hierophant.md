@@ -14,10 +14,17 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
 ## Effects
 
-The Hierophant grants a sacred shooting boost for this room, mimicking {{Collectible:182}} and {{Collectible:533}} at once.
+For the current room, temporarily gain the effects of {{Collectible:533}} and {{Collectible:182}}. The boost ends when you leave the room.
 
-The effect stays in the current room and clears on room change. Reusing it refreshes the mimic for this room; it does not stack layers across rooms.
+## Synergies
 
-Tarot Cloth does not extend the room boost. Instead it spawns three fragile matching wisps (Sacred Heart, Judas' Shadow, and Haemolacria-related), each with very low HP.
+### {{Collectible:451}}
+
+Instead of the room-bound temporary effects above, spawn 3 very fragile item wisps for:
+
+- {{Collectible:533}}
+- {{Collectible:182}}
+- {{Collectible:184}}

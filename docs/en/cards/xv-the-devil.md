@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 The Devil works both as an active “offer your life” use and, while held, as a death insurance.
@@ -24,5 +26,11 @@ When trigger conditions are met, you are pulled out of a lethal state and sent t
 
 - On a true lethal hit, as long as you still hold this card (or just entered the offer-life flow via active use), the Devil in your pocket is consumed and you revive into a Devil Room.
 - Active use plays out first, then forces the same revival chain.
-- With Tarot Cloth, active offer-life returns the Devil to your hand afterward.
+
 - Whether it can happen again in a run depends on holding or obtaining the card again.
+
+## Synergies
+
+### {{Collectible:451}}
+
+After a voluntary sacrifice trigger, Devil returns to your hand.

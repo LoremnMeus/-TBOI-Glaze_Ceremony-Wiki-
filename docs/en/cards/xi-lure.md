@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, enemies **in this room** each show a desire: coins, keys, bombs, or red hearts.
@@ -24,6 +27,12 @@ Stop firing and approach; if you have the resource it wants, you enter an offeri
 
 Satisfied enemies stay hostile—they do not become allies.
 
-On defeat they drop at least **1** of the resource they asked for. Normals also have a **35%** chance to drop one more; bosses always drop **2**. Tarot Cloth raises the normal extra-drop chance to **75%**.
+On defeat they drop at least **1** of the resource they asked for. Normals also have a **35%** chance to drop one more; bosses always drop **2**.
 
 Unfinished desire states end when you leave the room.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Normal-enemy bonus drop chance rises from **35%** to **75%**.

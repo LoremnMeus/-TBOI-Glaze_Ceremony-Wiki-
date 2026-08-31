@@ -14,11 +14,13 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, gain a “stability”-driven stat boost.
 
-A normal use raises stability to at least **7**; Tarot Cloth raises it to at least **15**. Higher stability strengthens damage, tears, range, speed, and similar gains.
+ Higher stability strengthens damage, tears, range, speed, and similar gains.
 
 ## Stability changes
 
@@ -28,3 +30,9 @@ A normal use raises stability to at least **7**; Tarot Cloth raises it to at lea
 - Clear a room: **+0.25**
 
 Picking up 10 coins at once still counts as one resource change (−1), not −10. Stat growth follows a square-root curve, so further gains slow at high stability.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Stability rises to at least **15** (normally at least **7**).

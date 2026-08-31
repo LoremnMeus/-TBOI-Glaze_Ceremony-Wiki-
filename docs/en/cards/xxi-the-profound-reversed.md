@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, enter a multi-stage maze.
@@ -28,4 +30,8 @@ Choosing the wrong door ends the exploration and sends you out of the maze.
 
 ## Final reward
 
-Completing every stage yields **3 exclusive item candidates** (**4** with Tarot Cloth).
+## Synergies
+
+### {{Collectible:451}}
+
+Final mutual item candidates rise from **3** to **4**.

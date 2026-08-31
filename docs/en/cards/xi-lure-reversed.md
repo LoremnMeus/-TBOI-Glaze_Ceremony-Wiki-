@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 While holding Lure?, effective hits you take are recorded and accumulated.
@@ -25,4 +28,9 @@ Using the card cashes the current count into heart pickups, then clears this rou
 - It counts effective hit **times**, not raw damage summed.
 - One effective hit increments once.
 - The total persists across rooms and floors until cashed with this card.
-- Normally it pays out as half-red-heart pickups; with Tarot Cloth, equal-count blended hearts instead.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Payouts become mixed hearts from the pool ({{Heart}} / {{SoulHeart}} / {{BlackHeart}}, etc.).

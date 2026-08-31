@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, rewritable items still on this floor respawn into an **unknown, paid** state. You cannot normally identify them before purchase.
@@ -23,6 +26,12 @@ Items already taken are not reclaimed. Quest / story pedestals are not rewritten
 ## Price and recognition
 
 - Items show as question-mark visuals, and external descriptions are obscured.
-- Price scales with quality: under common base pricing, about **quality × 5**; with Tarot Cloth, about **quality × 1**.
+
 - Goods that already had a price are recalculated under the new rule instead of keeping the old price.
 - The rewrite ends when you leave the floor.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Shop price multiplier drops from about quality×5 to about quality×1.

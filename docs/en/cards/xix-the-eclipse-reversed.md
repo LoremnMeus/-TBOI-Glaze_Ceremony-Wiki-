@@ -14,10 +14,18 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, starts a **3-minute** eclipse.
 
 During that time the sun draws nearer and keeps calling down light strikes on enemies; strikes grow more frequent as time advances.
 
-Base light-strike damage is about **3×** the player's current damage (**6×** with Tarot Cloth). The effect persists across rooms until time ends or you change floors.
+ The effect persists across rooms until time ends or you change floors.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Beam damage multiplier becomes about **6×** instead of about **3×**.

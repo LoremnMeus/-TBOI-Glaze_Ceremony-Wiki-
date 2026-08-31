@@ -14,9 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-## Effects
 
-After use, Satan appears and **2–3** Devil-deal goods spawn in the room (**4–5** with Tarot Cloth).
+
+## Effects
 
 You may pay normal Devil prices, or bomb Satan to abandon the deal and fight.
 
@@ -29,3 +29,9 @@ After attacking Satan:
 - After defeating Satan, those unbought goods reappear and can be taken for free.
 
 Goods already bought are not returned. Prices follow Devil-deal style pricing.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Devil-deal stock increases from **2–3** to **4–5**.

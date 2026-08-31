@@ -75,7 +75,7 @@
 - 属性：`{{Damage}}` `{{Tears}}` `{{Speed}}` `{{Range}}` `{{Shotspeed}}` `{{Luck}}`
 - 心：`{{Heart}}` `{{SoulHeart}}` `{{BlackHeart}}` `{{BoneHeart}}` `{{BrokenHeart}}` `{{EternalHeart}}` `{{RottenHeart}}` `{{EmptyHeart}}`
 - 资源：`{{Coin}}` `{{Bomb}}` `{{Key}}` `{{Battery}}` `{{Card}}` `{{Pill}}` `{{Rune}}` `{{Trinket}}`
-- 房间：`{{TreasureRoom}}` `{{Shop}}` `{{BossRoom}}` `{{DevilRoom}}` `{{AngelRoom}}` `{{SecretRoom}}` `{{Planetarium}}` `{{SacrificeRoom}}`
+- 房间：`{{TreasureRoom}}` `{{Shop}}` `{{BossRoom}}` `{{DevilRoom}}` `{{AngelRoom}}` `{{SecretRoom}}` `{{SuperSecretRoom}}` `{{Planetarium}}` `{{SacrificeRoom}}` `{{ErrorRoom}}`
 - 状态：`{{Warning}}` `{{Timer}}` `{{Poison}}` `{{Burning}}` `{{Fear}}` `{{Slow}}` `{{Charm}}` `{{Confusion}}` `{{HolyMantle}}` `{{ArrowUp}}` `{{ArrowDown}}`
 - 正邪：`{{Seija}}` `{{SeijaB}}`（正文会内联「正邪 / Seija」名称；**游戏内说明**区块仅显示图标，与其他 EID 图标一致）
 - 品质：`{{Quality0}}` `{{Quality1}}` `{{Quality2}}` `{{Quality3}}` `{{Quality4}}`

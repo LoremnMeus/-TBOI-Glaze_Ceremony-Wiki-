@@ -14,14 +14,21 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 The Hermit looks through collectibles the player has **already lost** this run and spawns pedestals that can reclaim them. These are not fresh draws from the current pool; they come from the loss record.
-
-Normally one candidate appears; with Tarot Cloth you get up to **3 exclusive options** and may take only one.
 
 ## Candidates
 
 - Lost collectibles enter the record; quest-marked items do not.
 - Candidates prefer passives, then actives; with no recoverable record, a “touched poop” style fallback appears instead.
 - Three candidates share one exclusive choice—take only one.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Offers up to **3** mutually exclusive candidates instead of 1.

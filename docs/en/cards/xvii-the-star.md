@@ -14,14 +14,22 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 The Star cares about this floor's first **true card use from the pocket slot**.
 
-If this floor has no record of a held card truly used yet, using The Star spawns a large heart package: full red hearts, soul hearts, and eternal hearts. With Tarot Cloth, the first use also adds blended, black, and bone hearts.
+If this floor has no record of a held card truly used yet, using The Star spawns a large heart package: full red hearts, soul hearts, and eternal hearts.
 
 Once a true pocket-slot card use has happened on this floor (including The Star's own first use), later uses only spawn half red hearts.
 
 ## Real use
 
 Cards simulated by effects such as Book of Thoth do not count as a true pocket-slot use, so they do not spend The Star's first large healing window early.
+
+## Synergies
+
+### {{Collectible:451}}
+
+On a first no-history use, also spawns mixed hearts, {{BlackHeart}}, and {{BoneHeart}}.

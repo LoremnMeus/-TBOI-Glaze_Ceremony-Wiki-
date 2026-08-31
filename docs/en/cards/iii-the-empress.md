@@ -14,16 +14,25 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 The Empress concentrates the room's enemy power into its strongest foe.
 
-After use, many enemies are heavily weakened and turned friendly, while the “vessel” enemy is empowered so the pressure of a pack collapses onto fewer targets.
+After use, many enemies are heavily weakened and turned friendly, while the core enemy is empowered so the pressure of a pack collapses onto fewer targets.
 
 ## Rules
 
-- **Strongest** pick: if a boss is present, prefer the boss; otherwise pick the enemy with the highest current HP. A target already empowered as a vessel is preferred to stay the vessel.
-- Non-vessel enemies are drained to about **10%** of max HP (**20%** with Tarot Cloth) and become friendly.
-- Drained HP flies into the vessel as soul shots; the vessel gains max and current HP and becomes harder to handle.
+- **Strongest** pick: if a boss is present, prefer the boss; otherwise pick the enemy with the highest current HP. A target already empowered as a core enemy is preferred to stay the core enemy.
+
+- Drained HP flies into the core enemy as soul shots; the core enemy gains max and current HP and becomes harder to handle.
 - With only one enemy in the room, it only becomes an empowered champion—there is no other drain source.
-- Bosses usually serve as the vessel; normals are more often the drained side.
+- Bosses usually serve as the core enemy; normals are more often the drained side.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Weakened non-core enemies keep about **20%** max HP instead of about **10%**.

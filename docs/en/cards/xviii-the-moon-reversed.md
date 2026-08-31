@@ -14,10 +14,16 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 Fears enemies in the current room and greatly increases damage they take. Affected enemies ultimately take about **3×** their normal total damage.
 
-Normally the player is also briefly feared (about 20 seconds); with Tarot Cloth that self-debuff does not apply.
-
 Enemy fear amplification lasts about 2 minutes; leaving the room ends this room's effect.
+
+## Synergies
+
+### {{Collectible:451}}
+
+You no longer take the fear downside yourself.

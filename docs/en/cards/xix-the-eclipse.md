@@ -14,8 +14,16 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, creates a lasting eclipse aperture. Enemies near it are pulled in, briefly leave the fight, then fall back out through the aperture and take fixed damage.
 
-Duration is **15 seconds** normally, **30** with Tarot Cloth. The aperture vanishes when you leave or when time ends.
+ The aperture vanishes when you leave or when time ends.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Portal duration becomes **30 seconds** instead of **15**.

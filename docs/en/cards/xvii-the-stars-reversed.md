@@ -14,12 +14,19 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, enemies in the current room light up and form auras. Near those star sources—or near this card while it is still on the ground—you gain Star of Bethlehem–like boosts: more damage and tears, spectral tears when strong enough, and about a coin-flip chance to block one hit.
 
 ## Rules
 
-- Normally it mainly lights enemies in this room; Tarot Cloth tries to light enemies more broadly on the floor and can turn pickups into star sources too.
 - The boost scales with distance and aura strength; it is not a flat full-map aura.
 - After a room change you must approach still-existing sources again to keep benefiting.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Tries to light enemies across a wider floor range; pickups may also become star sources.

@@ -14,9 +14,11 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
-After use, obstacles begin falling in successive waves. Normally **10** waves; with Tarot Cloth **16**.
+After use, obstacles begin falling in successive waves.
 
 Each wave picks from allowed obstacle types and drops them from above, damaging hit enemies while gradually cluttering the room.
 
@@ -26,3 +28,9 @@ Each wave picks from allowed obstacle types and drops them from above, damaging 
 - About half try to track enemies as they fall.
 - Dropped obstacles remain as terrain hazards.
 - Waves keep their rhythm after activation and do not cancel early when the room is cleared.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Obstacle rain waves increase from **10** to **16**.

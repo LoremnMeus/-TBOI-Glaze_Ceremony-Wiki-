@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, movable obstacles in the current room lift into the air, then slam into enemies one after another. Lifted obstacles become real attacks, not just a room clear.
@@ -28,4 +30,10 @@ Common liftable kinds include:
 - TNT;
 - Some lock-style obstacles.
 
-Slam damage roughly follows the player's current damage; some reinforced obstacles hit harder on contact. With Tarot Cloth, related tiles tend to restore after you leave rather than staying permanently cleared.
+Slam damage roughly follows the player's current damage; some reinforced obstacles hit harder on contact.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Affected obstacles restore after leaving the room instead of staying destroyed.

@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, the strongest enemy in the room becomes the current offering. When it dies, the rite picks a new target; later offerings grow more fragile as the sacrifice count rises.
@@ -28,4 +31,8 @@ Bosses take this vulnerability too, but the extra vulnerability caps at **+150%*
 
 The rite continues until no legal offerings remain in the room, or you leave.
 
-Tarot Cloth allows two offerings at once; either death advances the count and refills a new target.
+## Synergies
+
+### {{Collectible:451}}
+
+Marks **2** offerings at once. Either death advances the count and refreshes offerings.

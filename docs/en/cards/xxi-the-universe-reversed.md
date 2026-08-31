@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 On first use, The Universe? picks one of the player's held items and temporarily stores it in a cross-floor state.
@@ -25,4 +27,9 @@ On the next floor, The Universe? returns near the original user; using it again 
 - Storage begins only after the item is truly removed from the character.
 - Both the card and the stored item bind to the original user; in co-op others cannot steal the return card by collision.
 - After a successful return, that storage clears at once.
-- Tarot Cloth returns closer to a fresh full state; a normal return lands as already-touched with empty charge.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Returns closer to a fresh state; normal returns are touched/empty-charge.

@@ -14,10 +14,17 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, fires a giant rocket along the current attack direction. Explosion damage is **300**, using giant-rocket collision and blast behavior.
 
 If almost no usable firing direction is available, it falls back to the player's current movement direction.
 
-With Tarot Cloth, three rockets fire at once: along the attack direction and angled left and right.
+## Synergies
+
+### {{Collectible:451}}
+
+Fires **3** giant rockets: one forward and two angled left/right.

@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, while you remain **in this room**, picking up a qualifying ordinary pickup has a **50%** chance to spawn an identical copy in place.
@@ -34,3 +36,9 @@ Copies cannot trigger Lover again, so the effect cannot chain forever. Leaving t
 - Shop goods and other priced pickups;
 - Pickups already in an exclusive-choice group;
 - Copies spawned by Lover itself.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Duplication chance rises from **50%** to **75%**.

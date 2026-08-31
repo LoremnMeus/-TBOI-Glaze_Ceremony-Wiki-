@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, **5 phantom items** from the current room's item pool appear around the player. Candidates are limited to items that can become item wisps, and the same cast never repeats a candidate.
@@ -25,3 +27,9 @@ Phantoms are for selection only. They cannot be taken as ordinary pedestals thro
 ## Notes
 
 The Fool changes both what you get now and what that pool can still roll later: a high-value phantom means a stronger wisp immediately, but also removes that item from the current pool.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Phantom candidates increase from **5** to **8**. Selection and sacrifice rules are unchanged.

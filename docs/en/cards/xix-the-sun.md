@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 The Sun re-fires **other cards previously used in this room**.
@@ -22,6 +24,10 @@ The Sun itself is not written into history, so it cannot form a direct infinite 
 
 ## Rewards
 
-After **3** cumulative replays, spawn a random card; with Tarot Cloth, after **10** cumulative replays also spawn an item.
-
 The count accumulates by replay count and clears on room change.
+
+## Synergies
+
+### {{Collectible:451}}
+
+At **10** replays, also spawns a collectible (random card still at 3).

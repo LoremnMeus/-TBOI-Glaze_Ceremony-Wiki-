@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 Adjustment? immediately clears all coins, keys, and bombs and converts them into permanent run stat bonuses.
@@ -23,4 +26,9 @@ Conversion is not a flat one-for-one: bombs, keys, and coins use different weigh
 ## Rules
 
 - Checking and conversion happen **on use**, not each time you pick up resources later.
-- After conversion, if you hold Tarot Cloth, there is a **50%** chance to drop another Adjustment?.
+
+## Synergies
+
+### {{Collectible:451}}
+
+**50%** chance to spawn an extra {{Card:viii-adjustment-reversed}}.

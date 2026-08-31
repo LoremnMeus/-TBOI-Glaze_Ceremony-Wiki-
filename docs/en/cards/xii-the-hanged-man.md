@@ -14,16 +14,17 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
 ## Effects
 
-After use, **upright Thoth cards** that appear later on this floor convert into their reversed counterparts.
-
-The rule lasts until the floor ends, and it affects objects newly spawned or changed into Thoth cards afterward.
+Later **upright** Thoth cards on this floor convert into their reversed faces until the floor ends.
 
 ## Conflict
 
-If this floor also has [The Hanged Man?](/cards/xii-the-hanged-man-reversed) conversion active, and one Thoth card is required to become both upright and reversed:
+If both {{Card:xii-the-hanged-man}} and {{Card:xii-the-hanged-man-reversed}} conversion rules are active, a Thoth card forced both upright and reversed sends you to an {{ErrorRoom}} Error Room and clears both rules.
 
-> **The player is sent to the Error Room.**
+## Synergies
 
-After the conflict, both floor conversion states clear and do not keep retriggering.
+### {{Collectible:451}}
+
+Also drop an extra {{Card:xii-the-hanged-man}} on the ground.

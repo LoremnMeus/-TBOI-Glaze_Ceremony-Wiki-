@@ -14,8 +14,16 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, spawns a Moonlight equivalent to {{Collectible:589}}.
 
-The Moonlight follows vanilla Moonlight lighting and room interaction. With Tarot Cloth, when that Moonlight disappears it also leaves a portal into this floor's Secret Room.
+The Moonlight follows vanilla Moonlight lighting and room interaction.
+
+## Synergies
+
+### {{Collectible:451}}
+
+When the moonlight fades, leaves a portal to this floor's {{SecretRoom}}.

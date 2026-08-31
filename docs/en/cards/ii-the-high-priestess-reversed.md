@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, Mom's Hand grabs a suitable enemy. It prefers targets that are still grabbable; if the original target vanishes or becomes invalid before the hand arrives, it retargets another legal enemy.
@@ -23,5 +26,11 @@ Normally, a grabbed enemy is briefly frozen, then removed from the fight. The ef
 ## Rules
 
 - With no legal target, the hand lands, hops, and disappears instead of getting stuck.
-- Tarot Cloth is not a simple “grab twice”: **non-boss** targets carried off become friendly units tossed to a random room spot; bosses are still removed and do not become allies.
+
 - Friendlies are room conversions and are not kept as permanent cross-floor followers.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Non-boss enemies taken by Mom's Hand return as {{Charm}} friendlies; bosses are still removed.

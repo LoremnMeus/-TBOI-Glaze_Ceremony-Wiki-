@@ -14,6 +14,8 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
 ## Effects
 
 After use, spawns a rainbow portal in the current room to a random special room on this floor.
@@ -23,5 +25,11 @@ The destination is fixed on first spawn; re-entering this room still leads to **
 ## Destination
 
 - Candidates are non-normal rooms on this floor.
-- Tarot Cloth prefers unexplored special rooms.
+
 - The target stays fixed for the floor; portal state ends on the next floor.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Prefers unexplored special rooms.

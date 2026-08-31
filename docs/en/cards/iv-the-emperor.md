@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 The Emperor does not simply warp you to the boss room. It opens special entrances in the current room to **other rooms on this floor** and temporarily seals ordinary doors.
@@ -22,7 +25,12 @@ Those entrances lead to rooms already on the floor map, plus a few extra special
 
 ## Extra rooms
 
-- How many entrances open depends on available outer-wall space in the current room, not a fixed count; Tarot Cloth greatly raises opening chances.
 - Destinations are existing floor rooms or a few special targets; the whole map is not force-revealed.
 - Clear rewards follow the destination room's own rules (for example extra items after clearing Mega Satan); The Emperor itself does not grant extra loot.
 - The effect exists only in the current room: entrances vanish on room change, and nothing carries to the next floor.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Greatly increases how often extra room entrances can open.

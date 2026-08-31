@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 Adjustment rebalances the player's current **coins, keys, and bombs** as one resource set, rather than adding or removing a fixed amount from each.
@@ -26,4 +29,8 @@ Example: starting from 10 coins, 1 key, and 1 bomb (total 12) settles to 4 / 4 /
 
 Starting from 10 coins, 5 keys, and 2 bombs (total 17) first becomes 5 / 5 / 5; remainder 2 spawns **two** exclusive three-way groups.
 
-Tarot Cloth grants extra run-long stat bonuses based on how unbalanced the resources were before versus after this rebalance.
+## Synergies
+
+### {{Collectible:451}}
+
+Grants an extra run-wide stat bonus based on how unbalanced resources were before/after this use.

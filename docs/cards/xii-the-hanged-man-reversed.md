@@ -14,8 +14,21 @@ status: reviewed
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
+
 ## 效果
 
-与 [缚者](/cards/xii-the-hanged-man) 相反：本层之后出现的**倒位透特牌**会转换为对应正位牌。
+与 {{Card:xii-the-hanged-man}} 相反：本层之后出现的**倒位透特牌**会转换为对应正位牌。
 
-规则范围、本层持续，以及与正位同时存在时的 Error Room 冲突处理，均与正位相同。
+规则范围与本层持续与正位相同。
+
+## 冲突
+
+如果本层同时存在 {{Card:xii-the-hanged-man}} 与 {{Card:xii-the-hanged-man-reversed}} 的转换规则，一张透特牌同时被要求变为正位和倒位时，会发生冲突，并将玩家送入 {{ErrorRoom}} 错误房。
+
+冲突发生后，正位与倒位的转换状态都会被清除。
+
+## 特殊联动
+
+### {{Collectible:451}}
+
+使用后额外在地面生成一张 {{Card:xii-the-hanged-man-reversed}}。

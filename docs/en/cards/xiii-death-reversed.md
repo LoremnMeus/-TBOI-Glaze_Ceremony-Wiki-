@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, the player immediately drops the active item, cards / pills, and trinkets.
@@ -22,7 +25,6 @@ While those required-empty slots stay empty, you gain large stat boosts. Filling
 
 ## Stats
 
-| | Normal | Tarot Cloth |
 | --- | --- | --- |
 | Damage | +2.5 | +3.5 |
 | Tears | +1.5 | +2 |
@@ -31,3 +33,9 @@ While those required-empty slots stay empty, you gain large stat boosts. Filling
 | Luck | +5 | +7 |
 
 Pocket and secondary actives try to return to their original slots when picked up again, instead of always seizing the primary active slot.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Uses the stronger buff column (+3.5 Damage, +2 Tears, +4 Range, +0.7 Speed, +7 Luck).

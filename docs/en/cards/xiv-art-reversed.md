@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 After use, when certain gameplay-relevant entities in this room disappear, a fixed-scale explosion triggers at their spot.
@@ -24,4 +27,10 @@ Typical triggers include enemies, player tears, hostile projectiles, bombs, ordi
 
 Explosion damage is about **2×** the player's current damage. Blast scale is fixed (radius factor **0.7**) and does not grow with repeated triggers.
 
-Disappearances too close to the player do not explode. With Tarot Cloth these blasts do not hurt the player. Leaving the room ends the effect.
+Disappearances too close to the player do not explode. Leaving the room ends the effect.
+
+## Synergies
+
+### {{Collectible:451}}
+
+Those explosions no longer hurt the player.

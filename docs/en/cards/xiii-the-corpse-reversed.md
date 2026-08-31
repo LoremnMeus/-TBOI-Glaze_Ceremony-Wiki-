@@ -14,6 +14,9 @@ status: reviewed
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
+
+
+
 ## Effects
 
 The Corpse? spit out red hearts the player can safely spend behind them, turning those into rotten hearts. Spawned rotten hearts release poison fog that damages nearby enemies.
@@ -22,4 +25,10 @@ The effect avoids emptying the last safe red-heart reserve just to spit rotten h
 
 ## When hearts run low
 
-When no more hearts can be safely spent, there is still a **10%** chance to spit one extra rotten heart for free. Tarot Cloth raises that chance to **25%**.
+When no more hearts can be safely spent, there is still a **10%** chance to spit one extra rotten heart for free.
+
+## Synergies
+
+### {{Collectible:451}}
+
+When hearts can no longer be safely spat, free rotten-heart chance rises from **10%** to **25%**.
