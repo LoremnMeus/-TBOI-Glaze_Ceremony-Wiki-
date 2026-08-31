@@ -4,7 +4,7 @@ description: "伯大尼开局 !!! 无法发射眼泪 蓄满专用充能后，朝
 slug: safe-driving
 kind: challenge
 internalKey: Safe_Driving
-status: reviewed
+status: featured
 ---
 <p class="wiki-search-index" v-pre>挑战：安全驾驶 Safe Driving Safe_Driving safe-driving Safe Driving 伯大尼开局 !!! 无法发射眼泪 蓄满专用充能后，朝攻击方向发出和谐号列车撞击敌人 难度等级：普通 Play as Bethany !!! Cannot shoot tears After the special charge fills, fire a Hyper Velocity train in your attack direction Difficulty: Normal</p>
 
@@ -12,21 +12,13 @@ status: reviewed
 
 ## 机制说明
 
-## 效果
+## 玩法
 
-**安全驾驶把普通射击换成一班需要蓄力的高速列车：蓄满后朝攻击方向发车，让列车横穿房间撞击敌人。**
+「安全驾驶」把普通射击换成需要蓄力的高速列车：蓄力条充满后，朝攻击方向发车，让列车横穿房间撞击敌人。
 
-- 屏幕上有专用蓄力条。
-- 蓄满后给出攻击方向即可发车；发车后重新蓄力。
-- 列车复用 {{Item:hyper-velocity}} 的 Harmony：从角色后方沿指定方向驶入并持续加速，撞击敌人，并破坏沿途可破坏地形。
+## 规则
 
-## 注意
-
-- 蓄力已满但没有输入攻击方向时，不会自动清空充能。
-
-<details>
-<summary>技术细节</summary>
-
-有效攻击控制状态下每帧累计蓄力；达到 **100** 且攻击方向有效时发车并清零。
-
-</details>
+- 屏幕上有专用蓄力条；在有效攻击控制下逐渐蓄满。
+- 蓄满后给出攻击方向即可发车，发车后重新蓄力。
+- 列车复用 {{Item:hyper-velocity}} 的和谐号：从角色后方驶入并加速，撞击敌人并破坏沿途可破坏地形。
+- 蓄力已满但没有输入攻击方向时，不会浪费已满的充能。

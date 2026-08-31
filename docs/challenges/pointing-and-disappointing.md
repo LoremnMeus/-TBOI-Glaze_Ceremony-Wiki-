@@ -4,7 +4,7 @@ description: "参孙开局 云玩大佬 持有5个云玩大佬 罐中火箭 持�
 slug: pointing-and-disappointing
 kind: challenge
 internalKey: Pointing
-status: stub
+status: featured
 ---
 <p class="wiki-search-index" v-pre>挑战：指指点点 Pointing and Disappointing Pointing pointing-and-disappointing Pointing and Disappointing 参孙开局 云玩大佬 持有5个云玩大佬 罐中火箭 持有火箭炸弹，云玩大佬放置的炸弹也会变成火箭 难度等级：困难 Play as Samson Cloundy Start with 5 Cloundies Rocket in a Jar Start with Rocket in a Jar; bombs placed by Cloundies also become rockets Difficulty: Hard</p>
 
@@ -12,6 +12,12 @@ status: stub
 
 ## 机制说明
 
-<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
+## 玩法
 
-待撰写。
+「指指点点」围绕多个 {{Item:cloundy}} 与罐中火箭展开：跟班会持续替玩家布置炸弹，而这些炸弹同样会被转化为火箭，使战斗变成不断调整方向、预判爆炸路径的远程轰炸。
+
+## 特殊联动
+
+持有罐中火箭时，云玩大佬放置的炸弹也会变成火箭，并继承玩家侧的火箭炸弹行为。挑战以多只云玩大佬叠加投放频率，而不是改写云玩大佬本身的寻找门、吞怪等基础 AI。
+
+云玩大佬与罐中火箭的通用说明见各自道具页；本页只强调挑战中的组合效果。

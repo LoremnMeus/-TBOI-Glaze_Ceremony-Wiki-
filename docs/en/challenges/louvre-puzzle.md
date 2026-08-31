@@ -4,7 +4,7 @@ description: "Play as Isaac Death Certificate Each floor starts in the Death Cer
 slug: louvre-puzzle
 kind: challenge
 internalKey: Louvre_puzzle
-status: stub
+status: featured
 ---
 <p class="wiki-search-index" v-pre>挑战：卢浮宫难题 Louvre Puzzle Louvre_puzzle louvre-puzzle Louvre Puzzle 以撒开局 死亡证明 每层从死亡证明区域开始 !!! 越接近道具，道具轮换得越快 暂停 使用暂停可使所有道具停止轮换2秒 难度等级：简单 Play as Isaac Death Certificate Each floor starts in the Death Certificate area !!! The closer you are to an item, the faster it rerolls Pause Using Pause freezes all rerolls for 2 seconds Difficulty: Easy</p>
 
@@ -12,6 +12,13 @@ status: stub
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+## Gameplay
 
-To be written.
+Louvre Puzzle starts each floor in a Death Certificate gallery: pedestals keep rerolling faster the closer you are. Pause freezes every reroll briefly so you can commit.
+
+## Rules
+
+- Each floor begins in the Death Certificate area.
+- Proximity speeds rerolls.
+- Pause freezes all rerolls for about **2 seconds**.
+- Breakfast leftover pedestals from rerolls cannot be picked up.

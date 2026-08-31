@@ -4,7 +4,7 @@ description: "Play as Tainted Judas !!! Everything in the room gradually turns i
 slug: invisible
 kind: challenge
 internalKey: Invisible
-status: stub
+status: featured
 ---
 <p class="wiki-search-index" v-pre>挑战：不为人知 Invisible Invisible invisible Invisible 里犹大开局 !!! 房间中的一切都会逐渐隐形 暗仪刺刀 黑暗艺术经过的区域会暂时重新显形 !!! 没有 宝箱房与 商店 难度等级：简单 Play as Tainted Judas !!! Everything in the room gradually turns invisible Dark Arts briefly reveals the area it passes through !!! No Treasure Rooms or Shops Difficulty: Easy</p>
 
@@ -12,6 +12,12 @@ status: stub
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
+## Gameplay
 
-To be written.
+Invisible fades the room away; Tainted Judas must brush Dark Arts trails to briefly reveal entities and terrain.
+
+## Rules
+
+- Room contents gradually turn invisible.
+- Areas Dark Arts passes through temporarily reappear (including floor/walls while casting).
+- No Treasure Rooms or Shops—growth leans on encounters and pocket resources.
