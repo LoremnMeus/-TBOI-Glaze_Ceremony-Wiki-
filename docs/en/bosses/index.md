@@ -1,12 +1,12 @@
 ---
-title: Bosses
+title: Boss
 description: Combat encounter reference. Canonical list is Boss Registry, not bosses/ folder.
 slug: bosses
 kind: index
 status: stub
 ---
 
-# Bosses
+# Boss
 
 This section answers how to fight an encounter. It does not replace Story or Character pages.
 
