@@ -4,7 +4,7 @@ description: "On use, teleport to this floor's Super Secret Room Holding it into
 slug: xxi-the-profound
 kind: card
 internalKey: Profound
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XXI - 深邃 XXI - Profound Profound xxi-the-profound XXI - The Profound 有物井中来 使用后传送至本层超级隐藏房 持有到下一层时，额外生成1个超级隐藏房 On use, teleport to this floor&#x27;s Super Secret Room Holding it into the next floor adds 1 Super Secret Room</p>
 
@@ -16,6 +16,6 @@ status: drafted
 
 ## Effects
 
-Teleport to this floor's Super Secret Room; holding into the next floor adds 1 Super Secret Room.
+After use, warp to this floor's Super Secret Room. If no usable target exists on the floor, it falls back to an ordinary teleport.
 
-If no normal target exists, fall back to an available entrance; new rooms are extras.
+If you keep holding The Profound into the next floor, that new floor gains extra Super Secret Rooms: **1** normally, **2** while also holding Tarot Cloth.

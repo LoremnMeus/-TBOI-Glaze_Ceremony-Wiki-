@@ -4,7 +4,7 @@ description: "虚无解械"
 slug: xv-the-devil-reversed
 kind: card
 internalKey: Devil_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XV - 邪心? XV - The Devil? Devil_r xv-the-devil-reversed XV - The Devil? 虚无解械 召来撒旦进行一次恶魔交易，出现2–3件商品 攻击撒旦可改为与其战斗；击败后返还尚未购买的商品 Summon Satan for a Devil deal with 2–3 goods Attacking Satan starts a fight; defeating him returns unbought goods</p>
 
@@ -16,12 +16,16 @@ status: drafted
 
 ## 效果
 
-召来撒旦进行恶魔交易，出现 **2–3** 件商品。
+使用后召来撒旦，并在房间中生成 **2–3 件**恶魔交易商品（塔罗布为 **4–5 件**）。
 
-### 正常交易
+玩家可以正常支付恶魔价格完成交易，也可以选择用爆炸攻击撒旦，放弃正常交易并进入战斗。
 
-选择并支付恶魔价格。
+## 抢劫
 
-### 抢劫
+攻击撒旦后：
 
-用爆炸攻击撒旦后：未购买商品会被收走；撒旦进入战斗；击败后这些商品重新出现并免费领取。
+- 尚未购买的商品暂时被收走；
+- 撒旦进入战斗；
+- 击败撒旦后，这些尚未购买的商品重新出现并可以免费取得。
+
+已经买走的商品不会再次返还。商品价格遵循恶魔交易式定价。

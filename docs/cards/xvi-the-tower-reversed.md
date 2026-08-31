@@ -4,7 +4,7 @@ description: "崩落..."
 slug: xvi-the-tower-reversed
 kind: card
 internalKey: Tower_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 持续从天而降大量随机障碍物 后续波次越来越密集 Rain random obstacles from above Later waves grow denser</p>
 
@@ -16,4 +16,13 @@ status: drafted
 
 ## 效果
 
-持续从天而降大量随机障碍物；后续波次越来越密集。部分危险 Grid 伤害更高。
+使用后开始连续多波的障碍物坠落。普通情况下共 **10 波**；塔罗布为 **16 波**。
+
+每一波会从允许的障碍类型中随机选择并从空中落下，对命中的敌人造成伤害，同时逐渐让房间变得更加混乱。
+
+## 波次
+
+- 越到后期，单波落下的障碍越多、下落也更猛。
+- 约一半障碍会尝试追踪敌人落下。
+- 落下的障碍会留在房间里继续构成地形威胁。
+- 波次在发动后按固定节奏推进，不因清房而提前取消。

@@ -4,7 +4,7 @@ description: "Open a vortex that swallows enemies and drops them back from above
 slug: xix-the-eclipse
 kind: card
 internalKey: Eclipse
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XIX - 日食 XIX - Eclipse Eclipse xix-the-eclipse XIX - The Eclipse 永夜将至 生成一道旋涡将敌人吸入并从上方吐出 Open a vortex that swallows enemies and drops them back from above</p>
 
@@ -16,4 +16,6 @@ status: drafted
 
 ## Effects
 
-Enemies near the portal are swallowed, vanish briefly, then fall back in with damage.
+After use, creates a lasting eclipse aperture. Enemies near it are pulled in, briefly leave the fight, then fall back out through the aperture and take fixed damage.
+
+Duration is **15 seconds** normally, **30** with Tarot Cloth. The aperture vanishes when you leave or when time ends.

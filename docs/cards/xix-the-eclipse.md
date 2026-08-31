@@ -4,7 +4,7 @@ description: "永夜将至"
 slug: xix-the-eclipse
 kind: card
 internalKey: Eclipse
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XIX - 日食 XIX - Eclipse Eclipse xix-the-eclipse XIX - The Eclipse 永夜将至 生成一道旋涡将敌人吸入并从上方吐出 Open a vortex that swallows enemies and drops them back from above</p>
 
@@ -16,4 +16,6 @@ status: drafted
 
 ## 效果
 
-靠近入口的敌人会被吞入并暂时消失，随后从入口落回并受到伤害。
+使用后制造一个持续存在的日蚀入口。靠近入口的敌人会被吸入并暂时从战场中消失，之后再从入口落回并受到固定伤害。
+
+普通持续 **15 秒**；塔罗布 **30 秒**。离开房间或持续时间结束后面口消失。

@@ -4,7 +4,7 @@ description: "Reroll all items in this floor Items on this floor need to be purc
 slug: iii-the-empress-reversed
 kind: card
 internalKey: Empress_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>III - 女帝? III - The Empress? Empress_r iii-the-empress-reversed III - The Empress? 命运的一切礼物，都在暗中标好了价格 重置本层所有道具 本层的道具均需要购买且无法辨认 售价为道具等级的五倍 Reroll all items in this floor Items on this floor need to be purchased and cannot be identified Its price is related to its quality and their original price</p>
 
@@ -16,9 +16,13 @@ status: drafted
 
 ## Effects
 
-Rerolls floor items and makes pedestals purchasable and hard to identify. Price scales with quality.
+After use, rewritable items still on this floor respawn into an **unknown, paid** state. You cannot normally identify them before purchase.
 
-## Mechanics
+Items already taken are not reclaimed. Quest / story pedestals are not rewritten. Ordinary pedestals that appear later on this floor also enter this state until the next floor.
 
-- Affects still-tradable pedestals on the floor.
-- Hidden / special pricing follows current rules without exposing internal reroll helpers.
+## Price and recognition
+
+- Items show as question-mark visuals, and external descriptions are obscured.
+- Price scales with quality: under common base pricing, about **quality × 5**; with Tarot Cloth, about **quality × 1**.
+- Goods that already had a price are recalculated under the new rule instead of keeping the old price.
+- The rewrite ends when you leave the floor.

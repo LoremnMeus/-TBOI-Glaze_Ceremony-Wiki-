@@ -4,7 +4,7 @@ description: "Fear all enemies in the room and make them take about 3x damage Yo
 slug: xviii-the-moon-reversed
 kind: card
 internalKey: Moon_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVIII - A? XVIII - A? Moon_r xviii-the-moon-reversed XVIII - The Moon? 望向天空，高高在上 使房间中的敌人陷入恐惧，并使其受到约3倍总伤害 玩家自身也会暂时陷入恐惧 Fear all enemies in the room and make them take about 3x damage You are briefly feared as well</p>
 
@@ -16,6 +16,8 @@ status: drafted
 
 ## Effects
 
-Fears room enemies and makes them take about 3× damage; you are briefly feared too.
+Fears enemies in the current room and greatly increases damage they take. Affected enemies ultimately take about **3×** their normal total damage.
 
-Killing feared enemies **no longer** drops another Moon?.
+Normally the player is also briefly feared (about 20 seconds); with Tarot Cloth that self-debuff does not apply.
+
+Enemy fear amplification lasts about 2 minutes; leaving the room ends this room's effect.

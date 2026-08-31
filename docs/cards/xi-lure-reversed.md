@@ -4,7 +4,7 @@ description: "顺从你内心的奴隶"
 slug: xi-lure-reversed
 kind: card
 internalKey: Lure_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XI - 欲望? XI - Lure? Lure_r xi-lure-reversed XI - Lure? 顺从你内心的奴隶 持有时记录你受到的有效伤害 使用后将累计值转化为心类奖励并清空记录 While held, record effective damage taken On use, convert the total into heart rewards and clear the record</p>
 
@@ -16,8 +16,13 @@ status: drafted
 
 ## 效果
 
-持有时记录受到的有效伤害；使用后将累计值转化为心类奖励并清空记录。
+持有欲望?期间，玩家受到的有效伤害会被记录并累计。
 
-## 机制
+使用卡牌时，会把当前累计次数兑现成心类掉落，随后本轮记录清零。
 
-被取消的原始低伤害不重复计数；替换后的克隆伤害只计一次。使用后先清空累计再发奖，避免重复兑现。
+## 伤害记录
+
+- 记录的是有效受伤**次数**，不是把伤害数值直接相加。
+- 同一次有效伤害只会累计一次。
+- 累计跨房间、跨楼层保留，直到使用本卡兑现。
+- 普通兑现为半红心掉落；塔罗布改为等量的混合心掉落。

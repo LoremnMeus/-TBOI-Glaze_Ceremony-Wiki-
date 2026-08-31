@@ -16,12 +16,16 @@ status: reviewed
 
 ## Effects
 
-Only true Angel Room pickups count. Held Angel-origin items are sacrificed, each spawning one Devil Room item.
+The Hierophant? only recognizes items **truly taken from Angel rooms that you still hold**.
 
-## Mechanics
+After use, those relics are sacrificed one by one. Each successful sacrifice spawns one Devil-room-pool item in return.
 
-- Only pedestals taken from Angel Rooms are recorded.
-- Later same-name items from other sources do not count.
-- Lost recorded items cannot be sacrificed again.
-- Each sacrifice rolls its own Devil Room reward.
-- Tarot Cloth only leaves an item wisp when that relic can normally spawn one.
+## Relic sources
+
+Having owned the same item name before is not enough.
+
+Only the copy actually taken from an Angel pedestal is recorded; later copies of the same item from other sources are not automatically treated as relics.
+
+If the recorded copy was already lost to rerolls, consumption, or similar, it cannot be sacrificed again.
+
+With Tarot Cloth, relics that can form item wisps leave a matching wisp when sacrificed; items that cannot form wisps get no substitute reward.

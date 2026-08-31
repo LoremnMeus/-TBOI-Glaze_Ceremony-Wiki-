@@ -4,7 +4,7 @@ description: "Generate a ceremonial array and sacrifice life in it to receive re
 slug: v-the-sting
 kind: card
 internalKey: Sting
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>V - 密仪 V - Sting Sting v-the-sting V - The Sting 降神仪式 生成一座仪式法阵，在法阵中献祭半格生命获得对应奖励 优先献祭红心 Generate a ceremonial array and sacrifice life in it to receive rewards Sacrifice red heart first</p>
 
@@ -16,4 +16,17 @@ status: drafted
 
 ## Effects
 
-Spawns a ritual circle. Sacrificing life resources inside it grants staged rewards; red hearts are preferred.
+The Sting places a sacrifice circle in the room. Standing on it preferably spends half a red heart for one sacrifice and advances rewards by completed count. The circle previews the next sacrifice.
+
+| Sacrifices done | This result |
+| --- | --- |
+| 1 | Spawn 0–4 coins |
+| 2 | 50% chance to spawn a chest |
+| 3 | Clear this floor's “hurt with red hearts” state and restore Devil chance |
+| 4 | 30% chance to spawn a random item pedestal |
+| 5 | Spawn 3 red chests |
+| 6 | 50% chance to use a Joker-like effect (Devil / Angel related outcome) |
+
+After about the 5th sacrifice the circle starts fading; if you still reach the 6th in time, you still get that reward. There are no further stage rewards after that.
+
+With Tarot Cloth, each successful sacrifice also has a 30% chance to drop a soul heart. The circle is a room entity and does not follow a room change.

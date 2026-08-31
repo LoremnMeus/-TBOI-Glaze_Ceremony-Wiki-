@@ -4,7 +4,7 @@ description: "Rain random obstacles from above Later waves grow denser"
 slug: xvi-the-tower-reversed
 kind: card
 internalKey: Tower_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 持续从天而降大量随机障碍物 后续波次越来越密集 Rain random obstacles from above Later waves grow denser</p>
 
@@ -16,4 +16,13 @@ status: drafted
 
 ## Effects
 
-Rains random obstacles with denser later waves. Some dangerous grids hit harder.
+After use, obstacles begin falling in successive waves. Normally **10** waves; with Tarot Cloth **16**.
+
+Each wave picks from allowed obstacle types and drops them from above, damaging hit enemies while gradually cluttering the room.
+
+## Waves
+
+- Later waves drop more obstacles and hit harder.
+- About half try to track enemies as they fall.
+- Dropped obstacles remain as terrain hazards.
+- Waves keep their rhythm after activation and do not cancel early when the room is cleared.

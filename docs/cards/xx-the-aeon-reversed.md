@@ -4,7 +4,7 @@ description: "瞬间即成永恒"
 slug: xx-the-aeon-reversed
 kind: card
 internalKey: Aeon_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XX - 永恒? XX - The Aeon? Aeon_r xx-the-aeon-reversed XX - The Aeon? 瞬间即成永恒 使用后获得强大的“永恒”属性增益 取得或失去资源、道具、饰品和口袋物会削弱增益 清理房间会逐渐恢复 On use, gain a strong Eternal stat boost Gaining or losing resources, items, trinkets, or pocket items weakens it Clearing rooms gradually restores it</p>
 
@@ -16,10 +16,15 @@ status: drafted
 
 ## 效果
 
-使用后获得强大的“永恒”属性增益。取得或失去资源、道具、饰品和口袋物会削弱增益；清理房间会逐渐恢复。
+使用后获得一份由“稳定度”控制的属性强化。
 
-## 稳定度
+普通使用会把稳定度至少提高到 **7**；塔罗布至少提高到 **15**。稳定度越高，伤害、射速、射程与移速等增益越强。
 
-正式用语为**稳定度**。普通使用最低设为 7；塔罗布最低设为 15。
+## 稳定度变化
 
-规则概要：基础资源变化 −1；collectible −1.5；饰品 −1；口袋物 −1；清房 +0.25。属性按稳定度平方根增长。
+- 基础资源每发生一次实际变化：**-1**
+- 取得或失去收藏品：**-1.5**
+- 饰品或口袋物发生变化：**-1**
+- 清理一个房间： **+0.25**
+
+一次获得 10 枚硬币仍然只按这一次资源变化扣 1，而不是扣 10。属性增长采用平方根曲线，高稳定度继续增加时收益会逐渐变缓。

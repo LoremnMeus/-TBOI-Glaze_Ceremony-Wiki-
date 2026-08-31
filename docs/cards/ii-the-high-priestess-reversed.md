@@ -4,7 +4,7 @@ description: "和妈妈抱抱！"
 slug: ii-the-high-priestess-reversed
 kind: card
 internalKey: Priestess_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ 召来妈妈之手抓住一个敌人 普通情况下会将其带走 Call Mom&#x27;s Hand to grab an enemy Normally takes it away</p>
 
@@ -16,6 +16,12 @@ status: drafted
 
 ## 效果
 
-召来妈妈之手抓住一个敌人；普通情况下会将其带走。
+使用后召来妈妈之手抓取合适的敌人。效果会优先寻找当前仍可被抓取的目标；若原目标在手掌到达前消失或失效，会重新寻找新的合法目标。
 
-使用后优先抓取可被妈妈之手捕获的敌人；目标失效时会重新寻找。
+普通情况下，被抓住的敌人会先被短暂冻结，再带离战斗。效果本身的计时跨房间保留；正在飞行的手掌是房间内实体，不会跟着换房。
+
+## 规则
+
+- 没有合法目标时，手掌落下后会跳起并消失，而不会卡住。
+- 塔罗布不会单纯“多抓一次”：被手掌带走的**非 Boss**目标会转化为友方单位并被扔到房间随机位置；Boss 仍按带走移除处理，不会变成友军。
+- 友军是当场转化的房间单位，不会作为跨层永久随从保留。

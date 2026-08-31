@@ -4,7 +4,7 @@ description: "Open special doorways in the current room that lead to extra rooms
 slug: iv-the-emperor
 kind: card
 internalKey: Emperor
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>IV - 帝王 IV - The Emperor Emperor iv-the-emperor IV - The Emperor 命运的囚徒 在当前房间开启通往额外房间的特殊入口 Open special doorways in the current room that lead to extra rooms</p>
 
@@ -16,9 +16,13 @@ status: drafted
 
 ## Effects
 
-Opens special doorways in the current room to extra rooms.
+The Emperor does not simply warp you to the boss room. It opens special entrances in the current room to **other rooms on this floor** and temporarily seals ordinary doors.
 
-## Mechanics
+Those entrances lead to rooms already on the floor map, plus a few extra special destinations (occasional Boss Rush / Mega Satan–related entries). When you return to the original room after exploring, the temporary entrances do not remain.
 
-- Doors may lead to other floor rooms or unmarked destinations.
-- Return through the doorway rules of those rooms.
+## Extra rooms
+
+- How many entrances open depends on available outer-wall space in the current room, not a fixed count; Tarot Cloth greatly raises opening chances.
+- Destinations are existing floor rooms or a few special targets; the whole map is not force-revealed.
+- Clear rewards follow the destination room's own rules (for example extra items after clearing Mega Satan); The Emperor itself does not grant extra loot.
+- The effect exists only in the current room: entrances vanish on room change, and nothing carries to the next floor.

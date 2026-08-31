@@ -4,7 +4,7 @@ description: "万物皆虚，万事皆允"
 slug: xvi-the-tower
 kind: card
 internalKey: Tower
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVI - 尖塔 XVI - The Tower Tower xvi-the-tower XVI - The Tower 万物皆虚，万事皆允 将当前房间的障碍物升空，随后砸向敌人 Lift obstacles in the current room, then smash them into enemies</p>
 
@@ -16,4 +16,16 @@ status: drafted
 
 ## 效果
 
-将当前房间的障碍物升空，随后砸向敌人。可被卷起的 Grid 种类取决于当前实现中可破坏 / 可搬运的障碍。
+使用后，当前房间中可以被搬动的障碍会升到空中，随后依次砸向敌人。被卷起的障碍会真正成为一次攻击，而不是单纯清场。
+
+## 可卷起对象
+
+常见可卷起类别包括：
+
+- 各类岩石（含尖刺岩、金色岩等）；
+- 柱状 / 加固岩石（碰撞伤害更高）；
+- 便便；
+- TNT；
+- 部分锁类障碍。
+
+砸落伤害大体跟随玩家当前伤害；部分加固障碍会造成更高碰撞伤害。塔罗布倾向于在离房后把相关格子恢复，而不是永久拆光。

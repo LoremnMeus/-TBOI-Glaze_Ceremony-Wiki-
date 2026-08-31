@@ -4,7 +4,7 @@ description: "你相信引力吗?"
 slug: x-the-wheel-of-destiny-reversed
 kind: card
 internalKey: Wheel_of_Destiny_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>X - 命运? X - The Wheel of Destiny? Wheel_of_Destiny_r x-the-wheel-of-destiny-reversed X - The Wheel of Destiny? 你相信引力吗? 将房间内所有基础掉落物转化为旋转着的三至五选一掉落物 Convert all the pickups in the room into 3-5 pickups to choose one,they are spining in a circle</p>
 
@@ -16,4 +16,12 @@ status: drafted
 
 ## 效果
 
-将房间内基础掉落物转化为旋转着的多选一候选。候选会随时间变化。
+命运?会让当前房间中符合条件的地面掉落在多种可能形态之间不断轮换。玩家可以等待自己需要的形态出现后再拾取；选定后其余形态消失。
+
+## 轮换规则
+
+- 可参与的典型对象：心、币、钥、弹、电池、胶囊、药丸、卡牌、饰品等基础掉落。
+- 每个目标会展开成 **3–5** 种替代形态（塔罗布为 **5–7**），属于同一互斥选择，并尽量保留原价格。
+- 候选会绕原位置旋转展示，方便辨认。
+- 收藏品道具底座不在此列。
+- 换层后轮换状态会清理。

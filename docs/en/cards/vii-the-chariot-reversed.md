@@ -16,6 +16,19 @@ status: reviewed
 
 ## Effects
 
-Immediately charge in the current input direction. While charging you are invincible with limited steering; ramming foes deals heavy damage and can smash breakable obstacles.
+After use, the player immediately enters a short high-speed charge lasting up to about **5.5 seconds**.
 
-The charge lasts at most about **5.5 seconds**. Hitting an impassable wall earlier causes a safe blast and ends it immediately.
+During the charge:
+
+- The player is invincible;
+- Direction can only be adjusted in a limited way;
+- Hitting enemies deals heavy damage and knockback (about **20×** current damage);
+- Breakable obstacles can be smashed.
+
+## Wall collisions
+
+Normally, hitting an impassable wall causes a large explosion that does not hurt the player and ends the charge at once.
+
+With Tarot Cloth, the first wall hit explodes and rebounds so the charge continues; only the second wall hit truly stops it.
+
+Sustained contact with the same target does not re-apply damage every frame.

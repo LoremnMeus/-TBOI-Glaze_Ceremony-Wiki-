@@ -4,7 +4,7 @@ description: "Convert all the pickups in the room into 3-5 pickups to choose one
 slug: x-the-wheel-of-destiny-reversed
 kind: card
 internalKey: Wheel_of_Destiny_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>X - 命运? X - The Wheel of Destiny? Wheel_of_Destiny_r x-the-wheel-of-destiny-reversed X - The Wheel of Destiny? 你相信引力吗? 将房间内所有基础掉落物转化为旋转着的三至五选一掉落物 Convert all the pickups in the room into 3-5 pickups to choose one,they are spining in a circle</p>
 
@@ -16,4 +16,12 @@ status: drafted
 
 ## Effects
 
-Turns room pickups into spinning multi-choice clusters that cycle candidates over time.
+Destiny? makes qualifying ground pickups in the current room cycle through several possible forms. Wait for the form you want, then pick it up; the other forms vanish.
+
+## Rotation rules
+
+- Typical participants: hearts, coins, keys, bombs, batteries, capsules, pills, cards, trinkets, and similar basic pickups.
+- Each target expands into **3–5** alternate forms (**5–7** with Tarot Cloth) as one exclusive choice, preserving the original price when possible.
+- Candidates orbit the original spot so you can tell them apart.
+- Collectible pedestals are not included.
+- Rotation state clears on the next floor.

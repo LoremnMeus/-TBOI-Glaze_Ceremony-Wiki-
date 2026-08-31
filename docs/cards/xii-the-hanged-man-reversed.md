@@ -4,7 +4,7 @@ description: "环回错倒"
 slug: xii-the-hanged-man-reversed
 kind: card
 internalKey: Hanged_Man_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 本层后续出现的倒位透特牌会转化为对应正位牌 Later reversed Thoth cards on this floor convert to their upright faces</p>
 
@@ -16,8 +16,6 @@ status: drafted
 
 ## 效果
 
-本层后续出现的倒位透特牌会转化为对应正位牌。
+与 [缚者](/cards/xii-the-hanged-man) 相反：本层之后出现的**倒位透特牌**会转换为对应正位牌。
 
-## 注意
-
-与正位缚者同时生效时，冲突**必定**进入错误房。
+规则范围、本层持续，以及与正位同时存在时的 Error Room 冲突处理，均与正位相同。

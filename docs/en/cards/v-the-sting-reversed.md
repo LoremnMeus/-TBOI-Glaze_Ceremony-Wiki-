@@ -16,8 +16,16 @@ status: reviewed
 
 ## Effects
 
-Mark the strongest enemy in the room as a sacrifice. When it dies, the ritual picks a new target until none remain.
+After use, the strongest enemy in the room becomes the current offering. When it dies, the rite picks a new target; later offerings grow more fragile as the sacrifice count rises.
 
-Each completed sacrifice makes later victims take an extra **50%** damage. Against Bosses the bonus vulnerability caps at **+150%** (about 2.5× original damage).
+Targets prefer bosses, then enemies with higher max HP.
 
-Bosses and high-HP enemies are preferred.
+## Sacrifice chain
+
+Each completed sacrifice makes the next chosen offering take **50%** extra damage.
+
+Bosses take this vulnerability too, but the extra vulnerability caps at **+150%** total.
+
+The rite continues until no legal offerings remain in the room, or you leave.
+
+Tarot Cloth allows two offerings at once; either death advances the count and refills a new target.

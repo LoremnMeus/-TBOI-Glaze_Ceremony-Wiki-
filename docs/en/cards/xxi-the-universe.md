@@ -16,10 +16,14 @@ status: reviewed
 
 ## Effects
 
-Show up to 3 random candidates from items you truly hold. Choosing one permanently removes that item and grants 1 star-pool item.
+After use, randomly show up to **3** of the player's truly held collectibles as sacrifice candidates.
 
-If you have no sacrifice candidates, the card is returned instead of being wasted.
+You must pick one and permanently lose it, then gain one item from a fixed “star pool.”
 
-## Star reward pool
+With nothing to sacrifice, The Universe is returned and is not wasted.
 
-Rewards are drawn from a **fixed** star pool—mainly constellation items, Planetarium items, and Qing-tagged star items—not every visually “cosmic” mod item.
+## Star pool
+
+Rewards come from a fixed pool: mainly planet-set items, Planetarium-related items, and star-themed items this mod designates. When emptied it falls back to a Zodiac-style result.
+
+Tarot Cloth still sacrifices only one item, but the final Universe reward becomes a choose-one of two.

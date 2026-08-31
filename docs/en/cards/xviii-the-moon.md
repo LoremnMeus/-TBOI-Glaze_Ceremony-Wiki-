@@ -4,7 +4,7 @@ description: "Generate a moonlight whose effect is the same with Luna"
 slug: xviii-the-moon
 kind: card
 internalKey: Moon
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVIII - 太阴 XVIII - The Moon Moon xviii-the-moon XVIII - The Moon 长守月明 月亮 生成一道月光 Generate a moonlight whose effect is the same with Luna</p>
 
@@ -16,4 +16,6 @@ status: drafted
 
 ## Effects
 
-Creates a moonlight effect and may leave a portal toward a Secret Room when conditions allow.
+After use, spawns a Moonlight equivalent to {{Collectible:589}}.
+
+The Moonlight follows vanilla Moonlight lighting and room interaction. With Tarot Cloth, when that Moonlight disappears it also leaves a portal into this floor's Secret Room.

@@ -4,7 +4,7 @@ description: "Balance your coins, keys and bombs Convert the remainder into pick
 slug: viii-adjustment
 kind: card
 internalKey: Adjustment
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>VIII - 调节 VIII - Adjustment Adjustment viii-adjustment VIII - Adjustment 无知之幕正在落下 平衡你的金币、钥匙与炸弹 余数转化为硬币、炸弹、钥匙三选一 Balance your coins, keys and bombs Convert the remainder into pickups of coins, bombs and keys</p>
 
@@ -16,6 +16,14 @@ status: drafted
 
 ## Effects
 
-Balances coins, keys, and bombs; remainder becomes a coin/bomb/key choice.
+Adjustment rebalances the player's current **coins, keys, and bombs** as one resource set, rather than adding or removing a fixed amount from each.
 
-Ring visuals are deterministic and do not change the payout rules.
+After use, the three counts are totaled, then each is set to floor(total ÷ 3). Any remainder that cannot be split evenly is not discarded: it spawns that many **exclusive three-way** pickups around the player—coin, bomb, and key—of which you may take only one.
+
+## Resource balancing
+
+Example: starting from 10 coins, 1 key, and 1 bomb (total 12) settles to 4 / 4 / 4 with no remainder.
+
+Starting from 10 coins, 5 keys, and 2 bombs (total 17) first becomes 5 / 5 / 5; remainder 2 spawns **two** exclusive three-way groups.
+
+Tarot Cloth grants extra run-long stat bonuses based on how unbalanced the resources were before versus after this rebalance.

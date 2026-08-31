@@ -16,12 +16,14 @@ status: reviewed
 
 ## Effects
 
-After use, enemies in **this room** each show a desire: coin, key, bomb, or heart. Stop firing and touch an enemy to spend 1 matching resource and satisfy it.
+After use, enemies **in this room** each show a desire: coins, keys, bombs, or red hearts.
 
-Satisfied enemies stay hostile. On death they drop at least 1 of the wanted resource; normal enemies have a **35%** chance to drop a second copy. Bosses always drop **2**.
+Stop firing and approach; if you have the resource it wants, you enter an offering state. Keep contact to spend that resource and satisfy it; firing again cancels an unfinished offering without spending.
 
-Leaving the room ends the effect.
+## Satisfied enemies
 
-## Notes
+Satisfied enemies stay hostile—they do not become allies.
 
-Starting to fire cancels an unfinished offer without spending resources.
+On defeat they drop at least **1** of the resource they asked for. Normals also have a **35%** chance to drop one more; bosses always drop **2**. Tarot Cloth raises the normal extra-drop chance to **75%**.
+
+Unfinished desire states end when you leave the room.

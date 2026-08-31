@@ -4,7 +4,7 @@ description: "Generate a set of item with quality from 0-4 and choose one from f
 slug: vi-the-lover-reversed
 kind: card
 internalKey: Lover_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>VI - 爱? VI - The Lover? Lover_r vi-the-lover-reversed VI - The Lover? 直到血流成河 生成0-4级被动道具各一个进行五选一 !!! 若进行拾取，与那个道具相同等级的被动道具全部转化为同名魂火，道具池内的所有同等级道具改为此道具 !!! 忤逆爱人将会受到心碎的惩罚 Generate a set of item with quality from 0-4 and choose one from five If one of the item is choiced,all items of the same quality as that item will be converted into fragile item wisp.All items with the same quality in item pool will be replaced with this item !!! Disobedience to your lover will be punished with heartbreak</p>
 
@@ -16,8 +16,13 @@ status: drafted
 
 ## Effects
 
-Search among candidates for a “lover.” Choosing one may punish betrayal-like removals of the others.
+Lover? lays out passive item candidates by quality: one each for quality 0 through 4, as an exclusive choice. The item you pick becomes that quality's “beloved.”
 
-## Notes
+Afterward, other passive items of the same quality that enter the character are squeezed into same-name wisps, and draws from that quality's pool are rewritten toward the beloved.
 
-Other Options candidates vanishing from a normal choice are **not** betrayal. Morphs, replacements, and abnormal removals still are.
+## Beloved and betrayal
+
+- Normally one candidate per quality; with Tarot Cloth, two per quality—more total options, still exclusive.
+- Candidates are non-hidden, non-active passives only.
+- When other candidates in the same exclusive group vanish because you normally took one, that is **not** betrayal.
+- If the beloved is abnormally removed, replaced, or “heart-swapped,” you take a broken-heart penalty.

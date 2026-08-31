@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T14:35:59Z",
+  "generatedAt": "2026-08-31T17:55:56Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1263,24 +1263,24 @@
       "kind": "card",
       "zh": "wiki/docs/cards/glazed-dice-shard.md",
       "en": "wiki/docs/en/cards/glazed-dice-shard.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "qings-soul",
       "kind": "card",
       "zh": "wiki/docs/cards/qings-soul.md",
       "en": "wiki/docs/en/cards/qings-soul.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "round-trip-rail-ticket",
       "kind": "card",
       "zh": "wiki/docs/cards/round-trip-rail-ticket.md",
       "en": "wiki/docs/en/cards/round-trip-rail-ticket.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "0-the-fool",
@@ -1295,56 +1295,56 @@
       "kind": "card",
       "zh": "wiki/docs/cards/i-the-witch.md",
       "en": "wiki/docs/en/cards/i-the-witch.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "i-the-invoker",
       "kind": "card",
       "zh": "wiki/docs/cards/i-the-invoker.md",
       "en": "wiki/docs/en/cards/i-the-invoker.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "i-the-wizard",
       "kind": "card",
       "zh": "wiki/docs/cards/i-the-wizard.md",
       "en": "wiki/docs/en/cards/i-the-wizard.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "ii-the-high-priestess",
       "kind": "card",
       "zh": "wiki/docs/cards/ii-the-high-priestess.md",
       "en": "wiki/docs/en/cards/ii-the-high-priestess.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "iii-the-empress",
       "kind": "card",
       "zh": "wiki/docs/cards/iii-the-empress.md",
       "en": "wiki/docs/en/cards/iii-the-empress.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "iv-the-emperor",
       "kind": "card",
       "zh": "wiki/docs/cards/iv-the-emperor.md",
       "en": "wiki/docs/en/cards/iv-the-emperor.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "v-the-hierophant",
       "kind": "card",
       "zh": "wiki/docs/cards/v-the-hierophant.md",
       "en": "wiki/docs/en/cards/v-the-hierophant.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "vi-lover",
@@ -1359,32 +1359,32 @@
       "kind": "card",
       "zh": "wiki/docs/cards/vii-chariot.md",
       "en": "wiki/docs/en/cards/vii-chariot.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "viii-adjustment",
       "kind": "card",
       "zh": "wiki/docs/cards/viii-adjustment.md",
       "en": "wiki/docs/en/cards/viii-adjustment.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "ix-the-hermit",
       "kind": "card",
       "zh": "wiki/docs/cards/ix-the-hermit.md",
       "en": "wiki/docs/en/cards/ix-the-hermit.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "x-the-wheel-of-destiny",
       "kind": "card",
       "zh": "wiki/docs/cards/x-the-wheel-of-destiny.md",
       "en": "wiki/docs/en/cards/x-the-wheel-of-destiny.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xi-lure",
@@ -1399,16 +1399,16 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xii-the-hanged-man.md",
       "en": "wiki/docs/en/cards/xii-the-hanged-man.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xiii-faint",
       "kind": "card",
       "zh": "wiki/docs/cards/xiii-faint.md",
       "en": "wiki/docs/en/cards/xiii-faint.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xiv-art",
@@ -1423,48 +1423,48 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xv-the-devil.md",
       "en": "wiki/docs/en/cards/xv-the-devil.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xvi-the-tower",
       "kind": "card",
       "zh": "wiki/docs/cards/xvi-the-tower.md",
       "en": "wiki/docs/en/cards/xvi-the-tower.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xvii-the-star",
       "kind": "card",
       "zh": "wiki/docs/cards/xvii-the-star.md",
       "en": "wiki/docs/en/cards/xvii-the-star.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xviii-the-moon",
       "kind": "card",
       "zh": "wiki/docs/cards/xviii-the-moon.md",
       "en": "wiki/docs/en/cards/xviii-the-moon.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xix-the-sun",
       "kind": "card",
       "zh": "wiki/docs/cards/xix-the-sun.md",
       "en": "wiki/docs/en/cards/xix-the-sun.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xx-the-aeon",
       "kind": "card",
       "zh": "wiki/docs/cards/xx-the-aeon.md",
       "en": "wiki/docs/en/cards/xx-the-aeon.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xxi-the-universe",
@@ -1479,40 +1479,40 @@
       "kind": "card",
       "zh": "wiki/docs/cards/0-the-fool-reversed.md",
       "en": "wiki/docs/en/cards/0-the-fool-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "i-the-sage-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/i-the-sage-reversed.md",
       "en": "wiki/docs/en/cards/i-the-sage-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "ii-the-high-priestess-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/ii-the-high-priestess-reversed.md",
       "en": "wiki/docs/en/cards/ii-the-high-priestess-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "iii-the-empress-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/iii-the-empress-reversed.md",
       "en": "wiki/docs/en/cards/iii-the-empress-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "iv-the-emperor-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/iv-the-emperor-reversed.md",
       "en": "wiki/docs/en/cards/iv-the-emperor-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "v-the-hierophant-reversed",
@@ -1527,8 +1527,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/vi-the-lover-reversed.md",
       "en": "wiki/docs/en/cards/vi-the-lover-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "vii-the-chariot-reversed",
@@ -1543,40 +1543,40 @@
       "kind": "card",
       "zh": "wiki/docs/cards/viii-adjustment-reversed.md",
       "en": "wiki/docs/en/cards/viii-adjustment-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "ix-the-hermit-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/ix-the-hermit-reversed.md",
       "en": "wiki/docs/en/cards/ix-the-hermit-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "x-the-wheel-of-destiny-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/x-the-wheel-of-destiny-reversed.md",
       "en": "wiki/docs/en/cards/x-the-wheel-of-destiny-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xi-lure-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xi-lure-reversed.md",
       "en": "wiki/docs/en/cards/xi-lure-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xii-the-hanged-man-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xii-the-hanged-man-reversed.md",
       "en": "wiki/docs/en/cards/xii-the-hanged-man-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xiii-faint-reversed",
@@ -1591,144 +1591,144 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xiii-death-reversed.md",
       "en": "wiki/docs/en/cards/xiii-death-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xiii-the-corpse-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xiii-the-corpse-reversed.md",
       "en": "wiki/docs/en/cards/xiii-the-corpse-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xiv-art-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xiv-art-reversed.md",
       "en": "wiki/docs/en/cards/xiv-art-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xv-the-devil-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xv-the-devil-reversed.md",
       "en": "wiki/docs/en/cards/xv-the-devil-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xvi-the-tower-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xvi-the-tower-reversed.md",
       "en": "wiki/docs/en/cards/xvi-the-tower-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xvii-the-stars-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xvii-the-stars-reversed.md",
       "en": "wiki/docs/en/cards/xvii-the-stars-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xviii-the-moon-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xviii-the-moon-reversed.md",
       "en": "wiki/docs/en/cards/xviii-the-moon-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xix-the-sun-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xix-the-sun-reversed.md",
       "en": "wiki/docs/en/cards/xix-the-sun-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xx-the-aeon-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xx-the-aeon-reversed.md",
       "en": "wiki/docs/en/cards/xx-the-aeon-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xxi-the-universe-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xxi-the-universe-reversed.md",
       "en": "wiki/docs/en/cards/xxi-the-universe-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xix-the-eclipse",
       "kind": "card",
       "zh": "wiki/docs/cards/xix-the-eclipse.md",
       "en": "wiki/docs/en/cards/xix-the-eclipse.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xix-the-eclipse-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xix-the-eclipse-reversed.md",
       "en": "wiki/docs/en/cards/xix-the-eclipse-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "tecros-soul",
       "kind": "card",
       "zh": "wiki/docs/cards/tecros-soul.md",
       "en": "wiki/docs/en/cards/tecros-soul.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "annas-soul",
       "kind": "card",
       "zh": "wiki/docs/cards/annas-soul.md",
       "en": "wiki/docs/en/cards/annas-soul.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "zeiss-soul",
       "kind": "card",
       "zh": "wiki/docs/cards/zeiss-soul.md",
       "en": "wiki/docs/en/cards/zeiss-soul.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xxi-the-profound",
       "kind": "card",
       "zh": "wiki/docs/cards/xxi-the-profound.md",
       "en": "wiki/docs/en/cards/xxi-the-profound.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xxi-the-profound-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xxi-the-profound-reversed.md",
       "en": "wiki/docs/en/cards/xxi-the-profound-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "v-the-sting",
       "kind": "card",
       "zh": "wiki/docs/cards/v-the-sting.md",
       "en": "wiki/docs/en/cards/v-the-sting.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "v-the-sting-reversed",

@@ -4,7 +4,7 @@ description: "First use: randomly lose one held item The Universe? reappears nex
 slug: xxi-the-universe-reversed
 kind: card
 internalKey: Universe_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 第一次使用时，随机失去一件已有道具 下一层宇宙?会重新出现，再次使用可取回该道具 First use: randomly lose one held item The Universe? reappears next floor; use it again to reclaim that item</p>
 
@@ -16,9 +16,13 @@ status: drafted
 
 ## Effects
 
-First use randomly loses a held item; Universe? reappears next floor to reclaim it.
+On first use, The Universe? picks one of the player's held items and temporarily stores it in a cross-floor state.
 
-## Mechanics
+On the next floor, The Universe? returns near the original user; using it again retrieves the stored item.
 
-- In co-op, ownership and the return card bind to the original user.
-- Deposit only starts after the item is actually removed.
+## Storage
+
+- Storage begins only after the item is truly removed from the character.
+- Both the card and the stored item bind to the original user; in co-op others cannot steal the return card by collision.
+- After a successful return, that storage clears at once.
+- Tarot Cloth returns closer to a fresh full state; a normal return lands as already-touched with empty charge.

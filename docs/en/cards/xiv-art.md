@@ -16,4 +16,8 @@ status: reviewed
 
 ## Effects
 
-Timed kills yield rainbow pigment; enough pigment crafts a random basic pickup. Watch pigment, craft progress, and the current result.
+After use, enter a painting window: about **30 seconds** normally, **45** with Tarot Cloth.
+
+Kills during that time drop rainbow paint. Normals drop 1, elites more, bosses up to 3 (a given boss settles once).
+
+Every **3** paints synthesize one basic pickup (heart, coin, bomb, key, or battery). Leftover paint fades quickly when time ends.

@@ -16,6 +16,10 @@ status: reviewed
 
 ## Effects
 
-While not firing, the room falls asleep: deeper sleep slows enemies and shots. Firing wakes it. Movement does not.
+After use, the current room gradually falls asleep.
 
-Sleep never fully freezes foes (Boss safety). Leaving the room ends the effect.
+As long as you stop firing, sleep depth keeps rising; **moving does not wake the room**.
+
+As sleep deepens, enemy movement and hostile projectiles slow sharply, but enemies are not fully frozen.
+
+Firing again wakes the room gradually; leaving ends the effect. Tarot Cloth makes sleep deepen faster and waking slower.

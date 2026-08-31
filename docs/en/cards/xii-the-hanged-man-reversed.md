@@ -4,7 +4,7 @@ description: "Later reversed Thoth cards on this floor convert to their upright 
 slug: xii-the-hanged-man-reversed
 kind: card
 internalKey: Hanged_Man_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 本层后续出现的倒位透特牌会转化为对应正位牌 Later reversed Thoth cards on this floor convert to their upright faces</p>
 
@@ -16,8 +16,6 @@ status: drafted
 
 ## Effects
 
-Later reversed Thoth cards convert to upright faces.
+Opposite of [The Hanged Man](/cards/xii-the-hanged-man): **reversed Thoth cards** that appear later on this floor convert into their upright counterparts.
 
-## Notes
-
-Conflict with the upright Hanged Man **always** opens an Error Room.
+Scope, floor duration, and Error Room conflict handling when both rules exist match the upright card.

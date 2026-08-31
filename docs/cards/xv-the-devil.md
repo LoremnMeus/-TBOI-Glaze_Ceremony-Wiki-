@@ -4,7 +4,7 @@ description: "灵魂算子：重生"
 slug: xv-the-devil
 kind: card
 internalKey: Devil
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XV - 邪心 XV - The Devil Devil xv-the-devil XV - The Devil 灵魂算子：重生 持有时可在致命伤害时复活，并前往恶魔房 主动使用则立即献出生命并触发该效果 While held, fatal damage revives you into a Devil Room Using it actively spends your life to trigger the same effect</p>
 
@@ -16,4 +16,13 @@ status: drafted
 
 ## 效果
 
-持有时可在致命伤害时复活并前往恶魔房；主动使用则立即献出生命并触发该效果。真正持有的恶魔牌会在复活时被消耗。
+邪心既可以作为主动使用的“主动献命”，也可以在持有状态下充当一次死亡保险。
+
+当满足触发条件时，玩家会从致命状态中被拉回，并被送往恶魔房。
+
+## 复活
+
+- 真正致命时，只要仍持有这张牌（或刚通过主动使用进入献命流程），就会消耗口袋中的邪心并复活进恶魔房。
+- 主动使用会先演出再强制进入同一条复活链。
+- 塔罗布下，主动献命触发后会再把邪心还回玩家手中。
+- 一局能否多次，取决于你是否再次持有或再次获得这张牌。

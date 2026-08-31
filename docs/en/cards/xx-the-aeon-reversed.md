@@ -4,7 +4,7 @@ description: "On use, gain a strong Eternal stat boost Gaining or losing resourc
 slug: xx-the-aeon-reversed
 kind: card
 internalKey: Aeon_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XX - 永恒? XX - The Aeon? Aeon_r xx-the-aeon-reversed XX - The Aeon? 瞬间即成永恒 使用后获得强大的“永恒”属性增益 取得或失去资源、道具、饰品和口袋物会削弱增益 清理房间会逐渐恢复 On use, gain a strong Eternal stat boost Gaining or losing resources, items, trinkets, or pocket items weakens it Clearing rooms gradually restores it</p>
 
@@ -16,10 +16,15 @@ status: drafted
 
 ## Effects
 
-On use, gain a strong Eternal boost. Gaining/losing resources, items, trinkets, or pocket items weakens it; clearing rooms restores it.
+After use, gain a “stability”-driven stat boost.
 
-## Stability
+A normal use raises stability to at least **7**; Tarot Cloth raises it to at least **15**. Higher stability strengthens damage, tears, range, speed, and similar gains.
 
-Call the meter **Stability**. Normal floor 7; Tarot Cloth floor 15.
+## Stability changes
 
-Rough rules: basic resources −1; collectible −1.5; trinket −1; pocket −1; clear +0.25. Stats scale with sqrt(Stability).
+- Each real basic-resource change: **-1**
+- Gain or lose a collectible: **-1.5**
+- Trinket or pocket-item change: **-1**
+- Clear a room: **+0.25**
+
+Picking up 10 coins at once still counts as one resource change (−1), not −10. Stat growth follows a square-root curve, so further gains slow at high stability.

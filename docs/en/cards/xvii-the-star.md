@@ -4,7 +4,7 @@ description: "The first real card use from your slots this floor grants a large 
 slug: xvii-the-star
 kind: card
 internalKey: Star
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 本层第一次真正使用持有的卡牌时，星辰提供大量生命回复 之后再次使用星辰只回复半颗红心 The first real card use from your slots this floor grants a large heal Later uses of The Star only restore half a red heart</p>
 
@@ -16,10 +16,12 @@ status: drafted
 
 ## Effects
 
-The first real card use from your slots this floor grants a large heal; later Star uses only restore half a red heart.
+The Star cares about this floor's first **true card use from the pocket slot**.
 
-First cast roughly: 1 red, 1 soul, 1 eternal (Tarot Cloth adds more heart types).
+If this floor has no record of a held card truly used yet, using The Star spawns a large heart package: full red hearts, soul hearts, and eternal hearts. With Tarot Cloth, the first use also adds blended, black, and bone hearts.
 
-## Mechanics
+Once a true pocket-slot card use has happened on this floor (including The Star's own first use), later uses only spawn half red hearts.
 
-Only cards fired from player card slots count. Book of Thoth simulations do not. You can simulate first, then fire a real card for The Star.
+## Real use
+
+Cards simulated by effects such as Book of Thoth do not count as a true pocket-slot use, so they do not spend The Star's first large healing window early.

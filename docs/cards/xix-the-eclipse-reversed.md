@@ -4,7 +4,7 @@ description: "极昼重临"
 slug: xix-the-eclipse-reversed
 kind: card
 internalKey: Eclipse_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XIX - 食日? XIX - Eclipse? Eclipse_r xix-the-eclipse-reversed XIX - The Eclipse? 极昼重临 日蚀持续3分钟，太阳逐渐逼近 期间不断召来落光攻击敌人，时间越久越频繁 An eclipse lasts 3 minutes as the sun approaches Falling light strikes enemies more often over time</p>
 
@@ -16,4 +16,8 @@ status: drafted
 
 ## 效果
 
-日蚀持续 3 分钟，太阳逐渐逼近；期间不断召来落光攻击敌人，时间越久越频繁。
+使用后发动一场持续 **3 分钟**的日蚀。
+
+在持续期间，太阳会逐渐逼近，并不断召来落光攻击敌人；随着时间推进，落光出现得越来越频繁。
+
+落光基础伤害约为玩家当前伤害的 **3 倍**；塔罗布下约为 **6 倍**。效果跨房间持续，直到时间结束或换层。

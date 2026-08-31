@@ -16,18 +16,12 @@ status: reviewed
 
 ## Effects
 
-Phantoms from the current item pool appear around the player. Touching one dismisses the rest, sacrifices that pool entry, and spawns its item wisp.
+After use, **5 phantom items** from the current room's item pool appear around the player. Candidates are limited to items that can become item wisps, and the same cast never repeats a candidate.
 
-Normally 5 candidates; with Tarot Cloth, 8.
+Touching one phantom dismisses the rest. The chosen item is not added as a real collectible; it is sacrificed from the matching pool, then an item wisp for that item spawns.
 
-## Mechanics
+Phantoms are for selection only. They cannot be taken as ordinary pedestals through collision, rerolls, or similar. Leaving the room before a choice ends the display.
 
-- Only items that can form wisps are rolled.
-- Candidates in one cast do not repeat.
-- Phantoms are not real pedestals.
-- The pool is only consumed when a phantom is chosen.
-- Leaving the room without a choice cancels the cast.
+## Notes
 
-## Tips
-
-- The Fool trades an immediate wisp against removing a pool entry—high-value phantoms are not always the best sacrifice.
+The Fool changes both what you get now and what that pool can still roll later: a high-value phantom means a stronger wisp immediately, but also removes that item from the current pool.
