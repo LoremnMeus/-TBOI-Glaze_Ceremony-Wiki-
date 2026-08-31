@@ -4,7 +4,7 @@ description: "Light the fire on the edge of all enemies and pickups in the room 
 slug: i-the-sage-reversed
 kind: card
 internalKey: Sage_r
-status: reviewed
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>I - 贤者? I - The Sage? Sage_r i-the-sage-reversed I - The Sage? 我将绝火 在房间中所有实体边上点燃火堆 复燃所有其他火堆 当前房间内靠近火堆会将其自动熄灭 Light the fire on the edge of all enemies and pickups in the room Re-ignite all other fires The fire will be automatically extinguished when you are close to it in the current room</p>
 
@@ -15,22 +15,18 @@ status: reviewed
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 
-
-
 ## Effects
 
-The Sage? turns the current room into a fire layout: it first tries to **rekindle** ordinary fires already in the room and refill their HP, then spawns new fires in empty cells beside room entities. Spawns avoid cells next to the player's feet, and tears, bombs, effects, and similar are not used as placement anchors.
+After use, extinguished ordinary fires in the current room are rekindled, and new fires spawn on empty tiles near enemies, pickups, and similar room entities.
 
-Approaching a marked fire deals light explosion damage that puts it out.
+Spawns avoid tiles next to the player.
 
-## Rules
+## Extinguish
 
-- After use, the player first gains **explosion immunity** for this room.
-- If the player takes **fire damage** during that window, the state switches: explosion immunity ends, and the player briefly gains fire-related benefits similar to {{Collectible:223}} (Pyromaniac).
-- These player states stay in this room and clear on room change.
+Fires marked by The Sage? extinguish automatically when the player approaches. No attack is required.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Raises the weight of special flame variants.
+Raises the chance of special fire variants.

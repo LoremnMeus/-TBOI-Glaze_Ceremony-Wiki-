@@ -466,6 +466,117 @@
       "AngelChance",
       "DevilChance",
       "Tearsize",
+      "Card1",
+      "Card2",
+      "Card3",
+      "Card4",
+      "Card5",
+      "Card6",
+      "Card7",
+      "Card8",
+      "Card9",
+      "Card10",
+      "Card11",
+      "Card12",
+      "Card13",
+      "Card14",
+      "Card15",
+      "Card16",
+      "Card17",
+      "Card18",
+      "Card19",
+      "Card20",
+      "Card21",
+      "Card22",
+      "Card23",
+      "Card24",
+      "Card25",
+      "Card26",
+      "Card27",
+      "Card28",
+      "Card29",
+      "Card30",
+      "Card31",
+      "Card32",
+      "Card33",
+      "Card34",
+      "Card35",
+      "Card36",
+      "Card37",
+      "Card38",
+      "Card39",
+      "Card40",
+      "Card41",
+      "Card42",
+      "Card43",
+      "Card44",
+      "Card45",
+      "Card46",
+      "Card47",
+      "Card48",
+      "Card49",
+      "Card50",
+      "Card51",
+      "Card52",
+      "Card53",
+      "Card54",
+      "Card55",
+      "Card56",
+      "Card57",
+      "Card58",
+      "Card59",
+      "Card60",
+      "Card61",
+      "Card62",
+      "Card63",
+      "Card64",
+      "Card65",
+      "Card66",
+      "Card67",
+      "Card68",
+      "Card69",
+      "Card70",
+      "Card71",
+      "Card72",
+      "Card73",
+      "Card74",
+      "Card75",
+      "Card76",
+      "Card77",
+      "Card78",
+      "Card79",
+      "Card80",
+      "Card81",
+      "Card82",
+      "Card83",
+      "Card84",
+      "Card85",
+      "Card86",
+      "Card87",
+      "Card88",
+      "Card89",
+      "Card90",
+      "Card91",
+      "Card92",
+      "Card93",
+      "Card94",
+      "Card95",
+      "Card96",
+      "Card97",
+      "Pill1",
+      "Pill2",
+      "Pill3",
+      "Pill4",
+      "Pill5",
+      "Pill6",
+      "Pill7",
+      "Pill8",
+      "Pill9",
+      "Pill10",
+      "Pill11",
+      "Pill12",
+      "Pill13",
+      "Pill14",
       "QingPlayer:wq",
       "QingPlayer:Spwq",
       "QingPlayer:Tecro",
@@ -7603,6 +7714,1893 @@
         "sheet": "/icons/eid/eid_inline_icons.png"
       },
       {
+        "name": "Card1",
+        "anim": "Cards",
+        "frame": 0,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card2",
+        "anim": "Cards",
+        "frame": 1,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 0,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card3",
+        "anim": "Cards",
+        "frame": 2,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 0,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card4",
+        "anim": "Cards",
+        "frame": 3,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 0,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card5",
+        "anim": "Cards",
+        "frame": 4,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 0,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card6",
+        "anim": "Cards",
+        "frame": 5,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 0,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card7",
+        "anim": "Cards",
+        "frame": 6,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 32,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card8",
+        "anim": "Cards",
+        "frame": 7,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 32,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card9",
+        "anim": "Cards",
+        "frame": 8,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 32,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card10",
+        "anim": "Cards",
+        "frame": 9,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 32,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card11",
+        "anim": "Cards",
+        "frame": 10,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 32,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card12",
+        "anim": "Cards",
+        "frame": 11,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 16,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card13",
+        "anim": "Cards",
+        "frame": 12,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 16,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card14",
+        "anim": "Cards",
+        "frame": 13,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 16,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card15",
+        "anim": "Cards",
+        "frame": 14,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 16,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card16",
+        "anim": "Cards",
+        "frame": 15,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 16,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card17",
+        "anim": "Cards",
+        "frame": 16,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 16,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card18",
+        "anim": "Cards",
+        "frame": 17,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 48,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card19",
+        "anim": "Cards",
+        "frame": 18,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 48,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card20",
+        "anim": "Cards",
+        "frame": 19,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 48,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card21",
+        "anim": "Cards",
+        "frame": 20,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 48,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card22",
+        "anim": "Cards",
+        "frame": 21,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 48,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card23",
+        "anim": "Cards",
+        "frame": 22,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 64,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card24",
+        "anim": "Cards",
+        "frame": 23,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 64,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card25",
+        "anim": "Cards",
+        "frame": 24,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 64,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card26",
+        "anim": "Cards",
+        "frame": 25,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 64,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card27",
+        "anim": "Cards",
+        "frame": 26,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 96,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card28",
+        "anim": "Cards",
+        "frame": 27,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 96,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card29",
+        "anim": "Cards",
+        "frame": 28,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 96,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card30",
+        "anim": "Cards",
+        "frame": 29,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 96,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card31",
+        "anim": "Cards",
+        "frame": 30,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 64,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card32",
+        "anim": "Cards",
+        "frame": 31,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 142,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card33",
+        "anim": "Cards",
+        "frame": 32,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 142,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card34",
+        "anim": "Cards",
+        "frame": 33,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 142,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card35",
+        "anim": "Cards",
+        "frame": 34,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 142,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card36",
+        "anim": "Cards",
+        "frame": 35,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 166,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card37",
+        "anim": "Cards",
+        "frame": 36,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 166,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card38",
+        "anim": "Cards",
+        "frame": 37,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 166,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card39",
+        "anim": "Cards",
+        "frame": 38,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 166,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card40",
+        "anim": "Cards",
+        "frame": 39,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 166,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card41",
+        "anim": "Cards",
+        "frame": 40,
+        "width": 18,
+        "height": 24,
+        "crop": {
+          "x": 0,
+          "y": 190,
+          "w": 18,
+          "h": 24,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card42",
+        "anim": "Cards",
+        "frame": 41,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 80,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card43",
+        "anim": "Cards",
+        "frame": 42,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 80,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card44",
+        "anim": "Cards",
+        "frame": 43,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 80,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card45",
+        "anim": "Cards",
+        "frame": 44,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 80,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card46",
+        "anim": "Cards",
+        "frame": 45,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 80,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card47",
+        "anim": "Cards",
+        "frame": 46,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 64,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card48",
+        "anim": "Cards",
+        "frame": 47,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 80,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card49",
+        "anim": "Cards",
+        "frame": 48,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 32,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card50",
+        "anim": "Cards",
+        "frame": 49,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 48,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card51",
+        "anim": "Cards",
+        "frame": 50,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 96,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card52",
+        "anim": "Cards",
+        "frame": 51,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 112,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card53",
+        "anim": "Cards",
+        "frame": 52,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 112,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card54",
+        "anim": "Cards",
+        "frame": 53,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 112,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card55",
+        "anim": "Cards",
+        "frame": 54,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 112,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card56",
+        "anim": "Cards",
+        "frame": 55,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 176,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card57",
+        "anim": "Cards",
+        "frame": 56,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 176,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card58",
+        "anim": "Cards",
+        "frame": 57,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 176,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card59",
+        "anim": "Cards",
+        "frame": 58,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 176,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card60",
+        "anim": "Cards",
+        "frame": 59,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 176,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card61",
+        "anim": "Cards",
+        "frame": 60,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 176,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card62",
+        "anim": "Cards",
+        "frame": 61,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 144,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card63",
+        "anim": "Cards",
+        "frame": 62,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 144,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card64",
+        "anim": "Cards",
+        "frame": 63,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 144,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card65",
+        "anim": "Cards",
+        "frame": 64,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 144,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card66",
+        "anim": "Cards",
+        "frame": 65,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 144,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card67",
+        "anim": "Cards",
+        "frame": 66,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 160,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card68",
+        "anim": "Cards",
+        "frame": 67,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 160,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card69",
+        "anim": "Cards",
+        "frame": 68,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 160,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card70",
+        "anim": "Cards",
+        "frame": 69,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 160,
+          "y": 0,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card71",
+        "anim": "Cards",
+        "frame": 70,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 160,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card72",
+        "anim": "Cards",
+        "frame": 71,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 160,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card73",
+        "anim": "Cards",
+        "frame": 72,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 128,
+          "y": 120,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card74",
+        "anim": "Cards",
+        "frame": 73,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 128,
+          "y": 96,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card75",
+        "anim": "Cards",
+        "frame": 74,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 128,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card76",
+        "anim": "Cards",
+        "frame": 75,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 128,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card77",
+        "anim": "Cards",
+        "frame": 76,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 128,
+          "y": 24,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card78",
+        "anim": "Cards",
+        "frame": 77,
+        "width": 20,
+        "height": 20,
+        "crop": {
+          "x": 128,
+          "y": 0,
+          "w": 20,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card79",
+        "anim": "Cards",
+        "frame": 78,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 112,
+          "y": 48,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card80",
+        "anim": "Cards",
+        "frame": 79,
+        "width": 16,
+        "height": 20,
+        "crop": {
+          "x": 112,
+          "y": 72,
+          "w": 16,
+          "h": 20,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card81",
+        "anim": "Cards",
+        "frame": 80,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 0,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card82",
+        "anim": "Cards",
+        "frame": 81,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 32,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card83",
+        "anim": "Cards",
+        "frame": 82,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 64,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card84",
+        "anim": "Cards",
+        "frame": 83,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 92,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card85",
+        "anim": "Cards",
+        "frame": 84,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 128,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card86",
+        "anim": "Cards",
+        "frame": 85,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 160,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card87",
+        "anim": "Cards",
+        "frame": 86,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 192,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card88",
+        "anim": "Cards",
+        "frame": 87,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 224,
+          "y": 216,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card89",
+        "anim": "Cards",
+        "frame": 88,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 0,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card90",
+        "anim": "Cards",
+        "frame": 89,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 32,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card91",
+        "anim": "Cards",
+        "frame": 90,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 64,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card92",
+        "anim": "Cards",
+        "frame": 91,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 92,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card93",
+        "anim": "Cards",
+        "frame": 92,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 128,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card94",
+        "anim": "Cards",
+        "frame": 93,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 160,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card95",
+        "anim": "Cards",
+        "frame": 94,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 192,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card96",
+        "anim": "Cards",
+        "frame": 95,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 224,
+          "y": 248,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Card97",
+        "anim": "Cards",
+        "frame": 96,
+        "width": 28,
+        "height": 28,
+        "crop": {
+          "x": 0,
+          "y": 280,
+          "w": 28,
+          "h": 28,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill1",
+        "anim": "Pills",
+        "frame": 0,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 20,
+          "y": 142,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill2",
+        "anim": "Pills",
+        "frame": 1,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 40,
+          "y": 142,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill3",
+        "anim": "Pills",
+        "frame": 2,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 60,
+          "y": 142,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill4",
+        "anim": "Pills",
+        "frame": 3,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 80,
+          "y": 142,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill5",
+        "anim": "Pills",
+        "frame": 4,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 100,
+          "y": 142,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill6",
+        "anim": "Pills",
+        "frame": 5,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 20,
+          "y": 166,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill7",
+        "anim": "Pills",
+        "frame": 6,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 40,
+          "y": 166,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill8",
+        "anim": "Pills",
+        "frame": 7,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 60,
+          "y": 166,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill9",
+        "anim": "Pills",
+        "frame": 8,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 80,
+          "y": 166,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill10",
+        "anim": "Pills",
+        "frame": 9,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 100,
+          "y": 166,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill11",
+        "anim": "Pills",
+        "frame": 10,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 20,
+          "y": 190,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill12",
+        "anim": "Pills",
+        "frame": 11,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 40,
+          "y": 190,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill13",
+        "anim": "Pills",
+        "frame": 12,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 60,
+          "y": 190,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
+        "name": "Pill14",
+        "anim": "Pills",
+        "frame": 13,
+        "width": 18,
+        "height": 18,
+        "crop": {
+          "x": 80,
+          "y": 190,
+          "w": 18,
+          "h": 18,
+          "xScale": 50,
+          "yScale": 50
+        },
+        "sheet": "/icons/eid/eid_cardspills.png",
+        "synthetic": true
+      },
+      {
         "name": "QingPlayer:wq",
         "sheet": "/icons/eid/player_icons.png",
         "crop": {
@@ -7770,7 +9768,9 @@
         "anim": "Players",
         "frame": 5
       }
-    ]
+    ],
+    "cardCount": 97,
+    "pillCount": 14
   },
   "vanillaUi": [
     "hudpickups.png",
@@ -9813,9 +11813,22 @@
       "角色肖像源图通常远大于 32×32，网格里同样被收成方图。"
     ],
     "eidInline": {
-      "total": 456,
+      "total": 567,
       "missingCrop": 1,
       "sizes": [
+        {
+          "size": "16×20",
+          "width": 16,
+          "height": 20,
+          "aspect": "4:5",
+          "count": 69,
+          "examples": [
+            "Card1",
+            "Card2",
+            "Card3",
+            "Card4"
+          ]
+        },
         {
           "size": "9×9",
           "width": 9,
@@ -9908,6 +11921,32 @@
           ]
         },
         {
+          "size": "28×28",
+          "width": 28,
+          "height": 28,
+          "aspect": "1:1",
+          "count": 17,
+          "examples": [
+            "Card81",
+            "Card82",
+            "Card83",
+            "Card84"
+          ]
+        },
+        {
+          "size": "18×18",
+          "width": 18,
+          "height": 18,
+          "aspect": "1:1",
+          "count": 14,
+          "examples": [
+            "Pill1",
+            "Pill2",
+            "Pill3",
+            "Pill4"
+          ]
+        },
+        {
           "size": "7×9",
           "width": 7,
           "height": 9,
@@ -9957,6 +11996,19 @@
             "1",
             "2",
             "3"
+          ]
+        },
+        {
+          "size": "18×24",
+          "width": 18,
+          "height": 24,
+          "aspect": "3:4",
+          "count": 10,
+          "examples": [
+            "Card32",
+            "Card33",
+            "Card34",
+            "Card35"
           ]
         },
         {
@@ -10596,6 +12648,16 @@
           "count": 1,
           "examples": [
             "VictoryLap"
+          ]
+        },
+        {
+          "size": "20×20",
+          "width": 20,
+          "height": 20,
+          "aspect": "1:1",
+          "count": 1,
+          "examples": [
+            "Card78"
           ]
         },
         {

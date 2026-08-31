@@ -4,7 +4,7 @@ description: "星汉灿烂"
 slug: xxi-the-universe
 kind: card
 internalKey: Universe
-status: reviewed
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>XXI - 宇宙 XXI - The Universe Universe xxi-the-universe XXI - The Universe 星汉灿烂 从你持有的道具中随机展示3个候选 选择并永久失去其中1件，换取1件星辰类道具 Show up to 3 random candidates from items you hold Permanently lose the chosen one for 1 star-themed item</p>
 
@@ -19,13 +19,26 @@ status: reviewed
 
 使用后，从玩家真正持有的收藏品中随机展示最多 **3 件**作为祭品候选。
 
-玩家必须选择其中 1 件并永久失去它，随后获得 1 件来自固定“星辰池”的道具。
+玩家必须选择其中 1 件并永久失去它，随后获得 1 件来自固定星辰池的道具。
 
 若没有任何可供牺牲的收藏品，宇宙会返还，不会白白消耗。
 
 ## 星辰池
 
-奖励来自固定池，主要包括行星套装、{{Planetarium}} 星象房相关道具，以及本模组明确指定的星辰主题道具。抽空时会回落到黄道带相关结果。
+宇宙从固定星辰池中抽取奖励。若池中一时抽不到可用候选，则改为给予 {{Collectible:392}}。
+
+<details>
+<summary>查看完整星辰池</summary>
+
+- {{Collectible:588}} {{Collectible:589}} {{Collectible:590}} {{Collectible:591}} {{Collectible:592}}
+- {{Collectible:593}} {{Collectible:594}} {{Collectible:595}} {{Collectible:596}} {{Collectible:597}} {{Collectible:598}}
+- {{Collectible:233}} {{Collectible:651}}
+- {{Collectible:299}} {{Collectible:300}} {{Collectible:301}} {{Collectible:302}} {{Collectible:303}}
+- {{Collectible:304}} {{Collectible:305}} {{Collectible:306}} {{Collectible:307}} {{Collectible:308}} {{Collectible:309}}
+- {{Collectible:318}}
+- {{Item:Pendulum_Star}}
+
+</details>
 
 ## 特殊联动
 

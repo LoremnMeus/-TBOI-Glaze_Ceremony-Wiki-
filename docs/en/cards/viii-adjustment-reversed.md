@@ -21,7 +21,7 @@ status: reviewed
 
 Adjustment? immediately clears all coins, keys, and bombs and converts them into permanent run stat bonuses.
 
-Conversion is not a flat one-for-one: bombs, keys, and coins use different weights before they are totaled. Higher totals raise damage, tears, range, speed, and luck more, but gains slow as the total climbs.
+Bombs, keys, and coins convert with weights **bomb × 1**, **key × 0.8**, **coin × 0.4**. Higher totals raise damage, tears, range, speed, and luck more, with diminishing returns as the total climbs.
 
 ## Rules
 

@@ -16,7 +16,7 @@ $$
 ## EID 小图标
 
 - 精灵表：`/icons/eid/eid_inline_icons.png`
-- 已解析标记：**445** 个
+- 已解析标记：**556** 个
 
 <IconInventory section="eid" />
 
@@ -42,6 +42,7 @@ $$
 
 - 原版角色服装、死亡界面、菜单大图
 - Steam 工坊其它模组的私有 HUD
-- EID `{{CardN}}` / `{{PillN}}` 的逐格切图还没做，目前只有整张 `eid_cardspills.png` / `ui_cardfronts.png`
+- EID `{{CardN}}` / `{{PillN}}`：已从 `eid_cardspills.anm2` 合成 **97** 张卡 / **14** 种药（与 EID `getIcon` 帧序一致）
+- 原版卡牌大图 HUD：`ui_cardfronts.png`（整张表，非 EID 行内标记）
 
 原版贴图仅供 Wiki 说明，不随 Release ZIP 分发。

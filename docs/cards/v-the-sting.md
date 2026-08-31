@@ -4,7 +4,7 @@ description: "降神仪式"
 slug: v-the-sting
 kind: card
 internalKey: Sting
-status: reviewed
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>V - 密仪 V - Sting Sting v-the-sting V - The Sting 降神仪式 生成一座仪式法阵，在法阵中献祭半格生命获得对应奖励 优先献祭红心 Generate a ceremonial array and sacrifice life in it to receive rewards Sacrifice red heart first</p>
 
@@ -26,9 +26,9 @@ status: reviewed
 | 3 | 清除本层“红心受伤”状态，修复恶魔房机会 |
 | 4 | 30% 概率生成一个随机道具底座 |
 | 5 | 生成 3 个红箱子 |
-| 6 | 50% 概率使用小丑牌效果（前往恶魔房 / 天使房相关结果） |
+| 6 | 50% 概率触发 {{Card:31}} 的效果 |
 
-大约完成第 5 次献祭后，阵会开始消散；若仍来得及踩到第 6 次，仍可拿到对应奖励。再往后没有新的阶段奖励。
+大约完成第 5 次献祭后，阵会开始消散；若仍来得及踩到第 6 次，仍可拿到该阶段奖励。再往后没有新的阶段奖励。
 
 献祭阵是房间实体，换房后不会带走。
 

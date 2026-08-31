@@ -26,7 +26,7 @@ What you see: a room type is named and map-marked first, then a ring of enterabl
 ## Room selection
 
 - The target type is drawn from non-normal types that actually exist on this floor; explored or not is not separately excluded.
-- If no unused room type remains, The Wizard instead **reveals the entire floor** rather than doing nothing.
+- If no unused room type remains, The Wizard **reveals the whole floor map**.
 - Portals are usually one-way shortcuts; after entering Black Market, Mega Satan, or similar, a return entrance may appear. Clearing Mega Satan's room also spawns one Angel-pool and one Devil-pool item.
 
 - Floor marks clear on the next floor; a room type already used does not keep spawning the same portal set.

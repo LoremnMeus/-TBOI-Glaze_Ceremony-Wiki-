@@ -4,7 +4,7 @@ description: "命运的一切礼物，都在暗中标好了价格"
 slug: iii-the-empress-reversed
 kind: card
 internalKey: Empress_r
-status: reviewed
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>III - 女帝? III - The Empress? Empress_r iii-the-empress-reversed III - The Empress? 命运的一切礼物，都在暗中标好了价格 重置本层所有道具 本层的道具均需要购买且无法辨认 售价为道具等级的五倍 Reroll all items in this floor Items on this floor need to be purchased and cannot be identified Its price is related to its quality and their original price</p>
 
@@ -24,11 +24,12 @@ status: reviewed
 ## 价格与辨认
 
 - 道具会显示为问号外观，外部描述也会被遮成无法辨认。
-- 价格与道具品质相关：在常见底价下，约等于**品质 × 5**；- 原本已经带价格的商品会在新规则下重算价格，而不是保留旧价。
-- 换层后本层改写状态结束。
+- 售价按 `ceil(品质 × 倍率 × 底价 ÷ 15)` 计算。改写时底价常设为 15、倍率默认为 5，因此常见售价等于 **品质 × 5**。
+- 原本已经带有价格的商品也会按同一公式重新计算售价。
+- 换层后效果结束。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-道具售价倍率由约「品质 × 5」降为约「品质 × 1」。
+售价倍率由 5 降为 1；在底价为 15 时，常见售价等于 **品质 × 1**。

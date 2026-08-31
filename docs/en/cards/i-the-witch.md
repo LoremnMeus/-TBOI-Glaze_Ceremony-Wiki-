@@ -18,7 +18,7 @@ status: reviewed
 
 ## Effects
 
-After use, fires **4 special freeze tears**. They are not a normal spread: they orbit the player first, then lock onto enemies that are not yet frozen.
+After use, fires **4 special freeze tears**. They orbit the player first, then lock onto enemies that are not yet frozen.
 
 Each special tear deals collision damage equal to the player's current damage. Hitting an enemy freezes it for about **5 seconds**.
 
@@ -26,7 +26,7 @@ If an enemy frozen by these special ice tears dies while still frozen, nearby en
 
 ## Rules
 
-- The spread triggers on death under this card's special ice effect, not on death under any arbitrary freeze source.
+- Only deaths of enemies frozen by these ice tears trigger the spread freeze.
 - Room slowdown stays in the current room and does not carry to later rooms.
 - Leaving the room does not keep unused special tears.
 

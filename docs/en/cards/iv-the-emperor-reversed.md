@@ -16,7 +16,7 @@ status: reviewed
 
 ## Effects
 
-After use, a dangerous boss spawns in the room center and exits close until you truly defeat it. After the kill, that boss does not simply drop loot and leave—it stays as a **friendly** helper and follows for the rest of the floor.
+After use, a dangerous boss spawns in the room center and exits close until you truly defeat it. After defeat, it stays as a **friendly** ally for the floor.
 
 ## Friendly Boss
 

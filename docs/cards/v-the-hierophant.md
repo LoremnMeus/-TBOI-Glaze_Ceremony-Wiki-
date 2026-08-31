@@ -23,7 +23,7 @@ status: reviewed
 
 ### {{Collectible:451}}
 
-不再获得上述本房间临时效果，改为生成 3 个生命值极低的道具魂火，分别对应：
+生成 3 个生命值极低的道具魂火，分别对应：
 
 - {{Collectible:533}}
 - {{Collectible:182}}

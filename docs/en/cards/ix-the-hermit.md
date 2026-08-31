@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-The Hermit looks through collectibles the player has **already lost** this run and spawns pedestals that can reclaim them. These are not fresh draws from the current pool; they come from the loss record.
+The Hermit looks through collectibles the player has **already lost** this run and spawns pedestals that can reclaim them. Candidates come from this run's lost-collectible record.
 
 ## Candidates
 

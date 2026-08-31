@@ -23,7 +23,7 @@ For the current room, temporarily gain the effects of {{Collectible:533}} and {{
 
 ### {{Collectible:451}}
 
-Instead of the room-bound temporary effects above, spawn 3 very fragile item wisps for:
+Use spawns 3 very fragile item wisps for:
 
 - {{Collectible:533}}
 - {{Collectible:182}}

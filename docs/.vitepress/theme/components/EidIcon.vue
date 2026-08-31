@@ -10,10 +10,25 @@ const props = defineProps({
 
 const COLLECTIBLE = /^Collectible:?\s*(\d+)$/i
 const TRINKET = /^Trinket:?\s*(\d+)$/i
+// Numeric Card/Pill (with or without colon) are vanilla EID crops — not Wiki entry links.
+const CARD_ID = /^Card:?\s*(\d+)$/i
+const PILL_ID = /^Pill:?\s*(\d+)$/i
 const WIKI_ENTRY = /^(?:Item|Trinket|Card|Character|Challenge|Pickup|Slot|System|Wiki)[:/]/i
 const QING_PLAYER = /^QingPlayer[:/]\s*(.+)$/i
 
-const wikiEntry = computed(() => WIKI_ENTRY.test(props.name))
+const cardId = computed(() => {
+  const match = props.name.match(CARD_ID)
+  return match ? match[1] : ''
+})
+const pillId = computed(() => {
+  const match = props.name.match(PILL_ID)
+  return match ? match[1] : ''
+})
+const wikiEntry = computed(() => {
+  if (cardId.value || pillId.value) return false
+  if (COLLECTIBLE.test(props.name) || TRINKET.test(props.name)) return false
+  return WIKI_ENTRY.test(props.name)
+})
 const qingPlayerKey = computed(() => {
   const match = props.name.match(QING_PLAYER)
   return match ? match[1].trim() : ''
@@ -62,6 +77,12 @@ const itemSrc = computed(() => {
 const inline = computed(() => {
   if (qingPlayerKey.value) {
     return catalog.qingPlayers?.[qingPlayerKey.value] || byName.value[`QingPlayer:${qingPlayerKey.value}`] || null
+  }
+  if (cardId.value) {
+    return byName.value[`Card${cardId.value}`] || null
+  }
+  if (pillId.value) {
+    return byName.value[`Pill${pillId.value}`] || null
   }
   return byName.value[props.name] || null
 })

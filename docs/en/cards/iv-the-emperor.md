@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-The Emperor does not simply warp you to the boss room. It opens special entrances in the current room to **other rooms on this floor** and temporarily seals ordinary doors.
+The Emperor opens special doorways in the current room to **other rooms on this floor**, briefly sealing normal doors.
 
 Those entrances lead to rooms already on the floor map, plus a few extra special destinations (occasional Boss Rush / Mega Satan–related entries). When you return to the original room after exploring, the temporary entrances do not remain.
 

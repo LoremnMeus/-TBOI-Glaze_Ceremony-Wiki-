@@ -18,7 +18,7 @@ status: reviewed
 
 ## Effects
 
-After use, movable obstacles in the current room lift into the air, then slam into enemies one after another. Lifted obstacles become real attacks, not just a room clear.
+After use, movable obstacles in the current room lift into the air, then slam into enemies one after another. Lifted obstacles become real attacks.
 
 ## Liftable obstacles
 
@@ -36,4 +36,4 @@ Slam damage roughly follows the player's current damage; some reinforced obstacl
 
 ### {{Collectible:451}}
 
-Affected obstacles restore after leaving the room instead of staying destroyed.
+Obstacles affected by the smash restore when you leave the room.

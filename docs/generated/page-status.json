@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T19:06:34Z",
+  "generatedAt": "2026-08-31T19:38:49Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1471,40 +1471,40 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xxi-the-universe.md",
       "en": "wiki/docs/en/cards/xxi-the-universe.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "0-the-fool-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/0-the-fool-reversed.md",
       "en": "wiki/docs/en/cards/0-the-fool-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "i-the-sage-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/i-the-sage-reversed.md",
       "en": "wiki/docs/en/cards/i-the-sage-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "ii-the-high-priestess-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/ii-the-high-priestess-reversed.md",
       "en": "wiki/docs/en/cards/ii-the-high-priestess-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "iii-the-empress-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/iii-the-empress-reversed.md",
       "en": "wiki/docs/en/cards/iii-the-empress-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "iv-the-emperor-reversed",
@@ -1519,8 +1519,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/v-the-hierophant-reversed.md",
       "en": "wiki/docs/en/cards/v-the-hierophant-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "vi-the-lover-reversed",
@@ -1727,8 +1727,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/v-the-sting.md",
       "en": "wiki/docs/en/cards/v-the-sting.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "v-the-sting-reversed",

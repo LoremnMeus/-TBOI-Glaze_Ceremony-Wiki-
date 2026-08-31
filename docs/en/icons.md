@@ -2,7 +2,7 @@
 
 Copied into `wiki/docs/public/icons/`. Chinese review page: [图标清单](/icons).
 
-- EID marks: **445**
+- EID marks: **556**
 - Vanilla HUD sheets: **14**
 - Vanilla collectibles: **722**
 - Vanilla trinkets: **189**

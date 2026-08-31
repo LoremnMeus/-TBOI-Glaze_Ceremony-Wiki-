@@ -4,7 +4,7 @@ description: "和妈妈抱抱！"
 slug: ii-the-high-priestess-reversed
 kind: card
 internalKey: Priestess_r
-status: reviewed
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ 召来妈妈之手抓住一个敌人 普通情况下会将其带走 Call Mom&#x27;s Hand to grab an enemy Normally takes it away</p>
 
@@ -23,11 +23,12 @@ status: reviewed
 
 ## 规则
 
-- 没有合法目标时，手掌落下后会跳起并消失，而不会卡住。
-- - 友军是当场转化的房间单位，不会作为跨层永久随从保留。
+- 没有合法目标时，妈妈之手会自行离开。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-被妈妈之手抓走的非 Boss 敌人不会直接消失，而会以 {{Charm}} 友方身份重新落回房间；Boss 仍会被直接带走。
+被妈妈之手抓走的非 Boss 敌人会以 {{Charm}} 友方身份重新落回当前房间；Boss 仍会被直接带走。
+
+被转化的友方敌人只在当前房间存在，不会作为永久随从跨层保留。
