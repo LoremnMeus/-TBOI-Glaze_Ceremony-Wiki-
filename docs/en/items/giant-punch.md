@@ -40,6 +40,10 @@ Characters with no red-heart capacity that still use another health resource (su
 
 Characters with no comparable health resource stay neutral.
 
+## Tips
+
+- **More health is not always more power.** Leaving a small health gap can keep double damage; picking up extra soul hearts after full health can even push the character into the half-damage shrink state.
+
 ## Trivia
 
 Giant Punch references the Yu-Gi-Oh! Equip Spell of the same Chinese name (Megamorph). The original card doubles or halves a monster's original ATK according to relative Life Points; this mod expresses that reversal through current health versus normal capacity.

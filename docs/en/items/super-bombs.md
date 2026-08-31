@@ -31,7 +31,3 @@ A timer near the bomb HUD shows which stage is growing and how much time remains
 - Using any bomb restarts the current growth timer.
 - If growth conditions break mid-way—for example you gain a Giga Bomb, or the primary active slot is filled—the matching timer clears, and later runs start from scratch when conditions return.
 - Pausing the game does not advance growth.
-
-## Tips
-
-Whether to keep the primary active slot empty for Mama Mega is a trade-off against the value of whatever active item you would otherwise use.

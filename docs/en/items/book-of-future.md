@@ -56,6 +56,11 @@ Adds **2** candidates from the Devil Room item pool to the selection. They belon
 
 Only **1** candidate spawns instead of a 4-choice.
 
+## Tips
+
+- **Where you open the book sets both the cost and the reward.** If you still need a rare pool later, do not burn it for an immediate 4-choice; a pool you no longer value is a better place to pay.
+- Near the end of a run, pre-drawn pool contents have fewer chances to matter on later routes, so the long-term cost is usually lower.
+
 ## Trivia
 
 One design prototype for Book of Future is Yu-Gi-Oh!'s *Pot of Greed and Avarice*, which banishes 10 cards from the top of the deck face-down to draw 2—trading a large chunk of future resources for an immediate pick. Book of Future adapts that idea to Isaac item pools: remove items that have not appeared yet, and gain a multi-choice reward now.

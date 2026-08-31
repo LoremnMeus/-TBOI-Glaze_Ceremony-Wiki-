@@ -27,10 +27,6 @@ Each rock rolls independently when bombed:
 | Rich vein | 15% | About 5–10 coins of value, sometimes including a nickel |
 | Special find | 5% | A lucky penny, golden bomb, golden spiders, or Troll Bomb |
 
-## Tips
-
-Fool's gold does not reliably repay a bomb on average. Skip it when bombs are scarce; gamble for rich veins or special finds only when you can afford the loss.
-
 ## Synergies
 
 ### {{Collectible:706}}

@@ -30,7 +30,7 @@ Using it again in the same anchored room retrieves that anchor and frees one slo
 
 ### Capture range
 
-A normal 1×1 room is effectively captured across its playable area. In large or irregular rooms, only an area around the anchor roughly the size of a normal room is recorded. A border on the floor shows the actual capture area.
+A normal 1×1 room is effectively captured across its playable area. In large or irregular rooms, only an area around the anchor roughly the size of a normal room is recorded; **where you place the anchor decides which enemies and terrain enter that save.** A border on the floor shows the actual capture area.
 
 ### How reproduction works next floor
 

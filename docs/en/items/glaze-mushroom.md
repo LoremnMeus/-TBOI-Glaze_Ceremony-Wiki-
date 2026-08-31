@@ -29,4 +29,6 @@ The infection is visible on the pedestal: you can watch the mycelium grow, cover
 * The per-run chance is only spent after a full infection successfully starts.
 * Once infection begins, the mycelium has already taken root; picking up the original item early does not stop the later hatch.
 
-## Notes
+## Tips
+
+- **After mycelium starts growing, take the original item first.** The infection already underway will not stop, and {{Collectible:12}} still hatches when it matures—so one successful overgrowth can keep both the original Boss reward and the final Magic Mushroom.

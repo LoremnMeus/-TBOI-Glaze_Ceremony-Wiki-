@@ -53,10 +53,7 @@ A single whiff usually will not instantly wipe Focus; long miss streaks fill Def
 - Threshold tear effects stay until Defocus fills and clears Focus.
 - **Each tear resolves only once** for Focus or Defocus; piercing the same tear through multiple enemies does not stack Focus again.
 - The item is built around **tear** attacks; lasers, brimstone, knives, etc. are out of scope.
-
-## Tips
-
-Soft pull at tier **5** and homing at **8** help steer sway back onto targets—they do not replace aiming.
+- Soft pull at tier **5** and homing at **8** help steer sway back onto targets; they do not replace aiming.
 
 ## Trivia
 

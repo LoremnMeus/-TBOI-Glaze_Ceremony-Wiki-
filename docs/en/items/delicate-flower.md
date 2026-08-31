@@ -10,7 +10,6 @@ status: reviewed
 
 <PublicEntry slug="delicate-flower" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
@@ -40,10 +39,6 @@ Do not treat every Keeper as the same reward.
 | Secret / super-secret hanging Keeper | **3–5** cards |
 
 Shop and secret-room Keepers switch to the matching reward row by room type.
-
-## Tips
-
-**If the ideal recipient is not on this floor yet, keeping the flower safe is the play.** Losing it to hits is often worse than waiting.
 
 ## Notes
 

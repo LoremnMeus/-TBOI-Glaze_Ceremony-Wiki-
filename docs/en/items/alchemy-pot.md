@@ -61,6 +61,10 @@ For example, placing it in the second slot fixes the tens digit of the result at
 
 There is a **50%** chance to craft a wrong item instead of the intended result. The inputs are still consumed.
 
+## Tips
+
+- **Only the digit needed for the current slot matters.** If several items can supply the same digit, spend the one you would rather lose.
+
 <details>
 <summary>Technical details</summary>
 

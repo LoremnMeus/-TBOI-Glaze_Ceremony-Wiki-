@@ -37,6 +37,11 @@ Gaining a {{GoldenBomb}} or {{GoldenKey}} does not simply clone the infinite fla
 - Does not clone pedestals, cards, pills, or chests themselves—only tracked basic resource deltas.
 - Tracked kinds: bombs, keys, coins, red / gold / soul / eternal / rotten / bone hearts, plus golden bomb / key conversion.
 
+## Tips
+
+- Golden Bomb / Golden Key grants convert into ordinary bombs/keys under Double Vision—a stronger payout window than ordinary pickups.
+- Book of Virtues wisps only copy the next valid resource gain; leave small pickups for later so the wisp can cash out on a larger gain.
+
 ## Synergies
 
 ### {{Collectible:356}}

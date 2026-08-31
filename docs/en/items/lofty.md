@@ -30,11 +30,6 @@ While at least 1 shield use remains, hold any fire direction for about **90 fram
 - Additional copies add more shield uses per room; manual charging only requires at least 1 remaining use.
 - Once all automatic shield uses are spent, manual charging is disabled for the rest of the room.
 
-## Tips
-
-- Dense groups allow the chain reaction to cover more of the room. A manual wave can begin the chain before enemies close in.
-- Keeping at least 1 shield use preserves manual charging, creating a choice between offensive waves and spending the shield for safety.
-
 ## Synergies
 
 ### {{Seija}}

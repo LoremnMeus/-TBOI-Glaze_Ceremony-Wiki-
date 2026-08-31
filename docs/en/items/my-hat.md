@@ -26,7 +26,3 @@ Fire in one direction for about 0.8 seconds, then release to throw the hat. On h
 
 - The hat cannot block projectiles while it is away from you.
 - A missed throw returns automatically if it hits a wall or travels too far.
-
-## Tips
-
-Keeping the hat nearby helps against dense frontal fire. Throwing it can briefly lock down a mobile enemy, but you must handle incoming fire yourself until it comes back.

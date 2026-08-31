@@ -35,15 +35,11 @@ Every **6** kills advances one step:
 | 2 red hearts | Prefer 2 black hearts |
 | 2 red hearts, not enough black | 1 black heart + 2 soul hearts |
 
-These payments truly spend the matching black / soul hearts.
+These payments truly spend the matching black / soul hearts; after payment, damage also falls as black hearts decrease.
 
 ## Notes
 
 - “Gradually” means kill-count progress, not a random slow recolor.
-
-## Tips
-
-Before a Devil Room, don’t only count total soul health—black hearts fund both damage and deal prices, so spending them also softens your hits.
 
 <details>
 <summary>Technical details</summary>

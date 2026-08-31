@@ -97,6 +97,12 @@ Cards played for free by the spread do not generate Revelation. Losing and later
 - Automatic plays still use the normal card-use path, but suppress the announcement animation and do not award Revelation.
 - Codexes and Revelation are stored per player. The unseen-face calculation used for card-pool bias considers the records of every current book owner in the run.
 
+## Tips
+
+- **Put only 1 card when timing must be controlled.** A one-card spread forces that face in the next eligible combat room.
+- **Fill the spread when order does not matter.** Spreads of 1–3 cards all cost 3 Revelation, so more cards buy more casts for the same price.
+- **An unfinished spread can carry to the next floor.** You do not need to hunt combat rooms at the end of a floor just to empty it.
+
 ## Trivia
 
 The name refers to Aleister Crowley's [*The Book of Thoth*](https://academic.oup.com/book/58979), first published in 1944 as an account of the Thoth Tarot developed with artist Lady Frieda Harris. [Oxford University Press's study of their partnership](https://academic.oup.com/book/58979/chapter-abstract/494473299) discusses Harris's contribution to the card designs.

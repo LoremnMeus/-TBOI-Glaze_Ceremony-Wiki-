@@ -10,7 +10,6 @@ status: featured
 
 <PublicEntry slug="pathetique" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
@@ -38,10 +37,6 @@ With Q0 / Q1 / Q3 / Q4 held, low quality is favored, but Q4 can still be chosen.
 - Enemy damage only; blood banks / sacrifice rooms do not trigger.
 - Preference is weighted random, not strict lowest-first.
 - Losing Pathetique any other way still returns items after a short recovery beat.
-
-## Tips
-
-Dropping Pathetique refunds the vault—and the stacked tears.
 
 ## Synergies
 

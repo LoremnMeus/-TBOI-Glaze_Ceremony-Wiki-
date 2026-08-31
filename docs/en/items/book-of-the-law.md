@@ -59,6 +59,10 @@ When Book of The Law's wisp dies, it triggers an extra use of Book of The Law in
 
 That records the pool for that room, not necessarily the room where you originally used the book.
 
+## Tips
+
+- Book of The Law is best used to save hard-to-revisit premium pools—for example record in an Angel or Devil Room, then rewrite later pedestal spawns from other pools into that pool.
+
 <details>
 <summary>Technical details</summary>
 
