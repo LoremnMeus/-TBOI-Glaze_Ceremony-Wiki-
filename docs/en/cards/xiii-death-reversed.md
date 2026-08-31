@@ -4,7 +4,7 @@ description: "Drop your actives, cards/pills, and trinkets immediately While tho
 slug: xiii-death-reversed
 kind: card
 internalKey: Death_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XIII - 死神? XIII - Death? Death_r xiii-death-reversed XIII - Death? 如此，我就能满足了 立即放下主动道具、卡牌/药丸与饰品 所有这些栏位保持为空时，大幅提升伤害、射速、射程、移速和幸运 副主动与口袋主动重新拾取后回到原槽位 Drop your actives, cards/pills, and trinkets immediately While those slots stay empty, greatly boost Damage, Tears, Range, Speed, and Luck Secondary and pocket actives return to their original slots when picked up again</p>
 
@@ -19,7 +19,7 @@ status: drafted
 
 After use, the player immediately drops actives, cards / pills, and trinkets.
 
-While the active, pocket, and trinket slots stay empty, you keep these stats:
+While the active, pocket, and trinket slots stay empty, these stats apply:
 
 | Stat | Normal |
 | --- | ---: |
@@ -31,7 +31,7 @@ While the active, pocket, and trinket slots stay empty, you keep these stats:
 
 Filling any of those slots again ends every bonus at once.
 
-Secondary and pocket actives try to return to their original slots when picked up again.
+Secondary and pocket actives return to their original slots when picked up again.
 
 ## Synergies
 

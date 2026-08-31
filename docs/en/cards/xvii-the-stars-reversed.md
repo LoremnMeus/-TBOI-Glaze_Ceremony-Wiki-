@@ -4,7 +4,7 @@ description: "Star of Bethlehem Light enemies in the room and give them an aura 
 slug: xvii-the-stars-reversed
 kind: card
 internalKey: Star_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVII - 星辰? XVII - The Stars? Star_r xvii-the-stars-reversed XVII - The Stars? 他们灿若繁星 伯列恒之星 点亮房间内的敌人并为其添加光环 伯列恒之星 在此卡的周围自动提供一个有50%增幅效果的光圈 Star of Bethlehem Light enemies in the room and give them an aura Star of Bethlehem Also provides a 50% boost aura around this card</p>
 
@@ -17,12 +17,11 @@ status: drafted
 
 ## Effects
 
-After use, enemies in the current room light up and form auras. Near those star sources—or near this card while it is still on the ground—you gain {{Collectible:651}}-like boosts: {{Damage}} and {{Tears}} rise; when the boost exceeds half strength, you also gain spectral tears, and hits have a **50%** chance to be fully blocked.
+After use, enemies in the current room light up and form auras. Near those star sources—or near this card while it is still on the ground—the player gains {{Collectible:651}}-like boosts: {{Damage}} and {{Tears}} rise; when the boost exceeds half strength, spectral tears are also granted, and hits have a **50%** chance to be fully blocked.
 
 ## Rules
 
-- The boost scales with distance and aura strength.
-- After a room change, approach still-existing sources again to keep benefiting.
+Boost strength depends on distance from star sources.
 
 ## Synergies
 

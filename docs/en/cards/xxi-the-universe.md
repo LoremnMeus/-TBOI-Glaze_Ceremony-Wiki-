@@ -4,7 +4,7 @@ description: "Show up to 3 random candidates from items you hold Permanently los
 slug: xxi-the-universe
 kind: card
 internalKey: Universe
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XXI - 宇宙 XXI - The Universe Universe xxi-the-universe XXI - The Universe 星汉灿烂 从你持有的道具中随机展示3个候选 选择并永久失去其中1件，换取1件星辰类道具 Show up to 3 random candidates from items you hold Permanently lose the chosen one for 1 star-themed item</p>
 
@@ -19,13 +19,13 @@ status: drafted
 
 After use, randomly show up to **3** held collectibles as sacrifice candidates.
 
-You must pick one and permanently lose it, then gain 1 item from the fixed star pool.
+Touching one candidate permanently loses that collectible, then grants 1 item from the fixed star pool.
 
 With nothing to sacrifice, the card is returned.
 
 ## Star pool
 
-Rewards are drawn from a fixed star pool. If no valid reward can be chosen from that pool, you receive {{Collectible:392}} instead.
+Rewards are drawn from a fixed star pool. If no valid reward can be chosen from that pool, {{Collectible:392}} is granted instead.
 
 <details>
 <summary>View full star pool</summary>

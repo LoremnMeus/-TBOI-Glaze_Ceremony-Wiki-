@@ -4,7 +4,7 @@ description: "星汉灿烂"
 slug: xxi-the-universe
 kind: card
 internalKey: Universe
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XXI - 宇宙 XXI - The Universe Universe xxi-the-universe XXI - The Universe 星汉灿烂 从你持有的道具中随机展示3个候选 选择并永久失去其中1件，换取1件星辰类道具 Show up to 3 random candidates from items you hold Permanently lose the chosen one for 1 star-themed item</p>
 
@@ -19,7 +19,7 @@ status: drafted
 
 使用后，从玩家持有的收藏品中随机展示最多 **3 件**作为祭品候选。
 
-玩家必须选择其中 1 件并永久失去它，随后获得 1 件来自固定星辰池的道具。
+接触其中一个候选后，会永久失去对应收藏品，随后获得 1 件来自固定星辰池的道具。
 
 若没有任何可供牺牲的收藏品，这张牌会返还。
 

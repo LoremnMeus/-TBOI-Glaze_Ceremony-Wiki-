@@ -4,7 +4,7 @@ description: "我将绝火"
 slug: i-the-sage-reversed
 kind: card
 internalKey: Sage_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>I - 贤者? I - The Sage? Sage_r i-the-sage-reversed I - The Sage? 我将绝火 在房间中所有实体边上点燃火堆 复燃所有其他火堆 当前房间内靠近火堆会将其自动熄灭 Light the fire on the edge of all enemies and pickups in the room Re-ignite all other fires The fire will be automatically extinguished when you are close to it in the current room</p>
 
@@ -23,22 +23,20 @@ status: drafted
 
 ## 熄灭
 
-玩家靠近被标记的火堆时，火堆会自动熄灭，不需要主动攻击。
+玩家靠近由本卡标记的火堆时，火堆会自动熄灭，不需要主动攻击。
 
-## 火堆变体权重
+## 火堆种类
 
-新生成火堆按权重随机选择变体（普通 / 桌布）：
-
-| 变体 | 普通 | {{Collectible:451}} |
+| 火堆 | 普通 | {{Collectible:451}} |
 | --- | ---: | ---: |
-| 普通火堆 | 200 | 100 |
-| 红色火堆 | 75 | 45 |
-| 蓝色火堆 | 30 | 50 |
-| 紫色火堆 | 15 | 25 |
-| 白色火堆 | 1 | 1 |
+| 普通火堆 | 62.3% | 45.2% |
+| 红色火堆 | 23.4% | 20.4% |
+| 蓝色火堆 | 9.3% | 22.6% |
+| 紫色火堆 | 4.7% | 11.3% |
+| 白色火堆 | 0.3% | 0.5% |
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-提高蓝 / 紫火堆相对普通与红火堆的出现权重（见上表）。
+更容易生成蓝色与紫色火堆，具体概率见上表。

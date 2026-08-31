@@ -4,7 +4,7 @@ description: "崩落..."
 slug: xvi-the-tower-reversed
 kind: card
 internalKey: Tower_r
-status: drafted
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 持续从天而降大量随机障碍物 后续波次越来越密集 Rain random obstacles from above Later waves grow denser</p>
 
