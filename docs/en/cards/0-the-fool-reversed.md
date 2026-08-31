@@ -19,18 +19,18 @@ status: drafted
 
 After use, foretell 1 item from the current room's item pool.
 
-When the next new collectible pedestal appears, the foretold item appears beside it as a mutual-exclusion choice: you may take only one.
+When the next new collectible appears on the ground, the foretold item appears beside it as a mutual-exclusion choice; you may take only one.
 
-If the original pedestal has a price, the foretold item uses the same price.
+If the original item has a price, the foretold item uses the same price.
 
 ## Rules
 
-- Foresight persists across rooms until the next newly spawned collectible pedestal triggers it.
-- Items already on the ground are unaffected.
+- Foresight persists across rooms until the next new collectible on the ground triggers it.
+- Collectibles already on the ground are unaffected.
 - If no valid pool candidate can be drawn on use, no foresight is recorded.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Foretell 3 different items at once; on trigger they join the original pedestal as one mutual-exclusion choice.
+Foretell 3 different items at once; on trigger they join the original item as one mutual-exclusion choice.

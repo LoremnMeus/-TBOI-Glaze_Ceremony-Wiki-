@@ -4,7 +4,7 @@ description: "如此，我就能满足了"
 slug: xiii-death-reversed
 kind: card
 internalKey: Death_r
-status: reviewed
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>XIII - 死神? XIII - Death? Death_r xiii-death-reversed XIII - Death? 如此，我就能满足了 立即放下主动道具、卡牌/药丸与饰品 所有这些栏位保持为空时，大幅提升伤害、射速、射程、移速和幸运 副主动与口袋主动重新拾取后回到原槽位 Drop your actives, cards/pills, and trinkets immediately While those slots stay empty, greatly boost Damage, Tears, Range, Speed, and Luck Secondary and pocket actives return to their original slots when picked up again</p>
 
@@ -19,9 +19,7 @@ status: reviewed
 
 使用后，玩家会立即放下主动道具、卡牌 / 药丸与饰品。
 
-只要这些被要求为空的栏位一直保持空置，就获得大幅属性强化。任一相关栏位重新装入物品，全部增益立即结束。
-
-## 属性
+只要主动、口袋物和饰品栏继续保持空置，就持续获得以下属性：
 
 | 属性 | 普通 |
 | --- | ---: |
@@ -29,9 +27,11 @@ status: reviewed
 | {{Tears}} | +1.5 |
 | {{Range}} | +3 |
 | {{Speed}} | +0.5 |
-| 幸运 | +5 |
+| {{Luck}} | +5 |
 
-副主动与口袋主动重新拾取后会尝试回到原来的槽位，而不是一律抢占主主动槽。
+任一上述栏位重新装入物品，全部增益立即结束。
+
+副主动与口袋主动重新拾取后会尽量回到原来的槽位。
 
 ## 特殊联动
 
@@ -43,4 +43,4 @@ status: reviewed
 | {{Tears}} | +2 |
 | {{Range}} | +4 |
 | {{Speed}} | +0.7 |
-| 幸运 | +7 |
+| {{Luck}} | +7 |

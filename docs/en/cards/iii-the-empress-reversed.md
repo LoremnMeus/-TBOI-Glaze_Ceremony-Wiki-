@@ -19,17 +19,20 @@ status: drafted
 
 After use, rewritable items still on this floor respawn into an **unknown, paid** state. You cannot normally identify them before purchase.
 
-Items already taken are not reclaimed. Quest / story pedestals are not rewritten. Ordinary pedestals that appear later on this floor also enter this state until the next floor.
+Items already taken are not reclaimed. Quest-marked story / key pedestals are not rewritten. Ordinary pedestals that appear later on this floor also enter this state until the next floor.
 
 ## Price and recognition
 
-- Items show as question-mark visuals, and external descriptions are obscured.
-- Price is `ceil(Quality × multiplier × basePrice ÷ 15)`. On rewrite, base price is often set to 15 and the multiplier defaults to 5, so the common price is **Quality × 5**.
-- Goods that already had a price are recalculated with the same formula.
-- The effect ends when you leave the floor.
+Items show as question-mark visuals, and external descriptions are obscured. Goods that already had a price are recalculated too.
 
-## Synergies
+At the common base price (15), prices are:
 
-### {{Collectible:451}}
+| Quality | Normal | {{Collectible:451}} |
+| --- | ---: | ---: |
+| {{Quality0}} | Free | Free |
+| {{Quality1}} | 5 | 1 |
+| {{Quality2}} | 10 | 2 |
+| {{Quality3}} | 15 | 3 |
+| {{Quality4}} | 20 | 4 |
 
-The price multiplier drops from 5 to 1; with base price 15, the common price is **Quality × 1**.
+If a good keeps another base price, the sale price scales with quality by the same ratio. The effect ends on the next floor.

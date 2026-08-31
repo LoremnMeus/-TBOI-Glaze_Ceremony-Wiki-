@@ -17,20 +17,18 @@ status: drafted
 
 ## Effects
 
-The Sting places a sacrifice circle in the room. Standing on it preferably spends half a red heart for one sacrifice and advances rewards by completed count. The circle previews the next sacrifice.
+After use, place a sacrifice circle in the room. Standing on it preferably spends half a red heart for one sacrifice and advances rewards by completed count. The circle previews the next sacrifice.
 
 | Sacrifices done | This result |
 | --- | --- |
-| 1 | Spawn 0–4 coins |
+| 1 | Spawn 0–4 {{Coin}} |
 | 2 | 50% chance to spawn a chest |
-| 3 | Clear this floor's “hurt with red hearts” state and restore Devil chance |
+| 3 | Clear this floor's Devil-chance loss from red-heart damage |
 | 4 | 30% chance to spawn a random item pedestal |
 | 5 | Spawn 3 red chests |
 | 6 | 50% chance to trigger {{Card:31}} |
 
-After about the 5th sacrifice the circle starts fading; if you still reach the 6th in time, you still get that stage reward. There are no further stage rewards after that.
-
-The circle is a room entity and does not follow a room change.
+After the 5th sacrifice the circle starts fading; you can still finish a 6th sacrifice before it fully disappears. There are no further stage rewards after that.
 
 ## Synergies
 

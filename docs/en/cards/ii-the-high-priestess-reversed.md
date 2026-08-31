@@ -19,7 +19,7 @@ status: drafted
 
 After use, Mom's Hand grabs a suitable enemy. It prefers targets that are still grabbable; if the original target vanishes or becomes invalid before the hand arrives, it retargets another legal enemy.
 
-Normally, a grabbed enemy is briefly frozen, then removed from the fight. The effect's own timer persists across rooms; a hand already in flight is a room entity and does not follow a room change.
+Normally, a grabbed enemy is briefly frozen, then taken out of the fight. If you leave the room before Mom's Hand lands, that hand does not follow into the new room.
 
 ## Rules
 
@@ -29,6 +29,6 @@ Normally, a grabbed enemy is briefly frozen, then removed from the fight. The ef
 
 ### {{Collectible:451}}
 
-Non-boss enemies taken by Mom's Hand return as {{Charm}} friendlies in the current room; bosses are still removed.
+Non-boss enemies taken by Mom's Hand return as {{Charm}} friendlies in the current room; bosses are still taken away.
 
-Converted friendlies exist only in the current room and are not kept as permanent cross-floor followers.
+Converted friendlies help only in the current room.

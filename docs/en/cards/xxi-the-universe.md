@@ -17,25 +17,33 @@ status: drafted
 
 ## Effects
 
-After use, randomly show up to **3** of the player's truly held collectibles as sacrifice candidates.
+After use, randomly show up to **3** held collectibles as sacrifice candidates.
 
-You must pick one and permanently lose it, then gain one item from the fixed star pool.
+You must pick one and permanently lose it, then gain 1 item from the fixed star pool.
 
-With nothing to sacrifice, The Universe is returned and is not wasted.
+With nothing to sacrifice, the card is returned.
 
 ## Star pool
 
-Rewards are drawn from a fixed star pool. If no usable candidate can be drawn for a while, the reward becomes {{Collectible:392}}.
+Rewards are drawn from a fixed star pool. If no valid reward can be chosen from that pool, you receive {{Collectible:392}} instead.
 
 <details>
-<summary>Full star pool</summary>
+<summary>View full star pool</summary>
+
+### Planetary set
 
 - {{Collectible:588}} {{Collectible:589}} {{Collectible:590}} {{Collectible:591}} {{Collectible:592}}
 - {{Collectible:593}} {{Collectible:594}} {{Collectible:595}} {{Collectible:596}} {{Collectible:597}} {{Collectible:598}}
-- {{Collectible:233}} {{Collectible:651}}
+
+### Zodiac
+
 - {{Collectible:299}} {{Collectible:300}} {{Collectible:301}} {{Collectible:302}} {{Collectible:303}}
 - {{Collectible:304}} {{Collectible:305}} {{Collectible:306}} {{Collectible:307}} {{Collectible:308}} {{Collectible:309}}
 - {{Collectible:318}}
+
+### Other star items
+
+- {{Collectible:233}} {{Collectible:651}}
 - {{Item:Pendulum_Star}}
 
 </details>
@@ -44,4 +52,4 @@ Rewards are drawn from a fixed star pool. If no usable candidate can be drawn fo
 
 ### {{Collectible:451}}
 
-Still sacrifices 1 item, but the final Universe reward becomes a 2-option pick.
+Still sacrifices 1 item, but the final reward becomes a 2-option pick.

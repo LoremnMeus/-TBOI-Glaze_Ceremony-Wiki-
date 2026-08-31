@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T19:38:49Z",
+  "generatedAt": "2026-08-31T20:03:52Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1551,16 +1551,16 @@
       "kind": "card",
       "zh": "wiki/docs/cards/ix-the-hermit-reversed.md",
       "en": "wiki/docs/en/cards/ix-the-hermit-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "x-the-wheel-of-destiny-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/x-the-wheel-of-destiny-reversed.md",
       "en": "wiki/docs/en/cards/x-the-wheel-of-destiny-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "xi-lure-reversed",
@@ -1591,8 +1591,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xiii-death-reversed.md",
       "en": "wiki/docs/en/cards/xiii-death-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "xiii-the-corpse-reversed",
@@ -1607,8 +1607,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xiv-art-reversed.md",
       "en": "wiki/docs/en/cards/xiv-art-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "xv-the-devil-reversed",
@@ -1623,16 +1623,16 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xvi-the-tower-reversed.md",
       "en": "wiki/docs/en/cards/xvi-the-tower-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "xvii-the-stars-reversed",
       "kind": "card",
       "zh": "wiki/docs/cards/xvii-the-stars-reversed.md",
       "en": "wiki/docs/en/cards/xvii-the-stars-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "xviii-the-moon-reversed",

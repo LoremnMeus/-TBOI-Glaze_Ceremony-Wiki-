@@ -17,25 +17,33 @@ status: drafted
 
 ## 效果
 
-使用后，从玩家真正持有的收藏品中随机展示最多 **3 件**作为祭品候选。
+使用后，从玩家持有的收藏品中随机展示最多 **3 件**作为祭品候选。
 
 玩家必须选择其中 1 件并永久失去它，随后获得 1 件来自固定星辰池的道具。
 
-若没有任何可供牺牲的收藏品，宇宙会返还，不会白白消耗。
+若没有任何可供牺牲的收藏品，这张牌会返还。
 
 ## 星辰池
 
-宇宙从固定星辰池中抽取奖励。若池中一时抽不到可用候选，则改为给予 {{Collectible:392}}。
+奖励从固定星辰池中抽取。若无法从星辰池中选出有效奖励，则改为给予 {{Collectible:392}}。
 
 <details>
 <summary>查看完整星辰池</summary>
 
+### 行星套装
+
 - {{Collectible:588}} {{Collectible:589}} {{Collectible:590}} {{Collectible:591}} {{Collectible:592}}
 - {{Collectible:593}} {{Collectible:594}} {{Collectible:595}} {{Collectible:596}} {{Collectible:597}} {{Collectible:598}}
-- {{Collectible:233}} {{Collectible:651}}
+
+### 十二星座
+
 - {{Collectible:299}} {{Collectible:300}} {{Collectible:301}} {{Collectible:302}} {{Collectible:303}}
 - {{Collectible:304}} {{Collectible:305}} {{Collectible:306}} {{Collectible:307}} {{Collectible:308}} {{Collectible:309}}
 - {{Collectible:318}}
+
+### 其他星辰道具
+
+- {{Collectible:233}} {{Collectible:651}}
 - {{Item:Pendulum_Star}}
 
 </details>
@@ -44,4 +52,4 @@ status: drafted
 
 ### {{Collectible:451}}
 
-仍只牺牲 1 件，但最终宇宙奖励改为二选一。
+仍只牺牲 1 件，但最终奖励改为二选一。

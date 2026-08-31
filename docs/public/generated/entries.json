@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T19:38:49Z",
+  "generatedAt": "2026-08-31T20:03:52Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -30716,9 +30716,9 @@
         "en": ""
       },
       "icon": "/generated/images/swallow-the-sun.png",
-      "thumb32": "/generated/images/swallow-the-sun_32.webp",
+      "thumb32": "/generated/images/swallow-the-sun_list_32.webp",
       "thumb32Png": "/generated/images/swallow-the-sun_32.png",
-      "thumb64": "/generated/images/swallow-the-sun_64.webp",
+      "thumb64": "/generated/images/swallow-the-sun_list_64.webp",
       "thumb64Png": "/generated/images/swallow-the-sun_64.png",
       "portrait": null,
       "aliases": {

@@ -17,7 +17,7 @@ status: drafted
 
 ## Effects
 
-After use, sacrifice relic collectibles you still hold. Each successful sacrifice spawns one item from the Devil Room item pool.
+After use, sacrifice the relics you still hold that can be offered; each successful sacrifice spawns 1 item from the Devil Room item pool.
 
 ## Relic sources
 
@@ -25,10 +25,10 @@ Only collectibles taken directly from an {{AngelRoom}} Angel Room pedestal are r
 
 Later copies of the same collectible from other sources do not become relics.
 
-If the recorded copy has already been lost, it cannot be sacrificed again.
+Relics already lost cannot be sacrificed again.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Sacrificed collectibles that support item wisps also leave one matching wisp.
+Sacrificed collectibles that can spawn item wisps also leave 1 matching wisp.

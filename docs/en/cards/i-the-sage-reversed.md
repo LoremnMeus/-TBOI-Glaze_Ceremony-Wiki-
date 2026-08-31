@@ -17,16 +17,28 @@ status: drafted
 
 ## Effects
 
-After use, extinguished ordinary fires in the current room are rekindled, and new fires spawn on empty tiles near enemies, pickups, and similar room entities.
+After use, extinguished ordinary fires in the current room are rekindled, and new fires spawn on empty tiles near enemies, pickups, and similar entities.
 
-Spawns avoid tiles next to the player.
+Spawns avoid positions near the player.
 
 ## Extinguish
 
-Fires marked by The Sage? extinguish automatically when the player approaches. No attack is required.
+Marked fires extinguish automatically when the player approaches. No attack is required.
+
+## Fire variant weights
+
+New fires pick a variant by weight (normal / {{Collectible:451}}):
+
+| Variant | Normal | {{Collectible:451}} |
+| --- | ---: | ---: |
+| Normal fire | 200 | 100 |
+| Red fire | 75 | 45 |
+| Blue fire | 30 | 50 |
+| Purple fire | 15 | 25 |
+| White fire | 1 | 1 |
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Raises the chance of special fire variants.
+Raises blue / purple fire weight relative to normal and red fires (see table above).
