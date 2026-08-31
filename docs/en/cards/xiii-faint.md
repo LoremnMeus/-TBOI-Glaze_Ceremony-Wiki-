@@ -1,12 +1,12 @@
 ---
 title: XIII - Faint
-description: "Generate a bed After sleeping on this bed,be transmitted to a random room and the background of all rooms this floor will be changed Remove the bed after leaving the room Chance of"
+description: "Spawn a bed you can sleep in Normal sleep restores health and dream-walks to a random room A barren bed may appear that brings no good dream"
 slug: xiii-faint
 kind: card
 internalKey: Faint
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XIII - 长眠 XIII - Faint Faint xiii-faint XIII - Faint 梦入异乡 生成一张床 用此床入睡后，传送至随机房间，并改变本层所有房间的背景 离开本房间后此床消失 概率生成坏床：入睡后无法传送 Generate a bed After sleeping on this bed,be transmitted to a random room and the background of all rooms this floor will be changed Remove the bed after leaving the room Chance of 1/5 generating a bad bed which can&#x27;t teleport you.</p>
+<p class="wiki-search-index" v-pre>XIII - 长眠 XIII - Faint Faint xiii-faint XIII - Faint 梦入异乡 生成一张可以入睡的床 正常睡眠会恢复生命并梦游至随机房间 也可能出现无法带来好梦的床 Spawn a bed you can sleep in Normal sleep restores health and dream-walks to a random room A barren bed may appear that brings no good dream</p>
 
 <PublicEntry slug="xiii-faint" lang="en" />
 
@@ -14,4 +14,6 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Spawns a bed. Normal sleep heals and dream-walks to a random room; a barren bed may appear that grants no good dream.

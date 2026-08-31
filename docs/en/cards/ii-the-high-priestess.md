@@ -1,12 +1,12 @@
 ---
 title: II - The High Priestess
-description: "Temperorily size up Change your attack method to manipulating mom's stomp mom's stomp cause 40 times the damage of player 10 times the firedelay of player to charge Lasts for 30 se"
+description: "For 30 seconds, summon Mom's giant foot to stomp nearby enemies"
 slug: ii-the-high-priestess
 kind: card
 internalKey: Priestess
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>II - 女司祭 II - The High Priestess Priestess ii-the-high-priestess II - The High Priestess 妈妈?是妈妈! 角色巨大化 攻击方式改为操纵妈腿攻击 妈腿造成角色攻击40倍的伤害 蓄力时长为10倍角色延迟 持续30s 可叠加 Temperorily size up Change your attack method to manipulating mom&#x27;s stomp mom&#x27;s stomp cause 40 times the damage of player 10 times the firedelay of player to charge Lasts for 30 second Stackable</p>
+<p class="wiki-search-index" v-pre>II - 女司祭 II - The High Priestess Priestess ii-the-high-priestess II - The High Priestess 妈妈?是妈妈! 持续30秒召唤巨大的妈妈之脚攻击附近敌人 For 30 seconds, summon Mom&#x27;s giant foot to stomp nearby enemies</p>
 
 <PublicEntry slug="ii-the-high-priestess" lang="en" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+For **30** seconds, Mom's giant foot stomps nearby enemies, seeking targets automatically.
+
+## Special interactions
+
+### {Collectible:451}
+
+Duration becomes **60** seconds.

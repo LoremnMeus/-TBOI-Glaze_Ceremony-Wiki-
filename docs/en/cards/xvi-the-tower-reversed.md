@@ -1,12 +1,12 @@
 ---
 title: "XVI - The Tower?"
-description: "Gradually and rapidly fall rocks from the sky and smash them at the enemies"
+description: "Rain random obstacles from above Later waves grow denser"
 slug: xvi-the-tower-reversed
 kind: card
 internalKey: Tower_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 从天上逐渐加速地落下岩块砸向敌人 持续10s Gradually and rapidly fall rocks from the sky and smash them at the enemies</p>
+<p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 持续从天而降大量随机障碍物 后续波次越来越密集 Rain random obstacles from above Later waves grow denser</p>
 
 <PublicEntry slug="xvi-the-tower-reversed" lang="en" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Rains random obstacles with denser later waves. Some dangerous grids hit harder.
+
+## Special interactions
+
+### {Collectible:451}
+
+Wave count rises from 10 to 16.

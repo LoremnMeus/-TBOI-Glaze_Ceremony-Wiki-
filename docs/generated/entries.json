@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T07:50:25Z",
+  "generatedAt": "2026-08-31T13:12:21Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -22132,8 +22132,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "浮现最多5个来自当前道具池的可召唤道具虚影#接触其一，将其从道具池中牺牲并化为魂火#其余虚影不消耗；离开房间则全部取消",
-        "en": "Spawn up to 5 summonable phantoms from the current item pool#Touch one to sacrifice it from the pool and turn it into a wisp#Others cost nothing; leave the room to cancel all"
+        "zh": "从当前道具池展示5个可生成魂火的道具虚影#接触其中一个，将其牺牲并生成对应魂火#其余虚影离开房间前未选则消失",
+        "en": "Show 5 phantom items from the current pool that can become wisps#Touch one to sacrifice it and spawn its item wisp#Unchosen phantoms vanish if you leave the room"
       },
       "seijaBuff": {
         "zh": "",
@@ -22251,8 +22251,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Freezing}} 生成4枚冻结敌人5s的冰锥眼泪#冻结状态下死亡的敌人被冰冻并减速全屏敌人",
-        "en": "Generate 4 ice tears that freeze the enemy for 5s #The enemies who died in this freezing state are frozen and decelerate all enemies"
+        "zh": "{{Freezing}} 发射4枚特殊冰冻泪弹#命中的敌人死亡时冻结周围敌人并使房间短暂减速",
+        "en": "{{Freezing}} Fire 4 special freezing tears#When a hit enemy dies, freeze nearby foes and briefly slow the room"
       },
       "seijaBuff": {
         "zh": "",
@@ -22370,8 +22370,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Card}} 预知并记录一张塔罗牌#使用那张塔罗牌的时候，生成此卡和一张随机卡牌",
-        "en": "Predict and record a tarot card #When using that tarot card, generate this card and a random card"
+        "zh": "{{Card}} 预言下一张会被使用的透特牌#预言命中时获得奖励并返还召唤者",
+        "en": "{{Card}} Foretell the next Thoth card that will be used#On a hit, gain a reward and return the Invoker"
       },
       "seijaBuff": {
         "zh": "",
@@ -22489,8 +22489,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "在地图上揭示一种特殊房间，进入对应房间时打开数个通往其他特殊房间的传送旋涡#{{Card22}} 全部特殊房间均已预知：点亮全图",
-        "en": "Predict a special room #Light up all rooms of that type on the map #Upon entering that room only once, open several transmission portal leading to other special rooms in this level #All special rooms have been predicted: light up the whole map #Small probability to open a transmission portal to special rooms not on the map(including Devil Room, Error Room, etc.)"
+        "zh": "随机揭示一种房间，并生成通往其中一间的传送门",
+        "en": "Reveal a random room type and open a portal to one of those rooms"
       },
       "seijaBuff": {
         "zh": "",
@@ -22590,8 +22590,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "角色巨大化#攻击方式改为操纵妈腿攻击#妈腿造成角色攻击40倍的伤害#蓄力时长为10倍角色延迟#持续30s#可叠加",
-        "en": "Temperorily size up#Change your attack method to manipulating mom's stomp#mom's stomp cause 40 times the damage of player#10 times the firedelay of player to charge #Lasts for 30 second #Stackable"
+        "zh": "{{Timer}} 持续30秒召唤巨大的妈妈之脚攻击附近敌人",
+        "en": "{{Timer}} For 30 seconds, summon Mom's giant foot to stomp nearby enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -22691,8 +22691,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Charm}} 魅惑房间内生命值非最高的所有怪物，其生命值降至10%，削弱的生命值补充给生命最高的敌人#生命值最高的敌人变为彩虹变异",
-        "en": "Charm all monsters with not highest HP#Reduce their health to 10% and add them to the highest one#Invalid for bosses"
+        "zh": "吸取房间中敌人的力量，并集中强化最强的敌人",
+        "en": "Drain strength from enemies in the room and pour it into the strongest foe"
       },
       "seijaBuff": {
         "zh": "",
@@ -22802,8 +22802,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "封闭当前房间的门#在墙边尽可能地生成通往其他房间的门#也可能生成不在地图上房间的门#{{ArrowUp}} 角色能飞时，可以开门的位置更多",
-        "en": "Close the doors of the current room#Try to generate as many doors to other rooms on the wall as possible#Chance to generate doors to room that's not on the map"
+        "zh": "在当前房间开启通往额外房间的特殊入口",
+        "en": "Open special doorways in the current room that lead to extra rooms"
       },
       "seijaBuff": {
         "zh": "",
@@ -23014,8 +23014,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{ArrowUp}} 本房间内，拾取基础掉落改为获得临时属性提升，并有50%概率再次生成一个基础掉落",
-        "en": "In this room, picking up pickups will gain temporary attribute improvement instead of the actual effect, with 50% probability of generating another pickup again"
+        "zh": "拾取普通掉落物时有50%概率复制一个完全相同的掉落物#复制品不会再次触发此效果",
+        "en": "Picking up ordinary pickups has a 50% chance to duplicate an identical copy#Copies cannot trigger this again"
       },
       "seijaBuff": {
         "zh": "",
@@ -23125,8 +23125,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "向攻击方向发射1枚300点伤害继承攻击特效的超大导弹",
-        "en": "Launch a super missile with 300 damage points in the attack direction"
+        "zh": "向攻击方向发射巨大火箭",
+        "en": "Fire a giant rocket in the attack direction"
       },
       "seijaBuff": {
         "zh": "",
@@ -23337,8 +23337,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "随机生成一个本局失去过的道具，优先选择被动道具#{{Collectible36}} 没有这样的道具：生成摸过的大便",
-        "en": "Randomly generate a lost item#Give priority to passive items#None:Spawn a touched {{Collectible36}}"
+        "zh": "随机生成一个本局失去过的道具，优先被动道具#{{Collectible36}} 没有这样的道具：生成摸过的大便",
+        "en": "Randomly spawn one lost item (prefer passives)#{{Collectible36}} If none: spawn a touched Poop"
       },
       "seijaBuff": {
         "zh": "",
@@ -23438,8 +23438,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "选择一个道具转换为2个脆弱的同名道具魂火#以此法生成的魂火在通过2层后重新转换为道具#刷新重新生成道具的状态",
-        "en": "Select one item and convert it into two fragile item wisp in the same name.#Item wisps spawned in this way turn back to items if you successfully protect it in 2 level."
+        "zh": "将一个已有道具暂时转换为脆弱同名魂火#之后归还为道具",
+        "en": "Temporarily convert a held item into fragile same-name wisps#Later return it as an item"
       },
       "seijaBuff": {
         "zh": "",
@@ -23549,8 +23549,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "本房间内，略微加速所有敌人，他们受到的伤害提升固定值5点",
-        "en": "In this room, slightly accelerate all enemies, damage they take will be increased by 5"
+        "zh": "敌人会显示自己想要的资源#停止攻击并靠近时，可献上对应资源满足它#满足后的敌人仍会攻击，但击杀时掉落额外奖励",
+        "en": "Enemies show a wanted resource#Stop firing and approach to offer matching pickups#They stay hostile, but drop extra rewards when killed"
       },
       "seijaBuff": {
         "zh": "",
@@ -23650,8 +23650,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{ThothCard2}} 将本层所有卡牌变为倒位置",
-        "en": "#Change all cards on this floor to the reverse position#Used with card {{Card:Hanged_Man_r}}:Turn over cards repeatedly until it detonates, then grants 10% probability of transmitting it to the error room and clear this effect"
+        "zh": "{{ThothCard2}} 本层后续出现的正位透特牌会转化为对应倒位牌",
+        "en": "{{ThothCard2}} Later upright Thoth cards on this floor convert to their reversed faces"
       },
       "seijaBuff": {
         "zh": "",
@@ -23751,8 +23751,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{IsaacsRoom}} 生成一张床#用此床入睡后，传送至随机房间，并改变本层所有房间的背景#离开本房间后此床消失#{{BarrenRoom}} 概率生成坏床：入睡后无法传送",
-        "en": "Generate a bed#After sleeping on this bed,be transmitted to a random room and the background of all rooms this floor will be changed#Remove the bed after leaving the room#Chance of 1/5 generating a bad bed which can't teleport you."
+        "zh": "{{IsaacsRoom}} 生成一张可以入睡的床#正常睡眠会恢复生命并梦游至随机房间#也可能出现无法带来好梦的床",
+        "en": "{{IsaacsRoom}} Spawn a bed you can sleep in#Normal sleep restores health and dream-walks to a random room#A barren bed may appear that brings no good dream"
       },
       "seijaBuff": {
         "zh": "",
@@ -23963,8 +23963,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{DevilRoom}} 持有此卡时死亡：在恶魔房复活并失去此卡#使用后，主动触发上述效果",
-        "en": "Death while holding this card:revive in the devil room and lose this card #When use:activate above effect"
+        "zh": "{{DevilRoom}} 持有时可在致命伤害时复活，并前往恶魔房#主动使用则立即献出生命并触发该效果",
+        "en": "{{DevilRoom}} While held, fatal damage revives you into a Devil Room#Using it actively spends your life to trigger the same effect"
       },
       "seijaBuff": {
         "zh": "",
@@ -24064,8 +24064,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "将本房间内所有地形块悬空，随后扔向敌人#不同的地形块有不同的掉落效果",
-        "en": "Suspend all grid blocks in the room and then throw them to the enemy"
+        "zh": "将当前房间的障碍物升空，随后砸向敌人",
+        "en": "Lift obstacles in the current room, then smash them into enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -24183,8 +24183,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "若此卡为本层使用的第一张卡，生成1个魂心、1个白心、1个红心#否则，生成1个半红心",
-        "en": "If this card is the first card used in this level: generate a soul heart, a eternal heart,a red heart.#Otherwise: generate a half red heart."
+        "zh": "本层第一次真正使用持有的卡牌时，星辰提供大量生命回复#之后再次使用星辰只回复半颗红心",
+        "en": "The first real card use from your slots this floor grants a large heal#Later uses of The Star only restore half a red heart"
       },
       "seijaBuff": {
         "zh": "",
@@ -24421,8 +24421,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "按照顺序，将本房间内使用的所有卡牌重复执行一次#使用了三种或以上卡牌：额外生成一张随机卡",
-        "en": "Repeat all the cards used in this room once in order #Three or more cards are used: generate an additional random card"
+        "zh": "重新发动本房间此前使用过的其他卡牌#重放3张后生成一张卡牌",
+        "en": "Replay other cards previously used in this room#After replaying 3 cards, spawn a card"
       },
       "seijaBuff": {
         "zh": "",
@@ -24522,8 +24522,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{EternalHeart}} 持有此卡受伤时，有概率掉落一个白心#{{Confessional}} 使用后生成一台忏悔机",
-        "en": "Holding this card when you are hurt, provide a chance to drop a eternal heart #Use it to generate a repentance machine"
+        "zh": "{{EternalHeart}} 持有时，受伤有小概率生成永恒之心#{{Confessional}} 使用后生成一台忏悔室",
+        "en": "{{EternalHeart}} While held, taking damage has a small chance to spawn an Eternal Heart#{{Confessional}} On use, spawn a Confessional"
       },
       "seijaBuff": {
         "zh": "",
@@ -24623,8 +24623,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Planetarium}} 移除身上一个随机道具，生成一个星座或星象道具",
-        "en": "Remove a random item and generate a constellation or astrological item"
+        "zh": "{{Planetarium}} 从你持有的道具中随机展示3个候选#选择并永久失去其中1件，换取1件星辰类道具",
+        "en": "{{Planetarium}} Show up to 3 random candidates from items you hold#Permanently lose the chosen one for 1 star-themed item"
       },
       "seijaBuff": {
         "zh": "",
@@ -24926,8 +24926,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "额外发射略微跟踪的准星，命中敌人则会降下妈手#妈手捕获敌人后可以控制其一段时间#持续30s",
-        "en": "Fire a slightly tracked mark when you attack#Spawn a mother's hand to catpure and freeze the enemy for a period of time.#Lasts for 30 seconds"
+        "zh": "召来妈妈之手抓住一个敌人#普通情况下会将其带走",
+        "en": "Call Mom's Hand to grab an enemy#Normally takes it away"
       },
       "seijaBuff": {
         "zh": "",
@@ -25138,8 +25138,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "召唤一个随机boss，战胜它可以生成它的永久友方复制#{{Damage}} 持有此卡且位于{{BossRoom}}boss房/{{ChallengeRoom}}挑战房/{{BossRushRoom}}Bossrush房间：+1攻击",
-        "en": "Summon a random boss#Defeat it will generate a friendly version of the boss#+1 damage when in boss room/challenge room/Bossrush"
+        "zh": "召唤一名Boss与你战斗#击败后，它会作为友军跟随本层",
+        "en": "Summon a Boss to fight#After defeat, it follows as a friendly ally for the floor"
       },
       "seijaBuff": {
         "zh": "",
@@ -25249,8 +25249,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{AngelRoom}} 失去本局所有在天堂房拾取过的道具以及同名道具#{{DevilRoom}} 这样的道具每有一个，获得一份来自恶魔的奖励",
-        "en": "Lose all items picked up in the Angel Room and the items with the same name#Every time you lose one item in this way:#6%: generate 1-2 black hearts#66%: generate 1-2 devil room items#1%: +6.66 damage #6%: +0.66 damage#1%: +0.66 speed#6%: +0.11 speed#1%: generate 66 coins#6%: generate 6 random pickups#1%: gain devil transformation#6%: generate a {{Card31}}"
+        "zh": "{{AngelRoom}} 献祭你仍持有的、从天使房获得的道具#{{DevilRoom}} 每献祭1件，生成1件恶魔房道具",
+        "en": "{{AngelRoom}} Sacrifice Angel-Room items you still hold#{{DevilRoom}} Each sacrifice spawns 1 Devil Room item"
       },
       "seijaBuff": {
         "zh": "",
@@ -25461,8 +25461,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "交替设下5张陷阱#不同的陷阱对敌人有不同的效果",
-        "en": "#Set 5 traps:#Mirror Force:Release a shock wave same as {{Item:Lofty}} with 100 damage to enemies stepped on it#Magic Cylinder：Convert the projectiles into tears, disappear after 10 times#Skill Drain:Seal the enemy stepped on it for 10s(3s for bosses),disappear after 3 times#Great Universe:Randomly transfer enemies step on it and reduce their HP by 50%,disappear after 5 times#Void Space:Reduce the life of newly generated enemy to 1(20% to the boss),disappear after 2 times"
+        "zh": "化身战车高速冲锋，期间无敌且只能有限转向#撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋",
+        "en": "Become a chariot and charge at high speed: invincible, limited steering#Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge"
       },
       "seijaBuff": {
         "zh": "",
@@ -25573,7 +25573,7 @@
       },
       "eid": {
         "zh": "{{ArrowUp}} 将你的全部基础掉落转化为属性",
-        "en": "Convert all your basic pickups into attributes"
+        "en": "{{ArrowUp}} Convert all your basic pickups into attributes"
       },
       "seijaBuff": {
         "zh": "",
@@ -25673,8 +25673,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "随机失去至多3个道具并生成一个道具#失去的道具会与之后见到的第7个道具一同生成(不刷新状态)#不会失去副手主动",
-        "en": "Lose up to 3 items randomly and generate one item#The lost items will be generated together with the seventh item seen later (their status will not be refreshed)"
+        "zh": "暂时隐藏你持有的3件道具#在取得7个新道具后返还它们#期间获得随机奖励",
+        "en": "Temporarily hide 3 held items#Return them after gaining 7 new items#Gain a random reward meanwhile"
       },
       "seijaBuff": {
         "zh": "",
@@ -25885,8 +25885,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "!!! 持有时，每次受到的伤害不低于1.5格心#受伤无敌也相应延长#{{SoulHeart}} 使用后，根据持有此卡的受伤次数生成等量魂心",
-        "en": "When you hold this card, you will take at least one half heart each time.#After using this card, generate an equal amount of soul heart according to the number of times you are injured"
+        "zh": "持有时记录你受到的有效伤害#使用后将累计值转化为心类奖励并清空记录",
+        "en": "While held, record effective damage taken#On use, convert the total into heart rewards and clear the record"
       },
       "seijaBuff": {
         "zh": "",
@@ -25986,8 +25986,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{ThothCard}} 将本层所有卡牌变为正位置",
-        "en": "#Change all cards on this floor to the positive position#Used with card {{Card:Hanged_Man}}:Turn over cards repeatedly until it detonates, then grants 10% probability of transmitting it to the error room and clear this effect"
+        "zh": "{{ThothCard}} 本层后续出现的倒位透特牌会转化为对应正位牌",
+        "en": "{{ThothCard}} Later reversed Thoth cards on this floor convert to their upright faces"
       },
       "seijaBuff": {
         "zh": "",
@@ -26105,8 +26105,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "!!! 本房间内全属性暂时下降#本房间内受伤后，随机掉落魂心、红心#店长改为掉落硬币",
-        "en": "Reduced all attributes in this room temporarily#Chance to spawn soul heart and red heart after being injured in this room"
+        "zh": "停止攻击时，房间逐渐陷入沉睡#沉睡越深，敌人与敌弹行动越慢#重新攻击会逐渐唤醒房间",
+        "en": "While not firing, the room gradually falls asleep#Deeper sleep slows enemies and hostile shots#Firing again slowly wakes the room"
       },
       "seijaBuff": {
         "zh": "",
@@ -26224,8 +26224,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "立即放下你的主动、卡牌/药丸、饰品#{{ArrowUp}} 属性大幅提升直到上述栏位有一项非空#副手主动拾取后回到原位",
-        "en": "Put down your active item,cards/pills and trinkets immediately#Gain all stats up until one of the above fields is not empty#The second hand active item returns to the original position after being picked up"
+        "zh": "立即放下主动道具、卡牌/药丸与饰品#所有这些栏位保持为空时，大幅提升伤害、射速、射程、移速和幸运#副主动与口袋主动重新拾取后回到原槽位",
+        "en": "Drop your actives, cards/pills, and trinkets immediately#While those slots stay empty, greatly boost Damage, Tears, Range, Speed, and Luck#Secondary and pocket actives return to their original slots when picked up again"
       },
       "seijaBuff": {
         "zh": "",
@@ -26343,8 +26343,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{RottenHeart}} 将你的红心或腐心向后吐出并转化为腐心，放出毒性气体伤害敌人#{{ArrowUp}} 吐尽红心后，仍然有10%概率吐出腐心",
-        "en": "Spit your red heart or rotten heart and turn it into rotten heart, and release toxic gas to hurt the enemy #After spitting out all your red heart, there is still a 10% probability of spitting out rotten heart"
+        "zh": "{{RottenHeart}} 向身后吐出红心，并将其转化为腐心#每颗腐心释放毒雾伤害敌人#无法继续消耗红心后，仍有10%概率额外吐出腐心",
+        "en": "{{RottenHeart}} Spit red hearts behind you and turn them into rotten hearts#Each rotten heart releases toxic fog#After red hearts run out, still 10% chance to spit another rotten heart"
       },
       "seijaBuff": {
         "zh": "",
@@ -26454,8 +26454,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "本房间内，引爆所有消失的实体#每次爆炸会变得更加猛烈#{{Timer}} 地上的此卡每隔6秒爆炸一次",
-        "en": "In this room, detonate all disappeared entities #Each explosion will become more violent#This card on the ground explodes every 6 seconds"
+        "zh": "本房间中有意义的实体消失时发生固定规模爆炸#泪弹、敌弹、敌人和掉落物等都可触发",
+        "en": "When meaningful entities vanish in this room, a fixed-size explosion triggers#Tears, projectiles, enemies, pickups, and more can fire it"
       },
       "seijaBuff": {
         "zh": "",
@@ -26555,8 +26555,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{DevilRoom}} 生成一个临时的撒旦与你交易#交易内容：#随机基础掉落#随机道具#随机恶魔房道具#出房间后交易和撒旦均不保留#!!! 炸毁撒旦雕像可以抢夺交易",
-        "en": "Generate a temporary Satan to trade with you#Trade and Satan are not reserved after leaving the room#Blow up the statue of Satan: you can seize the trade, but you must defeat Mr. Satan first"
+        "zh": "{{DevilRoom}} 召来撒旦进行一次恶魔交易，出现2–3件商品#攻击撒旦可改为与其战斗；击败后返还尚未购买的商品",
+        "en": "{{DevilRoom}} Summon Satan for a Devil deal with 2–3 goods#Attacking Satan starts a fight; defeating him returns unbought goods"
       },
       "seijaBuff": {
         "zh": "",
@@ -26656,8 +26656,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "从天上逐渐加速地落下岩块砸向敌人#{{Timer}} 持续10s",
-        "en": "Gradually and rapidly fall rocks from the sky and smash them at the enemies"
+        "zh": "持续从天而降大量随机障碍物#后续波次越来越密集",
+        "en": "Rain random obstacles from above#Later waves grow denser"
       },
       "seijaBuff": {
         "zh": "",
@@ -26894,8 +26894,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Fear}} 恐惧房间内所有敌人2分钟#!!! 恐惧角色10秒#!!! 被恐惧时受到3倍伤害#击杀恐惧的敌人有概率掉落此卡",
-        "en": "Frighten 2 minutes for all enemies in the room#Frighten player for 10 seconds#Suffer 3 times the damage when being frightened#killing feard enemies have a chance to drop this card again"
+        "zh": "{{Fear}} 使房间中的敌人陷入恐惧，并使其受到约3倍总伤害#玩家自身也会暂时陷入恐惧",
+        "en": "{{Fear}} Fear all enemies in the room and make them take about 3x damage#You are briefly feared as well"
       },
       "seijaBuff": {
         "zh": "",
@@ -27013,8 +27013,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "生成一个彩虹传送旋涡，进入后传送至随机特殊房间#此旋涡可以永久使用",
-        "en": "After use, gain half a red heart, +0.4 damage and +0.1 speed every minute#This effect will disappear in next level"
+        "zh": "生成一个通往本层随机特殊房间的彩虹传送门#该传送门会在本层保持，并始终通往同一个目标",
+        "en": "Spawn a rainbow portal to a random special room on this floor#It persists for the floor and always leads to the same target"
       },
       "seijaBuff": {
         "zh": "",
@@ -27114,8 +27114,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{ArrowUp}} 全属性大幅上升#!!! 角色的任意动作都会减少属性上升量#清理房间后少量提升全属性",
-        "en": "Greatly increase all attributes#When one of the following triggers, the increase will be reduced#1. Gain or lose pickups or HP#2. Gain or lose trinkets or items#3. Gain cards and pills#Before the increase is reduced to 0, each time you clear the room, slightly increase all attributes"
+        "zh": "{{ArrowUp}} 使用后获得强大的“永恒”属性增益#取得或失去资源、道具、饰品和口袋物会削弱增益#清理房间会逐渐恢复",
+        "en": "{{ArrowUp}} On use, gain a strong Eternal stat boost#Gaining or losing resources, items, trinkets, or pocket items weakens it#Clearing rooms gradually restores it"
       },
       "seijaBuff": {
         "zh": "",
@@ -27215,8 +27215,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "!!! 第一次使用时，随机失去一个道具#此后每次使用此卡，重新生成这个道具，但它视为被摸过的道具#{{ArrowUp}} 下层开始时，生成此卡",
-        "en": "When you use it for the first time,lose a random item#Otherwise,regenerate that item(used)#Generate this card at the beginning of the next level after you use it"
+        "zh": "第一次使用时，随机失去一件已有道具#下一层宇宙?会重新出现，再次使用可取回该道具",
+        "en": "First use: randomly lose one held item#The Universe? reappears next floor; use it again to reclaim that item"
       },
       "seijaBuff": {
         "zh": "",
@@ -27317,7 +27317,7 @@
       },
       "eid": {
         "zh": "生成一道旋涡将敌人吸入并从上方吐出",
-        "en": "Generate a vortex to suck in the enemy and spit them out from above"
+        "en": "Open a vortex that swallows enemies and drops them back from above"
       },
       "seijaBuff": {
         "zh": "",
@@ -27417,8 +27417,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "召唤巨大的落日，对敌人发射密集激光造成伤害#!!! 橙色激光攻击角色#下层后结束食日",
-        "en": "Summoning a huge sunset, causing damage to enemies by firing dense light #!!! Orange light attack Isaac # Ends Eclipse After Level"
+        "zh": "{{Timer}} 日蚀持续3分钟，太阳逐渐逼近#期间不断召来落光攻击敌人，时间越久越频繁",
+        "en": "{{Timer}} An eclipse lasts 3 minutes as the sun approaches#Falling light strikes enemies more often over time"
       },
       "seijaBuff": {
         "zh": "",
@@ -27851,8 +27851,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "持有此卡下层时+1{{SuperSecretRoom}}超级隐藏房#{{SuperSecretRoom}} 使用后传送到超级隐藏房",
-        "en": "+1{{SuperSecretRoom}} Super Secret Room next level while holding it#{{SuperSecretRoom}} Teleports Isaac to the Super Secret Room"
+        "zh": "{{SuperSecretRoom}} 使用后传送至本层超级隐藏房#持有到下一层时，额外生成1个超级隐藏房",
+        "en": "{{SuperSecretRoom}} On use, teleport to this floor's Super Secret Room#Holding it into the next floor adds 1 Super Secret Room"
       },
       "seijaBuff": {
         "zh": "",
@@ -27952,8 +27952,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "传送到一个迷宫房间，听声音寻找规律通过数道门后奖励隐藏道具三选一",
-        "en": "Transfer to a maze room.Listen to the sound and find patterns. After passing several gates, reward 3 items from secret room to choose in one"
+        "zh": "进入一座只有心跳能够指路的迷宫#连续找到正确的门，最终获得3选1道具",
+        "en": "Enter a maze guided only by heartbeat#Find correct doors in a row to earn a 3-choice item"
       },
       "seijaBuff": {
         "zh": "",
@@ -28154,8 +28154,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "失去半颗{{Heart}}红心，对所有敌人造成10点伤害#击杀敌人时翻倍伤害并重复伤害",
-        "en": "Lose half a {{Heart}} red heart, deal 10 damage to all enemies #Double the damage and repeat it when killing enemies"
+        "zh": "将最强的敌人选作祭品#每完成一次献祭，之后的祭品受到更多伤害#仪式持续到房间中没有新的祭品",
+        "en": "Mark the strongest enemy as a sacrifice#Each completed sacrifice makes later victims take more damage#Continues until no new sacrifice remains"
       },
       "seijaBuff": {
         "zh": "",

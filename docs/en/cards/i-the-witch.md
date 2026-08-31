@@ -1,12 +1,12 @@
 ---
 title: I - The Witch
-description: "Generate 4 ice tears that freeze the enemy for 5s The enemies who died in this freezing state are frozen and decelerate all enemies"
+description: "Fire 4 special freezing tears When a hit enemy dies, freeze nearby foes and briefly slow the room"
 slug: i-the-witch
 kind: card
 internalKey: Witch
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 生成4枚冻结敌人5s的冰锥眼泪 冻结状态下死亡的敌人被冰冻并减速全屏敌人 Generate 4 ice tears that freeze the enemy for 5s The enemies who died in this freezing state are frozen and decelerate all enemies</p>
+<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 发射4枚特殊冰冻泪弹 命中的敌人死亡时冻结周围敌人并使房间短暂减速 Fire 4 special freezing tears When a hit enemy dies, freeze nearby foes and briefly slow the room</p>
 
 <PublicEntry slug="i-the-witch" lang="en" />
 
@@ -14,4 +14,14 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Fires 4 special freezing tears. If a hit enemy dies while frozen, nearby foes freeze and the room briefly slows.
+
+The tears orbit and seek enemies.
+
+## Special interactions
+
+### {Collectible:451}
+
+Fires 8 tears. Count only—no per-tear damage multiplier.

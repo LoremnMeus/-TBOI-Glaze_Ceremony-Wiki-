@@ -4,7 +4,7 @@ description: "Convert all your basic pickups into attributes"
 slug: viii-adjustment-reversed
 kind: card
 internalKey: Adjustment_r
-status: stub
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>VIII - 调节? VIII - Adjustment? Adjustment_r viii-adjustment-reversed VIII - Adjustment? 与其纷争，莫如没收 将你的全部基础掉落转化为属性 Convert all your basic pickups into attributes</p>
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Converts all basic pickups into attributes.
+
+## Special interactions
+
+### {Collectible:451}
+
+**50%** chance to drop this card again (true 50%, not the old ~49% wording).

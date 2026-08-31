@@ -1,12 +1,12 @@
 ---
 title: XIX - The Sun
-description: "Repeat all the cards used in this room once in order Three or more cards are used: generate an additional random card"
+description: "Replay other cards previously used in this room After replaying 3 cards, spawn a card"
 slug: xix-the-sun
 kind: card
 internalKey: Sun
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XIX - 太阳 XIX - The Sun Sun xix-the-sun XIX - The Sun 物皆重临 按照顺序，将本房间内使用的所有卡牌重复执行一次 使用了三种或以上卡牌：额外生成一张随机卡 Repeat all the cards used in this room once in order Three or more cards are used: generate an additional random card</p>
+<p class="wiki-search-index" v-pre>XIX - 太阳 XIX - The Sun Sun xix-the-sun XIX - The Sun 物皆重临 重新发动本房间此前使用过的其他卡牌 重放3张后生成一张卡牌 Replay other cards previously used in this room After replaying 3 cards, spawn a card</p>
 
 <PublicEntry slug="xix-the-sun" lang="en" />
 
@@ -14,4 +14,11 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Replays other cards used earlier in this room. After **3** replays, spawn a card.
+
+## Mechanics
+
+- The Sun itself is not recorded.
+- Cards it simulates are written back into room history, so a later Sun can replay them again.

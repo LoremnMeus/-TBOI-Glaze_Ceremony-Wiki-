@@ -4,9 +4,9 @@ description: "崩落..."
 slug: xvi-the-tower-reversed
 kind: card
 internalKey: Tower_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 从天上逐渐加速地落下岩块砸向敌人 持续10s Gradually and rapidly fall rocks from the sky and smash them at the enemies</p>
+<p class="wiki-search-index" v-pre>XVI - 尖塔? XVI - The Tower? Tower_r xvi-the-tower-reversed XVI - The Tower? 崩落... 持续从天而降大量随机障碍物 后续波次越来越密集 Rain random obstacles from above Later waves grow denser</p>
 
 <PublicEntry slug="xvi-the-tower-reversed" lang="zh" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+持续从天而降大量随机障碍物；后续波次越来越密集。部分危险 Grid 伤害更高。
+
+## 特殊联动
+
+### {Collectible:451}
+
+波次由 10 提高至 16。

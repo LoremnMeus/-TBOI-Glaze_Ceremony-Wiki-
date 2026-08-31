@@ -1,12 +1,12 @@
 ---
 title: IX - The Hermit
-description: "Randomly generate a lost item Give priority to passive items None:Spawn a touched The Poop"
+description: "Randomly spawn one lost item (prefer passives) The Poop If none: spawn a touched Poop"
 slug: ix-the-hermit
 kind: card
 internalKey: Hermit
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成一个本局失去过的道具，优先选择被动道具 大便 没有这样的道具：生成摸过的大便 Randomly generate a lost item Give priority to passive items None:Spawn a touched The Poop</p>
+<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成一个本局失去过的道具，优先被动道具 大便 没有这样的道具：生成摸过的大便 Randomly spawn one lost item (prefer passives) The Poop If none: spawn a touched Poop</p>
 
 <PublicEntry slug="ix-the-hermit" lang="en" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Spawns one item lost this run (prefer passives). If none qualify, spawn a touched Poop.
+
+## Special interactions
+
+### {{Collectible:451}}
+
+Spawns up to 3 candidates in **one Options group**—take only one.

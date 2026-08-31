@@ -1,12 +1,12 @@
 ---
 title: IV - The Emperor
-description: "Close the doors of the current room Try to generate as many doors to other rooms on the wall as possible Chance to generate doors to room that's not on the map"
+description: "Open special doorways in the current room that lead to extra rooms"
 slug: iv-the-emperor
 kind: card
 internalKey: Emperor
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>IV - 帝王 IV - The Emperor Emperor iv-the-emperor IV - The Emperor 命运的囚徒 封闭当前房间的门 在墙边尽可能地生成通往其他房间的门 也可能生成不在地图上房间的门 角色能飞时，可以开门的位置更多 Close the doors of the current room Try to generate as many doors to other rooms on the wall as possible Chance to generate doors to room that&#x27;s not on the map</p>
+<p class="wiki-search-index" v-pre>IV - 帝王 IV - The Emperor Emperor iv-the-emperor IV - The Emperor 命运的囚徒 在当前房间开启通往额外房间的特殊入口 Open special doorways in the current room that lead to extra rooms</p>
 
 <PublicEntry slug="iv-the-emperor" lang="en" />
 
@@ -14,4 +14,11 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Opens special doorways in the current room to extra rooms.
+
+## Mechanics
+
+- Doors may lead to other floor rooms or unmarked destinations.
+- Return through the doorway rules of those rooms.

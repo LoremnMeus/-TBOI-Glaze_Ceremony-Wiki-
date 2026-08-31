@@ -1,12 +1,12 @@
 ---
 title: VII - Chariot
-description: "Launch a super missile with 300 damage points in the attack direction"
+description: "Fire a giant rocket in the attack direction"
 slug: vii-chariot
 kind: card
 internalKey: Chariot
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 向攻击方向发射1枚300点伤害继承攻击特效的超大导弹 Launch a super missile with 300 damage points in the attack direction</p>
+<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 向攻击方向发射巨大火箭 Fire a giant rocket in the attack direction</p>
 
 <PublicEntry slug="vii-chariot" lang="en" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Fires a giant rocket in the attack direction.
+
+## Special interactions
+
+### {Collectible:451}
+
+Fires 3 rockets in three directions.

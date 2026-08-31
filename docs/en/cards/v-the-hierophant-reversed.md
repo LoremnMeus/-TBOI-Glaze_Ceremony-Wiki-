@@ -1,12 +1,12 @@
 ---
 title: "V - The Hierophant?"
-description: "Lose all items picked up in the Angel Room and the items with the same name Every time you lose one item in this way: 6%: generate 1-2 black hearts 66%: generate 1-2 devil room ite"
+description: "Sacrifice Angel-Room items you still hold Each sacrifice spawns 1 Devil Room item"
 slug: v-the-hierophant-reversed
 kind: card
 internalKey: Hierophant_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>V - 教导? V - The Hierophant? Hierophant_r v-the-hierophant-reversed V - The Hierophant? ...魔入将我 失去本局所有在天堂房拾取过的道具以及同名道具 这样的道具每有一个，获得一份来自恶魔的奖励 Lose all items picked up in the Angel Room and the items with the same name Every time you lose one item in this way: 6%: generate 1-2 black hearts 66%: generate 1-2 devil room items 1%: +6.66 damage 6%: +0.66 damage 1%: +0.66 speed 6%: +0.11 speed 1%: generate 66 coins 6%: generate 6 random pickups 1%: gain devil transformation 6%: generate a Joker</p>
+<p class="wiki-search-index" v-pre>V - 教导? V - The Hierophant? Hierophant_r v-the-hierophant-reversed V - The Hierophant? ...魔入将我 献祭你仍持有的、从天使房获得的道具 每献祭1件，生成1件恶魔房道具 Sacrifice Angel-Room items you still hold Each sacrifice spawns 1 Devil Room item</p>
 
 <PublicEntry slug="v-the-hierophant-reversed" lang="en" />
 
@@ -14,4 +14,19 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Only true Angel Room pickups count. Held Angel-origin items are sacrificed, each spawning one Devil Room item.
+
+## Mechanics
+
+- Only pedestals taken from Angel Rooms are recorded.
+- Later same-name items from other sources do not count.
+- Lost recorded items cannot be sacrificed again.
+- Each sacrifice rolls its own Devil Room reward.
+
+## Special interactions
+
+### {Collectible:451}
+
+Also leave a matching item wisp when supported.

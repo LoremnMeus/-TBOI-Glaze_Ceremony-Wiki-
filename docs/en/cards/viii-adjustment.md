@@ -4,7 +4,7 @@ description: "Balance your coins, keys and bombs Convert the remainder into pick
 slug: viii-adjustment
 kind: card
 internalKey: Adjustment
-status: stub
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>VIII - 调节 VIII - Adjustment Adjustment viii-adjustment VIII - Adjustment 无知之幕正在落下 平衡你的金币、钥匙与炸弹 余数转化为硬币、炸弹、钥匙三选一 Balance your coins, keys and bombs Convert the remainder into pickups of coins, bombs and keys</p>
 
@@ -14,4 +14,8 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Balances coins, keys, and bombs; remainder becomes a coin/bomb/key choice.
+
+Ring visuals are deterministic and do not change the payout rules.

@@ -1,35 +1,39 @@
 ---
 title: 0 - The Fool
-description: "Spawn up to 5 summonable phantoms from the current item pool Touch one to sacrifice it from the pool and turn it into a wisp Others cost nothing; leave the room to cancel all"
+description: "Show 5 phantom items from the current pool that can become wisps Touch one to sacrifice it and spawn its item wisp Unchosen phantoms vanish if you leave the room"
 slug: 0-the-fool
 kind: card
 internalKey: Fool
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 浮现最多5个来自当前道具池的可召唤道具虚影 接触其一，将其从道具池中牺牲并化为魂火 其余虚影不消耗；离开房间则全部取消 Spawn up to 5 summonable phantoms from the current item pool Touch one to sacrifice it from the pool and turn it into a wisp Others cost nothing; leave the room to cancel all</p>
+<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 从当前道具池展示5个可生成魂火的道具虚影 接触其中一个，将其牺牲并生成对应魂火 其余虚影离开房间前未选则消失 Show 5 phantom items from the current pool that can become wisps Touch one to sacrifice it and spawn its item wisp Unchosen phantoms vanish if you leave the room</p>
 
 <PublicEntry slug="0-the-fool" lang="en" />
 
 ## Mechanics
 
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-On use, offers up to 5 items from the current item pool that can become wisps.
+Phantoms from the current item pool appear around the player. Touching one dismisses the rest, sacrifices that pool entry, and spawns its item wisp.
 
-Those candidates appear as phantoms around the player. Touch one phantom to confirm the choice:
+Normally 5 candidates; with Tarot Cloth, 8.
 
-- The chosen item is removed from that run's corresponding item pool and spawns as its wisp.
-- The other phantoms disappear without consuming their items.
-- Leaving the room without choosing cancels the effect and leaves the pool unchanged.
+## Mechanics
 
-Here, “sacrifice” means removing the chosen item from the run's item pool, not spending a single draw.
+- Only items that can form wisps are rolled.
+- Candidates in one cast do not repeat.
+- Phantoms are not real pedestals.
+- The pool is only consumed when a phantom is chosen.
+- Leaving the room without a choice cancels the cast.
 
-## Notes
+## Tips
 
-- If the current item pool has no valid candidates, no phantoms appear.
+- The Fool trades an immediate wisp against removing a pool entry—high-value phantoms are not always the best sacrifice.
 
-## Synergies
+## Special interactions
 
-### {{Collectible:451}}
+### {Collectible:451}
 
-The number of selectable phantoms increases to 8.
+Phantom count rises to 8.

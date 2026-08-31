@@ -4,9 +4,9 @@ description: "不见天月明"
 slug: xxi-the-profound-reversed
 kind: card
 internalKey: Profound_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XXI - 深邃? XXI - Profound? Profound_r xxi-the-profound-reversed XXI - The Profound? 不见天月明 传送到一个迷宫房间，听声音寻找规律通过数道门后奖励隐藏道具三选一 Transfer to a maze room.Listen to the sound and find patterns. After passing several gates, reward 3 items from secret room to choose in one</p>
+<p class="wiki-search-index" v-pre>XXI - 深邃? XXI - Profound? Profound_r xxi-the-profound-reversed XXI - The Profound? 不见天月明 进入一座只有心跳能够指路的迷宫 连续找到正确的门，最终获得3选1道具 Enter a maze guided only by heartbeat Find correct doors in a row to earn a 3-choice item</p>
 
 <PublicEntry slug="xxi-the-profound-reversed" lang="zh" />
 
@@ -14,4 +14,8 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+进入一座只有心跳能够指路的迷宫。连续找到正确的门，最终获得 3 选 1 道具。
+
+随着深入：门数量越来越多；心跳随正确门的方向和距离变化；错门结束探索；完成全部阶段后出现奖励。

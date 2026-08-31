@@ -1,12 +1,12 @@
 ---
 title: "XIV - Art?"
-description: "In this room, detonate all disappeared entities Each explosion will become more violent This card on the ground explodes every 6 seconds"
+description: "When meaningful entities vanish in this room, a fixed-size explosion triggers Tears, projectiles, enemies, pickups, and more can fire it"
 slug: xiv-art-reversed
 kind: card
 internalKey: Art_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XIV - 艺术? XIV - Art? Art_r xiv-art-reversed XIV - Art? 艺术，就是爆炸 本房间内，引爆所有消失的实体 每次爆炸会变得更加猛烈 地上的此卡每隔6秒爆炸一次 In this room, detonate all disappeared entities Each explosion will become more violent This card on the ground explodes every 6 seconds</p>
+<p class="wiki-search-index" v-pre>XIV - 艺术? XIV - Art? Art_r xiv-art-reversed XIV - Art? 艺术，就是爆炸 本房间中有意义的实体消失时发生固定规模爆炸 泪弹、敌弹、敌人和掉落物等都可触发 When meaningful entities vanish in this room, a fixed-size explosion triggers Tears, projectiles, enemies, pickups, and more can fire it</p>
 
 <PublicEntry slug="xiv-art-reversed" lang="en" />
 
@@ -14,4 +14,14 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Meaningful entity despawns in this room trigger a **fixed-size** explosion. Tears, shots, enemies, and pickups can fire it.
+
+Explosions do not grow with repeated triggers.
+
+## Special interactions
+
+### {Collectible:451}
+
+Explosions do not hurt the player.

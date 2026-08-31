@@ -4,9 +4,9 @@ description: "明暗为逆"
 slug: x-the-wheel-of-destiny
 kind: card
 internalKey: Wheel_of_Destiny
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>X - 命运 X - The Wheel of Destiny Wheel_of_Destiny x-the-wheel-of-destiny X - The Wheel of Destiny 明暗为逆 选择一个道具转换为2个脆弱的同名道具魂火 以此法生成的魂火在通过2层后重新转换为道具 刷新重新生成道具的状态 Select one item and convert it into two fragile item wisp in the same name. Item wisps spawned in this way turn back to items if you successfully protect it in 2 level.</p>
+<p class="wiki-search-index" v-pre>X - 命运 X - The Wheel of Destiny Wheel_of_Destiny x-the-wheel-of-destiny X - The Wheel of Destiny 明暗为逆 将一个已有道具暂时转换为脆弱同名魂火 之后归还为道具 Temporarily convert a held item into fragile same-name wisps Later return it as an item</p>
 
 <PublicEntry slug="x-the-wheel-of-destiny" lang="zh" />
 
@@ -14,4 +14,6 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+将一个已有道具暂时“借出”为脆弱同名魂火，之后归还。

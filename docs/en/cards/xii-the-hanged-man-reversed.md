@@ -1,12 +1,12 @@
 ---
 title: "XII - The Hanged Man?"
-description: "Change all cards on this floor to the positive position Used with card :Turn over cards repeatedly until it detonates, then grants 10% probability of transmitting it to the error r"
+description: "Later reversed Thoth cards on this floor convert to their upright faces"
 slug: xii-the-hanged-man-reversed
 kind: card
 internalKey: Hanged_Man_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 将本层所有卡牌变为正位置 Change all cards on this floor to the positive position Used with card :Turn over cards repeatedly until it detonates, then grants 10% probability of transmitting it to the error room and clear this effect</p>
+<p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 本层后续出现的倒位透特牌会转化为对应正位牌 Later reversed Thoth cards on this floor convert to their upright faces</p>
 
 <PublicEntry slug="xii-the-hanged-man-reversed" lang="en" />
 
@@ -14,4 +14,10 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Later reversed Thoth cards convert to upright faces.
+
+## Notes
+
+Conflict with the upright Hanged Man **always** opens an Error Room.

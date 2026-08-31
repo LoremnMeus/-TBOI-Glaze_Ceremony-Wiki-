@@ -4,9 +4,9 @@ description: "释放他们内心的猛兽"
 slug: xi-lure
 kind: card
 internalKey: Lure
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XI - 欲望 XI - Lure Lure xi-lure XI - Lure 释放他们内心的猛兽 本房间内，略微加速所有敌人，他们受到的伤害提升固定值5点 In this room, slightly accelerate all enemies, damage they take will be increased by 5</p>
+<p class="wiki-search-index" v-pre>XI - 欲望 XI - Lure Lure xi-lure XI - Lure 释放他们内心的猛兽 敌人会显示自己想要的资源 停止攻击并靠近时，可献上对应资源满足它 满足后的敌人仍会攻击，但击杀时掉落额外奖励 Enemies show a wanted resource Stop firing and approach to offer matching pickups They stay hostile, but drop extra rewards when killed</p>
 
 <PublicEntry slug="xi-lure" lang="zh" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+每个敌人会随机产生一种欲望（硬币、钥匙、炸弹或红心）。停止攻击并靠近时，若拥有对应资源，可献上资源完成交易。
+
+完成后消耗 1 个对应资源；敌人仍保持敌对，但击杀时掉落额外奖励。
+
+## 注意
+
+开始攻击会取消尚未完成的献礼，且不会消耗资源。

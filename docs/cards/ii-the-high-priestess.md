@@ -4,9 +4,9 @@ description: "妈妈?是妈妈!"
 slug: ii-the-high-priestess
 kind: card
 internalKey: Priestess
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>II - 女司祭 II - The High Priestess Priestess ii-the-high-priestess II - The High Priestess 妈妈?是妈妈! 角色巨大化 攻击方式改为操纵妈腿攻击 妈腿造成角色攻击40倍的伤害 蓄力时长为10倍角色延迟 持续30s 可叠加 Temperorily size up Change your attack method to manipulating mom&#x27;s stomp mom&#x27;s stomp cause 40 times the damage of player 10 times the firedelay of player to charge Lasts for 30 second Stackable</p>
+<p class="wiki-search-index" v-pre>II - 女司祭 II - The High Priestess Priestess ii-the-high-priestess II - The High Priestess 妈妈?是妈妈! 持续30秒召唤巨大的妈妈之脚攻击附近敌人 For 30 seconds, summon Mom&#x27;s giant foot to stomp nearby enemies</p>
 
 <PublicEntry slug="ii-the-high-priestess" lang="zh" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+持续 **30** 秒召唤巨大的妈妈之脚攻击附近敌人。效果会自动寻找附近目标。
+
+## 特殊联动
+
+### {Collectible:451}
+
+持续时间变为 **60** 秒。

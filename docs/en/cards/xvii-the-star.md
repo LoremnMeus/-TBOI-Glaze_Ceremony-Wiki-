@@ -1,12 +1,12 @@
 ---
 title: XVII - The Star
-description: "If this card is the first card used in this level: generate a soul heart, a eternal heart,a red heart. Otherwise: generate a half red heart."
+description: "The first real card use from your slots this floor grants a large heal Later uses of The Star only restore half a red heart"
 slug: xvii-the-star
 kind: card
 internalKey: Star
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 若此卡为本层使用的第一张卡，生成1个魂心、1个白心、1个红心 否则，生成1个半红心 If this card is the first card used in this level: generate a soul heart, a eternal heart,a red heart. Otherwise: generate a half red heart.</p>
+<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 本层第一次真正使用持有的卡牌时，星辰提供大量生命回复 之后再次使用星辰只回复半颗红心 The first real card use from your slots this floor grants a large heal Later uses of The Star only restore half a red heart</p>
 
 <PublicEntry slug="xvii-the-star" lang="en" />
 
@@ -14,4 +14,12 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+The first real card use from your slots this floor grants a large heal; later Star uses only restore half a red heart.
+
+First cast roughly: 1 red, 1 soul, 1 eternal (Tarot Cloth adds more heart types).
+
+## Mechanics
+
+Only cards fired from player card slots count. Book of Thoth simulations do not. You can simulate first, then fire a real card for The Star.

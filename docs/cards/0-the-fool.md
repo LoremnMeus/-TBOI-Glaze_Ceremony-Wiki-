@@ -6,30 +6,34 @@ kind: card
 internalKey: Fool
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 浮现最多5个来自当前道具池的可召唤道具虚影 接触其一，将其从道具池中牺牲并化为魂火 其余虚影不消耗；离开房间则全部取消 Spawn up to 5 summonable phantoms from the current item pool Touch one to sacrifice it from the pool and turn it into a wisp Others cost nothing; leave the room to cancel all</p>
+<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 从当前道具池展示5个可生成魂火的道具虚影 接触其中一个，将其牺牲并生成对应魂火 其余虚影离开房间前未选则消失 Show 5 phantom items from the current pool that can become wisps Touch one to sacrifice it and spawn its item wisp Unchosen phantoms vanish if you leave the room</p>
 
 <PublicEntry slug="0-the-fool" lang="zh" />
 
 ## 机制说明
 
+<!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
+
 ## 效果
 
-使用后，从当前道具池中提供最多 5 个可化为魂火的道具供玩家选择。
+使用后，角色周围会出现数个来自当前道具池的道具虚影。接触其中一个后，其他虚影消失，选中的道具被牺牲，并化为对应的道具魂火。
 
-这些道具会以虚影形式环绕角色。接触其中一个虚影即可确认选择：
+普通情况下出现 5 个候选；持有塔罗布时出现 8 个。
 
-- 被选择的道具会从本局对应道具池中移除，并生成该道具对应的魂火。
-- 其余虚影会直接消失，不消耗对应道具。
-- 离开房间前没有选择任何虚影，则本次效果取消，不改变道具池。
+## 机制
 
-这里的“牺牲”指的是将所选道具从本局道具池中移除，而不是只消耗一次抽取机会。
+- 只会抽取可以正常生成魂火的道具。
+- 同一次选择中的候选不会重复。
+- 虚影不是实际道具，不能直接拾取。
+- 选择后才会真正消耗对应道具在当前道具池中的出现机会。
+- 离开房间前没有选择时，虚影会消失。
 
-## 注意
+## 使用技巧
 
-- 如果当前道具池中没有符合条件的候选，则不会生成虚影。
+- 旅者本质上是在“现在得到一个魂火”和“让一个道具离开当前道具池”之间做选择，因此高价值候选并不一定总是最适合牺牲的目标。
 
 ## 特殊联动
 
-### {{Collectible:451}}
+### {Collectible:451}
 
-可供选择的虚影数量提高至 8。
+候选虚影数量提高至 8。

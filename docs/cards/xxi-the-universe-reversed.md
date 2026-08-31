@@ -4,9 +4,9 @@ description: "不管离开多远，不管时间如何流逝，你永远都是属
 slug: xxi-the-universe-reversed
 kind: card
 internalKey: Universe_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 !!! 第一次使用时，随机失去一个道具 此后每次使用此卡，重新生成这个道具，但它视为被摸过的道具 下层开始时，生成此卡 When you use it for the first time,lose a random item Otherwise,regenerate that item(used) Generate this card at the beginning of the next level after you use it</p>
+<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 第一次使用时，随机失去一件已有道具 下一层宇宙?会重新出现，再次使用可取回该道具 First use: randomly lose one held item The Universe? reappears next floor; use it again to reclaim that item</p>
 
 <PublicEntry slug="xxi-the-universe-reversed" lang="zh" />
 
@@ -14,4 +14,11 @@ status: stub
 
 <!-- 人工正文：生成器不会覆盖本文件。把玩法、联动、Neta、版本历史写在这里。 -->
 
-待撰写。
+## 效果
+
+第一次使用时随机失去一件已有道具；下一层宇宙?重新出现，再次使用可取回该道具。
+
+## 机制
+
+- 多人中，道具归属和返还牌均绑定原使用者；其他玩家不能抢走返还牌。
+- 只有道具真正成功移除后才会进入寄存状态。

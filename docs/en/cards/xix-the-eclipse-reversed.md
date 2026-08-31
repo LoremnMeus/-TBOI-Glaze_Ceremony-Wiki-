@@ -1,12 +1,12 @@
 ---
 title: "XIX - Eclipse?"
-description: "Summoning a huge sunset, causing damage to enemies by firing dense light !!! Orange light attack Isaac Ends Eclipse After Level"
+description: "An eclipse lasts 3 minutes as the sun approaches Falling light strikes enemies more often over time"
 slug: xix-the-eclipse-reversed
 kind: card
 internalKey: Eclipse_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XIX - 食日? XIX - Eclipse? Eclipse_r xix-the-eclipse-reversed XIX - The Eclipse? 极昼重临 召唤巨大的落日，对敌人发射密集激光造成伤害 !!! 橙色激光攻击角色 下层后结束食日 Summoning a huge sunset, causing damage to enemies by firing dense light !!! Orange light attack Isaac Ends Eclipse After Level</p>
+<p class="wiki-search-index" v-pre>XIX - 食日? XIX - Eclipse? Eclipse_r xix-the-eclipse-reversed XIX - The Eclipse? 极昼重临 日蚀持续3分钟，太阳逐渐逼近 期间不断召来落光攻击敌人，时间越久越频繁 An eclipse lasts 3 minutes as the sun approaches Falling light strikes enemies more often over time</p>
 
 <PublicEntry slug="xix-the-eclipse-reversed" lang="en" />
 
@@ -14,4 +14,6 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+A 3-minute eclipse approaches; falling light strikes enemies more often over time.

@@ -1,12 +1,12 @@
 ---
 title: "XV - The Devil?"
-description: "Generate a temporary Satan to trade with you Trade and Satan are not reserved after leaving the room Blow up the statue of Satan: you can seize the trade, but you must defeat Mr. S"
+description: "Summon Satan for a Devil deal with 2–3 goods Attacking Satan starts a fight; defeating him returns unbought goods"
 slug: xv-the-devil-reversed
 kind: card
 internalKey: Devil_r
-status: stub
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XV - 邪心? XV - The Devil? Devil_r xv-the-devil-reversed XV - The Devil? 虚无解械 生成一个临时的撒旦与你交易 交易内容： 随机基础掉落 随机道具 随机恶魔房道具 出房间后交易和撒旦均不保留 !!! 炸毁撒旦雕像可以抢夺交易 Generate a temporary Satan to trade with you Trade and Satan are not reserved after leaving the room Blow up the statue of Satan: you can seize the trade, but you must defeat Mr. Satan first</p>
+<p class="wiki-search-index" v-pre>XV - 邪心? XV - The Devil? Devil_r xv-the-devil-reversed XV - The Devil? 虚无解械 召来撒旦进行一次恶魔交易，出现2–3件商品 攻击撒旦可改为与其战斗；击败后返还尚未购买的商品 Summon Satan for a Devil deal with 2–3 goods Attacking Satan starts a fight; defeating him returns unbought goods</p>
 
 <PublicEntry slug="xv-the-devil-reversed" lang="en" />
 
@@ -14,4 +14,14 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+Satan offers a Devil deal with **2–3** goods.
+
+### Trade
+
+Pay Devil prices as usual.
+
+### Robbery
+
+Bomb Satan: unbought goods are taken, Satan fights, and defeating him returns those goods for free.
