@@ -17,14 +17,22 @@ status: reviewed
 
 ## Effects
 
-After use, enemies in the current room light up and form auras. Near those star sources—or near this card while it is still on the ground—the player gains {{Collectible:651}}-like boosts: {{Damage}} and {{Tears}} rise; when the boost exceeds half strength, spectral tears are also granted, and hits have a **50%** chance to be fully blocked.
+After use, enemies in the current room light up and form starlight around them.
+
+While near a star source, the player gains {{Collectible:651}}-like boosts: {{Damage}} and {{Tears}} rise; when boost strength exceeds half, spectral tears are also granted, and incoming damage has a **50%** chance to be fully blocked.
+
+This card itself also provides weaker starlight while it remains on the ground.
 
 ## Rules
 
-Boost strength depends on distance from star sources.
+- Starlight applies within about **100 pixels** of the player.
+- When several sources cover the player at once, only the strongest effect is used.
+- Entering or leaving starlight fades the stat boost briefly instead of switching instantly.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Enemies that appear later on this floor are also lit. Existing pickups in the current room become star sources immediately, and pickups that appear later do too. This lasts until the next floor.
+Enemies that appear later on this floor also become star sources.
+
+Existing pickups in the current room become star sources immediately, and later pickups do too. This lasts until the next floor.
