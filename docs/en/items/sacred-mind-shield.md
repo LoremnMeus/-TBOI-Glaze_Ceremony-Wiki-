@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Sacred_Mind_Shield
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>神圣心之防护罩－心灵之力 Sacred Mind Shield Sacred_Mind_Shield sacred-mind-shield Sacred Mind Shield 双心合一 Two hearts as one 获得1个防护之心 阻挡首个惩罚性伤害并释放心灵冲击波，然后转化为1个 心之容器 冲击波每击杀1个敌人：获得 攻击 x1.05 弹速 -0.02，每房间最多5次 若房间内敌人≥5：冲击波无视护甲，并波及本层其他房间 Gain 1 protective heart Blocks the first punitive hit and releases a mind shockwave, then converts into 1 heart container Per enemy killed by the wave: Damage x1.05 Shot Speed -0.02, up to 5 per room If 5+ enemies in the room: wave ignores armor and spreads to other rooms this floor</p>
+<p class="wiki-search-index" v-pre>神圣心之防护罩－心灵之力 Sacred Mind Shield Sacred_Mind_Shield sacred-mind-shield Sacred Mind Shield 双心合一 Two hearts as one 获得1个防护之心 阻挡首个惩罚性伤害并释放心灵冲击波，然后转化为1个 红心 心之容器 冲击波每击杀1个敌人：获得 攻击 x1.05 弹速 -0.02，每房间最多5次 若房间内敌人≥5：冲击波无视护甲，并波及本层其他房间 Gain 1 protective heart Blocks the first punitive hit and releases a mind shockwave, then converts into 1 Heart heart container Per enemy killed by the wave: Damage x1.05 Shot Speed -0.02, up to 5 per room If 5+ enemies in the room: wave ignores armor and spreads to other rooms this floor</p>
 
 <PublicEntry slug="sacred-mind-shield" lang="en" />
 

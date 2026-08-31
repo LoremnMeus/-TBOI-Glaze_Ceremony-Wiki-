@@ -4,9 +4,9 @@ description: "星汉灿烂"
 slug: xxi-the-universe
 kind: card
 internalKey: Universe
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XXI - 宇宙 XXI - The Universe Universe xxi-the-universe XXI - The Universe 星汉灿烂 从你持有的道具中随机展示3个候选 选择并永久失去其中1件，换取1件星辰类道具 Show up to 3 random candidates from items you hold Permanently lose the chosen one for 1 star-themed item</p>
+<p class="wiki-search-index" v-pre>XXI - 宇宙 XXI - The Universe Universe xxi-the-universe XXI - The Universe 星汉灿烂 星象房 从你持有的道具中随机展示3个候选 选择并永久失去其中1件，换取1件星辰类道具 Planetarium Show up to 3 random candidates from items you hold Permanently lose the chosen one for 1 star-themed item</p>
 
 <PublicEntry slug="xxi-the-universe" lang="zh" />
 
@@ -18,12 +18,8 @@ status: drafted
 
 从真正拥有的道具中随机展示最多 3 种候选。选择其中 1 件后永久失去该道具，并获得 1 件星辰类道具。
 
+若没有任何可供牺牲的道具，卡牌会返还，不会强制消耗。
+
 ## 星辰奖励池
 
-包括星座、Planetarium、天体/宇宙主题，以及本模组明确归入星辰体系的道具。
-
-## 特殊联动
-
-### {Collectible:451}
-
-仍然只牺牲 1 件道具，但生成 2 个互斥的宇宙奖励供选择。
+奖励从固定的星辰池抽取，主要由星座、星象房道具及本模组指定的星辰道具组成。

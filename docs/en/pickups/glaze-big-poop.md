@@ -16,6 +16,6 @@ status: featured
 
 A Glaze Poop feeds Tainted ???-style poop-spell queues: it copies the front spell into the first empty later slot and adds 1 poop mana.
 
-If the front slot is empty, it inserts a basic poop instead.
+If the front slot is empty, it inserts a basic poop instead. If the queue is already full, the copy replaces the last slot.
 
-In co-op it prefers the collector when they are a poop character; otherwise the first poop character in the run. Ordinary characters gain no equivalent queue effect.
+In co-op it prefers the collector when they are a poop character; otherwise the first poop character in the run. If no applicable character is present, the pickup is still consumed with no queue benefit.

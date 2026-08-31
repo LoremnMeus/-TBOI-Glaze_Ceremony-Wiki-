@@ -17,9 +17,3 @@ status: drafted
 ## Effects
 
 Rains random obstacles with denser later waves. Some dangerous grids hit harder.
-
-## Special interactions
-
-### {Collectible:451}
-
-Wave count rises from 10 to 16.

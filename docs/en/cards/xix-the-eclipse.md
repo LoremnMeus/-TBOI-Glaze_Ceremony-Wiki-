@@ -17,9 +17,3 @@ status: drafted
 ## Effects
 
 Enemies near the portal are swallowed, vanish briefly, then fall back in with damage.
-
-## Special interactions
-
-### {Collectible:451}
-
-Duration 30s (normally 15s).

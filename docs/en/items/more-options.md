@@ -6,7 +6,7 @@ kind: collectible
 internalKey: More_Options___
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>更多更多选择！ More and more Options! More_Options___ more-options More Options??! 当然，也要付出一点代价 Also Double Price 商品会额外生成一个二选一选项 商品价格随机提高约0–35% Shop items gain an extra either/or choice Prices rise randomly by about 0–35%</p>
+<p class="wiki-search-index" v-pre>更多更多选择！ More and more Options! More_Options___ more-options More Options??! 当然，也要付出一点代价 Also Double Price 商店 商品会额外生成一个二选一选项 注意 商品价格随机提高约0–35% Shop items gain an extra either/or choice Warning Prices rise randomly by about 0–35%</p>
 
 <PublicEntry slug="more-options" lang="en" />
 

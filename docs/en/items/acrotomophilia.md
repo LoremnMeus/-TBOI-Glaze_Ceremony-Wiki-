@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Acrotomophilia
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>慕残症 Acrotomophilia Acrotomophilia acrotomophilia Acrotomophilia 腐烂而破碎 Rotten and Broken 红心血量减少时，将部分空缺转化为腐心 失去心之容器时，获得对应数量的碎心 腐心与碎心会彼此抵消，且不会因此直接致死 When red heart health drops, converts part of the gap into Rotten Hearts Losing Heart Containers grants matching Broken Hearts Rotten and Broken Hearts cancel each other and cannot kill you by that cancel alone</p>
+<p class="wiki-search-index" v-pre>慕残症 Acrotomophilia Acrotomophilia acrotomophilia Acrotomophilia 腐烂而破碎 Rotten and Broken 腐心 红心血量减少时，将部分空缺转化为腐心 碎心 失去心之容器时，获得对应数量的碎心 腐心与碎心会彼此抵消，且不会因此直接致死 Rotten Heart When red heart health drops, converts part of the gap into Rotten Hearts Broken Heart Losing Heart Containers grants matching Broken Hearts Rotten and Broken Hearts cancel each other and cannot kill you by that cancel alone</p>
 
 <PublicEntry slug="acrotomophilia" lang="en" />
 

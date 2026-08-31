@@ -1,12 +1,12 @@
 ---
 title: "VII - The Chariot?"
-description: "Become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge"
+description: "Briefly become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge"
 slug: vii-the-chariot-reversed
 kind: card
 internalKey: Chariot_r
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 前路只待撞碎 化身战车高速冲锋，期间无敌且只能有限转向 撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋 Become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge</p>
+<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 前路只待撞碎 短暂化身战车高速冲锋，期间无敌且只能有限转向 撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋 Briefly become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge</p>
 
 <PublicEntry slug="vii-the-chariot-reversed" lang="en" />
 
@@ -16,12 +16,6 @@ status: drafted
 
 ## Effects
 
-Charge in the current move direction: invincible, limited steering, heavy ram damage, and breakable obstacles smash.
+Immediately charge in the current input direction. While charging you are invincible with limited steering; ramming foes deals heavy damage and can smash breakable obstacles.
 
-Normally the first solid wall hit ends the charge in a blast.
-
-## Special interactions
-
-### {Collectible:451}
-
-Bounce once on the first wall; the second wall ends it.
+The charge lasts at most about **5.5 seconds**. Hitting an impassable wall earlier causes a safe blast and ends it immediately.

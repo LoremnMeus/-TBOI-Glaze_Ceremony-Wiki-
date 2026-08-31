@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Hoarding_Symbol
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>囤积符号 Hoarding Symbol Hoarding_Symbol hoarding-symbol Hoarding Symbol 重建 Reconstruction !!! 首次拾取时失去全部 硬币、 钥匙与 炸弹 攻击 永久+1攻击 !!! On pickup, lose all coins, keys, and bombs Damage Permanent +1 Damage</p>
+<p class="wiki-search-index" v-pre>囤积符号 Hoarding Symbol Hoarding_Symbol hoarding-symbol Hoarding Symbol 重建 Reconstruction !!! 首次拾取时失去全部 硬币、 钥匙与 炸弹 攻击 永久+1攻击 !!! On pickup, lose all Coin coins, Key keys, and Bomb bombs Damage Permanent +1 Damage</p>
 
 <PublicEntry slug="hoarding-symbol" lang="en" />
 

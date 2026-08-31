@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Live_Broadcast
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>直播姬 Live Broadcast Live_Broadcast live-broadcast Live Broadcast 成为主播出道吧！ Going live! 战斗、拾取与消费等行为会触发观众弹幕 观众评价会改变人气 人气越高，弹幕越活跃，并可能收到赞助礼物 礼物提供临时属性或主动充能 Combat, pickups, and spending can trigger viewer chat Viewer reactions change popularity Higher popularity means livelier chat and possible sponsor gifts Gifts grant temporary stats or active charge</p>
+<p class="wiki-search-index" v-pre>直播姬 Live Broadcast Live_Broadcast live-broadcast Live Broadcast 成为主播出道吧！ Going live! 战斗、拾取与消费等行为会触发观众弹幕 观众评价会改变人气 ↑ 人气越高，弹幕越活跃，并可能收到赞助礼物 礼物提供临时属性或主动充能 Combat, pickups, and spending can trigger viewer chat Viewer reactions change popularity Up Higher popularity means livelier chat and possible sponsor gifts Gifts grant temporary stats or active charge</p>
 
 <PublicEntry slug="live-broadcast" lang="en" />
 

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T13:46:56Z",
+  "generatedAt": "2026-08-31T14:00:17Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -21820,7 +21820,7 @@
       },
       "eid": {
         "zh": "将所有掉落物转化为它们的琉璃版本 #将房间内所有道具变成与他们同色的随机道具#!!! 一个道具可能有多种颜色",
-        "en": "Converts all pickups to the glazed type.#Morph all items in the room to the same color item."
+        "en": "Converts all pickups to their glazed versions#Morph all items in the room into random same-color items#!!! An item may have more than one color"
       },
       "seijaBuff": {
         "zh": "",
@@ -22032,7 +22032,7 @@
       },
       "eid": {
         "zh": "!!! 召唤一辆列车撞向选定方向",
-        "en": "Summon a train rushing to you.#Spawn a One way rail ticket."
+        "en": "!!! Summon a train that charges in the chosen direction"
       },
       "seijaBuff": {
         "zh": "",
@@ -23014,8 +23014,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "拾取普通掉落物时有50%概率复制一个完全相同的掉落物#复制品不会再次触发此效果",
-        "en": "Picking up ordinary pickups has a 50% chance to duplicate an identical copy#Copies cannot trigger this again"
+        "zh": "使用后，本房间内拾取普通掉落物时有50%概率复制一个完全相同的掉落物#复制品不会再次触发此效果",
+        "en": "For this room, picking up ordinary pickups has a 50% chance to duplicate an identical copy#Copies cannot trigger this again"
       },
       "seijaBuff": {
         "zh": "",
@@ -23549,8 +23549,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "敌人会显示自己想要的资源#停止攻击并靠近时，可献上对应资源满足它#满足后的敌人仍会攻击，但击杀时掉落额外奖励",
-        "en": "Enemies show a wanted resource#Stop firing and approach to offer matching pickups#They stay hostile, but drop extra rewards when killed"
+        "zh": "本房间内敌人会显示自己想要的资源#停止攻击并靠近时，可献上对应资源满足它#满足后仍保持敌对；死亡时掉落所求资源（Boss更多）",
+        "en": "For this room, enemies show a wanted resource#Stop firing and approach to offer matching pickups#They stay hostile; on death they drop that resource (Bosses drop more)"
       },
       "seijaBuff": {
         "zh": "",
@@ -25461,8 +25461,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "化身战车高速冲锋，期间无敌且只能有限转向#撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋",
-        "en": "Become a chariot and charge at high speed: invincible, limited steering#Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge"
+        "zh": "短暂化身战车高速冲锋，期间无敌且只能有限转向#撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋",
+        "en": "Briefly become a chariot and charge at high speed: invincible, limited steering#Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge"
       },
       "seijaBuff": {
         "zh": "",
@@ -26776,7 +26776,7 @@
       },
       "eid": {
         "zh": "{{Collectible651}} 点亮房间内的敌人并为其添加光环#{{Collectible651}} 在此卡的周围自动提供一个有50%增幅效果的光圈",
-        "en": "Light up the enemies in the room, their light effect is the same with {{Collectible651}}"
+        "en": "{{Collectible651}} Light enemies in the room and give them an aura#{{Collectible651}} Also provides a 50% boost aura around this card"
       },
       "seijaBuff": {
         "zh": "",

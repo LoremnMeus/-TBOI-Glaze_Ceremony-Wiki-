@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Consistent_Expectations
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>期望协定 Consistent Expectations Consistent_Expectations consistent-expectations Consistent Expectations 概率上一致 Equal in Expection 原价高于1 的商品只需1 尝试购买 每次有1/原价的概率成功 失败仍支付1 ，商品留在原地 Goods priced above 1 cost 1 per attempt Success chance is 1 / original price Failure still spends 1 ; the goods stay</p>
+<p class="wiki-search-index" v-pre>期望协定 Consistent Expectations Consistent_Expectations consistent-expectations Consistent Expectations 概率上一致 Equal in Expection 商店 原价高于1硬币的商品只需1硬币尝试购买 每次有1/原价的概率成功 失败仍支付1硬币，商品留在原地 Shop Goods priced above 1 Coin cost 1 Coin per attempt Success chance is 1 / original price Failure still spends 1 Coin; the goods stay</p>
 
 <PublicEntry slug="consistent-expectations" lang="zh" />
 

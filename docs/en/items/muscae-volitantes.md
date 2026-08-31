@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Muscae_Volitantes
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>飞蚊症 Muscae Volitantes Muscae_Volitantes muscae-volitantes Muscae Volitantes 精灵魔术 Magic of Flies 使用后召来一群彩色飞蚊： 66%：留下2-3只彩虹苍蝇 33%：留下随机饰品 1%：留下随机道具 On use, summons a swarm of colorful flies: 66%: leave 2-3 rainbow flies 33%: leave a random trinket 1%: leave a random item</p>
+<p class="wiki-search-index" v-pre>飞蚊症 Muscae Volitantes Muscae_Volitantes muscae-volitantes Muscae Volitantes 精灵魔术 Magic of Flies 使用后召来一群彩色飞蚊： 66%：留下2-3只彩虹苍蝇 饰品 33%：留下随机饰品 1%：留下随机道具 On use, summons a swarm of colorful flies: 66%: leave 2-3 rainbow flies Trinket 33%: leave a random trinket 1%: leave a random item</p>
 
 <PublicEntry slug="muscae-volitantes" lang="en" />
 

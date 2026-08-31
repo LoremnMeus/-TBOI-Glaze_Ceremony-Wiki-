@@ -18,8 +18,6 @@ status: drafted
 
 Temporarily hide 3 held items; return them after 7 new items, with a random reward meanwhile.
 
-## Special interactions
+## Notes
 
-### {Collectible:451}
-
-Still hides 3 items; the random new item becomes a 2-choice. Tarot Cloth does **not** hide more items.
+Tarot Cloth does **not** hide more items (still exactly 3).

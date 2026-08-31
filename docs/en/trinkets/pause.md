@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Pause_
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>暂停？ Pause? Pause_ pause Pause? 即时游戏开始了！ A Real time game! 全属性上升 打开暂停菜单后失去此饰品 睡床造成的特殊暂停不会触发 All stats up Lost after opening the pause menu Bed pause does not count</p>
+<p class="wiki-search-index" v-pre>暂停？ Pause? Pause_ pause Pause? 即时游戏开始了！ A Real time game! ↑ 全属性上升 注意 打开暂停菜单后失去此饰品 睡床造成的特殊暂停不会触发 Up All stats up Warning Lost after opening the pause menu Bed pause does not count</p>
 
 <PublicEntry slug="pause" lang="en" />
 

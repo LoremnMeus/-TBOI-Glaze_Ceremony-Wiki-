@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Puncture_Symbol
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>穿刺符号 Puncture Symbol Puncture_Symbol puncture-symbol Puncture Symbol 放血 Haemospasia !!! 每次拾取受到2点伤害 持有时获得穿透眼泪与幽灵眼泪效果 !!! Take 2 damage on pickup Grants spectral and piercing tears while held</p>
+<p class="wiki-search-index" v-pre>穿刺符号 Puncture Symbol Puncture_Symbol puncture-symbol Puncture Symbol 放血 Haemospasia !!! 每次拾取受到2点伤害 ↑ 持有时获得穿透眼泪与幽灵眼泪效果 !!! Take 2 damage on pickup Up Grants spectral and piercing tears while held</p>
 
 <PublicEntry slug="puncture-symbol" lang="en" />
 

@@ -31,9 +31,3 @@ Normally 5 candidates; with Tarot Cloth, 8.
 ## Tips
 
 - The Fool trades an immediate wisp against removing a pool entry—high-value phantoms are not always the best sacrifice.
-
-## Special interactions
-
-### {Collectible:451}
-
-Phantom count rises to 8.

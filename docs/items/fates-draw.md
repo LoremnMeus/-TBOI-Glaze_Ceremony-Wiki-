@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Fate_s_Draw
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>注定一抽 Fate&#x27;s Draw Fate_s_Draw fates-draw Fate&#x27;s Draw 只要我牌组里还有卡，我始终相信我的牌组！！ My Drawwww!!!! 持有的卡牌会不断变为同种类的另一张牌 按住 可以暂时锁定当前牌 锁定过久会蓄满并再次洗牌，需松开后再锁定 Held cards keep changing into another card of the same type Hold to briefly lock your current cards Holding too long fills a charge and reshuffles; release before locking again</p>
+<p class="wiki-search-index" v-pre>注定一抽 Fate&#x27;s Draw Fate_s_Draw fates-draw Fate&#x27;s Draw 只要我牌组里还有卡，我始终相信我的牌组！！ My Drawwww!!!! 持有的卡牌会不断变为同种类的另一张牌 按住RT可以暂时锁定当前牌 锁定过久会蓄满并再次洗牌，需松开后再锁定 Held cards keep changing into another card of the same type Hold RT to briefly lock your current cards Holding too long fills a charge and reshuffles; release before locking again</p>
 
 <PublicEntry slug="fates-draw" lang="zh" />
 

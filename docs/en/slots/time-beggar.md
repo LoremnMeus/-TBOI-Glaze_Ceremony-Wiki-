@@ -1,12 +1,12 @@
 ---
 title: Tomorrow's Creditor
-description: "Borrow resources from tomorrow and repay them later Switch contracts with left/right, walk in to confirm Press to cancel"
+description: "Borrow resources from tomorrow and repay them later Switch contracts with left/right, walk in to confirm Press RT to cancel"
 slug: time-beggar
 kind: slot
 internalKey: Tomorrows_creditor
 status: featured
 ---
-<p class="wiki-search-index" v-pre>来日债主 Tomorrow&#x27;s Creditor Tomorrows_creditor time-beggar Tomorrows_creditor 从来日预支资源，再用未来偿还 靠近后左右切换契约，走进确认 按 取消 Borrow resources from tomorrow and repay them later Switch contracts with left/right, walk in to confirm Press to cancel</p>
+<p class="wiki-search-index" v-pre>来日债主 Tomorrow&#x27;s Creditor Tomorrows_creditor time-beggar Tomorrows_creditor 从来日预支资源，再用未来偿还 靠近后左右切换契约，走进确认 按RT取消 Borrow resources from tomorrow and repay them later Switch contracts with left/right, walk in to confirm Press RT to cancel</p>
 
 <PublicEntry slug="time-beggar" lang="en" />
 
@@ -26,7 +26,7 @@ Approach to raise the current contract; the HUD shows “gain now → seize late
 - Walk into the creditor to confirm;
 - Drop / RT to cancel.
 
-Each beggar offers **3 or 4** random contracts and leaves after one deal.
+Each beggar offers exactly **3** different random contracts and leaves after one deal.
 
 ## Contracts
 

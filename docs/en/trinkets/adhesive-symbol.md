@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Adhesive_Symbol
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>粘合符号 Adhesive Symbol Adhesive_Symbol adhesive-symbol Adhesive Symbol 寄生 Parasitism 失去 碎心时+1心之容器 +1 Heart container when losing broken hearts</p>
+<p class="wiki-search-index" v-pre>粘合符号 Adhesive Symbol Adhesive_Symbol adhesive-symbol Adhesive Symbol 寄生 Parasitism 失去 碎心时+1心之容器 +1 Heart container when losing Broken Heart broken hearts</p>
 
 <PublicEntry slug="adhesive-symbol" lang="en" />
 

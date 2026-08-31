@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T13:46:56Z",
+  "generatedAt": "2026-08-31T14:00:18Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1351,8 +1351,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/vi-lover.md",
       "en": "wiki/docs/en/cards/vi-lover.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "vii-chariot",
@@ -1391,8 +1391,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xi-lure.md",
       "en": "wiki/docs/en/cards/xi-lure.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xii-the-hanged-man",
@@ -1471,8 +1471,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xxi-the-universe.md",
       "en": "wiki/docs/en/cards/xxi-the-universe.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "0-the-fool-reversed",
@@ -1519,8 +1519,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/v-the-hierophant-reversed.md",
       "en": "wiki/docs/en/cards/v-the-hierophant-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "vi-the-lover-reversed",
@@ -1535,8 +1535,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/vii-the-chariot-reversed.md",
       "en": "wiki/docs/en/cards/vii-the-chariot-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "viii-adjustment-reversed",
@@ -1583,8 +1583,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xiii-faint-reversed.md",
       "en": "wiki/docs/en/cards/xiii-faint-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xiii-death-reversed",
@@ -1735,8 +1735,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/v-the-sting-reversed.md",
       "en": "wiki/docs/en/cards/v-the-sting-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "w-qing",

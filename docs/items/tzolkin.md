@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Tzolkin
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>卓尔金神历 Tzolkin Tzolkin tzolkin Tzolkin 祈祷神历的宿命 Replay the divine calendar 使用后选择1件持有道具，换取接近其品质的三选一 原道具与新获得道具均成为临时道具 受伤时抵挡伤害，并失去神历与临时道具 之后重新获得神历时，恢复此前的临时道具 Choose 1 held item and trade it for a 3-choice near its quality The original and chosen items both become temporary Taking damage blocks the hit and loses Tzolkin and temporary items Reclaiming Tzolkin restores those temporary items</p>
+<p class="wiki-search-index" v-pre>卓尔金神历 Tzolkin Tzolkin tzolkin Tzolkin 祈祷神历的宿命 Replay the divine calendar 使用后选择1件持有道具，换取接近其品质的三选一 原道具与新获得道具均成为临时道具 注意 受伤时抵挡伤害，并失去神历与临时道具 之后重新获得神历时，恢复此前的临时道具 Choose 1 held item and trade it for a 3-choice near its quality The original and chosen items both become temporary Warning Taking damage blocks the hit and loses Tzolkin and temporary items Reclaiming Tzolkin restores those temporary items</p>
 
 <PublicEntry slug="tzolkin" lang="zh" />
 

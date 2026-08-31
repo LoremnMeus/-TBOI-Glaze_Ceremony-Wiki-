@@ -6,7 +6,7 @@ kind: card
 internalKey: Profound
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>XXI - 深邃 XXI - Profound Profound xxi-the-profound XXI - The Profound 有物井中来 使用后传送至本层超级隐藏房 持有到下一层时，额外生成1个超级隐藏房 On use, teleport to this floor&#x27;s Super Secret Room Holding it into the next floor adds 1 Super Secret Room</p>
+<p class="wiki-search-index" v-pre>XXI - 深邃 XXI - Profound Profound xxi-the-profound XXI - The Profound 有物井中来 超级隐藏房 使用后传送至本层超级隐藏房 持有到下一层时，额外生成1个超级隐藏房 Super Secret Room On use, teleport to this floor&#x27;s Super Secret Room Holding it into the next floor adds 1 Super Secret Room</p>
 
 <PublicEntry slug="xxi-the-profound" lang="zh" />
 

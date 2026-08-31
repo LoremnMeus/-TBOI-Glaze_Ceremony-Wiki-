@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Day_Dreamer
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>白日梦 Day Dreamer Day_Dreamer day-dreamer Day Dreamer 如果四级道具能从天上掉下来就好了 If only my wish would come true 每层开始时，在初始房间静止约5秒后入睡 在睡梦中选择心仪的4级道具 60秒后那个道具落到身上并在本层持续 按下 提前确认当前梦想 At the beginning of each floor, fall asleep in the starting room after standing still ~5s Choose the desired quality 4 item in your sleep 60 seconds later, that item lands on Isaac for the floor Press to confirm the current dream early</p>
+<p class="wiki-search-index" v-pre>白日梦 Day Dreamer Day_Dreamer day-dreamer Day Dreamer 如果四级道具能从天上掉下来就好了 If only my wish would come true 每层开始时，在初始房间静止约5秒后入睡 在睡梦中选择心仪的4级道具 计时 60秒后那个道具落到身上并在本层持续 按下 RT 提前确认当前梦想 At the beginning of each floor, fall asleep in the starting room after standing still ~5s Choose the desired quality 4 item in your sleep Timer 60 seconds later, that item lands on Isaac for the floor Press RT to confirm the current dream early</p>
 
 <PublicEntry slug="day-dreamer" lang="en" />
 

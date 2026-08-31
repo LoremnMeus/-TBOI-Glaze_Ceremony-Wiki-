@@ -1,12 +1,12 @@
 ---
 title: Bard Beggar
-description: "Offer a resource for a blessing on the next floor Switch gifts with left/right, walk in to confirm Press to cancel"
+description: "Offer a resource for a blessing on the next floor Switch gifts with left/right, walk in to confirm Press RT to cancel"
 slug: bard-beggar
 kind: slot
 internalKey: Bard_beggar
 status: featured
 ---
-<p class="wiki-search-index" v-pre>吟游乞丐 Bard Beggar Bard_beggar bard-beggar Bard_beggar 赠予一份资源，换取下层祝福 靠近后左右切换馈赠，走进确认 按 取消 Offer a resource for a blessing on the next floor Switch gifts with left/right, walk in to confirm Press to cancel</p>
+<p class="wiki-search-index" v-pre>吟游乞丐 Bard Beggar Bard_beggar bard-beggar Bard_beggar 赠予一份资源，换取下层祝福 靠近后左右切换馈赠，走进确认 按RT取消 Offer a resource for a blessing on the next floor Switch gifts with left/right, walk in to confirm Press RT to cancel</p>
 
 <PublicEntry slug="bard-beggar" lang="en" />
 

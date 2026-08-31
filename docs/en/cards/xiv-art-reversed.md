@@ -19,9 +19,3 @@ status: drafted
 Meaningful entity despawns in this room trigger a **fixed-size** explosion. Tears, shots, enemies, and pickups can fire it.
 
 Explosions do not grow with repeated triggers.
-
-## Special interactions
-
-### {Collectible:451}
-
-Explosions do not hurt the player.

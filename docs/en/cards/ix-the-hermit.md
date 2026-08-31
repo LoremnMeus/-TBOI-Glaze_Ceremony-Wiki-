@@ -17,9 +17,3 @@ status: drafted
 ## Effects
 
 Spawns one item lost this run (prefer passives). If none qualify, spawn a touched Poop.
-
-## Special interactions
-
-### {{Collectible:451}}
-
-Spawns up to 3 candidates in **one Options group**—take only one.

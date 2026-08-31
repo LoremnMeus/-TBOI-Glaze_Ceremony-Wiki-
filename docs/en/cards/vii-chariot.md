@@ -17,9 +17,3 @@ status: drafted
 ## Effects
 
 Fires a giant rocket in the attack direction.
-
-## Special interactions
-
-### {Collectible:451}
-
-Fires 3 rockets in three directions.

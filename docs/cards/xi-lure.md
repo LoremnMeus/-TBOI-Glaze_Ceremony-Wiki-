@@ -4,9 +4,9 @@ description: "欲求皆有其形"
 slug: xi-lure
 kind: card
 internalKey: Lure
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XI - 欲望 XI - Lure Lure xi-lure XI - Lure 欲求皆有其形 敌人会显示自己想要的资源 停止攻击并靠近时，可献上对应资源满足它 满足后的敌人仍会攻击，但击杀时掉落额外奖励 Enemies show a wanted resource Stop firing and approach to offer matching pickups They stay hostile, but drop extra rewards when killed</p>
+<p class="wiki-search-index" v-pre>XI - 欲望 XI - Lure Lure xi-lure XI - Lure 欲求皆有其形 本房间内敌人会显示自己想要的资源 停止攻击并靠近时，可献上对应资源满足它 满足后仍保持敌对；死亡时掉落所求资源（Boss更多） For this room, enemies show a wanted resource Stop firing and approach to offer matching pickups They stay hostile; on death they drop that resource (Bosses drop more)</p>
 
 <PublicEntry slug="xi-lure" lang="zh" />
 
@@ -16,9 +16,11 @@ status: drafted
 
 ## 效果
 
-每个敌人会随机产生一种欲望（硬币、钥匙、炸弹或红心）。停止攻击并靠近时，若拥有对应资源，可献上资源完成交易。
+使用后，**本房间**中的敌人会各自显示一种欲望：硬币、钥匙、炸弹或红心。停止攻击并接触敌人时，可消耗 1 份对应资源满足它。
 
-完成后消耗 1 个对应资源；敌人仍保持敌对，但击杀时掉落额外奖励。
+被满足的敌人仍保持敌对；死亡时至少返还 1 份它索求的资源，普通敌人还有 **35%** 概率额外再掉 1 份。Boss 固定掉落 **2** 份。
+
+离开房间后效果结束。
 
 ## 注意
 

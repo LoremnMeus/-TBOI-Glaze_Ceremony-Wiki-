@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Devil_s_Heart
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>恶魔的心智 Devil&#x27;s Heart Devil_s_Heart devils-heart Devil&#x27;s Heart 他们自愿为我而死 Stage a Comeback 向敌人植入恶魔种子，与其缔结替死契约 你受到致死伤害时，宿主会替你承担死亡 宿主先受到致死伤害时，你会替它承担代价 Plant a devil seed to bind a two-way death pact If you take lethal damage, the host dies in your place If the host would die first, you pay the cost instead</p>
+<p class="wiki-search-index" v-pre>恶魔的心智 Devil&#x27;s Heart Devil_s_Heart devils-heart Devil&#x27;s Heart 他们自愿为我而死 Stage a Comeback 向敌人植入恶魔种子，与其缔结替死契约 你受到致死伤害时，宿主会替你承担死亡 注意 宿主先受到致死伤害时，你会替它承担代价 Plant a devil seed to bind a two-way death pact If you take lethal damage, the host dies in your place Warning If the host would die first, you pay the cost instead</p>
 
 <PublicEntry slug="devils-heart" lang="en" />
 

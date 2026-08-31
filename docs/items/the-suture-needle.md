@@ -6,7 +6,7 @@ kind: collectible
 internalKey: The_Suture_Needle
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>新式缝合针 The Suture Needle The_Suture_Needle the-suture-needle The Suture Needle 自左心室刺入 Left Ventricular Puncture 失去所有 红心并+1 碎心 将房间中的道具底座全部转化为 鲜活死者 每份鲜活死者提供3个随机被动道具效果 Lose all red hearts and gain +1 broken heart Convert all pedestals in the room into Fresh Death Each Fresh Death grants 3 random passive effects</p>
+<p class="wiki-search-index" v-pre>新式缝合针 The Suture Needle The_Suture_Needle the-suture-needle The Suture Needle 自左心室刺入 Left Ventricular Puncture 失去所有 红心并+1 碎心 将房间中的道具底座全部转化为 鲜活死者 每份鲜活死者提供3个随机被动道具效果 Lose all Heart red hearts and gain +1Broken Heart broken heart Convert all pedestals in the room into Fresh Death Each Fresh Death grants 3 random passive effects</p>
 
 <PublicEntry slug="the-suture-needle" lang="zh" />
 

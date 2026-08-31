@@ -6,7 +6,7 @@ kind: trinket
 internalKey: Pacification_Mark
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>平罪符 Pacification Mark Pacification_Mark pacification-mark Pacification Mark 公平意味着有利可图 Fair means profitable 同一房间内的商品价格变为平均价格并向上取整 Priced goods in the same room become the average price, rounded up</p>
+<p class="wiki-search-index" v-pre>平罪符 Pacification Mark Pacification_Mark pacification-mark Pacification Mark 公平意味着有利可图 Fair means profitable 商店 同一房间内的商品价格变为平均价格并向上取整 Shop Priced goods in the same room become the average price, rounded up</p>
 
 <PublicEntry slug="pacification-mark" lang="zh" />
 

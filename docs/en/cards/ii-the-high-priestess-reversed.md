@@ -19,9 +19,3 @@ status: drafted
 Mom's Hand grabs an enemy and normally carries it away.
 
 It prefers capturable foes and reacquires a target if the current one fails.
-
-## Special interactions
-
-### {Collectible:451}
-
-The grabbed enemy becomes friendly.
