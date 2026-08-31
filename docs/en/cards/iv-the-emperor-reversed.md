@@ -23,4 +23,3 @@ After use, a dangerous boss spawns in the room center and exits close until you 
 - Friendly status lasts until the floor ends and does not cross floors.
 - A friendly boss can still take damage or fall again in combat; using this card again can summon another target—there is no hard “only one per floor” limit.
 - The summon pool comes from a transformed-boss table; some overly hard forms are replaced with more ordinary dangerous enemy sets.
-- While **holding** this card, gain **+1 damage** in boss rooms, challenge rooms, or Boss Rush; holding Tarot Cloth at the same time adds another **+1**. This depends on holding the cards, not on whether Tarot Cloth was held at the moment of use.

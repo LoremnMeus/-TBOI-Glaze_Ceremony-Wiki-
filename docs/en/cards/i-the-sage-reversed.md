@@ -16,9 +16,9 @@ status: reviewed
 
 ## Effects
 
-The Sage? turns the current room into a fire layout: it first tries to **rekindle** ordinary fires already in the room and refill their HP, then spawns new fires in neighboring cells around various entities. Spawns avoid cells next to the player's feet, and tears, bombs, effects, and similar are not used as placement anchors.
+The Sage? turns the current room into a fire layout: it first tries to **rekindle** ordinary fires already in the room and refill their HP, then spawns new fires in empty cells beside room entities. Spawns avoid cells next to the player's feet, and tears, bombs, effects, and similar are not used as placement anchors.
 
-Approaching a marked fire deals light explosion damage that puts it out—an active way to extinguish fires, not homing flames that seek enemies.
+Approaching a marked fire deals light explosion damage that puts it out.
 
 ## Rules
 
@@ -26,4 +26,3 @@ Approaching a marked fire deals light explosion damage that puts it out—an act
 - If the player takes **fire damage** during that window, the state switches: explosion immunity ends, and the player briefly gains fire-related benefits similar to {{Collectible:223}} (Pyromaniac).
 - These player states stay in this room and clear on room change.
 - Tarot Cloth mainly raises the weight of special fire variants; it does not drop extra item rewards.
-- Enemies are not individually “named” by this card; the fires are room layout, not tracking shots.

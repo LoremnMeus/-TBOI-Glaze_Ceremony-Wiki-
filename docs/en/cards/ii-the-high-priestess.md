@@ -16,7 +16,7 @@ status: reviewed
 
 ## Effects
 
-After use, enter High Priestess form for about **60 seconds** (in-game timing; doubles with Tarot Cloth). During that time, giant Mom's Feet repeatedly stomp nearby enemies.
+After use, enter High Priestess form for **30 seconds** (**60 seconds** with Tarot Cloth). During that time, giant Mom's Feet repeatedly stomp nearby enemies.
 
 Stomps find enemies automatically; you do not aim them. Moving elsewhere in the room does not stop the effect while time remains. You cannot fire normally, your size increases, and you gain locked-shot-like assist.
 
