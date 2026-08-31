@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T05:33:36Z",
+  "generatedAt": "2026-08-31T06:13:50Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1135,8 +1135,8 @@
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
       "en": "wiki/docs/en/trinkets/pacification-mark.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "dark-particle",
@@ -1151,72 +1151,72 @@
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/torn-emperor.md",
       "en": "wiki/docs/en/trinkets/torn-emperor.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "devils-joke",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/devils-joke.md",
       "en": "wiki/docs/en/trinkets/devils-joke.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "torn-moon",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/torn-moon.md",
       "en": "wiki/docs/en/trinkets/torn-moon.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "puncture-symbol",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/puncture-symbol.md",
       "en": "wiki/docs/en/trinkets/puncture-symbol.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "hoarding-symbol",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/hoarding-symbol.md",
       "en": "wiki/docs/en/trinkets/hoarding-symbol.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "transition-symbol",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/transition-symbol.md",
       "en": "wiki/docs/en/trinkets/transition-symbol.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "adhesive-symbol",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/adhesive-symbol.md",
       "en": "wiki/docs/en/trinkets/adhesive-symbol.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "straining-symbol",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/straining-symbol.md",
       "en": "wiki/docs/en/trinkets/straining-symbol.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "allocation-symbol",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/allocation-symbol.md",
       "en": "wiki/docs/en/trinkets/allocation-symbol.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "pause",
@@ -1231,32 +1231,32 @@
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/equality-agreement.md",
       "en": "wiki/docs/en/trinkets/equality-agreement.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "consistent-expectations",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/consistent-expectations.md",
       "en": "wiki/docs/en/trinkets/consistent-expectations.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "bundled-sale",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/bundled-sale.md",
       "en": "wiki/docs/en/trinkets/bundled-sale.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "broken-brooch",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/broken-brooch.md",
       "en": "wiki/docs/en/trinkets/broken-brooch.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "glazed-dice-shard",

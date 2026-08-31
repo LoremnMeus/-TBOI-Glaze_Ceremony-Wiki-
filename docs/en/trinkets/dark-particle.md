@@ -12,8 +12,15 @@ status: reviewed
 
 ## Mechanics
 
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**On pickup you immediately gain 2 black hearts; when you later lose that copy, it leaves 1 broken heart.**
+**Each copy of Dark Particle grants {{BlackHeart}} 2 Black Hearts on pickup; losing that copy later leaves {{BrokenHeart}} 1 Broken Heart.**
 
-Each gained copy grants {{BlackHeart}} +2 black hearts. Each lost copy that was previously gained leaves {{BrokenHeart}} +1 broken heart.
+Gaining several effective copies at once scales both the Black Hearts and the later Broken Hearts by the number of copies.
+
+## Trivia
+
+- The sprite is a fragment of {{Item:darkness}}.
+- The flavor Desc "Flammable and delicious" nods to *Terraria* gel.

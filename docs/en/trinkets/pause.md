@@ -12,9 +12,11 @@ status: reviewed
 
 ## Mechanics
 
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-**Pause? trades this run's next real pause for an immediate five-stat boost.**
+**Pause? trades the next real pause of the run for an immediate five-stat boost.**
 
 | Stat | Value |
 | --- | ---: |
@@ -24,6 +26,4 @@ status: reviewed
 | {{Range}} Range | +1 |
 | {{Luck}} Luck | +1 |
 
-## Notes
-
-- Opening the real pause menu removes the trinket; the special bed-pause state does not.
+Opening a real pause menu destroys the trinket; the special pause state from beds does not count.

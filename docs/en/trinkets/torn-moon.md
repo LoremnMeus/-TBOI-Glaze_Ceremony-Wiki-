@@ -4,7 +4,7 @@ description: "Double moon?"
 slug: torn-moon
 kind: trinket
 internalKey: Torn_Moon_
-status: stub
+status: reviewed
 ---
 <p class="wiki-search-index" v-pre>塔罗牌残片？ Torn Moon？ Torn_Moon_ torn-moon Torn Moon? 双月？ Double moon? 持有时+1究极隐藏房 +1 extra UltraSecretRoom Room per floor while held</p>
 
@@ -14,4 +14,10 @@ status: stub
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
-To be written.
+## Effects
+
+**Each copy of Torn Moon? adds 1 extra Ultra Secret Room on the floor.**
+
+The extra rooms reuse this floor's Ultra Secret room data and connect as red rooms.
+
+More effective copies can add more Ultra Secrets, but only if the floor still has a valid spot to place them.

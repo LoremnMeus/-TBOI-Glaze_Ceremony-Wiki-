@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T05:33:36Z",
+  "generatedAt": "2026-08-31T06:13:50Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -20203,8 +20203,8 @@
         "en": "Fair means profitable"
       },
       "eid": {
-        "zh": "{{Shop}} 商品价格改为总平均数上取整",
-        "en": "{{Shop}} Change the product price to round up of the total average"
+        "zh": "{{Shop}} 同一房间内的商品价格变为平均价格并向上取整",
+        "en": "{{Shop}} Priced goods in the same room become the average price, rounded up"
       },
       "seijaBuff": {
         "zh": "",
@@ -20415,8 +20415,8 @@
         "en": "Oppose esoteric!"
       },
       "eid": {
-        "zh": "进入新房间时25%概率随机开启1扇通往其他房间的门",
-        "en": "25% Chance to randomly open 1 door when entering a new room"
+        "zh": "首次进入房间时约25%概率随机开启1扇额外的门",
+        "en": "About 25% chance to open 1 extra door when first entering a room"
       },
       "seijaBuff": {
         "zh": "",
@@ -20819,8 +20819,8 @@
         "en": "Reconstruction"
       },
       "eid": {
-        "zh": "!!! 初次拾取时失去所有掉落物#{{Damage}} 永久+1攻击",
-        "en": "!!! Lose all pickups on first pickup#{{Damage}} +1 Damage up"
+        "zh": "!!! 首次拾取时失去全部{{Coin}}硬币、{{Key}}钥匙与{{Bomb}}炸弹#{{Damage}} 永久+1攻击",
+        "en": "!!! On pickup, lose all {{Coin}} coins, {{Key}} keys, and {{Bomb}} bombs#{{Damage}} Permanent +1 Damage"
       },
       "seijaBuff": {
         "zh": "",
@@ -20920,8 +20920,8 @@
         "en": "Away"
       },
       "eid": {
-        "zh": "{{ErrorRoom}} 进入新房间时，2%概率进入错误房",
-        "en": "{{ErrorRoom}} 2% Chance to enter error room when entering a new room"
+        "zh": "{{ErrorRoom}} 穿门进入未探索房间时，2%概率改为进入错误房",
+        "en": "{{ErrorRoom}} 2% chance to enter an Error Room when walking into an unvisited room"
       },
       "seijaBuff": {
         "zh": "",
@@ -21122,8 +21122,8 @@
         "en": "Depression"
       },
       "eid": {
-        "zh": "放下此饰品时击落所有弹幕",
-        "en": "Shoot down all projectiles when placing this trinket"
+        "zh": "此饰品落到地面时击落房间内所有弹幕",
+        "en": "Clears room projectiles when this trinket appears on the ground"
       },
       "seijaBuff": {
         "zh": "",
@@ -21425,8 +21425,8 @@
         "en": "Seemingly equal"
       },
       "eid": {
-        "zh": "若你没有任何{{Coin}}硬币，{{Shop}}商店只会出售{{Collectible}}道具",
-        "en": "If you have no {{Coin}} coin，{{Shop}}Shop will only provide {{Collectible}} collectible"
+        "zh": "{{Shop}} 在商店中{{Coin}}硬币为0时，收费的非道具商品变为随机{{Collectible}}道具",
+        "en": "{{Shop}} While {{Coin}} coins are 0 in a shop, priced non-item goods become random {{Collectible}} items"
       },
       "seijaBuff": {
         "zh": "",
@@ -21526,8 +21526,8 @@
         "en": "Equal in Expection"
       },
       "eid": {
-        "zh": "{{Shop}} 商品价格至多为1{{Coin}}硬币，但降价越多越可能白花钱#商品的折扣就是成功购买概率",
-        "en": "All shop price is only 1 {{Coin}} coin, but there ara chance to waste money#The discount on the product is the probability of successful purchase"
+        "zh": "{{Shop}} 原价高于1{{Coin}}的商品只需1{{Coin}}尝试购买#每次有1/原价的概率成功#失败仍支付1{{Coin}}，商品留在原地",
+        "en": "{{Shop}} Goods priced above 1 {{Coin}} cost 1 {{Coin}} per attempt#Success chance is 1 / original price#Failure still spends 1 {{Coin}}; the goods stay"
       },
       "seijaBuff": {
         "zh": "",
@@ -21627,8 +21627,8 @@
         "en": "Buy more, get more"
       },
       "eid": {
-        "zh": "{{Shop}} 商品价格提升100%#{{ArrowUp}} 完成交易后随机一份商品变为免费",
-        "en": "{{Shop}} Product prices increase by 100%#{{ArrowUp}} After completing the transaction, randomly select a product to become free"
+        "zh": "{{Shop}} 商品价格提升100%#{{ArrowUp}} 完成购买后，随机1件剩余收费商品变为免费",
+        "en": "{{Shop}} Product prices increase by 100%#{{ArrowUp}} After a purchase, 1 random remaining priced good becomes free"
       },
       "seijaBuff": {
         "zh": "",
@@ -21728,8 +21728,8 @@
         "en": "Time is enough to change everything"
       },
       "eid": {
-        "zh": "清理房间后小概率随机提升最低属性",
-        "en": "After cleaning the room, there is a small probability of randomly increasing the lowest attribute"
+        "zh": "清理房间后小概率强化攻击、射速、移速或射程中的较弱项",
+        "en": "After clearing a room, small chance to buff the weaker of Damage / Tears / Speed / Range"
       },
       "seijaBuff": {
         "zh": "",
