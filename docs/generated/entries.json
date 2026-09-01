@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T07:39:23Z",
+  "generatedAt": "2026-09-01T07:56:15Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -9663,8 +9663,8 @@
         "en": "Terms under revision"
       },
       "eid": {
-        "zh": "持有2条会不断改写的条款#完成条款后执行对应结果，并随机改写其中一部分#进入新一层时也会改写1条条款#当前条款与进度显示在下方",
-        "en": "Hold 2 clauses that are continuously rewritten#Completing a clause performs its result and randomly rewrites part of it#Entering a new floor also rewrites 1 clause#Current clauses and progress are shown below"
+        "zh": "持有2条会不断改写的条款#完成条款后执行对应结果，并随机改写其中一部分#进入新一层时也会改写1条条款",
+        "en": "Hold 2 clauses that are continuously rewritten#Completing a clause performs its result and randomly rewrites part of it#Entering a new floor also rewrites 1 clause"
       },
       "seijaBuff": {
         "zh": "",
@@ -12966,8 +12966,8 @@
         "en": "VI"
       },
       "eid": {
-        "zh": "{{Card78}} 每层开始获得3张红钥匙碎片#最多4间特殊房会被搬到正常地图之外#使用红钥匙碎片重新打开通往这些房间的路线#{{Card78}} 首次找到其中一间时返还1张碎片",
-        "en": "{{Card78}} Gain 3 Cracked Keys at the start of each floor#Up to 4 special rooms move beyond the normal map#Use Cracked Keys to reopen routes to those rooms#{{Card78}} Finding one for the first time returns 1 Cracked Key"
+        "zh": "{{Card78}} 每层开始获得3张红钥匙碎片#最多4间特殊房会被搬到正常地图之外#使用红钥匙碎片重新打开通往这些房间的路线#{{Card78}} 每间被搬走的特殊房首次进入时返还1张碎片",
+        "en": "{{Card78}} Gain 3 Cracked Keys at the start of each floor#Up to 4 special rooms move beyond the normal map#Use Cracked Keys to reopen routes to those rooms#{{Card78}} Each moved room returns 1 Cracked Key on its first visit"
       },
       "seijaBuff": {
         "zh": "",
@@ -13114,8 +13114,8 @@
         "en": "Masterpiece"
       },
       "eid": {
-        "zh": "{{Battery}} 接触并吸收3个空道具底座可充满充能#使用时，使最近的道具在一组固定候选之间快速切换#{{EID}} 持有时可查看该道具的变化序列",
-        "en": "{{Battery}} Absorb 3 empty item pedestals to fully charge#On use, makes the nearest item rapidly cycle through a fixed set of alternatives#{{EID}} While held, shows that item's transformation sequence"
+        "zh": "{{Battery}} 吸收3个空道具底座即可充满#使用时，使最近的道具在一组固定候选之间快速切换",
+        "en": "{{Battery}} Absorb 3 empty item pedestals to fully charge#On use, makes the nearest item rapidly cycle through a fixed set of alternatives"
       },
       "seijaBuff": {
         "zh": "",
@@ -16876,8 +16876,8 @@
         "en": "Stitching to death"
       },
       "eid": {
-        "zh": "{{Battery}} 拥有至少1格充能时即可使用，并消耗当前全部充能#D的数字增加所消耗的充能数#随后触发编号能整除当前D的所有骰子效果#D1始终触发，主动槽会预览本次结果",
-        "en": "{{Battery}} Usable with at least 1 charge; spends all current charges#Increases D by the charges spent#Then triggers every listed die whose number divides the new D#D1 always fires; the active slot previews the result"
+        "zh": "{{Battery}} 拥有至少1格充能时即可使用，并消耗当前全部充能#D的数字增加所消耗的充能数#随后触发编号能整除当前D的所有骰子效果#D1始终触发",
+        "en": "{{Battery}} Usable with at least 1 charge; spends all current charges#Increases D by the charges spent#Then triggers every listed die whose number divides the new D#D1 always fires"
       },
       "seijaBuff": {
         "zh": "",

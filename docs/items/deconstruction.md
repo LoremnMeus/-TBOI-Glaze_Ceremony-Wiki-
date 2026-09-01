@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Destruction
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象解构 Deconstruction Destruction deconstruction Deconstruction VI VI 红钥匙碎片 每层开始获得3张红钥匙碎片 最多4间特殊房会被搬到正常地图之外 使用红钥匙碎片重新打开通往这些房间的路线 红钥匙碎片 首次找到其中一间时返还1张碎片 Cracked Key Gain 3 Cracked Keys at the start of each floor Up to 4 special rooms move beyond the normal map Use Cracked Keys to reopen routes to those rooms Cracked Key Finding one for the first time returns 1 Cracked Key</p>
+<p class="wiki-search-index" v-pre>天象解构 Deconstruction Destruction deconstruction Deconstruction VI VI 红钥匙碎片 每层开始获得3张红钥匙碎片 最多4间特殊房会被搬到正常地图之外 使用红钥匙碎片重新打开通往这些房间的路线 红钥匙碎片 每间被搬走的特殊房首次进入时返还1张碎片 Cracked Key Gain 3 Cracked Keys at the start of each floor Up to 4 special rooms move beyond the normal map Use Cracked Keys to reopen routes to those rooms Cracked Key Each moved room returns 1 Cracked Key on its first visit</p>
 
 <PublicEntry slug="deconstruction" lang="zh" />
 
@@ -23,7 +23,7 @@ status: reviewed
 
 - 每层开始获得 **3 张红钥匙碎片**。
 - 本层最多有 **4 间特殊房**被移到正常地图之外。
-- 第一次找到一间被移走的特殊房时，会返还 **1 张红钥匙碎片**。
+- 每间被移走的特殊房，第一次进入时都会返还 **1 张红钥匙碎片**。
 
 例如，原本正常连接在地图上的商店或宝箱房可能突然不在普通路线里了。它们并没有消失；找到之后仍然是原来的商店或宝箱房，只是现在需要通过红房路线才能进去。
 
@@ -60,4 +60,4 @@ status: reviewed
 
 红钥匙碎片并不会直接告诉你被移走的房间在哪里。
 
-需要像平常开启红房一样逐步探索；第一次找到一间被移走的特殊房时，会返还 1 张红钥匙碎片。
+需要像平常开启红房一样逐步探索；每间被移走的特殊房第一次进入时都会返还 1 张红钥匙碎片。

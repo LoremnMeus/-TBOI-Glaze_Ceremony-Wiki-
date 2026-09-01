@@ -6,7 +6,7 @@ title: Philosopher's Stone
 description: "Masterpiece"
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 接触并吸收3个空道具底座可充满充能 使用时，使最近的道具在一组固定候选之间快速切换 持有时可查看该道具的变化序列 Absorb 3 empty item pedestals to fully charge On use, makes the nearest item rapidly cycle through a fixed set of alternatives While held, shows that item&#x27;s transformation sequence</p>
+<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 吸收3个空道具底座即可充满 使用时，使最近的道具在一组固定候选之间快速切换 Absorb 3 empty item pedestals to fully charge On use, makes the nearest item rapidly cycle through a fixed set of alternatives</p>
 
 <PublicEntry slug="philosophers-stone" lang="en" />
 
@@ -37,7 +37,7 @@ The selected item rapidly cycles through a fixed group of alternatives, similar 
 
 ### Previewing the sequence
 
-While holding Philosopher's Stone, pointing EID at an item pedestal shows the sequence that item can cycle through.
+While holding Philosopher's Stone, checking another item pedestal's EID can preview that item's transformation sequence.
 
 The sequence is not random. Starting from the current item, Philosopher's Stone searches backward through internal collectible IDs for valid items.
 

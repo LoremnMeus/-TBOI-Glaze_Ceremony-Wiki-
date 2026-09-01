@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Destruction
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象解构 Deconstruction Destruction deconstruction Deconstruction VI VI 红钥匙碎片 每层开始获得3张红钥匙碎片 最多4间特殊房会被搬到正常地图之外 使用红钥匙碎片重新打开通往这些房间的路线 红钥匙碎片 首次找到其中一间时返还1张碎片 Cracked Key Gain 3 Cracked Keys at the start of each floor Up to 4 special rooms move beyond the normal map Use Cracked Keys to reopen routes to those rooms Cracked Key Finding one for the first time returns 1 Cracked Key</p>
+<p class="wiki-search-index" v-pre>天象解构 Deconstruction Destruction deconstruction Deconstruction VI VI 红钥匙碎片 每层开始获得3张红钥匙碎片 最多4间特殊房会被搬到正常地图之外 使用红钥匙碎片重新打开通往这些房间的路线 红钥匙碎片 每间被搬走的特殊房首次进入时返还1张碎片 Cracked Key Gain 3 Cracked Keys at the start of each floor Up to 4 special rooms move beyond the normal map Use Cracked Keys to reopen routes to those rooms Cracked Key Each moved room returns 1 Cracked Key on its first visit</p>
 
 <PublicEntry slug="deconstruction" lang="en" />
 
@@ -23,7 +23,7 @@ With one copy:
 
 - You gain **3 Cracked Keys** at the start of each floor.
 - Up to **4 special rooms** can be moved outside the normal map.
-- Finding a moved room for the first time gives back **1 Cracked Key**.
+- Each moved special room returns **1 Cracked Key** on its first visit.
 
 For example, a Shop or Treasure Room that would normally connect to the floor may no longer appear along the regular route. The room itself is not gone: when you find it, it is still the same Shop or Treasure Room, but it must now be reached through red-room paths.
 
@@ -60,4 +60,4 @@ If the floor does not contain enough eligible special rooms, fewer rooms will ac
 
 Cracked Keys do not directly reveal where the moved rooms are.
 
-You still need to explore red-room paths normally. The first time you find a moved special room, you regain 1 Cracked Key.
+You still need to explore red-room paths normally. Each moved special room returns 1 Cracked Key on its first visit.

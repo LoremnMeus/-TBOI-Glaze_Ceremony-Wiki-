@@ -6,7 +6,7 @@ title: 贤者之石
 description: "杰作"
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 接触并吸收3个空道具底座可充满充能 使用时，使最近的道具在一组固定候选之间快速切换 持有时可查看该道具的变化序列 Absorb 3 empty item pedestals to fully charge On use, makes the nearest item rapidly cycle through a fixed set of alternatives While held, shows that item&#x27;s transformation sequence</p>
+<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 吸收3个空道具底座即可充满 使用时，使最近的道具在一组固定候选之间快速切换 Absorb 3 empty item pedestals to fully charge On use, makes the nearest item rapidly cycle through a fixed set of alternatives</p>
 
 <PublicEntry slug="philosophers-stone" lang="zh" />
 
@@ -37,7 +37,7 @@ status: reviewed
 
 ### 怎么提前查看候选
 
-持有贤者之石时，把 EID 指向一个道具底座，就会显示该道具可以变化到哪些候选。
+持有贤者之石时，查看其他道具底座的 EID 可以提前看到它的变化序列。
 
 变化顺序并不是随机的。它会从当前道具开始，按内部道具编号向前寻找可用道具。
 
