@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Dimension_Contact
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>次元之楔 Dimension Contact Dimension_Contact dimension-contact Dimension Contact 我发现了新通道！ I found a new passage! 从尚未探索的房间中随机拉来2-3名敌人 这些敌人会在当前房间与你战斗 借出时，原房间对应位置不会再刷出它们 Pull 2-3 enemies from unexplored rooms Fight them in the current room When borrowed, their original spawn slots will not appear again</p>
+<p class="wiki-search-index" v-pre>次元之楔 Dimension Contact Dimension_Contact dimension-contact Dimension Contact 我发现了新通道！ I found a new passage! 从尚未探索的房间中随机拉来2-3名敌人 这些敌人会在当前房间与你战斗 它们原本占用的刷怪位置会被留空 Pull 2-3 enemies from unexplored rooms Fight them in the current room Their original spawn positions will be left empty</p>
 
 <PublicEntry slug="dimension-contact" lang="en" />
 
@@ -17,18 +17,35 @@ status: reviewed
 
 ## Effects
 
-**Dimension Contact does not clone enemies—it borrows monsters from future rooms into the current one.**
+**Dimension Contact “borrows” a few monsters from unexplored rooms on the floor so you can fight them early in the current room.**
 
-### Example
+On use:
 
-Room A is your current fight. Use it, and 2–3 monsters may be pulled from unexplored room B into A. Room B's matching spawn slots are claimed immediately—when you later enter B, those slots will not spawn the same enemies again.
+- Randomly selects **2–3 enemies** from unexplored rooms;
+- Spawns them in the current room;
+- Closes the current room's doors again until those enemies are defeated;
+- Leaves the borrowed enemies' original spawn positions empty.
 
-### On use
+These enemies are not extra copies.
 
-- Pulls **2–3** monster-type enemies from unexplored rooms on the floor.
-- Closes doors in the current room so you must clear again.
-- Spawn slots are marked **when borrowed**, not only after you kill the borrowed copies.
+The monsters you clear early reduce how many enemies you still need to face when exploring later rooms.
+
+## Which enemies can be borrowed
+
+Only enemies recognized as normal monsters are candidates.
+
+Some special entities and special enemies will not be pulled into the current room.
 
 ## Notes
 
-Some special enemy types are ignored.
+If the floor has no eligible unexplored enemies left, Dimension Contact still spends its charge but spawns nothing.
+
+Using it after most of the floor is already explored can waste a charge.
+
+## Synergies
+
+### {{Collectible:584}}
+
+Spawns a red wisp.
+
+Its tears teleport hit enemies to another position in the room.

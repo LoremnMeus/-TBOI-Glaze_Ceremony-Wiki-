@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T07:56:15Z",
+  "generatedAt": "2026-09-01T08:09:25Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -13380,8 +13380,8 @@
         "en": ""
       },
       "abyssSynic": {
-        "zh": "概率魅惑的蝗虫",
-        "en": "Locust with chance to charm enemies"
+        "zh": "命中敌人时有10%概率魅惑目标",
+        "en": "10% chance to charm enemies on hit"
       },
       "tarotClothBuffs": {
         "zh": "",
@@ -13600,16 +13600,16 @@
         "en": "I'm so glad that you cheat so many times"
       },
       "eid": {
-        "zh": "只会在一局游戏中输入rewind指令第3次后生成#拾取时获得一层{{Collectible313}}#全属性极小幅上升",
-        "en": "It will only be generated after entering the rewind command for the third time in a game#Obtain one {{Collectible313}} when pickup#Stats up very very small"
+        "zh": "本局第3次完成rewind回溯后生成#拾取时获得一次圣洁卡片的神圣屏障#全属性极小幅上升",
+        "en": "Appears after the 3rd completed rewind in a run#On pickup, gain one Holy Card shield#Very small all-stats up"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "受伤后使用{{Collectible422}}",
-        "en": "Use {{Collectible422}} on getting hit"
+        "zh": "受伤后触发一次{{Collectible422}}发光沙漏",
+        "en": "Taking damage triggers Glowing Hour Glass"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -13721,8 +13721,8 @@
         "en": "I found a new passage!"
       },
       "eid": {
-        "zh": "从尚未探索的房间中随机拉来2-3名敌人#这些敌人会在当前房间与你战斗#借出时，原房间对应位置不会再刷出它们",
-        "en": "Pull 2-3 enemies from unexplored rooms#Fight them in the current room#When borrowed, their original spawn slots will not appear again"
+        "zh": "从尚未探索的房间中随机拉来2-3名敌人#这些敌人会在当前房间与你战斗#它们原本占用的刷怪位置会被留空",
+        "en": "Pull 2-3 enemies from unexplored rooms#Fight them in the current room#Their original spawn positions will be left empty"
       },
       "seijaBuff": {
         "zh": "",
@@ -13733,8 +13733,8 @@
         "en": ""
       },
       "bookOfVirtues": {
-        "zh": "发射有传送效果的魂火",
-        "en": "Wisp with teleportation effect"
+        "zh": "发射传送泪弹的红色魂火",
+        "en": "Red wisp that fires teleporting tears"
       },
       "bookOfBelial": {
         "zh": "",

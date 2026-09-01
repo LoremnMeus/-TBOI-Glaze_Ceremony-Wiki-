@@ -16,22 +16,40 @@ status: reviewed
 
 ## Effects
 
-On use, a random active item appears above Isaac and begins a 30-second countdown. When time runs out, Isaac automatically activates that item once without placing it in the active slot.
+On use, Ending Count draws a random active-item effect and shows that item above Isaac.
 
-The selection is weighted rather than uniform: higher-quality, longer-charge, and especially unusual active items generally appear less often.
+After **30 seconds**, the active item fires once automatically, but it is never placed in your active slot.
 
-## Multiple uses
+The draw is weighted, not uniform:
 
-Several countdowns can coexist. If two are about to finish within a few seconds of each other, the earlier one speeds up so their effects do not stack at exactly the same moment.
+- Higher-quality actives appear less often;
+- Longer-charge actives appear less often;
+- Some special actives are further down-weighted.
+
+Most rolls land on ordinary actives, but very strong or very dangerous results are still possible.
+
+## Multiple Uses
+
+Several Ending Count countdowns can exist at once.
+
+If two countdowns would finish too close together, the earlier one gradually speeds up so multiple actives do not all resolve at the exact same moment.
 
 ## Synergies
 
-- {{Collectible:356}} Car Battery makes the corresponding countdown effect activate one additional time.
+### {{Collectible:356}}
+
+Car Battery does not draw a second active item.
+
+It makes the drawn active fire **one extra time** when the countdown ends.
 
 ## Tips
 
-If a countdown has not resolved yet, exiting the run and Continue clears unsettled hovering active effects.
+The drawn active is not always helpful.
+
+For example, if {{Collectible:475}} or another dangerous effect appears overhead and you do not want it to fire, exit the run before the countdown ends and choose Continue.
+
+Unresolved Ending Count timers are not kept, so you can deliberately abandon that result.
 
 ## Trivia
 
-The name references *Countdown to the End* (终末的倒计时); the gameplay is mostly unrelated.
+The name references *Countdown to the End* (终末的倒计时).

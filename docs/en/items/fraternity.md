@@ -10,14 +10,20 @@ status: reviewed
 
 <PublicEntry slug="fraternity" lang="en" />
 
+## Mechanics
+
+<!-- Manual body. The exporter never overwrites this file once it exists. -->
+
 ## Effects
 
-A charm halo appears near Isaac. When it approaches an enemy, it charms that enemy, attaches to it, and follows its movement.
+A charm halo appears near Isaac and seeks enemies on its own.
 
-Each additional copy grants another halo that can seek its own target, allowing more enemies to be affected at once.
+When the halo reaches an enemy, it charms that enemy and then follows it. If a new uncharmed enemy comes nearby, the halo may switch targets.
+
+Each extra copy of Fraternity grants another independently acting halo, so more enemies can be affected at once.
 
 ## Synergies
 
 ### {{Collectible:706}}
 
-When absorbed by Abyss, the matching locust has a chance to charm enemies.
+When absorbed by Abyss, the matching locust has a **10% chance to charm** the enemy it hits.
