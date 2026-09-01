@@ -64,7 +64,7 @@ When all three categories have valid candidates, their base selection weights ar
 | Enemy | 35 |
 | Existing item | 15 |
 
-A category with no valid candidate is removed before selection, so these weights are not fixed 50% / 35% / 15% appearance rates.
+A category with no valid candidate is removed before selection, so these weights are not fixed 50% / 35% / 15% selection chances.
 
 ### Candidate restrictions
 

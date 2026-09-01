@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T14:44:17Z",
+  "generatedAt": "2026-09-01T15:15:23Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -4077,7 +4077,7 @@
         "en": "A king, until it shatters"
       },
       "eid": {
-        "zh": "提高琉璃化掉落物的生成概率#拾取琉璃化掉落物会为冠冕增加1层辉片，最多5层#{{Damage}} 1层：+0.6攻击#2层：攻击命中时有概率产生琉璃折射#{{Luck}} 3层：+1幸运，并提高折射与敌人琉璃化的触发率#4层：攻击有概率使敌人琉璃化#5层：完成冠冕，强化琉璃化掉落物，并免疫琉璃化敌人的碰撞伤害#{{Warning}} 受伤时冠冕破碎并失去全部辉片#根据失去的辉片数量向四周释放琉璃碎片",
+        "zh": "提高琉璃化掉落物的生成概率#拾取琉璃化掉落物会为冠冕增加1层辉片，最多5层#{{Damage}} 1层：+0.6攻击#2层：攻击命中时有概率产生琉璃折射#{{Luck}} 3层：+1幸运，并提高折射与敌人琉璃化的触发概率#4层：攻击有概率使敌人琉璃化#5层：完成冠冕，强化琉璃化掉落物，并免疫琉璃化敌人的碰撞伤害#{{Warning}} 受伤时冠冕破碎并失去全部辉片#根据失去的辉片数量向四周释放琉璃碎片",
         "en": "Increases the chance of glazed pickups#Picking up glazed pickups adds 1 Crown shard, up to 5#{{Damage}} 1 shard: +0.6 Damage#2 shards: Hits may split into glazed refraction tears#{{Luck}} 3 shards: +1 Luck, and higher chance for refraction / enemy glazing#4 shards: Attacks may glaze normal enemies#5 shards: Completes the crown, empowers glazed pickups, and blocks glazed enemy contact damage#{{Warning}} Taking damage shatters the crown and removes all shards#Fires glaze fragments based on lost shards"
       },
       "seijaBuff": {
@@ -4085,7 +4085,7 @@
         "en": ""
       },
       "seijaNerf": {
-        "zh": "琉璃化掉落生成率提升减弱，碎冠伤害减半，且不再强化琉璃效果触发率",
+        "zh": "琉璃化掉落生成概率提升减弱，碎冠伤害减半，且不再强化琉璃效果触发概率",
         "en": "Weaker glazed pickup bonus, half shatter damage, and no glazed-effect chance bonus"
       },
       "bookOfVirtues": {
@@ -6539,7 +6539,7 @@
         "en": "Finally a home for me.."
       },
       "eid": {
-        "zh": "生成3个纹章#大多数跟班会沿着你的泪弹轨迹组织进攻#纹章接触敌人造成伤害，并可拦截敌弹",
+        "zh": "生成3个纹章#大多数跟班会沿着你的泪弹轨迹组织进攻#纹章接触敌人造成伤害，并可拦截敌方弹幕",
         "en": "Spawns 3 emblems#Most familiars organize attacks along your tear paths#Emblems deal contact damage and can block enemy shots"
       },
       "seijaBuff": {
@@ -6660,7 +6660,7 @@
         "en": "The night has teeth"
       },
       "eid": {
-        "zh": "↑ 飞行#按住攻击呼唤夜色，松开后发动摄取#夜将你吞下，并重创敌人、吞噬敌弹#{{Warning}} 新房间有概率陷入黑暗#黑暗房间中摄取更快",
+        "zh": "↑ 飞行#按住攻击呼唤夜色，松开后发动摄取#夜将你吞下，并重创敌人、吞噬敌方弹幕#{{Warning}} 新房间有概率陷入黑暗#黑暗房间中摄取更快",
         "en": "↑ Flight#Hold fire to call the night, then release to ingest#Night swallows you, then devastates enemies and eats projectiles#{{Warning}} New rooms may become pitch black#Charging is faster in darkness"
       },
       "seijaBuff": {
@@ -14937,8 +14937,8 @@
         "en": "Except Anger"
       },
       "eid": {
-        "zh": "防止爆炸伤害#本局首次击败对应七罪时获得奖励：#嫉妒：永久获得穿透与灵体泪#{{Card}} 贪婪：生成3张卡牌#{{Collectible}} 傲慢：生成随机道具三选一#{{Card31}} 色欲：生成一张小丑卡#{{Coin}} 懒惰：商店价格永久-1#{{Card78}} 暴食：生成2个红钥匙碎片",
-        "en": "Grants immunity to explosions#Gain a reward the first time each corresponding Sin is defeated:#Envy: Permanently grants piercing and spectral tears#{{Card}} Greed: Spawns 3 cards#{{Collectible}} Pride: Spawns a choice of 3 random items#{{Card31}} Lust: Spawns a Joker card#{{Coin}} Sloth: Permanently reduces shop prices by 1#{{Card78}} Gluttony: Spawns 2 Cracked Keys"
+        "zh": "{{Bomb}} 免疫爆炸伤害#本局首次击败其余六种七宗罪时，获得对应奖励：#嫉妒：本局获得穿透与灵体泪#{{Card}} 贪婪：生成3张卡牌#{{Collectible}} 傲慢：生成随机道具三选一#{{Card31}} 色欲：生成一张小丑卡#{{Coin}} 懒惰：本局商店价格-1#{{Card78}} 暴食：生成2个红钥匙碎片",
+        "en": "{{Bomb}} Immunity to explosion damage#First time each of the other six Sins is defeated this run, gain its reward:#Envy: Piercing and spectral tears for the run#{{Card}} Greed: Spawns 3 cards#{{Collectible}} Pride: Spawns a choice of 3 random items#{{Card31}} Lust: Spawns a Joker card#{{Coin}} Sloth: Shop prices -1 for the run#{{Card78}} Gluttony: Spawns 2 Cracked Keys"
       },
       "seijaBuff": {
         "zh": "",
@@ -26887,7 +26887,7 @@
         "en": ""
       },
       "eid": {
-        "zh": "停止攻击时，房间逐渐陷入沉睡#沉睡越深，敌人与敌弹行动越慢#重新攻击会逐渐唤醒房间",
+        "zh": "停止攻击时，房间逐渐陷入沉睡#沉睡越深，敌人与敌方弹幕行动越慢#重新攻击会逐渐唤醒房间",
         "en": "While not firing, the room gradually falls asleep#Deeper sleep slows enemies and hostile shots#Firing again slowly wakes the room"
       },
       "seijaBuff": {
@@ -27248,7 +27248,7 @@
         "en": ""
       },
       "eid": {
-        "zh": "本房间中有意义的实体消失时发生固定规模爆炸#泪弹、敌弹、敌人和掉落物等都可触发",
+        "zh": "本房间中有意义的实体消失时发生固定规模爆炸#泪弹、敌方弹幕、敌人和掉落物等都可触发",
         "en": "When meaningful entities vanish in this room, a fixed-size explosion triggers#Tears, projectiles, enemies, pickups, and more can fire it"
       },
       "seijaBuff": {

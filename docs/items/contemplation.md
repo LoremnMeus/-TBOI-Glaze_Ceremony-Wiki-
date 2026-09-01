@@ -40,9 +40,9 @@ status: reviewed
 
 ## 特殊互动
 
-### Zeis
+### {{Character:zeis}}
 
-Zeis 触发后，不会在 1–3 秒后自动返回。
+触发后，不会在 1–3 秒后自动返回。
 
 ## 使用技巧
 

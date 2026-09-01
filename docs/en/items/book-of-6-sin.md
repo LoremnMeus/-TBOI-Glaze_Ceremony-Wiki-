@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Book_of_6_sin
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>六罪论 Book of 6 sin Book_of_6_sin book-of-6-sin Book of 6 sin 除却愤怒 Except Anger 防止爆炸伤害 本局首次击败对应七罪时获得奖励： 嫉妒：永久获得穿透与灵体泪 贪婪：生成3张卡牌 傲慢：生成随机道具三选一 鬼牌 色欲：生成一张小丑卡 懒惰：商店价格永久-1 红钥匙碎片 暴食：生成2个红钥匙碎片 Grants immunity to explosions Gain a reward the first time each corresponding Sin is defeated: Envy: Permanently grants piercing and spectral tears Greed: Spawns 3 cards Pride: Spawns a choice of 3 random items Joker Lust: Spawns a Joker card Sloth: Permanently reduces shop prices by 1 Cracked Key Gluttony: Spawns 2 Cracked Keys</p>
+<p class="wiki-search-index" v-pre>六罪论 Book of 6 sin Book_of_6_sin book-of-6-sin Book of 6 sin 除却愤怒 Except Anger 免疫爆炸伤害 本局首次击败其余六种七宗罪时，获得对应奖励： 嫉妒：本局获得穿透与灵体泪 贪婪：生成3张卡牌 傲慢：生成随机道具三选一 鬼牌 色欲：生成一张小丑卡 懒惰：本局商店价格-1 红钥匙碎片 暴食：生成2个红钥匙碎片 Immunity to explosion damage First time each of the other six Sins is defeated this run, gain its reward: Envy: Piercing and spectral tears for the run Greed: Spawns 3 cards Pride: Spawns a choice of 3 random items Joker Lust: Spawns a Joker card Sloth: Shop prices -1 for the run Cracked Key Gluttony: Spawns 2 Cracked Keys</p>
 
 <PublicEntry slug="book-of-6-sin" lang="en" />
 
@@ -17,25 +17,22 @@ status: reviewed
 
 ## Effects
 
-**Book of 6 Sin splits the Deadly Sins into cover Wrath and six kill rewards.**
+**Book of 6 Sin itself grants explosion immunity (Wrath). Defeating each of the other six Deadly Sins for the first time in the run grants one reward.**
 
-Passive: explosion immunity.
-
-**Wrath alone has no kill reward—because explosion immunity is already on the cover.**
-
-The other six pay out the first time each is defeated in the run (or immediately if already beaten when you pick this up).
+If you already beat a Sin before picking this up, its reward is granted immediately on pickup.
 
 | Sin | Reward |
 | --- | --- |
-| Envy | **Run-long**: piercing + spectral tears (persists across rooms and floors) |
-| Greed | 3 random cards |
-| Pride | Choice of 3 random items |
-| Lust | 1 Joker card |
-| Sloth | **Run-long**: shop prices −1 (can reach free; applies to later shops) |
-| Gluttony | 2 Cracked Keys |
-| Wrath | **No kill reward** (cover = blast immunity) |
+| Envy | Piercing and spectral tears for the rest of the run |
+| Greed | Spawn 3 random cards |
+| Pride | Spawn 3 random items; pick only 1 |
+| Lust | Spawn 1 Joker card |
+| Sloth | All shop coin prices −1 for the rest of the run (can reach free) |
+| Gluttony | Spawn 2 Cracked Keys |
+| Wrath | No extra kill reward; explosion immunity is already on the item |
 
 ## Synergies
 
 ### {{Collectible:34}}
-Pride's choice rolls from the Devil pool.
+
+Pride's three items roll from the Devil pool.

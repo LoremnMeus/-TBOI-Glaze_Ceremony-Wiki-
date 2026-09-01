@@ -17,13 +17,13 @@ status: reviewed
 
 ## Effects
 
-**Dark Mysticism lets half of incoming hits fall into the dark side. When a hit is negated, Isaac also unleashes a strong black counterattack in four directions.**
+**On taking damage, there is a 50% chance to fully negate the hit and immediately counterattack in four directions.**
 
-On damage, there is a **50%** chance to fully negate the hit and:
+On a successful negate:
 
-- fire one special black tear in each cardinal direction
-- deal about `5 × Damage` per tear
-- show strong dark / fear visuals.
+- fire 1 special black tear in each cardinal direction;
+- each tear deals **5× Isaac's Damage**;
+- tears pierce, home, and apply Fear to enemies they hit.
 
 ## Synergies
 
@@ -33,5 +33,5 @@ On a successful negate, Isaac is also feared for about **3** seconds.
 
 ## Trivia
 
-- The name comes from the Yu-Gi-Oh! card Dark Mysticism (暗黑神秘学).
-- The defense mainly references Dark Sanctuary (暗黑圣域)—a chance to block and counter.
+- Named after the Yu-Gi-Oh! card Dark Mysticism (暗黑神秘学).
+- The defense and counter reference Dark Sanctuary (暗黑圣域).

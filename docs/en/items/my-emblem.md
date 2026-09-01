@@ -6,7 +6,7 @@ kind: collectible
 internalKey: My_Emblem
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>小青的纹章 Qing&#x27;s Emblem My_Emblem my-emblem My Emblem 为它们找个家吧！ Finally a home for me.. 生成3个纹章 大多数跟班会沿着你的泪弹轨迹组织进攻 纹章接触敌人造成伤害，并可拦截敌弹 Spawns 3 emblems Most familiars organize attacks along your tear paths Emblems deal contact damage and can block enemy shots</p>
+<p class="wiki-search-index" v-pre>小青的纹章 Qing&#x27;s Emblem My_Emblem my-emblem My Emblem 为它们找个家吧！ Finally a home for me.. 生成3个纹章 大多数跟班会沿着你的泪弹轨迹组织进攻 纹章接触敌人造成伤害，并可拦截敌方弹幕 Spawns 3 emblems Most familiars organize attacks along your tear paths Emblems deal contact damage and can block enemy shots</p>
 
 <PublicEntry slug="my-emblem" lang="en" />
 

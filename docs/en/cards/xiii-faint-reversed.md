@@ -6,7 +6,7 @@ kind: card
 internalKey: Faint_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XIII - 长眠? XIII - Faint? Faint_r xiii-faint-reversed XIII - Faint? 万籁将眠 停止攻击时，房间逐渐陷入沉睡 沉睡越深，敌人与敌弹行动越慢 重新攻击会逐渐唤醒房间 While not firing, the room gradually falls asleep Deeper sleep slows enemies and hostile shots Firing again slowly wakes the room</p>
+<p class="wiki-search-index" v-pre>XIII - 长眠? XIII - Faint? Faint_r xiii-faint-reversed XIII - Faint? 万籁将眠 停止攻击时，房间逐渐陷入沉睡 沉睡越深，敌人与敌方弹幕行动越慢 重新攻击会逐渐唤醒房间 While not firing, the room gradually falls asleep Deeper sleep slows enemies and hostile shots Firing again slowly wakes the room</p>
 
 <PublicEntry slug="xiii-faint-reversed" lang="en" />
 

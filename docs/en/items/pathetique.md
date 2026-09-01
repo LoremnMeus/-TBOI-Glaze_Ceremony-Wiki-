@@ -16,33 +16,33 @@ status: featured
 
 ## Effects
 
-**Pathetique lets a passive item take an enemy hit for you.**
+**On enemy damage, Pathetique temporarily sacrifices one passive item and fully negates the hit.**
 
-On enemy damage:
+Sacrificed items lose their effects for now.
 
-1. temporarily remove one passive by quality-weighted roll and fully negate the hit;
-2. lower quality is likelier, not guaranteed;
-3. each sacrifice grants {{Tears}} **+0.5** tears;
-4. burst attack around Isaac;
-5. if no other passives remain, Pathetique sacrifices itself last.
+Lower-quality items are more likely to be chosen, but higher-quality ones are not safe.
 
-**Losing Pathetique returns every recorded sacrifice and clears the tears bonus.** Pathetique itself is not returned as an extra item; it already left when sacrificed or lost. Those passives are not permanently destroyed.
+Each sacrifice:
 
-### Example
+- {{Tears}} +0.5 tears;
+- releases an attack around Isaac.
 
-With Q0 / Q1 / Q3 / Q4 held, low quality is favored, but Q4 can still be chosen. Do not assume “Q4 is safe.”
+If no other passives remain to sacrifice, Pathetique sacrifices itself.
+
+### Return
+
+After losing Pathetique, previously sacrificed other items return over a short sequence, and the tears bonus from Pathetique is removed.
 
 ## Notes
 
-- Enemy damage only; blood banks / sacrifice rooms do not trigger.
-- Preference is weighted random, not strict lowest-first.
-- Losing Pathetique any other way still returns items after a short recovery beat.
+- Only enemy damage triggers this; blood banks, sacrifice rooms, and similar sources do not.
+- Selection only favors low quality; it is not a strict lowest-to-highest queue.
 
 ## Synergies
 
 ### {{Seija}}
 
-Still blocks via sacrifice, but grants no tears bonus.
+Still sacrifices items to block hits, but sacrifices no longer raise tears.
 
 ## Trivia
 
@@ -63,6 +63,6 @@ Inspired by Yu-Gi-Oh! Tearlaments: sacrificed items feel “sent to the GY” fo
 
 ### Return
 
-Per-player sacrifice records; losing Pathetique starts the refund and clears tears.
+Each player keeps their own sacrificed items; losing Pathetique returns them and clears the matching tears bonus.
 
 </details>

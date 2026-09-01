@@ -17,19 +17,18 @@ status: reviewed
 
 ## Effects
 
-**Each Fresh Death stores the effects of 3 random passives.**
+**Each Fresh Death grants the effects of 3 random passive items.**
 
-They are not real inventory collectibles. Fresh Death keeps them internally and shows them on the temporary-item HUD. Looking at Fresh Death in EID also lists the current icons.
+Those items are not added to the inventory as real collectibles, but their effects apply normally.
 
-Each extra copy stores another independent set of 3 effects.
+Each extra copy grants another set of 3 random passive effects.
 
-## Where it comes from
+## Source
 
-Fresh Death is mainly created when {{Item:the-suture-needle}} converts room pedestals.
+Fresh Death is mainly created when {{Item:the-suture-needle}} converts pedestals in the room.
 
-See that page for the full life cost and room rules; do not duplicate The Suture Needle's full kit here.
+See {{Item:the-suture-needle}} for the life cost and other conversion rules.
 
 ## Notes
 
-- Unrelated to {{Item:suture-needle}} (the ordinary Suture Needle active).
-- Book of Belial / Book of Virtues change which pools Fresh Death rolls when created by The Suture Needle—see that page.
+{{Item:suture-needle}} is a separate item and is unrelated to how Fresh Death is created.

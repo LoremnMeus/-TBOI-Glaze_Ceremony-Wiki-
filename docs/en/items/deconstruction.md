@@ -25,7 +25,7 @@ With one copy:
 - Up to **4 special rooms** can be moved outside the normal map.
 - Each moved special room returns **1 Cracked Key** on its first visit.
 
-For example, a Shop or Treasure Room that would normally connect to the floor may no longer appear along the regular route. The room itself is not gone: when you find it, it is still the same Shop or Treasure Room, but it must now be reached through red-room paths.
+For example, a Shop or Treasure Room that would normally connect to the floor may no longer appear along the regular route. The room itself is not gone: when you find it, it is still the same Shop or Treasure Room, but it must now be reached through newly opened Red Rooms.
 
 ### Which rooms can be moved
 
@@ -37,7 +37,7 @@ The following room types are never moved:
 - Boss Rooms;
 - Miniboss Rooms.
 
-A moved room does not turn into a normal red room. It keeps its original room type and contents.
+A moved room does not turn into an ordinary Red Room. It keeps its original room type and contents.
 
 ### Multiple Copies
 
@@ -60,4 +60,4 @@ If the floor does not contain enough eligible special rooms, fewer rooms will ac
 
 Cracked Keys do not directly reveal where the moved rooms are.
 
-You still need to explore red-room paths normally. Each moved special room returns 1 Cracked Key on its first visit.
+You still need to open Red Rooms and explore them as usual. Each moved special room returns 1 Cracked Key on its first visit.

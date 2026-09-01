@@ -82,7 +82,7 @@ Each color starts near **100%**. Key thresholds: **0%**, **below 50%**, **above 
 | <50% | Size +20% |
 | >90% | Size −20% |
 | >150% | 33% chance to block hits |
-| >250% | Much higher champion rate |
+| >250% | Much higher chance for champion enemies |
 
 ## Trivia
 

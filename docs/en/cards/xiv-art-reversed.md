@@ -6,7 +6,7 @@ kind: card
 internalKey: Art_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XIV - 艺术? XIV - Art? Art_r xiv-art-reversed XIV - Art? 艺术，就是爆炸 本房间中有意义的实体消失时发生固定规模爆炸 泪弹、敌弹、敌人和掉落物等都可触发 When meaningful entities vanish in this room, a fixed-size explosion triggers Tears, projectiles, enemies, pickups, and more can fire it</p>
+<p class="wiki-search-index" v-pre>XIV - 艺术? XIV - Art? Art_r xiv-art-reversed XIV - Art? 艺术，就是爆炸 本房间中有意义的实体消失时发生固定规模爆炸 泪弹、敌方弹幕、敌人和掉落物等都可触发 When meaningful entities vanish in this room, a fixed-size explosion triggers Tears, projectiles, enemies, pickups, and more can fire it</p>
 
 <PublicEntry slug="xiv-art-reversed" lang="en" />
 

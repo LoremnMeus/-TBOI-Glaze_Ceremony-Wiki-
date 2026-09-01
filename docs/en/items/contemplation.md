@@ -40,7 +40,7 @@ Being already on the Death Certificate floor will not trigger again.
 
 ## Special interactions
 
-### Zeis
+### {{Character:zeis}}
 
 After Contemplation triggers, Zeis does not automatically return after 1–3 seconds.
 
