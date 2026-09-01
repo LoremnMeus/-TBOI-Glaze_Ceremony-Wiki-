@@ -87,6 +87,11 @@ Remaster! rewrites that relationship as floors: after one character leaves the c
 - Both outbound and return crossings re-enter the corresponding stage and reseed that floor
 - To show the two timelines crossing, Remaster! saves the crossing character's appearance and recreates that character during later rift cinematics
 - After a return completes, if no related crossing remains pending for that record, it ends and is removed
-- Available floors include each chapter's main routes and variants (Basement, Cellar, Burning Basement, Downpour, Dross; Caves, Catacombs, Flooded Caves, Mines, Ashpit; Depths, Necropolis, Dank Depths, Mausoleum, Gehenna; Womb, Utero, Scarred Womb, Corpse), plus ???, Sheol, Cathedral, Dark Room, Chest, Void, and Home
+- Available floors by chapter:
+  - **Chapter 1**: Basement, Cellar, Burning Basement, Downpour, Dross
+  - **Chapter 2**: Caves, Catacombs, Flooded Caves, Mines, Ashpit
+  - **Chapter 3**: Depths, Necropolis, Dank Depths, Mausoleum, Gehenna
+  - **Chapter 4**: Womb, Utero, Scarred Womb, Corpse
+  - **Other**: ???, Sheol, Cathedral, Dark Room, Chest, Void, Home
 
 </details>

@@ -53,4 +53,8 @@ A shatter is also a counterattack: it fires fragments by former tier and may dro
 
 ## Special interactions
 
-- {{Seija}}: weakens how much the crown raises glazed-pickup spawn rates; halves shatter damage; tier 3 no longer raises refraction / enemy-glazing chances.
+### {{Seija}}
+
+- Weakens how much the crown raises glazed-pickup spawn rates
+- Halves shatter damage
+- At tier 3, no longer raises refraction / enemy-glazing chances

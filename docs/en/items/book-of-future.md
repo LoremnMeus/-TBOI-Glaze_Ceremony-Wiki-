@@ -70,7 +70,8 @@ If a use fails to finish writing enough "future," the book escapes with its part
 <details>
 <summary>Technical details</summary>
 
-- Target total quality: **50**; maximum pulls per use: **50** items.
+- Target total quality: **50**
+- Maximum pulls per use: **50** items
 - Both the "future" draws and the 4-choice candidates bind to the current room's item pool and consume it normally.
 - The 4-choice pedestals are assigned fresh IDs from that pool by the engine—not the afterimage items that were pulled away.
 - Afterimage color follows item quality.

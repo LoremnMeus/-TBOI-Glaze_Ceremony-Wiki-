@@ -22,7 +22,7 @@ Picking this up immediately spawns **2 random chests**.
 
 Afterwards:
 
-- when a Golden Chest would grant a collectible, that collectible is chosen from the “friend” list instead;
+- when a Golden Chest would grant a collectible, that collectible is chosen from the “friend” list instead
 - Normal and Spiked Chests have a **10%** chance to replace their drop with a “friend.”
 
 Finding a friend gives a clear cue.

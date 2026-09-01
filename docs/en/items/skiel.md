@@ -33,9 +33,9 @@ On trigger, several waves of tears spread outward.
 
 These tears:
 
-- fan out from the current firing direction;
-- link to neighboring tears;
-- deal about half of your damage each;
+- fan out from the current firing direction
+- link to neighboring tears
+- deal about half of your damage each
 - spawn in short succession, forming an expanding web.
 
 Firing also nudges you slightly along the attack direction.

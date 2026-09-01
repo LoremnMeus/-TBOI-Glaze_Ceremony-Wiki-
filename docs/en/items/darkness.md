@@ -24,7 +24,7 @@ Health becomes a soul-heart system, and the player gains **1** Black Heart. Dama
 
 Every **6** kills advances one step:
 
-- Prefer staining one full normal soul heart into a black heart (total health amount unchanged);
+- Prefer staining one full normal soul heart into a black heart (total health amount unchanged)
 - If no full soul heart remains but a half black heart sits at the end of the bar, fill it to a full black heart.
 
 ### Devil deals

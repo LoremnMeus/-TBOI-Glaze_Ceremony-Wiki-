@@ -20,8 +20,8 @@ status: reviewed
 
 Using it opens a selection interface. After choosing three inputs in order:
 
-- the **1st** collectible sets the result ID's **hundreds** digit;
-- the **2nd** sets the **tens** digit;
+- the **1st** collectible sets the result ID's **hundreds** digit
+- the **2nd** sets the **tens** digit
 - the **3rd** sets the **ones** digit.
 
 Slot order directly changes the outcome.

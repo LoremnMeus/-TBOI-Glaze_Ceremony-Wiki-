@@ -22,7 +22,7 @@ On use, **Memory vanishes immediately**. Whenever the game later tries to roll a
 
 It is not uniform random among owned items:
 
-- an item held **once** has weight **1**;
+- an item held **once** has weight **1**
 - extra copies add weight, so duplicates are more likely to appear again.
 
 Memory therefore pushes the build to collapse further toward items that have already been repeated.
@@ -71,6 +71,8 @@ When absorbed by Abyss, it becomes a colorful locust.
 - Candidates: all players' non-quest held collectibles; weight = held count per item.
 - {{Item:hypermnesia}} is in `ignorers` and bypasses replacement.
 - Book of Belial devil roll: **50%** when armed at use time.
-- All Memory wisps dead → effect cleared; duplicate gains buff wisp HP/scale; new room refills wisp HP.
+- All Memory wisps dead → effect cleared
+- Duplicate gains buff wisp HP/scale
+- New room refills wisp HP
 
 </details>

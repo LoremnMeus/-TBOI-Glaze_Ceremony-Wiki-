@@ -27,8 +27,10 @@ Speed, tears, damage, range, shot speed, luck.
 
 Suppose the roll shows **Damage / Luck / Tears**:
 
-- pick **Damage** → damage rises clearly;
-- **Luck** and **Tears** each dip a little.
+| Pick | Effect |
+| --- | --- |
+| **Damage** | damage rises clearly |
+| **Luck** / **Tears** | each dip a little |
 
 The next use rolls another trio until 10 picks are done.
 

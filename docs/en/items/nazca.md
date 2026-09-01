@@ -31,7 +31,7 @@ Standing on painted lines raises damage and speed, while enemies standing on the
 
 Denser lines underfoot:
 
-- {{Damage}} up;
+- {{Damage}} up
 - {{Speed}} up.
 
 Enemies on heated cells take periodic damage; denser lines hurt more.

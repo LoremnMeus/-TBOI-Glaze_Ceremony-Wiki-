@@ -33,10 +33,10 @@ A full trigger produces many rounds of four-way flames.
 
 The flames:
 
-- offset slightly each round;
-- form a wide crossing fire pattern;
-- vary slightly at random;
-- sometimes home toward enemies;
+- offset slightly each round
+- form a wide crossing fire pattern
+- vary slightly at random
+- sometimes home toward enemies
 - deal low damage individually, but appear in large numbers.
 
 ## The Three Factors

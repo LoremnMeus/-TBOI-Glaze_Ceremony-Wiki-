@@ -28,9 +28,11 @@ For ordinary characters, “normal capacity” is red-heart containers plus bone
 
 For example, with 6 red-heart containers of normal capacity:
 
-- 5 hearts of current health: grow;
-- heal back to 6: return to normal;
-- fill red hearts and then pick up a soul heart so total health exceeds 6: shrink.
+| Current health | Effect |
+| --- | --- |
+| 5 hearts | grow |
+| heal back to 6 | return to normal |
+| fill red hearts and pick up a soul heart so total health exceeds 6 | shrink |
 
 ## Special characters
 

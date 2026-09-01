@@ -21,8 +21,8 @@ status: reviewed
 
 It is not normal item-pool content. On pickup:
 
-- gain one Holy Mantle-style shield (as if using a Holy Card);
-- tiny ups to speed, tears, damage, luck, and shot speed;
+- gain one Holy Mantle-style shield (as if using a Holy Card)
+- tiny ups to speed, tears, damage, luck, and shot speed
 - a tiny range up as well.
 
 ## How it appears

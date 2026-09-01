@@ -88,11 +88,12 @@ Its sprite is redrawn from Spun-set collectibles such as {{Collectible:13}}; the
 
 **Reward pickups**
 
-- 1–5 coins, 1–2 bombs or keys, 1–2 batteries, 2–4 hearts;
-- cards or pills;
-- blue spiders or blue flies;
-- Pretty Fly or friendly Dips;
-- rarely, a collectible pedestal.
+- Random pickups may include:
+  - 1–5 coins, 1–2 bombs or keys, 1–2 batteries, 2–4 hearts
+  - cards or pills
+  - blue spiders or blue flies
+  - Pretty Fly or friendly Dips
+  - rarely, a collectible pedestal
 
 **Punishment stats (stacking)**
 
@@ -108,8 +109,9 @@ Its sprite is redrawn from Spun-set collectibles such as {{Collectible:13}}; the
 
 **Punishment effects**
 
-- Lose 10 coins, 3 bombs or keys, or your golden key or golden bomb;
-- lose 1 coin and an extra −1 Luck;
-- spawn Troll Bombs, Mega Troll Bombs, Golden Troll Bombs, and similar hazards.
+- Random punishments may include:
+  - lose 10 coins, 3 bombs or keys, or your golden key or golden bomb
+  - lose 1 coin and an extra −1 Luck
+  - spawn Troll Bombs, Mega Troll Bombs, Golden Troll Bombs, and similar hazards
 
 </details>

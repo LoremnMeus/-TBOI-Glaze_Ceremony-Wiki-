@@ -21,8 +21,8 @@ status: reviewed
 
 On damage, there is a **50%** chance to fully negate the hit and:
 
-- fire one special black tear in each cardinal direction;
-- deal about `5 × Damage` per tear;
+- fire one special black tear in each cardinal direction
+- deal about `5 × Damage` per tear
 - show strong dark / fear visuals.
 
 ## Synergies

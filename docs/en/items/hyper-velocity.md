@@ -54,6 +54,11 @@ The matching Abyss locust is extremely fast.
 <summary>Technical details</summary>
 
 - Charge: 3.
-- Enemies: `250 + 5 × Damage`; players: 5 damage; train crash: 1000-damage explosion at the meeting point with a heavy screen shake.
+
+| Target | Damage |
+| --- | --- |
+| Enemies | `250 + 5 × Damage` |
+| Players | 5 |
+| Train crash | 1000-damage explosion at the meeting point with heavy screen shake |
 
 </details>

@@ -18,16 +18,15 @@ status: reviewed
 
 Live Broadcast turns the run into an ongoing stream: **act → receive viewer chat → change popularity → alter chat density and gifts.**
 
-Viewers notice specific events such as:
-
-- finding a quality-4 item or leaving an item behind;
-- clearing a Boss Room;
-- taking damage or falling to very low health;
-- taking a bad pill;
-- facing an unaffordable or skipped shop item;
-- finding notable items such as Red Key or R Key;
-- spending a long time without moving or firing;
-- dying, including the Lost Soul's death.
+- Viewers notice specific events such as:
+  - finding a quality-4 item or leaving an item behind
+  - clearing a Boss Room
+  - taking damage or falling to very low health
+  - taking a bad pill
+  - facing an unaffordable or skipped shop item
+  - finding notable items such as Red Key or R Key
+  - spending a long time without moving or firing
+  - dying, including the Lost Soul's death
 
 ## Popularity
 

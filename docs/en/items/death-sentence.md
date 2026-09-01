@@ -21,7 +21,7 @@ status: reviewed
 
 - At full charge, automatically gain 1 random letter
 - Use opens the prediction panel to match item names with held letters
-- Matching ignores spaces; Chinese names use pinyin letters; other symbols become `=` wildcards
+- Matching ignores spaces, treats Chinese names as pinyin letters, and treats other symbols as `=` wildcards
 - {{BlankRune}} `=` covers symbol slots in names
 - {{Warning}} Spelling **FINAL** triggers the death-end logic immediately
 

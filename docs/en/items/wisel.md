@@ -32,9 +32,9 @@ A full trigger fires 6 large shockwave tears in succession.
 
 These waves:
 
-- pierce enemies;
-- home in;
-- keep growing;
+- pierce enemies
+- home in
+- keep growing
 - deal about 1.3× your damage each.
 
 Triggering also gives a light recoil.

@@ -89,6 +89,11 @@ Watch range covers the whole room, and Watcher explosions cannot hurt you.
 - Blast damage: player damage **×4 +20**
 - Pedestal watch radius: **130**
 - Pedestal targets: **1** (nearest)
-- Pedestal lock: about **90** frames; flat blast damage **30**; cooldown about **150** frames
+
+| Parameter | Value |
+| --- | --- |
+| Pedestal lock | about **90** frames |
+| Blast damage | flat **30** |
+| Cooldown | about **150** frames |
 
 </details>

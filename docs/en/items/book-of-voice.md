@@ -26,8 +26,11 @@ When a whisper is up, use the book and choose Accept or Refuse. Accept pays the 
 
 Each accept makes the voice clearer. As compliance deepens:
 
-- Max charge falls with compliance (minimum **1**), so whispers refill faster;
-- Later whispers lean toward heavier costs and richer rewards;
+- Normally **+1** compliance per accept; doubled accepts grant **+2**
+- At **9** compliance, release-ready begins
+- Max charge is `max(1, 6 − ⌊compliance/2⌋)`
+- Max charge falls with compliance (minimum **1**), so whispers refill faster
+- Later whispers lean toward heavier costs and richer rewards
 - Deep enough compliance unlocks “Destroy me”—accepting removes the book and leaves {{Item:the-voice}}.
 
 ## Refusal
@@ -72,7 +75,6 @@ Refusing still grants a small reward and advances clarity—defiance pushes comp
 <details>
 <summary>Technical details</summary>
 
-- Compliance +1 per accept (+2 if doubled); **9** enters release-ready; max charge `max(1, 6 − ⌊compliance/2⌋)`.
 - Release removes the book and grants The Voice; some accepts permanently raise a damage multiplier.
 
 </details>

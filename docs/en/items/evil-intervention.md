@@ -30,7 +30,7 @@ Firing can spawn a piercing homing butterfly tear. Higher luck raises the chance
 
 When the butterfly expires:
 
-- each eaten projectile returns one friendly tear;
+- each eaten projectile returns one friendly tear
 - swallowed laser energy returns multiple brimstone beams (more energy → more beams).
 
 <details>
