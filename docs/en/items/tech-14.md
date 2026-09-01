@@ -27,9 +27,9 @@ status: reviewed
 
 ### How it triggers
 
-- When an enemy crosses a link, a short laser fires and deals damage.
-- Triggering consumes one node and breaks that connection.
-- Nodes far from Isaac fade; stay near or re-lay wire.
+- When an enemy crosses the link between two adjacent limiters, a short laser fires.
+- Each trigger consumes one limiter and breaks that connection.
+- Limiters far from players and enemies fade out of sight; **they still exist** and reappear when someone approaches again.
 
 ## Tips
 
@@ -41,3 +41,12 @@ status: reviewed
 ### {{Collectible:706}}
 
 When absorbed by Abyss, the matching locust leaves technology limiters as it moves.
+
+<details>
+<summary>Technical details</summary>
+
+- Laser damage: fixed **1** (does not scale with Isaac's damage)
+- Laser length: about **40**
+- Duration: about **5** frames
+
+</details>

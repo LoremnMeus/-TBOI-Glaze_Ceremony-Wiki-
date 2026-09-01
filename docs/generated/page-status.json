@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T06:34:56Z",
+  "generatedAt": "2026-09-01T06:54:23Z",
   "pages": [
     {
       "slug": "darkness",
@@ -639,8 +639,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/day-dreamer.md",
       "en": "wiki/docs/en/items/day-dreamer.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "disequilibrium",

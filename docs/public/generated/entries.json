@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T06:34:56Z",
+  "generatedAt": "2026-09-01T06:54:23Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -12267,8 +12267,8 @@
         "en": "Wish you a better future"
       },
       "eid": {
-        "zh": "拾取时获得1朵花，每层开始时重新获得#{{Warning}} 受到敌人伤害会失去1朵花#靠近店主、撒旦或天使时，可以将花赠送给对方#不同对象会给予不同回礼",
-        "en": "Gain 1 flower on pickup and replenish it at the start of each floor#{{Warning}} Enemy damage destroys 1 flower#Approach a Keeper, Satan, or an Angel to give them a flower#Different recipients give different rewards"
+        "zh": "每份道具提供1朵花，每层开始时重新补充#{{Warning}} 受到敌人伤害会失去1朵花#靠近店长、撒旦或天使时，可以将花赠送给对方#根据收花者及所在房间获得不同回礼",
+        "en": "Each copy grants 1 flower; flower count resets to copies held at each new floor#{{Warning}} Enemy damage destroys 1 flower#Approach a Keeper, Satan, or an Angel to give them a flower#Rewards depend on the recipient and the room type"
       },
       "seijaBuff": {
         "zh": "",
@@ -12685,8 +12685,8 @@
         "en": "If only my wish would come true"
       },
       "eid": {
-        "zh": "每层开始时，在初始房间静止约5秒后入睡#在睡梦中选择心仪的4级道具#{{Timer}} 60秒后那个道具落到身上并在本层持续#按下 {{ButtonRT}} 提前确认当前梦想",
-        "en": "At the beginning of each floor, fall asleep in the starting room after standing still ~5s#Choose the desired quality 4 item in your sleep#{{Timer}} 60 seconds later, that item lands on Isaac for the floor#Press {{ButtonRT}} to confirm the current dream early"
+        "zh": "每层开始时，在起始房间静止约5秒进入梦境#梦见一个品质4道具，梦中按 {{ButtonLT}} 可放弃当前候选并等待下一件#{{Timer}} 约60秒后醒来，获得当前候选的效果直到本层结束#{{Warning}} 离开起始房前没有入睡，本层将无法再次做梦",
+        "en": "At floor start, stand still ~5s in the starting room to enter a dream#Dream a quality 4 item; press {{ButtonLT}} to discard it and wait for the next#{{Timer}} After ~60s, wake with the current pick's effect for the floor#{{Warning}} If you leave the start room before sleeping, no dream this floor"
       },
       "seijaBuff": {
         "zh": "",
@@ -12694,7 +12694,7 @@
       },
       "seijaNerf": {
         "zh": "改为梦见0级道具",
-        "en": "Dream about quality 0 items"
+        "en": "Dream quality 0 items instead"
       },
       "bookOfVirtues": {
         "zh": "",

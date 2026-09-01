@@ -30,8 +30,13 @@ Each tear re-seeks at most **3** times. Damage scales after successful re-seeks:
 | 2 | ×1.30 |
 | 3 | ×1.50 |
 
-Clear line flies straight; otherwise it may path around. Spectral tears still ignore walls. If blocked with no path, it may slide along walls; failing that, seeking ends.
+How seeking paths:
+
+- With a clear line, the tear flies straight to the target.
+- When blocked, it tries to find a detour.
+- Spectral tears keep their ability to pass walls while seeking.
+- If no route exists, the tear may slide along walls; if it still cannot free itself, that seek ends.
 
 ## Notes
 
-Some special tears do not participate, such as Ludovico-style tears.
+Ludovico and some orbiting tears do not participate in seeking.
