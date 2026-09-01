@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T04:06:26Z",
+  "generatedAt": "2026-09-01T04:38:33Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -21819,7 +21819,7 @@
         "en": "Looking for Assimilation"
       },
       "eid": {
-        "zh": "将房间内的道具随机变为同色道具#{{Coin}}{{Heart}}{{Key}}{{Bomb}}{{GrabBag}}{{Battery}}{{Poop}} 等基础掉落变为对应的琉璃版本#敌人琉璃化",
+        "zh": "将房间内的道具随机变为同色道具#常见基础掉落变为对应的琉璃版本 {{Coin}}{{Heart}}{{Key}}{{Bomb}}{{GrabBag}}{{Battery}}{{Poop}}#敌人琉璃化",
         "en": "Rerolls collectibles in the room into random items of matching colors#Common pickups are converted into their glazed counterparts#Enemies become glazed"
       },
       "seijaBuff": {
@@ -22370,8 +22370,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Card}} 预言下一张会被使用的透特牌#预言命中时获得奖励并返还召唤者",
-        "en": "{{Card}} Foretell the next Thoth card that will be used#On a hit, gain a reward and return the Invoker"
+        "zh": "从原版塔罗与透特牌中随机预言1张牌面#之后使用该牌面时，生成1张随机卡牌并返还{{Card:i-the-invoker}}#{{Collectible:451}} 预言3张牌面，每张命中生成2张随机卡牌",
+        "en": "Foretell 1 random face from vanilla tarot and Thoth cards#When that face is used, spawn 1 random card and return {{Card:i-the-invoker}}#{{Collectible:451}} Foretell 3 faces; each hit spawns 2 random cards"
       },
       "seijaBuff": {
         "zh": "",
@@ -25885,8 +25885,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "持有时记录你受到的有效伤害#使用后将累计值转化为心类奖励并清空记录",
-        "en": "While held, record effective damage taken#On use, convert the total into heart rewards and clear the record"
+        "zh": "持有时，较轻的伤害会提高至1.5颗心，并记录每次有效受伤#使用后，每次记录生成1个{{SoulHeart}}，并清空累计#{{Collectible:451}} 奖励改为{{BlendedHeart}}",
+        "en": "While held, lighter hits are raised to 1.5 hearts and each effective hit is recorded#On use, spawn 1 {{SoulHeart}} per record and clear the count#{{Collectible:451}} Payout becomes {{BlendedHeart}}"
       },
       "seijaBuff": {
         "zh": "",

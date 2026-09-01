@@ -1,12 +1,12 @@
 ---
 title: I - The Invoker
-description: "Foretell the next Thoth card that will be used On a hit, gain a reward and return the Invoker"
+description: "Foretell 1 random face from vanilla tarot and Thoth cards When that face is used, spawn 1 random card and return Tarot Cloth Foretell 3 faces; each hit spawns 2 random cards"
 slug: i-the-invoker
 kind: card
 internalKey: Invoker
-status: reviewed
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>I - 魔启 I - The Invoker Invoker i-the-invoker I - The Invoker 我将启迪 预言下一张会被使用的透特牌 预言命中时获得奖励并返还召唤者 Foretell the next Thoth card that will be used On a hit, gain a reward and return the Invoker</p>
+<p class="wiki-search-index" v-pre>I - 魔启 I - The Invoker Invoker i-the-invoker I - The Invoker 我将启迪 从原版塔罗与透特牌中随机预言1张牌面 之后使用该牌面时，生成1张随机卡牌并返还 塔罗牌桌布 预言3张牌面，每张命中生成2张随机卡牌 Foretell 1 random face from vanilla tarot and Thoth cards When that face is used, spawn 1 random card and return Tarot Cloth Foretell 3 faces; each hit spawns 2 random cards</p>
 
 <PublicEntry slug="i-the-invoker" lang="en" />
 
@@ -19,24 +19,37 @@ status: reviewed
 
 ## Effects
 
-After use, predicts **card faces that are truly used later** and immediately shows the current prediction; predictions persist across rooms until they hit.
+After use, randomly foretells **1 face** from vanilla tarot and Thoth cards and shows the prediction.
 
-Candidates come from a full tarot-related set: vanilla upright and reversed tarot, plus this mod's Thoth cards. The same face does not repeat within one prediction display. Using it multiple times can stack hit counts on the same face.
+When that face is later used, the prophecy pays out:
 
-## Prophecy
+- Spawns **1 random card**;
+- Respawns **1 {{Card:i-the-invoker}}**.
 
-When a later card use hits a still-valid prediction:
+Predictions that have not hit yet stay active.
 
-- Spawn that many random {{Card}} rewards (matching the stacked hit count), with a holy-light cue;
-- Respawn a {{Card:i-the-invoker}} for the player to pick up so the next round can begin;
-- Clear that face's prediction count.
+## Foretell pool
 
-Cards **simulated** by effects such as {{Item:book-of-thoth}} still count as hits if they resolve through normal card-use settlement—it is not limited to cards played by hand from the pocket slot.
+The pool includes:
 
-Missed predictions are not cleared automatically by leaving rooms or failing.
+- Vanilla upright tarot;
+- Vanilla reversed tarot;
+- This mod's Thoth cards.
+
+Using {{Card:i-the-invoker}} again adds more predictions.
+
+If the same face is foretold multiple times, those counts stack; a hit spawns that many random cards.
+
+## Triggers
+
+Any real use of the predicted face resolves the prophecy.
+
+Indirect activation through other items or card effects counts too.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Forecast **3** different faces at once. Each face tracks hits independently.
+Foretells **3 different faces** at once, recording **2** predictions on each.
+
+When any of those faces hits, spawn **2** random cards.

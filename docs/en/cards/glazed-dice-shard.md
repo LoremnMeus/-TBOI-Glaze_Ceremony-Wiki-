@@ -6,7 +6,7 @@ kind: card
 internalKey: SubType
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>琉璃的骰子碎片 Glaze Dice Shard SubType glazed-dice-shard Glazed Dice Shard 我的模仿者在何方？何方？何方？ Looking for Assimilation 将房间内的道具随机变为同色道具 等基础掉落变为对应的琉璃版本 敌人琉璃化 Rerolls collectibles in the room into random items of matching colors Common pickups are converted into their glazed counterparts Enemies become glazed</p>
+<p class="wiki-search-index" v-pre>琉璃的骰子碎片 Glaze Dice Shard SubType glazed-dice-shard Glazed Dice Shard 我的模仿者在何方？何方？何方？ Looking for Assimilation 将房间内的道具随机变为同色道具 常见基础掉落变为对应的琉璃版本 敌人琉璃化 Rerolls collectibles in the room into random items of matching colors Common pickups are converted into their glazed counterparts Enemies become glazed</p>
 
 <PublicEntry slug="glazed-dice-shard" lang="en" />
 

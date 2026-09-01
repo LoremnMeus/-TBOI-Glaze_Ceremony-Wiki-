@@ -19,9 +19,9 @@ status: reviewed
 
 ## Effects
 
-After use, picks one **non-normal room type that already exists** on the floor, marks every room of that type as visible, and later spawns portals into other special rooms when you enter a room of that type.
+After use, randomly reveals one special room type on the current floor.
 
-What you see: a room type is named and map-marked first, then a ring of enterable portals appears at the right moment so you can jump to other special rooms on the floor ({{DevilRoom}}, {{AngelRoom}}, {{ErrorRoom}}, Boss Rush, Black Market, Mega Satan, and similar candidates).
+The first time you enter a room of that type, multiple portals appear in the room, letting you reach other special rooms on the floor and a few special areas.
 
 ## Room selection
 

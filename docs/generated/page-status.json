@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T04:06:26Z",
+  "generatedAt": "2026-09-01T04:38:33Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1303,8 +1303,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/i-the-invoker.md",
       "en": "wiki/docs/en/cards/i-the-invoker.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "i-the-wizard",
@@ -1567,8 +1567,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xi-lure-reversed.md",
       "en": "wiki/docs/en/cards/xi-lure-reversed.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "xii-the-hanged-man-reversed",
