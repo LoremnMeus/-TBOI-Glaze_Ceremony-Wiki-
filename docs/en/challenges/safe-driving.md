@@ -6,7 +6,7 @@ kind: challenge
 internalKey: Safe_Driving
 status: featured
 ---
-<p class="wiki-search-index" v-pre>挑战：安全驾驶 Safe Driving Safe_Driving safe-driving Safe Driving 伯大尼开局 !!! 无法发射眼泪 蓄满专用充能后，朝攻击方向发出和谐号列车撞击敌人 难度等级：普通 Play as Bethany !!! Cannot shoot tears After the special charge fills, fire a Hyper Velocity train in your attack direction Difficulty: Normal</p>
+<p class="wiki-search-index" v-pre>挑战：安全驾驶 Safe Driving Safe_Driving safe-driving Safe Driving 伯大尼开局 !!! 无法发射眼泪 蓄满专用充能后，朝攻击方向发出 和谐号 列车撞击敌人 难度等级：普通 Play as Bethany !!! Cannot shoot tears After the special charge fills, fire a Hyper Velocity train in your attack direction Difficulty: Normal</p>
 
 <PublicEntry slug="safe-driving" lang="en" />
 
