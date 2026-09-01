@@ -28,9 +28,7 @@ Each accept makes the voice clearer. As compliance deepens:
 
 - Normally **+1** compliance per accept; doubled accepts grant **+2**
 - At **9** compliance, release-ready begins
-- Max charge is `max(1, 6 − ⌊compliance/2⌋)`
-- Max charge falls with compliance (minimum **1**), so whispers refill faster
-- Later whispers lean toward heavier costs and richer rewards
+- Max charge falls with compliance to a minimum of **1**: `max(1, 6 − ⌊compliance/2⌋)`
 - Deep enough compliance unlocks “Destroy me”—accepting removes the book and leaves {{Item:the-voice}}.
 
 ## Refusal

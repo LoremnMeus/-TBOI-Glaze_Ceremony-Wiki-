@@ -34,11 +34,10 @@ The next time you obtain Book of Future, drawing resumes from that saved progres
 
 - **The room you use it in decides both which pool pays the cost and which pool supplies the 4-choice candidates.** Treasure, Shop, Devil, Angel, and other room types each bind cost and reward to that room's pool.
 - Drawn items are shown only as afterimages; they are not part of the selection.
-- A single use attempts at most **50** pulls; it usually stops earlier once total quality reaches 50.
 
 ## Tips
 
-- **Where you open the book sets both the cost and the reward.** If you still need a rare pool later, do not burn it for an immediate 4-choice; a pool you no longer value is a better place to pay.
+- If you still need a rare pool later, do not burn it for an immediate 4-choice; a pool you no longer value is a better place to pay.
 - The fewer floors remain in a run, the fewer later routes can be affected by pool contents drawn early.
 
 ## Special interactions
