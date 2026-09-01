@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T03:35:31Z",
+  "generatedAt": "2026-09-01T04:06:26Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -21819,8 +21819,8 @@
         "en": "Looking for Assimilation"
       },
       "eid": {
-        "zh": "将所有掉落物转化为它们的琉璃版本 #将房间内所有道具变成与他们同色的随机道具#!!! 一个道具可能有多种颜色",
-        "en": "Converts all pickups to their glazed versions#Morph all items in the room into random same-color items#!!! An item may have more than one color"
+        "zh": "将房间内的道具随机变为同色道具#{{Coin}}{{Heart}}{{Key}}{{Bomb}}{{GrabBag}}{{Battery}}{{Poop}} 等基础掉落变为对应的琉璃版本#敌人琉璃化",
+        "en": "Rerolls collectibles in the room into random items of matching colors#Common pickups are converted into their glazed counterparts#Enemies become glazed"
       },
       "seijaBuff": {
         "zh": "",
@@ -22802,8 +22802,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "在当前房间开启通往额外房间的特殊入口",
-        "en": "Open special doorways in the current room that lead to extra rooms"
+        "zh": "使用后，沿当前房间墙面尽可能生成通往本层特殊房间的门#原有普通门暂时关闭",
+        "en": "After use, spawn as many special doors as possible along this room's walls to special rooms on this floor#Normal doors are temporarily closed"
       },
       "seijaBuff": {
         "zh": "",
@@ -23337,8 +23337,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "随机生成一个本局失去过的道具，优先被动道具#{{Collectible36}} 没有这样的道具：生成摸过的大便",
-        "en": "Randomly spawn one lost item (prefer passives)#{{Collectible36}} If none: spawn a touched Poop"
+        "zh": "随机生成一个本局失去过的道具，优先被动道具",
+        "en": "Randomly spawn one lost item (prefer passives)"
       },
       "seijaBuff": {
         "zh": "",

@@ -22,8 +22,6 @@ After use, spawns a rainbow portal in the current room.
 
 The portal lasts until the end of the floor and can be entered repeatedly. Each entry re-rolls a special room on this floor and teleports you there.
 
-Using the same portal back-to-back can therefore send you to different rooms.
-
 ## Synergies
 
 ### {{Collectible:451}}

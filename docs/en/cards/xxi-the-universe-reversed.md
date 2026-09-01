@@ -18,18 +18,14 @@ status: drafted
 
 ## Effects
 
-On use, randomly removes one held item. That item can only be reclaimed on the next floor.
+After use, randomly removes 1 collectible the player holds.
 
-On the next floor, {{Card:xxi-the-universe-reversed}} reappears near the original user. Using it again drops the stored item back onto the ground.
+On the next floor, {{Card:xxi-the-universe-reversed}} reappears near the original user; using it again drops the removed item back onto the ground.
 
-## Return
-
-- Storage begins only after the item is truly removed from the character.
-- Both the return card and the stored item bind to the original user; in co-op others cannot steal the return card by collision.
-- After a successful return, that pending reclaim clears at once.
+In co-op, that return card belongs only to the player who first used it; others cannot take it. After the item is successfully reclaimed, this effect ends.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-The returned item appears fully refreshed; a normal return is touched and empty-charge.
+The returned item appears as a freshly spawned pickup; otherwise active items come back with empty charge.

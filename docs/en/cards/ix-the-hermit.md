@@ -1,12 +1,12 @@
 ---
 title: IX - The Hermit
-description: "Randomly spawn one lost item (prefer passives) The Poop If none: spawn a touched Poop"
+description: "Randomly spawn one lost item (prefer passives)"
 slug: ix-the-hermit
 kind: card
 internalKey: Hermit
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成一个本局失去过的道具，优先被动道具 大便 没有这样的道具：生成摸过的大便 Randomly spawn one lost item (prefer passives) The Poop If none: spawn a touched Poop</p>
+<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成一个本局失去过的道具，优先被动道具 Randomly spawn one lost item (prefer passives)</p>
 
 <PublicEntry slug="ix-the-hermit" lang="en" />
 
