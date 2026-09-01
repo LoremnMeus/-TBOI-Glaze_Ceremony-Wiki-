@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T14:24:30Z",
+  "generatedAt": "2026-09-01T14:44:17Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -14122,8 +14122,8 @@
         "en": "Return three, draw three..."
       },
       "eid": {
-        "zh": "{{Rune}} 首次拾取生成1张随机符文#{{Rune}} 本房间每使用1张符文，累计1次兑换，最多3次#使用本书，按累计次数生成等量随机符文#{{Rune}} 持有符文时，可额外携带1张卡牌或药丸#离开房间时清空未兑换次数",
-        "en": "{{Rune}} First pickup spawns 1 random rune#{{Rune}} Each rune used this room adds 1 redeem, up to 3#Use the book to spawn that many random runes#{{Rune}} Carry 1 extra card or pill while holding a rune#Unused redeems clear on leaving the room"
+        "zh": "{{Rune}} 首次拾取生成1张随机符文#{{Rune}} 本房间每使用1张符文，记录1次，最多3次#使用本书，按记录数生成等量随机符文#{{Rune}} 持有符文时，可额外携带1张卡牌或药丸#离开房间时清空记录",
+        "en": "{{Rune}} First pickup spawns 1 random rune#{{Rune}} Each rune used this room records 1 use, up to 3#Use the book to spawn that many random runes#{{Rune}} Carry 1 extra card or pill while holding a rune#Leaving the room clears the record"
       },
       "seijaBuff": {
         "zh": "",
@@ -14518,7 +14518,7 @@
         "en": "I"
       },
       "eid": {
-        "zh": "!!! 一次性#使用后举起道具，按攻击方向确认#{{Collectible580}} 沿所选方向连续开启红房，直到无法继续#举起后再次使用可取消选择",
+        "zh": "!!! 一次性#使用后举起道具，按攻击方向确认#{{Collectible580}} 沿所选方向连续开启红房间，直到无法继续#举起后再次使用可取消选择",
         "en": "!!! SINGLE USE#Lift it overhead, then press a fire direction to confirm#{{Collectible580}} Opens Red Rooms along that direction until blocked#Press active again while raised to cancel"
       },
       "seijaBuff": {

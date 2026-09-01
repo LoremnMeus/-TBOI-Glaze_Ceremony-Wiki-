@@ -17,22 +17,22 @@ status: reviewed
 
 ## Effects
 
-**Evil Intervention has a chance to fire a butterfly tear that can eat enemy shots and snip enemy lasers; when it expires, absorbed attacks return as friendly fire.**
+**Attacks have a chance to fire a piercing, homing butterfly tear; higher luck makes it more likely.**
 
-Firing can spawn a piercing homing butterfly tear. Higher luck raises the chance.
+Butterfly tears can also absorb enemy attacks.
 
 ### Absorbed attacks
 
-- **Enemy projectiles**: eaten on contact (+1 count).
-- **Enemy lasers**: snipped and attached to the butterfly, building energy over time.
+- **Enemy projectiles**: eaten on contact.
+- **Enemy lasers**: snipped on contact; longer contact stores more power.
 
 ### Returned attacks
 
 When the butterfly expires:
 
 - each eaten enemy projectile returns 1 friendly tear;
-- if any enemy laser was absorbed, extra Brimstone beams are fired from that stored energy;
-- each laser-energy tier adds **3** Brimstone beams.
+- if any enemy laser was absorbed, extra Brimstone is also released;
+- the longer it stayed on an enemy laser, the more Brimstone is released.
 
 <details>
 <summary>Technical details</summary>
@@ -40,11 +40,11 @@ When the butterfly expires:
 Butterfly tear chance scales with luck:
 
 - about **8.7%** at Luck 0;
-- rises with luck;
+- higher luck raises the chance;
 - caps at **20%** when Luck reaches **7**.
 
 </details>
 
 ## Tips
 
-Against sustained lasers, steer the butterfly into the beam to bank a later brimstone dump.
+Against sustained lasers, steer the butterfly through the beam longer to bank a larger Brimstone return.

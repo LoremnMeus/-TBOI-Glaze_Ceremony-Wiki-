@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Book_of_Rune
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>卢恩之书 Book of Rune Book_of_Rune book-of-rune Book of Rune 回三，抽三，回三，抽三... Return three, draw three... 首次拾取生成1张随机符文 本房间每使用1张符文，累计1次兑换，最多3次 使用本书，按累计次数生成等量随机符文 持有符文时，可额外携带1张卡牌或药丸 离开房间时清空未兑换次数 First pickup spawns 1 random rune Each rune used this room adds 1 redeem, up to 3 Use the book to spawn that many random runes Carry 1 extra card or pill while holding a rune Unused redeems clear on leaving the room</p>
+<p class="wiki-search-index" v-pre>卢恩之书 Book of Rune Book_of_Rune book-of-rune Book of Rune 回三，抽三，回三，抽三... Return three, draw three... 首次拾取生成1张随机符文 本房间每使用1张符文，记录1次，最多3次 使用本书，按记录数生成等量随机符文 持有符文时，可额外携带1张卡牌或药丸 离开房间时清空记录 First pickup spawns 1 random rune Each rune used this room records 1 use, up to 3 Use the book to spawn that many random runes Carry 1 extra card or pill while holding a rune Leaving the room clears the record</p>
 
 <PublicEntry slug="book-of-rune" lang="en" />
 
@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Book of Rune records how many runes you used in the current room, then converts that record into new random runes.**
+**Book of Rune records how many runes you used in the current room, then spawns that many new random runes.**
 
 On first pickup, it also spawns **1 random rune**.
 
@@ -26,7 +26,7 @@ In the current room:
 1. Each rune you use yourself adds 1 to the record;
 2. The record caps at **3**;
 3. Using the book spawns that many random runes;
-4. The record clears after cash-out;
+4. The record clears after use;
 5. Leaving the room also clears any unused record.
 
 Drawn runes are re-rolled; they need not match the ones just spent.

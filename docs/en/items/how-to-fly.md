@@ -41,8 +41,8 @@ Spawns a wisp that drifts down from the current height.
 
 ## Trivia
 
-A conceptual flip of vanilla {{Collectible:282}} **How to Jump**.
+A conceptual flip of vanilla {{Collectible:282}}.
 
-How to Jump takes Mario-style hops; How to Fly takes **Flappy Bird**—repeated active uses to flap and hold altitude.
+How to Jump takes Mario-style hops; How to Fly takes **Flappy Bird**—repeated uses to flap and hold altitude.
 
 The flavor line “Tap Tap tap!” points at that cadence.

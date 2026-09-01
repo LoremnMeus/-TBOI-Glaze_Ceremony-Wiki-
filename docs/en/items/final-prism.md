@@ -36,16 +36,16 @@ After stopping, it resumes automatic recharge.
 
 Using Final Prism again while already firing:
 
-- Spends about **10 charge**;
+- Spends **10 charge**;
 - Adds **3** beams to the current set.
 
-You can stack this as long as enough charge remains to keep firing.
+You can keep adding beams while firing, but that also drains the remaining charge faster.
 
 ### Sustained fire
 
-Reaching the full form takes a long continuous hold.
+A base full charge lasts about **20 seconds**, enough for every beam to reach full damage.
 
-A base full charge usually lasts about **20 seconds**, enough for beams to reach full damage rate; with extra charge sources:
+With extra charge sources:
 
 - Around **40 seconds**, beams fully converge visually as well.
 

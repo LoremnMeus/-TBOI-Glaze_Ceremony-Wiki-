@@ -21,7 +21,7 @@ status: reviewed
 
 Touching it lifts Isaac into a separate Chasm room.
 
-The Chasm is not an extension of a normal Secret or Red Room—it is an extra area with its own layouts and rewards.
+The Chasm is not part of the normal floor map—it is an independent extra area with its own layouts and rewards.
 
 While inside, Darkness curse is temporarily applied; leaving clears it.
 

@@ -34,13 +34,15 @@ On trigger:
 2. Stay for **1, 2, or 3 seconds**;
 3. Then teleport to the room that was about to be entered.
 
-Only **unexplored** rooms roll. Being already on the Death Certificate floor will not trigger again.
+Only door entries into unexplored rooms roll; other entry methods such as teleports do not.
+
+Being already on the Death Certificate floor will not trigger again.
 
 ## Special interactions
 
 ### Zeis
 
-Zeis does not start the normal 1–3 second auto-return timer after Contemplation triggers.
+After Contemplation triggers, Zeis does not automatically return after 1–3 seconds.
 
 ## Tips
 
