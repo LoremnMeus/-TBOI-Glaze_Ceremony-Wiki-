@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Final_Prism
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>最终棱镜 Final Prism Final_Prism final-prism Final Prism 异世界的赠礼 A gift from another world 自动恢复充能 使用后维持6道彩色激光，并持续消耗充能 持续照射时，光束会逐渐聚拢并大幅增强 再次使用可额外消耗充能，增加光束数量 Recharges automatically Maintains 6 rainbow lasers while draining charge Beams gradually converge and grow much stronger Use again to spend extra charge and add more beams</p>
+<p class="wiki-search-index" v-pre>最终棱镜 Final Prism Final_Prism final-prism Final Prism 异世界的赠礼 A gift from another world 未开启时自动恢复充能 使用后持续发射6道彩色激光，并不断消耗充能 持续照射时，光束逐渐聚拢并增强 照射中再次使用：消耗10充能，光束+3 Recharges automatically while inactive On use, fires 6 colored lasers and drains charge Beams gradually converge and grow stronger while held While active, use again: spend 10 charge, +3 beams</p>
 
 <PublicEntry slug="final-prism" lang="zh" />
 
@@ -17,19 +17,48 @@ status: reviewed
 
 ## 效果
 
-**最终棱镜持续照射时会逐渐增强；维持期间消耗充能，再次使用可额外消耗充能增加光束数量。**
+**最终棱镜会持续发射一组彩色激光。照射时间越长，光束越集中，伤害也越高。**
 
-使用后持续发射 **6** 道彩色激光。持续照射会让光束逐渐聚拢并增强。
+未开启时，最终棱镜会自动恢复充能。
+
+使用后：
+
+- 开始持续发射 **6 道彩色激光**；
+- 开启期间不断消耗充能；
+- 充能耗尽后停止照射；
+- 持续照射时，光束会逐渐向瞄准方向聚拢，并不断提高伤害。
+
+基础满充约可连续维持 **20 秒**。
+
+停止照射后，最终棱镜会重新自动恢复充能。
+
+### 增加光束
+
+已经处于照射状态时再次使用最终棱镜，会：
+
+- 额外消耗约 **10 点充能**；
+- 当前光束数量增加 **3 道**。
+
+可以多次追加光束，只要仍有足够充能维持照射。
+
+### 持续照射
+
+最终棱镜需要相当长的连续照射时间才能成长到完整状态。
+
+基础满充通常可以维持到约 **20 秒**，此时单束激光可成长到完整伤害倍率；若通过其他充能效果继续维持：
+
+- 约 **40 秒**时，光束会进一步完全聚拢。
+
+## 特殊联动
+
+### {{Collectible:34}}
+
+激光外观与攻击形式转为彼列书对应的硫磺火表现。
+
+### {{Collectible:584}}
+
+生成会与角色同步发射最终棱镜光束的魂火。
 
 ## 轶事
 
-- 名称、视觉与攻击方式参考《泰拉瑞亚》Final Prism。
-
-<details>
-<summary>技术细节</summary>
-
-- 满充大约只能维持十余秒，需要边打边等自动回充。
-- 约 **40** 秒持续照射可达到完整形态。
-- 已开启时再按主动，额外花费约 **10** 点充能，光束数量 **+3**。
-
-</details>
+名称、视觉表现和持续聚拢的攻击方式参考《泰拉瑞亚》的 Final Prism。

@@ -17,13 +17,20 @@ status: reviewed
 
 ## Effects
 
-**Chasm drops a hanger in related Secret Rooms leading into a separate Chasm extra area.**
+**While holding Chasm, Secret Rooms gain a hanger leading to the “Chasm.”**
 
-While held, a hanger appears in {{SecretRoom}} Secret Rooms (and the greed-mode counterpart). Touch it to be lifted into a custom Chasm room—not a normal red room or an extension of the secret room. It shows its own area name and applies darkness.
+Touching it lifts Isaac into a separate Chasm room.
 
-Inside are extra rewards and a self-contained layout. Leave only via the return hanger; it sends you back to a safe spot.
+The Chasm is not an extension of a normal Secret or Red Room—it is an extra area with its own layouts and rewards.
 
-## Notes
+While inside, Darkness curse is temporarily applied; leaving clears it.
 
-- The Chasm does not leave ordinary doors you can walk back through.
-- While you still hold the item, you can re-enter through the Secret Room hanger.
+### Returning
+
+The Chasm does not keep ordinary doors.
+
+Use the hanger in the room to return to the original floor.
+
+Isaac is placed back in a safe spot.
+
+As long as Chasm is still held, entering a Secret Room again can reopen the hanger route.

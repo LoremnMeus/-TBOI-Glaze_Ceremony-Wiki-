@@ -30,13 +30,18 @@ Firing can spawn a piercing homing butterfly tear. Higher luck raises the chance
 
 When the butterfly expires:
 
-- each eaten projectile returns one friendly tear
-- swallowed laser energy returns multiple brimstone beams (more energy → more beams).
+- each eaten enemy projectile returns 1 friendly tear;
+- if any enemy laser was absorbed, extra Brimstone beams are fired from that stored energy;
+- each laser-energy tier adds **3** Brimstone beams.
 
 <details>
 <summary>Technical details</summary>
 
-Chance uses `check_rand(Luck, 20, 5, 7)`: about **8.7%** at Luck 0, capped at **20%** when Luck ≥ **7**.
+Butterfly tear chance scales with luck:
+
+- about **8.7%** at Luck 0;
+- rises with luck;
+- caps at **20%** when Luck reaches **7**.
 
 </details>
 

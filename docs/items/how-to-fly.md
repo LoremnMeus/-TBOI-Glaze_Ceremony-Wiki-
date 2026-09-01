@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Book_of_How_to_Fly
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>论如何飞行 How to Fly Book_of_How_to_Fly how-to-fly How to Fly 点击，点击，再点击！ Tap Tap tap! 使用后向上跳跃，随后逐渐落下 连续使用可以不断升高 飞得足够高时，可以越过障碍与敌人 Leap upward on use, then gradually fall Use repeatedly to keep climbing At sufficient height, pass over obstacles and enemies</p>
+<p class="wiki-search-index" v-pre>论如何飞行 How to Fly Book_of_How_to_Fly how-to-fly How to Fly 点击，点击，再点击！ Tap Tap tap! 使用时向上扑动，随后逐渐落下 下落前再次使用，可以继续升高 飞得足够高时，可以越过障碍与敌人 Flap upward on use, then gradually fall Use again before landing to keep climbing At sufficient height, pass over obstacles and enemies</p>
 
 <PublicEntry slug="how-to-fly" lang="zh" />
 
@@ -17,29 +17,32 @@ status: reviewed
 
 ## 效果
 
-**论如何飞行是一本跳跃手册，不是直接获得永久飞行。**
+**每次使用都会让角色向上扑动一次。像 Flappy Bird 一样反复使用，就能在落地前不断重新抬高。**
 
-### 怎么操作
+- 使用一次：向上升起，随后逐渐下落。
+- 下落途中再次使用：重新向上抬升。
+- 连续使用：可以不断提高并维持当前高度。
 
-- 按一次：跳起再落下。
-- 连按：可以在落地前再次抬升，叠出更高高度。
-- 不按：按曲线落下；落地后恢复正常碰撞。
+当角色升到足够高的位置时，可以从障碍和敌人上方越过。
 
-高度足够时（视觉升空足够高）可以越过障碍、暂时不与实体碰撞；高度不够就只是普通弹跳。
+如果停止使用，角色会逐渐落回地面，并恢复正常碰撞。
 
-## 注意
-
-- **它不会把角色变成永久 Flight 状态。** 需要反复使用来维持越障高度。
-- 车载电池会让单次抬升更高。
+本道具不会提供永久飞行；高度需要靠连续使用维持。
 
 ## 特殊联动
 
 ### {{Collectible:34}}
-可从当前高度向下抛射眼泪。
+
+每次使用时，从角色当前高度向下发射一颗泪弹。
 
 ### {{Collectible:584}}
-魂火会从高处飘落。
+
+生成从角色当前高度逐渐向下飘落的魂火。
 
 ## 轶事
 
-- 灵感来自 Flappy Bird。
+本道具是原版 {{Collectible:282}} **论如何跳跃**的概念翻版。
+
+论如何跳跃参考 Mario，以一次次跳跃来越过障碍；论如何飞行则参考 **Flappy Bird**，需要反复使用主动道具，让角色一次次向上扑动来保持高度。
+
+风味文本「点击，点击，再点击！」同样指向这种操作方式。

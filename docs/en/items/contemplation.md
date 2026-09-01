@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Contemplation
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象窥井 Contemplation Contemplation contemplation Contemplation III III 穿门进入未探索房间时，每份本道具有4%概率窥见死亡证明层 短暂进入其中的随机房间 1-3秒后继续前往原本的目标房间 When entering an unexplored room through a door, each copy has a 4% chance to glimpse the Death Certificate floor Briefly visit a random room there Continue to the original destination after 1-3 seconds</p>
+<p class="wiki-search-index" v-pre>天象窥井 Contemplation Contemplation contemplation Contemplation III III 死亡证明 进入未探索的房间时，有4%概率短暂进入死亡证明层 每多持有1份，概率+4% 1-3秒后进入原本要去的房间 Death Certificate Entering an unexplored room has a 4% chance to briefly enter the Death Certificate floor Each extra copy adds +4% chance After 1-3 seconds, enter the intended room</p>
 
 <PublicEntry slug="contemplation" lang="en" />
 
@@ -17,16 +17,33 @@ status: reviewed
 
 ## Effects
 
-**Contemplation sometimes diverts an unexplored door transit into a brief Death Certificate glimpse.**
+**When entering an unexplored room, Contemplation may briefly send Isaac into the Death Certificate floor before the intended room.**
 
-When taking a door into an **unexplored** room, each copy has a **4%** chance to briefly send Isaac into a random Death Certificate room, then after about **1–3** seconds continue to the original destination.
+Each held copy adds **4%** chance:
 
-## Notes
+| Copies | Chance |
+| ---: | ---: |
+| 1 | 4% |
+| 2 | 8% |
+| 3 | 12% |
+| 4 | 16% |
 
-- Only unexplored door entries; revisits do not roll.
-- Other dimensions usually skip the glimpse.
-- Extra copies each add their own 4% chance.
+On trigger:
+
+1. Enter a random Death Certificate room;
+2. Stay for **1, 2, or 3 seconds**;
+3. Then teleport to the room that was about to be entered.
+
+Only **unexplored** rooms roll. Being already on the Death Certificate floor will not trigger again.
+
+## Special interactions
+
+### Zeis
+
+Zeis does not start the normal 1–3 second auto-return timer after Contemplation triggers.
 
 ## Tips
 
-The glimpse is short (about 1–3 seconds). Prepare before you enter; once it triggers, grab the nearest easy pedestal—do not expect time to tour the whole room.
+Normal characters only get 1–3 seconds.
+
+There is no time to browse carefully—grab whatever is in reach.

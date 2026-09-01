@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Contemplation
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象窥井 Contemplation Contemplation contemplation Contemplation III III 穿门进入未探索房间时，每份本道具有4%概率窥见死亡证明层 短暂进入其中的随机房间 1-3秒后继续前往原本的目标房间 When entering an unexplored room through a door, each copy has a 4% chance to glimpse the Death Certificate floor Briefly visit a random room there Continue to the original destination after 1-3 seconds</p>
+<p class="wiki-search-index" v-pre>天象窥井 Contemplation Contemplation contemplation Contemplation III III 死亡证明 进入未探索的房间时，有4%概率短暂进入死亡证明层 每多持有1份，概率+4% 1-3秒后进入原本要去的房间 Death Certificate Entering an unexplored room has a 4% chance to briefly enter the Death Certificate floor Each extra copy adds +4% chance After 1-3 seconds, enter the intended room</p>
 
 <PublicEntry slug="contemplation" lang="zh" />
 
@@ -17,16 +17,35 @@ status: reviewed
 
 ## 效果
 
-**天象窥井在穿门前往未探索房间时，有时会先转入死亡证明层短暂窥视。**
+**进入尚未探索的房间时，天象窥井有时会让角色先短暂进入死亡证明层，再前往原本的房间。**
 
-穿门进入**尚未探索**的房间时，每持有一份本道具有 **4%** 概率触发：暂时进入死亡证明维度中的一间随机房，约 **1–3** 秒后再继续前往原本的目标房。
+每持有 1 份天象窥井，触发概率增加 **4%**：
 
-## 注意
+| 持有数量 | 触发概率 |
+| ---: | ---: |
+| 1 | 4% |
+| 2 | 8% |
+| 3 | 12% |
+| 4 | 16% |
 
-- 只在通过门进入**未探索**房间时判定；回已经去过的房间不会触发。
-- 已经在其它维度时通常不再触发这套窥见。
-- 多份持有会提高触发机会（每份独立 4%）。
+触发后：
+
+1. 暂时进入死亡证明层的一间随机房间；
+2. 停留 **1、2 或 3 秒**；
+3. 随后自动传送到原本准备进入的房间。
+
+只有进入**尚未探索的房间**时才会判定。
+
+已经处于死亡证明层时不会再次触发。
+
+## 特殊互动
+
+### Zeis
+
+Zeis 触发天象窥井后不会启动普通角色的 1–3 秒自动返回倒计时。
 
 ## 使用技巧
 
-窥见时间很短（约 1–3 秒）。进门前先做好准备；一旦触发，优先冲向最近、最好拿的底座，不要指望慢慢逛完整间房。
+普通角色只能停留 1–3 秒。
+
+触发后没有时间仔细挑选，看到够得到的道具就应尽快行动。

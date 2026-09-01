@@ -6,7 +6,7 @@ kind: collectible
 internalKey: D_Plus
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>D++ D++ D_Plus d-plus D Plus 缝合致死 Stitching to death 拥有至少1格充能时即可使用，并消耗当前全部充能 D的数字增加所消耗的充能数 随后触发编号能整除当前D的所有骰子效果 D1始终触发 Usable with at least 1 charge; spends all current charges Increases D by the charges spent Then triggers every listed die whose number divides the new D D1 always fires</p>
+<p class="wiki-search-index" v-pre>D++ D++ D_Plus d-plus D Plus 缝合致死 Stitching to death 至少1格充能即可使用，并消耗全部充能 消耗几格充能，就将骰子编号向上推进几格 到达新编号后，同时触发对应的骰子效果 D1始终触发 Usable with at least 1 charge; spends all charges Advances the die number by the charges spent On the new number, triggers every matching die at once D1 always fires</p>
 
 <PublicEntry slug="d-plus" lang="en" />
 

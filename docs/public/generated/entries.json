@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T08:09:25Z",
+  "generatedAt": "2026-09-01T14:24:30Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -882,7 +882,7 @@
         "kind": "collectible",
         "names": {
           "zh": "真实之名",
-          "en": "The true name"
+          "en": "The True Name"
         }
       }
     ],
@@ -2252,7 +2252,6 @@
       "itemType": "active",
       "quality": 2,
       "tags": [
-        "summonable",
         "offensive"
       ],
       "pools": [
@@ -6593,7 +6592,7 @@
       "xmlId": 47,
       "xmlName": "Ingestion to Night",
       "itemType": "passive",
-      "quality": 1,
+      "quality": 2,
       "tags": [
         "summonable",
         "offensive"
@@ -7604,7 +7603,6 @@
       "itemType": "active",
       "quality": 4,
       "tags": [
-        "summonable",
         "offensive",
         "book"
       ],
@@ -9043,7 +9041,6 @@
       "itemType": "active",
       "quality": 4,
       "tags": [
-        "summonable",
         "offensive"
       ],
       "pools": [
@@ -11830,7 +11827,7 @@
       "slotEnum": null,
       "names": {
         "zh": "真实之名",
-        "en": "The true name"
+        "en": "The True Name"
       },
       "desc": {
         "zh": "吾名，阿图姆",
@@ -13860,8 +13857,8 @@
         "en": "The world is so small!"
       },
       "eid": {
-        "zh": "使用后消失，并获得一个持续本层的随机被动道具效果#世界弧随后藏进本层另一间房#找到它即可再次使用#本层未找到时，下层会再次出现",
-        "en": "Disappears on use and grants a random passive effect for the floor#World Arc then hides in another room on the floor#Find it to use it again#If left behind, it reappears on the next floor"
+        "zh": "使用后消失，并获得一个持续本层的随机被动道具效果#随后随机藏进本层另一间房#找到它即可再次使用#本层未找到时，下层会再次出现",
+        "en": "Disappears on use and grants a random passive effect for the floor#Then hides in another random room on the floor#Find it to use it again#If left behind, it reappears on the next floor"
       },
       "seijaBuff": {
         "zh": "",
@@ -13998,8 +13995,8 @@
         "en": "A gift from another world"
       },
       "eid": {
-        "zh": "自动恢复充能#使用后维持6道彩色激光，并持续消耗充能#持续照射时，光束会逐渐聚拢并大幅增强#再次使用可额外消耗充能，增加光束数量",
-        "en": "Recharges automatically#Maintains 6 rainbow lasers while draining charge#Beams gradually converge and grow much stronger#Use again to spend extra charge and add more beams"
+        "zh": "未开启时自动恢复充能#使用后持续发射6道彩色激光，并不断消耗充能#持续照射时，光束逐渐聚拢并增强#照射中再次使用：消耗10充能，光束+3",
+        "en": "Recharges automatically while inactive#On use, fires 6 colored lasers and drains charge#Beams gradually converge and grow stronger while held#While active, use again: spend 10 charge, +3 beams"
       },
       "seijaBuff": {
         "zh": "",
@@ -14125,20 +14122,20 @@
         "en": "Return three, draw three..."
       },
       "eid": {
-        "zh": "{{Rune}} 首次拾取：生成1张随机符文#{{Rune}} 本房间每使用1张符文，为卢恩之书记录1次，最多3次#使用本书时，按记录数量生成等量随机符文，并清空记录#{{Rune}} 持有符文时，可以额外携带1张卡牌或药丸#离开房间时清空未兑现的记录",
-        "en": "{{Rune}} First pickup: Spawns 1 random rune#{{Rune}} Using a rune in this room records 1 use, up to 3#Use the book to spawn that many random runes and clear the record#{{Rune}} Carry 1 extra card or pill while holding a rune#Unused records are lost upon leaving the room"
+        "zh": "{{Rune}} 首次拾取生成1张随机符文#{{Rune}} 本房间每使用1张符文，累计1次兑换，最多3次#使用本书，按累计次数生成等量随机符文#{{Rune}} 持有符文时，可额外携带1张卡牌或药丸#离开房间时清空未兑换次数",
+        "en": "{{Rune}} First pickup spawns 1 random rune#{{Rune}} Each rune used this room adds 1 redeem, up to 3#Use the book to spawn that many random runes#{{Rune}} Carry 1 extra card or pill while holding a rune#Unused redeems clear on leaving the room"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "极高概率抽出{{Card55}}",
-        "en": "Highly chance to draw {{Card55}}"
+        "zh": "90%概率生成{{Card55}}符文碎片",
+        "en": "90% chance to spawn {{Card55}} Rune Shard"
       },
       "bookOfVirtues": {
-        "zh": "若成功抽出符文，生成发射极低概率生成符文的眼泪的魂火",
-        "en": "If the rune is successfully drawn,spawn a wisp with a very low probability of spawning runes"
+        "zh": "成功生成符文时产生魂火；泪弹有0.05%概率使击杀敌人掉落符文",
+        "en": "Spawns a wisp on successful rune spawn; tears have 0.05% chance for kills to drop runes"
       },
       "bookOfBelial": {
         "zh": "",
@@ -14390,8 +14387,8 @@
         "en": "Tap Tap tap!"
       },
       "eid": {
-        "zh": "使用后向上跳跃，随后逐渐落下#连续使用可以不断升高#飞得足够高时，可以越过障碍与敌人",
-        "en": "Leap upward on use, then gradually fall#Use repeatedly to keep climbing#At sufficient height, pass over obstacles and enemies"
+        "zh": "使用时向上扑动，随后逐渐落下#下落前再次使用，可以继续升高#飞得足够高时，可以越过障碍与敌人",
+        "en": "Flap upward on use, then gradually fall#Use again before landing to keep climbing#At sufficient height, pass over obstacles and enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -14521,8 +14518,8 @@
         "en": "I"
       },
       "eid": {
-        "zh": "!!! 一次性#使用后举起道具，再按攻击方向确认#{{Collectible580}} 沿该方向连续开启红房，直到无法继续延伸",
-        "en": "!!! SINGLE USE#Use to hold it overhead, then press a fire direction to confirm#{{Collectible580}} Opens Red Rooms along that direction until the path can extend no farther"
+        "zh": "!!! 一次性#使用后举起道具，按攻击方向确认#{{Collectible580}} 沿所选方向连续开启红房，直到无法继续#举起后再次使用可取消选择",
+        "en": "!!! SINGLE USE#Lift it overhead, then press a fire direction to confirm#{{Collectible580}} Opens Red Rooms along that direction until blocked#Press active again while raised to cancel"
       },
       "seijaBuff": {
         "zh": "",
@@ -14652,8 +14649,8 @@
         "en": "III"
       },
       "eid": {
-        "zh": "穿门进入未探索房间时，每份本道具有4%概率窥见死亡证明层#短暂进入其中的随机房间#1-3秒后继续前往原本的目标房间",
-        "en": "When entering an unexplored room through a door, each copy has a 4% chance to glimpse the Death Certificate floor#Briefly visit a random room there#Continue to the original destination after 1-3 seconds"
+        "zh": "{{Collectible628}} 进入未探索的房间时，有4%概率短暂进入死亡证明层#每多持有1份，概率+4%#1-3秒后进入原本要去的房间",
+        "en": "{{Collectible628}} Entering an unexplored room has a 4% chance to briefly enter the Death Certificate floor#Each extra copy adds +4% chance#After 1-3 seconds, enter the intended room"
       },
       "seijaBuff": {
         "zh": "",
@@ -16845,9 +16842,9 @@
       "spawnSources": [],
       "randomDrop": null,
       "slotInteraction": null,
-      "maxCharges": 1,
+      "maxCharges": 6,
       "chargeType": null,
-      "initCharge": null,
+      "initCharge": 1,
       "hidden": false,
       "playerType": null,
       "displayCharacter": null,
@@ -16876,8 +16873,8 @@
         "en": "Stitching to death"
       },
       "eid": {
-        "zh": "{{Battery}} 拥有至少1格充能时即可使用，并消耗当前全部充能#D的数字增加所消耗的充能数#随后触发编号能整除当前D的所有骰子效果#D1始终触发",
-        "en": "{{Battery}} Usable with at least 1 charge; spends all current charges#Increases D by the charges spent#Then triggers every listed die whose number divides the new D#D1 always fires"
+        "zh": "{{Battery}} 至少1格充能即可使用，并消耗全部充能#消耗几格充能，就将骰子编号向上推进几格#到达新编号后，同时触发对应的骰子效果#{{Collectible476}} D1始终触发",
+        "en": "{{Battery}} Usable with at least 1 charge; spends all charges#Advances the die number by the charges spent#On the new number, triggers every matching die at once#{{Collectible476}} D1 always fires"
       },
       "seijaBuff": {
         "zh": "",
@@ -19599,9 +19596,7 @@
       "xmlName": "Golden Slot",
       "itemType": "active",
       "quality": 1,
-      "tags": [
-        "summonable"
-      ],
+      "tags": [],
       "pools": [
         {
           "id": "treasure",
@@ -20202,7 +20197,6 @@
       "itemType": "active",
       "quality": 3,
       "tags": [
-        "summonable",
         "offensive"
       ],
       "pools": [

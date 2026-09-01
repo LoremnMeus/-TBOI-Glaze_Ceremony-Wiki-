@@ -1,12 +1,12 @@
 ---
-title: The true name
+title: The True Name
 description: "ATEM!"
 slug: the-true-name
 kind: collectible
 internalKey: The_True_Name
 status: stub
 ---
-<p class="wiki-search-index" v-pre>真实之名 The true name The_True_Name the-true-name The True Name 吾名，阿图姆 ATEM! 使用后，从所有道具中选择1件作为你的猜测 随后揭示当前道具池的下一件道具 猜中：生成你猜的道具，并额外生成 死亡证明 猜错：本次预测失败 On use, pick 1 collectible from all items as your guess Then reveal the next item from the current item pool Correct: spawn that item plus Death Certificate Wrong: the prediction fails</p>
+<p class="wiki-search-index" v-pre>真实之名 The True Name The_True_Name the-true-name The True Name 吾名，阿图姆 ATEM! 使用后，从所有道具中选择1件作为你的猜测 随后揭示当前道具池的下一件道具 猜中：生成你猜的道具，并额外生成 死亡证明 猜错：本次预测失败 On use, pick 1 collectible from all items as your guess Then reveal the next item from the current item pool Correct: spawn that item plus Death Certificate Wrong: the prediction fails</p>
 
 <PublicEntry slug="the-true-name" lang="en" />
 

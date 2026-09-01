@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Book_of_Rune
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>卢恩之书 Book of Rune Book_of_Rune book-of-rune Book of Rune 回三，抽三，回三，抽三... Return three, draw three... 首次拾取：生成1张随机符文 本房间每使用1张符文，为卢恩之书记录1次，最多3次 使用本书时，按记录数量生成等量随机符文，并清空记录 持有符文时，可以额外携带1张卡牌或药丸 离开房间时清空未兑现的记录 First pickup: Spawns 1 random rune Using a rune in this room records 1 use, up to 3 Use the book to spawn that many random runes and clear the record Carry 1 extra card or pill while holding a rune Unused records are lost upon leaving the room</p>
+<p class="wiki-search-index" v-pre>卢恩之书 Book of Rune Book_of_Rune book-of-rune Book of Rune 回三，抽三，回三，抽三... Return three, draw three... 首次拾取生成1张随机符文 本房间每使用1张符文，累计1次兑换，最多3次 使用本书，按累计次数生成等量随机符文 持有符文时，可额外携带1张卡牌或药丸 离开房间时清空未兑换次数 First pickup spawns 1 random rune Each rune used this room adds 1 redeem, up to 3 Use the book to spawn that many random runes Carry 1 extra card or pill while holding a rune Unused redeems clear on leaving the room</p>
 
 <PublicEntry slug="book-of-rune" lang="en" />
 
@@ -17,27 +17,44 @@ status: reviewed
 
 ## Effects
 
-**Book of Rune's loop: pickup grants a rune → spend runes → record in-room → use the book to draw that many new runes.**
+**Book of Rune records how many runes you used in the current room, then converts that record into new random runes.**
 
-1. **First pickup** spawns 1 random rune as starter fuel; later copies usually do not repeat the gift.
-2. Using a rune yourself in the current room records 1, up to **3**.
-3. Use the book to spawn that many **random** runes and clear the record.
-4. **Leaving the room clears** unused records—finish “spend → book” in one room.
+On first pickup, it also spawns **1 random rune**.
 
-Drawn runes need not match what you spent.
+In the current room:
 
-While holding a rune you can also carry one extra card or pill.
+1. Each rune you use yourself adds 1 to the record;
+2. The record caps at **3**;
+3. Using the book spawns that many random runes;
+4. The record clears after cash-out;
+5. Leaving the room also clears any unused record.
+
+Drawn runes are re-rolled; they need not match the ones just spent.
+
+In short:
+
+> **Use N runes this room → use the book → draw N new runes, up to 3.**
+
+Using the book with no record spawns nothing, but still spends the charge.
+
+### Extra pocket slot
+
+While holding at least one rune, you can carry one extra card or pill.
 
 ## Synergies
 
 ### {{Collectible:584}}
-Special wisps when runes spawn successfully.
+
+Spawns a special wisp when at least one rune is successfully generated.
+
+That wisp's tears have a **0.05% chance** to make killed enemies drop a rune.
 
 ### {{Seija}}
 
-Spawned runes are very likely rune shards.
+Each rune the book would spawn has a **90% chance** to become a Rune Shard instead.
 
 ## Trivia
 
-- Book of Rune points to Yu-Gi-Oh! Runick, especially the Field Spell Fountain of the Runick.
-- Fountain of the Runick returns Runick Quick-Play Spells from the GY to the Deck and draws for each returned; this item's recovery loop takes inspiration from that.
+Book of Rune references Yu-Gi-Oh!'s Runick series, especially Runick Fountain.
+
+Runick Fountain returns spent Runick Quick-Play Spells to the Deck and draws; the “spend runes → draw runes” loop takes that cue.
