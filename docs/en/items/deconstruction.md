@@ -17,45 +17,47 @@ status: reviewed
 
 ## Effects
 
-**Deconstruction moves some of this floor's special rooms beyond the normal map. To reach them, you must open the path yourself with Cracked Keys.**
+**Deconstruction moves some special rooms beyond the normal floor map. To reach them, you need to open new routes with the Cracked Keys it provides.**
 
-With 1 copy:
+With one copy:
 
-- At floor start you gain **3** Cracked Keys.
-- Up to **4** eligible special rooms can be moved off the normal map.
-- The first time you enter a moved special room, you receive **1** Cracked Key back.
+- You gain **3 Cracked Keys** at the start of each floor.
+- Up to **4 special rooms** can be moved outside the normal map.
+- Finding a moved room for the first time gives back **1 Cracked Key**.
 
-A shop or Treasure Room that used to sit on the normal map may be relocated. Its contents are not deleted, but the normal route no longer leads there—you need Cracked Keys to open red-room paths and find it again.
+For example, a Shop or Treasure Room that would normally connect to the floor may no longer appear along the regular route. The room itself is not gone: when you find it, it is still the same Shop or Treasure Room, but it must now be reached through red-room paths.
 
-### Which rooms can move
+### Which rooms can be moved
 
-Only eligible special rooms are chosen:
+Deconstruction only selects normal-sized special rooms whose layout supports doors on all four sides.
 
-- Must be a **1×1** room;
-- Must have door slots on all four sides;
-- Default combat rooms, Boss rooms, and Mini-Boss rooms never move.
+The following room types are never moved:
 
-Moved rooms keep their original room type and contents; they do not become ordinary red rooms.
+- Normal rooms;
+- Boss Rooms;
+- Miniboss Rooms.
 
-### Multiple copies
+A moved room does not turn into a normal red room. It keeps its original room type and contents.
 
-Extra copies:
+### Multiple Copies
 
-- Grant more Cracked Keys each floor;
-- Raise the maximum number of special rooms that can move.
+Extra copies increase both:
 
-| Copies | Cracked Keys / floor | Max rooms moved |
+- The number of Cracked Keys gained each floor;
+- The maximum number of special rooms that can be moved.
+
+| Copies | Cracked Keys per floor | Maximum moved rooms |
 | ---: | ---: | ---: |
 | 1 | 3 | 4 |
 | 2 | 4 | 5 |
 | 3 | 5 | 6 |
 
-Higher counts continue the same pattern. Actual moves are still limited by how many eligible rooms exist on the floor.
+Higher copy counts continue the same pattern.
+
+If the floor does not contain enough eligible special rooms, fewer rooms will actually be moved.
 
 ## Notes
 
-**Missing special rooms on the map are not deleted.**
+Cracked Keys do not directly reveal where the moved rooms are.
 
-If a shop or Treasure Room is moved, its contents still exist—they just require a red-room route to reach.
-
-Cracked Keys do not guarantee an immediate path to the target. The first time you find a moved special room returns 1 key, so a successful find recovers part of the exploration cost.
+You still need to explore red-room paths normally. The first time you find a moved special room, you regain 1 Cracked Key.

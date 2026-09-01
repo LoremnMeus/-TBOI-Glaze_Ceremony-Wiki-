@@ -6,7 +6,7 @@ title: Philosopher's Stone
 description: "Masterpiece"
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 接触并吸收3个空道具底座可充满充能 使用时，使最近的道具底座在数个前序编号道具之间快速切换 持有时会显示该道具对应的变化序列 Contact and absorb 3 empty pedestals to fully charge Make the nearest pedestal rapidly cycle through several preceding item IDs While held, shows that item&#x27;s transformation sequence</p>
+<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 接触并吸收3个空道具底座可充满充能 使用时，使最近的道具在一组固定候选之间快速切换 持有时可查看该道具的变化序列 Absorb 3 empty item pedestals to fully charge On use, makes the nearest item rapidly cycle through a fixed set of alternatives While held, shows that item&#x27;s transformation sequence</p>
 
 <PublicEntry slug="philosophers-stone" lang="en" />
 
@@ -17,38 +17,51 @@ status: reviewed
 
 ## Effects
 
-**Philosopher's Stone charges from empty pedestals and reforges the nearest non-empty pedestal through a cycle of earlier collectible IDs.**
+**Philosopher's Stone absorbs empty item pedestals to charge itself. Once fully charged, it makes the nearest item rapidly cycle through a fixed set of alternatives.**
 
-### How to charge
+### Charging it
 
-- Special charge max **3**: each empty pedestal you touch grants **1** charge and is removed.
-- Most empty pedestals come from taking a normal item and leaving the stand.
-- Another use needs another full set of 3 empties.
+Walking into an empty item pedestal absorbs it and gives Philosopher's Stone **1 charge**.
 
-### Choosing the target
+It requires **3 charges** to use, so a full charge costs 3 empty pedestals.
 
-Use hits the **nearest non-empty pedestal**. In multi-pedestal rooms, stand next to the one you want.
+The most common source of empty pedestals is simply taking an item and leaving its pedestal behind.
 
-### The sequence
+### Using it
 
-On use, the nearest pedestal gains a set of candidates by walking **backward** through collectible IDs, then cycles among them.
+When used, Philosopher's Stone only affects the **nearest non-empty item pedestal**.
 
-While held, EID shows: current item → about **5** earlier usable collectibles.
+If several items are present, stand near the one you want to change before using it.
 
-Hidden and quest items are skipped and never enter the chain.
+The selected item rapidly cycles through a fixed group of alternatives, similar to Soul of Isaac, allowing you to take the result you want.
 
-**Read the sequence before spending 3 empties.** If nothing useful appears in that backward walk, keep the charge; the stone's value depends on what earlier IDs you can reach from the current pedestal.
+### Previewing the sequence
+
+While holding Philosopher's Stone, pointing EID at an item pedestal shows the sequence that item can cycle through.
+
+The sequence is not random. Starting from the current item, Philosopher's Stone searches backward through internal collectible IDs for valid items.
+
+It skips:
+
+- Hidden items;
+- Quest items.
+
+EID shows the current item and roughly the next 5 steps in the sequence.
 
 ## Synergies
 
 ### {{Seija}}
 
-**Warning: 75% fail chance.** On fail the pedestal is destroyed and replaced with a rainbow poop—fuel and the room item are both wasted.
+Using Philosopher's Stone has a **75% chance to fail**.
+
+On failure, the target item disappears and is replaced with a rainbow poop.
 
 ### {{Collectible:584}}
 
-Spawns a gold wisp whose tears have a **5%** chance to turn enemies into gold.
+Spawns a golden wisp.
+
+Its tears have a **5% chance to turn enemies to gold**.
 
 ## Trivia
 
-- Inspired by Potion Craft's philosopher's stone and its transmutation gameplay.
+- Inspired by the Philosopher's Stone and transmutation mechanics in Potion Craft.

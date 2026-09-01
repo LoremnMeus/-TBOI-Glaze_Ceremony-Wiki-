@@ -43,10 +43,20 @@
 
 ## 本模组条目图标（Wiki 专用）
 
-不要用 `{{Collectible72}}` 指福音：那个数字是**原版**道具 ID。本模组条目用 slug 或 internalKey：
+**禁止**用 `content/items.xml` / `translate.lua` 的 `xmlId` 写成 `{{Collectible:N}}`。
+
+那个数字是模组 XML 本地序号，**不是**引擎 `CollectibleType`。写错会链到原版道具。
+
+| 错误写法 | 实际渲染 | 正确写法 |
+| --- | --- | --- |
+| `{{Collectible:70}}`（想写心变） | 原版 **生长激素** | `{{Item:heart-change}}` |
+| `{{Collectible:72}}` / `{{Collectible72}}`（想写福音） | 原版对应 ID 道具 | `{{Item:gospel}}` |
+
+本模组条目一律用 slug 或 internalKey：
 
 ```md
 {{Item:gospel}} 与 {{Item:blue-print}} 联动。
+{{Item:heart-change}}
 {{Trinket:pacification-mark}}
 {{Card:0-the-fool}}
 {{Character:zeis}}
@@ -62,7 +72,12 @@
 
 行内示例：{{Item:gospel}} {{Item:blue-print}} {{Pickup:glaze-heart-half}} {{Damage}} {{SoulHeart}} {{Warning}} {{QingPlayer:wq}}
 
-“特殊联动”下的具体对象标题也应直接使用对应标记，例如 `### {{Seija}}`、`### {{Collectible:706}}`，使头像或道具图标与名称一起显示（名称由 markup 内联，不要手写重复）。
+“特殊联动”下的具体对象标题也应直接使用对应标记：
+
+- **本模组道具**：`### {{Item:heart-change}}`
+- **原版道具**：`### {{Collectible:706}}` / `### {{Collectible:498}}`
+
+使头像或道具图标与名称一起显示（名称由 markup 内联，不要手写重复）。
 
 拷贝模板：[格式参考](/markup-cheatsheet)。
 

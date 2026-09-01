@@ -16,21 +16,23 @@ status: reviewed
 
 ## Effects
 
-**Disequilibrium sews Angel and Devil Rooms into one left–right split room. Entering either room type converts the other half into the opposite room's contents.**
+**Disequilibrium stitches the Angel Room and Devil Room into one room split between the two sides.**
 
-- Enter a Devil Room → the other half becomes Angel-side content.
-- Enter an Angel Room → the other half becomes Devil-side content.
-- Devil-side items still cost health.
-- Angel-side items still share a one-pick limit.
+Entering either room type also brings in the other side's contents:
 
-The item expands available choices without removing either room's normal deal rules.
+- Entering a Devil Room adds Angel Room contents to the other half.
+- Entering an Angel Room adds Devil Room contents to the other half.
+- Devil-side items still require health deals.
+- Only one Angel-side item can still be taken.
+
+Disequilibrium expands your choices, but it does not remove the original deal rules.
 
 ## Synergies
 
 ### {{Collectible:498}}
 
-Both Angel and Devil Room entrances open together.
+Angel Room and Devil Room entrances can both open.
 
-### {{Collectible:70}}
+### {{Item:heart-change}}
 
 The opened room counts as both an Angel Room and a Devil Room.

@@ -6,7 +6,7 @@ title: 贤者之石
 description: "杰作"
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 接触并吸收3个空道具底座可充满充能 使用时，使最近的道具底座在数个前序编号道具之间快速切换 持有时会显示该道具对应的变化序列 Contact and absorb 3 empty pedestals to fully charge Make the nearest pedestal rapidly cycle through several preceding item IDs While held, shows that item&#x27;s transformation sequence</p>
+<p class="wiki-search-index" v-pre>贤者之石 Philosopher&#x27;s Stone Philosopher_s_stone philosophers-stone Philosopher&#x27;s stone 贤者 Philosopher 杰作 Masterpiece 接触并吸收3个空道具底座可充满充能 使用时，使最近的道具在一组固定候选之间快速切换 持有时可查看该道具的变化序列 Absorb 3 empty item pedestals to fully charge On use, makes the nearest item rapidly cycle through a fixed set of alternatives While held, shows that item&#x27;s transformation sequence</p>
 
 <PublicEntry slug="philosophers-stone" lang="zh" />
 
@@ -17,38 +17,51 @@ status: reviewed
 
 ## 效果
 
-**贤者之石以空道具底座充能，并把最近的非空底座炼成按内部编号向前回溯的候选循环。**
+**贤者之石会吸收空道具底座来充能。充满后，可以让离你最近的道具在一组固定候选之间快速切换。**
 
-### 空底座怎么充能
+### 怎么充能
 
-- 特殊充能上限为 **3**：每接触并吸收 **1** 个空道具底座就充 **1** 格，同时移除该空座。
-- 最常见的空底座来源：拿走普通道具后留下的底座。
-- 想再次使用，就需要再攒满 3 个空座。
+走到空道具底座上时，贤者之石会将它吸收，并获得 **1 格充能**。
 
-### 选择目标
+贤者之石需要 **3 格充能**才能使用，因此一次完整充能需要吸收 3 个空底座。
 
-使用时作用于**距离角色最近的非空底座**。站位决定炼哪一个——多底座房间先靠近目标再按。
+最常见的空底座，就是拿走普通道具后留下的底座。
 
-### 变化序列
+### 怎么使用
 
-使用时，最近的道具底座会获得一组按内部编号**向前回溯**的候选，并在这些候选之间循环。
+使用时，贤者之石只会影响**离角色最近的非空道具底座**。
 
-持有贤者之石时，EID 会显示：当前道具 → **向前回溯的约 5 个可用道具**。
+如果房间里有多个道具，先靠近想要改变的那个，再使用贤者之石。
 
-隐藏道具和任务道具会被跳过，不会进入变化链。
+被选中的道具会在一组固定候选之间快速切换，可以像使用以撒的魂一样，从中拿走想要的结果。
 
-**先看序列值不值得花 3 个空底座，再决定是否使用。** 如果变化序列里没有想要的道具，就先保留充能；贤者之石的价值取决于当前底座向前回溯时能遇到什么。
+### 怎么提前查看候选
+
+持有贤者之石时，把 EID 指向一个道具底座，就会显示该道具可以变化到哪些候选。
+
+变化顺序并不是随机的。它会从当前道具开始，按内部道具编号向前寻找可用道具。
+
+每一步都会跳过：
+
+- 隐藏道具；
+- 任务道具。
+
+EID 会显示当前道具以及接下来约 5 步的变化序列。
 
 ## 特殊联动
 
 ### {{Seija}}
 
-**警告：75% 概率失败。** 失败时目标底座消失并在原地变成彩虹大便，等于白亏燃料与房间道具。
+使用贤者之石时有 **75% 概率失败**。
+
+失败后，目标道具会消失，并在原地变成彩虹大便。
 
 ### {{Collectible:584}}
 
-生成金色魂火，其泪弹有 **5%** 概率将敌人点金。
+生成金色魂火。
+
+魂火发射的泪弹有 **5% 概率将敌人点金**。
 
 ## 轶事
 
-- 灵感来自 Potion Craft 的贤者之石与炼金转化玩法。
+- 灵感来自 Potion Craft 中的贤者之石与炼金转化玩法。

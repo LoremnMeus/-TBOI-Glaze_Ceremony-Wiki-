@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T07:09:07Z",
+  "generatedAt": "2026-09-01T07:39:23Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -13114,20 +13114,20 @@
         "en": "Masterpiece"
       },
       "eid": {
-        "zh": "{{Battery}} 接触并吸收3个空道具底座可充满充能#使用时，使最近的道具底座在数个前序编号道具之间快速切换#{{EID}} 持有时会显示该道具对应的变化序列",
-        "en": "{{Battery}} Contact and absorb 3 empty pedestals to fully charge#Make the nearest pedestal rapidly cycle through several preceding item IDs#{{EID}} While held, shows that item's transformation sequence"
+        "zh": "{{Battery}} 接触并吸收3个空道具底座可充满充能#使用时，使最近的道具在一组固定候选之间快速切换#{{EID}} 持有时可查看该道具的变化序列",
+        "en": "{{Battery}} Absorb 3 empty item pedestals to fully charge#On use, makes the nearest item rapidly cycle through a fixed set of alternatives#{{EID}} While held, shows that item's transformation sequence"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "75%概率将道具转化为彩虹便便",
-        "en": "75% Chance to convert items into rainbow poops"
+        "zh": "75%概率将目标道具变成彩虹大便",
+        "en": "75% chance to turn the target item into a rainbow poop"
       },
       "bookOfVirtues": {
         "zh": "有概率将敌人点金的金色魂火",
-        "en": "Gold wisp with a chance to turn enemies to gold"
+        "en": "Golden wisp with a chance to turn enemies to gold"
       },
       "bookOfBelial": {
         "zh": "",
@@ -13239,8 +13239,8 @@
         "en": "To the gold of eternity"
       },
       "eid": {
-        "zh": "{{GoldenHeart}} +3金心#{{Shop}} 每颗金心使硬币商品价格-1#{{Coin}} 辉煌自身最多卖到你当前的硬币数，但最低仍为1",
-        "en": "{{GoldenHeart}} +3 Golden Heart#{{Shop}} Each Golden Heart reduces coin prices by 1#{{Coin}} Brilliant's shop price is capped at your coins, but never below 1"
+        "zh": "{{GoldenHeart}} +3金心#{{Shop}} 每颗金心使硬币商品价格-1#{{Coin}} 辉煌自身售价不会高于当前硬币数，0硬币时仍售价1",
+        "en": "{{GoldenHeart}} +3 Golden Hearts#{{Shop}} Each Golden Heart reduces coin prices by 1#{{Coin}} Brilliant's price cannot exceed your coins; at 0 coins it still costs 1"
       },
       "seijaBuff": {
         "zh": "",
