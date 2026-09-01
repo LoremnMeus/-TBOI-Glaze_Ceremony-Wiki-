@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-While holding Lure?, effective hits you take are recorded and accumulated.
+While holding this card, effective hits you take are recorded and accumulated.
 
 Using the card cashes the current count into heart pickups, then clears this round's record.
 

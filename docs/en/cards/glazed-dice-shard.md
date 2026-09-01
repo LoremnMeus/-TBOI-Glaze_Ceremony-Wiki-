@@ -21,6 +21,6 @@ After use, pickups and some entities in the room convert toward matching glazed 
 ## Rules
 
 - Items are replaced within same-color pools.
-- Coins, keys, bombs, chests, and similar basics become glazed counterparts; most hearts become half glazed hearts, a few become full ones.
+- {{Coin}} coins, {{Key}} keys, {{Bomb}} bombs, chests, and similar basics become glazed counterparts; most hearts become half glazed hearts, a few become full ones.
 - Convertible enemies enter a glazed state.
 - This is a one-shot room conversion, not a lasting aura.

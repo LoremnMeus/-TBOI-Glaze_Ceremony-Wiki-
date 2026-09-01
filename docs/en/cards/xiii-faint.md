@@ -19,7 +19,7 @@ status: reviewed
 
 Spawn a bed in the current room. After its appear animation finishes, you can sleep in it normally.
 
-Sleeping still heals like a normal bed. Depending on the bed's look, Faint may also add an extra outcome.
+Sleeping still heals like a normal bed. Depending on the bed's look, it may also add an extra outcome.
 
 ## Dream
 

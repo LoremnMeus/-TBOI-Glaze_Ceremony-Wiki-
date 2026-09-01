@@ -19,19 +19,19 @@ status: reviewed
 
 ## Effects
 
-The Invoker predicts **card faces that are truly used later**. After use it immediately shows the current prediction; predictions persist across rooms until they hit.
+After use, predicts **card faces that are truly used later** and immediately shows the current prediction; predictions persist across rooms until they hit.
 
-Candidates come from a full tarot-related set: vanilla upright and reversed tarot, plus this mod's Thoth cards. The same face does not repeat within one prediction display. Using The Invoker multiple times can stack hit counts on the same face.
+Candidates come from a full tarot-related set: vanilla upright and reversed tarot, plus this mod's Thoth cards. The same face does not repeat within one prediction display. Using it multiple times can stack hit counts on the same face.
 
 ## Prophecy
 
 When a later card use hits a still-valid prediction:
 
-- Spawn that many **random cards** as a reward (matching the stacked hit count), with a holy-light cue;
-- Respawn an Invoker for the player to pick up so the next round can begin;
+- Spawn that many random {{Card}} rewards (matching the stacked hit count), with a holy-light cue;
+- Respawn a {{Card:i-the-invoker}} for the player to pick up so the next round can begin;
 - Clear that face's prediction count.
 
-Cards **simulated** by effects such as Book of Thoth still count as hits if they resolve through normal card-use settlement—it is not limited to cards played by hand from the pocket slot.
+Cards **simulated** by effects such as {{Item:book-of-thoth}} still count as hits if they resolve through normal card-use settlement—it is not limited to cards played by hand from the pocket slot.
 
 Missed predictions are not cleared automatically by leaving rooms or failing.
 

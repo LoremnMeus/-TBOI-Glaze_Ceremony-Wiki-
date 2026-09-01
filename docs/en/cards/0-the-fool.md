@@ -26,7 +26,7 @@ Phantoms are for selection only. They cannot be taken as ordinary pedestals thro
 
 ## Notes
 
-The Fool changes both what you get now and what that pool can still roll later: a high-value phantom means a stronger wisp immediately, but also removes that item from the current pool.
+This changes both what you get now and what that pool can still roll later: a high-value phantom means a stronger wisp immediately, but also removes that item from the current pool.
 
 ## Synergies
 

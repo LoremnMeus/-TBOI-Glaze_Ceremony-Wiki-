@@ -18,7 +18,7 @@ status: reviewed
 
 ## Effects
 
-While holding The Aeon, taking damage has about a **5%** chance to spawn an eternal heart.
+While holding this card, taking damage has about a **5%** chance to spawn an {{EternalHeart}}.
 
 Active use spawns a Confessional.
 

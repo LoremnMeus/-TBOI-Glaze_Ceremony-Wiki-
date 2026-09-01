@@ -21,9 +21,9 @@ After use, place a sacrifice circle in the room. Standing on it preferably spend
 
 | Sacrifices done | This result |
 | --- | --- |
-| 1 | {{Coin}} 0–4 coins |
+| 1 | {{Coin}} 0–4 |
 | 2 | 50% chance to spawn a chest |
-| 3 | Clear this floor's Devil-chance loss from red-heart damage |
+| 3 | Clear this floor's {{DevilRoom}}-chance loss from {{Heart}} damage |
 | 4 | 30% chance to spawn a random item pedestal |
 | 5 | Spawn 3 {{RedChest}} |
 | 6 | 50% chance to trigger {{Card:31}} |

@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-Adjustment rebalances the player's current **coins, keys, and bombs** as one resource set, rather than adding or removing a fixed amount from each.
+After use, rebalances the player's current **{{Coin}}, {{Key}}, and {{Bomb}}** as one resource set, rather than adding or removing a fixed amount from each.
 
 After use, the three counts are totaled, then each is set to floor(total ÷ 3). Any remainder that cannot be split evenly is not discarded: it spawns that many **exclusive three-way** pickups around the player—coin, bomb, and key—of which you may take only one.
 

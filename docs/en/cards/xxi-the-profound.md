@@ -18,7 +18,7 @@ status: reviewed
 
 ## Effects
 
-After use, warp to this floor's Super Secret Room. If no usable target exists on the floor, it falls back to an ordinary teleport.
+After use, warp to this floor's {{SuperSecretRoom}}. If no usable target exists on the floor, it falls back to an ordinary teleport.
 
 ## Synergies
 

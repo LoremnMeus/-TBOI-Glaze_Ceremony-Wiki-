@@ -18,9 +18,9 @@ status: reviewed
 
 ## Effects
 
-The Sun re-fires **other cards previously used in this room**.
+After use, re-fires **other cards previously used in this room**.
 
-The Sun itself is not written into history, so it cannot form a direct infinite loop by replaying itself. Other cards it simulates can re-enter this room's history, so later Sun uses may replay them again.
+This card itself is not written into history, so it cannot form a direct infinite loop by replaying itself. Other cards it simulates can re-enter this room's history, so later uses may replay them again.
 
 ## Rewards
 

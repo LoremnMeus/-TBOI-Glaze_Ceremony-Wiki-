@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-The Empress concentrates the room's enemy power into its strongest foe.
+After use, concentrates the room's enemy power into its strongest foe.
 
 After use, many enemies are heavily weakened and turned friendly, while the core enemy is empowered so the pressure of a pack collapses onto fewer targets.
 

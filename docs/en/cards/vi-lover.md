@@ -20,22 +20,22 @@ status: reviewed
 
 After use, while you remain **in this room**, picking up a qualifying ordinary pickup has a **50%** chance to spawn an identical copy in place.
 
-Copies cannot trigger Lover again, so the effect cannot chain forever. Leaving the room ends it.
+Copies cannot trigger duplication again, so the effect cannot chain forever. Leaving the room ends it.
 
 ## What can duplicate
 
 **Can duplicate:**
 
-- Ordinary hearts, coins, keys, bombs, and batteries;
-- Cards, pills, and other pocket pickups;
+- {{Heart}} hearts, {{Coin}} coins, {{Key}} keys, {{Bomb}} bombs, and {{Battery}} batteries;
+- {{Card}} cards, {{Pill}} pills, and other pocket pickups;
 - Ordinary chests (including spiked, red, old, and wooden chests where allowed).
 
 **Cannot duplicate:**
 
-- Collectible pedestals, trinkets, and other objects not on the duplicate list;
-- Shop goods and other priced pickups;
+- Collectible pedestals, {{Trinket}}, and other objects not on the duplicate list;
+- {{Shop}} goods and other priced pickups;
 - Pickups already in an exclusive-choice group;
-- Copies spawned by Lover itself.
+- Copies spawned by this effect itself.
 
 ## Synergies
 

@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-After use, sacrifice the relics you still hold that can be offered; each successful sacrifice spawns 1 item from the Devil Room item pool.
+After use, sacrifice the relics you still hold that can be offered; each successful sacrifice spawns 1 item from the {{DevilRoom}} item pool.
 
 ## Relic sources
 

@@ -20,7 +20,7 @@ status: reviewed
 
 After use, starts a **3-minute** eclipse.
 
-During that time the sun draws nearer and keeps calling down light strikes on enemies; strikes grow more frequent as time advances.
+During that time the solar disk draws nearer and keeps calling down light strikes on enemies; strikes grow more frequent as time advances.
 
  The effect persists across rooms until time ends or you change floors.
 

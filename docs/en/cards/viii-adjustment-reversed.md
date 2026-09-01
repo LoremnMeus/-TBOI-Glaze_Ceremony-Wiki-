@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-Adjustment? immediately clears all coins, keys, and bombs and converts them into permanent run stat bonuses.
+After use, immediately clears all {{Coin}}, {{Key}}, and {{Bomb}} and converts them into permanent run stat bonuses.
 
 Bombs, keys, and coins convert with weights **bomb × 1**, **key × 0.8**, **coin × 0.4**. Higher totals raise damage, tears, range, speed, and luck more, with diminishing returns as the total climbs.
 

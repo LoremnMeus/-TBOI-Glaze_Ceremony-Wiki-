@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-Lover? lays out passive item candidates by quality: one each for quality 0 through 4, as an exclusive choice. The item you pick becomes that quality's “beloved.”
+After use, lays out passive item candidates by quality: one each for quality 0 through 4, as an exclusive choice. The item you pick becomes that quality's “beloved.”
 
 Afterward, other passive items of the same quality that enter the character are squeezed into same-name wisps, and draws from that quality's pool are rewritten toward the beloved.
 

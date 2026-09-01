@@ -18,13 +18,13 @@ status: reviewed
 
 ## Effects
 
-The Devil works both as an active “offer your life” use and, while held, as a death insurance.
+Works both as an active “offer your life” use and, while held, as a death insurance.
 
-When trigger conditions are met, you are pulled out of a lethal state and sent to a Devil Room.
+When trigger conditions are met, you are pulled out of a lethal state and sent to a {{DevilRoom}}.
 
 ## Revival
 
-- On a true lethal hit, as long as you still hold this card (or just entered the offer-life flow via active use), the Devil in your pocket is consumed and you revive into a Devil Room.
+- On a true lethal hit, as long as you still hold this card (or just entered the offer-life flow via active use), {{Card:xv-the-devil}} in your pocket is consumed and you revive into a {{DevilRoom}}.
 - Active use plays out first, then forces the same revival chain.
 
 - Whether it can happen again in a run depends on holding or obtaining the card again.
@@ -33,4 +33,4 @@ When trigger conditions are met, you are pulled out of a lethal state and sent t
 
 ### {{Collectible:451}}
 
-After a voluntary sacrifice trigger, Devil returns to your hand.
+After a voluntary sacrifice trigger, {{Card:xv-the-devil}} returns to your hand.

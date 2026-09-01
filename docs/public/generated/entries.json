@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-08-31T20:22:40Z",
+  "generatedAt": "2026-09-01T03:35:31Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -27013,8 +27013,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "生成一个通往本层随机特殊房间的彩虹传送门#该传送门会在本层保持，并始终通往同一个目标",
-        "en": "Spawn a rainbow portal to a random special room on this floor#It persists for the floor and always leads to the same target"
+        "zh": "生成一个本层持续存在的彩虹传送门#可以反复进入，每次随机传送至一个特殊房间",
+        "en": "Spawns a rainbow portal that lasts for the floor#The portal can be entered repeatedly; each entry sends you to a newly randomized special room"
       },
       "seijaBuff": {
         "zh": "",
@@ -27215,8 +27215,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "第一次使用时，随机失去一件已有道具#下一层宇宙?会重新出现，再次使用可取回该道具",
-        "en": "First use: randomly lose one held item#The Universe? reappears next floor; use it again to reclaim that item"
+        "zh": "第一次使用时，随机失去一件已有道具#下一层这张卡会重新出现，再次使用可取回该道具",
+        "en": "First use: randomly lose one held item#This card reappears next floor; use it again to reclaim that item"
       },
       "seijaBuff": {
         "zh": "",

@@ -17,12 +17,12 @@ status: reviewed
 
 ## 效果
 
-使用后传送到本层的{{SuperSecretRoom}} 超级隐藏房。若本层还没有可用目标，则退化为普通传送。
+使用后传送到本层的 {{SuperSecretRoom}}。若本层还没有可用目标，则退化为普通传送。
 
-如果把深邃一直持有到下一层，则会在新楼层额外生成{{SuperSecretRoom}} 超级隐藏房。普通额外 **1** 个。
+如果一直持有到下一层，则会在新楼层额外生成 {{SuperSecretRoom}}。普通额外 **1** 个。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-带到下一层时，额外生成的 {{SuperSecretRoom}} 超级隐藏房由 1 间增加至 2 间。
+带到下一层时，额外生成的 {{SuperSecretRoom}} 由 1 间增加至 2 间。

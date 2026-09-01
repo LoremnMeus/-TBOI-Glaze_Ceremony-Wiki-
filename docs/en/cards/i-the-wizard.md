@@ -19,14 +19,14 @@ status: reviewed
 
 ## Effects
 
-The Wizard picks one **non-normal room type that already exists** on the floor, marks every room of that type as visible, and later spawns portals into other special rooms when you enter a room of that type.
+After use, picks one **non-normal room type that already exists** on the floor, marks every room of that type as visible, and later spawns portals into other special rooms when you enter a room of that type.
 
-What you see: a room type is named and map-marked first, then a ring of enterable portals appears at the right moment so you can jump to other special rooms on the floor (Devil, Angel, Error, Boss Rush, Black Market, Mega Satan, and similar candidates).
+What you see: a room type is named and map-marked first, then a ring of enterable portals appears at the right moment so you can jump to other special rooms on the floor ({{DevilRoom}}, {{AngelRoom}}, {{ErrorRoom}}, Boss Rush, Black Market, Mega Satan, and similar candidates).
 
 ## Room selection
 
 - The target type is drawn from non-normal types that actually exist on this floor; explored or not is not separately excluded.
-- If no unused room type remains, The Wizard **reveals the whole floor map**.
+- If no unused room type remains, **reveals the whole floor map**.
 - Portals are usually one-way shortcuts; after entering Black Market, Mega Satan, or similar, a return entrance may appear. Clearing Mega Satan's room also spawns one Angel-pool and one Devil-pool item.
 
 - Floor marks clear on the next floor; a room type already used does not keep spawning the same portal set.

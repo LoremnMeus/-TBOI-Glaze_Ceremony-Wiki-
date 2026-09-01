@@ -19,7 +19,7 @@ status: reviewed
 
 ## Effects
 
-The Corpse? spit out red hearts the player can safely spend behind them, turning those into rotten hearts. Spawned rotten hearts release poison fog that damages nearby enemies.
+After use, spits out {{Heart}} the player can safely spend behind them, turning those into rotten hearts. Spawned rotten hearts release poison fog that damages nearby enemies.
 
 The effect avoids emptying the last safe red-heart reserve just to spit rotten hearts.
 

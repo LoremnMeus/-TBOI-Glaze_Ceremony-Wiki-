@@ -19,14 +19,14 @@ status: reviewed
 
 ## Effects
 
-The Emperor opens special doorways in the current room to **other rooms on this floor**, briefly sealing normal doors.
+After use, opens special doorways in the current room to **other rooms on this floor**, briefly sealing normal doors.
 
 Those entrances lead to rooms already on the floor map, plus a few extra special destinations (occasional Boss Rush / Mega Satan–related entries). When you return to the original room after exploring, the temporary entrances do not remain.
 
 ## Extra rooms
 
 - Destinations are existing floor rooms or a few special targets; the whole map is not force-revealed.
-- Clear rewards follow the destination room's own rules (for example extra items after clearing Mega Satan); The Emperor itself does not grant extra loot.
+- Clear rewards follow the destination room's own rules (for example extra items after clearing Mega Satan); This card itself does not grant extra loot.
 - The effect exists only in the current room: entrances vanish on room change, and nothing carries to the next floor.
 
 ## Synergies

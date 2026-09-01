@@ -4,9 +4,9 @@ description: "不管离开多远，不管时间如何流逝，你永远都是属
 slug: xxi-the-universe-reversed
 kind: card
 internalKey: Universe_r
-status: reviewed
+status: drafted
 ---
-<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 第一次使用时，随机失去一件已有道具 下一层宇宙?会重新出现，再次使用可取回该道具 First use: randomly lose one held item The Universe? reappears next floor; use it again to reclaim that item</p>
+<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 第一次使用时，随机失去一件已有道具 下一层这张卡会重新出现，再次使用可取回该道具 First use: randomly lose one held item This card reappears next floor; use it again to reclaim that item</p>
 
 <PublicEntry slug="xxi-the-universe-reversed" lang="zh" />
 
@@ -17,18 +17,18 @@ status: reviewed
 
 ## 效果
 
-第一次使用时，宇宙?会从玩家已有道具中选取一件并将其暂时寄存在跨层状态中。
+使用后，从玩家已有道具中随机取走一件。该道具会在下一层才能取回。
 
-到了下一层，宇宙?会重新回到原使用者附近；再次使用后可以取回此前寄存的道具。
+到达下一层后，{{Card:xxi-the-universe-reversed}} 会重新出现在使用者附近。再次使用后，可以把此前取走的道具放回地上。
 
-## 寄存
+## 取回
 
-- 只有道具真正成功从角色身上移除后，才进入寄存状态。
-- 卡牌和寄存道具都绑定原使用者；多人中其他玩家不能通过碰撞抢走返还牌。
-- 成功返还后这一份寄存状态立即清空。
+- 只有道具真正从角色身上移除成功后，才会进入待取回状态。
+- 返还牌与寄存道具都绑定原使用者；多人中其他玩家不能靠碰撞抢走这张返还牌。
+- 成功返还后，这份待取回记录立即清空。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-返还时更接近完整新状态；普通返还则以已摸过、充能为空的形式回到地上。
+返还时道具如同全新掉落；普通返还则以已捡起过、主动充能为空的形式回到地上。
