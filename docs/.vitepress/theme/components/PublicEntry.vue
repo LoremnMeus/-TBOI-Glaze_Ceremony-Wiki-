@@ -17,6 +17,7 @@ const CONDITIONAL_EID_FIELDS = [
   { key: 'bookOfVirtues', prefix: '{{Collectible:584}}' },
   { key: 'bookOfBelial', prefix: '{{Collectible:34}}' },
   { key: 'abyssSynic', prefix: '{{Collectible:706}}' },
+  { key: 'tarotClothBuffs', prefix: '{{Collectible:451}}' },
   { key: 'seijaBuff', prefix: '{{Seija}}' },
   { key: 'seijaNerf', prefix: '{{Seija}}' },
 ]

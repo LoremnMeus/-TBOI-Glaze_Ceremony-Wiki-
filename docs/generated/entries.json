@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T04:38:33Z",
+  "generatedAt": "2026-09-01T04:47:21Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -2220,6 +2220,10 @@
         "zh": "纯黑蝗虫，杀死敌人时有概率掉落黑心",
         "en": "Pure black locust with chance to drop black hearts on kill"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/darkness.png",
       "thumb32": "/generated/images/darkness_32.webp",
       "thumb32Png": "/generated/images/darkness_32.png",
@@ -2342,6 +2346,10 @@
       "abyssSynic": {
         "zh": "蝗虫命中敌人后发动刺击",
         "en": "Locust that stab at enemies"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/touchstone.png",
       "thumb32": "/generated/images/touchstone_32.webp",
@@ -2481,6 +2489,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -2625,6 +2637,10 @@
         "zh": "蝗虫有概率伴生科技X激光环",
         "en": "Locusts have a chance to spawn with a Tech X ring."
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tech-9.png",
       "thumb32": "/generated/images/tech-9_32.webp",
       "thumb32Png": "/generated/images/tech-9_32.png",
@@ -2741,6 +2757,10 @@
       "abyssSynic": {
         "zh": "蝗虫学会暗杀",
         "en": "Locust assassinates enemies when closed"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/assassins-eye.png",
       "thumb32": "/generated/images/assassins-eye_32.webp",
@@ -2866,6 +2886,10 @@
         "zh": "彩色蝗虫",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/mental-hypnosis.png",
       "thumb32": "/generated/images/mental-hypnosis_32.webp",
       "thumb32Png": "/generated/images/mental-hypnosis_32.png",
@@ -2988,6 +3012,10 @@
       "abyssSynic": {
         "zh": "金色蝗虫，命中敌人时小概率施加点金",
         "en": "Golden locust with a small chance to turn enemies gold on hit"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/gold-rush.png",
       "thumb32": "/generated/images/gold-rush_32.webp",
@@ -3142,6 +3170,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/air-flight.png",
       "thumb32": "/generated/images/air-flight_32.webp",
       "thumb32Png": "/generated/images/air-flight_32.png",
@@ -3283,6 +3315,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/the-watcher.png",
       "thumb32": "/generated/images/the-watcher_32.webp",
       "thumb32Png": "/generated/images/the-watcher_32.png",
@@ -3417,6 +3453,10 @@
         "zh": "稍大的蝗虫",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/giant-punch.png",
       "thumb32": "/generated/images/giant-punch_32.webp",
       "thumb32Png": "/generated/images/giant-punch_32.png",
@@ -3532,6 +3572,10 @@
       "abyssSynic": {
         "zh": "彩色蝗虫",
         "en": "Colorful locust"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/memory.png",
       "thumb32": "/generated/images/memory_32.webp",
@@ -3662,6 +3706,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/my-best-friend.png",
       "thumb32": "/generated/images/my-best-friend_32.webp",
       "thumb32Png": "/generated/images/my-best-friend_32.png",
@@ -3787,6 +3835,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -3929,6 +3981,10 @@
         "zh": "高速飞行时留下短暂硫磺火航迹的蝗虫",
         "en": "A locust that leaves a brief brimstone trail while flying quickly"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/brimstream.png",
       "thumb32": "/generated/images/brimstream_32.webp",
       "thumb32Png": "/generated/images/brimstream_32.png",
@@ -4045,6 +4101,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/crown-of-the-glaze.png",
       "thumb32": "/generated/images/crown-of-the-glaze_32.webp",
       "thumb32Png": "/generated/images/crown-of-the-glaze_32.png",
@@ -4150,6 +4210,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/a-shard-of-coin.png",
       "thumb32": "/generated/images/a-shard-of-coin_32.webp",
       "thumb32Png": "/generated/images/a-shard-of-coin_32.png",
@@ -4242,6 +4306,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -4340,6 +4408,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/a-shard-of-lava.png",
       "thumb32": "/generated/images/a-shard-of-lava_32.webp",
       "thumb32Png": "/generated/images/a-shard-of-lava_32.png",
@@ -4435,6 +4507,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/a-shard-of-meat.png",
       "thumb32": "/generated/images/a-shard-of-meat_32.webp",
       "thumb32Png": "/generated/images/a-shard-of-meat_32.png",
@@ -4527,6 +4603,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -4650,6 +4730,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -4786,6 +4870,10 @@
         "zh": "命中后爆发出硫磺火的蝗虫",
         "en": "Locust that burst brimstone on collision"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/blaststone.png",
       "thumb32": "/generated/images/blaststone_32.webp",
       "thumb32Png": "/generated/images/blaststone_32.png",
@@ -4906,6 +4994,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -5040,6 +5132,10 @@
         "en": "Each craft can add one free digit 6"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -5190,6 +5286,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/air-terror.png",
       "thumb32": "/generated/images/air-terror_32.webp",
       "thumb32Png": "/generated/images/air-terror_32.png",
@@ -5320,6 +5420,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-mushroom.png",
       "thumb32": "/generated/images/glaze-mushroom_32.webp",
       "thumb32Png": "/generated/images/glaze-mushroom_32.png",
@@ -5445,6 +5549,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/pageant-cross-dresser.png",
       "thumb32": "/generated/images/pageant-cross-dresser_32.webp",
       "thumb32Png": "/generated/images/pageant-cross-dresser_32.png",
@@ -5545,6 +5653,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -5678,6 +5790,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/apocalypse.png",
       "thumb32": "/generated/images/apocalypse_32.webp",
       "thumb32Png": "/generated/images/apocalypse_32.png",
@@ -5800,6 +5916,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -5937,6 +6057,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/field.png",
       "thumb32": "/generated/images/field_32.webp",
       "thumb32Png": "/generated/images/field_32.png",
@@ -6044,6 +6168,10 @@
         "en": "Gain a temporary damage up whenever an enemy enters the sutured state"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -6155,6 +6283,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -6271,6 +6403,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -6427,6 +6563,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/my-emblem.png",
       "thumb32": "/generated/images/my-emblem_32.webp",
       "thumb32Png": "/generated/images/my-emblem_32.png",
@@ -6543,6 +6683,10 @@
       "abyssSynic": {
         "zh": "概率恐惧的蝗虫",
         "en": "Locust that can fear enemies"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/ingestion-to-night.png",
       "thumb32": "/generated/images/ingestion-to-night_32.webp",
@@ -6669,6 +6813,10 @@
         "en": "Gain extra devil costumes"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -6807,6 +6955,10 @@
         "zh": "蝗虫命中敌人也进行标记",
         "en": "Abyss locusts can also mark enemies"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/devils-heart.png",
       "thumb32": "/generated/images/devils-heart_32.webp",
       "thumb32Png": "/generated/images/devils-heart_32.png",
@@ -6915,6 +7067,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -7047,6 +7203,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/book-of-future.png",
       "thumb32": "/generated/images/book-of-future_32.webp",
       "thumb32Png": "/generated/images/book-of-future_32.png",
@@ -7168,6 +7328,10 @@
       "abyssSynic": {
         "zh": "速度极快的蝗虫",
         "en": "Very fast locust"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/hyper-velocity.png",
       "thumb32": "/generated/images/hyper-velocity_32.webp",
@@ -7292,6 +7456,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/wavering-eyes.png",
       "thumb32": "/generated/images/wavering-eyes_32.webp",
       "thumb32Png": "/generated/images/wavering-eyes_32.png",
@@ -7401,6 +7569,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -7543,6 +7715,10 @@
       "abyssSynic": {
         "zh": "命中后概率生成卡牌的蝗虫",
         "en": "Locust that may spawn a card on hit"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/book-of-thoth.png",
       "thumb32": "/generated/images/book-of-thoth_32.webp",
@@ -7691,6 +7867,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/book-of-the-law.png",
       "thumb32": "/generated/images/book-of-the-law_32.webp",
       "thumb32Png": "/generated/images/book-of-the-law_32.png",
@@ -7823,6 +8003,10 @@
         "en": "Gaining heart-type resources also grants half a black heart"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -7971,6 +8155,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/book-of-voice.png",
       "thumb32": "/generated/images/book-of-voice_32.webp",
       "thumb32Png": "/generated/images/book-of-voice_32.png",
@@ -8091,6 +8279,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -8257,6 +8449,10 @@
         "zh": "三只蝗虫",
         "en": "Triple locust"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/nazca.png",
       "thumb32": "/generated/images/nazca_32.webp",
       "thumb32Png": "/generated/images/nazca_32.png",
@@ -8398,6 +8594,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/cloundy.png",
       "thumb32": "/generated/images/cloundy_32.webp",
       "thumb32Png": "/generated/images/cloundy_32.png",
@@ -8530,6 +8730,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -8668,6 +8872,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/wisel.png",
       "thumb32": "/generated/images/wisel_32.webp",
       "thumb32Png": "/generated/images/wisel_32.png",
@@ -8803,6 +9011,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/granel.png",
       "thumb32": "/generated/images/granel_32.webp",
       "thumb32Png": "/generated/images/granel_32.png",
@@ -8921,6 +9133,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -9053,6 +9269,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -9191,6 +9411,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/moment.png",
       "thumb32": "/generated/images/moment_32.webp",
       "thumb32Png": "/generated/images/moment_32.png",
@@ -9326,6 +9550,10 @@
         "zh": "蝗虫命中后释放小型冲击波",
         "en": "Locust with small shock wave"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/lofty.png",
       "thumb32": "/generated/images/lofty_32.webp",
       "thumb32Png": "/generated/images/lofty_32.png",
@@ -9458,6 +9686,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/theseuss-sign.png",
       "thumb32": "/generated/images/theseuss-sign_32.webp",
       "thumb32Png": "/generated/images/theseuss-sign_32.png",
@@ -9584,6 +9816,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -9715,6 +9951,10 @@
       "abyssSynic": {
         "zh": "蝗虫命中时小概率生成充能球",
         "en": "The locust has a small chance to spawn an energy orb on hit"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/cable-jar.png",
       "thumb32": "/generated/images/cable-jar_32.webp",
@@ -9850,6 +10090,10 @@
       "abyssSynic": {
         "zh": "蝗虫命中敌人时使其接受福音",
         "en": "Locusts cause hit enemies to receive the Gospel"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/gospel.png",
       "thumb32": "/generated/images/gospel_32.webp",
@@ -9998,6 +10242,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tiramisu.png",
       "thumb32": "/generated/images/tiramisu_32.webp",
       "thumb32Png": "/generated/images/tiramisu_32.png",
@@ -10133,6 +10381,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/live-broadcast.png",
       "thumb32": "/generated/images/live-broadcast_32.webp",
       "thumb32Png": "/generated/images/live-broadcast_32.png",
@@ -10265,6 +10517,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -10418,6 +10674,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tzolkin.png",
       "thumb32": "/generated/images/tzolkin_32.webp",
       "thumb32Png": "/generated/images/tzolkin_32.png",
@@ -10559,6 +10819,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/pareidolia.png",
       "thumb32": "/generated/images/pareidolia_32.webp",
       "thumb32Png": "/generated/images/pareidolia_32.png",
@@ -10654,6 +10918,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -10798,6 +11066,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tears-of-pearl.png",
       "thumb32": "/generated/images/tears-of-pearl_32.webp",
       "thumb32Png": "/generated/images/tears-of-pearl_32.png",
@@ -10905,6 +11177,10 @@
         "en": "Rerolls glitched items into Devil Room items"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -11049,6 +11325,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/risemara.png",
       "thumb32": "/generated/images/risemara_32.webp",
       "thumb32Png": "/generated/images/risemara_32.png",
@@ -11177,6 +11457,10 @@
       "abyssSynic": {
         "zh": "斩出少许血量的蝗虫",
         "en": "Locust that cuts out a small amount of health"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/chiastolite.png",
       "thumb32": "/generated/images/chiastolite_32.webp",
@@ -11310,6 +11594,10 @@
       "abyssSynic": {
         "zh": "生成小型硫磺火柱的蝗虫",
         "en": "Locust that spawns small brimstone fire pillars"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/calamity.png",
       "thumb32": "/generated/images/calamity_32.webp",
@@ -11446,6 +11734,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/shadow-bottle.png",
       "thumb32": "/generated/images/shadow-bottle_32.webp",
       "thumb32Png": "/generated/images/shadow-bottle_32.png",
@@ -11565,6 +11857,10 @@
         "en": "Reveal from the Devil Room pool instead"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -11708,6 +12004,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/blue-print.png",
       "thumb32": "/generated/images/blue-print_32.webp",
       "thumb32Png": "/generated/images/blue-print_32.png",
@@ -11844,6 +12144,10 @@
       "abyssSynic": {
         "zh": "彩色蝗虫",
         "en": "Colorful locust"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/hypermnesia.png",
       "thumb32": "/generated/images/hypermnesia_32.webp",
@@ -11983,6 +12287,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -12127,6 +12435,10 @@
         "zh": "留下科技限制器的蝗虫",
         "en": "Locust leaving technology limiters"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tech-14.png",
       "thumb32": "/generated/images/tech-14_32.webp",
       "thumb32Png": "/generated/images/tech-14_32.png",
@@ -12253,6 +12565,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -12389,6 +12705,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -12540,6 +12860,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/disequilibrium.png",
       "thumb32": "/generated/images/disequilibrium_32.webp",
       "thumb32Png": "/generated/images/disequilibrium_32.png",
@@ -12662,6 +12986,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -12809,6 +13137,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/philosophers-stone.png",
       "thumb32": "/generated/images/philosophers-stone_32.webp",
       "thumb32Png": "/generated/images/philosophers-stone_32.png",
@@ -12930,6 +13262,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/brilliant.png",
       "thumb32": "/generated/images/brilliant_32.webp",
       "thumb32Png": "/generated/images/brilliant_32.png",
@@ -13046,6 +13382,10 @@
       "abyssSynic": {
         "zh": "概率魅惑的蝗虫",
         "en": "Locust with chance to charm enemies"
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
       },
       "icon": "/generated/images/fraternity.png",
       "thumb32": "/generated/images/fraternity_32.webp",
@@ -13175,6 +13515,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/ending-count.png",
       "thumb32": "/generated/images/ending-count_32.webp",
       "thumb32Png": "/generated/images/ending-count_32.png",
@@ -13276,6 +13620,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -13393,6 +13741,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -13531,6 +13883,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/world-arc.png",
       "thumb32": "/generated/images/world-arc_32.webp",
       "thumb32Png": "/generated/images/world-arc_32.png",
@@ -13665,6 +14021,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/final-prism.png",
       "thumb32": "/generated/images/final-prism_32.webp",
       "thumb32Png": "/generated/images/final-prism_32.png",
@@ -13785,6 +14145,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -13923,6 +14287,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/evil-intervention.png",
       "thumb32": "/generated/images/evil-intervention_32.webp",
       "thumb32Png": "/generated/images/evil-intervention_32.png",
@@ -14042,6 +14410,10 @@
         "en": "Throw tears down from the height of the character"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -14172,6 +14544,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/illumination.png",
       "thumb32": "/generated/images/illumination_32.webp",
       "thumb32Png": "/generated/images/illumination_32.png",
@@ -14296,6 +14672,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -14433,6 +14813,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -14579,6 +14963,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/book-of-6-sin.png",
       "thumb32": "/generated/images/book-of-6-sin_32.webp",
       "thumb32Png": "/generated/images/book-of-6-sin_32.png",
@@ -14704,6 +15092,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -14841,6 +15233,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/dark-mysticism.png",
       "thumb32": "/generated/images/dark-mysticism_32.webp",
       "thumb32Png": "/generated/images/dark-mysticism_32.png",
@@ -14958,6 +15354,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -15111,6 +15511,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/the-suture-needle.png",
       "thumb32": "/generated/images/the-suture-needle_32.webp",
       "thumb32Png": "/generated/images/the-suture-needle_32.png",
@@ -15243,6 +15647,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -15386,6 +15794,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/mental-disorder.png",
       "thumb32": "/generated/images/mental-disorder_32.webp",
       "thumb32Png": "/generated/images/mental-disorder_32.png",
@@ -15518,6 +15930,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -15669,6 +16085,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/cursed-mask.png",
       "thumb32": "/generated/images/cursed-mask_32.webp",
       "thumb32Png": "/generated/images/cursed-mask_32.png",
@@ -15776,6 +16196,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -15938,6 +16362,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/nihilistic-artificial-eye.png",
       "thumb32": "/generated/images/nihilistic-artificial-eye_32.webp",
       "thumb32Png": "/generated/images/nihilistic-artificial-eye_32.png",
@@ -16078,6 +16506,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/phantom-crown.png",
       "thumb32": "/generated/images/phantom-crown_32.webp",
       "thumb32Png": "/generated/images/phantom-crown_32.png",
@@ -16211,6 +16643,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -16349,6 +16785,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/subera-light.png",
       "thumb32": "/generated/images/subera-light_32.webp",
       "thumb32Png": "/generated/images/subera-light_32.png",
@@ -16456,6 +16896,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -16589,6 +17033,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/shangrila.png",
       "thumb32": "/generated/images/shangrila_32.webp",
       "thumb32Png": "/generated/images/shangrila_32.png",
@@ -16697,6 +17145,10 @@
         "en": "{{DevilRoom}} Devil Rooms can be anchored and reproduced if one opens next floor"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -16826,6 +17278,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -16961,6 +17417,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -17110,6 +17570,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/core-brooch.png",
       "thumb32": "/generated/images/core-brooch_32.webp",
       "thumb32Png": "/generated/images/core-brooch_32.png",
@@ -17230,6 +17694,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -17374,6 +17842,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/hunger-burger.png",
       "thumb32": "/generated/images/hunger-burger_32.webp",
       "thumb32Png": "/generated/images/hunger-burger_32.png",
@@ -17497,6 +17969,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/muscae-volitantes.png",
       "thumb32": "/generated/images/muscae-volitantes_32.webp",
       "thumb32Png": "/generated/images/muscae-volitantes_32.png",
@@ -17617,6 +18093,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/charons-sign.png",
       "thumb32": "/generated/images/charons-sign_32.webp",
       "thumb32Png": "/generated/images/charons-sign_32.png",
@@ -17731,6 +18211,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -17857,6 +18341,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/baby-anna.png",
       "thumb32": "/generated/images/baby-anna_32.webp",
       "thumb32Png": "/generated/images/baby-anna_32.png",
@@ -17971,6 +18459,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -18091,6 +18583,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/baby-marri.png",
       "thumb32": "/generated/images/baby-marri_32.webp",
       "thumb32Png": "/generated/images/baby-marri_32.png",
@@ -18205,6 +18701,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -18326,6 +18826,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/baby-lu.png",
       "thumb32": "/generated/images/baby-lu_32.webp",
       "thumb32Png": "/generated/images/baby-lu_32.png",
@@ -18439,6 +18943,10 @@
         "en": "{{Battery}} +2 charge cap (max 12). Blade turns blood-red"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -18570,6 +19078,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/dragon-tooth.png",
       "thumb32": "/generated/images/dragon-tooth_32.webp",
       "thumb32Png": "/generated/images/dragon-tooth_32.png",
@@ -18692,6 +19204,10 @@
         "zh": "白色蝗虫",
         "en": "White locust"
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/reserved-judgment.png",
       "thumb32": "/generated/images/reserved-judgment_32.webp",
       "thumb32Png": "/generated/images/reserved-judgment_32.png",
@@ -18805,6 +19321,10 @@
         "en": "Always have an extra 6; for Devil Room pool items, this 6 can replace any character"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -18928,6 +19448,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/remaster.png",
       "thumb32": "/generated/images/remaster_32.webp",
       "thumb32Png": "/generated/images/remaster_32.png",
@@ -19041,6 +19565,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -19166,6 +19694,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/golden-slot.png",
       "thumb32": "/generated/images/golden-slot_32.webp",
       "thumb32Png": "/generated/images/golden-slot_32.png",
@@ -19288,6 +19820,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/procrastination.png",
       "thumb32": "/generated/images/procrastination_32.webp",
       "thumb32Png": "/generated/images/procrastination_32.png",
@@ -19399,6 +19935,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/sacred-mind-shield.png",
       "thumb32": "/generated/images/sacred-mind-shield_32.webp",
       "thumb32Png": "/generated/images/sacred-mind-shield_32.png",
@@ -19506,6 +20046,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -19623,6 +20167,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -19755,6 +20303,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/abiogenesis.png",
       "thumb32": "/generated/images/abiogenesis_32.webp",
       "thumb32Png": "/generated/images/abiogenesis_32.png",
@@ -19865,6 +20417,10 @@
         "en": "The whisper panel gains Double Accept#Pay a greater cost for a greater promise"
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -19993,6 +20549,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -20125,6 +20685,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/ember.png",
       "thumb32": "/generated/images/ember_32.webp",
       "thumb32Png": "/generated/images/ember_32.png",
@@ -20226,6 +20790,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/pacification-mark.png",
       "thumb32": "/generated/images/pacification-mark_32.webp",
       "thumb32Png": "/generated/images/pacification-mark_32.png",
@@ -20324,6 +20892,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -20438,6 +21010,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/torn-emperor.png",
       "thumb32": "/generated/images/torn-emperor_32.webp",
       "thumb32Png": "/generated/images/torn-emperor_32.png",
@@ -20536,6 +21112,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -20640,6 +21220,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/torn-moon.png",
       "thumb32": "/generated/images/torn-moon_32.webp",
       "thumb32Png": "/generated/images/torn-moon_32.png",
@@ -20738,6 +21322,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -20842,6 +21430,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/hoarding-symbol.png",
       "thumb32": "/generated/images/hoarding-symbol_32.webp",
       "thumb32Png": "/generated/images/hoarding-symbol_32.png",
@@ -20940,6 +21532,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -21044,6 +21640,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/adhesive-symbol.png",
       "thumb32": "/generated/images/adhesive-symbol_32.webp",
       "thumb32Png": "/generated/images/adhesive-symbol_32.png",
@@ -21142,6 +21742,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -21246,6 +21850,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/allocation-symbol.png",
       "thumb32": "/generated/images/allocation-symbol_32.webp",
       "thumb32Png": "/generated/images/allocation-symbol_32.png",
@@ -21344,6 +21952,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -21448,6 +22060,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/equality-agreement.png",
       "thumb32": "/generated/images/equality-agreement_32.webp",
       "thumb32Png": "/generated/images/equality-agreement_32.png",
@@ -21546,6 +22162,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -21650,6 +22270,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/bundled-sale.png",
       "thumb32": "/generated/images/bundled-sale_32.webp",
       "thumb32Png": "/generated/images/bundled-sale_32.png",
@@ -21751,6 +22375,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/broken-brooch.png",
       "thumb32": "/generated/images/broken-brooch_32.webp",
       "thumb32Png": "/generated/images/broken-brooch_32.png",
@@ -21839,6 +22467,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -21953,6 +22585,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/qings-soul.png",
       "thumb32": "/generated/images/qings-soul_32.webp",
       "thumb32Png": "/generated/images/qings-soul_32.png",
@@ -22051,6 +22687,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -22154,6 +22794,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "候选增加至8个",
+        "en": "Show 8 phantoms instead"
       },
       "icon": "/generated/images/0-the-fool.png",
       "thumb32": "/generated/images/0-the-fool_32.webp",
@@ -22274,6 +22918,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "发射8枚",
+        "en": "Fire 8 tears instead"
+      },
       "icon": "/generated/images/i-the-witch.png",
       "thumb32": "/generated/images/i-the-witch_32.webp",
       "thumb32Png": "/generated/images/i-the-witch_32.png",
@@ -22370,8 +23018,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "从原版塔罗与透特牌中随机预言1张牌面#之后使用该牌面时，生成1张随机卡牌并返还{{Card:i-the-invoker}}#{{Collectible:451}} 预言3张牌面，每张命中生成2张随机卡牌",
-        "en": "Foretell 1 random face from vanilla tarot and Thoth cards#When that face is used, spawn 1 random card and return {{Card:i-the-invoker}}#{{Collectible:451}} Foretell 3 faces; each hit spawns 2 random cards"
+        "zh": "从原版塔罗与透特牌中随机预言1张牌面#之后使用该牌面时，生成1张随机卡牌并返还{{Card:i-the-invoker}}",
+        "en": "Foretell 1 random face from vanilla tarot and Thoth cards#When that face is used, spawn 1 random card and return {{Card:i-the-invoker}}"
       },
       "seijaBuff": {
         "zh": "",
@@ -22392,6 +23040,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "预言3张牌面，每张命中生成2张随机卡牌",
+        "en": "Foretell 3 faces; each hit spawns 2 random cards"
       },
       "icon": "/generated/images/i-the-invoker.png",
       "thumb32": "/generated/images/i-the-invoker_32.webp",
@@ -22512,6 +23164,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "开启更多通往特殊房间的传送门",
+        "en": "Open more portals to special rooms"
+      },
       "icon": "/generated/images/i-the-wizard.png",
       "thumb32": "/generated/images/i-the-wizard_32.webp",
       "thumb32Png": "/generated/images/i-the-wizard_32.png",
@@ -22613,6 +23269,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "持续60秒",
+        "en": "Lasts 60 seconds"
+      },
       "icon": "/generated/images/ii-the-high-priestess.png",
       "thumb32": "/generated/images/ii-the-high-priestess_32.webp",
       "thumb32Png": "/generated/images/ii-the-high-priestess_32.png",
@@ -22713,6 +23373,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "被吸取方保留更多生命比例",
+        "en": "Drained foes keep a higher health ratio"
       },
       "icon": "/generated/images/iii-the-empress.png",
       "thumb32": "/generated/images/iii-the-empress_32.webp",
@@ -22825,6 +23489,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "提高墙面生成门的成功率，因此通常会出现更多门",
+        "en": "Raises the per-wall spawn chance, so you usually get more doors"
+      },
       "icon": "/generated/images/iv-the-emperor.png",
       "thumb32": "/generated/images/iv-the-emperor_32.webp",
       "thumb32Png": "/generated/images/iv-the-emperor_32.png",
@@ -22936,6 +23604,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "改为生成脆弱的{{Collectible182}}魂火、{{Collectible184}}魂火和{{Collectible533}}魂火各一个",
+        "en": "Generate delicate wisps of {{Collectible182}},{{Collectible184}} and {{Collectible533}}."
+      },
       "icon": "/generated/images/v-the-hierophant.png",
       "thumb32": "/generated/images/v-the-hierophant_32.webp",
       "thumb32Png": "/generated/images/v-the-hierophant_32.png",
@@ -23036,6 +23708,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "概率提升至75%",
+        "en": "Chance rises to 75%"
       },
       "icon": "/generated/images/vi-lover.png",
       "thumb32": "/generated/images/vi-lover_32.webp",
@@ -23148,6 +23824,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "三向发射3枚火箭",
+        "en": "Fire 3 rockets in three directions"
+      },
       "icon": "/generated/images/vii-chariot.png",
       "thumb32": "/generated/images/vii-chariot_32.webp",
       "thumb32Png": "/generated/images/vii-chariot_32.png",
@@ -23259,6 +23939,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "根据此次平衡改变的基础数量，获得属性提升",
+        "en": "Get attribute improvement according to the amount of this balance change"
+      },
       "icon": "/generated/images/viii-adjustment.png",
       "thumb32": "/generated/images/viii-adjustment_32.webp",
       "thumb32Png": "/generated/images/viii-adjustment_32.png",
@@ -23360,6 +24044,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "改为生成至多3个候选（同一Options组，只能取其一）",
+        "en": "Spawn up to 3 candidates as one Options group (take only one)"
+      },
       "icon": "/generated/images/ix-the-hermit.png",
       "thumb32": "/generated/images/ix-the-hermit_32.webp",
       "thumb32Png": "/generated/images/ix-the-hermit_32.png",
@@ -23460,6 +24148,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "转换为3个同名道具魂火，魂火可以抵挡一次碰撞",
+        "en": "Convert into 3 wisps that can withstand one hit"
       },
       "icon": "/generated/images/x-the-wheel-of-destiny.png",
       "thumb32": "/generated/images/x-the-wheel-of-destiny_32.webp",
@@ -23572,6 +24264,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "额外掉落概率提高",
+        "en": "Extra drop chance increases"
+      },
       "icon": "/generated/images/xi-lure.png",
       "thumb32": "/generated/images/xi-lure_32.webp",
       "thumb32Png": "/generated/images/xi-lure_32.png",
@@ -23673,6 +24369,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "额外生成此卡",
+        "en": "Also spawn this card again"
+      },
       "icon": "/generated/images/xii-the-hanged-man.png",
       "thumb32": "/generated/images/xii-the-hanged-man_32.webp",
       "thumb32Png": "/generated/images/xii-the-hanged-man_32.png",
@@ -23773,6 +24473,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "入睡后额外获得一层{{Collectible313}}",
+        "en": "Also gain one layer of {{Collectible313}} after sleeping"
       },
       "icon": "/generated/images/xiii-faint.png",
       "thumb32": "/generated/images/xiii-faint_32.webp",
@@ -23885,6 +24589,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "持续时间延长至45秒",
+        "en": "Duration increases to 45s"
+      },
       "icon": "/generated/images/xiv-art.png",
       "thumb32": "/generated/images/xiv-art_32.webp",
       "thumb32Png": "/generated/images/xiv-art_32.png",
@@ -23986,6 +24694,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "主动使用时保留此卡",
+        "en": "Keep this card when used actively"
+      },
       "icon": "/generated/images/xv-the-devil.png",
       "thumb32": "/generated/images/xv-the-devil_32.webp",
       "thumb32Png": "/generated/images/xv-the-devil_32.png",
@@ -24086,6 +24798,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "出房间后恢复那些地形块",
+        "en": "Restore those grids after leaving the room"
       },
       "icon": "/generated/images/xvi-the-tower.png",
       "thumb32": "/generated/images/xvi-the-tower_32.webp",
@@ -24206,6 +24922,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "首次满足时额外生成混合心、黑心与骨心",
+        "en": "On the first qualifying use, also spawn blended, black, and bone hearts"
+      },
       "icon": "/generated/images/xvii-the-star.png",
       "thumb32": "/generated/images/xvii-the-star_32.webp",
       "thumb32Png": "/generated/images/xvii-the-star_32.png",
@@ -24324,6 +25044,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "月光消失后留下通往隐藏房的传送门",
+        "en": "When the moonlight generated by this method disappears, it will leave a portal to the secret room"
       },
       "icon": "/generated/images/xviii-the-moon.png",
       "thumb32": "/generated/images/xviii-the-moon_32.webp",
@@ -24444,6 +25168,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "重放10张后额外生成一件道具",
+        "en": "After replaying 10 cards, also spawn an item"
+      },
       "icon": "/generated/images/xix-the-sun.png",
       "thumb32": "/generated/images/xix-the-sun_32.webp",
       "thumb32Png": "/generated/images/xix-the-sun_32.png",
@@ -24544,6 +25272,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "生成两台忏悔室",
+        "en": "Spawn 2 Confessionals"
       },
       "icon": "/generated/images/xx-the-aeon.png",
       "thumb32": "/generated/images/xx-the-aeon_32.webp",
@@ -24646,6 +25378,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "奖励改为2选1",
+        "en": "Reward becomes a 2-choice instead"
+      },
       "icon": "/generated/images/xxi-the-universe.png",
       "thumb32": "/generated/images/xxi-the-universe_32.webp",
       "thumb32Png": "/generated/images/xxi-the-universe_32.png",
@@ -24746,6 +25482,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "预知三个道具",
+        "en": "Predict 3 items"
       },
       "icon": "/generated/images/0-the-fool-reversed.png",
       "thumb32": "/generated/images/0-the-fool-reversed_32.webp",
@@ -24848,6 +25588,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "大幅提升特殊火的出现概率",
+        "en": "Greatly increase the occurrence probability of special fire"
+      },
       "icon": "/generated/images/i-the-sage-reversed.png",
       "thumb32": "/generated/images/i-the-sage-reversed_32.webp",
       "thumb32Png": "/generated/images/i-the-sage-reversed_32.png",
@@ -24949,6 +25693,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "被抓住的敌人会成为友军",
+        "en": "The grabbed enemy becomes friendly"
+      },
       "icon": "/generated/images/ii-the-high-priestess-reversed.png",
       "thumb32": "/generated/images/ii-the-high-priestess-reversed_32.webp",
       "thumb32Png": "/generated/images/ii-the-high-priestess-reversed_32.png",
@@ -25049,6 +25797,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "售价降低至一倍",
+        "en": "Lower its price greatly."
       },
       "icon": "/generated/images/iii-the-empress-reversed.png",
       "thumb32": "/generated/images/iii-the-empress-reversed_32.webp",
@@ -25161,6 +25913,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "召唤更强的Boss",
+        "en": "Summon a stronger Boss"
+      },
       "icon": "/generated/images/iv-the-emperor-reversed.png",
       "thumb32": "/generated/images/iv-the-emperor-reversed_32.webp",
       "thumb32Png": "/generated/images/iv-the-emperor-reversed_32.png",
@@ -25272,6 +26028,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "被献祭的道具额外留下对应魂火",
+        "en": "Also leave an item wisp for each sacrificed collectible"
+      },
       "icon": "/generated/images/v-the-hierophant-reversed.png",
       "thumb32": "/generated/images/v-the-hierophant-reversed_32.webp",
       "thumb32Png": "/generated/images/v-the-hierophant-reversed_32.png",
@@ -25372,6 +26132,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "改为各2个进行十选一",
+        "en": "Generate 2 set of item and choose one from ten"
       },
       "icon": "/generated/images/vi-the-lover-reversed.png",
       "thumb32": "/generated/images/vi-the-lover-reversed_32.webp",
@@ -25484,6 +26248,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "第一次撞墙后反弹并继续冲锋",
+        "en": "Bounce once on the first wall hit and keep charging"
+      },
       "icon": "/generated/images/vii-the-chariot-reversed.png",
       "thumb32": "/generated/images/vii-the-chariot-reversed_32.webp",
       "thumb32Png": "/generated/images/vii-the-chariot-reversed_32.png",
@@ -25595,6 +26363,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "50%概率再次掉落此卡",
+        "en": "50% chance to drop this card again"
+      },
       "icon": "/generated/images/viii-adjustment-reversed.png",
       "thumb32": "/generated/images/viii-adjustment-reversed_32.webp",
       "thumb32Png": "/generated/images/viii-adjustment-reversed_32.png",
@@ -25695,6 +26467,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "暂失数量不变，随机新道具改为二选一",
+        "en": "Still hide 3 items; the random new item becomes a 2-choice"
       },
       "icon": "/generated/images/ix-the-hermit-reversed.png",
       "thumb32": "/generated/images/ix-the-hermit-reversed_32.webp",
@@ -25797,6 +26573,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "改为五至七选一掉落物",
+        "en": "Add the choices of the pickups."
+      },
       "icon": "/generated/images/x-the-wheel-of-destiny-reversed.png",
       "thumb32": "/generated/images/x-the-wheel-of-destiny-reversed_32.webp",
       "thumb32Png": "/generated/images/x-the-wheel-of-destiny-reversed_32.png",
@@ -25885,8 +26665,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "持有时，较轻的伤害会提高至1.5颗心，并记录每次有效受伤#使用后，每次记录生成1个{{SoulHeart}}，并清空累计#{{Collectible:451}} 奖励改为{{BlendedHeart}}",
-        "en": "While held, lighter hits are raised to 1.5 hearts and each effective hit is recorded#On use, spawn 1 {{SoulHeart}} per record and clear the count#{{Collectible:451}} Payout becomes {{BlendedHeart}}"
+        "zh": "持有时，较轻的伤害会提高至1.5颗心，并记录每次有效受伤#使用后，每次记录生成1个{{SoulHeart}}，并清空累计",
+        "en": "While held, lighter hits are raised to 1.5 hearts and each effective hit is recorded#On use, spawn 1 {{SoulHeart}} per record and clear the count"
       },
       "seijaBuff": {
         "zh": "",
@@ -25907,6 +26687,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "奖励改为{{BlendedHeart}}",
+        "en": "Payout becomes {{BlendedHeart}}"
       },
       "icon": "/generated/images/xi-lure-reversed.png",
       "thumb32": "/generated/images/xi-lure-reversed_32.webp",
@@ -26008,6 +26792,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "额外生成此卡",
+        "en": "Also spawn this card again"
       },
       "icon": "/generated/images/xii-the-hanged-man-reversed.png",
       "thumb32": "/generated/images/xii-the-hanged-man-reversed_32.webp",
@@ -26128,6 +26916,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "更快入睡，攻击造成的唤醒更慢",
+        "en": "Falls asleep faster; attacks wake it more slowly"
+      },
       "icon": "/generated/images/xiii-faint-reversed.png",
       "thumb32": "/generated/images/xiii-faint-reversed_32.webp",
       "thumb32Png": "/generated/images/xiii-faint-reversed_32.png",
@@ -26246,6 +27038,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "属性提升幅度进一步增加",
+        "en": "Stat boosts increase further"
       },
       "icon": "/generated/images/xiii-death-reversed.png",
       "thumb32": "/generated/images/xiii-death-reversed_32.webp",
@@ -26366,6 +27162,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "概率提升至25%",
+        "en": "Chance rises to 25%"
+      },
       "icon": "/generated/images/xiii-the-corpse-reversed.png",
       "thumb32": "/generated/images/xiii-the-corpse-reversed_32.webp",
       "thumb32Png": "/generated/images/xiii-the-corpse-reversed_32.png",
@@ -26477,6 +27277,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "爆炸不会伤害玩家",
+        "en": "Explosions do not harm the player"
+      },
       "icon": "/generated/images/xiv-art-reversed.png",
       "thumb32": "/generated/images/xiv-art-reversed_32.webp",
       "thumb32Png": "/generated/images/xiv-art-reversed_32.png",
@@ -26578,6 +27382,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "商品增加至4–5件",
+        "en": "Goods increase to 4–5"
+      },
       "icon": "/generated/images/xv-the-devil-reversed.png",
       "thumb32": "/generated/images/xv-the-devil-reversed_32.webp",
       "thumb32Png": "/generated/images/xv-the-devil-reversed_32.png",
@@ -26678,6 +27486,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "波次数量由10提高至16",
+        "en": "Wave count rises from 10 to 16"
       },
       "icon": "/generated/images/xvi-the-tower-reversed.png",
       "thumb32": "/generated/images/xvi-the-tower-reversed_32.webp",
@@ -26798,6 +27610,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "点亮全层敌人#点亮本层的掉落物",
+        "en": "Light all enemies on the floor#Light pickups on this floor"
+      },
       "icon": "/generated/images/xvii-the-stars-reversed.png",
       "thumb32": "/generated/images/xvii-the-stars-reversed_32.webp",
       "thumb32Png": "/generated/images/xvii-the-stars-reversed_32.png",
@@ -26916,6 +27732,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "玩家不再受到恐惧",
+        "en": "You are no longer feared"
       },
       "icon": "/generated/images/xviii-the-moon-reversed.png",
       "thumb32": "/generated/images/xviii-the-moon-reversed_32.webp",
@@ -27036,6 +27856,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "每次进入时优先选择尚未探索的特殊房间",
+        "en": "Each entry prefers an unexplored special room"
+      },
       "icon": "/generated/images/xix-the-sun-reversed.png",
       "thumb32": "/generated/images/xix-the-sun-reversed_32.webp",
       "thumb32Png": "/generated/images/xix-the-sun-reversed_32.png",
@@ -27136,6 +27960,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "获得更高的初始稳定度",
+        "en": "Start with higher Stability"
       },
       "icon": "/generated/images/xx-the-aeon-reversed.png",
       "thumb32": "/generated/images/xx-the-aeon-reversed_32.webp",
@@ -27238,6 +28066,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "返还的道具以完整的新状态出现",
+        "en": "The returned item appears fully refreshed"
+      },
       "icon": "/generated/images/xxi-the-universe-reversed.png",
       "thumb32": "/generated/images/xxi-the-universe-reversed_32.webp",
       "thumb32Png": "/generated/images/xxi-the-universe-reversed_32.png",
@@ -27339,6 +28171,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "旋涡持续时长翻倍（30秒）",
+        "en": "Double vortex duration (30 seconds)"
+      },
       "icon": "/generated/images/xix-the-eclipse.png",
       "thumb32": "/generated/images/xix-the-eclipse_32.webp",
       "thumb32Png": "/generated/images/xix-the-eclipse_32.png",
@@ -27439,6 +28275,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "落光伤害由3倍提升至6倍",
+        "en": "Falling-light damage rises from 3x to 6x"
       },
       "icon": "/generated/images/xix-the-eclipse-reversed.png",
       "thumb32": "/generated/images/xix-the-eclipse-reversed_32.webp",
@@ -27548,6 +28388,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -27662,6 +28506,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/annas-soul.png",
       "thumb32": "/generated/images/annas-soul_32.webp",
       "thumb32Png": "/generated/images/annas-soul_32.png",
@@ -27773,6 +28621,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/zeiss-soul.png",
       "thumb32": "/generated/images/zeiss-soul_32.webp",
       "thumb32Png": "/generated/images/zeiss-soul_32.png",
@@ -27873,6 +28725,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "额外生成2个超级隐藏房",
+        "en": "Adds 2 Super Secret Rooms instead"
       },
       "icon": "/generated/images/xxi-the-profound.png",
       "thumb32": "/generated/images/xxi-the-profound_32.webp",
@@ -27975,6 +28831,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "最终奖励改为4选1",
+        "en": "Final reward becomes a 4-choice"
+      },
       "icon": "/generated/images/xxi-the-profound-reversed.png",
       "thumb32": "/generated/images/xxi-the-profound-reversed_32.webp",
       "thumb32Png": "/generated/images/xxi-the-profound-reversed_32.png",
@@ -28076,6 +28936,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "每次献祭有30%概率生成一颗魂心",
+        "en": "30% chance to generate a soul heart when sacrifice"
+      },
       "icon": "/generated/images/v-the-sting.png",
       "thumb32": "/generated/images/v-the-sting_32.webp",
       "thumb32Png": "/generated/images/v-the-sting_32.png",
@@ -28176,6 +29040,10 @@
       "abyssSynic": {
         "zh": "",
         "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "可同时标记2个祭品",
+        "en": "Can mark 2 sacrifices at once"
       },
       "icon": "/generated/images/v-the-sting-reversed.png",
       "thumb32": "/generated/images/v-the-sting-reversed_32.webp",
@@ -28286,6 +29154,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -28424,6 +29296,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -29015,6 +29891,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/tecro_portrait.png",
       "thumb32": "/generated/images/tecro_portrait_32.webp",
       "thumb32Png": "/generated/images/tecro_portrait_32.png",
@@ -29133,6 +30013,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -29347,6 +30231,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/anna_portrait.png",
       "thumb32": "/generated/images/anna_portrait_32.webp",
       "thumb32Png": "/generated/images/anna_portrait_32.png",
@@ -29461,6 +30349,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/anna-tainted_portrait.png",
       "thumb32": "/generated/images/anna-tainted_portrait_32.webp",
       "thumb32Png": "/generated/images/anna-tainted_portrait_32.png",
@@ -29562,6 +30454,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -29674,6 +30570,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/zeiz_portrait.png",
       "thumb32": "/generated/images/zeiz_portrait_32.webp",
       "thumb32Png": "/generated/images/zeiz_portrait_32.png",
@@ -29762,6 +30662,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -29862,6 +30766,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/fans-service.png",
       "thumb32": "/generated/images/fans-service_32.webp",
       "thumb32Png": "/generated/images/fans-service_32.png",
@@ -29947,6 +30855,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -30047,6 +30959,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/feels-like-dead-ashes.png",
       "thumb32": "/generated/images/feels-like-dead-ashes_32.webp",
       "thumb32Png": "/generated/images/feels-like-dead-ashes_32.png",
@@ -30141,6 +31057,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -30241,6 +31161,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/unstable-state.png",
       "thumb32": "/generated/images/unstable-state_32.webp",
       "thumb32Png": "/generated/images/unstable-state_32.png",
@@ -30334,6 +31258,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/invisible.png",
       "thumb32": "/generated/images/invisible_32.webp",
       "thumb32Png": "/generated/images/invisible_32.png",
@@ -30421,6 +31349,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -30521,6 +31453,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/cookie-clicker.png",
       "thumb32": "/generated/images/cookie-clicker_32.webp",
       "thumb32Png": "/generated/images/cookie-clicker_32.png",
@@ -30618,6 +31554,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/safe-driving.png",
       "thumb32": "/generated/images/safe-driving_32.webp",
       "thumb32Png": "/generated/images/safe-driving_32.png",
@@ -30712,6 +31652,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -30814,6 +31758,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/dragon-flight.png",
       "thumb32": "/generated/images/dragon-flight_32.webp",
       "thumb32Png": "/generated/images/dragon-flight_32.png",
@@ -30900,6 +31848,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -31066,6 +32018,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-heart-half.png",
       "thumb32": "/generated/images/glaze-heart-half_32.webp",
       "thumb32Png": "/generated/images/glaze-heart-half_32.png",
@@ -31226,6 +32182,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -31392,6 +32352,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-bomb.png",
       "thumb32": "/generated/images/glaze-bomb_32.webp",
       "thumb32Png": "/generated/images/glaze-bomb_32.png",
@@ -31552,6 +32516,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -31718,6 +32686,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-battery.png",
       "thumb32": "/generated/images/glaze-battery_32.webp",
       "thumb32Png": "/generated/images/glaze-battery_32.png",
@@ -31881,6 +32853,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-chest.png",
       "thumb32": "/generated/images/glaze-chest_32.webp",
       "thumb32Png": "/generated/images/glaze-chest_32.png",
@@ -32041,6 +33017,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -32217,6 +33197,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/glaze-coin.png",
       "thumb32": "/generated/images/glaze-coin_32.webp",
       "thumb32Png": "/generated/images/glaze-coin_32.png",
@@ -32374,6 +33358,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/blueprint-prototype.png",
       "thumb32": "/generated/images/blueprint-prototype_32.webp",
       "thumb32Png": "/generated/images/blueprint-prototype_32.png",
@@ -32462,6 +33450,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -32556,6 +33548,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/rift-beggar.png",
       "thumb32": "/generated/images/rift-beggar_32.webp",
       "thumb32Png": "/generated/images/rift-beggar_32.png",
@@ -32644,6 +33640,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },
@@ -32738,6 +33738,10 @@
         "zh": "",
         "en": ""
       },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
       "icon": "/generated/images/bloody-messenger.png",
       "thumb32": "/generated/images/bloody-messenger_32.webp",
       "thumb32Png": "/generated/images/bloody-messenger_32.png",
@@ -32826,6 +33830,10 @@
         "en": ""
       },
       "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
         "zh": "",
         "en": ""
       },

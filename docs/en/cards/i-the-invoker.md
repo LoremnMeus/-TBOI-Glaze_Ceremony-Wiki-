@@ -1,12 +1,12 @@
 ---
 title: I - The Invoker
-description: "Foretell 1 random face from vanilla tarot and Thoth cards When that face is used, spawn 1 random card and return Tarot Cloth Foretell 3 faces; each hit spawns 2 random cards"
+description: "Foretell 1 random face from vanilla tarot and Thoth cards When that face is used, spawn 1 random card and return"
 slug: i-the-invoker
 kind: card
 internalKey: Invoker
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>I - 魔启 I - The Invoker Invoker i-the-invoker I - The Invoker 我将启迪 从原版塔罗与透特牌中随机预言1张牌面 之后使用该牌面时，生成1张随机卡牌并返还 塔罗牌桌布 预言3张牌面，每张命中生成2张随机卡牌 Foretell 1 random face from vanilla tarot and Thoth cards When that face is used, spawn 1 random card and return Tarot Cloth Foretell 3 faces; each hit spawns 2 random cards</p>
+<p class="wiki-search-index" v-pre>I - 魔启 I - The Invoker Invoker i-the-invoker I - The Invoker 我将启迪 从原版塔罗与透特牌中随机预言1张牌面 之后使用该牌面时，生成1张随机卡牌并返还 Foretell 1 random face from vanilla tarot and Thoth cards When that face is used, spawn 1 random card and return</p>
 
 <PublicEntry slug="i-the-invoker" lang="en" />
 
