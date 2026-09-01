@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T06:54:23Z",
+  "generatedAt": "2026-09-01T07:09:07Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -12966,8 +12966,8 @@
         "en": "VI"
       },
       "eid": {
-        "zh": "{{Card78}} 每层开始时生成3张红钥匙碎片#将最多4个特殊房间移到地图外的红房位置#需要使用红钥匙碎片重新找到这些房间#首次进入被移动的特殊房间时，返还1张红钥匙碎片",
-        "en": "{{Card78}} Spawn 3 Cracked Keys at the start of each floor#Move up to 4 special rooms beyond the normal map as red rooms#Use Cracked Keys to find those rooms again#Entering a moved room for the first time returns 1 Cracked Key"
+        "zh": "{{Card78}} 每层开始获得3张红钥匙碎片#最多4间特殊房会被搬到正常地图之外#使用红钥匙碎片重新打开通往这些房间的路线#{{Card78}} 首次找到其中一间时返还1张碎片",
+        "en": "{{Card78}} Gain 3 Cracked Keys at the start of each floor#Up to 4 special rooms move beyond the normal map#Use Cracked Keys to reopen routes to those rooms#{{Card78}} Finding one for the first time returns 1 Cracked Key"
       },
       "seijaBuff": {
         "zh": "",
@@ -13126,8 +13126,8 @@
         "en": "75% Chance to convert items into rainbow poops"
       },
       "bookOfVirtues": {
-        "zh": "概率发射点金子弹的魂火",
-        "en": "Wisp with probability to turn enemies gold"
+        "zh": "有概率将敌人点金的金色魂火",
+        "en": "Gold wisp with a chance to turn enemies to gold"
       },
       "bookOfBelial": {
         "zh": "",
@@ -13239,8 +13239,8 @@
         "en": "To the gold of eternity"
       },
       "eid": {
-        "zh": "{{GoldenHeart}} +3金心#{{Shop}} 每颗金心使硬币商品价格-1#{{Coin}} 辉煌自身在商店中的价格不会超过当前持有的硬币",
-        "en": "{{GoldenHeart}} +3 Golden Heart#{{Shop}} Each Golden Heart reduces coin prices by 1#{{Coin}} Brilliant's shop price never exceeds your current coins"
+        "zh": "{{GoldenHeart}} +3金心#{{Shop}} 每颗金心使硬币商品价格-1#{{Coin}} 辉煌自身最多卖到你当前的硬币数，但最低仍为1",
+        "en": "{{GoldenHeart}} +3 Golden Heart#{{Shop}} Each Golden Heart reduces coin prices by 1#{{Coin}} Brilliant's shop price is capped at your coins, but never below 1"
       },
       "seijaBuff": {
         "zh": "",

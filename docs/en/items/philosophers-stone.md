@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-**Philosopher's Stone charges from empty pedestals and reforges the nearest non-empty pedestal into another item along a nearby ID sequence.**
+**Philosopher's Stone charges from empty pedestals and reforges the nearest non-empty pedestal through a cycle of earlier collectible IDs.**
 
 ### How to charge
 
@@ -31,20 +31,23 @@ Use hits the **nearest non-empty pedestal**. In multi-pedestal rooms, stand next
 
 ### The sequence
 
-While held, EID shows current item → about **5** following IDs.
+On use, the nearest pedestal gains a set of candidates by walking **backward** through collectible IDs, then cycles among them.
 
-**Read the sequence before spending 3 empties.**
+While held, EID shows: current item → about **5** earlier usable collectibles.
 
-Example: a bad pedestal that sequences into a strong passive soon is worth the burn; five weak/quest steps means save the empties.
+Hidden and quest items are skipped and never enter the chain.
+
+**Read the sequence before spending 3 empties.** If nothing useful appears in that backward walk, keep the charge; the stone's value depends on what earlier IDs you can reach from the current pedestal.
 
 ## Synergies
 
 ### {{Seija}}
 
-**Warning: ~75% fail chance.** On fail the pedestal is destroyed and replaced with a rainbow poop—fuel and the room item are both wasted.
+**Warning: 75% fail chance.** On fail the pedestal is destroyed and replaced with a rainbow poop—fuel and the room item are both wasted.
 
 ### {{Collectible:584}}
-Spawns a wisp that fires golden tears.
+
+Spawns a gold wisp whose tears have a **5%** chance to turn enemies into gold.
 
 ## Trivia
 

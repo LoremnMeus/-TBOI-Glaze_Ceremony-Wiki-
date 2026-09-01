@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Destruction
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象解构 Deconstruction Destruction deconstruction Deconstruction VI VI 红钥匙碎片 每层开始时生成3张红钥匙碎片 将最多4个特殊房间移到地图外的红房位置 需要使用红钥匙碎片重新找到这些房间 首次进入被移动的特殊房间时，返还1张红钥匙碎片 Cracked Key Spawn 3 Cracked Keys at the start of each floor Move up to 4 special rooms beyond the normal map as red rooms Use Cracked Keys to find those rooms again Entering a moved room for the first time returns 1 Cracked Key</p>
+<p class="wiki-search-index" v-pre>天象解构 Deconstruction Destruction deconstruction Deconstruction VI VI 红钥匙碎片 每层开始获得3张红钥匙碎片 最多4间特殊房会被搬到正常地图之外 使用红钥匙碎片重新打开通往这些房间的路线 红钥匙碎片 首次找到其中一间时返还1张碎片 Cracked Key Gain 3 Cracked Keys at the start of each floor Up to 4 special rooms move beyond the normal map Use Cracked Keys to reopen routes to those rooms Cracked Key Finding one for the first time returns 1 Cracked Key</p>
 
 <PublicEntry slug="deconstruction" lang="en" />
 
@@ -17,24 +17,45 @@ status: reviewed
 
 ## Effects
 
-**Deconstruction tears some special rooms off the normal map and turns the floor into a Cracked Key treasure hunt.**
+**Deconstruction moves some of this floor's special rooms beyond the normal map. To reach them, you must open the path yourself with Cracked Keys.**
 
-At floor start it spawns Cracked Keys equal to **copies + 2**. With one copy that is **3** keys. Then it swaps special rooms with off-map red-room slots. One copy can move up to **4** rooms, limited by how many eligible special rooms exist on the floor.
+With 1 copy:
 
-### Exploration example
+- At floor start you gain **3** Cracked Keys.
+- Up to **4** eligible special rooms can be moved off the normal map.
+- The first time you enter a moved special room, you receive **1** Cracked Key back.
 
-A shop or treasure room that used to sit on the normal map may now sit beyond it. Use Cracked Keys along walls that could connect; the first visit to a moved special room returns **1** Cracked Key so you can keep searching.
+A shop or Treasure Room that used to sit on the normal map may be relocated. Its contents are not deleted, but the normal route no longer leads there—you need Cracked Keys to open red-room paths and find it again.
 
-### What can move
+### Which rooms can move
 
-- Only **1×1, four-door** special rooms move. Default combat rooms, Boss rooms, and Mini-Boss rooms never move.
-- How many rooms move depends on eligible special rooms on the floor and how many copies you hold.
-- Moved rooms keep their room type and contents; only the route becomes a red-room path.
+Only eligible special rooms are chosen:
 
-## Tips
+- Must be a **1×1** room;
+- Must have door slots on all four sides;
+- Default combat rooms, Boss rooms, and Mini-Boss rooms never move.
 
-- Check walls next to the start room and explored halls that look “missing a piece.”
+Moved rooms keep their original room type and contents; they do not become ordinary red rooms.
+
+### Multiple copies
+
+Extra copies:
+
+- Grant more Cracked Keys each floor;
+- Raise the maximum number of special rooms that can move.
+
+| Copies | Cracked Keys / floor | Max rooms moved |
+| ---: | ---: | ---: |
+| 1 | 3 | 4 |
+| 2 | 4 | 5 |
+| 3 | 5 | 6 |
+
+Higher counts continue the same pattern. Actual moves are still limited by how many eligible rooms exist on the floor.
 
 ## Notes
 
-Moved rooms are not deleted—they sit on the red-key network. Missing them means missing those special-room rewards.
+**Missing special rooms on the map are not deleted.**
+
+If a shop or Treasure Room is moved, its contents still exist—they just require a red-room route to reach.
+
+Cracked Keys do not guarantee an immediate path to the target. The first time you find a moved special room returns 1 key, so a successful find recovers part of the exploration cost.
