@@ -17,51 +17,40 @@ status: reviewed
 
 ## Effects
 
-**D++ treats charges as step size: hold more charges before use, and D advances by that many; the new number then fires every listed die that divides it.**
+**D++ advances the current die number by the charges spent on use, then triggers every die that matches the new number at once.**
 
-- {{Battery}} Max **6** charges; usable with at least **1**, spending all current charges
-- On use: `new D = old D + charges spent`
-- D advances first, then factor checks run on the new value
-- {{Collectible476}} **D1 always fires** (1 divides every positive integer) as the base die
-- The active slot previews `current D + charges → result D` and the dice icons for that result
-
-### How D increases
-
-| Charges | D gain |
-| ---: | --: |
-| 1 | +1 |
-| 2 | +2 |
-| 3 | +3 |
-| 4 | +4 |
-| 5 | +5 |
-| 6 | +6 |
+- {{Battery}} Max **6** charges; usable with at least **1**, spending all current charges at once.
+- Spending N charges increases the die number by N.
+- On the new number, every die whose number divides that value fires together.
+- {{Collectible:476}} **D1 always fires.**
 
 ### Which dice fire
 
-Besides D1, extra dice fire when the new D is divisible by:
-
-| Condition | Die |
+| New number is… | Triggers |
 | --- | --- |
-| Multiple of 4 | {{Collectible284}} D4 |
-| Multiple of 6 | {{Collectible105}} D6 |
-| Multiple of 7 | {{Collectible437}} D7 |
-| Multiple of 8 | {{Collectible406}} D8 |
-| Multiple of 10 | {{Collectible285}} D10 |
-| Multiple of 12 | {{Collectible386}} D12 |
-| Multiple of 20 | {{Collectible166}} D20 |
-| Multiple of 100 | {{Collectible283}} D100 |
+| Multiple of 4 | {{Collectible:284}} D4 |
+| Multiple of 6 | {{Collectible:105}} D6 |
+| Multiple of 7 | {{Collectible:437}} D7 |
+| Multiple of 8 | {{Collectible:406}} D8 |
+| Multiple of 10 | {{Collectible:285}} D10 |
+| Multiple of 12 | {{Collectible:386}} D12 |
+| Multiple of 20 | {{Collectible:166}} D20 |
+| Multiple of 100 | {{Collectible:283}} D100 |
 
-Several can fire together. Landing on **D12** triggers D1, D4, D6, and D12.
+Several conditions can apply at once.
 
-### Preview example
-
-If the slot shows **D10** with **2** charges, use lands on **D12** and previews D1, D4, D6, and D12. Waiting for **4** charges instead lands on **D14** and only D1 + D7.
+For example, reaching **D12** triggers D1, D4, D6, and D12 together.
 
 ## Notes
 
-- D starts at **0**; the first use with 1–6 charges lands on D1–D6
-- No charge-picker UI: use when you have exactly the step you want
+- Each run starts with die number **0**.
+- There is no charge-picker; use spends whatever charges you currently have.
 
 ## Planning example
 
-You can skip harsh factors. At **D3**, 1 charge hits D4 (D1+D4); waiting for **2** charges reaches D5 (D1 only). The active-slot preview shows the result—check the icons before committing more charge.
+When the die number is **3**:
+
+- Using 1 charge reaches D4 and triggers D1 and D4;
+- Waiting for 2 charges reaches D5 and triggers only D1.
+
+You can choose when to use the item to hit or avoid specific die numbers.

@@ -16,21 +16,29 @@ status: reviewed
 
 ## Effects
 
-**Cursed Mask spins your aim while granting a damage bonus.**
+**Cursed Mask spins your firing direction after entering a room while granting +2 damage per copy.**
 
-- **+2** damage per copy.
-- On room entry aim starts spinning and gradually slows (fast → medium → slow), stopping after about **25** seconds.
-- While spinning you lead shots instead of aiming freely.
+- {{Damage}} **+2** per copy.
+- Each time you enter a room, firing direction starts spinning fast and gradually slows over about **25 seconds** until it stops.
+- Spinning resets in every new room.
 
 ## Synergies
 
 ### {{Collectible:260}}
-Keep the damage, **stop the spin**.
+
+Keeps the damage bonus but stops the spin.
+
+### Crosshair attacks
+
+With {{Collectible:168}}, {{Collectible:394}}, {{Collectible:572}}, {{Collectible:329}}, and similar crosshair attacks, the reticle moves along the current spinning aim line:
+
+- Press Up to push the reticle outward;
+- Press Down to pull it back toward Isaac.
 
 ### {{Seija}}
 
-Grants tears instead, and the spin tries to lock onto enemies.
+Gain an additional **+2 Tears**; spinning aim tries to track nearby enemies.
 
 ## Trivia
 
-- Inspired by the Peglin relic Cursed Mask, with the same core design.
+Inspired by the Peglin relic Cursed Mask, with the same core design.

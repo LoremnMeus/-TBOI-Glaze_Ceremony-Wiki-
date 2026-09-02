@@ -17,25 +17,20 @@ status: reviewed
 
 ## Effects
 
-**Nihilistic Artificial Eye appears as a four-way choice: the eye plus three orbiting companions.**
+**Nihilistic Artificial Eye appears with 3 random companions as a four-way choice.**
 
-The eye itself grants about **+0.33** damage.
+{{Damage}} **+0.33** damage.
 
-### What “2 replace chances” means
+### Appearing again
 
-**Not** “the next two pool rolls each check once and stop.”
+After pickup, you gain **2 chances** for a future item-pool roll to become Nihilistic Artificial Eye.
 
-More accurately:
+Until those chances are spent, each pool roll has a **10%** chance to become the eye; a chance is spent only when the replacement actually happens.
 
-1. Picking up the eye grants **2** charges to force another eye from the pool.
-2. Every later pool roll can hit (~**1/10**) and force this item.
-3. A charge is spent only when that roll actually becomes the eye.
-4. Until both charges are spent, later rolls can still hit.
-
-So the two extras may appear quickly—or much later.
+Those two chances do not automatically expire after the next two rolls.
 
 ## Synergies
 
 ### {{Seija}}
 
-Companion orbit spins faster.
+Companion orbit speed is **4×** faster.

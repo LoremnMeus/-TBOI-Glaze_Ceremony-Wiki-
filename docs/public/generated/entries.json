@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-01T15:15:23Z",
+  "generatedAt": "2026-09-02T06:53:28Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -2323,8 +2323,8 @@
         "en": "Borrow my blade"
       },
       "eid": {
-        "zh": "#{{QingPlayer:wq}} 使用后，本房间内攻击方式变为青的刀法",
-        "en": "#{{QingPlayer:wq}} On use, replaces your attack with Qing's blade style for the current room"
+        "zh": "#{{QingPlayer:w-qing}} 使用后，本房间内攻击方式变为青的刀法",
+        "en": "#{{QingPlayer:w-qing}} On use, replaces your attack with Qing's blade style for the current room"
       },
       "seijaBuff": {
         "zh": "",
@@ -7854,8 +7854,8 @@
         "en": ""
       },
       "bookOfVirtues": {
-        "zh": "熄灭时额外使用一次{{Item:Book_of_The_Law}}的魂火",
-        "en": "Wisp that triggers {{Item:Book_of_The_Law}} when extinguished"
+        "zh": "熄灭时额外使用一次{{Item:book-of-the-law}}的魂火",
+        "en": "Wisp that triggers {{Item:book-of-the-law}} when extinguished"
       },
       "bookOfBelial": {
         "zh": "在恶魔房使用时三倍效果",
@@ -12119,8 +12119,8 @@
         "en": "Foreverevereverevereverever"
       },
       "eid": {
-        "zh": "#你身上每个重复的道具为你提供额外属性加成#{{Damage}} +0.5攻击#{{Tears}} +0.15射速#{{Range}} +1射程#{{Speed}} +0.05移速#{{Luck}} +1幸运#{{Item:Memory}} 此道具的生成不受道具回忆影响",
-        "en": "Gain bonus for every repetitive item that Isaac has#{{Damage}} +0.5 Damage up#{{Tears}} +0.15 Tear up#{{Range}} +1 Range up#{{Speed}} +0.05 Speed up#{{Luck}} +1 Luck up#{{Item:Memory}} This item is not affected by memory"
+        "zh": "#你身上每个重复的道具为你提供额外属性加成#{{Damage}} +0.5攻击#{{Tears}} +0.15射速#{{Range}} +1射程#{{Speed}} +0.05移速#{{Luck}} +1幸运#{{Item:memory}} 此道具的生成不受道具回忆影响",
+        "en": "Gain bonus for every repetitive item that Isaac has#{{Damage}} +0.5 Damage up#{{Tears}} +0.15 Tear up#{{Range}} +1 Range up#{{Speed}} +0.05 Speed up#{{Luck}} +1 Luck up#{{Item:memory}} This item is not affected by memory"
       },
       "seijaBuff": {
         "zh": "",
@@ -15215,8 +15215,8 @@
         "en": ""
       },
       "seijaNerf": {
-        "zh": "成功抵消伤害时也会恐惧自己",
-        "en": "Also fears yourself when a hit is negated"
+        "zh": "成功抵消伤害时，自己也会恐惧约3秒，期间无法攻击",
+        "en": "On a successful negate, also fear yourself for ~3s and cannot attack"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -15485,8 +15485,8 @@
         "en": "Left Ventricular Puncture"
       },
       "eid": {
-        "zh": "失去所有{{Heart}}红心并+1{{BrokenHeart}}碎心#将房间中的道具底座全部转化为{{Item:Fresh_Death}}鲜活死者#每份鲜活死者提供3个随机被动道具效果",
-        "en": "Lose all {{Heart}} red hearts and gain +1{{BrokenHeart}} broken heart#Convert all pedestals in the room into {{Item:Fresh_Death}} Fresh Death#Each Fresh Death grants 3 random passive effects"
+        "zh": "失去所有{{Heart}}红心并+1{{BrokenHeart}}碎心#将房间中的道具底座全部转化为{{Item:fresh-death}}鲜活死者#每份鲜活死者提供3个随机被动道具效果",
+        "en": "Lose all {{Heart}} red hearts and gain +1{{BrokenHeart}} broken heart#Convert all pedestals in the room into {{Item:fresh-death}} Fresh Death#Each Fresh Death grants 3 random passive effects"
       },
       "seijaBuff": {
         "zh": "",
@@ -15497,12 +15497,12 @@
         "en": "+3 broken hearts total"
       },
       "bookOfVirtues": {
-        "zh": "{{Item:Fresh_Death}}鲜活死者只提供天使道具池的被动效果",
-        "en": "{{Item:Fresh_Death}} Fresh Death only rolls Angel pool passives"
+        "zh": "{{Item:fresh-death}}鲜活死者只提供天使道具池的被动效果",
+        "en": "{{Item:fresh-death}} Fresh Death only rolls Angel pool passives"
       },
       "bookOfBelial": {
-        "zh": "{{Item:Fresh_Death}}鲜活死者只提供恶魔道具池的被动效果",
-        "en": "{{Item:Fresh_Death}} Fresh Death only rolls Devil pool passives"
+        "zh": "{{Item:fresh-death}}鲜活死者只提供恶魔道具池的被动效果",
+        "en": "{{Item:fresh-death}} Fresh Death only rolls Devil pool passives"
       },
       "abyssSynic": {
         "zh": "",
@@ -16173,8 +16173,8 @@
         "en": "Color with blood"
       },
       "eid": {
-        "zh": "献祭持有道具，为所选颜色充能#击杀精英敌人也会少量补充对应颜色#{{Room}} 清理房间后六颜色各流失3%#颜色达到阈值时触发对应效果",
-        "en": "Sacrifice a held collectible to charge the selected color#Defeating champions also charges their matching colors#{{Room}} Clearing a room drains all six colors by 3%#Crossing color thresholds activates their effects"
+        "zh": "献祭持有道具，为所选颜色充能#击杀精英敌人也会少量补充对应颜色#{{Room}} 清理房间后六颜色各流失3%#满足颜色阈值时获得对应效果",
+        "en": "Sacrifice a held collectible to charge the selected color#Defeating champions also charges their matching colors#{{Room}} Clearing a room drains all six colors by 3%#Gain the matching effects when color thresholds are met"
       },
       "seijaBuff": {
         "zh": "",
@@ -16336,16 +16336,16 @@
         "en": "I can't see..."
       },
       "eid": {
-        "zh": "此道具伴生3件随机道具，组成四选一#{{Damage}} +0.33攻击#拾取后，在之后的道具池抽取中加入2次{{Item:Nihilistic_Artificial_Eye}}虚无假眼替换机会",
-        "en": "Spawns with 3 random pedestals as a 4-choice set#{{Damage}} +0.33 Damage#On pickup, adds 2 future {{Item:Nihilistic_Artificial_Eye}} Nihilistic Artificial Eye replacement chances to item-pool rolls"
+        "zh": "此道具伴生3件随机道具，组成四选一#{{Damage}} +0.33攻击#拾取后，在之后的道具池抽取中加入2次{{Item:nihilistic-artificial-eye}}虚无假眼替换机会",
+        "en": "Spawns with 3 random pedestals as a 4-choice set#{{Damage}} +0.33 Damage#On pickup, adds 2 future {{Item:nihilistic-artificial-eye}} Nihilistic Artificial Eye replacement chances to item-pool rolls"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "加快伴生道具环绕速度",
-        "en": "Speeds up the orbiting companion pedestals"
+        "zh": "伴生道具环绕速度提高至4倍",
+        "en": "Companion orbit speed is 4× faster"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -16480,16 +16480,16 @@
         "en": "Mocking Nothingness"
       },
       "eid": {
-        "zh": "{{Chargeable}} 蓄力发射一个向前移动并伤害敌人的幻影#即将受伤时，与存活的幻影换位并抵消伤害#换位途中无敌，并在抵达后对周围敌人造成伤害",
-        "en": "{{Chargeable}} Charge to fire a moving phantom that damages enemies on contact#Before taking damage, swap with a living phantom and negate the hit#Invincible during the dash; damages nearby enemies on arrival"
+        "zh": "{{Chargeable}} 蓄力发射一个向前移动并伤害敌人的幻影#受到敌人伤害前，抵消伤害并冲向当前幻影#冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害",
+        "en": "{{Chargeable}} Charge to fire a moving phantom that damages enemies on contact#Before enemy damage, negate the hit and dash to the current phantom#Invincible during the dash; on arrival deal 5× damage to nearby enemies"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "加快幻影速度",
-        "en": "Speeds up the phantom"
+        "zh": "幻影移动速度提高至2.5倍",
+        "en": "Phantom movement speed is 2.5× faster"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -16620,8 +16620,8 @@
         "en": "Flying + Harvesting Blood"
       },
       "eid": {
-        "zh": "{{Flight}} 获得飞行#{{Chargeable}} 持续贴墙移动完成蓄力#蓄满后离墙会无敌冲刺约2秒，并向后喷射30%攻击伤害的硫磺火",
-        "en": "{{Flight}} Grants flight#{{Chargeable}} Keep moving along walls to finish charging#Leaving the wall after a full charge starts an invincible dash for about 2 seconds and sprays 30% damage Brimstone behind you"
+        "zh": "{{Flight}} 获得飞行#{{Chargeable}} 保持贴近墙壁约2秒完成蓄力#蓄满后离墙进入可转向的无敌冲刺，身后持续喷射30%攻击倍率硫磺火#冲刺中撞墙会反弹并继续前进",
+        "en": "{{Flight}} Grants flight#{{Chargeable}} Stay close to a wall for about 2 seconds to finish charging#Leave the wall for a steerable invincible dash that sprays 30% damage Brimstone behind you#Bouncing off walls continues the dash"
       },
       "seijaBuff": {
         "zh": "",
@@ -16759,16 +16759,16 @@
         "en": "Break the old days"
       },
       "eid": {
-        "zh": "6个自动瞄准敌人的激光发射器#{{Chargeable}} 蓄力后分别发射造成30%攻击伤害的激光",
-        "en": "6 auto-aiming laser emitters#{{Chargeable}} After charging, each fires a laser dealing 30% of your damage"
+        "zh": "生成6个自动瞄准敌人的激光发射器#{{Chargeable}} 持续攻击约2秒完成蓄力#蓄满后松开攻击，同时射出造成30%攻击伤害的激光",
+        "en": "Creates 6 auto-aiming laser emitters#{{Chargeable}} Hold fire for about 2 seconds to finish charging#Release when full to fire lasers dealing 30% of your damage at once"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "只有1个激光发射器",
-        "en": "Only 1 laser emitter"
+        "zh": "第一份仅生成1个激光发射器",
+        "en": "First copy creates only 1 laser emitter"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -17544,8 +17544,8 @@
         "en": "Sacrifice of Heavenly Selection"
       },
       "eid": {
-        "zh": "!!! 最多选择10次#每次随机展示3项基础属性#选择其中1项强化，同时削弱另外2项#用尽后碎裂为{{Trinket:Broken_Brooch}}破碎的胸针",
-        "en": "!!! Choose up to 10 times#Each use shows 3 random base stats#Pick 1 to boost; the other 2 are weakened#When spent, shatters into {{Trinket:Broken_Brooch}} Broken Brooch"
+        "zh": "!!! 最多选择10次#每次随机展示3项基础属性#选择其中1项强化，同时削弱另外2项#用尽后碎裂为{{Trinket:broken-brooch}}破碎的胸针",
+        "en": "!!! Choose up to 10 times#Each use shows 3 random base stats#Pick 1 to boost; the other 2 are weakened#When spent, shatters into {{Trinket:broken-brooch}} Broken Brooch"
       },
       "seijaBuff": {
         "zh": "",
@@ -18067,16 +18067,16 @@
         "en": "The Tide is approaching"
       },
       "eid": {
-        "zh": "进入楼层45秒后，黑潮开始从初始房向外蔓延#黑潮逐渐吞噬地形与掉落物，但会避开可互动实体且不会伤害玩家#{{Damage}} 黑潮对敌人每30帧造成7点伤害#不会蔓延到其他维度",
-        "en": "After 45 seconds on a floor, a black tide spreads outward from the starting room#The tide gradually consumes terrain and pickups, but avoids interactive entities and cannot harm players#{{Damage}} Deals 7 damage to enemies every 30 frames#Does not spread across dimensions"
+        "zh": "进入楼层45秒后，黑潮从初始房向外蔓延#黑潮逐渐吞噬地形与掉落物，但会避开玩家及机器、乞丐周围#{{Damage}} 黑潮每秒对敌人造成7点伤害#不会蔓延到其他维度",
+        "en": "After 45 seconds on a floor, a black tide spreads outward from the starting room#The tide gradually consumes terrain and pickups, but keeps clear of Isaac and machines/beggars#{{Damage}} Deals 7 damage per second to enemies in the tide#Does not spread across dimensions"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "黑潮的蔓延速度大幅提高#黑潮避开所有掉落物，且不再吞噬它们",
-        "en": "The tide spreads much faster#The tide avoids all pickups and no longer consumes them"
+        "zh": "黑潮整体推进速度提高至4倍#不再吞噬掉落物，并会避开掉落物周围",
+        "en": "Overall tide progress is 4× faster#No longer consumes pickups and keeps clear of them"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -29270,8 +29270,8 @@
         "en": "The Final Machine of Nitimity"
       },
       "eid": {
-        "zh": "{{Item:Air_Flight}} 无法直接攻击；使用蓝图制造并改装独立飞行器#将飞行器编入队伍，并用准星指挥它们作战#控制带宽决定当前能够出战的机体",
-        "en": "{{Item:Air_Flight}} Cannot attack directly; use Blueprint to build and refit independent drones#Deploy drones into formation and command them with the targeting reticle#Control bandwidth determines which drones can fight"
+        "zh": "{{Item:air-flight}} 无法直接攻击；使用蓝图制造并改装独立飞行器#将飞行器编入队伍，并用准星指挥它们作战#控制带宽决定当前能够出战的机体",
+        "en": "{{Item:air-flight}} Cannot attack directly; use Blueprint to build and refit independent drones#Deploy drones into formation and command them with the targeting reticle#Control bandwidth determines which drones can fight"
       },
       "seijaBuff": {
         "zh": "",
@@ -30930,8 +30930,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Player21}} 里以撒开局#{{Item:Ember}} 持有8个余烬#!!! 除余烬外，所有被动道具效果无效#{{Item:Ember}} 余烬复制最近一次永久失去的被动道具#!!! 8个余烬不占用里以撒的道具槽#不可打开控制台#难度等级：噩梦",
-        "en": "{{Player21}} Play as Tainted Isaac#{{Item:Ember}} Start with 8 Embers#!!! All passive items except Ember are disabled#{{Item:Ember}} Embers copy the last passive item permanently lost#!!! Embers do not occupy Tainted Isaac's item slots#Console is disabled#Difficulty: Nightmare"
+        "zh": "{{Player21}} 里以撒开局#{{Item:ember}} 持有8个余烬#!!! 除余烬外，所有被动道具效果无效#{{Item:ember}} 余烬复制最近一次永久失去的被动道具#!!! 8个余烬不占用里以撒的道具槽#不可打开控制台#难度等级：噩梦",
+        "en": "{{Player21}} Play as Tainted Isaac#{{Item:ember}} Start with 8 Embers#!!! All passive items except Ember are disabled#{{Item:ember}} Embers copy the last passive item permanently lost#!!! Embers do not occupy Tainted Isaac's item slots#Console is disabled#Difficulty: Nightmare"
       },
       "seijaBuff": {
         "zh": "",
@@ -31323,8 +31323,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Player6}} 参孙开局#{{Item:Cloundy}} 持有5个云玩大佬#{{Collectible583}} 持有火箭炸弹，云玩大佬放置的炸弹也会变成火箭#难度等级：困难",
-        "en": "{{Player6}} Play as Samson#{{Item:Cloundy}} Start with 5 Cloundies#{{Collectible583}} Start with Rocket in a Jar; bombs placed by Cloundies also become rockets#Difficulty: Hard"
+        "zh": "{{Player6}} 参孙开局#{{Item:cloundy}} 持有5个云玩大佬#{{Collectible583}} 持有火箭炸弹，云玩大佬放置的炸弹也会变成火箭#难度等级：困难",
+        "en": "{{Player6}} Play as Samson#{{Item:cloundy}} Start with 5 Cloundies#{{Collectible583}} Start with Rocket in a Jar; bombs placed by Cloundies also become rockets#Difficulty: Hard"
       },
       "seijaBuff": {
         "zh": "",
@@ -31525,8 +31525,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Player18}} 伯大尼开局#!!! 无法发射眼泪#蓄满专用充能后，朝攻击方向发出{{Item:Hyper_Velocity}}列车撞击敌人#难度等级：普通",
-        "en": "{{Player18}} Play as Bethany#!!! Cannot shoot tears#After the special charge fills, fire a {{Item:Hyper_Velocity}} train in your attack direction#Difficulty: Normal"
+        "zh": "{{Player18}} 伯大尼开局#!!! 无法发射眼泪#蓄满专用充能后，朝攻击方向发出{{Item:hyper-velocity}}列车撞击敌人#难度等级：普通",
+        "en": "{{Player18}} Play as Bethany#!!! Cannot shoot tears#After the special charge fills, fire a {{Item:hyper-velocity}} train in your attack direction#Difficulty: Normal"
       },
       "seijaBuff": {
         "zh": "",
@@ -31626,8 +31626,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{QingPlayer:Anna}} 安娜开局#{{ArrowUp}} 掌中黑洞完全吸入敌人后将其直接消灭#!!! 无法拾取任何地面掉落物，包括道具#{{BlackHeart}} 进入新层获得2颗黑心、{{Bomb}}1炸弹与{{Key}}1钥匙#难度等级：简单",
-        "en": "{{QingPlayer:Anna}} Play as Anna#{{ArrowUp}} Fully sucked-in enemies are devoured#!!! Cannot pick up any floor pickups, including items#{{BlackHeart}} Gain 2 Black Hearts, {{Bomb}}1 bomb and {{Key}}1 key on each new floor#Difficulty: Easy"
+        "zh": "{{QingPlayer:anna-tainted}} 安娜开局#{{ArrowUp}} 掌中黑洞完全吸入敌人后将其直接消灭#!!! 无法拾取任何地面掉落物，包括道具#{{BlackHeart}} 进入新层获得2颗黑心、{{Bomb}}1炸弹与{{Key}}1钥匙#难度等级：简单",
+        "en": "{{QingPlayer:anna-tainted}} Play as Anna#{{ArrowUp}} Fully sucked-in enemies are devoured#!!! Cannot pick up any floor pickups, including items#{{BlackHeart}} Gain 2 Black Hearts, {{Bomb}}1 bomb and {{Key}}1 key on each new floor#Difficulty: Easy"
       },
       "seijaBuff": {
         "zh": "",
@@ -31729,8 +31729,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Player3}} 犹大开局#{{Item:Book_of_How_to_Fly}} 使用飞行书与{{Collectible619}}长子名分进行空战#{{Collectible641}} 书本发射的眼泪会沿飞行轨迹留在角色身后#难度等级：普通",
-        "en": "{{Player3}} Play as Judas#{{Item:Book_of_How_to_Fly}} Fight in the air with How to Fly and {{Collectible619}}Birthright#{{Collectible641}} Tears fired by books remain along your flight path#Difficulty: Normal"
+        "zh": "{{Player3}} 犹大开局#{{Item:how-to-fly}} 使用飞行书与{{Collectible619}}长子名分进行空战#{{Collectible641}} 书本发射的眼泪会沿飞行轨迹留在角色身后#难度等级：普通",
+        "en": "{{Player3}} Play as Judas#{{Item:how-to-fly}} Fight in the air with How to Fly and {{Collectible619}}Birthright#{{Collectible641}} Tears fired by books remain along your flight path#Difficulty: Normal"
       },
       "seijaBuff": {
         "zh": "",

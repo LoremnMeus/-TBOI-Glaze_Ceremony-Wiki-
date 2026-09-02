@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Ritual_Sting
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>血仪刺刃 Ritual Sting Ritual_Sting ritual-sting Ritual Sting 以血调色 Color with blood 献祭持有道具，为所选颜色充能 击杀精英敌人也会少量补充对应颜色 清理房间后六颜色各流失3% 颜色达到阈值时触发对应效果 Sacrifice a held collectible to charge the selected color Defeating champions also charges their matching colors Clearing a room drains all six colors by 3% Crossing color thresholds activates their effects</p>
+<p class="wiki-search-index" v-pre>血仪刺刃 Ritual Sting Ritual_Sting ritual-sting Ritual Sting 以血调色 Color with blood 献祭持有道具，为所选颜色充能 击杀精英敌人也会少量补充对应颜色 清理房间后六颜色各流失3% 满足颜色阈值时获得对应效果 Sacrifice a held collectible to charge the selected color Defeating champions also charges their matching colors Clearing a room drains all six colors by 3% Gain the matching effects when color thresholds are met</p>
 
 <PublicEntry slug="ritual-sting" lang="zh" />
 
@@ -17,11 +17,25 @@ status: reviewed
 
 ## 效果
 
-**血仪刺刃用献祭与精英击杀给六种颜色充能；颜色跨过阈值时会改写角色能力，清房则让所有颜色缓慢流失。**
+**血仪刺刃让你献祭持有的道具，为六条颜色进度中的一条充能；不同颜色达到不同阈值后，会持续提供对应效果。**
 
-使用时选择一种颜色，献祭一件持有道具为其充能。主要颜色获得完整权重，相邻颜色可获得部分充能。击杀精英敌人也会按精英自身颜色少量补充对应槽。清理房间后，六色各流失 **3%**。
+使用时：
 
-每色初始约 **100%**。主要阈值：**0%**、**低于 50%**、**高于 90%**、**高于 150%**、**高于 250%**（部分颜色没有全部档位）。
+1. 先选择要补充的颜色；
+2. 再从自己持有的道具中选择一件献祭；
+3. 被献祭道具的颜色决定这次能为所选颜色补充多少进度。
+
+例如，选择与道具主色一致的颜色通常能获得完整收益，而选择相邻颜色通常只能获得部分收益。
+
+界面会直接预览当前道具能为所选颜色增加多少进度。
+
+击杀精英敌人时，也会根据该精英的颜色少量补充对应颜色。
+
+每次清理房间后，六条颜色进度都会降低 **3%**。
+
+六种颜色初始均为 **100%**。主要阈值：**0%**、**低于 50%**、**高于 90%**、**高于 150%**、**高于 250%**（部分颜色没有全部档位）。
+
+**满足的阈值效果会同时生效。** 例如红色达到 160% 时，会同时获得 >90% 与 >150% 的两项效果。
 
 ## 六色阈值
 
@@ -82,7 +96,7 @@ status: reviewed
 | <50% | 人物大小 +20% |
 | >90% | 人物大小 −20% |
 | >150% | 33% 概率免伤 |
-| >250% | 大幅提高精英敌人的生成概率 |
+| >250% | 普通敌人有 **33%** 概率转化为精英敌人 |
 
 ## 轶事
 

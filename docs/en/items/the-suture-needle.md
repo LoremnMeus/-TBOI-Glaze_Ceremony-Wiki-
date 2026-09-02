@@ -17,48 +17,29 @@ status: reviewed
 
 ## Effects
 
-**The Suture Needle stitches every pedestal in the room into Fresh Death. Each Fresh Death is not a normal collectible—it grants 3 random passive effects at once. The cost is losing all red hearts and gaining broken hearts.**
+**On use, lose all red hearts and gain 1 broken heart, and convert every pedestal in the current room into {{Item:fresh-death}}.**
 
-On use:
+If losing all red hearts would kill you on the spot, a minimal amount of health remains.
 
-1. gain +1 {{BrokenHeart}} broken heart;
-2. empty all red hearts;
-3. if that would leave you with no survivable health, keep a minimal safety amount;
-4. convert every normal pedestal in the room into {{Item:fresh-death}}.
+Each converted pedestal becomes its own {{Item:fresh-death}}; each Fresh Death grants **3 random passive item effects**.
 
-## What Fresh Death is
-
-Each {{Item:fresh-death}} grants **3** random passive effects, shown on the temporary-item HUD and in EID.
-
-Details: {{Item:fresh-death}}.
-
-## Multiple pedestals
-
-Every valid pedestal in the current room is converted, so one use can create several Fresh Deaths.
-
-## Life cost
-
-Red hearts are emptied and you gain at least 1 broken heart. If emptying red hearts would leave no survivable health, a safety amount remains so the use itself does not kill you.
+If the room has multiple pedestals, one use can create several Fresh Deaths at once.
 
 ## Synergies
 
 ### {{Collectible:34}}
 
-Fresh Death's random effects roll from the Devil pool.
+Fresh Death's random effects are drawn from the Devil room item pool.
 
 ### {{Collectible:584}}
 
-Fresh Death's random effects roll from the Angel pool.
+Fresh Death's random effects are drawn from the Angel room item pool.
 
 ### {{Seija}}
 
-The use grants **+3** broken hearts total.
+Gain 2 additional broken hearts on use, for **+3 broken hearts** total.
 
 ## Related
 
-- {{Item:fresh-death}} — conversion result
-- {{Item:suture-needle}} — a **different** “Suture Needle” active; do not mix them up
-
-## Notes
-
-This page is only **The Suture Needle**. Ordinary Suture Needle has its own featured page.
+- {{Item:fresh-death}} — result of The Suture Needle's conversion
+- {{Item:suture-needle}} — a separate, unrelated “Suture Needle” item

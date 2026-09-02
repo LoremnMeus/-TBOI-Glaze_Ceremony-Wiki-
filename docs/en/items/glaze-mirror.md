@@ -17,13 +17,24 @@ status: reviewed
 
 ## Effects
 
-**Glaze Mirror spills a handful of glaze pickups on collect and can mirror nearby enemy shots away.**
+**On pickup, spawn 4–8 glaze pickups and gain a chance to deflect nearby enemy shots.**
 
-On pickup, spawn **4–8** glaze pickups (glaze hearts, batteries, coins, chests, and similar, by current weights).
+Drops are chosen at random from glaze hearts, glaze coins, glaze chests, and glaze batteries.
 
-Enemy projectiles near Isaac may be deflected. The base chance is about one in five and scales with {{Luck}}.
+Enemy shots near Isaac may be mirrored away; higher {{Luck}} makes deflection more likely.
 
 ## Notes
 
-- Deflection only checks shots near Isaac—not a room-wide shield.
-- Exact glaze drop types follow weights; no need to memorize the table.
+Deflection only checks shots near Isaac—it is not a room-wide shield.
+
+<details>
+<summary>Drop weights</summary>
+
+| Glaze pickup | Relative weight |
+| --- | ---: |
+| Glaze heart | 200 |
+| Glaze coin | 50 |
+| Glaze chest | 10 |
+| Glaze battery | 1 |
+
+</details>

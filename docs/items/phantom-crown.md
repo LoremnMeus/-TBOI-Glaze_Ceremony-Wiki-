@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Phantom_Crown
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>幻像冠冕 Phantom Crown Phantom_Crown phantom-crown Phantom Crown 嘲弄虚无 Mocking Nothingness 蓄力发射一个向前移动并伤害敌人的幻影 即将受伤时，与存活的幻影换位并抵消伤害 换位途中无敌，并在抵达后对周围敌人造成伤害 Charge to fire a moving phantom that damages enemies on contact Before taking damage, swap with a living phantom and negate the hit Invincible during the dash; damages nearby enemies on arrival</p>
+<p class="wiki-search-index" v-pre>幻像冠冕 Phantom Crown Phantom_Crown phantom-crown Phantom Crown 嘲弄虚无 Mocking Nothingness 蓄力发射一个向前移动并伤害敌人的幻影 受到敌人伤害前，抵消伤害并冲向当前幻影 冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害 Charge to fire a moving phantom that damages enemies on contact Before enemy damage, negate the hit and dash to the current phantom Invincible during the dash; on arrival deal 5× damage to nearby enemies</p>
 
 <PublicEntry slug="phantom-crown" lang="zh" />
 
@@ -17,18 +17,22 @@ status: reviewed
 
 ## 效果
 
-**幻像冠冕可蓄力放出移动幻影；即将受伤时与存活幻影换位并抵消伤害，落地时对附近敌人造成爆发。**
+**蓄力后可以向前放出一个移动幻影；即将受到敌人伤害时，会抵消这次伤害并冲向幻影所在位置。**
 
-- 蓄力后松手，向前放出可移动的幻影（不是贴在脚边的静止影子）。
-- 幻影会前进并造成接触伤害；撞墙或出界后消散。
-- 若即将受伤且幻影仍在：与幻影换位并抵消该次伤害，落地时对附近敌人造成一次高额爆发。
+- 持续攻击进行蓄力，蓄满后松开攻击键放出幻影。
+- 幻影会向前移动并对接触的敌人造成伤害，撞上无法通过的地形或离开房间范围后逐渐消失。
+- 同时只能保留一个幻影；放出新的幻影时，旧幻影会消失。
+- 即将受到来自敌人的伤害时，如果当前幻影仍然存在，会抵消这次伤害并向幻影所在位置高速移动。
+- 移动期间不会受到伤害；抵达后对附近敌人造成 **5 倍角色攻击力**的伤害，并消耗该幻影。
 
 ## 注意
 
-幻影消失后再受伤不会触发换位。
+没有可用幻影时，来自敌人的伤害会正常结算。
+
+非敌人来源的伤害不会触发幻像冠冕。
 
 ## 特殊联动
 
 ### {{Seija}}
 
-幻影移动更快，更容易提前摆位。
+幻影移动速度提高至 **2.5 倍**。

@@ -22,17 +22,17 @@ Entering a new room has a **25%** chance to create a “false fact” involving 
 
 | Mistaken object | What happens | How it ends |
 | --- | --- | --- |
-| Pickup | An extra pickup appears and can be collected normally | Unused virtual resources are reclaimed on leaving the room |
-| Enemy | An extra enemy can move and attack normally | It disappears upon taking real damage |
-| Existing item | A second copy of an owned item effect is gained temporarily | The extra effect is removed on leaving the room |
+| Pickup | An extra pickup appears and can be collected normally | Unspent virtual portions disappear when leaving the room |
+| Enemy | An extra enemy can move and attack normally | It disappears after taking damage |
+| Existing item | A second copy of an owned item effect is gained temporarily | The extra effect is removed when leaving the room |
 
-Resources from false pickups can be spent normally; anything already consumed is not reclaimed on leaving. Ordinary coins, keys, bombs, hearts, batteries, cards, and pills may become false facts. Special pickups with lasting properties or unsafe rewards are excluded. Cards and pills keep any effect already activated before leaving the room.
+Resources from false pickups can be spent normally; anything already spent is not lost when leaving the room. Ordinary coins, keys, bombs, hearts, batteries, cards, and pills may become false facts. Special pickups with lasting properties or unsafe rewards are excluded. Cards and pills keep any effect already activated before leaving the room.
 
 ::: tip Spend the fake to buy something real
-If a false fact grants 3 coins and 2 are spent before leaving, the completed purchase is not reversed. Reality only attempts to reclaim the virtual amount that remains.
+If a false fact grants 3 coins and 2 are spent before leaving, the completed purchase is not reversed. Only unspent virtual resources are removed when leaving the room.
 :::
 
-False enemies cannot hold the room's doors shut and grant no normal kill reward; one instance of real damage exposes and removes them. Bosses and champions cannot become this kind of false fact.
+False enemies cannot hold the room's doors shut and grant no normal kill reward; they disappear after taking damage. Bosses and champions cannot become this kind of false fact.
 
 False item effects only duplicate passive or familiar items the player already owns and which can be copied safely for one room. They never grant a random item the player did not have. Special items that cannot be copied safely are excluded.
 
@@ -40,14 +40,12 @@ False item effects only duplicate passive or familiar items the player already o
 
 - Only one false fact can exist at a time.
 - A category with no valid candidate is not selected.
-- On leaving the room, the current false fact ends. Only unspent virtual resources are reclaimed.
-- A false fact is accompanied by brief screen distortion; real objects may also show similar visual interference, so a glitch alone cannot prove which object is false.
+- On leaving the room, the current false fact ends. Unspent virtual resources disappear with it.
+- A false fact is accompanied by brief screen distortion; real objects may also show similar visual interference, so distortion alone cannot prove which object is false.
 
 ## Trivia
 
 Mental Disorder belongs to the [Rainbow](/en/systems/rainbow) classification, and its sprite was redrawn from {{Collectible:402}}.
-
-Chaos disrupts the normal order of item pools; Mental Disorder instead disrupts the player's perception of the room's “facts”. Both revolve around disorder.
 
 <details>
 <summary>Technical details</summary>

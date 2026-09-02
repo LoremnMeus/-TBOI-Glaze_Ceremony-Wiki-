@@ -29,7 +29,7 @@ On a successful negate:
 
 ### {{Seija}}
 
-On a successful negate, Isaac is also feared for about **3** seconds.
+On a successful negate, Isaac is also feared for about **3** seconds and cannot attack.
 
 ## Trivia
 

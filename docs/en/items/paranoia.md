@@ -17,23 +17,24 @@ status: reviewed
 
 ## Effects
 
-**After pickup, there is a half chance the pedestal remains in place.**
+**When you pick up an item, there is a 50% chance you gain it normally while the pedestal stays in place.**
 
-When you pick an item, there is a **50%** chance you gain it normally while the pedestal stays. Shop items still require full payment.
+Shop items still require full payment.
 
-Actives handle your previous active drop so the swap does not soft-lock.
+If the pickup would replace your current active item, your previous active drops to the floor as usual.
 
 ## Synergies
 
 ### {{Seija}}
 
-**5%** overall chance for a pickup to become {{Collectible:258}} (paranoia branch, then a low Missing No roll inside it).
+There is a **5%** chance a pickup becomes {{Collectible:258}} instead.
 
 ## Notes
 
-If Paranoia itself is in a shop, its price will not be lower than your current coin count (shown dynamically).
+When Paranoia itself is sold in a shop, its price is at least equal to your current coin count.
 
 ## Trivia
 
-- Rainbow item.
-- Art borrows the D6; the Desc "There is a dice" matches that gag.
+Paranoia belongs to the [Rainbow](/en/systems/rainbow) classification.
+
+Its art references {{Collectible:105}} the D6; the Desc “There is a dice” matches that gag.
