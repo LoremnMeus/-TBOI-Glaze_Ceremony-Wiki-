@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Phantom_Crown
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>幻像冠冕 Phantom Crown Phantom_Crown phantom-crown Phantom Crown 嘲弄虚无 Mocking Nothingness 蓄力发射一个向前移动并伤害敌人的幻影 受到敌人伤害前，抵消伤害并冲向当前幻影 冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害 Charge to fire a moving phantom that damages enemies on contact Before enemy damage, negate the hit and dash to the current phantom Invincible during the dash; on arrival deal 5× damage to nearby enemies</p>
+<p class="wiki-search-index" v-pre>幻像冠冕 Phantom Crown Phantom_Crown phantom-crown Phantom Crown 嘲弄虚无 Mocking Nothingness 蓄力发射一个向前移动并伤害敌人的幻影 受到敌人伤害时，抵消伤害并冲向当前幻影 冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害 Charge to fire a moving phantom that damages enemies on contact When taking enemy damage, negate the hit and dash to the current phantom Invincible during the dash; on arrival deal 5× damage to nearby enemies</p>
 
 <PublicEntry slug="phantom-crown" lang="en" />
 

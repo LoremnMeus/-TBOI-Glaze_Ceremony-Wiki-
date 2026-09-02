@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-02T06:53:28Z",
+  "generatedAt": "2026-09-02T07:47:54Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -10065,16 +10065,16 @@
         "en": "Dogmatical Judgement"
       },
       "eid": {
-        "zh": "每4次攻击产生{{ColorYellow}}福音攻击{{CR}}#命中使敌人接受福音，并可向附近敌人传播#击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示#本房间累计6次启示后发动最终审判",
-        "en": "Every 4th attack produces a {{ColorYellow}}Gospel attack{{CR}}#Hits make enemies receive the Gospel, which can spread to nearby foes#Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation#After 6 Revelations in the room, invoke final Judgement"
+        "zh": "每4次攻击，该次攻击成为{{ColorYellow}}福音攻击{{CR}}#命中使敌人接受福音，并可向附近敌人传播#击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示#本房间累计6次启示后发动最终启示",
+        "en": "Every 4th attack becomes a {{ColorYellow}}Gospel attack{{CR}}#Hits make enemies receive the Gospel, which can spread to nearby foes#Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation#After 6 Revelations in the room, invoke final Revelation"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "福音不再传播，改为对原目标降下较弱的黑暗启示",
-        "en": "Gospel no longer spreads, instead invoking a weaker dark Revelation on the original target"
+        "zh": "福音不再传播，改为对原目标降下较弱的黑暗启示；最终启示不补全全房",
+        "en": "Gospel no longer spreads, instead invoking a weaker dark Revelation on the original target; final Revelation does not fill the room"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -16480,8 +16480,8 @@
         "en": "Mocking Nothingness"
       },
       "eid": {
-        "zh": "{{Chargeable}} 蓄力发射一个向前移动并伤害敌人的幻影#受到敌人伤害前，抵消伤害并冲向当前幻影#冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害",
-        "en": "{{Chargeable}} Charge to fire a moving phantom that damages enemies on contact#Before enemy damage, negate the hit and dash to the current phantom#Invincible during the dash; on arrival deal 5× damage to nearby enemies"
+        "zh": "{{Chargeable}} 蓄力发射一个向前移动并伤害敌人的幻影#受到敌人伤害时，抵消伤害并冲向当前幻影#冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害",
+        "en": "{{Chargeable}} Charge to fire a moving phantom that damages enemies on contact#When taking enemy damage, negate the hit and dash to the current phantom#Invincible during the dash; on arrival deal 5× damage to nearby enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -16620,8 +16620,8 @@
         "en": "Flying + Harvesting Blood"
       },
       "eid": {
-        "zh": "{{Flight}} 获得飞行#{{Chargeable}} 保持贴近墙壁约2秒完成蓄力#蓄满后离墙进入可转向的无敌冲刺，身后持续喷射30%攻击倍率硫磺火#冲刺中撞墙会反弹并继续前进",
-        "en": "{{Flight}} Grants flight#{{Chargeable}} Stay close to a wall for about 2 seconds to finish charging#Leave the wall for a steerable invincible dash that sprays 30% damage Brimstone behind you#Bouncing off walls continues the dash"
+        "zh": "{{Flight}} 获得飞行#{{Chargeable}} 保持贴近墙壁约2秒完成蓄力#蓄满后离墙会无敌冲刺约2秒，并持续向后喷射30%攻击倍率的硫磺火",
+        "en": "{{Flight}} Grants flight#{{Chargeable}} Stay close to a wall for about 2 seconds to finish charging#Leaving the wall after a full charge starts an invincible dash for about 2 seconds and continuously sprays 30% damage Brimstone behind you"
       },
       "seijaBuff": {
         "zh": "",

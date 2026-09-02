@@ -4,9 +4,9 @@ kind: collectible
 internalKey: Gospel
 title: Gospel
 description: "Dogmatical Judgement"
-status: featured
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 Dogmatical Judgement 每4次攻击产生 福音攻击 命中使敌人接受福音，并可向附近敌人传播 击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示 本房间累计6次启示后发动最终审判 Every 4th attack produces a Gospel attack Hits make enemies receive the Gospel, which can spread to nearby foes Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation After 6 Revelations in the room, invoke final Judgement</p>
+<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 Dogmatical Judgement 每4次攻击，该次攻击成为 福音攻击 命中使敌人接受福音，并可向附近敌人传播 击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示 本房间累计6次启示后发动最终启示 Every 4th attack becomes a Gospel attack Hits make enemies receive the Gospel, which can spread to nearby foes Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation After 6 Revelations in the room, invoke final Revelation</p>
 
 <PublicEntry slug="gospel" lang="en" />
 
@@ -16,51 +16,61 @@ status: featured
 
 ## Effects
 
-**Gospel gradually spreads an attack between enemies and ultimately calls down Judgement.**
+**Every fourth attack carries the Gospel; it spreads between enemies until a room-wide revelation network closes.**
 
-Every 4th valid attack produces a Gospel attack. Hits make enemies receive the Gospel; further damage or kills spread it and invoke Revelation. Enough Revelations in the current room trigger final Judgement.
+Every 4th valid attack, **that original attack itself** becomes a Gospel attack: its look and trajectory stay the same, with only a golden overlay. Hits make enemies receive the Gospel; further damage spreads it; kills or sustained Boss damage invoke Revelation. After **6 Revelations** in the room, **final Revelation** begins.
 
-Gospel attack → receive Gospel → spread → Revelation → final Judgement
+Gospel attack → receive → spread → Revelation → final Revelation
 
-## Spreading Gospel
+## Gospel attacks and receiving
 
-Every 4th valid attack triggers a Gospel attack. With ordinary tears, the fourth tear is converted into a Gospel tear. Lasers, Brimstone, and other attack forms instead fire an additional Gospel tear.
+The 4th valid attack marks the projectile or beam being fired (tears, lasers, Brimstone, and so on). It does not spawn an extra special tear, and it does not reskin the original tear into a Gospel orb.
 
-An enemy hit by a Gospel tear receives the Gospel and displays a halo above its head. The mark does not deal damage over time by itself.
+Hit enemies receive the Gospel and show a halo. The mark itself is not damage over time.
 
-Further damage to an affected enemy builds spread progress and passes Gospel to nearby enemies that have not yet received it. When an affected ordinary enemy dies, Gospel also spreads to additional nearby targets.
+## Spreading
 
-## Revelation and final Judgement
+Further damage to an affected enemy builds progress. At the threshold, a thin gold line runs **halo to halo**, instantly marking a nearby unmarked foe and dealing one hit of character damage. Spread is an instant link—no flying projectile.
 
-When an affected ordinary enemy dies, Revelation calls down a holy beam. Bosses do not need to die; sustained damage to an affected Boss can also invoke Revelation.
+When an affected ordinary enemy dies, a lingering halo can still spread to up to 2 nearby targets.
 
-After **6 Revelations** in the current room, final Judgement begins. It only strikes enemies that have received Gospel and does not attack every enemy in the room unconditionally. Revelation progress does not persist between rooms, and final Judgement can occur only once per room.
+## Revelation and final Revelation
+
+Killing an affected ordinary enemy, or dealing enough damage to an affected Boss, calls down Revelation.
+
+After **6 Revelations** in the current room, final Revelation starts (once per room):
+
+1. Remaining living unmarked enemies join the network;
+2. Existing nodes form a simple tree rooted at the earliest convert;
+3. Everyone in the network takes the final holy strike (stronger than a normal Revelation).
+
+Revelation progress does not carry between rooms.
 
 ## Notes
 
-- Revelation progress resets on entering a new room.
-- Final Judgement only affects targets that have received Gospel.
+- Gospel attacks keep the original sprite, size, and synergy look; only a golden overlay is added.
+- Lasers / Brimstone no longer fire a separate Gospel tear; whoever the real attack hits can receive Gospel.
+- Spread only targets unmarked foes inside range.
+- Final Revelation happens once per room; it will not run a second time in that room.
 - Receiving Gospel is not a damage-over-time effect.
-- Spreading only selects targets that have not yet received Gospel.
-- Gospel tears and affected enemies display a golden halo; Revelation and final Judgement call down holy beams.
 
 ## Special interactions
 
 ### {{Seija}}
 
-Under Seija, Gospel no longer spreads to nearby enemies. Reaching a spread threshold instead invokes a weaker dark Revelation on the original target, and affected enemies no longer spread Gospel upon death.
+Under Seija, Gospel no longer spreads. Reaching a spread threshold instead drops a weaker dark Revelation on the original target, and death no longer spreads further.
 
-Final Judgement can still occur and uses a dark visual treatment.
+Final Revelation can still occur, but it **does not** fill unmarked enemies into the network—it only judges those already marked, with dark visuals.
 
 ### {{Collectible:706}} Abyss
 
-Gospel's locust also makes enemies receive Gospel when it hits them.
+Gospel's locust also makes enemies receive Gospel on hit.
 
 ## Trivia
 
 Gospel was influenced by the “Lightsworn” archetype from *Yu-Gi-Oh!*
 
-Rather than merely adding another holy attack, the current design emphasizes Gospel being passed onward: sustained damage and death spread its influence to other enemies until Revelation accumulates into Judgement.
+The current design is not “an extra yellow tear every fourth shot,” but an attack that carries Gospel until spread and final Revelation close the room into one network.
 
 <details>
 <summary>Technical details</summary>
@@ -70,16 +80,14 @@ Rather than merely adding another holy attack, the current design emphasizes Gos
 | Parameter | Value |
 | --- | ---: |
 | Gospel attack interval | Every 4 valid attacks |
-| Converted tear damage | 175% |
-| Additional Gospel tear damage | 75% |
 | Damage needed to spread | 2.5× character damage |
 | Spread radius | 200 |
 | Spread hit damage | 100% |
 | Death spread targets | Up to 2 |
 | Boss damage needed for Revelation | 8× character damage |
 | Revelation damage | 150% |
-| Revelations needed for Judgement | 6 |
-| Final Judgement damage | 200% |
+| Revelations needed for final Revelation | 6 |
+| Final Revelation damage | 300% |
 | Seija dark Revelation damage | 75% |
 
 </details>
