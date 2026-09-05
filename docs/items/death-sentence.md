@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Death_Sentence
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>通灵盘 Death Sentence Death_Sentence death-sentence Death Sentence 判决即是终局 The sentence is final 满充能时自动通灵1个随机字母 使用打开预测面板 用字母拼出道具名称，即可获得对应道具 =可代替名称中的符号 集齐“FINAL”时，立即唤醒你的死亡终局 Fully charged: automatically summon 1 random letter Use to open the prediction panel Spell an item name with letters to gain it = can stand in for symbols in the name Spelling “FINAL” immediately wakes your death end</p>
+<p class="wiki-search-index" v-pre>通灵盘 Death Sentence Death_Sentence death-sentence Death Sentence 判决即是终局 The sentence is final 满充能时自动通灵1个随机字母 使用打开预测面板 用字母拼出道具名称，即可获得对应道具 「=」可代替名称中的符号 集齐“FINAL”时，立即唤醒你的死亡终局 Fully charged: automatically summon 1 random letter Use to open the prediction panel Spell an item name with letters to gain it 「=」 can stand in for symbols in the name Spelling “FINAL” immediately wakes your death end</p>
 
 <PublicEntry slug="death-sentence" lang="zh" />
 
@@ -22,7 +22,6 @@ status: reviewed
 - 满充能时自动获得 1 个随机字母（字母会环绕显示）
 - 使用打开预测面板，用已有字母匹配道具名称
 - 匹配时会忽略空格，汉字按拼音字母处理，其他符号统一视作 `=` 通配符
-- {{BlankRune}} `=` 可代替名称中的符号位
 - {{Warning}} 集齐拼出 **FINAL** 会立刻进入死亡终局逻辑
 
 ## 特殊联动

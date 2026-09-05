@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-02T07:47:54Z",
+  "generatedAt": "2026-09-05T16:08:26Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -194,11 +194,11 @@
     ],
     "Spwq::GreedMode": [
       {
-        "slug": "fates-draw",
+        "slug": "qings-faceted-market-diamond",
         "kind": "collectible",
         "names": {
-          "zh": "注定一抽",
-          "en": "Fate's Draw"
+          "zh": "钻石",
+          "en": "Diamond"
         }
       }
     ],
@@ -231,14 +231,6 @@
       }
     ],
     "Spwq::Hush": [
-      {
-        "slug": "philosophers-stone",
-        "kind": "collectible",
-        "names": {
-          "zh": "贤者之石",
-          "en": "Philosopher's Stone"
-        }
-      },
       {
         "slug": "qings-soul",
         "kind": "card",
@@ -392,13 +384,13 @@
         }
       }
     ],
-    "Anna::custom_col_1784813595360": [
+    "Tecro::custom_col_1784813595360": [
       {
-        "slug": "pendulum-star",
+        "slug": "philosophers-stone",
         "kind": "collectible",
         "names": {
-          "zh": "灵摆之星",
-          "en": "Pendulum Star"
+          "zh": "贤者之石",
+          "en": "Philosopher's Stone"
         }
       }
     ],
@@ -515,6 +507,16 @@
         "names": {
           "zh": "卢恩之书",
           "en": "Book of Rune"
+        }
+      }
+    ],
+    "Tecrorun::Delirium": [
+      {
+        "slug": "mental-disorder",
+        "kind": "collectible",
+        "names": {
+          "zh": "精神失序",
+          "en": "Mental Disorder"
         }
       }
     ],
@@ -734,6 +736,16 @@
         }
       }
     ],
+    "annA::Satan": [
+      {
+        "slug": "giant-punch",
+        "kind": "collectible",
+        "names": {
+          "zh": "巨大化",
+          "en": "Giant Punch"
+        }
+      }
+    ],
     "Zeiz::Isaac": [
       {
         "slug": "book-of-voice",
@@ -826,6 +838,16 @@
         }
       }
     ],
+    "Tecro::Hush": [
+      {
+        "slug": "perhaps-chosen",
+        "kind": "collectible",
+        "names": {
+          "zh": "似有所选",
+          "en": "Perhaps Chosen"
+        }
+      }
+    ],
     "Tecrorun::BlueBaby": [
       {
         "slug": "lofty",
@@ -883,26 +905,6 @@
         "names": {
           "zh": "真实之名",
           "en": "The True Name"
-        }
-      }
-    ],
-    "wq::Greedier": [
-      {
-        "slug": "giant-punch",
-        "kind": "collectible",
-        "names": {
-          "zh": "巨大化",
-          "en": "Giant Punch"
-        }
-      }
-    ],
-    "Spwq::Greedier": [
-      {
-        "slug": "apocalypse",
-        "kind": "collectible",
-        "names": {
-          "zh": "世末天依",
-          "en": "World's End Tianyi"
         }
       }
     ],
@@ -983,16 +985,6 @@
         "names": {
           "zh": "XXI - 深邃?",
           "en": "XXI - Profound?"
-        }
-      }
-    ],
-    "Tecro::GreedMode": [
-      {
-        "slug": "qings-faceted-market-diamond",
-        "kind": "collectible",
-        "names": {
-          "zh": "钻石",
-          "en": "Diamond"
         }
       }
     ],
@@ -1106,6 +1098,16 @@
         }
       }
     ],
+    "Zeiz::Delirium": [
+      {
+        "slug": "paranoia",
+        "kind": "collectible",
+        "names": {
+          "zh": "妄想症",
+          "en": "Paranoia"
+        }
+      }
+    ],
     "Zeis::GreedMode": [
       {
         "slug": "pacification-mark",
@@ -1189,6 +1191,16 @@
         "names": {
           "zh": "瓶中阴影",
           "en": "Shadow Bottle"
+        }
+      }
+    ],
+    "Anna::Delirium": [
+      {
+        "slug": "destiny-anchor",
+        "kind": "collectible",
+        "names": {
+          "zh": "命运锚点",
+          "en": "Destiny Anchor"
         }
       }
     ],
@@ -1282,6 +1294,16 @@
         }
       }
     ],
+    "Tecro::Satan": [
+      {
+        "slug": "pendulum-star",
+        "kind": "collectible",
+        "names": {
+          "zh": "灵摆之星",
+          "en": "Pendulum Star"
+        }
+      }
+    ],
     "Tecro::custom_col_1784816386034": [
       {
         "slug": "puncture-symbol",
@@ -1319,6 +1341,16 @@
         "names": {
           "zh": "罐中雷暴",
           "en": "Cable Jar"
+        }
+      }
+    ],
+    "Anna::Beast": [
+      {
+        "slug": "apocalypse",
+        "kind": "collectible",
+        "names": {
+          "zh": "世末天依",
+          "en": "World's End Tianyi"
         }
       }
     ],
@@ -1402,6 +1434,16 @@
         }
       }
     ],
+    "Lu::BossRush": [
+      {
+        "slug": "fates-draw",
+        "kind": "collectible",
+        "names": {
+          "zh": "注定一抽",
+          "en": "Fate's Draw"
+        }
+      }
+    ],
     "Lu::Beast": [
       {
         "slug": "cup-cat",
@@ -1419,36 +1461,6 @@
         "names": {
           "zh": "配给符号",
           "en": "Allocation Symbol"
-        }
-      }
-    ],
-    "Boss::Isaac::GlazeHard": [
-      {
-        "slug": "paranoia",
-        "kind": "collectible",
-        "names": {
-          "zh": "妄想症",
-          "en": "Paranoia"
-        }
-      }
-    ],
-    "Boss::BlueBaby::GlazeHard": [
-      {
-        "slug": "destiny-anchor",
-        "kind": "collectible",
-        "names": {
-          "zh": "命运锚点",
-          "en": "Destiny Anchor"
-        }
-      }
-    ],
-    "Boss::Eden::GlazeHard": [
-      {
-        "slug": "mental-disorder",
-        "kind": "collectible",
-        "names": {
-          "zh": "精神失序",
-          "en": "Mental Disorder"
         }
       }
     ],
@@ -1580,14 +1592,6 @@
     ],
     "Boss::Judas::custom_col_1785574945065": [
       {
-        "slug": "iv-the-emperor",
-        "kind": "card",
-        "names": {
-          "zh": "IV - 帝王",
-          "en": "IV - The Emperor"
-        }
-      },
-      {
         "slug": "xiv-art-reversed",
         "kind": "card",
         "names": {
@@ -1597,14 +1601,6 @@
       }
     ],
     "Boss::Cain::custom_col_1785574945065": [
-      {
-        "slug": "v-the-hierophant",
-        "kind": "card",
-        "names": {
-          "zh": "V - 教导",
-          "en": "V - The Hierophant"
-        }
-      },
       {
         "slug": "viii-adjustment",
         "kind": "card",
@@ -1642,14 +1638,6 @@
           "zh": "XIV - 艺术",
           "en": "XIV - Art"
         }
-      },
-      {
-        "slug": "iv-the-emperor-reversed",
-        "kind": "card",
-        "names": {
-          "zh": "IV - 帝王?",
-          "en": "IV - The Emperor?"
-        }
       }
     ],
     "Boss::Azazel_B::custom_col_1785574945065": [
@@ -1680,14 +1668,6 @@
           "zh": "VII - 巨炮",
           "en": "VII - Chariot"
         }
-      },
-      {
-        "slug": "xi-lure",
-        "kind": "card",
-        "names": {
-          "zh": "XI - 欲望",
-          "en": "XI - Lure"
-        }
       }
     ],
     "Boss::Samson_B::custom_col_1785574945065": [
@@ -1697,14 +1677,6 @@
         "names": {
           "zh": "VII - 巨像?",
           "en": "VII - The Chariot?"
-        }
-      },
-      {
-        "slug": "xi-lure-reversed",
-        "kind": "card",
-        "names": {
-          "zh": "XI - 欲望?",
-          "en": "XI - Lure?"
         }
       }
     ],
@@ -1805,14 +1777,6 @@
       }
     ],
     "Boss::Cain_B::custom_col_1785574945065": [
-      {
-        "slug": "v-the-hierophant-reversed",
-        "kind": "card",
-        "names": {
-          "zh": "V - 教导?",
-          "en": "V - The Hierophant?"
-        }
-      },
       {
         "slug": "viii-adjustment-reversed",
         "kind": "card",
@@ -2099,6 +2063,64 @@
         "names": {
           "zh": "透特卡残片",
           "en": "Torn Emperor"
+        }
+      }
+    ],
+    "annA::custom_col_1788544736302": [
+      {
+        "slug": "iv-the-emperor-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "IV - 帝王?",
+          "en": "IV - The Emperor?"
+        }
+      }
+    ],
+    "Anna::custom_col_1788544736302": [
+      {
+        "slug": "iv-the-emperor",
+        "kind": "card",
+        "names": {
+          "zh": "IV - 帝王",
+          "en": "IV - The Emperor"
+        }
+      }
+    ],
+    "Tecrorun::custom_col_1788544736302": [
+      {
+        "slug": "v-the-hierophant-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "V - 教导?",
+          "en": "V - The Hierophant?"
+        }
+      }
+    ],
+    "Tecro::custom_col_1788544736302": [
+      {
+        "slug": "v-the-hierophant",
+        "kind": "card",
+        "names": {
+          "zh": "V - 教导",
+          "en": "V - The Hierophant"
+        }
+      }
+    ],
+    "Marriano::custom_col_1788544736302": [
+      {
+        "slug": "xi-lure",
+        "kind": "card",
+        "names": {
+          "zh": "XI - 欲望",
+          "en": "XI - Lure"
+        }
+      },
+      {
+        "slug": "xi-lure-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XI - 欲望?",
+          "en": "XI - Lure?"
         }
       }
     ]
@@ -3383,12 +3405,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "wq::Greedier",
-        "characterKey": "wq",
-        "conditionKey": "Greedier",
+        "zone": "annA::Satan",
+        "characterKey": "annA",
+        "conditionKey": "Satan",
         "text": {
-          "zh": "使用小青完成究极贪婪",
-          "en": "Complete Greedier as Qing"
+          "zh": "使用安奈击败撒旦",
+          "en": "Defeat Satan as Anna"
         }
       },
       "characterBase": null,
@@ -5354,8 +5376,8 @@
         "characterKey": "wq",
         "conditionKey": "custom_col_1784813595360",
         "text": {
-          "zh": "使用小青完成琉璃王子（结局2）",
-          "en": "Complete 琉璃王子（结局2） as Qing"
+          "zh": "使用小青击败琉璃王子",
+          "en": "Defeat 琉璃王子 as Qing"
         }
       },
       "characterBase": null,
@@ -5590,8 +5612,8 @@
         "characterKey": "Zeiz",
         "conditionKey": "custom_col_1784813595360",
         "text": {
-          "zh": "使用泽伊兹完成琉璃王子（结局2）",
-          "en": "Complete 琉璃王子（结局2） as Zeiz"
+          "zh": "使用泽伊兹击败琉璃王子",
+          "en": "Defeat 琉璃王子 as Zeiz"
         }
       },
       "characterBase": null,
@@ -5720,12 +5742,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Spwq::Greedier",
-        "characterKey": "Spwq",
-        "conditionKey": "Greedier",
+        "zone": "Anna::Beast",
+        "characterKey": "Anna",
+        "conditionKey": "Beast",
         "text": {
-          "zh": "使用青完成究极贪婪",
-          "en": "Complete Greedier as Qing"
+          "zh": "使用安娜击败祸兽",
+          "en": "Defeat The Beast as Anna"
         }
       },
       "characterBase": null,
@@ -6220,8 +6242,8 @@
         "characterKey": "Spwq",
         "conditionKey": "custom_col_1784813595360",
         "text": {
-          "zh": "使用青完成琉璃王子（结局2）",
-          "en": "Complete 琉璃王子（结局2） as Qing"
+          "zh": "使用青击败琉璃王子",
+          "en": "Defeat 琉璃王子 as Qing"
         }
       },
       "characterBase": null,
@@ -6336,12 +6358,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Spwq::GreedMode",
-        "characterKey": "Spwq",
-        "conditionKey": "GreedMode",
+        "zone": "Lu::BossRush",
+        "characterKey": "Lu",
+        "conditionKey": "BossRush",
         "text": {
-          "zh": "使用青完成贪婪模式",
-          "en": "Complete Greed Mode as Qing"
+          "zh": "使用露完成Boss Rush",
+          "en": "Complete Boss Rush as Lu"
         }
       },
       "characterBase": null,
@@ -7502,12 +7524,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Anna::custom_col_1784813595360",
-        "characterKey": "Anna",
-        "conditionKey": "custom_col_1784813595360",
+        "zone": "Tecro::Satan",
+        "characterKey": "Tecro",
+        "conditionKey": "Satan",
         "text": {
-          "zh": "使用安娜完成琉璃王子（结局2）",
-          "en": "Complete 琉璃王子（结局2） as Anna"
+          "zh": "使用泰克罗击败撒旦",
+          "en": "Defeat Satan as Tecro"
         }
       },
       "characterBase": null,
@@ -9793,8 +9815,8 @@
         "en": "Demon in body,angel in mind"
       },
       "eid": {
-        "zh": "{{Flight}} 双翼完整时获得飞行#{{AngelRoom}} 首次进入天使房：折断恶魔翼，生成1个{{BlackHeart}} 黑心#{{DevilRoom}} 首次进入恶魔房：折断天使翼，生成1个{{EternalHeart}} 永恒之心#{{Collectible}} 双翼均折断后，下层生成天使与恶魔道具各1件，并恢复双翼",
-        "en": "{{Flight}} Grants flight while both wings are intact#{{AngelRoom}} First Angel Room visit: break the Devil wing and spawn 1 {{BlackHeart}} Black Heart#{{DevilRoom}} First Devil Room visit: break the Angel wing and spawn 1 {{EternalHeart}} Eternal Heart#{{Collectible}} After both wings break, the next floor spawns 1 Angel and 1 Devil item, then restores both wings"
+        "zh": "双翼完整时获得飞行#{{AngelRoom}} 首次进入天使房：折断恶魔翼，生成1个{{BlackHeart}} 黑心#{{DevilRoom}} 首次进入恶魔房：折断天使翼，生成1个{{EternalHeart}} 永恒之心#{{Collectible}} 双翼均折断后，下层生成天使与恶魔道具各1件，并恢复双翼",
+        "en": "Grants flight while both wings are intact#{{AngelRoom}} First Angel Room visit: break the Devil wing and spawn 1 {{BlackHeart}} Black Heart#{{DevilRoom}} First Devil Room visit: break the Angel wing and spawn 1 {{EternalHeart}} Eternal Heart#{{Collectible}} After both wings break, the next floor spawns 1 Angel and 1 Devil item, then restores both wings"
       },
       "seijaBuff": {
         "zh": "",
@@ -13055,23 +13077,13 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Spwq::Hush",
-        "characterKey": "Spwq",
-        "conditionKey": "Hush",
+        "zone": "Tecro::custom_col_1784813595360",
+        "characterKey": "Tecro",
+        "conditionKey": "custom_col_1784813595360",
         "text": {
-          "zh": "使用青击败死寂",
-          "en": "Defeat Hush as Qing"
-        },
-        "siblings": [
-          {
-            "slug": "qings-soul",
-            "kind": "card",
-            "names": {
-              "zh": "小青的灵魂石",
-              "en": "Qing's Soul"
-            }
-          }
-        ]
+          "zh": "使用泰克罗击败琉璃王子",
+          "en": "Defeat 琉璃王子 as Tecro"
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -15582,8 +15594,8 @@
         "characterKey": "Tecrorun",
         "conditionKey": "custom_col_1784813595360",
         "text": {
-          "zh": "使用泰克罗罗恩完成琉璃王子（结局2）",
-          "en": "Complete 琉璃王子（结局2） as Tecrorun"
+          "zh": "使用泰克罗罗恩击败琉璃王子",
+          "en": "Defeat 琉璃王子 as Tecrorun"
         }
       },
       "characterBase": null,
@@ -15720,14 +15732,14 @@
         }
       ],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Eden::GlazeHard",
-        "characterKey": "Eden",
-        "conditionKey": "GlazeHard",
+        "zone": "Tecrorun::Delirium",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Delirium",
         "text": {
-          "zh": "使用伊甸击败琉璃王子（困难）",
-          "en": "Defeat Glaze Prince (Hard) as 伊甸"
+          "zh": "使用泰克罗罗恩击败精神错乱",
+          "en": "Defeat Delirium as Tecrorun"
         }
       },
       "characterBase": null,
@@ -15859,14 +15871,14 @@
         }
       ],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Isaac::GlazeHard",
-        "characterKey": "Isaac",
-        "conditionKey": "GlazeHard",
+        "zone": "Zeiz::Delirium",
+        "characterKey": "Zeiz",
+        "conditionKey": "Delirium",
         "text": {
-          "zh": "使用以撒击败琉璃王子（困难）",
-          "en": "Defeat Glaze Prince (Hard) as 以撒"
+          "zh": "使用泽伊兹击败精神错乱",
+          "en": "Defeat Delirium as Zeiz"
         }
       },
       "characterBase": null,
@@ -16620,8 +16632,8 @@
         "en": "Flying + Harvesting Blood"
       },
       "eid": {
-        "zh": "{{Flight}} 获得飞行#{{Chargeable}} 保持贴近墙壁约2秒完成蓄力#蓄满后离墙会无敌冲刺约2秒，并持续向后喷射30%攻击倍率的硫磺火",
-        "en": "{{Flight}} Grants flight#{{Chargeable}} Stay close to a wall for about 2 seconds to finish charging#Leaving the wall after a full charge starts an invincible dash for about 2 seconds and continuously sprays 30% damage Brimstone behind you"
+        "zh": "↑ 飞行#{{Chargeable}} 保持贴近墙壁约2秒完成蓄力#蓄满后离墙会无敌冲刺约2秒，并持续向后喷射30%攻击倍率的硫磺火",
+        "en": "↑ Flight#{{Chargeable}} Stay close to a wall for about 2 seconds to finish charging#Leaving the wall after a full charge starts an invincible dash for about 2 seconds and continuously sprays 30% damage Brimstone behind you"
       },
       "seijaBuff": {
         "zh": "",
@@ -17074,14 +17086,14 @@
         }
       ],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::BlueBaby::GlazeHard",
-        "characterKey": "BlueBaby",
-        "conditionKey": "GlazeHard",
+        "zone": "Anna::Delirium",
+        "characterKey": "Anna",
+        "conditionKey": "Delirium",
         "text": {
-          "zh": "使用???击败琉璃王子（困难）",
-          "en": "Defeat Glaze Prince (Hard) as ???"
+          "zh": "使用安娜击败精神错乱",
+          "en": "Defeat Delirium as Anna"
         }
       },
       "characterBase": null,
@@ -19298,8 +19310,8 @@
         "en": "The sentence is final"
       },
       "eid": {
-        "zh": "满充能时自动通灵1个随机字母#使用打开预测面板#用字母拼出道具名称，即可获得对应道具#{{BlankRune}} =可代替名称中的符号#{{Warning}} 集齐“FINAL”时，立即唤醒你的死亡终局",
-        "en": "Fully charged: automatically summon 1 random letter#Use to open the prediction panel#Spell an item name with letters to gain it#{{BlankRune}} = can stand in for symbols in the name#{{Warning}} Spelling “FINAL” immediately wakes your death end"
+        "zh": "满充能时自动通灵1个随机字母#使用打开预测面板#用字母拼出道具名称，即可获得对应道具#「=」可代替名称中的符号#{{Warning}} 集齐“FINAL”时，立即唤醒你的死亡终局",
+        "en": "Fully charged: automatically summon 1 random letter#Use to open the prediction panel#Spell an item name with letters to gain it#「=」 can stand in for symbols in the name#{{Warning}} Spelling “FINAL” immediately wakes your death end"
       },
       "seijaBuff": {
         "zh": "",
@@ -19975,12 +19987,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Tecro::GreedMode",
-        "characterKey": "Tecro",
+        "zone": "Spwq::GreedMode",
+        "characterKey": "Spwq",
         "conditionKey": "GreedMode",
         "text": {
-          "zh": "使用泰克罗完成贪婪模式",
-          "en": "Complete Greed Mode as Tecro"
+          "zh": "使用青完成贪婪模式",
+          "en": "Complete Greed Mode as Qing"
         }
       },
       "characterBase": null,
@@ -20703,6 +20715,130 @@
       }
     },
     {
+      "slug": "perhaps-chosen",
+      "kind": "collectible",
+      "internalKey": "Perhaps_Chosen",
+      "xmlId": 173,
+      "xmlName": "Perhaps Chosen",
+      "itemType": "passive",
+      "quality": 0,
+      "tags": [],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "shop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Tecro::Hush",
+        "characterKey": "Tecro",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用泰克罗击败死寂",
+          "en": "Defeat Hush as Tecro"
+        }
+      },
+      "characterBase": null,
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "似有所选",
+        "en": "Perhaps Chosen"
+      },
+      "desc": {
+        "zh": "请再看看罢",
+        "en": "Please, look again."
+      },
+      "eid": {
+        "zh": "持有时没有效果#不拾取并离开后，会加入之后的道具选择#重置后仍会保留在该选择中",
+        "en": "Has no effect while held#Leave it behind to join a later item choice#Rerolls won't remove it from that choice"
+      },
+      "seijaBuff": {
+        "zh": "再次加入道具选择时，会在自己的底座上额外与一个当前道具池的随机道具轮换出现",
+        "en": "When it rejoins an item choice, its pedestal also cycles with a random item from the current pool"
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/perhaps-chosen.png",
+      "thumb32": "/generated/images/perhaps-chosen_32.webp",
+      "thumb32Png": "/generated/images/perhaps-chosen_32.png",
+      "thumb64": "/generated/images/perhaps-chosen_64.webp",
+      "thumb64Png": "/generated/images/perhaps-chosen_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 416,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "internalKey": "Pacification_Mark",
@@ -20801,7 +20937,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 256,
         "w": 32,
         "h": 32
@@ -20906,7 +21042,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 256,
         "w": 32,
         "h": 32
@@ -21021,8 +21157,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 256,
+        "x": 0,
+        "y": 288,
         "w": 32,
         "h": 32
       }
@@ -21126,7 +21262,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21231,7 +21367,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21254,8 +21390,8 @@
         "characterKey": "Tecro",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用泰克罗完成六使徒（结局3）",
-          "en": "Complete 六使徒（结局3） as Tecro"
+          "zh": "使用泰克罗击败六使徒",
+          "en": "Defeat 六使徒 as Tecro"
         }
       },
       "characterBase": null,
@@ -21336,7 +21472,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21359,8 +21495,8 @@
         "characterKey": "Anna",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用安娜完成六使徒（结局3）",
-          "en": "Complete 六使徒（结局3） as Anna"
+          "zh": "使用安娜击败六使徒",
+          "en": "Defeat 六使徒 as Anna"
         }
       },
       "characterBase": null,
@@ -21441,7 +21577,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21464,8 +21600,8 @@
         "characterKey": "Zeis",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用泽伊斯托斯完成六使徒（结局3）",
-          "en": "Complete 六使徒（结局3） as Zeis"
+          "zh": "使用泽伊斯托斯击败六使徒",
+          "en": "Defeat 六使徒 as Zeis"
         }
       },
       "characterBase": null,
@@ -21546,7 +21682,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21569,8 +21705,8 @@
         "characterKey": "Marriano",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用玛丽亚诺完成六使徒（结局3）",
-          "en": "Complete 六使徒（结局3） as Operation Guide: Marriano"
+          "zh": "使用玛丽亚诺击败六使徒",
+          "en": "Defeat 六使徒 as Operation Guide: Marriano"
         }
       },
       "characterBase": null,
@@ -21651,7 +21787,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21674,8 +21810,8 @@
         "characterKey": "Autio",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用艾提奥完成六使徒（结局3）",
-          "en": "Complete 六使徒（结局3） as Autio"
+          "zh": "使用艾提奥击败六使徒",
+          "en": "Defeat 六使徒 as Autio"
         }
       },
       "characterBase": null,
@@ -21756,7 +21892,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21779,8 +21915,8 @@
         "characterKey": "Lu",
         "conditionKey": "custom_col_1784816386034",
         "text": {
-          "zh": "使用露完成六使徒（结局3）",
-          "en": "Complete 六使徒（结局3） as Lu"
+          "zh": "使用露击败六使徒",
+          "en": "Defeat 六使徒 as Lu"
         }
       },
       "characterBase": null,
@@ -21861,7 +21997,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21966,7 +22102,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22071,7 +22207,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22176,7 +22312,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22281,7 +22417,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22386,7 +22522,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22481,7 +22617,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22506,17 +22642,7 @@
         "text": {
           "zh": "使用青击败死寂",
           "en": "Defeat Hush as Qing"
-        },
-        "siblings": [
-          {
-            "slug": "philosophers-stone",
-            "kind": "collectible",
-            "names": {
-              "zh": "贤者之石",
-              "en": "Philosopher's Stone"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -22596,7 +22722,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22701,8 +22827,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 288,
+        "x": 0,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -22806,7 +22932,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22929,7 +23055,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23052,7 +23178,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23175,7 +23301,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23280,7 +23406,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23385,7 +23511,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23402,25 +23528,15 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Judas::custom_col_1785574945065",
-        "characterKey": "Judas",
-        "conditionKey": "custom_col_1785574945065",
+        "zone": "Anna::custom_col_1788544736302",
+        "characterKey": "Anna",
+        "conditionKey": "custom_col_1788544736302",
         "text": {
-          "zh": "使用犹大击败阿莱斯特",
-          "en": "Defeat 阿莱斯特 as 犹大"
-        },
-        "siblings": [
-          {
-            "slug": "xiv-art-reversed",
-            "kind": "card",
-            "names": {
-              "zh": "XIV - 艺术?",
-              "en": "XIV - Art?"
-            }
-          }
-        ]
+          "zh": "使用安娜击败阿莱斯特",
+          "en": "Defeat 阿莱斯特 as Anna"
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -23500,7 +23616,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23517,25 +23633,15 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Cain::custom_col_1785574945065",
-        "characterKey": "Cain",
-        "conditionKey": "custom_col_1785574945065",
+        "zone": "Tecro::custom_col_1788544736302",
+        "characterKey": "Tecro",
+        "conditionKey": "custom_col_1788544736302",
         "text": {
-          "zh": "使用该隐击败阿莱斯特",
-          "en": "Defeat 阿莱斯特 as 该隐"
-        },
-        "siblings": [
-          {
-            "slug": "viii-adjustment",
-            "kind": "card",
-            "names": {
-              "zh": "VIII - 调节",
-              "en": "VIII - Adjustment"
-            }
-          }
-        ]
+          "zh": "使用泰克罗击败阿莱斯特",
+          "en": "Defeat 阿莱斯特 as Tecro"
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -23615,7 +23721,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23720,7 +23826,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23745,17 +23851,7 @@
         "text": {
           "zh": "使用参孙击败阿莱斯特",
           "en": "Defeat 阿莱斯特 as 参孙"
-        },
-        "siblings": [
-          {
-            "slug": "xi-lure",
-            "kind": "card",
-            "names": {
-              "zh": "XI - 欲望",
-              "en": "XI - Lure"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -23835,7 +23931,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23860,17 +23956,7 @@
         "text": {
           "zh": "使用该隐击败阿莱斯特",
           "en": "Defeat 阿莱斯特 as 该隐"
-        },
-        "siblings": [
-          {
-            "slug": "v-the-hierophant",
-            "kind": "card",
-            "names": {
-              "zh": "V - 教导",
-              "en": "V - The Hierophant"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -23950,7 +24036,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24055,7 +24141,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24160,7 +24246,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24177,22 +24263,22 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Samson::custom_col_1785574945065",
-        "characterKey": "Samson",
-        "conditionKey": "custom_col_1785574945065",
+        "zone": "Marriano::custom_col_1788544736302",
+        "characterKey": "Marriano",
+        "conditionKey": "custom_col_1788544736302",
         "text": {
-          "zh": "使用参孙击败阿莱斯特",
-          "en": "Defeat 阿莱斯特 as 参孙"
+          "zh": "使用玛丽亚诺击败阿莱斯特",
+          "en": "Defeat 阿莱斯特 as Operation Guide: Marriano"
         },
         "siblings": [
           {
-            "slug": "vii-chariot",
+            "slug": "xi-lure-reversed",
             "kind": "card",
             "names": {
-              "zh": "VII - 巨炮",
-              "en": "VII - Chariot"
+              "zh": "XI - 欲望?",
+              "en": "XI - Lure?"
             }
           }
         ]
@@ -24275,7 +24361,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24380,7 +24466,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24485,8 +24571,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -24510,17 +24596,7 @@
         "text": {
           "zh": "使用堕化犹大击败阿莱斯特",
           "en": "Defeat 阿莱斯特 as 堕化犹大"
-        },
-        "siblings": [
-          {
-            "slug": "iv-the-emperor-reversed",
-            "kind": "card",
-            "names": {
-              "zh": "IV - 帝王?",
-              "en": "IV - The Emperor?"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -24600,7 +24676,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24705,7 +24781,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24810,7 +24886,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24933,7 +25009,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25056,7 +25132,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25179,7 +25255,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25284,7 +25360,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25389,7 +25465,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25494,7 +25570,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25599,7 +25675,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25704,7 +25780,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25809,7 +25885,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25826,25 +25902,15 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Judas_B::custom_col_1785574945065",
-        "characterKey": "Judas_B",
-        "conditionKey": "custom_col_1785574945065",
+        "zone": "annA::custom_col_1788544736302",
+        "characterKey": "annA",
+        "conditionKey": "custom_col_1788544736302",
         "text": {
-          "zh": "使用堕化犹大击败阿莱斯特",
-          "en": "Defeat 阿莱斯特 as 堕化犹大"
-        },
-        "siblings": [
-          {
-            "slug": "xiv-art",
-            "kind": "card",
-            "names": {
-              "zh": "XIV - 艺术",
-              "en": "XIV - Art"
-            }
-          }
-        ]
+          "zh": "使用安奈击败阿莱斯特",
+          "en": "Defeat 阿莱斯特 as Anna"
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -25924,7 +25990,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25941,25 +26007,15 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Cain_B::custom_col_1785574945065",
-        "characterKey": "Cain_B",
-        "conditionKey": "custom_col_1785574945065",
+        "zone": "Tecrorun::custom_col_1788544736302",
+        "characterKey": "Tecrorun",
+        "conditionKey": "custom_col_1788544736302",
         "text": {
-          "zh": "使用堕化该隐击败阿莱斯特",
-          "en": "Defeat 阿莱斯特 as 堕化该隐"
-        },
-        "siblings": [
-          {
-            "slug": "viii-adjustment-reversed",
-            "kind": "card",
-            "names": {
-              "zh": "VIII - 调节?",
-              "en": "VIII - Adjustment?"
-            }
-          }
-        ]
+          "zh": "使用泰克罗罗恩击败阿莱斯特",
+          "en": "Defeat 阿莱斯特 as Tecrorun"
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -26039,7 +26095,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26144,7 +26200,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26169,17 +26225,7 @@
         "text": {
           "zh": "使用堕化参孙击败阿莱斯特",
           "en": "Defeat 阿莱斯特 as 堕化参孙"
-        },
-        "siblings": [
-          {
-            "slug": "xi-lure-reversed",
-            "kind": "card",
-            "names": {
-              "zh": "XI - 欲望?",
-              "en": "XI - Lure?"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -26259,8 +26305,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -26284,17 +26330,7 @@
         "text": {
           "zh": "使用堕化该隐击败阿莱斯特",
           "en": "Defeat 阿莱斯特 as 堕化该隐"
-        },
-        "siblings": [
-          {
-            "slug": "v-the-hierophant-reversed",
-            "kind": "card",
-            "names": {
-              "zh": "V - 教导?",
-              "en": "V - The Hierophant?"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -26374,7 +26410,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26479,7 +26515,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26584,7 +26620,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26601,22 +26637,22 @@
       "tags": [],
       "pools": [],
       "unlock": {
-        "type": "boss_mark",
+        "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Boss::Samson_B::custom_col_1785574945065",
-        "characterKey": "Samson_B",
-        "conditionKey": "custom_col_1785574945065",
+        "zone": "Marriano::custom_col_1788544736302",
+        "characterKey": "Marriano",
+        "conditionKey": "custom_col_1788544736302",
         "text": {
-          "zh": "使用堕化参孙击败阿莱斯特",
-          "en": "Defeat 阿莱斯特 as 堕化参孙"
+          "zh": "使用玛丽亚诺击败阿莱斯特",
+          "en": "Defeat 阿莱斯特 as Operation Guide: Marriano"
         },
         "siblings": [
           {
-            "slug": "vii-the-chariot-reversed",
+            "slug": "xi-lure",
             "kind": "card",
             "names": {
-              "zh": "VII - 巨像?",
-              "en": "VII - The Chariot?"
+              "zh": "XI - 欲望",
+              "en": "XI - Lure"
             }
           }
         ]
@@ -26699,7 +26735,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26804,7 +26840,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26927,7 +26963,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27050,7 +27086,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27173,7 +27209,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27198,17 +27234,7 @@
         "text": {
           "zh": "使用犹大击败阿莱斯特",
           "en": "Defeat 阿莱斯特 as 犹大"
-        },
-        "siblings": [
-          {
-            "slug": "iv-the-emperor",
-            "kind": "card",
-            "names": {
-              "zh": "IV - 帝王",
-              "en": "IV - The Emperor"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "challengeBase": null,
@@ -27288,7 +27314,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27393,7 +27419,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27498,7 +27524,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27621,7 +27647,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27744,7 +27770,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27867,7 +27893,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27972,7 +27998,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28077,8 +28103,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -28182,7 +28208,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28287,7 +28313,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28402,7 +28428,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28517,7 +28543,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28632,7 +28658,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28737,7 +28763,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28842,7 +28868,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28947,7 +28973,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29052,7 +29078,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31928,7 +31954,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32095,7 +32121,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32262,7 +32288,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32429,7 +32455,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32596,7 +32622,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32763,7 +32789,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32930,8 +32956,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -33097,7 +33123,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33274,7 +33300,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33369,7 +33395,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33464,7 +33490,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33559,7 +33585,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33654,7 +33680,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33749,7 +33775,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33844,7 +33870,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32

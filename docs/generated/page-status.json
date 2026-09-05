@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T07:47:54Z",
+  "generatedAt": "2026-09-05T16:08:26Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1129,6 +1129,14 @@
       "en": "wiki/docs/en/items/ember.md",
       "zhStatus": "reviewed",
       "enStatus": "reviewed"
+    },
+    {
+      "slug": "perhaps-chosen",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/perhaps-chosen.md",
+      "en": "wiki/docs/en/items/perhaps-chosen.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "pacification-mark",

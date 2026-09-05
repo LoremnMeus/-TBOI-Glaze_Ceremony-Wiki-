@@ -13008,7 +13008,8 @@
     "Abiogenesis": "collectibles_Abiogenesis.png",
     "The_Voice": "collectibles_The_Voice.png",
     "Regenesis": "collectibles_Regenesis.png",
-    "Ember": "collectibles_Embers.png"
+    "Ember": "collectibles_Embers.png",
+    "Perhaps_Chosen": "collectibles_Perhaps_Chosen.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13151,7 +13152,8 @@
     "169": "collectibles_Abiogenesis.png",
     "170": "collectibles_The_Voice.png",
     "171": "collectibles_Regenesis.png",
-    "172": "collectibles_Embers.png"
+    "172": "collectibles_Embers.png",
+    "173": "collectibles_Perhaps_Chosen.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",
