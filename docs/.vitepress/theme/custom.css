@@ -40,6 +40,362 @@
   line-height: 2;
 }
 
+/* EID InlineColors → wiki HTML (KColor / SwagColors approximations) */
+.vp-doc .eid-color,
+.eid-markup .eid-color {
+  font-weight: inherit;
+}
+
+.eid-color--colortext {
+  color: var(--vp-c-text-1);
+}
+.eid-color--colortransform,
+.eid-color--coloreidtransform {
+  color: #8080ff;
+}
+.eid-color--colorerror,
+.eid-color--coloreiderror {
+  color: var(--vp-c-danger-1, #ff6666);
+}
+.eid-color--colorobjname,
+.eid-color--coloreidobjname {
+  color: #cc4dcc;
+}
+.eid-color--coloreidtext {
+  color: #ffffff;
+}
+.eid-color--colorblack {
+  color: #000000;
+}
+.eid-color--colorwhite {
+  color: #ffffff;
+}
+.eid-color--colorred {
+  color: #ff0000;
+}
+.eid-color--colorlime {
+  color: #00ff00;
+}
+.eid-color--colorblue {
+  color: #0000ff;
+}
+.eid-color--coloryellow {
+  color: #ffff00;
+}
+.eid-color--colorcyan {
+  color: #00ffff;
+}
+.eid-color--colorpink {
+  color: #ff00ff;
+}
+.eid-color--colorsilver {
+  color: #bfbfbf;
+}
+.eid-color--colorgray {
+  color: #808080;
+}
+.eid-color--colormaroon {
+  color: #800000;
+}
+.eid-color--colorolive {
+  color: #808000;
+}
+.eid-color--colorgreen {
+  color: #008000;
+}
+.eid-color--colorpurple {
+  color: #800080;
+}
+.eid-color--colorteal {
+  color: #008080;
+}
+.eid-color--colornavy {
+  color: #000080;
+}
+.eid-color--colororange {
+  color: #ff8a00;
+}
+.eid-color--colorpastelblue {
+  color: #6385ff;
+}
+.eid-color--colorlavender {
+  color: #be5eff;
+}
+.eid-color--colorlightorange {
+  color: #ffa25e;
+}
+.eid-color--colorlightyellow {
+  color: #ffff80;
+}
+.eid-color--colorbagcomplete {
+  color: rgba(0, 255, 0, 0.75);
+}
+.eid-color--colorbagoverfill {
+  color: rgba(255, 128, 26, 0.75);
+}
+.eid-color--colorisaac {
+  color: #e3c6c5;
+}
+.eid-color--colorcard {
+  color: #d0a67e;
+}
+.eid-color--colorpill {
+  color: #4ea6d9;
+}
+
+/* Swag / blink approximations (EID SwagColors) */
+@keyframes eid-swag-rainbow {
+  0% {
+    color: #ff0000;
+  }
+  16% {
+    color: #ffff00;
+  }
+  33% {
+    color: #00ff00;
+  }
+  50% {
+    color: #00ffff;
+  }
+  66% {
+    color: #0000ff;
+  }
+  83% {
+    color: #ff00ff;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+@keyframes eid-swag-gold {
+  0%,
+  100% {
+    color: #ffff00;
+  }
+  50% {
+    color: #ff8a00;
+  }
+}
+@keyframes eid-swag-yellow-green {
+  0%,
+  100% {
+    color: #ffff00;
+  }
+  50% {
+    color: #00ff00;
+  }
+}
+@keyframes eid-swag-yellow-red {
+  0%,
+  100% {
+    color: #ffff00;
+  }
+  50% {
+    color: #ff0000;
+  }
+}
+@keyframes eid-swag-gray {
+  0%,
+  100% {
+    color: #808080;
+  }
+  50% {
+    color: #bfbfbf;
+  }
+}
+@keyframes eid-swag-pink {
+  0%,
+  100% {
+    color: #ffb2e2;
+  }
+  50% {
+    color: #ff80ff;
+  }
+}
+@keyframes eid-swag-blue {
+  0%,
+  100% {
+    color: #5787e7;
+  }
+  50% {
+    color: #97b7ef;
+  }
+}
+@keyframes eid-swag-green {
+  0%,
+  100% {
+    color: #67a94e;
+  }
+  50% {
+    color: #71c33f;
+  }
+}
+@keyframes eid-swag-shiny-purple {
+  0%,
+  100% {
+    color: #cfa0ff;
+  }
+  50% {
+    color: #9e40ff;
+  }
+}
+@keyframes eid-swag-birthright {
+  0%,
+  100% {
+    color: #d4b99a;
+  }
+  50% {
+    color: #ab8e71;
+  }
+}
+@keyframes eid-color-blink {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes eid-color-fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  40%,
+  60% {
+    opacity: 1;
+  }
+}
+
+.eid-color--colorrainbow {
+  animation: eid-swag-rainbow 1.2s linear infinite;
+}
+.eid-color--colorgold {
+  animation: eid-swag-gold 0.9s ease-in-out infinite;
+}
+.eid-color--blinkyellowgreen {
+  animation: eid-swag-yellow-green 0.9s ease-in-out infinite;
+}
+.eid-color--blinkyellowred {
+  animation: eid-swag-yellow-red 0.9s ease-in-out infinite;
+}
+.eid-color--blinkgray {
+  animation: eid-swag-gray 0.9s ease-in-out infinite;
+}
+.eid-color--blinkpink {
+  animation: eid-swag-pink 0.9s ease-in-out infinite;
+}
+.eid-color--blinkblue {
+  animation: eid-swag-blue 0.9s ease-in-out infinite;
+}
+.eid-color--blinkgreen {
+  animation: eid-swag-green 0.9s ease-in-out infinite;
+}
+.eid-color--colorshinypurple {
+  animation: eid-swag-shiny-purple 1.3s ease-in-out infinite;
+}
+.eid-color--blinkbirthright {
+  animation: eid-swag-birthright 0.9s ease-in-out infinite;
+}
+.eid-color--colorblink {
+  animation: eid-color-blink 1.33s step-end infinite;
+}
+.eid-color--colorfade {
+  animation: eid-color-fade 1.33s ease-in-out infinite;
+}
+
+/* Light theme: EID neons are tuned for dark overlays — deepen for readability */
+html:not(.dark) .eid-color--colorwhite {
+  color: #5c5c5c;
+}
+html:not(.dark) .eid-color--coloryellow,
+html:not(.dark) .eid-color--colorlightyellow {
+  color: #b38600;
+}
+html:not(.dark) .eid-color--colorlime {
+  color: #1a8f1a;
+}
+html:not(.dark) .eid-color--colorcyan {
+  color: #00838f;
+}
+html:not(.dark) .eid-color--colorblue {
+  color: #1a4cff;
+}
+html:not(.dark) .eid-color--colorpink {
+  color: #c400c4;
+}
+html:not(.dark) .eid-color--colororange,
+html:not(.dark) .eid-color--colorlightorange {
+  color: #d35400;
+}
+html:not(.dark) .eid-color--colorsilver {
+  color: #6e6e6e;
+}
+html:not(.dark) .eid-color--colorisaac {
+  color: #a67f7c;
+}
+html:not(.dark) .eid-color--colorgold {
+  animation: none;
+  color: #c79100;
+}
+html:not(.dark) .eid-color--colorrainbow {
+  animation: none;
+  background: linear-gradient(90deg, #d32f2f, #f9a825, #2e7d32, #0288d1, #5e35b1, #c2185b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .eid-color--colorrainbow {
+    color: #ff66aa;
+    animation: none;
+  }
+  .eid-color--colorgold {
+    color: #ffc107;
+    animation: none;
+  }
+  .eid-color--blinkyellowgreen {
+    color: #9acd32;
+    animation: none;
+  }
+  .eid-color--blinkyellowred {
+    color: #ff9800;
+    animation: none;
+  }
+  .eid-color--blinkgray {
+    color: #9e9e9e;
+    animation: none;
+  }
+  .eid-color--blinkpink {
+    color: #ff80ff;
+    animation: none;
+  }
+  .eid-color--blinkblue {
+    color: #5787e7;
+    animation: none;
+  }
+  .eid-color--blinkgreen {
+    color: #71c33f;
+    animation: none;
+  }
+  .eid-color--colorshinypurple {
+    color: #9e40ff;
+    animation: none;
+  }
+  .eid-color--blinkbirthright {
+    color: #d4b99a;
+    animation: none;
+  }
+  .eid-color--colorblink,
+  .eid-color--colorfade {
+    opacity: 1;
+    animation: none;
+  }
+}
+
 body.wiki-dev-open {
   padding-bottom: min(42vh, 28rem);
 }

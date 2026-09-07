@@ -1,4 +1,4 @@
-import { escapeVueBraces, splitMarks } from './eidMarks'
+import { eidColorClassName, escapeHtmlText, escapeVueBraces, splitMarks } from './eidMarks'
 
 function eidIconHtml(name: string): string {
   const escaped = name.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
@@ -16,7 +16,17 @@ function replaceTextMarks(text: string): { type: 'text' | 'html_inline'; content
   const parts: { type: 'text' | 'html_inline'; content: string }[] = []
   for (const part of splitMarks(text)) {
     if (part.type === 'icon') {
+      // Icons keep their own sprite colors; do not wrap in eid-color.
       parts.push({ type: 'html_inline', content: eidIconHtml(part.value) })
+      continue
+    }
+    if (!part.value) continue
+    const colorClass = eidColorClassName(part.color)
+    if (colorClass) {
+      parts.push({
+        type: 'html_inline',
+        content: `<span class="${colorClass}">${escapeHtmlText(part.value)}</span>`,
+      })
     } else if (part.value.includes('{{')) {
       parts.push({ type: 'html_inline', content: escapeVueBraces(part.value) })
     } else {

@@ -101,7 +101,17 @@
 
 EID 简写 `!!!` 与 `{{Warning}}` 一样会渲染成警告图标（与游戏内 EID 一致）。
 
-颜色标记 `{{ColorGold}}...{{CR}}` 在 Wiki 里目前会去掉染色、只留文字。不要把颜色当行首图标。
+颜色标记与游戏内 EID 一致，会渲染成染色文字（含彩虹 / 金色闪烁近似）：
+
+```md
+破坏{{ColorGold}}愚人金块{{CR}}时……
+{{ColorRainbow}}彩虹强调{{CR}} · {{ColorShinyPurple}}闪亮紫{{CR}} · {{BlinkYellowRed}}警示闪烁{{CR}}
+```
+
+- 配对写法：`{{ColorGold}}文字{{CR}}`（`{{CR}}` = `{{ColorReset}}`）。
+- 常用：`ColorGold` `ColorRainbow` `ColorYellow` `ColorRed` `ColorCyan` `ColorShinyPurple`，以及 `BlinkYellowGreen` / `BlinkYellowRed` 等。
+- 不要把颜色当行首图标；先写语义图标或普通文字，再只给关键词上色。
+- `{{NoLB}}` 等布局标记仍会去掉，不影响正文。
 
 全表：[图标清单](/icons)。缺图的标记会显示成灰色代码，换一个已收录的名字。
 

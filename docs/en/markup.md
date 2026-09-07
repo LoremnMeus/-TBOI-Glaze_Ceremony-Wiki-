@@ -50,7 +50,17 @@ A leading `↑` / `↓` is rendered as `{{ArrowUp}}` / `{{ArrowDown}}`, same as 
 
 The EID shorthand `!!!` is rendered as `{{Warning}}`, matching in-game External Item Descriptions.
 
-Color tags `{{ColorGold}}...{{CR}}` currently drop styling in the wiki.
+Color tags match in-game EID and render as tinted text (including rainbow / gold blink approximations):
+
+```md
+Bombing {{ColorGold}}fool's gold{{CR}} may…
+{{ColorRainbow}}rainbow emphasis{{CR}} · {{ColorShinyPurple}}shiny purple{{CR}} · {{BlinkYellowRed}}warning blink{{CR}}
+```
+
+- Pair as `{{ColorGold}}text{{CR}}` (`{{CR}}` = `{{ColorReset}}`).
+- Common: `ColorGold`, `ColorRainbow`, `ColorYellow`, `ColorRed`, `ColorCyan`, `ColorShinyPurple`, plus `BlinkYellowGreen` / `BlinkYellowRed`, etc.
+- Do not treat color marks as leading line icons; color only the keyword or value.
+- Layout marks like `{{NoLB}}` are still stripped.
 
 ## Math
 

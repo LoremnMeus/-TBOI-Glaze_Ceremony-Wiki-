@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import EidIcon from './EidIcon.vue'
 import SeijaMark from './SeijaMark.vue'
-import { splitMarks } from '../../eidMarks'
+import { eidColorClassName, splitMarks } from '../../eidMarks'
 
 const props = defineProps({
   text: { type: String, default: '' },
@@ -22,6 +22,10 @@ const lines = computed(() => {
 function isSeijaMark(name) {
   return /^SeijaB?$/i.test(String(name || ''))
 }
+
+function textClass(color) {
+  return eidColorClassName(color) || undefined
+}
 </script>
 
 <template>
@@ -34,7 +38,7 @@ function isSeijaMark(name) {
           :labeled="labeledIcons"
         />
         <EidIcon v-else-if="part.type === 'icon'" :name="part.value" />
-        <span v-else>{{ part.value }}</span>
+        <span v-else :class="textClass(part.color)">{{ part.value }}</span>
       </template>
     </p>
   </div>
