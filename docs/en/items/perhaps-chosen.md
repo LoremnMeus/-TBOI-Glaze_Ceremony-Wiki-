@@ -4,9 +4,9 @@ description: "Please, look again."
 slug: perhaps-chosen
 kind: collectible
 internalKey: Perhaps_Chosen
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>似有所选 Perhaps Chosen Perhaps_Chosen perhaps-chosen Perhaps Chosen 请再看看罢 Please, look again. 持有时没有效果 不拾取并离开后，会加入之后的道具选择 重置后仍会保留在该选择中 Has no effect while held Leave it behind to join a later item choice Rerolls won&#x27;t remove it from that choice</p>
+<p class="wiki-search-index" v-pre>似有所选 Perhaps Chosen Perhaps_Chosen perhaps-chosen Perhaps Chosen 请再看看罢 Please, look again. 持有时没有效果 没有选择它时，会加入之后的道具选择 重置不会将其从选择中移除 Has no effect while held If not chosen, it joins a later item choice Rerolls do not remove it from that choice</p>
 
 <PublicEntry slug="perhaps-chosen" lang="en" />
 
@@ -16,59 +16,54 @@ status: drafted
 
 ## Effects
 
-Perhaps Chosen itself has no effect while held.
+Perhaps Chosen represents an item choice that can be rejected repeatedly. Until its choice slot is actually taken, the choice remains unresolved and waits to appear at a later item opportunity.
 
-If you leave the room without taking it, it disappears from its original spot and joins a later item choice as an extra option.
-
-If you take a different item from the same choose-one group, Perhaps Chosen is not spent: it keeps waiting for a later choice. Only taking the pedestal it occupies ends that waiting instance.
-
-If you leave without choosing anything from the group, it still follows you into later item choices. It will not stay behind in the old room.
-
-### Multiple copies
-
-Multiple copies are tracked separately.
-
-For example, after leaving two behind, a later ordinary item choice may look like:
-
-**A + Perhaps Chosen + Perhaps Chosen**
-
-Taking A keeps both waiting. Taking one Perhaps Chosen pedestal ends only that copy; the other keeps waiting.
-
-## Rerolls
-
-The pedestal it occupies can be affected normally by effects like the D6.
+Taking another item from the same choice group or leaving the room without taking anything both count as rejecting it. It rejoins the next suitable item choice, including a new opportunity that appears later in the same room.
 
 For example:
 
 **A + Perhaps Chosen**
 
-may become:
+After taking A, a later choice containing B may become:
+
+**B + Perhaps Chosen**
+
+Taking B rejects it again. Only taking the choice slot occupied by Perhaps Chosen ends that unresolved choice.
+
+Perhaps Chosen itself has no additional effect once collected.
+
+## Rerolls and cycles
+
+Rerolls do not remove an unresolved Perhaps Chosen.
+
+For example:
+
+**A + Perhaps Chosen**
+
+Using {{Collectible:105}} may turn it into:
 
 **B + (C / Perhaps Chosen)**
 
-Even if the right pedestal currently shows C, it is still the choice slot brought by Perhaps Chosen.
+Perhaps Chosen is bound to the right-hand choice slot, not to the collectible currently displayed on that pedestal.
 
-Taking B keeps it waiting. Taking the right pedestal grants whatever it currently shows and ends that waiting instance.
+- Taking B rejects Perhaps Chosen, so it keeps waiting.
+- Taking the right-hand pedestal grants its currently displayed item and ends that unresolved choice.
 
-Effects that make a pedestal cycle through multiple items also affect the pedestal it occupies.
+Other effects that make one pedestal cycle between several items follow the same rule. Even while its slot displays something other than Perhaps Chosen, taking that slot ends the matching unresolved choice.
 
 ## Shop items
 
-Perhaps Chosen can appear as a shop item.
+When a shop copy of Perhaps Chosen is rejected, it retains its actual price. The price follows that unresolved choice rather than the ordinary pedestal that later carries it.
 
-If you leave a shop copy behind, it remembers the actual price shown when you left. When it rejoins later, it retains its price, even if rerolls change what the pedestal shows.
+For example, a Perhaps Chosen rejected at **7¢** still costs **7¢** when it rejoins another choice. Rerolling its slot into another item does not change that price.
 
-For example, a Perhaps Chosen left at **7¢** still costs **7¢** when it appears again.
-
-Ordinary priced items do not automatically gain an extra Perhaps Chosen option just because one is waiting. It only rejoins later free item choices.
+An ordinary item that already has a price cannot receive a waiting Perhaps Chosen. The unresolved choice waits for a later suitable free item opportunity instead.
 
 ## Synergies
 
 ### {{Seija}}
 
-With the Seija enhancement, whenever Perhaps Chosen rejoins an item choice, its own pedestal also cycles with a random item from the current room's item pool.
-
-Normally:
+With the Seija enhancement, whenever Perhaps Chosen rejoins an item choice, its pedestal also gains one random item from the current item pool as an additional cycling option.
 
 **A + Perhaps Chosen**
 
@@ -76,29 +71,17 @@ becomes:
 
 **A + (B / Perhaps Chosen)**
 
-Taking another pedestal keeps it waiting. Taking the cycling pedestal grants whatever it currently shows and ends that waiting instance.
+Taking A keeps Perhaps Chosen waiting. Taking the cycling pedestal grants its currently displayed item and ends that unresolved choice.
 
 ## Notes
 
-- Only leaving the room counts as abandoning a natural Perhaps Chosen.
-- Taking another pedestal in the same group does not spend it.
-- Leaving the whole group unchosen still keeps it waiting.
-- Multiple copies are tracked separately and do not merge into one.
-- Shop copies retain the price they had when left behind.
-- Even if the pedestal currently shows something else, taking it still ends the matching waiting instance.
-
-## Tips
-
-Without a reroll tool, Perhaps Chosen mostly delays a choice for later.
-
-Once you have something like the D6, that blank choice slot is much easier to turn into a real item.
-
-If the current result is still bad, you can take another pedestal and let it keep waiting.
-
-Seija gives each reappearance its own extra candidate, so it relies less on external rerolls.
+- Multiple unresolved Perhaps Chosen instances remain independent and may join the same item choice at once.
+- A waiting Perhaps Chosen may join a choice that already contains Perhaps Chosen; separate instances do not merge.
+- There is no once-per-room limit. A rejected instance can reappear as soon as another suitable item opportunity occurs in the same room.
+- Naturally appearing and returning Perhaps Chosen instances follow the same choice rules.
 
 ## Trivia
 
 The flavor description "Please, look again." quotes related dialogue from *The Fifth Republic*.
 
-Aside from that flavor line, the item name, mechanics, and other text are not based on that work and have no further mechanical correspondence.
+Aside from that flavor line, the item's name and mechanics are not based on that work.
