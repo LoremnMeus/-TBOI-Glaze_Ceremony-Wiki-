@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Nihilistic_Artificial_Eye
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>虚无假眼 Nihilistic Artificial Eye Nihilistic_Artificial_Eye nihilistic-artificial-eye Nihilistic Artificial Eye 目不能视 I can&#x27;t see... 此道具伴生3件随机道具，组成四选一 攻击 +0.33攻击 拾取后，在之后的道具池抽取中加入2次 虚无假眼替换机会 Spawns with 3 random pedestals as a 4-choice set Damage +0.33 Damage On pickup, adds 2 future Nihilistic Artificial Eye replacement chances to item-pool rolls</p>
+<p class="wiki-search-index" v-pre>虚无假眼 Nihilistic Artificial Eye Nihilistic_Artificial_Eye nihilistic-artificial-eye Nihilistic Artificial Eye 目不能视 I can&#x27;t see... 出现时额外生成3件随机道具，组成四选一 攻击 +0.33攻击 拾取后获得2次机会，使之后生成的道具有10%概率替换为虚无假眼 Spawns with 3 extra random collectibles as a 4-choice set Damage +0.33 Damage On pickup, gain 2 chances for later collectibles to become this item (10% each)</p>
 
 <PublicEntry slug="nihilistic-artificial-eye" lang="zh" />
 
@@ -17,17 +17,22 @@ status: reviewed
 
 ## 效果
 
-**虚无假眼出现时，会与另外 3 件随机道具组成四选一。**
+**「虚无假眼」会把自身的一部分价值提前兑现为一次四选一；如果最终仍选择它，则以较小的即时收益换取之后再次出现的机会。**
 
-{{Damage}} **+0.33** 攻击。
+它出现时，会额外生成 **3 件随机道具**，与自己组成四选一。
 
-### 再次出现
+因此，即使最后没有选择「虚无假眼」，也已经获得了“多看 3 件道具”的收益。
 
-拾取虚无假眼后，会获得 **2 次**令未来道具池结果变成虚无假眼的机会。
+如果最终选择「虚无假眼」，则获得：
 
-在次数用尽前，每次从道具池生成道具时都有 **10% 概率**变成虚无假眼；只有实际成功替换时才消耗 1 次。
+- {{Damage}} **+0.33** 攻击
+- **2 次**让之后生成的道具替换为「虚无假眼」的机会
 
-因此这两次机会不会在接下来的两次抽取后自动消失。
+## 再次出现
+
+只要仍有剩余次数，每次之后生成道具时都有 **10% 概率**将该道具替换为「虚无假眼」。
+
+只有实际替换成功时才消耗 1 次，因此这 2 次机会不会在接下来的两次道具生成后自动消失。
 
 ## 特殊联动
 

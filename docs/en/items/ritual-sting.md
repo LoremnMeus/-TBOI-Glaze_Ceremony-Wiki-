@@ -40,11 +40,15 @@ All six colors begin at **0%** and cap at **200%**. Unlit colors do not drain. E
 | Blue | +1.5 Tears; attacks leave short-lived creep on hit |
 | Purple | 25% chance to block damage; raises the chance for normal enemies to become champions |
 
+Extra champions created by Purple can also grant color progress, so they can help sustain other colors that are already lit.
+
 All six abilities can be active together. Progress above 100% only extends how long the ability remains lit.
 
 ## Colors and sacrifices
 
-The sacrificed item's quality sets its base gain: qualities 0/1/2/3/4 grant **35% / 50% / 70% / 100% / 140%** respectively.
+**Sacrifice quality decides how much “paint” is available; color match decides how much of it can go into the chosen color.**
+
+Qualities 0/1/2/3/4 grant **35% / 50% / 70% / 100% / 140%** respectively.
 
 An item's primary color has full efficiency for its matching bar and 50% efficiency for adjacent colors. Secondary associations usually grant 25%; unrelated colors grant nothing. White, grey, black, and other special labels use internal mappings.
 
@@ -52,13 +56,22 @@ Final progress is “quality base gain × color efficiency,” then ×1.5 if Yel
 
 ## Champions
 
-Killing a champion grants a small amount based on its visible color. A normal single-color champion usually grants 10%; compound colors split about 12%; rainbow champions grant +3% to all six colors, and white champions grant +2% to all six.
+Killing champions grants a small amount of progress matching their appearance; rainbow and white champions spread that gain across multiple colors.
+
+<details>
+<summary>Champion gain amounts</summary>
+
+- Normal single-color champions usually grant **10%**
+- Compound colors split about **12%**
+- Rainbow: **+3%** to all six colors
+- White: **+2%** to all six colors
+
+</details>
 
 ## Notes
 
 - Ritual Sting itself, quest items, hidden items, and collectibles not truly owned cannot be sacrificed.
 - Each extra Ritual Sting reduces lit-color drain by 2% per room, to a minimum of 4%.
-- Champion gains are upkeep; sacrificing collectibles remains the primary way to charge colors.
 
 ## Trivia
 

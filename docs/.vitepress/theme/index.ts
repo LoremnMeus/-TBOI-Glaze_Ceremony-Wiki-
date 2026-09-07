@@ -1,5 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
-import { h } from 'vue'
+import { h, onMounted, watch } from 'vue'
+import { useRoute } from 'vitepress'
 import PublicEntry from './components/PublicEntry.vue'
 import EntryGrid from './components/EntryGrid.vue'
 import HomeCatalog from './components/HomeCatalog.vue'
@@ -19,6 +20,7 @@ import AnnaSpecialInteractions from './components/AnnaSpecialInteractions.vue'
 import TecroSpecialInteractions from './components/TecroSpecialInteractions.vue'
 import TecrorunRouteScaling from './components/TecrorunRouteScaling.vue'
 import WikiScreenshot from './components/WikiScreenshot.vue'
+import { scheduleScrollSidebarToActive } from './sidebarReveal'
 import './custom.css'
 
 export default {
@@ -27,6 +29,14 @@ export default {
     h(DefaultTheme.Layout, null, {
       'layout-bottom': () => (import.meta.env.DEV ? h(WikiDevDock) : null),
     }),
+  setup() {
+    const route = useRoute()
+    onMounted(() => scheduleScrollSidebarToActive({ behavior: 'auto' }))
+    watch(
+      () => route.path,
+      () => scheduleScrollSidebarToActive({ behavior: 'smooth' }),
+    )
+  },
   enhanceApp({ app }) {
     app.component('PublicEntry', PublicEntry)
     app.component('EntryGrid', EntryGrid)

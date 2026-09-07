@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Acrotomophilia
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>慕残症 Acrotomophilia Acrotomophilia acrotomophilia Acrotomophilia 腐烂而破碎 Rotten and Broken 红心血量减少时，将部分空缺转化为腐心 失去心之容器时，获得对应数量的碎心 腐心与碎心会彼此抵消，且不会因此直接致死 When red heart health drops, converts part of the gap into Rotten Hearts Losing Heart Containers grants matching Broken Hearts Rotten and Broken Hearts cancel each other and cannot kill you by that cancel alone</p>
+<p class="wiki-search-index" v-pre>慕残症 Acrotomophilia Acrotomophilia acrotomophilia Acrotomophilia 腐烂而破碎 Rotten and Broken 失去红心血量时留下腐心 失去心之容器时留下碎心 腐心与碎心会彼此抵消，且不会因此直接致死 Lost red health leaves Rotten Hearts Lost Heart Containers leave Broken Hearts Rotten and Broken Hearts cancel each other and cannot kill by that cancel alone</p>
 
 <PublicEntry slug="acrotomophilia" lang="en" />
 
@@ -17,24 +17,18 @@ status: reviewed
 
 ## Effects
 
-**Acrotomophilia turns lost intact health into broken forms: red-heart loss grows Rotten Hearts, container loss leaves Broken Hearts; the two cancel each other.**
+**Acrotomophilia draws two kinds of broken hearts together: lost red health leaves Rotten Hearts, lost heart containers leave Broken Hearts; when both are present, they cancel each other.**
 
-### Red → Rotten
-
-When red **health** actually drops, part of the gap becomes {{RottenHeart}} Rotten Hearts.
-Bigger red losses often add a filled rotten heart—not a fixed heart per hit.
-
-### Containers → Broken
+When red heart health actually drops, part of that loss becomes {{RottenHeart}} Rotten Hearts.
 
 Losing heart containers grants matching {{BrokenHeart}} Broken Hearts.
-Losing two containers typically leaves broken hearts as the scar.
 
-### How rotten and broken hearts cancel
+If Rotten Hearts and Broken Hearts are held at the same time, they cancel one-for-one and rebalance red heart health.
 
-If you hold both broken and rotten hearts, they cancel pair by pair and adjust red health.
-**That auto-settle alone will not kill you**; if it would, a minimum of life remains.
+That auto-settle alone cannot kill the character; if the cancel would have been lethal, a minimum of life remains.
 
 ## Trivia
 
-- Acrotomophilia is a rainbow item; its art is based on the rose from Eden's Blessing.
-- The bright rainbow flower was chosen to contrast with the condition the name points to.
+Acrotomophilia is a rainbow item; its art is based on the rose from Eden's Blessing.
+
+The bright rainbow flower was chosen to contrast with the condition the name points to.

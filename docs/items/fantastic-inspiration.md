@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Inspiration
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>灵感 Inspiration Inspiration fantastic-inspiration Fantastic Inspiration 由幻象救赎 Redemption by Illusion 清理房间后有概率生成奖励幻像 幻像可能是资源或道具 仅当角色剩余最后1格生命时，触碰幻像才会使其变为现实 Clearing a room may spawn a reward illusion Illusions can be pickups or items Only with 1 absolute heart left does touching turn them real</p>
+<p class="wiki-search-index" v-pre>灵感 Inspiration Inspiration fantastic-inspiration Fantastic Inspiration 由幻象救赎 Redemption by Illusion 清理房间后有概率额外生成奖励幻像 幻像不会取代原本的清房奖励 生命极低时触碰幻像才会变为现实 Clearing a room may spawn an extra reward illusion The illusion does not replace the normal clear reward Only at extremely low health does touching it make it real</p>
 
 <PublicEntry slug="fantastic-inspiration" lang="zh" />
 
@@ -17,28 +17,17 @@ status: reviewed
 
 ## 效果
 
-**灵感会在清房后留下无法立即拾取的奖励幻像；绝对生命降到最后 1 格时，幻像才会变成真实奖励。**
+**「灵感」会在清房后额外留下奖励幻像；这些幻像平时无法拾取，只有生命极低时才会变成现实。**
 
-清理房间后约 **60%** 概率生成一个奖励幻像。生命越低，幻像越亮、越“实”；只有绝对生命 ≤ **1** 时触碰才会实体化，更高生命会被推开。
+清理房间后有约 **60%** 概率额外生成一个奖励幻像。它不会取代房间原本的清理奖励。
 
-幻像可能是魂心、双红心、镍币、充能钥匙、双炸弹、随机道具，也可能是福袋、一角币，以及金心、永恒心、金钥匙、金炸弹等更稀有的奖励。
+角色生命越低，幻像看起来越明亮、越接近实体；生命较高时，接近幻像会被推开，无法直接拾取。
 
-<details>
-<summary>相对权重</summary>
+当红心、魂心、黑心、骨心与永恒心等合计只剩极少时（大约半颗红心或魂心的量级），触碰幻像即可将其实体化。
 
-| 奖励 | 权重 |
-| --- | ---: |
-| 魂心 | 10 |
-| 镍币 | 8 |
-| 道具 | 7 |
-| 双红心 | 5 |
-| 充能钥匙 / 双炸弹 | 各 4 |
-| 一角币 / 福袋 | 各 3 |
-| 金心 / 永恒心 / 金钥匙 / 金炸弹 | 各 1 |
-
-</details>
+幻像可能变成生命、硬币、钥匙、炸弹、福袋或随机道具，也可能出现较稀有的金心、永恒心、金钥匙或金炸弹等奖励。
 
 ## 轶事
 
 - 指向《凡尔纳：幻想之形》。
-- 原作主角在绝境中重新找回灵感；本道具把灵感与幻像挂钩——只有绝对生命 ≤ 1 时，幻像才会成为现实。
+- 原作中“灵感”与绝境中的重新振作相关；本道具因此将额外奖励设计为只有在生命极低时才能兑现的幻像。

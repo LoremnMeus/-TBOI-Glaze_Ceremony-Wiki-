@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-07T05:19:13Z",
+  "generatedAt": "2026-09-07T06:05:34Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -16330,8 +16330,8 @@
         "en": "I can't see..."
       },
       "eid": {
-        "zh": "此道具伴生3件随机道具，组成四选一#{{Damage}} +0.33攻击#拾取后，在之后的道具池抽取中加入2次{{Item:nihilistic-artificial-eye}}虚无假眼替换机会",
-        "en": "Spawns with 3 random pedestals as a 4-choice set#{{Damage}} +0.33 Damage#On pickup, adds 2 future {{Item:nihilistic-artificial-eye}} Nihilistic Artificial Eye replacement chances to item-pool rolls"
+        "zh": "出现时额外生成3件随机道具，组成四选一#{{Damage}} +0.33攻击#拾取后获得2次机会，使之后生成的道具有10%概率替换为虚无假眼",
+        "en": "Spawns with 3 extra random collectibles as a 4-choice set#{{Damage}} +0.33 Damage#On pickup, gain 2 chances for later collectibles to become this item (10% each)"
       },
       "seijaBuff": {
         "zh": "",
@@ -16474,8 +16474,8 @@
         "en": "Mocking Nothingness"
       },
       "eid": {
-        "zh": "{{Chargeable}} 蓄力发射一个向前移动并伤害敌人的幻影#受到敌人伤害时，抵消伤害并冲向当前幻影#冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害",
-        "en": "{{Chargeable}} Charge to fire a moving phantom that damages enemies on contact#When taking enemy damage, negate the hit and dash to the current phantom#Invincible during the dash; on arrival deal 5× damage to nearby enemies"
+        "zh": "{{Chargeable}} 蓄力后发射向前移动的幻影#{{Warning}} 受到敌人伤害时，消耗幻影抵消伤害并冲向其位置#冲刺期间无敌；抵达后对周围敌人造成{{Damage}} 5倍攻击伤害",
+        "en": "{{Chargeable}} Charge to fire a forward-moving phantom#{{Warning}} When taking enemy damage, consume the phantom to negate the hit and dash to it#Invincible during the dash; on arrival deal {{Damage}} 5× damage to nearby enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -16614,8 +16614,8 @@
         "en": "Flying + Harvesting Blood"
       },
       "eid": {
-        "zh": "↑ 飞行#{{Chargeable}} 保持贴近墙壁约2秒完成蓄力#蓄满后离墙会无敌冲刺约2秒，并持续向后喷射30%攻击倍率的硫磺火",
-        "en": "↑ Flight#{{Chargeable}} Stay close to a wall for about 2 seconds to finish charging#Leaving the wall after a full charge starts an invincible dash for about 2 seconds and continuously sprays 30% damage Brimstone behind you"
+        "zh": "↑ 获得飞行#{{Chargeable}} 贴墙约2秒完成蓄力#蓄满后离墙会无敌冲刺约2秒，并向身后持续喷射30%攻击伤害的硫磺火",
+        "en": "↑ Grants flight#{{Chargeable}} Charge by hugging a wall for about 2 seconds#Leave the wall at full charge for an invincible ~2s dash that sprays 30% damage Brimstone behind you"
       },
       "seijaBuff": {
         "zh": "",
@@ -16753,8 +16753,8 @@
         "en": "Break the old days"
       },
       "eid": {
-        "zh": "生成6个自动瞄准敌人的激光发射器#{{Chargeable}} 持续攻击约2秒完成蓄力#蓄满后松开攻击，同时射出造成30%攻击伤害的激光",
-        "en": "Creates 6 auto-aiming laser emitters#{{Chargeable}} Hold fire for about 2 seconds to finish charging#Release when full to fire lasers dealing 30% of your damage at once"
+        "zh": "生成6个自动锁定敌人的激光发射器#{{Chargeable}} 持续攻击约2秒完成蓄力#蓄满后松开攻击，所有发射器同时射出30%攻击伤害的激光",
+        "en": "Creates 6 auto-locking laser emitters#{{Chargeable}} Hold fire for about 2 seconds to finish charging#Release when full so every emitter fires 30% damage lasers at once"
       },
       "seijaBuff": {
         "zh": "",
@@ -16867,8 +16867,8 @@
         "en": "Stitching to death"
       },
       "eid": {
-        "zh": "{{Battery}} 至少1格充能即可使用，并消耗全部充能#消耗几格充能，就将骰子编号向上推进几格#到达新编号后，同时触发对应的骰子效果#{{Collectible476}} D1始终触发",
-        "en": "{{Battery}} Usable with at least 1 charge; spends all charges#Advances the die number by the charges spent#On the new number, triggers every matching die at once#{{Collectible476}} D1 always fires"
+        "zh": "{{Battery}} 至少1格充能即可使用，并消耗当前全部充能#消耗几格充能，就将当前D编号向前推进几格#到达新编号后，触发所有与该编号匹配的骰子效果#{{Collectible476}} D1始终触发",
+        "en": "{{Battery}} Usable with at least 1 charge; spends all current charges#Spending N charges advances the current D number by N#On the new number, triggers every matching die effect#{{Collectible476}} D1 always fires"
       },
       "seijaBuff": {
         "zh": "",
@@ -17001,8 +17001,8 @@
         "en": "Kashtira Arrival"
       },
       "eid": {
-        "zh": "持续攻击时，周期性呼叫来自上空的随机火力支援#支援包括导弹、硫磺火炮与旋转激光装置#这些攻击不会伤害角色",
-        "en": "While firing, periodically calls random aerial support from above#Support includes missiles, brimstone cannons, and spinning laser devices#These attacks cannot harm the player"
+        "zh": "持续开火时，维持空袭节奏并周期性呼叫随机火力支援#支援包括导弹、硫磺火炮与旋转激光装置#这些空袭不会伤害角色",
+        "en": "While firing, keeps an airstrike rhythm and periodically calls random aerial support#Support includes missiles, brimstone cannons, and spinning laser devices#These strikes cannot harm the player"
       },
       "seijaBuff": {
         "zh": "",
@@ -17249,8 +17249,8 @@
         "en": "Rotten and Broken"
       },
       "eid": {
-        "zh": "{{RottenHeart}} 红心血量减少时，将部分空缺转化为腐心#{{BrokenHeart}} 失去心之容器时，获得对应数量的碎心#腐心与碎心会彼此抵消，且不会因此直接致死",
-        "en": "{{RottenHeart}} When red heart health drops, converts part of the gap into Rotten Hearts#{{BrokenHeart}} Losing Heart Containers grants matching Broken Hearts#Rotten and Broken Hearts cancel each other and cannot kill you by that cancel alone"
+        "zh": "{{RottenHeart}} 失去红心血量时留下腐心#{{BrokenHeart}} 失去心之容器时留下碎心#腐心与碎心会彼此抵消，且不会因此直接致死",
+        "en": "{{RottenHeart}} Lost red health leaves Rotten Hearts#{{BrokenHeart}} Lost Heart Containers leave Broken Hearts#Rotten and Broken Hearts cancel each other and cannot kill by that cancel alone"
       },
       "seijaBuff": {
         "zh": "",
@@ -17388,8 +17388,8 @@
         "en": "Journey convergence"
       },
       "eid": {
-        "zh": "角色死亡时，随机召来一名其他角色将其复活#被召来的角色会留下并与你一同行动#此后必须两名角色都死亡，游戏才真正结束",
-        "en": "On death, summons a random other character to revive you#The summoned character stays and travels with you#The run only truly ends when both characters are dead"
+        "zh": "第一次死亡时召来另一名角色救援#被召来的角色留下并共同继续本局#只要还有一人存活，游戏就不会结束",
+        "en": "On the first death, summons another character to rescue#The summoned character stays and continues the run together#The run does not end while either character is still alive"
       },
       "seijaBuff": {
         "zh": "",
@@ -17665,8 +17665,8 @@
         "en": "Redemption by Illusion"
       },
       "eid": {
-        "zh": "清理房间后有概率生成奖励幻像#幻像可能是资源或道具#仅当角色剩余最后1格生命时，触碰幻像才会使其变为现实",
-        "en": "Clearing a room may spawn a reward illusion#Illusions can be pickups or items#Only with 1 absolute heart left does touching turn them real"
+        "zh": "清理房间后有概率额外生成奖励幻像#幻像不会取代原本的清房奖励#生命极低时触碰幻像才会变为现实",
+        "en": "Clearing a room may spawn an extra reward illusion#The illusion does not replace the normal clear reward#Only at extremely low health does touching it make it real"
       },
       "seijaBuff": {
         "zh": "",

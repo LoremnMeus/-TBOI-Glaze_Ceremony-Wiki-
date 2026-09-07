@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Shangrila
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>香格里拉 Shangrila Shangrila shangrila Shangrila 天魔袭来 Kashtira Arrival 持续攻击时，周期性呼叫来自上空的随机火力支援 支援包括导弹、硫磺火炮与旋转激光装置 这些攻击不会伤害角色 While firing, periodically calls random aerial support from above Support includes missiles, brimstone cannons, and spinning laser devices These attacks cannot harm the player</p>
+<p class="wiki-search-index" v-pre>香格里拉 Shangrila Shangrila shangrila Shangrila 天魔袭来 Kashtira Arrival 持续开火时，维持空袭节奏并周期性呼叫随机火力支援 支援包括导弹、硫磺火炮与旋转激光装置 这些空袭不会伤害角色 While firing, keeps an airstrike rhythm and periodically calls random aerial support Support includes missiles, brimstone cannons, and spinning laser devices These strikes cannot harm the player</p>
 
 <PublicEntry slug="shangrila" lang="en" />
 
@@ -17,13 +17,15 @@ status: reviewed
 
 ## Effects
 
-**While you keep firing, Shangrila periodically calls random aerial support that cannot hurt you.**
+**Shangrila keeps an airstrike rhythm while fire is held, periodically calling random aerial support.**
 
-Needs **held fire** for a bit—not one airstrike per tear. Stopping fire breaks the cadence until you shoot again.
+Those strikes cannot hurt the character.
+
+Needs **held fire** for a bit—not one airstrike per tear. Stopping fire breaks the cadence until shooting resumes.
 
 ### Support types
 
-| Kind | What you see |
+| Kind | What appears |
 | --- | --- |
 | Missiles | Drop from above and explode on the target area |
 | Brimstone cannons | Deploy overhead and fire brimstone downward |
@@ -43,10 +45,3 @@ Trapdoors to the next floor can spawn on strike paths and interrupt fights.
 
 - Shangrila points to Yu-Gi-Oh! Kashtira (怒刹帝利 / 六世坏), including Kashtira Shangri-La.
 - Shangri-La appears as a huge floating celestial body, so this item was placed in the Planetarium pool.
-
-<details>
-<summary>Technical details</summary>
-
-Call cadence checks about once per second; each aim / wind-up window is roughly two seconds.
-
-</details>

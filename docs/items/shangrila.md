@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Shangrila
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>香格里拉 Shangrila Shangrila shangrila Shangrila 天魔袭来 Kashtira Arrival 持续攻击时，周期性呼叫来自上空的随机火力支援 支援包括导弹、硫磺火炮与旋转激光装置 这些攻击不会伤害角色 While firing, periodically calls random aerial support from above Support includes missiles, brimstone cannons, and spinning laser devices These attacks cannot harm the player</p>
+<p class="wiki-search-index" v-pre>香格里拉 Shangrila Shangrila shangrila Shangrila 天魔袭来 Kashtira Arrival 持续开火时，维持空袭节奏并周期性呼叫随机火力支援 支援包括导弹、硫磺火炮与旋转激光装置 这些空袭不会伤害角色 While firing, keeps an airstrike rhythm and periodically calls random aerial support Support includes missiles, brimstone cannons, and spinning laser devices These strikes cannot harm the player</p>
 
 <PublicEntry slug="shangrila" lang="zh" />
 
@@ -17,7 +17,9 @@ status: reviewed
 
 ## 效果
 
-**持续开火时，香格里拉会周期性从天上呼叫随机支援。这些空袭不会伤到角色。**
+**「香格里拉」会在持续开火时维持空袭节奏，周期性呼叫随机火力支援。**
+
+这些空袭不会伤害角色。
 
 需要**按住射击**一段时间才会呼叫，不是每发泪固定追加。停火后节奏会断掉，再开火才继续。
 
@@ -43,10 +45,3 @@ status: reviewed
 
 - 「香格里拉」指向《游戏王》的「怒刹帝利 / 六世坏」系列，以及其中的「怒刹帝利香格里拉茧」。
 - 香格里拉茧本身以悬浮于空中的巨大星体形象出现，因此本道具被安排进入了星象房道具池。
-
-<details>
-<summary>技术细节</summary>
-
-呼叫节奏约每秒检查一次；单次瞄准/蓄势窗口约两秒量级。
-
-</details>

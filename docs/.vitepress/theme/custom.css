@@ -429,3 +429,8 @@ body.wiki-dev-source .VPDoc {
   height: 0;
   visibility: hidden;
 }
+
+/* Active sidebar entry: slightly stronger cue once auto-scrolled into view */
+.VPSidebar .VPSidebarItem.is-link.is-active > .item .text {
+  font-weight: 600;
+}

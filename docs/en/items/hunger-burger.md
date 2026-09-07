@@ -17,25 +17,30 @@ status: reviewed
 
 ## Effects
 
-**Hunger Burger adds hearts, damage, and speed, and turns kills into chase: slain enemies feed little hungers that bite the next targets.**
+**Hunger Burger grants strong base stats and turns kills into chase: slain enemies may spawn little hungers that attack the next targets.**
 
 - {{Heart}} **+2** Heart Containers
-- {{Damage}} **+1** Damage (stacks)
-- {{Speed}} **+0.3** Speed (stacks)
-- Killing enemies may spawn little hungers that chase, bite, and can apply fear
+- {{Damage}} **+1** Damage
+- {{Speed}} **+0.3** Speed
+- Killing enemies may spawn little hungers that chase other enemies and can apply fear
 
 ### Little hungers
 
-- Collision damage is about **15%** of your damage (higher with {{Collectible:247}} BFFS!)
+- Collision damage is about **15%** of the character's damage
 - About a **10%** chance on hit to fear the enemy for a while
-- Spawn chance drops as more little hungers are already out; they stay as familiars rather than vanishing instantly
+- Spawn chance drops as more little hungers are already out
+- Little hungers stay on the field rather than vanishing immediately
 
 ## Synergies
 
-### Seija
+### {{Collectible:247}}
+
+Little-hunger collision damage rises from **15%** to **30%** of the character's damage.
+
+### {{Seija}}
 
 With no enemies found, little hungers slowly hurt themselves and may bite nearby players.
 
 ## Trivia
 
-- Named after Yu-Gi-Oh! Hungry Burger; Hungry Burger later appears as a terminal dish in later Hungry Burger material, hence the Desc about a showstopping course.
+Named after Yu-Gi-Oh! Hungry Burger; later material presents it as the finale of the feast, hence the Desc about a showstopping course.

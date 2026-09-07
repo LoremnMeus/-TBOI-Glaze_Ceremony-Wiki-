@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Loneliness
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>孤独 Loneliness Loneliness loneliness Loneliness 两位旅人在此交汇 Journey convergence 角色死亡时，随机召来一名其他角色将其复活 被召来的角色会留下并与你一同行动 此后必须两名角色都死亡，游戏才真正结束 On death, summons a random other character to revive you The summoned character stays and travels with you The run only truly ends when both characters are dead</p>
+<p class="wiki-search-index" v-pre>孤独 Loneliness Loneliness loneliness Loneliness 两位旅人在此交汇 Journey convergence 第一次死亡时召来另一名角色救援 被召来的角色留下并共同继续本局 只要还有一人存活，游戏就不会结束 On the first death, summons another character to rescue The summoned character stays and continues the run together The run does not end while either character is still alive</p>
 
 <PublicEntry slug="loneliness" lang="en" />
 
@@ -17,29 +17,31 @@ status: reviewed
 
 ## Effects
 
-**Loneliness triggers once on death: a random character arrives, revives Isaac, and stays as a partner; Loneliness then vanishes. As long as one survivor remains, the run does not end immediately.**
+**Loneliness summons another character on the first death; from then on both characters continue the run together, and the run does not end while either is still alive.**
 
-### First death
+On the first would-be death:
 
-A short ritual plays: Loneliness leaves the inventory, you refill and continue, and another selectable character joins.
+- Loneliness is consumed
+- The original character recovers and keeps playing
+- A random selectable character joins the run
 
-### What the partner is
+The summoned character is not a familiar, but a real second character:
 
-The guest has their own health, attacks, and HUD and truly keeps playing with you—not a familiar.
+- Has their own health and attacks
+- Shows separate health info
+- Clears rooms together with the original character
 
-### How the second character is controlled
+Both characters use the same controller and respond to the same move and fire inputs at once.
 
-The rescue character is bound to **the same controller** as you. Both characters respond to the same move and fire inputs at once—not two independent co-op control schemes. A second health bar and HUD appear on screen.
+Later, if one dies with no other revive, only that character leaves combat; the other can continue the run.
 
-### Later deaths
+The run truly ends only when both characters are dead.
 
-If one falls again with no other revive, that character drops out and **the survivor continues the run**. Only when both are down does the run truly end.
+## Notes
 
-### Who can appear
-
-Some special forms and mod-only characters are skipped. Rolls use ordinary characters from the selectable pool.
+- Some special forms and mod-only characters are not chosen as rescuers.
+- Rescuers come from the ordinary character pool that can enter this mechanic.
 
 ## Trivia
 
-- Inspired by FAR: Lone Sails and Changing Tides; the endings meet here.
-- Kept emotionally restrained: confluence, not a melodrama essay.
+Inspired by *FAR: Lone Sails* and *FAR: Changing Tides*; the two journeys meet here.

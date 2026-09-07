@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Subera_Light
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>次时代炬火 Subera Light Subera_Light subera-light Subera Light 旧日破碎 Break the old days 生成6个自动瞄准敌人的激光发射器 持续攻击约2秒完成蓄力 蓄满后松开攻击，同时射出造成30%攻击伤害的激光 Creates 6 auto-aiming laser emitters Hold fire for about 2 seconds to finish charging Release when full to fire lasers dealing 30% of your damage at once</p>
+<p class="wiki-search-index" v-pre>次时代炬火 Subera Light Subera_Light subera-light Subera Light 旧日破碎 Break the old days 生成6个自动锁定敌人的激光发射器 持续攻击约2秒完成蓄力 蓄满后松开攻击，所有发射器同时射出30%攻击伤害的激光 Creates 6 auto-locking laser emitters Hold fire for about 2 seconds to finish charging Release when full so every emitter fires 30% damage lasers at once</p>
 
 <PublicEntry slug="subera-light" lang="en" />
 
@@ -17,9 +17,11 @@ status: reviewed
 
 ## Effects
 
-**Subera Light surrounds Isaac with auto-aiming laser emitters.**
+**Subera Light deploys auto-locking laser emitters; hold fire to charge, then release so they all fire together.**
 
-The first copy has **6** emitters. Hold fire for about **2 seconds** to finish charging; release when full, and every emitter fires lasers dealing **30%** of your damage toward nearby enemies at once.
+The first copy has **6** emitters.
+
+Hold fire for about **2 seconds** to finish charging; release when full, and every emitter fires lasers dealing **30%** of the character's damage toward nearby enemies at once.
 
 ## Extra copies
 

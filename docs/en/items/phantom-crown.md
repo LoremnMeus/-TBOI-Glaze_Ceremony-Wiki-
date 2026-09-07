@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Phantom_Crown
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>幻像冠冕 Phantom Crown Phantom_Crown phantom-crown Phantom Crown 嘲弄虚无 Mocking Nothingness 蓄力发射一个向前移动并伤害敌人的幻影 受到敌人伤害时，抵消伤害并冲向当前幻影 冲刺期间无敌；抵达后对周围敌人造成5倍攻击伤害 Charge to fire a moving phantom that damages enemies on contact When taking enemy damage, negate the hit and dash to the current phantom Invincible during the dash; on arrival deal 5× damage to nearby enemies</p>
+<p class="wiki-search-index" v-pre>幻像冠冕 Phantom Crown Phantom_Crown phantom-crown Phantom Crown 嘲弄虚无 Mocking Nothingness 蓄力后发射向前移动的幻影 受到敌人伤害时，消耗幻影抵消伤害并冲向其位置 冲刺期间无敌；抵达后对周围敌人造成攻击 5倍攻击伤害 Charge to fire a forward-moving phantom When taking enemy damage, consume the phantom to negate the hit and dash to it Invincible during the dash; on arrival deal Damage 5× damage to nearby enemies</p>
 
 <PublicEntry slug="phantom-crown" lang="en" />
 
@@ -17,19 +17,24 @@ status: reviewed
 
 ## Effects
 
-**Charge to release a moving phantom; before taking damage from an enemy, negate the hit and dash toward the phantom's position.**
+**The charged phantom is a prepared auto-dodge target: when enemy damage would land, the hit is negated and the character dashes to the phantom.**
 
-- Hold attack to charge, then release to fire the phantom forward.
-- The phantom moves forward, deals contact damage, and fades after hitting impassable terrain or leaving the room bounds.
-- Only one phantom can exist; firing a new one removes the old one.
-- Before taking damage from an enemy, if a phantom still exists, negate the hit and dash toward its position.
-- You cannot take damage during the dash; on arrival, deal **5×** your damage to nearby enemies and consume the phantom.
+Hold attack to charge, then release to fire a phantom forward.
+
+The phantom damages enemies on contact while moving. Only one can exist; a new phantom replaces the old one.
+
+When enemy damage is about to land and a phantom is still available:
+
+1. Negate the hit
+2. Dash to the phantom's position while invincible
+3. On arrival, consume the phantom and deal **5×** the character's damage to nearby enemies
+
+The phantom fades after hitting impassable terrain or leaving the room bounds.
 
 ## Notes
 
-Without a living phantom, enemy damage resolves normally.
-
-Non-enemy damage does not trigger Phantom Crown.
+- Without a living phantom, damage resolves normally.
+- Non-enemy damage does not trigger Phantom Crown.
 
 ## Synergies
 
