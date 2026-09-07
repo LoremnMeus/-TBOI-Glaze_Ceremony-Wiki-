@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-07T04:29:48Z",
+  "generatedAt": "2026-09-07T04:47:55Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -16167,8 +16167,8 @@
         "en": "Color with blood"
       },
       "eid": {
-        "zh": "献祭持有道具，为所选颜色充能#击杀精英敌人也会少量补充对应颜色#{{Room}} 清理房间后六颜色各流失3%#满足颜色阈值时获得对应效果",
-        "en": "Sacrifice a held collectible to charge the selected color#Defeating champions also charges their matching colors#{{Room}} Clearing a room drains all six colors by 3%#Gain the matching effects when color thresholds are met"
+        "zh": "献祭持有道具，为所选颜色充能#达到100%时点亮该颜色能力#击杀精英也会少量补充对应颜色#点亮的颜色会随清理房间逐渐消耗",
+        "en": "Sacrifice a held collectible to charge the selected color#Its ability activates at 100%#Defeating champions slightly charges matching colors#Lit colors gradually drain after clearing rooms"
       },
       "seijaBuff": {
         "zh": "",
@@ -20774,8 +20774,8 @@
         "en": "Please, look again."
       },
       "eid": {
-        "zh": "持有时没有效果#没有选择它时，会加入之后的道具选择#重置不会将其从选择中移除",
-        "en": "Has no effect while held#If not chosen, it joins a later item choice#Rerolls do not remove it from that choice"
+        "zh": "持有时没有效果#没有选择它时，会作为额外选项加入之后的道具选择#重置不会将其从选择中移除",
+        "en": "Has no effect while held#If not chosen, it returns as an extra option in a later item choice#Rerolls do not remove it from that choice"
       },
       "seijaBuff": {
         "zh": "再次加入道具选择时，会在自己的底座上额外与一个当前道具池的随机道具轮换出现",

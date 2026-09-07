@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Perhaps_Chosen
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>似有所选 Perhaps Chosen Perhaps_Chosen perhaps-chosen Perhaps Chosen 请再看看罢 Please, look again. 持有时没有效果 没有选择它时，会加入之后的道具选择 重置不会将其从选择中移除 Has no effect while held If not chosen, it joins a later item choice Rerolls do not remove it from that choice</p>
+<p class="wiki-search-index" v-pre>似有所选 Perhaps Chosen Perhaps_Chosen perhaps-chosen Perhaps Chosen 请再看看罢 Please, look again. 持有时没有效果 没有选择它时，会作为额外选项加入之后的道具选择 重置不会将其从选择中移除 Has no effect while held If not chosen, it returns as an extra option in a later item choice Rerolls do not remove it from that choice</p>
 
 <PublicEntry slug="perhaps-chosen" lang="zh" />
 
@@ -16,11 +16,11 @@ status: reviewed
 
 ## 效果
 
-「似有所选」是一份不会因为被拒绝而消失的道具选择。
+「似有所选」是一件特殊的选择类道具，但它提供的选项只有自己。
 
-拿走同组的其他道具，或什么都不拿直接离开，都算没有选择它。之后遇到新的合适道具机会时，它会再次加入其中；如果同一房间内又出现新的道具机会，也可以立即回来。
+如果没有选择它，这次选择不会作废，而会作为额外选项加入之后的道具选择，直到它真正被选中。
 
-只有真正选择「似有所选」所在的选择位，这一份等待才会结束。
+拿走同组的其他道具，或什么都不拿直接离开，都算没有选择它。之后遇到新的合适道具机会时，它会额外加入这次选择，而不会替代原本生成的道具；如果同一房间内又出现新的道具机会，也可以立即回来。
 
 拾取「似有所选」本身没有额外效果。
 
@@ -32,14 +32,14 @@ status: reviewed
 
 **A + 似有所选**
 
-使用 {{Collectible:105}} 后可能变成：
+使用 {{Collectible:105}} 后可能变为：
 
 **B +（C / 似有所选）**
 
 此时：
 
-- 选择 B：这份「似有所选」仍未被选择，会继续等待。
-- 选择右侧底座：获得当前显示的道具，并结束这份「似有所选」。
+* 选择 B：仍然没有选择「似有所选」，它会继续等待；
+* 选择右侧底座：获得当前显示的道具，并结束这份「似有所选」。
 
 因此，即使右侧当前显示的是 C，而不是「似有所选」，只要它仍属于这个选择位，拾取后就会结束对应的等待。
 
@@ -51,14 +51,14 @@ status: reviewed
 
 受到 Seija 增幅时，每次「似有所选」重新加入一个道具选择，它所在的选择位都会额外加入一个来自当前道具池的随机道具进行轮换。
 
-这不会改变「选择位」规则：拾取该轮换底座当前显示的任意道具，都会结束对应的「似有所选」。
+这不会改变选择位规则：拾取该轮换底座当前显示的任意道具，都会结束对应的「似有所选」。
 
 ## 注意
 
-- 多份尚未结束的「似有所选」彼此独立，并可以同时加入同一次道具选择。
-- 「似有所选」可以加入本身已经含有「似有所选」的选择。
-- 商品形式被拒绝后会保留当时的实际售价；重置成其他道具也不会改变这份价格。
-- 已经带有价格的普通商品不会成为等待中的「似有所选」重新加入的目标。
+* 多份尚未结束的「似有所选」彼此独立，并可以同时加入同一次道具选择。
+* 「似有所选」可以加入本身已经含有「似有所选」的选择。
+* 商品形式被拒绝后会保留当时的实际售价；重置成其他道具也不会改变这份价格。
+* 已经带有价格的普通商品不会成为等待中的「似有所选」重新加入的目标。
 
 ## 轶事
 
