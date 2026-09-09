@@ -1,12 +1,12 @@
 ---
 title: 0 - The Fool
-description: "Show 5 phantom items from the current pool that can become wisps Touch one to sacrifice it and spawn its item wisp Unchosen phantoms vanish if you leave the room"
+description: "Show 5 phantom items from the current item pool that can generate item wisps Touch one to sacrifice it and generate its corresponding item wisp The selected item is removed from th"
 slug: 0-the-fool
 kind: card
 internalKey: Fool
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 从当前道具池展示5个可生成魂火的道具虚影 接触其中一个，将其牺牲并生成对应魂火 其余虚影离开房间前未选则消失 Show 5 phantom items from the current pool that can become wisps Touch one to sacrifice it and spawn its item wisp Unchosen phantoms vanish if you leave the room</p>
+<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 从当前道具池展示5个可生成魂火的道具虚影 接触其中一个，将其牺牲并生成对应魂火 被选择的道具会从道具池移除 Show 5 phantom items from the current item pool that can generate item wisps Touch one to sacrifice it and generate its corresponding item wisp The selected item is removed from the item pool</p>
 
 <PublicEntry slug="0-the-fool" lang="en" />
 
@@ -18,18 +18,14 @@ status: reviewed
 
 ## Effects
 
-After use, **5 phantom items** from the current room's item pool appear around the player. Candidates are limited to items that can become item wisps, and the same cast never repeats a candidate.
+When used, **5 phantom items** appear around the player. The candidates are drawn from the item pool associated with the current room, and only items capable of generating item wisps can appear.
 
-Touching one phantom dismisses the rest. The chosen item is not added as a real collectible; it is sacrificed from the matching pool, then an item wisp for that item spawns.
+Touch one of the phantoms to sacrifice that item and generate its corresponding item wisp. All other phantoms disappear immediately.
 
-Phantoms are for selection only. They cannot be taken as ordinary pedestals through collision, rerolls, or similar. Leaving the room before a choice ends the display.
-
-## Notes
-
-This changes both what you get now and what that pool can still roll later: a high-value phantom means a stronger wisp immediately, but also removes that item from the current pool.
+The selected item is removed from the item pool. If you leave the room without making a choice, the selection ends and all remaining phantoms disappear.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Phantom candidates increase from **5** to **8**. Selection and sacrifice rules are unchanged.
+Increases the number of phantom items from **5** to **8**.

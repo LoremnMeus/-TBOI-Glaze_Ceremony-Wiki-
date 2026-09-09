@@ -1,0 +1,51 @@
+{
+  "schema": "qing.special_destinations",
+  "schema_version": 1,
+  "source": "Qing_Remaster_scripts/others/Special_Destination_holder.lua",
+  "destinations": [
+    {
+      "key": "error_room",
+      "category": "rare",
+      "weight": 40,
+      "zhName": "错误房",
+      "enName": "Error Room",
+      "zhDescription": "进入错误房。",
+      "enDescription": "Enters an Error Room.",
+      "returnRoute": false,
+      "specialReward": false
+    },
+    {
+      "key": "boss_rush",
+      "category": "rare",
+      "weight": 25,
+      "zhName": "Boss Rush",
+      "enName": "Boss Rush",
+      "zhDescription": "进入 Boss Rush。",
+      "enDescription": "Enters Boss Rush.",
+      "returnRoute": false,
+      "specialReward": false
+    },
+    {
+      "key": "black_market",
+      "category": "rare",
+      "weight": 20,
+      "zhName": "黑市",
+      "enName": "Black Market",
+      "zhDescription": "进入后会提供返回通道。",
+      "enDescription": "Provides a return route after entering.",
+      "returnRoute": true,
+      "specialReward": false
+    },
+    {
+      "key": "mega_satan",
+      "category": "rare",
+      "weight": 5,
+      "zhName": "超级撒旦",
+      "enName": "Mega Satan",
+      "zhDescription": "击败后生成返回通道，并生成 1 件恶魔房道具和 1 件天使房道具。",
+      "enDescription": "After victory, opens a return route and spawns 1 Devil Room item and 1 Angel Room item.",
+      "returnRoute": true,
+      "specialReward": true
+    }
+  ]
+}

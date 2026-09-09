@@ -9,6 +9,7 @@ description: 跨越多个角色、道具与卡牌的玩法机制
 
 - [琉璃](./glaze)
 - [透特牌](./thoth-cards)
+- [特殊目的地](./special-destinations)
 - [彩虹](./rainbow)
 - [蓝图与机群](./blueprint-air-flight)
 - [控制中枢](./control-hub)

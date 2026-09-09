@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-09T11:39:42Z",
+  "generatedAt": "2026-09-09T17:58:13Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -22874,8 +22874,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "从当前道具池展示5个可生成魂火的道具虚影#接触其中一个，将其牺牲并生成对应魂火#其余虚影离开房间前未选则消失",
-        "en": "Show 5 phantom items from the current pool that can become wisps#Touch one to sacrifice it and spawn its item wisp#Unchosen phantoms vanish if you leave the room"
+        "zh": "从当前道具池展示5个可生成魂火的道具虚影#接触其中一个，将其牺牲并生成对应魂火#被选择的道具会从道具池移除",
+        "en": "Show 5 phantom items from the current item pool that can generate item wisps#Touch one to sacrifice it and generate its corresponding item wisp#The selected item is removed from the item pool"
       },
       "seijaBuff": {
         "zh": "",
@@ -22898,8 +22898,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "候选增加至8个",
-        "en": "Show 8 phantoms instead"
+        "zh": "候选虚影由5个增加至8个",
+        "en": "Increases the number of phantom items from 5 to 8"
       },
       "icon": "/generated/images/0-the-fool.png",
       "thumb32": "/generated/images/0-the-fool_32.webp",
@@ -22997,8 +22997,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Freezing}} 发射4枚特殊冰冻泪弹#命中的敌人死亡时冻结周围敌人并使房间短暂减速",
-        "en": "{{Freezing}} Fire 4 special freezing tears#When a hit enemy dies, freeze nearby foes and briefly slow the room"
+        "zh": "{{Freezing}} 发射4枚特殊冰冻泪弹#命中敌人会将其冻结约5秒#被冻结的敌人死亡时，使全房敌人减速约5秒",
+        "en": "{{Freezing}} Fire 4 special freezing tears#Enemies hit are frozen for about 5 seconds#If a frozen enemy dies, all enemies in the room are slowed for about 5 seconds"
       },
       "seijaBuff": {
         "zh": "",
@@ -23021,8 +23021,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "发射8枚",
-        "en": "Fire 8 tears instead"
+        "zh": "发射数量由4枚增加至8枚",
+        "en": "Increases the number of special freezing tears from 4 to 8"
       },
       "icon": "/generated/images/i-the-witch.png",
       "thumb32": "/generated/images/i-the-witch_32.webp",
@@ -23144,8 +23144,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "预言3张牌面，每张命中生成2张随机卡牌",
-        "en": "Foretell 3 faces; each hit spawns 2 random cards"
+        "zh": "预言3张不同牌面#命中时生成2张随机卡牌",
+        "en": "Foretell 3 different faces#Spawn 2 random cards when one is used"
       },
       "icon": "/generated/images/i-the-invoker.png",
       "thumb32": "/generated/images/i-the-invoker_32.webp",
@@ -23267,8 +23267,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "传送旋涡+2，并开放更多目的地",
-        "en": "+2 portals and more possible destinations"
+        "zh": "额外生成2个传送旋涡，并提高特殊目的地的出现机会",
+        "en": "+2 portals and a higher chance of special destinations"
       },
       "icon": "/generated/images/i-the-wizard.png",
       "thumb32": "/generated/images/i-the-wizard_32.webp",
@@ -23558,8 +23558,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "使用后，沿当前房间墙面尽可能生成通往本层特殊房间的门#原有普通门暂时关闭",
-        "en": "After use, spawn as many special doors as possible along this room's walls to special rooms on this floor#Normal doors are temporarily closed"
+        "zh": "沿当前房间墙面尽可能生成通往其他房间的特殊门#原有普通门暂时关闭#部分门可能通往特殊目的地",
+        "en": "Create as many special doors as possible along the current room's walls#Normal doors are temporarily closed#Some doors may lead to special destinations"
       },
       "seijaBuff": {
         "zh": "",

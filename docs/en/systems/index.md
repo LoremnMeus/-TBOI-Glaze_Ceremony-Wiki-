@@ -9,6 +9,7 @@ System pages explain concepts shared by multiple entries. Character, item, and c
 
 - [Glaze](./glaze)
 - [Thoth Cards](./thoth-cards)
+- [Special Destinations](./special-destinations)
 - [Rainbow](./rainbow)
 - [Blueprint & Fleet](./blueprint-air-flight)
 - [Control Hub](./control-hub)

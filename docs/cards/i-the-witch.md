@@ -6,7 +6,7 @@ kind: card
 internalKey: Witch
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 发射4枚特殊冰冻泪弹 命中的敌人死亡时冻结周围敌人并使房间短暂减速 Fire 4 special freezing tears When a hit enemy dies, freeze nearby foes and briefly slow the room</p>
+<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 发射4枚特殊冰冻泪弹 命中敌人会将其冻结约5秒 被冻结的敌人死亡时，使全房敌人减速约5秒 Fire 4 special freezing tears Enemies hit are frozen for about 5 seconds If a frozen enemy dies, all enemies in the room are slowed for about 5 seconds</p>
 
 <PublicEntry slug="i-the-witch" lang="zh" />
 
@@ -17,20 +17,19 @@ status: reviewed
 
 ## 效果
 
-使用后发射 **4 枚特殊冰冻泪弹**。4 枚冰冻泪弹会先围绕玩家运动，随后主动锁定尚未冻结的敌人。
+使用后发射 **4 枚特殊冰冻泪弹**。这些泪弹会先环绕玩家，并依次寻找尚未冻结的敌人。
 
-每枚特殊泪的碰撞伤害等于玩家当前伤害。命中敌人会将其冻结约 **5 秒**。
+每枚泪弹造成等同于玩家当前伤害的伤害，并将命中的敌人冻结约 **5 秒**。
 
-被这批特殊冰弹冻结的敌人若在冻结状态下死亡，会进一步冻结附近敌人，并令当前房间短暂减速约 **5 秒**（敌人移动明显变慢）。因此它既可以直接处理目标，也可以通过击杀一个被标记的敌人向周围扩散控制。
+被这些泪弹冻结的敌人若在冻结期间死亡，会触发冰冻死亡效果，并使当前房间内的所有敌人减速约 **5 秒**。
 
 ## 规则
 
-- 只有由这些冰冻泪弹造成的冻结敌人死亡时，才会触发扩散冻结。
-- 房间减速只作用于当前房间，不会带到之后的房间。
-- 换房不会保留未命中的特殊泪弹。
+* 只有被这些特殊冰冻泪弹冻结的敌人死亡时，才会触发上述效果。
+* 离开房间后，尚未命中的特殊冰冻泪弹不会保留。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-发射数量由 **4 枚**增加至 **8 枚**。单枚伤害与普通版本相同。
+发射数量由 **4 枚**增加至 **8 枚**。

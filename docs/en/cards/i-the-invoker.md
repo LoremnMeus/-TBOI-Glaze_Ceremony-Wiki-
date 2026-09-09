@@ -50,6 +50,6 @@ Indirect activation through other items or card effects counts too.
 
 ### {{Collectible:451}}
 
-Foretells **3 different faces** at once, recording **2** predictions on each.
+Foretells **3 different faces** at once.
 
-When any of those faces hits, spawn **2** random cards.
+When any foretold face is used, spawn **2 random cards**.
