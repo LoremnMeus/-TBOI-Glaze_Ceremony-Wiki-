@@ -6,7 +6,7 @@ kind: card
 internalKey: Priestess
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>II - 女司祭 II - The High Priestess Priestess ii-the-high-priestess II - The High Priestess 妈妈?是妈妈! 持续30秒召唤巨大的妈妈之脚攻击附近敌人 For 30 seconds, summon Mom&#x27;s giant foot to stomp nearby enemies</p>
+<p class="wiki-search-index" v-pre>II - 女司祭 II - The High Priestess Priestess ii-the-high-priestess II - The High Priestess 妈妈?是妈妈! 持续30秒，攻击时改为召唤巨大的妈妈之脚 妈妈之脚造成40倍玩家伤害 For 30 seconds, attacking summons Mom&#x27;s giant foot instead Mom&#x27;s foot deals 40x your damage</p>
 
 <PublicEntry slug="ii-the-high-priestess" lang="zh" />
 
@@ -17,10 +17,11 @@ status: reviewed
 
 ## 效果
 
-使用后进入持续 **30 秒**的踩踏状态。在此期间会反复召唤巨大的妈妈之脚攻击附近敌人。
+使用后持续 **30 秒**。效果期间无法进行普通攻击，攻击时会改为召唤巨大的妈妈之脚。
 
-- 每记踩踏伤害约为玩家当前伤害的 **40 倍**；Boss 与普通敌人使用同一公式。
-- 效果只在当前房间有效；换房或时间结束后停止。
+妈妈之脚造成 **40 倍玩家当前伤害**，攻击间隔受玩家射速影响。
+
+效果可以跨房间持续；再次使用会增加剩余持续时间。
 
 ## 特殊联动
 

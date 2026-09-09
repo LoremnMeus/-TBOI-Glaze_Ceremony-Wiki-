@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-09T18:04:43Z",
+  "generatedAt": "2026-09-09T18:37:47Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -23348,8 +23348,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Timer}} 持续30秒召唤巨大的妈妈之脚攻击附近敌人",
-        "en": "{{Timer}} For 30 seconds, summon Mom's giant foot to stomp nearby enemies"
+        "zh": "{{Timer}} 持续30秒，攻击时改为召唤巨大的妈妈之脚#妈妈之脚造成40倍玩家伤害",
+        "en": "{{Timer}} For 30 seconds, attacking summons Mom's giant foot instead#Mom's foot deals 40x your damage"
       },
       "seijaBuff": {
         "zh": "",
@@ -23372,8 +23372,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "持续60秒",
-        "en": "Lasts 60 seconds"
+        "zh": "持续时间延长至60秒",
+        "en": "Duration increased to 60 seconds"
       },
       "icon": "/generated/images/ii-the-high-priestess.png",
       "thumb32": "/generated/images/ii-the-high-priestess_32.webp",
