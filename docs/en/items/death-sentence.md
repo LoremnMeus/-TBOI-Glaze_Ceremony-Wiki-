@@ -12,28 +12,51 @@ status: reviewed
 
 ## Mechanics
 
-
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Death Sentence collects orbiting letters and awards items whose names you can spell — unless you spell the death word.**
+**Death Sentence continually gathers random letters; on use, those letters can spell item names to gain the matching items. Collecting FINAL immediately triggers the death end.**
 
-- At full charge, automatically gain 1 random letter
-- Use opens the prediction panel to match item names with held letters
-- Matching ignores spaces, treats Chinese names as pinyin letters, and treats other symbols as `=` wildcards
-- {{Warning}} Spelling **FINAL** triggers the death-end logic immediately
+When fully charged, it automatically grants **1 random letter**. Owned letters orbit the character.
+
+Using Death Sentence opens the prediction panel listing items that can currently be attempted. If the owned letters can spell an item's name, those letters are spent and the item is granted.
+
+## How names match
+
+Item names are converted as follows:
+
+- Spaces are ignored
+- English letters match directly
+- Chinese names match by pinyin letters
+- Digits, punctuation, and other symbols in the name all become **`=`**, and must be paid with `=`
+
+Each letter pays for only one position in the name, so repeated letters must be held separately.
+
+## FINAL
+
+As soon as the orbiting letters can form **FINAL**, Death Sentence's death end triggers immediately.
+
+This is not a normal item prediction, and FINAL does not need to be chosen manually.
 
 ## Synergies
 
 ### {{Collectible:34}}
 
-Always hold an extra **6**; for Devil-pool items, 6 can wildcard any character.
+Grants a special **「6」**.
+
+When spelling {{DevilRoom}} Devil Room items, 「6」 can stand in for any missing character, including normal letters and `=`.
+
+Other items cannot use 「6」 as a wildcard.
 
 ### {{Collectible:584}}
 
-A letter wisp; if it dies while you still hold this item, regain that letter.
+Grants wisps matching the ouija letters.
+
+If a matching wisp dies while Death Sentence is still held, that letter can be gained again.
 
 ## Trivia
 
-- Points to Bakura's Ouija Board system in Yu-Gi-Oh!. That deck also requires gathering letters in order to spell **FINAL / DEATH** for a special win.
+Death Sentence points to the Ouija Board system used by Bakura in *Yu-Gi-Oh!*.
+
+The source material requires collecting letters in sequence for a special win condition; this item turns that into continual letter gathering and item-name spelling, while **FINAL** remains the true end condition.

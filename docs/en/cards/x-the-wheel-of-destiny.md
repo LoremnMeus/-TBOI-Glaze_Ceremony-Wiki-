@@ -1,12 +1,12 @@
 ---
 title: X - The Wheel of Destiny
-description: "Temporarily convert a held item into fragile same-name wisps Later return it as an item"
+description: "Convert one held item into 2 fragile same-name item wisps After 2 floors, each surviving wisp turns back into that item"
 slug: x-the-wheel-of-destiny
 kind: card
 internalKey: Wheel_of_Destiny
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>X - 命运 X - The Wheel of Destiny Wheel_of_Destiny x-the-wheel-of-destiny X - The Wheel of Destiny 明暗为逆 将一个已有道具暂时转换为脆弱同名魂火 之后归还为道具 Temporarily convert a held item into fragile same-name wisps Later return it as an item</p>
+<p class="wiki-search-index" v-pre>X - 命运 X - The Wheel of Destiny Wheel_of_Destiny x-the-wheel-of-destiny X - The Wheel of Destiny 明暗为逆 将一个已有道具转换为2个脆弱的同名道具魂火 经过2层后，存活的魂火各自变回该道具 Convert one held item into 2 fragile same-name item wisps After 2 floors, each surviving wisp turns back into that item</p>
 
 <PublicEntry slug="x-the-wheel-of-destiny" lang="en" />
 
@@ -26,17 +26,18 @@ Full flow:
 1. Open the selection UI;
 2. Pick one held item (or cancel and reclaim this card);
 3. The original item is temporarily removed from the character;
-4.
-5. After about two entries into new floors, the wisps land and become the original item again.
+4. Spawn **2** fragile same-name item wisps;
+5. After two new floors, **each surviving wisp turns back into that item on its own**.
 
 ## Lending and return
 
 - You can use it multiple times and lend several items at once.
 - Return advances by entering floors, not by leaving a room immediately.
-- If the wisps fully disappear before return, this card does not re-issue the original item.
+- The two wisps track survival separately; when due, each still-alive wisp returns as one copy of the original item.
+- If a wisp disappears early, it is not compensated at return time.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Spawns **3** wisps instead of **2**, with higher wisp HP.
+Spawns **3** wisps instead of **2**, and each can withstand 1 hit.

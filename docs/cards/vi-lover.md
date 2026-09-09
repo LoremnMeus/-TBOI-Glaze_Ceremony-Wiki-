@@ -6,7 +6,7 @@ kind: card
 internalKey: Lover
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VI - 爱 VI - Lover Lover vi-lover VI - Lover 吾爱自鸣 使用后，本房间内拾取普通掉落物时有50%概率复制一个完全相同的掉落物 复制品不会再次触发此效果 For this room, picking up ordinary pickups has a 50% chance to duplicate an identical copy Copies cannot trigger this again</p>
+<p class="wiki-search-index" v-pre>VI - 爱 VI - Lover Lover vi-lover VI - Lover 吾爱自鸣 使用后，本房间内拾取基础资源或接触箱子时，有50%概率复制一份 复制品不会再次触发此效果 For this room, picking up basic resources or contacting chests has a 50% chance to create a copy Copies cannot trigger this effect again</p>
 
 <PublicEntry slug="vi-lover" lang="zh" />
 
@@ -17,24 +17,32 @@ status: reviewed
 
 ## 效果
 
-使用后，**本房间内**拾取符合条件的普通掉落物时，有 **50%** 概率在原地复制出一个完全相同的掉落物。
+使用后，**本房间内**拾取符合条件的基础资源，或**接触**允许复制的箱子时，有 **50%** 概率复制一份。
 
-复制品不会再次触发复制，因此不会形成无限复制。离开房间后效果结束。
+复制品不会再次触发复制。可以被玩家携带并重新放回地面的口袋类掉落物不会触发复制。离开房间后效果结束。
 
 ## 可以复制什么
 
 **可以复制：**
 
-- {{Heart}} 心类、{{Coin}} 硬币、{{Key}} 钥匙、{{Bomb}} 炸弹、{{Battery}} 电池；
-- {{Card}} 卡牌、{{Pill}} 药丸等口袋掉落；
-- 各类普通箱子（含尖刺箱、红箱、旧箱、木箱等允许复制的箱子）。
+- {{Heart}} 心类；
+- {{Coin}} 硬币；
+- {{Key}} 钥匙；
+- {{Bomb}} 炸弹；
+- {{Battery}} 电池；
+- {{GrabBag}} 福袋；
+- {{PoopPickup}} 便便掉落物；
+- 各类允许复制的箱子（含上锁箱、红箱等）；接触即参与判定，不要求本帧已经成功开启。
 
 **不会复制：**
 
-- 道具底座、{{Trinket}} 等未列入复制表的对象；
+- {{Card}} 卡牌、符文、魂石；
+- {{Pill}} 药丸；
+- {{Trinket}} 饰品；
+- 道具底座；
 - {{Shop}} 商品与其他带价格的掉落；
 - 已属于互斥选择组的掉落；
-- 由本效果自身生成的复制品。
+- 由「爱」自身生成的复制品。
 
 ## 特殊联动
 

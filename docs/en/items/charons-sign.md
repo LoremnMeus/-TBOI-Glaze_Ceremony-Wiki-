@@ -10,34 +10,33 @@ status: reviewed
 
 <PublicEntry slug="charons-sign" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**About 45 seconds after entering a floor, a black tide starts in the starting room and spreads outward along connected rooms.**
+**Charon's Sign lets a black tide begin spreading from the starting room after a while on each floor, gradually consuming terrain and pickups along the way.**
 
-Flooded areas gradually:
+About **45 seconds** after entering a floor, the tide starts from the starting room and spreads through adjacent rooms.
 
-- Consume clearable terrain, bombs, and pickups;
-- Deal **7** damage per second to enemies inside;
-- Extinguish fires along the way.
+Areas covered by the tide:
 
-The tide does not harm players, and it keeps clear of Isaac as well as machines, beggars, and similar entities.
+- Consume clearable terrain, bombs, and pickups
+- Extinguish fires along the path
+- Deal **7** damage per second to enemies inside
 
-It does not cross dimensions.
+The tide cannot harm the character, and it avoids the character as well as machines, beggars, and similar entities.
 
-In the normal mode the tide eats pickups along its path, so grab important loot before it arrives.
+The tide does not spread across dimensions.
 
 ## Synergies
 
 ### {{Seija}}
 
-Overall tide progress is **4×** faster, but pickups are no longer consumed and keep a safe radius around them.
+Overall tide advance speed becomes **4×**, but pickups are no longer consumed and the tide avoids areas around pickups.
 
 ## Trivia
 
 - Charon's Sign references *Eastward*.
-- In that story the protagonists flee east from the Black Tide that consumes the world; their important train is named Charon.
+- In that game, the protagonist flees east from a world-consuming black tide, and a key train is named Charon.

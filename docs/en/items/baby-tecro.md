@@ -10,22 +10,22 @@ status: reviewed
 
 <PublicEntry slug="baby-tecro" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Tecro is a chargeable reflecting pierce familiar: preview a wall path, release to dash along it.**
+**Baby Tecro previews a wall-reflecting thrust path while charging, then dashes along that path on release.**
 
-## Controls
+Hold fire to charge; a light path preview follows the aim direction.
 
-- Hold fire to charge a thin beam preview that follows aim
-- Need at least half charge to fire; fuller charge adds wall reflections, up to about **3**
-- Release locks the path; the baby dashes and damages along it
-- Path damage is about **40%** of your damage
+Release once charged enough, and the familiar locks the current path and dashes along it, damaging enemies on the route.
 
-## Multiple copies
+Higher charge extends the reflecting path; at full charge it can form up to about **3** segments.
 
-Each copy is its own baby with independent charge and dash.
+The thrust deals about **40%** of the character's damage.
+
+## Extra copies
+
+Each extra copy spawns another familiar. Each charges and completes its own thrust independently.

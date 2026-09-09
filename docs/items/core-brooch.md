@@ -36,4 +36,4 @@ status: reviewed
 
 ### 10 次之后
 
-胸针从主动槽移除，碎裂并生成饰品 [破碎的胸针](/trinkets/broken-brooch)。
+胸针从主动槽移除，碎裂并生成 {{Trinket:broken-brooch}}。

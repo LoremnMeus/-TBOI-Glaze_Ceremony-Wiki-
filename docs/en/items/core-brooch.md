@@ -36,4 +36,4 @@ The next use rolls another trio until 10 picks are done.
 
 ### After 10
 
-The active is removed and becomes the trinket [Broken Brooch](/trinkets/broken-brooch).
+The active is removed and becomes {{Trinket:broken-brooch}}.

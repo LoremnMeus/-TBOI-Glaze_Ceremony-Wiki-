@@ -10,38 +10,37 @@ status: reviewed
 
 <PublicEntry slug="multiknife" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Multiknife spends the entire current charge bar on one swing; each extra charge doubles the blade's damage and size again.**
+**Multiknife spends all current charges on one swing; each extra charge doubles both the blade's damage and its size again.**
 
-- {{Battery}} Usable at **1+** charge; spends the whole bar
-- {{Damage}} **1** charge = **100%** of your damage; each extra charge doubles again
-- Swing size grows with charge; very high charge reaches a size/collision cap
+{{Battery}} Usable with at least **1** charge; use spends all current charges at once.
 
-### Charge and damage
+At **1** charge, the blade deals **100%** of the character's damage. Each additional charge spent doubles the damage once more and also enlarges the blade.
 
-| Charges | Damage |
-| -: | ---: |
-| 1 | 1× |
-| 2 | 2× |
-| 3 | 4× |
-| 4 | 8× |
-| 5 | 16× |
-| 6 | 32× |
+For example:
 
-Higher charges keep doubling; Book of Belial can raise the cap to **12**.
+- 1 charge: **1×** damage
+- 2 charges: **2×**
+- 3 charges: **4×**
+- 4 charges: **8×**
+
+Further charges keep doubling damage the same way; blade size stops growing after it hits its cap.
 
 ## Synergies
 
 ### {{Collectible:34}}
 
-Charge cap +2 (max 12); blade turns blood-red.
+Charge cap rises by **2**, up to **12**.
+
+The swung blade becomes blood-red.
 
 ### {{Collectible:584}}
 
-Each spent charge spawns a 1-damage / 1-HP wisp.
+Each **1** charge spent spawns **1** matching wisp.
+
+Each wisp has **1** health and **1** tear damage.

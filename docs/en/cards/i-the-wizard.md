@@ -1,12 +1,12 @@
 ---
 title: I - The Wizard
-description: "Reveal a random room type and open a portal to one of those rooms"
+description: "Reveal all rooms of one special room type on this floor The first time you enter that room type, spawn several portals to other special rooms"
 slug: i-the-wizard
 kind: card
 internalKey: Wizard
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>I - 魔导 I - The Wizard Wizard i-the-wizard I - The Wizard 我将昭世 随机揭示一种房间，并生成通往其中一间的传送门 Reveal a random room type and open a portal to one of those rooms</p>
+<p class="wiki-search-index" v-pre>I - 魔导 I - The Wizard Wizard i-the-wizard I - The Wizard 我将昭世 揭示本层一种特殊房型的所有房间 首次进入该房型时，生成数个通往其他特殊房间的传送旋涡 Reveal all rooms of one special room type on this floor The first time you enter that room type, spawn several portals to other special rooms</p>
 
 <PublicEntry slug="i-the-wizard" lang="en" />
 
@@ -19,20 +19,20 @@ status: reviewed
 
 ## Effects
 
-After use, randomly reveals one special room type on the current floor.
+On use, The Wizard chooses one special room type on the current floor that it has not already selected, then reveals every room of that type on the map.
 
-The first time you enter a room of that type, multiple portals appear in the room, letting you reach other special rooms on the floor and a few special areas.
+The first time you enter a room of that type, several portals appear. They lead to other special rooms on the floor and may also lead to special areas such as the Error Room, Boss Rush, Black Market, or Mega Satan. Portals for that room type spawn only once per floor.
 
-## Room selection
+## Rooms and portals
 
-- The target type is drawn from non-normal types that actually exist on this floor; explored or not is not separately excluded.
-- If no unused room type remains, **reveals the whole floor map**.
-- Portals are usually one-way shortcuts; after entering Black Market, Mega Satan, or similar, a return entrance may appear. Clearing Mega Satan's room also spawns one Angel-pool and one Devil-pool item.
-
-- Floor marks clear on the next floor; a room type already used does not keep spawning the same portal set.
+- Only non-normal room types that actually exist in the current dimension can be selected; whether those rooms were already explored does not remove them from the pool.
+- A room type already selected by The Wizard cannot be selected again on the same floor. These records reset on the next floor.
+- If no unhandled special room type remains, using The Wizard instead reveals the whole floor map.
+- With enough available destinations, the portal set normally contains **4–5 portals**. On a normal use, there is a **25%** chance that the first matching-room entry instead creates **6–7 portals** and adds more special destinations.
+- Some special destinations provide a way back. Defeating Mega Satan after reaching him through The Wizard creates a return portal and additionally spawns **1 Devil Room item** and **1 Angel Room item**.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Further increases how many portals spawn when entering a matching room type.
+Adds **2 portals** when the matching room type is first entered and adds more special destinations.

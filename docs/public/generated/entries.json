@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-07T06:05:34Z",
+  "generatedAt": "2026-09-09T11:39:42Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -19172,8 +19172,8 @@
         "en": "This isn't final"
       },
       "eid": {
-        "zh": "靠近多选道具时，按{{ButtonRT}}保留其中一个#每个多选组只能保留1件#拾取保留项以在当前层试用道具，并在下层生成售价{{Coin}}15¢的对应道具#主动也可保留；换下试用主动时，掉落的该主动消失",
-        "en": "Near an option group, press {{ButtonRT}} to reserve one item#Each option group can hold 1 reserved item#Pick up the reserved item to trial it this floor; next floor it returns for {{Coin}}15¢#Actives can be reserved; swapping away a trial active removes its dropped pedestal"
+        "zh": "保留一件商品的当前报价至下一层#靠近商品并按{{ButtonRT}}保留#同时只能保留1件；新的保留会替换旧的#作为商品出现时，无需持有本道具也可保留它",
+        "en": "Reserve a priced item's current offer to the next floor#Near an item, press {{ButtonRT}} to reserve it#Only 1 offer can be reserved; a new one replaces the old#Reserved Judgment can reserve itself while being sold, even if not held"
       },
       "seijaBuff": {
         "zh": "",
@@ -23243,8 +23243,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "随机揭示一种房间，并生成通往其中一间的传送门",
-        "en": "Reveal a random room type and open a portal to one of those rooms"
+        "zh": "揭示本层一种特殊房型的所有房间#首次进入该房型时，生成数个通往其他特殊房间的传送旋涡",
+        "en": "Reveal all rooms of one special room type on this floor#The first time you enter that room type, spawn several portals to other special rooms"
       },
       "seijaBuff": {
         "zh": "",
@@ -23267,8 +23267,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "开启更多通往特殊房间的传送门",
-        "en": "Open more portals to special rooms"
+        "zh": "传送旋涡+2，并开放更多目的地",
+        "en": "+2 portals and more possible destinations"
       },
       "icon": "/generated/images/i-the-wizard.png",
       "thumb32": "/generated/images/i-the-wizard_32.webp",
@@ -23453,8 +23453,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "吸取房间中敌人的力量，并集中强化最强的敌人",
-        "en": "Drain strength from enemies in the room and pour it into the strongest foe"
+        "zh": "{{Charm}} 一名敌人吸收其他普通敌人的生命，使它们降至10%生命并被魅惑#这名敌人变为彩虹变异",
+        "en": "{{Charm}} One enemy absorbs the health of other regular enemies, reducing them to 10% HP and charming them#That enemy becomes a Rainbow Champion"
       },
       "seijaBuff": {
         "zh": "",
@@ -23477,8 +23477,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "被吸取方保留更多生命比例",
-        "en": "Drained foes keep a higher health ratio"
+        "zh": "被魅惑的敌人改为剩余20%生命",
+        "en": "Charmed enemies retain 20% HP"
       },
       "icon": "/generated/images/iii-the-empress.png",
       "thumb32": "/generated/images/iii-the-empress_32.webp",
@@ -23768,8 +23768,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "使用后，本房间内拾取普通掉落物时有50%概率复制一个完全相同的掉落物#复制品不会再次触发此效果",
-        "en": "For this room, picking up ordinary pickups has a 50% chance to duplicate an identical copy#Copies cannot trigger this again"
+        "zh": "使用后，本房间内拾取基础资源或接触箱子时，有50%概率复制一份#复制品不会再次触发此效果",
+        "en": "For this room, picking up basic resources or contacting chests has a 50% chance to create a copy#Copies cannot trigger this effect again"
       },
       "seijaBuff": {
         "zh": "",
@@ -23793,7 +23793,7 @@
       },
       "tarotClothBuffs": {
         "zh": "概率提升至75%",
-        "en": "Chance rises to 75%"
+        "en": "Chance increased to 75%"
       },
       "icon": "/generated/images/vi-lover.png",
       "thumb32": "/generated/images/vi-lover_32.webp",
@@ -24188,8 +24188,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "将一个已有道具暂时转换为脆弱同名魂火#之后归还为道具",
-        "en": "Temporarily convert a held item into fragile same-name wisps#Later return it as an item"
+        "zh": "将一个已有道具转换为2个脆弱的同名道具魂火#经过2层后，存活的魂火各自变回该道具",
+        "en": "Convert one held item into 2 fragile same-name item wisps#After 2 floors, each surviving wisp turns back into that item"
       },
       "seijaBuff": {
         "zh": "",
@@ -24212,8 +24212,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "转换为3个同名道具魂火，魂火可以抵挡一次碰撞",
-        "en": "Convert into 3 wisps that can withstand one hit"
+        "zh": "改为3个魂火，并各能抵挡1次碰撞",
+        "en": "Create 3 wisps instead; each can withstand 1 hit"
       },
       "icon": "/generated/images/x-the-wheel-of-destiny.png",
       "thumb32": "/generated/images/x-the-wheel-of-destiny_32.webp",
@@ -24303,8 +24303,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "本房间内敌人会显示自己想要的资源#停止攻击并靠近时，可献上对应资源满足它#满足后仍保持敌对；死亡时掉落所求资源（Boss更多）",
-        "en": "For this room, enemies show a wanted resource#Stop firing and approach to offer matching pickups#They stay hostile; on death they drop that resource (Bosses drop more)"
+        "zh": "使用时，当前敌人各自索求{{Coin}}{{Key}}{{Bomb}}{{Heart}}之一#满足普通敌人后，其不再阻挡房门且不会造成接触伤害#击杀已满足的敌人会掉落1-2份所求资源",
+        "en": "On use, current enemies each demand one of {{Coin}}, {{Key}}, {{Bomb}}, or {{Heart}}#Satisfying a normal enemy makes it no longer keep doors closed and deal no contact damage#Killing a satisfied enemy drops 1-2 of the requested resource"
       },
       "seijaBuff": {
         "zh": "",
@@ -24327,8 +24327,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "额外掉落概率提高",
-        "en": "Extra drop chance increases"
+        "zh": "普通敌人额外掉落1份资源的概率由35%提升至75%",
+        "en": "Normal enemies' chance to drop 1 extra resource increases from 35% to 75%"
       },
       "icon": "/generated/images/xi-lure.png",
       "thumb32": "/generated/images/xi-lure_32.webp",

@@ -10,28 +10,24 @@ status: reviewed
 
 <PublicEntry slug="baby-lu" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Lu plans a special-room route each floor: reveal rooms, then string them with portals.**
+**Each floor, Baby Lu reveals several unvisited special rooms and creates portals that connect them in order.**
 
-- Once per floor, prioritizes **unvisited** special rooms
-- First copy plans at least **3**; each extra copy adds **+1** target
-- Skips default rooms and normal / super / ultra secret rooms
-- After the ritual, portals link the marked rooms in order
+After entering a new floor, the familiar automatically runs a ritual that selects and marks several unvisited special rooms.
 
-## How it triggers
+The first familiar selects at least **3** rooms per floor; each additional copy adds **1** more target that floor.
 
-Automatic on a new floor. Marks appear after the ritual; entering a chain room spawns a portal to the next stop.
+Normal rooms, as well as normal, super, and ultra secret rooms, are never chosen.
 
-## How it feels
+After the ritual, the selected rooms are linked in a fixed order. Entering a marked room spawns a portal to the next target.
 
-Not free teleport to any revealed special—follow the “next stop” chain.
+Those portals only lead to the next room in order; they cannot freely jump to any marked room.
 
-## Multiple copies
+## Extra copies
 
-Each extra Baby Lu lengthens the floor plan by one room.
+Each extra Baby Lu adds **1** more special room target that floor.

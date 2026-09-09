@@ -12,20 +12,33 @@ status: reviewed
 
 ## Mechanics
 
-
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Dragon Tooth raises damage and can pollute a limited number of Angel Rooms so their items roll from the Devil pool; each successful pollution also raises damage further.**
+**Dragon Tooth raises damage and allows a limited number of Angel Room corruptions: room items switch to the Devil Room pool, and each successful corruption raises damage further.**
 
-- {{Damage}} **1.5×** damage
-- {{AngelRoom}} **Each copy** grants **1** Angel Room pollution: items use the {{DevilRoom}} Devil pool and the room looks bloodied
-- Angel-related entities there drop to about **10%** HP
-- Each successful pollution grants {{Damage}} **+1** Damage for the rest of the run
-- Extra copies each add one more pollution use
+Grants:
+
+- {{Damage}} **1.5×** Damage.
+
+Each held copy grants **1** Angel Room corruption chance.
+
+Entering an eligible {{AngelRoom}} spends one chance and corrupts that room:
+
+- Items generated there use the {{DevilRoom}} Devil Room pool
+- The room's visuals become bloodied
+- Angel-related entities drop to about **10%** of their usual health
+- Permanently grants {{Damage}} **+1** Damage for the run
+
+## Extra copies
+
+Each extra Dragon Tooth adds **1** more Angel Room corruption chance.
+
+Damage already gained from corruptions is not lost when remaining chances run out.
 
 ## Trivia
 
-- Design points to Yu-Gi-Oh! Bystial Magnamhut (深渊之兽 玛格巨龙).
-- The card uses LIGHT / DARK monsters in the GY as resources; this item abstracts that into eroding and polluting Angel Rooms.
+Dragon Tooth points to *Yu-Gi-Oh!* “Bystial Magnamhut” (深渊之兽 玛格巨龙).
+
+That card uses LIGHT / DARK monsters in the GY as resources; this item turns the idea into erosion and corruption of Angel Rooms.

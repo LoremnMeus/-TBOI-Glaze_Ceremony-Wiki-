@@ -6,7 +6,7 @@ kind: card
 internalKey: Empress
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>III - 女帝 III - The Empress Empress iii-the-empress III - The Empress 我最爱互相残杀的剧本了 吸取房间中敌人的力量，并集中强化最强的敌人 Drain strength from enemies in the room and pour it into the strongest foe</p>
+<p class="wiki-search-index" v-pre>III - 女帝 III - The Empress Empress iii-the-empress III - The Empress 我最爱互相残杀的剧本了 一名敌人吸收其他普通敌人的生命，使它们降至10%生命并被魅惑 这名敌人变为彩虹变异 One enemy absorbs the health of other regular enemies, reducing them to 10% HP and charming them That enemy becomes a Rainbow Champion</p>
 
 <PublicEntry slug="iii-the-empress" lang="zh" />
 
@@ -17,20 +17,20 @@ status: reviewed
 
 ## 效果
 
-使用后，把当前房间敌人的力量集中到其中最强的一名敌人身上。
+使用后，一名敌人会吸收房间内其他普通敌人的生命。
 
-使用后，房间中的多个敌人会被大幅削弱并转为友善，而“容器”敌人获得对应强化，使原本由一群敌人构成的压力重新集中到少数目标。
+被吸收生命的敌人会降至约 **10%** 最大生命并被魅惑；吸收生命的敌人则获得强化，并变为**彩虹变异**。
 
 ## 规则
 
-- **最强**判定：若房间中有 Boss，优先选 Boss；否则选当前生命最高的敌人。已经作为容器被强化过的目标会优先保留。
-
-- 抽出的生命以魂弹形式飞入容器；容器会提高最大生命与当前生命，并逐步变得更难处理。
-- 房间里只有一个敌人时，它只会自身变为强化冠军，没有其他抽血来源。
-- Boss 通常作为容器；普通敌人更常作为被抽血的一方。
+- 若房间内存在 Boss，会优先由 Boss 吸收生命；否则选择当前生命最高的普通敌人。此前已经成为女帝强化目标的敌人会优先继续作为目标。
+- 只有普通敌人会被抽取生命和魅惑；其他 Boss 不会因此被削弱或魅惑。
+- 被抽取的敌人通常会降至约 **10%** 最大生命。若它原本已经低于这一生命值，则不会因此恢复生命。
+- 抽取的生命会以魂弹飞向目标，并进一步提高它的生命。
+- 房间里只有一个可用敌人时，不会产生抽血对象；该敌人仍会变为彩虹变异。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-非核心敌人被削弱后保留的生命比例由约 **10%** 提高至约 **20%**。
+被魅惑的敌人改为保留约 **20%** 最大生命，而非 **10%**；因此它们会更加耐打，同时汇聚给目标的生命也会相应减少。

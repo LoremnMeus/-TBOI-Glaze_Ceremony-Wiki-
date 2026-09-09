@@ -10,24 +10,23 @@ status: reviewed
 
 <PublicEntry slug="baby-autio" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Autio flies to enemies, drops a fear aura, lingers, then returns.**
+**Baby Autio flies to enemies on its own, deploys a fear aura near the target, then returns after a short linger.**
 
-- Leaves formation toward a target
-- Deploys a roughly two-tile fear aura that keeps scaring foes inside
-- While lingering, deals a small tick of damage about once per second
-- Stays about **3** seconds, then returns with about **1.5** seconds of cooldown
+When it finds a target, it leaves formation and flies to the enemy.
 
-## How it triggers
+On arrival it deploys a fear aura about two tiles wide that:
 
-Automatic seek and deploy. No active key.
+- Continually fears enemies inside
+- Continually damages enemies inside
 
-## Multiple copies
+It stays near the target for about **3 seconds**, then returns; after about **1.5 seconds** back with the character, it can act again.
 
-Each copy seeks, deploys, and cools down on its own.
+## Extra copies
+
+Each extra copy spawns another familiar. Each seeks targets, deploys its aura, and tracks its own cooldown independently.

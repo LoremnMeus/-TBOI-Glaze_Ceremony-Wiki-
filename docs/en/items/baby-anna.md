@@ -10,22 +10,20 @@ status: reviewed
 
 <PublicEntry slug="baby-anna" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Anna is a charged brimstone-trail dash familiar.**
+**Baby Anna charges, then launches toward the aim direction while leaving a Brimstone trail behind.**
 
-## Controls
+Hold fire to charge; release once charged enough, and the familiar flies at high speed along the current aim.
 
-- Hold fire to charge; need about half charge to launch (full charge ~2s with clearer cues)
-- Release dashes toward locked aim, leaving a {{Collectible:118}} trail
-- Trail damage is about half of matching brimstone
-- **Hitting a wall** sticks briefly, pauses, then returns to follow
+While flying, it continuously leaves a {{Collectible:118}} trail that damages enemies passing through it.
 
-## Multiple copies
+After hitting a wall, it briefly stays there, then returns to follow the character.
 
-Each copy dashes and charges on its own.
+## Extra copies
+
+Each extra copy spawns another familiar. Each charges and completes its own dash independently.

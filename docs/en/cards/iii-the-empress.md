@@ -1,12 +1,12 @@
 ---
 title: III - The Empress
-description: "Drain strength from enemies in the room and pour it into the strongest foe"
+description: "One enemy absorbs the health of other regular enemies, reducing them to 10% HP and charming them That enemy becomes a Rainbow Champion"
 slug: iii-the-empress
 kind: card
 internalKey: Empress
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>III - 女帝 III - The Empress Empress iii-the-empress III - The Empress 我最爱互相残杀的剧本了 吸取房间中敌人的力量，并集中强化最强的敌人 Drain strength from enemies in the room and pour it into the strongest foe</p>
+<p class="wiki-search-index" v-pre>III - 女帝 III - The Empress Empress iii-the-empress III - The Empress 我最爱互相残杀的剧本了 一名敌人吸收其他普通敌人的生命，使它们降至10%生命并被魅惑 这名敌人变为彩虹变异 One enemy absorbs the health of other regular enemies, reducing them to 10% HP and charming them That enemy becomes a Rainbow Champion</p>
 
 <PublicEntry slug="iii-the-empress" lang="en" />
 
@@ -19,20 +19,20 @@ status: reviewed
 
 ## Effects
 
-After use, concentrates the room's enemy power into its strongest foe.
+On use, one enemy absorbs the health of other regular enemies in the room.
 
-After use, many enemies are heavily weakened and turned friendly, while the core enemy is empowered so the pressure of a pack collapses onto fewer targets.
+Those drained enemies drop to about **10%** of their max HP and become charmed. The absorber is empowered and becomes a **Rainbow Champion**.
 
 ## Rules
 
-- **Strongest** pick: if a boss is present, prefer the boss; otherwise pick the enemy with the highest current HP. A target already empowered as a core enemy is preferred to stay the core enemy.
-
-- Drained HP flies into the core enemy as soul shots; the core enemy gains max and current HP and becomes harder to handle.
-- With only one enemy in the room, it only becomes an empowered champion—there is no other drain source.
-- Bosses usually serve as the core enemy; normals are more often the drained side.
+- If a Boss is present, that Boss absorbs health first; otherwise the regular enemy with the highest current HP is chosen. An enemy already empowered by The Empress is preferred to stay the target.
+- Only regular enemies are drained and charmed; other Bosses are not weakened or charmed by this effect.
+- Drained enemies usually fall to about **10%** of their max HP. If they were already below that amount, they are not healed back up.
+- Stolen health flies to the target as soul shots and further raises its HP.
+- With only one usable enemy in the room, there is no drain source; that enemy still becomes a Rainbow Champion.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Weakened non-core enemies keep about **20%** max HP instead of about **10%**.
+Charmed enemies keep about **20%** of max HP instead of **10%**, so they are tougher and less health is transferred to the target.

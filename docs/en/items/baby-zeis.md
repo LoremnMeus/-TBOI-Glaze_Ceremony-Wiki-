@@ -10,24 +10,22 @@ status: reviewed
 
 <PublicEntry slug="baby-zeis" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Baby Zeis sleeps once per floor, then flies to a usable pedestal and copies a real pedestal.**
+**Each floor, Baby Zeis finds an eligible item pedestal and creates a copy of that item on arrival; each familiar can copy once per floor.**
 
-- Starts each floor asleep
-- Wakes on a copyable pedestal and flies to a free target
-- Spawns a real duplicate pedestal on arrival; that baby is done for the floor
-- Resets on the next floor
+At the start of a floor, the familiar is asleep.
 
-## How it triggers
+When an eligible pedestal appears on the floor, it wakes and flies to the target. On arrival, it spawns a real pedestal of the same item nearby.
 
-Automatic when a valid pedestal appears. No active key.
+After copying, that familiar will not trigger again on this floor; it resets on the next floor.
 
-## Multiple copies
+## Extra copies
 
-Each baby has **its own floor progress**. Two babies can each copy a different pedestal once per floor—they will not all pile onto one stand.
+Each familiar tracks whether it has already copied this floor, and prefers pedestals not already claimed by another Baby Zeis.
+
+Multiple familiars can therefore copy different items on the same floor.

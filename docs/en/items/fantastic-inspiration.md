@@ -10,7 +10,6 @@ status: reviewed
 
 <PublicEntry slug="fantastic-inspiration" lang="en" />
 
-
 ## Mechanics
 
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
@@ -23,11 +22,12 @@ About a **60%** chance after clearing a room to spawn an extra reward illusion. 
 
 The lower the character's health, the brighter and more solid the illusion looks. At higher health, approaching it pushes the character away and prevents pickup.
 
-When remaining red, soul, black, bone, and eternal hearts together are extremely low—about half a red or soul heart—touching the illusion solidifies it.
+When health falls to that critically low state, touching the illusion solidifies it.
 
 Illusions may become hearts, coins, keys, bombs, grab bags, or random items, and may also yield rarer rewards such as golden hearts, eternal hearts, golden keys, or golden bombs.
 
 ## Trivia
 
-- Points to *Vernet: Shape of Fantasy* (凡尔纳：幻想之形).
-- In the source story, inspiration is tied to rallying from extremity; this item therefore makes the extra rewards claimable only at extremely low health.
+Inspiration points to *Vernet: Shape of Fantasy* (凡尔纳：幻想之形).
+
+In the source story, Vernet flees into a fantasy world of his own making under the pressure of reality and creation, then finally conquers fear through imagination and faces reality again. This item therefore keeps the extra rewards as illusions first, and only makes them real in extremity.
