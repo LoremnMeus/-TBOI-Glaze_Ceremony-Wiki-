@@ -17,10 +17,12 @@ const KIND_DIR = {
 const SYSTEMS = {
   glaze: { zh: '琉璃', en: 'Glaze' },
   'thoth-cards': { zh: '透特牌', en: 'Thoth Cards' },
+  'special-destinations': { zh: '特殊目的地', en: 'Special Destinations' },
   rainbow: { zh: '彩虹', en: 'Rainbow' },
   'blueprint-air-flight': { zh: '蓝图与机群', en: 'Blueprint & Fleet' },
   'control-hub': { zh: '控制中枢', en: 'Control Hub' },
   'death-certificate-knowledge': { zh: '知识与遐想', en: 'Knowledge & Reverie' },
+  'permanent-effects': { zh: '永久', en: 'Permanent Effects' },
 }
 
 const props = defineProps({
@@ -32,16 +34,26 @@ const { lang } = useData()
 const parsed = computed(() => {
   const raw = (props.name || '').trim()
   const match = raw.match(/^(Item|Trinket|Card|Character|Challenge|Pickup|Slot|System|Wiki)[:/]\s*(.+)$/i)
-  const token = (match ? match[2] : raw).trim()
+  let token = (match ? match[2] : raw).trim()
+  let customLabel = null
+  const pipe = token.indexOf('|')
+  if (pipe >= 0) {
+    customLabel = token.slice(pipe + 1).trim() || null
+    token = token.slice(0, pipe).trim()
+  }
   if (match?.[1]?.toLowerCase() === 'system' && SYSTEMS[token]) {
-    return { row: { kind: 'system', slug: token, internalKey: token, names: SYSTEMS[token] }, token }
+    return {
+      row: { kind: 'system', slug: token, internalKey: token, names: SYSTEMS[token] },
+      token,
+      customLabel,
+    }
   }
   const rows = catalog.entries || []
   const row =
     rows.find((entry) => entry.slug === token) ||
     rows.find((entry) => entry.internalKey === token) ||
     null
-  return { row, token }
+  return { row, token, customLabel }
 })
 
 const href = computed(() => {
@@ -54,6 +66,7 @@ const href = computed(() => {
 
 const label = computed(() => {
   const row = parsed.value.row
+  if (parsed.value.customLabel) return parsed.value.customLabel
   if (!row) return parsed.value.token
   const english = String(lang.value || '').startsWith('en')
   if (english) return row.names?.en || row.names?.zh || row.internalKey

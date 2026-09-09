@@ -63,10 +63,13 @@
 {{Pickup:glaze-heart}}
 {{Pickup:glaze-heart-half}}
 {{System:thoth-cards}}
+{{System:special-destinations|特殊目的地}}
 {{QingPlayer:wq}}
 {{QingCollectible:Gospel}}
 {{Dullize}} {{ThothCard}} {{Seija}}
 ```
+
+`{{System:slug}}` 只能引用 `WikiEntryIcon.vue` 的 `SYSTEMS` 表中已登记的系统页。可用 `|显示名` 覆盖默认中英文标题。
 
 `{{Wiki:gospel}}` 也可以。代码块里的 `{{...}}` 只显示原文，不会当 Vue 解析。
 

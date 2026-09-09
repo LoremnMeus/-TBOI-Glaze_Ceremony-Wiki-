@@ -22,6 +22,7 @@ const startCards = computed(() => [
 const systems = computed(() => [
   { title: english.value ? 'Glaze' : '琉璃', text: english.value ? 'A core content family spanning pickups, items, and more.' : '贯穿掉落物、道具与其他内容的核心系列。', link: '/systems/glaze' },
   { title: english.value ? 'Thoth Cards' : '透特牌', text: english.value ? 'An independent tarot family with upright and reversed faces.' : '拥有正位与逆位的独立塔罗牌体系。', link: '/systems/thoth-cards' },
+  { title: english.value ? 'Special Destinations' : '特殊目的地', text: english.value ? 'Shared rules for destinations outside the normal floor layout.' : '通往楼层地图之外区域的统一目的地规则。', link: '/systems/special-destinations' },
   { title: english.value ? 'Rainbow' : '彩虹', text: english.value ? 'A visual and design family connected by mental states and shared motifs.' : '以精神状态与共同意象相连的视觉和设计分类。', link: '/systems/rainbow' },
   { title: english.value ? 'Blueprint & Fleet' : '蓝图与机群', text: english.value ? 'Build, refit, deploy, and command an independent fleet.' : '制造、改装、编队并指挥独立作战机群。', link: '/systems/blueprint-air-flight' },
   { title: english.value ? 'Control Hub' : '控制中枢', text: english.value ? 'Appoint administrators whose Follies continuously reshape the world.' : '任命管理员，让他们的愚见持续改变世界。', link: '/systems/control-hub' },

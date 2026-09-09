@@ -36,7 +36,10 @@ Do not use `{{Collectible72}}` for Gospel; that number is a **vanilla** collecti
 {{Pickup:glaze-heart}}
 {{Pickup:glaze-heart-half}}
 {{System:thoth-cards}}
+{{System:special-destinations|special destinations}}
 ```
+
+`{{System:slug}}` only resolves systems registered in `WikiEntryIcon.vue`'s `SYSTEMS` map. Use `|display label` to override the default bilingual title.
 
 `{{Wiki:gospel}}` works too.
 
