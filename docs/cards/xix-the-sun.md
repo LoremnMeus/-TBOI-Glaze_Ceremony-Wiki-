@@ -6,7 +6,7 @@ kind: card
 internalKey: Sun
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XIX - 太阳 XIX - The Sun Sun xix-the-sun XIX - The Sun 物皆重临 重新发动本房间此前使用过的其他卡牌 重放3张后生成一张卡牌 Replay other cards previously used in this room After replaying 3 cards, spawn a card</p>
+<p class="wiki-search-index" v-pre>XIX - 太阳 XIX - The Sun Sun xix-the-sun XIX - The Sun 物皆重临 重新发动本房间此前使用过的其他卡牌 若一次重放至少3张卡牌，额外生成1张随机卡牌 Replay other cards previously used in this room If at least 3 cards are replayed at once, spawn 1 random card</p>
 
 <PublicEntry slug="xix-the-sun" lang="zh" />
 
@@ -17,16 +17,16 @@ status: reviewed
 
 ## 效果
 
-使用后，会重新发动**本房间此前使用过的其他卡牌**。
+使用后，依次重新发动本房间此前使用过的所有其他卡牌。
 
-本卡自身不会被写入历史，因此不会因为自己的重放形成直接无限循环。被本卡模拟发动的其他卡牌，则可以重新写入本房间历史，因此之后再次使用时仍可能重放到它们。
+「太阳」只会重放在本房间中实际使用过的卡牌；由其他效果额外触发的卡牌不会被记录。
 
-## 奖励
+每次使用「太阳」后，已经重放过的卡牌记录都会清空，需要重新使用卡牌才能再次积累。
 
-计数按重放次数累计，换房后清空。
+如果一次使用「太阳」重放了至少 **3 张卡牌**，额外生成 **1 张随机卡牌**。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-累计重放达到 **10 次**时额外生成一件道具（普通达到 3 次时仍生成一张随机卡牌）。
+如果一次重放了至少 **10 张卡牌**，额外生成 **1 件道具**。

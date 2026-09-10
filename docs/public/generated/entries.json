@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-10T04:16:32Z",
+  "generatedAt": "2026-09-10T04:51:23Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -24618,8 +24618,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{Timer}} 30秒内，击杀敌人按强度抽取1~3份彩虹颜料#每3份颜料合成为1个随机基础掉落",
-        "en": "{{Timer}} For 30s, kills yield 1-3 rainbow pigments based on enemy strength#Every 3 pigments craft a random basic pickup"
+        "zh": "{{Timer}} 30秒内，击杀敌人会掉落彩虹颜料#每3份颜料合成为1个随机基础掉落",
+        "en": "{{Timer}} For 30s, defeated enemies drop rainbow pigments#Every 3 pigments combine into 1 random basic pickup"
       },
       "seijaBuff": {
         "zh": "",
@@ -24723,8 +24723,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{DevilRoom}} 持有时可在致命伤害时复活，并前往恶魔房#主动使用则立即献出生命并触发该效果",
-        "en": "{{DevilRoom}} While held, fatal damage revives you into a Devil Room#Using it actively spends your life to trigger the same effect"
+        "zh": "{{DevilRoom}} 持有时，死亡后在恶魔房复活#使用后立即死亡并触发此次复活",
+        "en": "{{DevilRoom}} While held, revive in a Devil Room after death#Using it kills you immediately and triggers this revival"
       },
       "seijaBuff": {
         "zh": "",
@@ -24747,8 +24747,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "主动使用时保留此卡",
-        "en": "Keep this card when used actively"
+        "zh": "主动使用后返还此卡",
+        "en": "Returns this card after using it"
       },
       "icon": "/generated/images/xv-the-devil.png",
       "thumb32": "/generated/images/xv-the-devil_32.webp",
@@ -24951,8 +24951,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "本层第一次真正使用持有的卡牌时，星辰提供大量生命回复#之后再次使用星辰只回复半颗红心",
-        "en": "The first real card use from your slots this floor grants a large heal#Later uses of The Star only restore half a red heart"
+        "zh": "若此卡为本层使用的第一张卡牌，生成{{Heart}}红心、{{SoulHeart}}魂心与{{EternalHeart}}永恒心各1个#否则，生成1个{{HalfHeart}}半红心",
+        "en": "If this is the first card used on the floor, spawn 1 {{Heart}} Red Heart, 1 {{SoulHeart}} Soul Heart, and 1 {{EternalHeart}} Eternal Heart#Otherwise, spawn 1 {{HalfHeart}} Half Red Heart"
       },
       "seijaBuff": {
         "zh": "",
@@ -24975,8 +24975,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "首次满足时额外生成混合心、黑心与骨心",
-        "en": "On the first qualifying use, also spawn blended, black, and bone hearts"
+        "zh": "首次满足条件时，额外生成{{BlendedHeart}}混合心、{{BlackHeart}}黑心与{{BoneHeart}}骨心各1个",
+        "en": "On a qualifying first use, also spawn 1 {{BlendedHeart}} Blended Heart, 1 {{BlackHeart}} Black Heart, and 1 {{BoneHeart}} Bone Heart"
       },
       "icon": "/generated/images/xvii-the-star.png",
       "thumb32": "/generated/images/xvii-the-star_32.webp",
@@ -25197,8 +25197,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "重新发动本房间此前使用过的其他卡牌#重放3张后生成一张卡牌",
-        "en": "Replay other cards previously used in this room#After replaying 3 cards, spawn a card"
+        "zh": "重新发动本房间此前使用过的其他卡牌#若一次重放至少3张卡牌，额外生成1张随机卡牌",
+        "en": "Replay other cards previously used in this room#If at least 3 cards are replayed at once, spawn 1 random card"
       },
       "seijaBuff": {
         "zh": "",
@@ -25221,8 +25221,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "重放10张后额外生成一件道具",
-        "en": "After replaying 10 cards, also spawn an item"
+        "zh": "若一次重放至少10张卡牌，额外生成1件道具",
+        "en": "If at least 10 cards are replayed at once, also spawn 1 collectible"
       },
       "icon": "/generated/images/xix-the-sun.png",
       "thumb32": "/generated/images/xix-the-sun_32.webp",

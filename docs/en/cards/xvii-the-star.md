@@ -1,12 +1,12 @@
 ---
 title: XVII - The Star
-description: "The first real card use from your slots this floor grants a large heal Later uses of The Star only restore half a red heart"
+description: "If this is the first card used on the floor, spawn 1 Red Heart, 1 Soul Heart, and 1 Eternal Heart Otherwise, spawn 1 Half Red Heart"
 slug: xvii-the-star
 kind: card
 internalKey: Star
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 本层第一次真正使用持有的卡牌时，星辰提供大量生命回复 之后再次使用星辰只回复半颗红心 The first real card use from your slots this floor grants a large heal Later uses of The Star only restore half a red heart</p>
+<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 若此卡为本层使用的第一张卡牌，生成 红心、 魂心与永恒之心永恒心各1个 否则，生成1个 半红心 If this is the first card used on the floor, spawn 1 Red Heart, 1 Soul Heart, and 1 Eternal Heart Otherwise, spawn 1 Half Red Heart</p>
 
 <PublicEntry slug="xvii-the-star" lang="en" />
 
@@ -16,20 +16,25 @@ status: reviewed
 
 
 
+
 ## Effects
 
-Cares about this floor's first **true card use from the pocket slot**.
+If The Star is the **first card used on the current floor**, it spawns:
 
-If this floor has no record of a held card truly used yet, using it spawns a large heart package: full red hearts, soul hearts, and eternal hearts.
+* 1 {{Heart}} Red Heart;
+* 1 {{SoulHeart}} Soul Heart;
+* 1 {{EternalHeart}} Eternal Heart.
 
-Once a true pocket-slot card use has happened on this floor (including this card's own first use), later uses only spawn half red hearts.
+If another card has already been used on the floor, it instead spawns only **1 Half Red Heart**.
 
-## Real use
-
-Cards simulated by effects such as {{Item:book-of-thoth}} do not count as a true pocket-slot use, so they do not spend this card's first large healing window early.
+Only cards actually used from the player's pocket slot count toward the floor's first card use. Cards triggered by other effects do not consume this opportunity.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-On a first no-history use, also spawns mixed hearts, {{BlackHeart}}, and {{BoneHeart}}.
+If The Star qualifies as the floor's first card use, it also spawns:
+
+* 1 {{BlendedHeart}} Blended Heart;
+* 1 {{BlackHeart}} Black Heart;
+* 1 {{BoneHeart}} Bone Heart.

@@ -16,24 +16,17 @@ status: reviewed
 
 
 
+
 ## Effects
 
-After use, movable obstacles in the current room lift into the air, then slam into enemies one after another. Lifted obstacles become real attacks.
+When used, certain obstacles in the current room are lifted into the air and then sent crashing into enemies one after another.
 
-## Liftable obstacles
+Most rocks, poop, TNT, and similar obstacles can be lifted. They deal damage based on the player's current damage, while some sturdier obstacles deal increased damage.
 
-Common liftable kinds include:
-
-- Rocks (including spiked and golden rocks);
-- Pillar / reinforced rocks (higher collision damage);
-- Poop;
-- TNT;
-- Some lock-style obstacles.
-
-Slam damage roughly follows the player's current damage; some reinforced obstacles hit harder on contact.
+Lifted obstacles are removed from their original positions.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Obstacles affected by the smash restore when you leave the room.
+Lifted obstacles are restored after leaving the room.

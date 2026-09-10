@@ -6,7 +6,7 @@ kind: card
 internalKey: Star
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 本层第一次真正使用持有的卡牌时，星辰提供大量生命回复 之后再次使用星辰只回复半颗红心 The first real card use from your slots this floor grants a large heal Later uses of The Star only restore half a red heart</p>
+<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 若此卡为本层使用的第一张卡牌，生成 红心、 魂心与永恒之心永恒心各1个 否则，生成1个 半红心 If this is the first card used on the floor, spawn 1 Red Heart, 1 Soul Heart, and 1 Eternal Heart Otherwise, spawn 1 Half Red Heart</p>
 
 <PublicEntry slug="xvii-the-star" lang="zh" />
 
@@ -17,18 +17,22 @@ status: reviewed
 
 ## 效果
 
-关注的是本层第一次**真正从卡槽发动卡牌**的时刻。
+如果「星坠」是本层**使用的第一张卡牌**，会生成：
 
-若本层还没有任何“真正使用过持有卡”的记录，使用后会生成大量心类掉落：{{Heart}} 全红心、{{SoulHeart}} 与 {{EternalHeart}}。
+* 1 个 {{Heart}} 红心；
+* 1 个 {{SoulHeart}} 魂心；
+* 1 个 {{EternalHeart}} 永恒心。
 
-本层一旦已经有过真正的卡槽用卡（包括本卡自己的第一次），之后再使用就只生成半红心。
+如果本层此前已经使用过其他卡牌，则只生成 **1 个半红心**。
 
-## 真正使用
-
-由 {{Item:book-of-thoth}} 等效果模拟发动的卡牌，不视为玩家真正从卡槽使用，因此不会提前消耗本卡的首次大型回复窗口。
+只有玩家实际从卡牌栏使用的卡牌才会计入本层的首次使用；由其他效果额外触发的卡牌不会占用这个机会。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-若本层尚无「真正使用过持有卡」的记录，首次还会额外生成混合心、{{BlackHeart}} 与 {{BoneHeart}}。
+若「星坠」满足首次使用条件，还会额外生成：
+
+* 1 个 {{BlendedHeart}} 混合心；
+* 1 个 {{BlackHeart}} 黑心；
+* 1 个 {{BoneHeart}} 骨心。

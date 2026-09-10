@@ -18,14 +18,12 @@ status: reviewed
 
 ## Effects
 
-While holding this card, taking damage has about a **5%** chance to spawn an {{EternalHeart}}.
+While held, taking damage has about a **5%** chance to spawn an {{EternalHeart}}.
 
-Active use spawns a Confessional.
-
-One damage event rolls once. Spawned Confessionals follow vanilla Confessional interaction.
+Using the card spawns a Confessional.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Spawns **2** confessionals instead of **1**.
+Using the card spawns one additional Confessional.

@@ -1,12 +1,12 @@
 ---
 title: XIV - Art
-description: "For 30s, kills yield 1-3 rainbow pigments based on enemy strength Every 3 pigments craft a random basic pickup"
+description: "For 30s, defeated enemies drop rainbow pigments Every 3 pigments combine into 1 random basic pickup"
 slug: xiv-art
 kind: card
 internalKey: Art
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XIV - 艺术 XIV - Art Art xiv-art XIV - Art 超绝!豪快!闷绝!优雅!超级!究极超级! 30秒内，击杀敌人按强度抽取1~3份彩虹颜料 每3份颜料合成为1个随机基础掉落 For 30s, kills yield 1-3 rainbow pigments based on enemy strength Every 3 pigments craft a random basic pickup</p>
+<p class="wiki-search-index" v-pre>XIV - 艺术 XIV - Art Art xiv-art XIV - Art 超绝!豪快!闷绝!优雅!超级!究极超级! 30秒内，击杀敌人会掉落彩虹颜料 每3份颜料合成为1个随机基础掉落 For 30s, defeated enemies drop rainbow pigments Every 3 pigments combine into 1 random basic pickup</p>
 
 <PublicEntry slug="xiv-art" lang="en" />
 
@@ -16,16 +16,17 @@ status: reviewed
 
 
 
+
 ## Effects
 
-After use, enter a painting window: about **60 seconds**.
+After use, the effect lasts for **30 seconds**. Defeated enemies drop rainbow pigments: normal enemies drop **1**, champions drop **2**, and bosses drop **3**.
 
-Kills during that time drop rainbow paint. Normals drop 1, elites more, bosses up to 3 (a given boss settles once).
+Every **3 pigments** combine into **1 random basic pickup**: a heart, coin, bomb, key, or battery.
 
-Every **3** paints synthesize one basic pickup (heart, coin, bomb, key, or battery). Leftover paint fades quickly when time ends.
+Any pigments that have not finished combining disappear when the effect ends.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Painting time lasts **90 seconds** instead of **60**.
+The duration is increased from **30 seconds** to **45 seconds**.

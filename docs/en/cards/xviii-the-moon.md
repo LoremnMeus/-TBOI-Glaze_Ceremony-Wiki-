@@ -16,14 +16,13 @@ status: reviewed
 
 
 
+
 ## Effects
 
-After use, spawns a Moonlight equivalent to {{Collectible:589}}.
-
-The Moonlight follows vanilla Moonlight lighting and room interaction.
+When used, spawns a Moonlight identical to {{Collectible:589}}.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-When the moonlight fades, leaves a portal to this floor's {{SecretRoom}}.
+When this Moonlight disappears, it leaves behind a portal to the floor's Secret Room.

@@ -1,12 +1,12 @@
 ---
 title: XV - The Devil
-description: "While held, fatal damage revives you into a Devil Room Using it actively spends your life to trigger the same effect"
+description: "While held, revive in a Devil Room after death Using it kills you immediately and triggers this revival"
 slug: xv-the-devil
 kind: card
 internalKey: Devil
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XV - 邪心 XV - The Devil Devil xv-the-devil XV - The Devil 灵魂算子：重生 持有时可在致命伤害时复活，并前往恶魔房 主动使用则立即献出生命并触发该效果 While held, fatal damage revives you into a Devil Room Using it actively spends your life to trigger the same effect</p>
+<p class="wiki-search-index" v-pre>XV - 邪心 XV - The Devil Devil xv-the-devil XV - The Devil 灵魂算子：重生 持有时，死亡后在恶魔房复活 使用后立即死亡并触发此次复活 While held, revive in a Devil Room after death Using it kills you immediately and triggers this revival</p>
 
 <PublicEntry slug="xv-the-devil" lang="en" />
 
@@ -16,21 +16,17 @@ status: reviewed
 
 
 
+
 ## Effects
 
-Works both as an active “offer your life” use and, while held, as a death insurance.
+While holding The Devil, dying consumes the card and immediately revives the player, sending them to a {{DevilRoom}}.
 
-When trigger conditions are met, you are pulled out of a lethal state and sent to a {{DevilRoom}}.
+The card can also be used directly. Doing so immediately kills the player and triggers the same revival, sending them straight to a {{DevilRoom}}.
 
-## Revival
-
-- On a true lethal hit, as long as you still hold this card (or just entered the offer-life flow via active use), {{Card:xv-the-devil}} in your pocket is consumed and you revive into a {{DevilRoom}}.
-- Active use plays out first, then forces the same revival chain.
-
-- Whether it can happen again in a run depends on holding or obtaining the card again.
+The Devil can therefore be kept as a one-use revival or used deliberately to enter a Devil Room.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-After a voluntary sacrifice trigger, {{Card:xv-the-devil}} returns to your hand.
+After using The Devil directly and reviving, the card is returned to the player.
