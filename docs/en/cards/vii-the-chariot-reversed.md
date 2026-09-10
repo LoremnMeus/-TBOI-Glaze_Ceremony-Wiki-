@@ -1,12 +1,12 @@
 ---
 title: "VII - The Chariot?"
-description: "Briefly become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge"
+description: "Hold up the card and choose a direction to launch yourself Invincible in flight; heavily damages enemies you ram and smashes obstacles Crashing into a wall causes a powerful explos"
 slug: vii-the-chariot-reversed
 kind: card
 internalKey: Chariot_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 前路只待撞碎 短暂化身战车高速冲锋，期间无敌且只能有限转向 撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋 Briefly become a chariot and charge at high speed: invincible, limited steering Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge</p>
+<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 前路只待撞碎 举起卡牌并选择方向，将自己发射出去 飞行期间无敌，对撞到的敌人造成巨额伤害并摧毁障碍 撞墙时引发猛烈爆炸并停止 Hold up the card and choose a direction to launch yourself Invincible in flight; heavily damages enemies you ram and smashes obstacles Crashing into a wall causes a powerful explosion and ends the flight</p>
 
 <PublicEntry slug="vii-the-chariot-reversed" lang="en" />
 
@@ -15,27 +15,27 @@ status: reviewed
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 
-
-
 ## Effects
 
-After use, the player immediately enters a short high-speed charge lasting up to about **5.5 seconds**.
+When used, the player holds up the card and waits for a launch direction.
 
-During the charge:
+After a direction is chosen, the player is launched at high speed.
 
-- The player is invincible;
-- Direction can only be adjusted in a limited way;
-- Hitting enemies deals heavy damage and knockback (about **20×** current damage);
-- Breakable obstacles can be smashed.
+While in flight:
 
-## Wall collisions
+- The player is invincible.
+- The flight direction is mostly fixed and normal movement is disabled.
+- Ramming enemies deals heavy damage and knockback.
+- Destructible obstacles in the path are smashed through.
 
-Normally, hitting an impassable wall causes a large explosion that does not hurt the player and ends the charge at once.
+Crashing into an impassable wall ends the flight and causes a powerful explosion.
 
-Sustained contact with the same target does not re-apply damage every frame.
+Normally, the flight continues until the player crashes into a wall.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-The first wall hit explodes and bounces; the second wall hit finally stops it.
+The first wall crash still causes an explosion, but the player bounces back in the opposite direction and continues flying.
+
+The flight ends after the second wall crash.

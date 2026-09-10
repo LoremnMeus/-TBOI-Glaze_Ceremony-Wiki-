@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-10T06:26:26Z",
+  "generatedAt": "2026-09-10T07:05:10Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -26247,8 +26247,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "短暂化身战车高速冲锋，期间无敌且只能有限转向#撞击敌人造成高额伤害，撞墙时发生安全大爆炸并结束冲锋",
-        "en": "Briefly become a chariot and charge at high speed: invincible, limited steering#Ramming foes deals heavy damage; hitting a wall causes a safe blast and ends the charge"
+        "zh": "举起卡牌并选择方向，将自己发射出去#飞行期间无敌，对撞到的敌人造成巨额伤害并摧毁障碍#撞墙时引发猛烈爆炸并停止",
+        "en": "Hold up the card and choose a direction to launch yourself#Invincible in flight; heavily damages enemies you ram and smashes obstacles#Crashing into a wall causes a powerful explosion and ends the flight"
       },
       "seijaBuff": {
         "zh": "",
@@ -26271,8 +26271,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "第一次撞墙后反弹并继续冲锋",
-        "en": "Bounce once on the first wall hit and keep charging"
+        "zh": "第一次撞墙后会反弹并继续飞行",
+        "en": "The first wall crash makes you bounce back and keep flying"
       },
       "icon": "/generated/images/vii-the-chariot-reversed.png",
       "thumb32": "/generated/images/vii-the-chariot-reversed_32.webp",
