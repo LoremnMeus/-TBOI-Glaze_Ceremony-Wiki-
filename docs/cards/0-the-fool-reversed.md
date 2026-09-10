@@ -6,7 +6,7 @@ kind: card
 internalKey: Fool_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>0 - 旅者? 0 - The Fool? Fool_r 0-the-fool-reversed 0 - The Fool? 所知者稀 从本房间道具池中预知一个道具，下一个生成的道具改为和它一起多选一 Predict an item from the item pool in this room. The next generated item can be choosed with it</p>
+<p class="wiki-search-index" v-pre>0 - 旅者? 0 - The Fool? Fool_r 0-the-fool-reversed 0 - The Fool? 所知者稀 从当前房间道具池预知1件道具 下一件出现的道具会与其组成多选一 Foretell 1 item from the current room&#x27;s item pool The next collectible to appear will become a choice with it</p>
 
 <PublicEntry slug="0-the-fool-reversed" lang="zh" />
 
@@ -17,20 +17,18 @@ status: reviewed
 
 ## 效果
 
-使用后，从当前房间的道具池中预知 1 件道具。
+使用后，从当前房间的道具池中预知 **1 件道具**。
 
-下一件新出现于地面的道具出现时，预知道具会同时出现在旁边，并与原本道具组成一次互斥选择；玩家只能取得其中一个。
+之后出现下一件新的道具时，预知道具会同时出现在旁边，与原本道具组成一次 **多选一**；选择其中一件后，其余道具都会消失。
 
-如果原本道具带有价格，预知道具会使用相同价格。
+预知可以跨房间保留，直到有新的道具出现。
 
-## 规则
+如果触发的道具带有价格，预知道具会使用相同价格。
 
-- 预知会跨房间保留，直到下一件新出现于地面的道具触发。
-- 已经存在于地面的道具不会受到影响。
-- 若使用时无法从当前道具池得到有效候选，则不会记录预知道具。
+已经存在于房间中的道具不会触发预知。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-一次预知 3 件不同道具；触发时，它们会与原本道具共同组成一次互斥选择。
+改为一次预知 **3 件道具**。触发时，3 件预知道具会与原本道具共同组成一次多选一。

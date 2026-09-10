@@ -6,7 +6,7 @@ kind: card
 internalKey: Priestess_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ 召来妈妈之手抓住一个敌人 普通情况下会将其带走 Call Mom&#x27;s Hand to grab an enemy Normally takes it away</p>
+<p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ 30秒内，攻击时发射会追踪敌人的标记 标记命中后，妈妈之手会抓住敌人约3秒 For 30s, attacking fires a mark that homes toward enemies On hit, Mom&#x27;s Hand grabs the enemy for about 3 seconds</p>
 
 <PublicEntry slug="ii-the-high-priestess-reversed" lang="zh" />
 
@@ -17,18 +17,18 @@ status: reviewed
 
 ## 效果
 
-使用后召来妈妈之手抓取合适的敌人。效果会优先寻找当前仍可被抓取的目标；若原目标在手掌到达前消失或失效，会重新寻找新的合法目标。
+使用后持续 **30 秒**。
 
-普通情况下，被抓住的敌人会先被短暂冻结，再带离战斗。若在妈妈之手落下前离开房间，本次手掌不会跟随玩家进入新房间。
+效果期间，攻击时会发射会追踪敌人的标记。标记命中后，妈妈之手会落下抓住该敌人，使其在约 **3 秒**内无法行动。
 
-## 规则
+抓取结束后，敌人会被放开并恢复行动。
 
-- 没有合法目标时，妈妈之手会自行离开。
+Boss 同样可以被抓住，但只会受到上述控制效果。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-被妈妈之手抓走的非 Boss 敌人会以 {{Charm}} 友方身份重新落回当前房间；Boss 仍会被直接带走。
+被妈妈之手抓住的非 Boss 敌人会在抓取结束后被转化为友军，并可以跟随玩家进入其他房间。
 
-被转化的友方敌人只在当前房间内帮助玩家。
+Boss 不会被转化，仍只会被控制约 **3 秒**。

@@ -17,9 +17,9 @@ status: reviewed
 
 ## Effects
 
-After use, rewritable items still on this floor respawn into an **unknown, paid** state. They cannot normally be identified before purchase.
+When used, unclaimed items on this floor respawn into an **unknown, paid** state. They cannot be identified before purchase.
 
-Items already taken are not reclaimed. Quest-marked story / key pedestals are not rewritten. Ordinary pedestals that appear later on this floor also enter this state until the next floor.
+The effect lasts until you leave the current floor; new items that appear during that time are affected as well.
 
 ## Price and recognition
 

@@ -1,12 +1,12 @@
 ---
 title: "II - The High Priestess?"
-description: "Call Mom's Hand to grab an enemy Normally takes it away"
+description: "For 30s, attacking fires a mark that homes toward enemies On hit, Mom's Hand grabs the enemy for about 3 seconds"
 slug: ii-the-high-priestess-reversed
 kind: card
 internalKey: Priestess_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ 召来妈妈之手抓住一个敌人 普通情况下会将其带走 Call Mom&#x27;s Hand to grab an enemy Normally takes it away</p>
+<p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ 30秒内，攻击时发射会追踪敌人的标记 标记命中后，妈妈之手会抓住敌人约3秒 For 30s, attacking fires a mark that homes toward enemies On hit, Mom&#x27;s Hand grabs the enemy for about 3 seconds</p>
 
 <PublicEntry slug="ii-the-high-priestess-reversed" lang="en" />
 
@@ -17,18 +17,18 @@ status: reviewed
 
 ## Effects
 
-After use, Mom's Hand grabs a suitable enemy. It prefers targets that are still grabbable; if the original target vanishes or becomes invalid before the hand arrives, it retargets another legal enemy.
+Using the card lasts for **30 seconds**.
 
-Normally, a grabbed enemy is briefly frozen, then taken out of the fight. If you leave the room before Mom's Hand lands, that hand does not follow into the new room.
+While active, attacking fires a mark that homes toward enemies. When a mark hits, Mom's Hand descends and grabs that enemy, preventing it from acting for about **3 seconds**.
 
-## Rules
+Afterward, the enemy is released and resumes acting normally.
 
-- With no legal target, Mom's Hand leaves on its own.
+Bosses can also be grabbed, but only receive the normal crowd-control effect.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Non-boss enemies taken by Mom's Hand return as {{Charm}} friendlies in the current room; bosses are still taken away.
+Non-boss enemies grabbed by Mom's Hand become friendly when released and can follow the player into other rooms.
 
-Converted friendlies help only in the current room.
+Bosses are not converted and are still only disabled for about **3 seconds**.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-10T04:51:23Z",
+  "generatedAt": "2026-09-10T05:28:06Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -25512,8 +25512,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "从本房间道具池中预知一个道具，下一个生成的道具改为和它一起多选一",
-        "en": "Predict an item from the item pool in this room. The next generated item can be choosed with it"
+        "zh": "从当前房间道具池预知1件道具#下一件出现的道具会与其组成多选一",
+        "en": "Foretell 1 item from the current room's item pool#The next collectible to appear will become a choice with it"
       },
       "seijaBuff": {
         "zh": "",
@@ -25536,8 +25536,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "预知三个道具",
-        "en": "Predict 3 items"
+        "zh": "改为预知3件道具",
+        "en": "Foretell 3 items instead"
       },
       "icon": "/generated/images/0-the-fool-reversed.png",
       "thumb32": "/generated/images/0-the-fool-reversed_32.webp",
@@ -25722,8 +25722,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "召来妈妈之手抓住一个敌人#普通情况下会将其带走",
-        "en": "Call Mom's Hand to grab an enemy#Normally takes it away"
+        "zh": "{{Timer}} 30秒内，攻击时发射会追踪敌人的标记#标记命中后，妈妈之手会抓住敌人约3秒",
+        "en": "{{Timer}} For 30s, attacking fires a mark that homes toward enemies#On hit, Mom's Hand grabs the enemy for about 3 seconds"
       },
       "seijaBuff": {
         "zh": "",
@@ -25746,8 +25746,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "被抓住的敌人会成为友军",
-        "en": "The grabbed enemy becomes friendly"
+        "zh": "被抓住的非Boss敌人会转化为友军",
+        "en": "Grabbed non-boss enemies become friendly"
       },
       "icon": "/generated/images/ii-the-high-priestess-reversed.png",
       "thumb32": "/generated/images/ii-the-high-priestess-reversed_32.webp",

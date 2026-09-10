@@ -21,9 +21,11 @@ After use, extinguished ordinary fires in the current room are rekindled, and ne
 
 Spawns avoid positions near the player.
 
-## Extinguish
+## Extinguishing Fires
 
-Marked fires extinguish automatically when the player approaches. No attack is required.
+Fires created or reignited by this card are automatically extinguished when the player approaches them.
+
+This does not grant immunity to fire damage. Approaching too quickly can still cause damage before the fire is extinguished.
 
 ## Fire variants
 

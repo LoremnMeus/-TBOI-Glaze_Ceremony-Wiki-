@@ -1,12 +1,12 @@
 ---
 title: "0 - The Fool?"
-description: "Predict an item from the item pool in this room. The next generated item can be choosed with it"
+description: "Foretell 1 item from the current room's item pool The next collectible to appear will become a choice with it"
 slug: 0-the-fool-reversed
 kind: card
 internalKey: Fool_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>0 - 旅者? 0 - The Fool? Fool_r 0-the-fool-reversed 0 - The Fool? 所知者稀 从本房间道具池中预知一个道具，下一个生成的道具改为和它一起多选一 Predict an item from the item pool in this room. The next generated item can be choosed with it</p>
+<p class="wiki-search-index" v-pre>0 - 旅者? 0 - The Fool? Fool_r 0-the-fool-reversed 0 - The Fool? 所知者稀 从当前房间道具池预知1件道具 下一件出现的道具会与其组成多选一 Foretell 1 item from the current room&#x27;s item pool The next collectible to appear will become a choice with it</p>
 
 <PublicEntry slug="0-the-fool-reversed" lang="en" />
 
@@ -17,20 +17,18 @@ status: reviewed
 
 ## Effects
 
-After use, foretell 1 item from the current room's item pool.
+When used, foretell **1 item** from the current room's item pool.
 
-When the next new collectible appears on the ground, the foretold item appears beside it as a mutual-exclusion choice; you may take only one.
+The next time a new collectible appears, the foretold item appears beside it and joins it as a **single choice group**. Taking one causes the others to disappear.
 
-If the original item has a price, the foretold item uses the same price.
+The foresight persists across rooms until a new collectible appears.
 
-## Rules
+If the triggering collectible has a price, the foretold item uses the same price.
 
-- Foresight persists across rooms until the next new collectible on the ground triggers it.
-- Collectibles already on the ground are unaffected.
-- If no valid pool candidate can be drawn on use, no foresight is recorded.
+Collectibles that were already present in the room do not trigger the foresight.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Foretell 3 different items at once; on trigger they join the original item as one mutual-exclusion choice.
+Foretell **3 items** instead. When triggered, all 3 foretold items join the original collectible as one choice group.
