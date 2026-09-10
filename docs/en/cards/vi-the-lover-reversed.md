@@ -1,12 +1,12 @@
 ---
 title: "VI - The Lover?"
-description: "Spawn 1 passive per quality 0-4; pick 1 to become that quality's beloved Other passives of the same quality become item wisps Future items of that quality become the beloved +1 bro"
+description: "Spawn 1 passive item of each quality 0-4; choose 1 to become that quality's beloved Other passive items of the same quality are rejected into corresponding item wisps Future items"
 slug: vi-the-lover-reversed
 kind: card
 internalKey: Lover_r
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VI - 爱? VI - The Lover? Lover_r vi-the-lover-reversed VI - The Lover? 直到血流成河 品质0-4各生成1件被动道具，选择其中1件成为该品质的「爱人」 同品质的其它被动道具会被排斥为对应道具魂火 之后出现的该品质道具变为爱人 失去或替换爱人时+1碎心 Spawn 1 passive per quality 0-4; pick 1 to become that quality&#x27;s beloved Other passives of the same quality become item wisps Future items of that quality become the beloved +1 broken heart if the beloved is lost or replaced</p>
+<p class="wiki-search-index" v-pre>VI - 爱? VI - The Lover? Lover_r vi-the-lover-reversed VI - The Lover? 直到血流成河 品质0-4各生成1件被动道具，选择其中1件成为该品质的「爱人」 同品质的其它被动道具会被排斥为对应道具魂火 之后出现的该品质道具会变为「爱人」 背叛爱人或利用候选时会受到惩罚 Spawn 1 passive item of each quality 0-4; choose 1 to become that quality&#x27;s beloved Other passive items of the same quality are rejected into corresponding item wisps Future items of that quality become the beloved Betraying a beloved or exploiting a candidate causes punishment</p>
 
 <PublicEntry slug="vi-the-lover-reversed" lang="en" />
 
@@ -15,45 +15,49 @@ status: drafted
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 
-
-
 ## Effects
 
-After use, spawns **1 passive item per quality 0–4**, for **5** total, as one exclusive choice.
+When used, spawns 1 passive item of each quality from **0 to 4**, for a total of 5 items, as a single choice.
 
-The item you pick becomes that quality's **beloved**.
+Taking one of them makes it the **beloved** of its quality.
 
-For example, if you pick a quality-3 item, every later quality-3 item is bound to that beloved.
+For example, choosing a quality 3 item makes it the beloved of quality 3.
 
-## Beloved
+## Beloveds
 
-Each quality can have at most one current beloved.
+Each quality can have its own beloved.
 
-Once chosen:
+Once a beloved has been chosen:
 
-- Other passive items of the same quality you hold or later gain are removed and become matching item wisps;
-- Future items of that quality are replaced with the current beloved.
+- Other passive items of the same quality that you already own or later obtain are removed and converted into their corresponding item wisps.
+- Future items of that quality become that quality's beloved.
 
-If you hold multiple copies of the same rejected item, each copy becomes its own wisp.
-
-Qualities are independent: a quality-3 beloved does not affect qualities 0, 1, 2, or 4.
+Different qualities can therefore have different beloveds at the same time.
 
 ## Betrayal
 
-If the beloved is lost or replaced, or you choose a new beloved for the same quality, you gain **1 {{BrokenHeart}} broken heart**.
+Beloveds do not accept you choosing new beloveds.
 
-When you normally take one candidate from this exclusive group, the other candidates vanish — that is **not** betrayal.
+If you choose a new beloved while already having others, each of your existing different beloveds considers it a betrayal and gives you **1 {{BrokenHeart}} broken heart**.
 
-## Candidate pool
+## Exploiting Candidates
 
-Initial candidates are drawn only from passives that can spawn normally.
+The candidates created by this card also refuse to be exploited.
 
-Active items and some special/non-spawnable items are excluded.
+If a candidate is changed, replaced, or otherwise removed abnormally before you make the normal choice, it is considered exploitation and gives you **1 {{BrokenHeart}} broken heart**.
+
+The other candidates disappearing normally after you take one item from the choice does not trigger this penalty.
+
+## Candidate Pool
+
+Only passive items can appear as candidates.
+
+Active items and certain special or normally unobtainable items are excluded.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Spawns **2** candidates per quality (**10** total).
+Each quality spawns **2 candidates** instead, for a total of 10 items.
 
-They still form one exclusive choice; you can only keep **1**.
+They still form a single choice, so only 1 item can ultimately be taken.

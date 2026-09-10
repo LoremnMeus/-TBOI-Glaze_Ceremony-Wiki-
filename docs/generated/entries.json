@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-10T05:28:06Z",
+  "generatedAt": "2026-09-10T06:26:26Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -25932,8 +25932,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "召唤一名Boss与你战斗#击败后，它会作为友军跟随本层",
-        "en": "Summon a Boss to fight#After defeat, it follows as a friendly ally for the floor"
+        "zh": "召唤一个Boss并封锁房间#击败后，该Boss会复活为友军并持续跟随玩家",
+        "en": "Summon a boss and seal the room#After being defeated, it returns as a friendly ally and continues to follow you"
       },
       "seijaBuff": {
         "zh": "",
@@ -25956,8 +25956,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "召唤更强的Boss",
-        "en": "Summon a stronger Boss"
+        "zh": "不会召唤较弱的Boss",
+        "en": "Excludes weaker bosses from the summon pool"
       },
       "icon": "/generated/images/iv-the-emperor-reversed.png",
       "thumb32": "/generated/images/iv-the-emperor-reversed_32.webp",
@@ -26037,8 +26037,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{AngelRoom}} 献祭你仍持有的、从天使房获得的道具#{{DevilRoom}} 每献祭1件，生成1件恶魔房道具",
-        "en": "{{AngelRoom}} Sacrifice Angel-Room items you still hold#{{DevilRoom}} Each sacrifice spawns 1 Devil Room item"
+        "zh": "{{AngelRoom}} 献祭所有仍持有的、在天使房取得的道具#{{DevilRoom}} 每献祭1件，生成1件恶魔房道具",
+        "en": "{{AngelRoom}} Sacrifice all items you still hold that were obtained in Angel Rooms#{{DevilRoom}} Each sacrificed item spawns 1 Devil Room item"
       },
       "seijaBuff": {
         "zh": "",
@@ -26062,7 +26062,7 @@
       },
       "tarotClothBuffs": {
         "zh": "被献祭的道具额外留下对应魂火",
-        "en": "Also leave an item wisp for each sacrificed collectible"
+        "en": "Sacrificed items also leave behind their corresponding wisps"
       },
       "icon": "/generated/images/v-the-hierophant-reversed.png",
       "thumb32": "/generated/images/v-the-hierophant-reversed_32.webp",
@@ -26142,8 +26142,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "品质0-4各生成1件被动道具，选择其中1件成为该品质的「爱人」#同品质的其它被动道具会被排斥为对应道具魂火#之后出现的该品质道具变为爱人#{{BrokenHeart}} 失去或替换爱人时+1碎心",
-        "en": "Spawn 1 passive per quality 0-4; pick 1 to become that quality's beloved#Other passives of the same quality become item wisps#Future items of that quality become the beloved#{{BrokenHeart}} +1 broken heart if the beloved is lost or replaced"
+        "zh": "品质0-4各生成1件被动道具，选择其中1件成为该品质的「爱人」#同品质的其它被动道具会被排斥为对应道具魂火#之后出现的该品质道具会变为「爱人」#{{BrokenHeart}} 背叛爱人或利用候选时会受到惩罚",
+        "en": "Spawn 1 passive item of each quality 0-4; choose 1 to become that quality's beloved#Other passive items of the same quality are rejected into corresponding item wisps#Future items of that quality become the beloved#{{BrokenHeart}} Betraying a beloved or exploiting a candidate causes punishment"
       },
       "seijaBuff": {
         "zh": "",
@@ -26166,7 +26166,7 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "每个品质生成2个候选",
+        "zh": "每个品质生成2件候选",
         "en": "2 candidates per quality"
       },
       "icon": "/generated/images/vi-the-lover-reversed.png",

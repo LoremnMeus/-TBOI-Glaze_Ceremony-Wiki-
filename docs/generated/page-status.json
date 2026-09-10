@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T05:28:07Z",
+  "generatedAt": "2026-09-10T06:26:26Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1535,8 +1535,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/vi-the-lover-reversed.md",
       "en": "wiki/docs/en/cards/vi-the-lover-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "vii-the-chariot-reversed",

@@ -6,7 +6,7 @@ kind: card
 internalKey: Hierophant_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>V - 教导? V - The Hierophant? Hierophant_r v-the-hierophant-reversed V - The Hierophant? 所信者亦可背弃 献祭你仍持有的、从天使房获得的道具 每献祭1件，生成1件恶魔房道具 Sacrifice Angel-Room items you still hold Each sacrifice spawns 1 Devil Room item</p>
+<p class="wiki-search-index" v-pre>V - 教导? V - The Hierophant? Hierophant_r v-the-hierophant-reversed V - The Hierophant? 所信者亦可背弃 献祭所有仍持有的、在天使房取得的道具 每献祭1件，生成1件恶魔房道具 Sacrifice all items you still hold that were obtained in Angel Rooms Each sacrificed item spawns 1 Devil Room item</p>
 
 <PublicEntry slug="v-the-hierophant-reversed" lang="zh" />
 
@@ -17,18 +17,16 @@ status: reviewed
 
 ## 效果
 
-使用后，献祭你当前仍持有的可献祭圣物；每成功牺牲 1 件，生成 1 件来自 {{DevilRoom}} 道具池的道具。
+使用后，献祭本局在 {{AngelRoom}} 天使房中取得、且当前仍持有的所有道具。
 
-## 圣物来源
+每成功献祭 1 件道具，就生成 1 件来自 {{DevilRoom}} 恶魔房道具池的道具。
 
-只有从 {{AngelRoom}} 天使房的道具底座直接取得的道具会被记录为可献祭圣物。
+是否能够被献祭取决于取得地点，而不是道具原本所属的道具池。只要是在天使房中取得，就会被视为献祭对象。
 
-之后从其他来源获得的同种道具不会因此成为圣物。
-
-已经失去的圣物不能再次献祭。
+已经失去的道具不会被献祭。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-被献祭的道具如果能够生成道具魂火，会额外留下 1 个该道具魂火。
+如果被献祭的道具可以生成对应的道具魂火，则额外留下 1 个该道具魂火。
