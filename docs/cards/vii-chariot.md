@@ -6,7 +6,7 @@ kind: card
 internalKey: Chariot
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 向攻击方向发射巨大火箭 Fire a giant rocket in the attack direction</p>
+<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 向攻击方向发射1枚巨型火箭 爆炸造成300点伤害 Fire 1 giant rocket in the attack direction Its explosion deals 300 damage</p>
 
 <PublicEntry slug="vii-chariot" lang="zh" />
 
@@ -17,12 +17,12 @@ status: reviewed
 
 ## 效果
 
-使用后沿当前攻击方向发射一枚巨型火箭。火箭爆炸伤害为 **300**，沿用巨型火箭的碰撞与爆炸行为。
+使用后，向当前攻击方向发射 **1 枚巨型火箭**。
 
-若几乎没有可用的射击方向，会退化为沿玩家当前移动方向发射。
+巨型火箭爆炸时造成 **300 点伤害**。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-改为同时发射 3 枚巨型火箭：一枚沿攻击方向，另外两枚向左右偏转。
+改为同时发射 **3 枚巨型火箭**，另外两枚分别向左右偏转 **30°**。

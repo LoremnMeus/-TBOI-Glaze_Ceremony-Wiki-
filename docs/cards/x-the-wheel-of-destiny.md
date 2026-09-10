@@ -6,7 +6,7 @@ kind: card
 internalKey: Wheel_of_Destiny
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>X - 命运 X - The Wheel of Destiny Wheel_of_Destiny x-the-wheel-of-destiny X - The Wheel of Destiny 明暗为逆 将一个已有道具转换为2个脆弱的同名道具魂火 经过2层后，存活的魂火各自变回该道具 Convert one held item into 2 fragile same-name item wisps After 2 floors, each surviving wisp turns back into that item</p>
+<p class="wiki-search-index" v-pre>X - 命运 X - The Wheel of Destiny Wheel_of_Destiny x-the-wheel-of-destiny X - The Wheel of Destiny 明暗为逆 选择1件已有道具，将其转化为2个脆弱的同名道具魂火 经过2层后，存活的魂火各自变回该道具 Choose 1 held item and turn it into 2 fragile matching item wisps After 2 floors, each surviving wisp turns back into that item</p>
 
 <PublicEntry slug="x-the-wheel-of-destiny" lang="zh" />
 
@@ -17,25 +17,22 @@ status: reviewed
 
 ## 效果
 
-使用后，允许玩家把一个自己已经拥有的道具暂时“借出去”，转化为脆弱的同名道具魂火使用。
+使用后，可以从当前持有的道具中选择 **1 件**，将其暂时移除并转化为 **2 个脆弱的同名道具魂火**。
 
-完整流程：
+这些魂火只要受到一次伤害就会消失。经过 **2 个新楼层**后，每个仍然存活的魂火都会各自变回 **1 件原道具**。
 
-1. 打开选择界面；
-2. 从当前持有道具中选择一件（也可以取消并拿回这张牌）；
-3. 原道具暂时从角色身上移除；
-4. 生成 **2 个**脆弱的同名道具魂火；
-5. 经过两个新楼层后，**每个仍然存活的魂火都会各自重新变回该道具**。
+如果两个魂火都存活到期，最终可以得到 **2 件原道具**；提前消失的魂火不会返还道具。
 
-## 借出与返还
+选择界面可以取消；取消后不会消耗这张牌。
 
-- 可以多次使用，同时借出多件。
-- 归还按进层推进，不是换房立即结束。
-- 两个魂火分别计算存活状态；到期时，仍存活的魂火会各自返还为一件原道具。
-- 若某个魂火提前消失，它不会在返还时得到补偿。
+## 规则
+
+* 可以同时维持多组尚未到期的道具魂火。
+* 计时只在进入新楼层时推进，换房不会影响剩余时间。
+* 每个魂火分别计算是否存活。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-魂火数量由 2 个增加至 3 个，并各能抵挡 1 次碰撞。
+改为生成 **3 个道具魂火**，并使它们能够承受 **1 次伤害** 后继续存活。

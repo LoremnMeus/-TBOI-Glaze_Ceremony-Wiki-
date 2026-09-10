@@ -1,12 +1,12 @@
 ---
 title: VIII - Adjustment
-description: "Balance your coins, keys and bombs Convert the remainder into pickups of coins, bombs and keys"
+description: "Balance your coins, keys and bombs Convert the remainder into a Coin/Bomb/Key choice"
 slug: viii-adjustment
 kind: card
 internalKey: Adjustment
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VIII - 调节 VIII - Adjustment Adjustment viii-adjustment VIII - Adjustment 无知之幕正在落下 平衡你的金币、钥匙与炸弹 余数转化为硬币、炸弹、钥匙三选一 Balance your coins, keys and bombs Convert the remainder into pickups of coins, bombs and keys</p>
+<p class="wiki-search-index" v-pre>VIII - 调节 VIII - Adjustment Adjustment viii-adjustment VIII - Adjustment 无知之幕正在落下 平衡你的硬币、钥匙与炸弹 余数转化为硬币/炸弹/钥匙三选一 Balance your coins, keys and bombs Convert the remainder into a Coin/Bomb/Key choice</p>
 
 <PublicEntry slug="viii-adjustment" lang="en" />
 
@@ -19,18 +19,18 @@ status: reviewed
 
 ## Effects
 
-After use, rebalances the player's current {{Coin}}, {{Key}}, and {{Bomb}} as one resource set, rather than adding or removing a fixed amount from each.
+When used, adds together the player's current coins, keys and bombs, then distributes the total as evenly as possible between the three resources.
 
-After use, the three counts are totaled, then each is set to floor(total ÷ 3). Any remainder that cannot be split evenly is not discarded: it spawns that many **exclusive three-way** pickups around the player—coin, bomb, and key—of which you may take only one.
+Any remainder creates that many **coin / bomb / key choices** around the player.
 
-## Resource balancing
+## Resource Balancing
 
-Example: starting from 10 coins, 1 key, and 1 bomb (total 12) settles to 4 / 4 / 4 with no remainder.
+For example, 10 coins, 1 key and 1 bomb total 12, so they become 4 / 4 / 4.
 
-Starting from 10 coins, 5 keys, and 2 bombs (total 17) first becomes 5 / 5 / 5; remainder 2 spawns **two** exclusive three-way groups.
+With 10 coins, 5 keys and 2 bombs, the total is 17. The three resources first become 5 / 5 / 5, and the remaining 2 resources create **two choices**.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Grants an extra run-wide stat bonus based on how unbalanced resources were before/after this use.
+After balancing, gain **1 coin, 1 key and 1 bomb**.

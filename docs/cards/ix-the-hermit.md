@@ -6,7 +6,7 @@ kind: card
 internalKey: Hermit
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成一个本局失去过的道具，优先被动道具 Randomly spawn one lost item (prefer passives)</p>
+<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成1个本局失去过的道具 优先选择被动道具 Spawn 1 random item you have lost this run Passive items are chosen first</p>
 
 <PublicEntry slug="ix-the-hermit" lang="zh" />
 
@@ -17,17 +17,16 @@ status: reviewed
 
 ## 效果
 
-使用后，从玩家本局**已经失去过的道具**记录中寻找候选，并生成可取回的道具底座。
+使用后，随机生成 **1 个本局曾经失去过的道具**。
 
-普通情况下生成 1 个候选。
-## 候选
+隐者会优先选择被动道具；没有可选的被动道具时，才会选择主动道具。若没有任何可以取回的道具，则生成 {{Collectible:36}}。
 
-- 失去道具时会进入记录；带任务标记的道具不会进入。
-- 候选优先考虑被动，其次主动；若完全没有可恢复记录，则改为生成 {{Collectible:36}}。
-- 三个候选属于同一互斥选择，只能拿一个。
+主动道具被替换时也会视为失去，因此曾经换下的主动道具同样可能被隐者找回。
+
+带有任务标签的道具不会被隐者生成。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-最多给出 **3 个互斥选项**，只能拿走其中一个。
+改为提供 **3 个候选道具**，选择其中 **1 个**。

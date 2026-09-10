@@ -6,7 +6,7 @@ kind: card
 internalKey: Hanged_Man_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 本层后续出现的倒位透特牌会转化为对应正位牌 Later reversed Thoth cards on this floor convert to their upright faces</p>
+<p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 本层后续出现的逆位塔罗牌会变为对应的正位牌 Later reversed Tarot cards on this floor become their upright versions</p>
 
 <PublicEntry slug="xii-the-hanged-man-reversed" lang="zh" />
 
@@ -17,18 +17,18 @@ status: reviewed
 
 ## 效果
 
-与 {{Card:xii-the-hanged-man}} 相反：本层之后出现的**倒位透特牌**会转换为对应正位牌。
+使用后，本层之后出现的**逆位塔罗牌**都会变为对应的正位牌。
 
-规则范围与本层持续与正位相同。
+效果持续至离开当前楼层。
 
 ## 冲突
 
-如果本层同时存在 {{Card:xii-the-hanged-man}} 与 {{Card:xii-the-hanged-man-reversed}} 的转换规则，一张透特牌同时被要求变为正位和倒位时，会发生冲突，并将玩家送入 {{ErrorRoom}} 错误房。
+如果本层同时生效了 {{Card:xii-the-hanged-man}} 与 {{Card:xii-the-hanged-man-reversed}}，当一张塔罗牌同时受到两种转换时会发生冲突，并将玩家送入 {{ErrorRoom}} 错误房。
 
-冲突发生后，正位与倒位的转换状态都会被清除。
+冲突发生后，两种转换效果都会结束。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-使用后额外在地面生成一张 {{Card:xii-the-hanged-man-reversed}}。
+额外生成一张 {{Card:xii-the-hanged-man-reversed}}。

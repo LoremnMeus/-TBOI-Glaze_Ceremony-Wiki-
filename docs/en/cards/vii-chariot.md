@@ -1,12 +1,12 @@
 ---
 title: VII - Chariot
-description: "Fire a giant rocket in the attack direction"
+description: "Fire 1 giant rocket in the attack direction Its explosion deals 300 damage"
 slug: vii-chariot
 kind: card
 internalKey: Chariot
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 向攻击方向发射巨大火箭 Fire a giant rocket in the attack direction</p>
+<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 向攻击方向发射1枚巨型火箭 爆炸造成300点伤害 Fire 1 giant rocket in the attack direction Its explosion deals 300 damage</p>
 
 <PublicEntry slug="vii-chariot" lang="en" />
 
@@ -19,12 +19,12 @@ status: reviewed
 
 ## Effects
 
-After use, fires a giant rocket along the current attack direction. Explosion damage is **300**, using giant-rocket collision and blast behavior.
+When used, fires **1 giant rocket** in the current attack direction.
 
-If almost no usable firing direction is available, it falls back to the player's current movement direction.
+The rocket's explosion deals **300 damage**.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Fires **3** giant rockets: one forward and two angled left/right.
+Fires **3 giant rockets** instead, with the other two angled **30°** to either side.

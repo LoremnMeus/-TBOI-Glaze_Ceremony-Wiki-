@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-09T18:37:47Z",
+  "generatedAt": "2026-09-10T04:16:32Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -23873,8 +23873,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "向攻击方向发射巨大火箭",
-        "en": "Fire a giant rocket in the attack direction"
+        "zh": "向攻击方向发射1枚巨型火箭#爆炸造成300点伤害",
+        "en": "Fire 1 giant rocket in the attack direction#Its explosion deals 300 damage"
       },
       "seijaBuff": {
         "zh": "",
@@ -23897,8 +23897,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "三向发射3枚火箭",
-        "en": "Fire 3 rockets in three directions"
+        "zh": "额外向两侧各发射1枚巨型火箭",
+        "en": "Fire 1 additional giant rocket to each side"
       },
       "icon": "/generated/images/vii-chariot.png",
       "thumb32": "/generated/images/vii-chariot_32.webp",
@@ -23978,8 +23978,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "平衡你的金币、钥匙与炸弹#余数转化为硬币、炸弹、钥匙三选一",
-        "en": "Balance your coins, keys and bombs#Convert the remainder into pickups of coins, bombs and keys"
+        "zh": "平衡你的硬币、钥匙与炸弹#余数转化为{{Coin}}/{{Bomb}}/{{Key}}三选一",
+        "en": "Balance your coins, keys and bombs#Convert the remainder into a {{Coin}}/{{Bomb}}/{{Key}} choice"
       },
       "seijaBuff": {
         "zh": "",
@@ -24002,8 +24002,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "根据此次平衡改变的基础数量，获得属性提升",
-        "en": "Get attribute improvement according to the amount of this balance change"
+        "zh": "平衡后，硬币、钥匙与炸弹各+1",
+        "en": "After balancing, gain +1 coin, +1 key and +1 bomb"
       },
       "icon": "/generated/images/viii-adjustment.png",
       "thumb32": "/generated/images/viii-adjustment_32.webp",
@@ -24083,8 +24083,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "随机生成一个本局失去过的道具，优先被动道具",
-        "en": "Randomly spawn one lost item (prefer passives)"
+        "zh": "随机生成1个本局失去过的道具#优先选择被动道具",
+        "en": "Spawn 1 random item you have lost this run#Passive items are chosen first"
       },
       "seijaBuff": {
         "zh": "",
@@ -24107,8 +24107,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "改为生成至多3个候选（同一Options组，只能取其一）",
-        "en": "Spawn up to 3 candidates as one Options group (take only one)"
+        "zh": "改为从3个道具中选择1个",
+        "en": "Choose 1 of 3 lost items"
       },
       "icon": "/generated/images/ix-the-hermit.png",
       "thumb32": "/generated/images/ix-the-hermit_32.webp",
@@ -24188,8 +24188,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "将一个已有道具转换为2个脆弱的同名道具魂火#经过2层后，存活的魂火各自变回该道具",
-        "en": "Convert one held item into 2 fragile same-name item wisps#After 2 floors, each surviving wisp turns back into that item"
+        "zh": "选择1件已有道具，将其转化为2个脆弱的同名道具魂火#经过2层后，存活的魂火各自变回该道具",
+        "en": "Choose 1 held item and turn it into 2 fragile matching item wisps#After 2 floors, each surviving wisp turns back into that item"
       },
       "seijaBuff": {
         "zh": "",
@@ -24212,8 +24212,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "改为3个魂火，并各能抵挡1次碰撞",
-        "en": "Create 3 wisps instead; each can withstand 1 hit"
+        "zh": "改为生成3个更耐久的道具魂火",
+        "en": "Creates 3 tougher item wisps instead"
       },
       "icon": "/generated/images/x-the-wheel-of-destiny.png",
       "thumb32": "/generated/images/x-the-wheel-of-destiny_32.webp",
@@ -24408,8 +24408,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{ThothCard2}} 本层后续出现的正位透特牌会转化为对应倒位牌",
-        "en": "{{ThothCard2}} Later upright Thoth cards on this floor convert to their reversed faces"
+        "zh": "本层后续出现的正位塔罗牌会变为对应的逆位牌",
+        "en": "Later upright Tarot cards on this floor become their reversed versions"
       },
       "seijaBuff": {
         "zh": "",
@@ -24432,8 +24432,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "额外生成此卡",
-        "en": "Also spawn this card again"
+        "zh": "额外生成1张{{Card:xii-the-hanged-man}}",
+        "en": "Spawns an additional {{Card:xii-the-hanged-man}}"
       },
       "icon": "/generated/images/xii-the-hanged-man.png",
       "thumb32": "/generated/images/xii-the-hanged-man_32.webp",
@@ -24513,8 +24513,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{IsaacsRoom}} 生成一张可以入睡的床#正常睡眠会恢复生命并梦游至随机房间#也可能出现无法带来好梦的床",
-        "en": "{{IsaacsRoom}} Spawn a bed you can sleep in#Normal sleep restores health and dream-walks to a random room#A barren bed may appear that brings no good dream"
+        "zh": "{{IsaacsRoom}} 生成一张可以入睡的床#睡醒后通常会传送至本层随机房间#也可能生成不会传送的暗色床",
+        "en": "{{IsaacsRoom}} Spawn a bed you can sleep in#Usually teleports you to a random room on the floor after waking up#A darker bed may appear that does not teleport you"
       },
       "seijaBuff": {
         "zh": "",
@@ -24537,8 +24537,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "入睡后额外获得一层{{Collectible313}}",
-        "en": "Also gain one layer of {{Collectible313}} after sleeping"
+        "zh": "睡眠时额外触发{{Card51}}的效果",
+        "en": "Also triggers {{Card51}} when sleeping"
       },
       "icon": "/generated/images/xiii-faint.png",
       "thumb32": "/generated/images/xiii-faint_32.webp",
@@ -26782,8 +26782,8 @@
         "en": ""
       },
       "eid": {
-        "zh": "{{ThothCard}} 本层后续出现的倒位透特牌会转化为对应正位牌",
-        "en": "{{ThothCard}} Later reversed Thoth cards on this floor convert to their upright faces"
+        "zh": "本层后续出现的逆位塔罗牌会变为对应的正位牌",
+        "en": "Later reversed Tarot cards on this floor become their upright versions"
       },
       "seijaBuff": {
         "zh": "",
@@ -26806,8 +26806,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "额外生成此卡",
-        "en": "Also spawn this card again"
+        "zh": "额外生成1张{{Card:xii-the-hanged-man-reversed}}",
+        "en": "Spawns an additional {{Card:xii-the-hanged-man-reversed}}"
       },
       "icon": "/generated/images/xii-the-hanged-man-reversed.png",
       "thumb32": "/generated/images/xii-the-hanged-man-reversed_32.webp",

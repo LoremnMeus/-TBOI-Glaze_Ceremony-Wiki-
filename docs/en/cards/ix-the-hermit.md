@@ -1,12 +1,12 @@
 ---
 title: IX - The Hermit
-description: "Randomly spawn one lost item (prefer passives)"
+description: "Spawn 1 random item you have lost this run Passive items are chosen first"
 slug: ix-the-hermit
 kind: card
 internalKey: Hermit
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成一个本局失去过的道具，优先被动道具 Randomly spawn one lost item (prefer passives)</p>
+<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成1个本局失去过的道具 优先选择被动道具 Spawn 1 random item you have lost this run Passive items are chosen first</p>
 
 <PublicEntry slug="ix-the-hermit" lang="en" />
 
@@ -19,16 +19,16 @@ status: reviewed
 
 ## Effects
 
-After use, looks through collectibles the player has **already lost** this run and spawns pedestals that can reclaim them. Candidates come from this run's lost-collectible record.
+When used, spawns **1 random item that has been lost during the current run**.
 
-## Candidates
+Passive items are chosen first. If no passive items are available, active items can be chosen instead. If there are no items that can be recovered, {{Collectible:36}} is spawned.
 
-- Lost collectibles enter the record; quest-marked items do not.
-- Candidates prefer passives, then actives; with no recoverable record, a “touched poop” style fallback appears instead.
-- Three candidates share one exclusive choice—take only one.
+Replacing an active item counts as losing it, so active items you have previously swapped away can also be recovered.
+
+Quest-tagged items cannot be spawned by The Hermit.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Offers up to **3** mutually exclusive candidates instead of 1.
+Provides **3 candidate items** instead, allowing you to choose **1**.
