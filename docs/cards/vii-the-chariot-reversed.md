@@ -6,7 +6,7 @@ kind: card
 internalKey: Chariot_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 前路只待撞碎 举起卡牌并选择方向，将自己发射出去 飞行期间无敌，对撞到的敌人造成巨额伤害并摧毁障碍 撞墙时引发猛烈爆炸并停止 Hold up the card and choose a direction to launch yourself Invincible in flight; heavily damages enemies you ram and smashes obstacles Crashing into a wall causes a powerful explosion and ends the flight</p>
+<p class="wiki-search-index" v-pre>VII - 巨像? VII - The Chariot? Chariot_r vii-the-chariot-reversed VII - The Chariot? 前路只待撞碎 The path ahead waits only to be smashed 举起卡牌并输入射击方向，将自己发射出去 飞行期间无敌，对撞到的敌人造成巨额伤害并摧毁可破坏障碍 撞墙时引发猛烈爆炸并停止 Hold up the card, then fire in a direction to launch yourself Invincible in flight; heavily damages enemies you ram and smashes destructible obstacles Crashing into a wall causes a powerful explosion and ends the flight</p>
 
 <PublicEntry slug="vii-the-chariot-reversed" lang="zh" />
 
@@ -17,14 +17,14 @@ status: reviewed
 
 ## 效果
 
-使用后，玩家会举起卡牌并等待选择发射方向。
+使用后，玩家会举起卡牌；此时仍可正常移动。
 
-输入方向后，玩家会将自己高速发射出去。
+输入射击方向后，玩家会朝该方向高速发射出去。
 
 飞行期间：
 
 - 玩家无敌；
-- 飞行方向基本固定，无法像平时一样自由移动；
+- 发射后方向固定，无法主动转向；
 - 撞击敌人会造成高额伤害与击退；
 - 会直接撞碎沿途可破坏的障碍。
 

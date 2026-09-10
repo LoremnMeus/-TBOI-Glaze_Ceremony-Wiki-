@@ -6,7 +6,7 @@ kind: card
 internalKey: Adjustment_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VIII - 调节? VIII - Adjustment? Adjustment_r viii-adjustment-reversed VIII - Adjustment? 与其纷争，莫如没收 将你的全部基础掉落转化为属性 Convert all your basic pickups into attributes</p>
+<p class="wiki-search-index" v-pre>VIII - 调节? VIII - Adjustment? Adjustment_r viii-adjustment-reversed VIII - Adjustment? 与其纷争，莫如没收 Better to confiscate than to quarrel 将全部硬币、钥匙和炸弹转化为本局永久属性 持有越多，获得的强化越高，但收益逐渐递减 Convert all coins, keys and bombs into permanent stats for the current run More resources grant a stronger boost, with diminishing returns</p>
 
 <PublicEntry slug="viii-adjustment-reversed" lang="zh" />
 
@@ -17,16 +17,22 @@ status: reviewed
 
 ## 效果
 
-使用后立刻清空玩家全部 {{Coin}}、{{Key}} 与 {{Bomb}}，并把它们换算成本局永久属性加成。
+使用后，清空玩家当前全部 {{Coin}} 硬币、{{Key}} 钥匙与 {{Bomb}} 炸弹，并将它们转化为本局永久属性加成。
 
-换算权重为：**炸弹 × 1**、**钥匙 × 0.8**、**硬币 × 0.4**；累计值越高，伤害、射速、射程、移速与幸运提升越大，但收益会随累计升高而逐渐变缓。
+不同资源的换算价值为：
 
-## 规则
+- {{Bomb}} 炸弹 × 1；
+- {{Key}} 钥匙 × 0.8；
+- {{Coin}} 硬币 × 0.4。
 
-- 检查与转化都发生在**使用当下**，不是之后每次捡资源再触发。
+转化会同时提高伤害、射速、射程、移速与幸运。
+
+投入的资源越多，强化越高；随着累计转化量增加，后续收益会逐渐降低。
+
+每次使用只转化使用当下持有的资源，之后获得的硬币、钥匙和炸弹不会自动被转化。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-使用后有 **50%** 概率额外生成一张 {{Card:viii-adjustment-reversed}}。
+仍会按照使用时持有的全部资源计算强化，随后返还约一半被转化的硬币、钥匙和炸弹。

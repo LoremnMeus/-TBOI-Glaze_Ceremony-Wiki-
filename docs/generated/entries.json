@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-10T07:05:10Z",
+  "generatedAt": "2026-09-10T07:48:15Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -26244,11 +26244,11 @@
       },
       "desc": {
         "zh": "前路只待撞碎",
-        "en": ""
+        "en": "The path ahead waits only to be smashed"
       },
       "eid": {
-        "zh": "举起卡牌并选择方向，将自己发射出去#飞行期间无敌，对撞到的敌人造成巨额伤害并摧毁障碍#撞墙时引发猛烈爆炸并停止",
-        "en": "Hold up the card and choose a direction to launch yourself#Invincible in flight; heavily damages enemies you ram and smashes obstacles#Crashing into a wall causes a powerful explosion and ends the flight"
+        "zh": "举起卡牌并输入射击方向，将自己发射出去#飞行期间无敌，对撞到的敌人造成巨额伤害并摧毁可破坏障碍#撞墙时引发猛烈爆炸并停止",
+        "en": "Hold up the card, then fire in a direction to launch yourself#Invincible in flight; heavily damages enemies you ram and smashes destructible obstacles#Crashing into a wall causes a powerful explosion and ends the flight"
       },
       "seijaBuff": {
         "zh": "",
@@ -26349,11 +26349,11 @@
       },
       "desc": {
         "zh": "与其纷争，莫如没收",
-        "en": ""
+        "en": "Better to confiscate than to quarrel"
       },
       "eid": {
-        "zh": "{{ArrowUp}} 将你的全部基础掉落转化为属性",
-        "en": "{{ArrowUp}} Convert all your basic pickups into attributes"
+        "zh": "{{Coin}}{{Key}}{{Bomb}} 将全部硬币、钥匙和炸弹转化为本局永久属性#持有越多，获得的强化越高，但收益逐渐递减",
+        "en": "{{Coin}}{{Key}}{{Bomb}} Convert all coins, keys and bombs into permanent stats for the current run#More resources grant a stronger boost, with diminishing returns"
       },
       "seijaBuff": {
         "zh": "",
@@ -26376,8 +26376,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "50%概率再次掉落此卡",
-        "en": "50% chance to drop this card again"
+        "zh": "仍按全部资源获得强化，并返还约一半硬币、钥匙和炸弹",
+        "en": "Gain the full conversion, then recover about half of your coins, keys and bombs"
       },
       "icon": "/generated/images/viii-adjustment-reversed.png",
       "thumb32": "/generated/images/viii-adjustment-reversed_32.webp",
