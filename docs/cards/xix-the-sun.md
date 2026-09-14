@@ -6,7 +6,7 @@ kind: card
 internalKey: Sun
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XIX - 太阳 XIX - The Sun Sun xix-the-sun XIX - The Sun 物皆重临 重新发动本房间此前使用过的其他卡牌 若一次重放至少3张卡牌，额外生成1张随机卡牌 Replay other cards previously used in this room If at least 3 cards are replayed at once, spawn 1 random card</p>
+<p class="wiki-search-index" v-pre>XIX - 太阳 XIX - The Sun Sun xix-the-sun XIX - The Sun 物皆重临 All that falls again 重新发动本房间此前使用过的其他卡牌 若一次重放至少3张卡牌，额外生成1张随机卡牌 Replay other cards previously used in this room If at least 3 cards are replayed at once, spawn 1 random card</p>
 
 <PublicEntry slug="xix-the-sun" lang="zh" />
 

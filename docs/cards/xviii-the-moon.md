@@ -6,7 +6,7 @@ kind: card
 internalKey: Moon
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XVIII - 太阴 XVIII - The Moon Moon xviii-the-moon XVIII - The Moon 长守月明 月亮 生成一道月光 Generate a moonlight whose effect is the same with Luna</p>
+<p class="wiki-search-index" v-pre>XVIII - 太阴 XVIII - The Moon Moon xviii-the-moon XVIII - The Moon 长守月明 Keep watching moon til bright 月亮 生成一道月光 Generate a moonlight whose effect is the same with Luna</p>
 
 <PublicEntry slug="xviii-the-moon" lang="zh" />
 

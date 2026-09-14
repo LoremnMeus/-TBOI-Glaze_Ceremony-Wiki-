@@ -6,7 +6,7 @@ kind: card
 internalKey: Witch
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 发射4枚特殊冰冻泪弹 命中敌人会将其冻结约5秒 被冻结的敌人死亡时，使全房敌人减速约5秒 Fire 4 special freezing tears Enemies hit are frozen for about 5 seconds If a frozen enemy dies, all enemies in the room are slowed for about 5 seconds</p>
+<p class="wiki-search-index" v-pre>I - 魔女 I - The Witch Witch i-the-witch I - The Witch 我将晶结 I Will Congeal 发射4枚特殊冰冻泪弹 命中敌人会将其冻结约5秒 被冻结的敌人死亡时，使全房敌人减速约5秒 Fire 4 special freezing tears Enemies hit are frozen for about 5 seconds If a frozen enemy dies, all enemies in the room are slowed for about 5 seconds</p>
 
 <PublicEntry slug="i-the-witch" lang="zh" />
 

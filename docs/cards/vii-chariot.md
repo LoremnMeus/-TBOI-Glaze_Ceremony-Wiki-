@@ -6,7 +6,7 @@ kind: card
 internalKey: Chariot
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 向攻击方向发射1枚巨型火箭 爆炸造成300点伤害 Fire 1 giant rocket in the attack direction Its explosion deals 300 damage</p>
+<p class="wiki-search-index" v-pre>VII - 巨炮 VII - Chariot Chariot vii-chariot VII - Chariot 大地因我的到来而鸣响 The earth is tingling for my arrival 向攻击方向发射1枚巨型火箭 爆炸造成300点伤害 Fire 1 giant rocket in the attack direction Its explosion deals 300 damage</p>
 
 <PublicEntry slug="vii-chariot" lang="zh" />
 

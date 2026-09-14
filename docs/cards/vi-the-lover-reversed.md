@@ -6,7 +6,7 @@ kind: card
 internalKey: Lover_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VI - 爱? VI - The Lover? Lover_r vi-the-lover-reversed VI - The Lover? 直到血流成河 品质0-4各生成1件被动道具，选择其中1件成为该品质的「爱人」 同品质的其它被动道具会被排斥为对应道具魂火 之后出现的该品质道具会变为「爱人」 背叛爱人或利用候选时会受到惩罚 Spawn 1 passive item of each quality 0-4; choose 1 to become that quality&#x27;s beloved Other passive items of the same quality are rejected into corresponding item wisps Future items of that quality become the beloved Betraying a beloved or exploiting a candidate causes punishment</p>
+<p class="wiki-search-index" v-pre>VI - 爱? VI - The Lover? Lover_r vi-the-lover-reversed VI - The Lover? 直到血流成河 Til blood shedding like river 品质0-4各生成1件被动道具，选择其中1件成为该品质的「爱人」 同品质的其它被动道具会被排斥为对应道具魂火 之后出现的该品质道具会变为「爱人」 背叛爱人或利用候选时会受到惩罚 Spawn 1 passive item of each quality 0-4; choose 1 to become that quality&#x27;s beloved Other passive items of the same quality are rejected into corresponding item wisps Future items of that quality become the beloved Betraying a beloved or exploiting a candidate causes punishment</p>
 
 <PublicEntry slug="vi-the-lover-reversed" lang="zh" />
 

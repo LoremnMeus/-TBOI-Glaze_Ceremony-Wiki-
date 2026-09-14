@@ -1,12 +1,12 @@
 ---
 title: "IX - The Hermit?"
-description: "Temporarily hide 3 held items Return them after gaining 7 new items Gain a random reward meanwhile"
+description: "Buried for thousand years"
 slug: ix-the-hermit-reversed
 kind: card
 internalKey: Hermit_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>IX - 隐者? IX - The Hermit? Hermit_r ix-the-hermit-reversed IX - The Hermit? 跨越千年的命运 暂时隐藏你持有的3件道具 在取得7个新道具后返还它们 期间获得随机奖励 Temporarily hide 3 held items Return them after gaining 7 new items Gain a random reward meanwhile</p>
+<p class="wiki-search-index" v-pre>IX - 隐者? IX - The Hermit? Hermit_r ix-the-hermit-reversed IX - The Hermit? 跨越千年的命运 Buried for thousand years 随机暂时隐藏至多3件持有道具 立即生成1件随机道具 见到7次新道具后返还 Temporarily hides up to 3 random held items Immediately spawns 1 random item Returns the hidden items after seeing 7 new items</p>
 
 <PublicEntry slug="ix-the-hermit-reversed" lang="en" />
 
@@ -17,22 +17,23 @@ status: reviewed
 
 ## Effects
 
-After use, temporarily hide up to **3** collectibles the player currently holds. Hidden items grant no effects while hidden.
+When used, temporarily hides up to **3 random items** currently held by the player. Hidden items provide no effects while they are gone.
 
-Afterward, each time a new collectible appears as a choosable item, return progress advances by 1. After **7** advances, the hidden items reappear as collectible pedestals; actives restore their prior charges when possible.
+It then immediately spawns **1 random item**.
 
-When this hide completes, **1** random collectible is also spawned immediately.
+Afterward, each new item you encounter advances the return progress by 1. After **7** advances, the hidden items return as collectible pedestals. Active items will restore their previous charge when possible.
 
 ## Rules
 
-- Passive items and ordinary actives can both be hidden.
-- Pocket actives are never hide targets.
-- With fewer than 3 hideable items, only the available count is hidden.
-- With no hideable items, nothing is hidden this use.
-- Return progress advances when new collectibles appear; it does not increase over time on its own.
+- Passive items and normal active items can be hidden.
+- Pocket active items cannot be selected.
+- If fewer than 3 valid items are available, only those available are hidden.
+- If there are no valid items, nothing is hidden.
+- A single choice containing multiple items only advances the return progress **once**.
+- Return progress only advances when new items appear; it does not increase over time.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-The instant reward becomes a mutual 2-option pick instead of 1 random collectible.
+The immediate random reward becomes a choice between 2 items.

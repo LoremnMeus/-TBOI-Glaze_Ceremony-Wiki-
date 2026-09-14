@@ -716,6 +716,10 @@
             "link": "/cards/round-trip-rail-ticket"
           },
           {
+            "text": "单程票",
+            "link": "/cards/one-way-rail-ticket"
+          },
+          {
             "text": "0 - 旅者",
             "link": "/cards/0-the-fool"
           },
@@ -1863,8 +1867,12 @@
             "link": "/en/cards/qings-soul"
           },
           {
-            "text": "Round trip Rail Ticket",
+            "text": "Round-Trip Rail Ticket",
             "link": "/en/cards/round-trip-rail-ticket"
+          },
+          {
+            "text": "One-Way Rail Ticket",
+            "link": "/en/cards/one-way-rail-ticket"
           },
           {
             "text": "0 - The Fool",

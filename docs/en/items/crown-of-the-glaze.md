@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Crown_of_the_glaze
 status: featured
 ---
-<p class="wiki-search-index" v-pre>琉璃的冠冕 Crown of the glaze Crown_of_the_glaze crown-of-the-glaze Crown of the Glaze 破碎之前，你即为王 A king, until it shatters 提高琉璃化掉落物的生成概率 拾取琉璃化掉落物会为冠冕增加1层辉片，最多5层 攻击 1层：+0.6攻击 2层：攻击命中时有概率产生琉璃折射 幸运 3层：+1幸运，并提高折射与敌人琉璃化的触发概率 4层：攻击有概率使敌人琉璃化 5层：完成冠冕，强化琉璃化掉落物，并免疫琉璃化敌人的碰撞伤害 受伤时冠冕破碎并失去全部辉片 根据失去的辉片数量向四周释放琉璃碎片 Increases the chance of glazed pickups Picking up glazed pickups adds 1 Crown shard, up to 5 Damage 1 shard: +0.6 Damage 2 shards: Hits may split into glazed refraction tears Luck 3 shards: +1 Luck, and higher chance for refraction / enemy glazing 4 shards: Attacks may glaze normal enemies 5 shards: Completes the crown, empowers glazed pickups, and blocks glazed enemy contact damage Taking damage shatters the crown and removes all shards Fires glaze fragments based on lost shards</p>
+<p class="wiki-search-index" v-pre>琉璃的冠冕 Crown of the glaze Crown_of_the_glaze crown-of-the-glaze Crown of the Glaze 破碎之前，你即为王 A king, until it shatters ↑ 提高琉璃化掉落物的生成概率 拾取琉璃掉落时冠冕获得1层辉片，最多5层 攻击 每层辉片提供+0.3攻击 幸运 每层辉片提供+1幸运 3层：泪弹攻击有概率化为琉璃冠冕弹（主核+4辉片） 5层：完成冠冕，强化琉璃掉落，并免疫琉璃化敌人的接触伤害 受伤时冠冕破碎，根据原辉片数向四周释放琉璃碎片 ↑ Increases the chance of glazed pickups Picking up glazed pickups adds 1 Crown shard, up to 5 Damage Each shard grants +0.3 Damage Luck Each shard grants +1 Luck 3 shards: Tear attacks may become a glazed crown shot (core + 4 shards) 5 shards: Completes the crown, empowers glazed pickups, and blocks glazed enemy contact damage Taking damage shatters the crown and fires glaze fragments based on lost shards</p>
 
 <PublicEntry slug="crown-of-the-glaze" lang="en" />
 
@@ -16,17 +16,17 @@ status: featured
 
 ## Effects
 
-The more intact Crown of the Glaze is, the stronger it grows; taking damage shatters every carefully stacked shard.
+Picking up a supported glazed drop embeds **1** shard into the crown, up to **5**. Each shard grants {{Damage}} **+0.3** Damage and {{Luck}} **+1** Luck. The crown grows into shape as shards accumulate; real effective damage shatters every shard at once.
 
-Picking up any supported glazed drop grants **1** shard, up to **5**. Higher tiers unlock attack and glaze-related powers. On real effective damage, every shard shatters at once and sprays fragments based on the lost tier.
+Holding the crown strongly raises glazed pickup spawn chance (about 2× / 2.5× / 3× with more copies).
 
-| Shards | Unlock |
-| --- | --- |
-| 1 | {{Damage}} +0.6 Damage |
-| 2 | Hits may create glazed refraction |
-| 3 | {{Luck}} +1 Luck, and higher chance for refraction / enemy glazing |
-| 4 | Attacks may glaze normal enemies |
-| 5 | Completes the crown; empowers certain glazed pickups; blocks glazed enemy contact damage |
+### 3 shards: Formed
+
+The crown takes shape. Hits have a **22%** chance to fire glazed refraction tears to both sides (about 35% of player damage each).
+
+### 5 shards: Complete
+
+The crown is finished. Empowers certain glazed pickups and blocks glazed enemy contact damage.
 
 ### Full-crown bonuses
 
@@ -44,17 +44,14 @@ At 5 shards, the crown only changes these pickups’ **extra** rewards (full pic
 
 Only damage that actually gets through defenses and costs real health shatters the crown. Devil deals, blood donation machines, curse doors, and similar special drains do not.
 
-A shatter is also a counterattack: it fires fragments by former tier and may drop one extra random glazed pickup (at most one per shatter).
+On shatter, shards first peel off the crown, briefly hover around you, then burst in four directions (about 4 / 6 / 8 / 10 / 14). A shatter may also drop one extra random glazed pickup (at most one per shatter).
 
 ## Notes
 
-- The tier-3 chance bonus only boosts the crown’s own refraction and enemy-glazing rolls.
 - Damage fully blocked by Holy Mantle does not shatter the crown.
 
 ## Special interactions
 
 ### {{Seija}}
 
-- Weakens how much the crown raises glazed-pickup spawn chance
-- Halves shatter damage
-- At tier 3, no longer raises refraction / enemy-glazing chances
+- On shatter, lose half a heart for each shard held

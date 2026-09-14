@@ -6,7 +6,7 @@ kind: card
 internalKey: Wizard
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>I - 魔导 I - The Wizard Wizard i-the-wizard I - The Wizard 我将昭世 揭示本层一种特殊房型的所有房间 首次进入该房型时，生成数个通往其他特殊房间的传送旋涡 Reveal all rooms of one special room type on this floor The first time you enter that room type, spawn several portals to other special rooms</p>
+<p class="wiki-search-index" v-pre>I - 魔导 I - The Wizard Wizard i-the-wizard I - The Wizard 我将昭世 I Will Reveal 揭示本层一种特殊房型的所有房间 首次进入该房型时，生成数个通往其他特殊房间的传送旋涡 Reveal all rooms of one special room type on this floor The first time you enter that room type, spawn several portals to other special rooms</p>
 
 <PublicEntry slug="i-the-wizard" lang="zh" />
 

@@ -1,12 +1,12 @@
 ---
 title: "XXI - The Universe?"
-description: "First use: randomly lose one held item This card reappears next floor; use it again to reclaim that item"
+description: "No matter how far you go, no matter how much time passes, you will always belong to me"
 slug: xxi-the-universe-reversed
 kind: card
 internalKey: Universe_r
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 第一次使用时，随机失去一件已有道具 下一层这张卡会重新出现，再次使用可取回该道具 First use: randomly lose one held item This card reappears next floor; use it again to reclaim that item</p>
+<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 No matter how far you go, no matter how much time passes, you will always belong to me 首次使用时，将一件已有道具送入宇宙 之后每次使用，生成该道具的一个副本 进入新层时会重新获得这张卡 First use sends one owned item into the Universe Later uses create a copy of that item This card returns at the start of each new floor</p>
 
 <PublicEntry slug="xxi-the-universe-reversed" lang="en" />
 
@@ -18,14 +18,22 @@ status: drafted
 
 ## Effects
 
-After use, randomly removes 1 collectible the player holds.
+The first use each run randomly selects **1 collectible** owned by the player and removes it, sending that item into the Universe.
 
-On the next floor, {{Card:xxi-the-universe-reversed}} reappears near the original user; using it again drops the removed item back onto the ground.
+The selection is not uniform: **higher-quality items are more likely to be chosen**.
 
-In co-op, that return card belongs only to the player who first used it; others cannot take it. After the item is successfully reclaimed, this effect ends.
+Once an item has been recorded, every later use of the reversed Universe spawns a copy of that recorded item near the player. Creating a copy does not clear or replace the stored record, so future uses continue to produce the same item.
+
+After an item has been recorded, a new {{Card:xxi-the-universe-reversed}} appears near the original user at the start of every new floor.
+
+In co-op, each player keeps a separate Universe record, and the card granted each floor can only be picked up by its corresponding owner.
+
+The recorded item remains stored for the rest of the run.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-The returned item appears as a freshly spawned pickup; otherwise active items come back with empty charge.
+Spawned copies are treated as **newly generated item pedestals**.
+
+Without Tarot Cloth, spawned copies count as already touched; active items also return with no charge.

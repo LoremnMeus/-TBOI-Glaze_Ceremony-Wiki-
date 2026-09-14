@@ -1,12 +1,12 @@
 ---
 title: "XXI - Profound?"
-description: "Enter a maze guided only by heartbeat Find correct doors in a row to earn a 3-choice item"
+description: "No moonlight reaches these depths"
 slug: xxi-the-profound-reversed
 kind: card
 internalKey: Profound_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XXI - 深邃? XXI - Profound? Profound_r xxi-the-profound-reversed XXI - The Profound? 不见天月明 进入一座只有心跳能够指路的迷宫 连续找到正确的门，最终获得3选1道具 Enter a maze guided only by heartbeat Find correct doors in a row to earn a 3-choice item</p>
+<p class="wiki-search-index" v-pre>XXI - 深邃? XXI - Profound? Profound_r xxi-the-profound-reversed XXI - The Profound? 不见天月明 No moonlight reaches these depths 进入一座由心跳指引的迷宫 连续找到4次正确的门 完成后获得隐藏房道具3选1 Enter a maze guided by heartbeats Find the correct door 4 times in a row Complete it for a 3-choice Secret Room item reward</p>
 
 <PublicEntry slug="xxi-the-profound-reversed" lang="en" />
 
@@ -18,20 +18,24 @@ status: reviewed
 
 ## Effects
 
-After use, enter a multi-stage maze.
+On use, enter a multi-stage maze.
 
-Each stage shows several doors, but only one continues; a heartbeat cue hints at the correct direction and distance.
+Each stage presents several doors, but only one leads deeper into the maze. The correct door emits heartbeat cues whose direction and intensity change with the player's position relative to it.
 
-Door counts rise as you go deeper:
+The number of doors increases with each stage:
 
-> 3 → 5 → 10 → 15
+> **3 → 5 → 10 → 15**
 
-Choosing the wrong door ends the exploration and sends you out of the maze.
+Choosing the correct door advances to the next stage. Choosing a wrong door sends the player out of the maze without advancing the current stage.
+
+Complete all **4 stages** in succession to finish the maze.
 
 ## Final reward
+
+Completing the maze generates **3 items from the Secret Room item pool** as a single choice group; only **1** can be taken.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Final mutual item candidates rise from **3** to **4**.
+The final reward increases from a **3-choice** to a **4-choice** of Secret Room items.

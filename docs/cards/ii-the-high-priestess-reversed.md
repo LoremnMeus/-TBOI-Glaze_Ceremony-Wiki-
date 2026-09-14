@@ -6,7 +6,7 @@ kind: card
 internalKey: Priestess_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ 30秒内，攻击时发射会追踪敌人的标记 标记命中后，妈妈之手会抓住敌人约3秒 For 30s, attacking fires a mark that homes toward enemies On hit, Mom&#x27;s Hand grabs the enemy for about 3 seconds</p>
+<p class="wiki-search-index" v-pre>II - 女司祭? II - The High Priestess? Priestess_r ii-the-high-priestess-reversed II - The High Priestess? 和妈妈抱抱！ Hug with your mommy! 30秒内，攻击时发射会追踪敌人的标记 标记命中后，妈妈之手会抓住敌人约3秒 For 30s, attacking fires a mark that homes toward enemies On hit, Mom&#x27;s Hand grabs the enemy for about 3 seconds</p>
 
 <PublicEntry slug="ii-the-high-priestess-reversed" lang="zh" />
 

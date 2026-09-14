@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-10T07:48:15Z",
+  "generatedAt": "2026-09-14T09:06:51Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -1480,7 +1480,15 @@
         "kind": "card",
         "names": {
           "zh": "双行火车票",
-          "en": "Round trip Rail Ticket"
+          "en": "Round-Trip Rail Ticket"
+        }
+      },
+      {
+        "slug": "one-way-rail-ticket",
+        "kind": "card",
+        "names": {
+          "zh": "单程票",
+          "en": "One-Way Rail Ticket"
         }
       }
     ],
@@ -2215,7 +2223,7 @@
         "en": "Darkness"
       },
       "desc": {
-        "zh": "灭于未知",
+        "zh": "湮灭于未知",
         "en": "Buried in the past."
       },
       "eid": {
@@ -4093,16 +4101,16 @@
         "en": "A king, until it shatters"
       },
       "eid": {
-        "zh": "提高琉璃化掉落物的生成概率#拾取琉璃化掉落物会为冠冕增加1层辉片，最多5层#{{Damage}} 1层：+0.6攻击#2层：攻击命中时有概率产生琉璃折射#{{Luck}} 3层：+1幸运，并提高折射与敌人琉璃化的触发概率#4层：攻击有概率使敌人琉璃化#5层：完成冠冕，强化琉璃化掉落物，并免疫琉璃化敌人的碰撞伤害#{{Warning}} 受伤时冠冕破碎并失去全部辉片#根据失去的辉片数量向四周释放琉璃碎片",
-        "en": "Increases the chance of glazed pickups#Picking up glazed pickups adds 1 Crown shard, up to 5#{{Damage}} 1 shard: +0.6 Damage#2 shards: Hits may split into glazed refraction tears#{{Luck}} 3 shards: +1 Luck, and higher chance for refraction / enemy glazing#4 shards: Attacks may glaze normal enemies#5 shards: Completes the crown, empowers glazed pickups, and blocks glazed enemy contact damage#{{Warning}} Taking damage shatters the crown and removes all shards#Fires glaze fragments based on lost shards"
+        "zh": "↑ 提高琉璃化掉落物的生成概率#拾取琉璃掉落时冠冕获得1层辉片，最多5层#{{Damage}} 每层辉片提供+0.3攻击#{{Luck}} 每层辉片提供+1幸运#3层：泪弹攻击有概率化为琉璃冠冕弹（主核+4辉片）#5层：完成冠冕，强化琉璃掉落，并免疫琉璃化敌人的接触伤害#{{Warning}} 受伤时冠冕破碎，根据原辉片数向四周释放琉璃碎片",
+        "en": "↑ Increases the chance of glazed pickups#Picking up glazed pickups adds 1 Crown shard, up to 5#{{Damage}} Each shard grants +0.3 Damage#{{Luck}} Each shard grants +1 Luck#3 shards: Tear attacks may become a glazed crown shot (core + 4 shards)#5 shards: Completes the crown, empowers glazed pickups, and blocks glazed enemy contact damage#{{Warning}} Taking damage shatters the crown and fires glaze fragments based on lost shards"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "琉璃化掉落生成概率提升减弱，碎冠伤害减半，且不再强化琉璃效果触发概率",
-        "en": "Weaker glazed pickup bonus, half shatter damage, and no glazed-effect chance bonus"
+        "zh": "碎冠时，每层辉片额外失去半颗心",
+        "en": "On shatter, lose half a heart for each shard held"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -22661,11 +22669,11 @@
       },
       "desc": {
         "zh": "安全了，暂时的",
-        "en": "Namely Safe"
+        "en": "Safe, for now"
       },
       "eid": {
-        "zh": "连续发射若干把帅气飞刀",
-        "en": "Fire several stab knife."
+        "zh": "连续向当前攻击方向发射多波飞刀",
+        "en": "Rapidly fires multiple waves of knives in the current firing direction"
       },
       "seijaBuff": {
         "zh": "",
@@ -22729,7 +22737,17 @@
         "text": {
           "zh": "被碾碎",
           "en": "Crushed"
-        }
+        },
+        "siblings": [
+          {
+            "slug": "one-way-rail-ticket",
+            "kind": "card",
+            "names": {
+              "zh": "单程票",
+              "en": "One-Way Rail Ticket"
+            }
+          }
+        ]
       },
       "characterBase": null,
       "challengeBase": null,
@@ -22762,15 +22780,15 @@
       "slotEnum": null,
       "names": {
         "zh": "双行火车票",
-        "en": "Round trip Rail Ticket"
+        "en": "Round-Trip Rail Ticket"
       },
       "desc": {
         "zh": "提供食宿！",
-        "en": "Granting one meal"
+        "en": "Room and board included!"
       },
       "eid": {
-        "zh": "!!! 召唤一辆列车撞向选定方向",
-        "en": "!!! Summon a train that charges in the chosen direction"
+        "zh": "!!! 举起后，按攻击方向召唤列车冲过房间#{{Card}} 同时生成一张单程票，可再次召唤列车",
+        "en": "!!! Hold it up, then fire in a direction to send a train through the room#{{Card}} Also spawns a One-Way Ticket that can summon another train"
       },
       "seijaBuff": {
         "zh": "",
@@ -22810,6 +22828,121 @@
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
         "x": 0,
+        "y": 320,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "one-way-rail-ticket",
+      "kind": "card",
+      "internalKey": "One_way_Rail_Ticket",
+      "xmlId": 2376,
+      "xmlName": "One way Rail Ticket",
+      "itemType": null,
+      "quality": null,
+      "tags": [],
+      "pools": [],
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "zone": "SpecialUnlock::Crushed",
+        "characterKey": null,
+        "conditionKey": "Crushed",
+        "text": {
+          "zh": "被碾碎",
+          "en": "Crushed"
+        },
+        "siblings": [
+          {
+            "slug": "round-trip-rail-ticket",
+            "kind": "card",
+            "names": {
+              "zh": "双行火车票",
+              "en": "Round-Trip Rail Ticket"
+            }
+          }
+        ]
+      },
+      "characterBase": null,
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "单程票",
+        "en": "One-Way Rail Ticket"
+      },
+      "desc": {
+        "zh": "送我回家吧！",
+        "en": "Take me home!"
+      },
+      "eid": {
+        "zh": "!!! 举起后，按攻击方向召唤列车冲过房间#{{Warning}} 不会生成新的车票",
+        "en": "!!! Hold it up, then fire in a direction to send a train through the room#{{Warning}} Does not create another ticket"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/one-way-rail-ticket.png",
+      "thumb32": "/generated/images/one-way-rail-ticket_32.webp",
+      "thumb32Png": "/generated/images/one-way-rail-ticket_32.png",
+      "thumb64": "/generated/images/one-way-rail-ticket_64.webp",
+      "thumb64Png": "/generated/images/one-way-rail-ticket_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 32,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22871,7 +23004,7 @@
       },
       "desc": {
         "zh": "所遗者广",
-        "en": ""
+        "en": "May you lose more"
       },
       "eid": {
         "zh": "从当前道具池展示5个可生成魂火的道具虚影#接触其中一个，将其牺牲并生成对应魂火#被选择的道具会从道具池移除",
@@ -22914,7 +23047,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 320,
         "w": 32,
         "h": 32
@@ -22994,7 +23127,7 @@
       },
       "desc": {
         "zh": "我将晶结",
-        "en": ""
+        "en": "I Will Congeal"
       },
       "eid": {
         "zh": "{{Freezing}} 发射4枚特殊冰冻泪弹#命中敌人会将其冻结约5秒#被冻结的敌人死亡时，使全房敌人减速约5秒",
@@ -23037,7 +23170,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23117,7 +23250,7 @@
       },
       "desc": {
         "zh": "我将启迪",
-        "en": ""
+        "en": "I Will Invoke"
       },
       "eid": {
         "zh": "从原版塔罗与透特牌中随机预言1张牌面#之后使用该牌面时，生成1张随机卡牌并返还{{Card:i-the-invoker}}",
@@ -23160,7 +23293,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23240,7 +23373,7 @@
       },
       "desc": {
         "zh": "我将昭世",
-        "en": ""
+        "en": "I Will Reveal"
       },
       "eid": {
         "zh": "揭示本层一种特殊房型的所有房间#首次进入该房型时，生成数个通往其他特殊房间的传送旋涡",
@@ -23283,7 +23416,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23345,7 +23478,7 @@
       },
       "desc": {
         "zh": "妈妈?是妈妈!",
-        "en": ""
+        "en": "Mom? It's mom!"
       },
       "eid": {
         "zh": "{{Timer}} 持续30秒，攻击时改为召唤巨大的妈妈之脚#妈妈之脚造成40倍玩家伤害",
@@ -23388,7 +23521,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23450,7 +23583,7 @@
       },
       "desc": {
         "zh": "我最爱互相残杀的剧本了",
-        "en": ""
+        "en": "Let them fight for me"
       },
       "eid": {
         "zh": "{{Charm}} 一名敌人吸收其他普通敌人的生命，使它们降至10%生命并被魅惑#这名敌人变为彩虹变异",
@@ -23493,7 +23626,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23555,7 +23688,7 @@
       },
       "desc": {
         "zh": "命运的囚徒",
-        "en": ""
+        "en": "Never can we escape"
       },
       "eid": {
         "zh": "沿当前房间墙面尽可能生成通往其他房间的特殊门#原有普通门暂时关闭#部分门可能通往特殊目的地",
@@ -23598,7 +23731,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23660,7 +23793,7 @@
       },
       "desc": {
         "zh": "愿我纯粹",
-        "en": ""
+        "en": "I . I"
       },
       "eid": {
         "zh": "{{ArrowUp}} 本房间内获得{{Collectible182}}和{{Collectible533}}效果",
@@ -23703,7 +23836,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23765,7 +23898,7 @@
       },
       "desc": {
         "zh": "吾爱自鸣",
-        "en": ""
+        "en": "A lover in Octave"
       },
       "eid": {
         "zh": "使用后，本房间内拾取基础资源或接触箱子时，有50%概率复制一份#复制品不会再次触发此效果",
@@ -23808,7 +23941,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23870,7 +24003,7 @@
       },
       "desc": {
         "zh": "大地因我的到来而鸣响",
-        "en": ""
+        "en": "The earth is tingling for my arrival"
       },
       "eid": {
         "zh": "向攻击方向发射1枚巨型火箭#爆炸造成300点伤害",
@@ -23913,7 +24046,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23975,7 +24108,7 @@
       },
       "desc": {
         "zh": "无知之幕正在落下",
-        "en": ""
+        "en": "Power of balance"
       },
       "eid": {
         "zh": "平衡你的硬币、钥匙与炸弹#余数转化为{{Coin}}/{{Bomb}}/{{Key}}三选一",
@@ -24018,7 +24151,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24080,7 +24213,7 @@
       },
       "desc": {
         "zh": "你的过去萦绕在心",
-        "en": ""
+        "en": "Bury your past deeply in mind"
       },
       "eid": {
         "zh": "随机生成1个本局失去过的道具#优先选择被动道具",
@@ -24123,7 +24256,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24185,7 +24318,7 @@
       },
       "desc": {
         "zh": "明暗为逆",
-        "en": ""
+        "en": "Light and dark coexist"
       },
       "eid": {
         "zh": "选择1件已有道具，将其转化为2个脆弱的同名道具魂火#经过2层后，存活的魂火各自变回该道具",
@@ -24228,7 +24361,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24300,7 +24433,7 @@
       },
       "desc": {
         "zh": "欲求皆有其形",
-        "en": ""
+        "en": "Inspire their inner beast"
       },
       "eid": {
         "zh": "使用时，当前敌人各自索求{{Coin}}{{Key}}{{Bomb}}{{Heart}}之一#满足普通敌人后，其不再阻挡房门且不会造成接触伤害#击杀已满足的敌人会掉落1-2份所求资源",
@@ -24343,7 +24476,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24405,7 +24538,7 @@
       },
       "desc": {
         "zh": "倒错回环",
-        "en": ""
+        "en": "Looping and winding"
       },
       "eid": {
         "zh": "本层后续出现的正位塔罗牌会变为对应的逆位牌",
@@ -24448,8 +24581,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -24510,11 +24643,11 @@
       },
       "desc": {
         "zh": "梦入异乡",
-        "en": ""
+        "en": "Dream into a mirror"
       },
       "eid": {
-        "zh": "{{IsaacsRoom}} 生成一张可以入睡的床#睡醒后通常会传送至本层随机房间#也可能生成不会传送的暗色床",
-        "en": "{{IsaacsRoom}} Spawn a bed you can sleep in#Usually teleports you to a random room on the floor after waking up#A darker bed may appear that does not teleport you"
+        "zh": "{{IsaacsRoom}} 生成一张可以入睡的床#睡醒后传送至本层随机房间#损坏的床不会传送",
+        "en": "{{IsaacsRoom}} Spawn a bed you can sleep in#After waking, teleport to a random room on the floor#Broken beds do not teleport you"
       },
       "seijaBuff": {
         "zh": "",
@@ -24537,8 +24670,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "睡眠时额外触发{{Card51}}的效果",
-        "en": "Also triggers {{Card51}} when sleeping"
+        "zh": "睡下时额外触发一次{{Card51}}的效果",
+        "en": "Sleeping also triggers {{Card51}} once"
       },
       "icon": "/generated/images/xiii-faint.png",
       "thumb32": "/generated/images/xiii-faint_32.webp",
@@ -24553,7 +24686,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24615,7 +24748,7 @@
       },
       "desc": {
         "zh": "超绝!豪快!闷绝!优雅!超级!究极超级!",
-        "en": ""
+        "en": "Perfect Faintless Transcendent Supernatural Maniac Absolute"
       },
       "eid": {
         "zh": "{{Timer}} 30秒内，击杀敌人会掉落彩虹颜料#每3份颜料合成为1个随机基础掉落",
@@ -24658,7 +24791,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24720,7 +24853,7 @@
       },
       "desc": {
         "zh": "灵魂算子：重生",
-        "en": ""
+        "en": "Soul = Rebirth"
       },
       "eid": {
         "zh": "{{DevilRoom}} 持有时，死亡后在恶魔房复活#使用后立即死亡并触发此次复活",
@@ -24763,7 +24896,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24825,7 +24958,7 @@
       },
       "desc": {
         "zh": "万物皆虚，万事皆允",
-        "en": ""
+        "en": "May you be terialistic"
       },
       "eid": {
         "zh": "将当前房间的障碍物升空，随后砸向敌人",
@@ -24868,7 +25001,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 352,
         "w": 32,
         "h": 32
@@ -24948,7 +25081,7 @@
       },
       "desc": {
         "zh": "星霜在此凝结",
-        "en": ""
+        "en": "Star frost condenses here"
       },
       "eid": {
         "zh": "若此卡为本层使用的第一张卡牌，生成{{Heart}}红心、{{SoulHeart}}魂心与{{EternalHeart}}永恒心各1个#否则，生成1个{{HalfHeart}}半红心",
@@ -24991,7 +25124,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25071,7 +25204,7 @@
       },
       "desc": {
         "zh": "长守月明",
-        "en": ""
+        "en": "Keep watching moon til bright"
       },
       "eid": {
         "zh": "{{Collectible589}} 生成一道月光",
@@ -25114,7 +25247,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25194,7 +25327,7 @@
       },
       "desc": {
         "zh": "物皆重临",
-        "en": ""
+        "en": "All that falls again"
       },
       "eid": {
         "zh": "重新发动本房间此前使用过的其他卡牌#若一次重放至少3张卡牌，额外生成1张随机卡牌",
@@ -25237,7 +25370,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25299,7 +25432,7 @@
       },
       "desc": {
         "zh": "引导永恒的哀悼",
-        "en": ""
+        "en": "Don't be sad.Don't worry."
       },
       "eid": {
         "zh": "{{EternalHeart}} 持有时，受伤有小概率生成永恒之心#{{Confessional}} 使用后生成一台忏悔室",
@@ -25342,7 +25475,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25404,7 +25537,7 @@
       },
       "desc": {
         "zh": "星汉灿烂",
-        "en": ""
+        "en": "Ever shinning"
       },
       "eid": {
         "zh": "{{Planetarium}} 从你持有的道具中随机展示3个候选#选择并永久失去其中1件，换取1件星辰类道具",
@@ -25447,7 +25580,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25509,7 +25642,7 @@
       },
       "desc": {
         "zh": "所知者稀",
-        "en": ""
+        "en": "May you know less"
       },
       "eid": {
         "zh": "从当前房间道具池预知1件道具#下一件出现的道具会与其组成多选一",
@@ -25552,7 +25685,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25614,7 +25747,7 @@
       },
       "desc": {
         "zh": "我将绝火",
-        "en": ""
+        "en": "I Will Inflame"
       },
       "eid": {
         "zh": "在房间中所有实体边上点燃火堆#复燃所有其他火堆#当前房间内靠近火堆会将其自动熄灭",
@@ -25657,7 +25790,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25719,7 +25852,7 @@
       },
       "desc": {
         "zh": "和妈妈抱抱！",
-        "en": ""
+        "en": "Hug with your mommy!"
       },
       "eid": {
         "zh": "{{Timer}} 30秒内，攻击时发射会追踪敌人的标记#标记命中后，妈妈之手会抓住敌人约3秒",
@@ -25762,7 +25895,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25824,7 +25957,7 @@
       },
       "desc": {
         "zh": "命运的一切礼物，都在暗中标好了价格",
-        "en": ""
+        "en": "Marked with prices in secret"
       },
       "eid": {
         "zh": "重置本层所有道具#本层的道具均需要购买且无法辨认#售价为道具等级的五倍",
@@ -25867,7 +26000,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25929,7 +26062,7 @@
       },
       "desc": {
         "zh": "二日齐天",
-        "en": ""
+        "en": "When you raise the second sun"
       },
       "eid": {
         "zh": "召唤一个Boss并封锁房间#击败后，该Boss会复活为友军并持续跟随玩家",
@@ -25972,7 +26105,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26034,7 +26167,7 @@
       },
       "desc": {
         "zh": "所信者亦可背弃",
-        "en": ""
+        "en": "detautafnI ... ni ... si ... em"
       },
       "eid": {
         "zh": "{{AngelRoom}} 献祭所有仍持有的、在天使房取得的道具#{{DevilRoom}} 每献祭1件，生成1件恶魔房道具",
@@ -26077,7 +26210,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26139,7 +26272,7 @@
       },
       "desc": {
         "zh": "直到血流成河",
-        "en": ""
+        "en": "Til blood shedding like river"
       },
       "eid": {
         "zh": "品质0-4各生成1件被动道具，选择其中1件成为该品质的「爱人」#同品质的其它被动道具会被排斥为对应道具魂火#之后出现的该品质道具会变为「爱人」#{{BrokenHeart}} 背叛爱人或利用候选时会受到惩罚",
@@ -26182,8 +26315,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -26287,7 +26420,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26392,7 +26525,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26454,11 +26587,11 @@
       },
       "desc": {
         "zh": "跨越千年的命运",
-        "en": ""
+        "en": "Buried for thousand years"
       },
       "eid": {
-        "zh": "暂时隐藏你持有的3件道具#在取得7个新道具后返还它们#期间获得随机奖励",
-        "en": "Temporarily hide 3 held items#Return them after gaining 7 new items#Gain a random reward meanwhile"
+        "zh": "随机暂时隐藏至多3件持有道具#立即生成1件随机道具#见到7次新道具后返还",
+        "en": "Temporarily hides up to 3 random held items#Immediately spawns 1 random item#Returns the hidden items after seeing 7 new items"
       },
       "seijaBuff": {
         "zh": "",
@@ -26481,8 +26614,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "暂失数量不变，随机新道具改为二选一",
-        "en": "Still hide 3 items; the random new item becomes a 2-choice"
+        "zh": "随机奖励改为二选一",
+        "en": "The random reward becomes a choice of 2"
       },
       "icon": "/generated/images/ix-the-hermit-reversed.png",
       "thumb32": "/generated/images/ix-the-hermit-reversed_32.webp",
@@ -26497,7 +26630,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26559,11 +26692,11 @@
       },
       "desc": {
         "zh": "你相信引力吗?",
-        "en": ""
+        "en": "Do you believe in gravity?"
       },
       "eid": {
-        "zh": "将房间内所有基础掉落物转化为旋转着的三至五选一掉落物",
-        "en": "Convert all the pickups in the room into 3-5 pickups to choose one,they are spining in a circle"
+        "zh": "将房间内的普通掉落物展开为旋转的三至五选一",
+        "en": "Turns ordinary pickups in the room into spinning choices of 3–5"
       },
       "seijaBuff": {
         "zh": "",
@@ -26586,8 +26719,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "改为五至七选一掉落物",
-        "en": "Add the choices of the pickups."
+        "zh": "改为五至七选一",
+        "en": "Becomes a choice of 5–7"
       },
       "icon": "/generated/images/x-the-wheel-of-destiny-reversed.png",
       "thumb32": "/generated/images/x-the-wheel-of-destiny-reversed_32.webp",
@@ -26602,7 +26735,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26674,11 +26807,11 @@
       },
       "desc": {
         "zh": "顺从你内心的奴隶",
-        "en": ""
+        "en": "Free your inner slave"
       },
       "eid": {
-        "zh": "持有时，较轻的伤害会提高至1.5颗心，并记录每次有效受伤#使用后，每次记录生成1个{{SoulHeart}}，并清空累计",
-        "en": "While held, lighter hits are raised to 1.5 hearts and each effective hit is recorded#On use, spawn 1 {{SoulHeart}} per record and clear the count"
+        "zh": "持有时，每次受伤获得+0.75攻击，并使之后受到的最低伤害+0.5心#使用后清空记录；每2层生成1个{{SoulHeart}}",
+        "en": "While held, each hit grants +0.75 Damage and raises later minimum damage by half a heart#Using it clears all records; spawns 1 {{SoulHeart}} per 2 records"
       },
       "seijaBuff": {
         "zh": "",
@@ -26702,7 +26835,7 @@
       },
       "tarotClothBuffs": {
         "zh": "奖励改为{{BlendedHeart}}",
-        "en": "Payout becomes {{BlendedHeart}}"
+        "en": "Rewards become {{BlendedHeart}}"
       },
       "icon": "/generated/images/xi-lure-reversed.png",
       "thumb32": "/generated/images/xi-lure-reversed_32.webp",
@@ -26717,7 +26850,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26779,7 +26912,7 @@
       },
       "desc": {
         "zh": "环回错倒",
-        "en": ""
+        "en": "May you a better escape"
       },
       "eid": {
         "zh": "本层后续出现的逆位塔罗牌会变为对应的正位牌",
@@ -26822,7 +26955,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -26902,11 +27035,11 @@
       },
       "desc": {
         "zh": "万籁将眠",
-        "en": ""
+        "en": "Cross between life and death"
       },
       "eid": {
-        "zh": "停止攻击时，房间逐渐陷入沉睡#沉睡越深，敌人与敌方弹幕行动越慢#重新攻击会逐渐唤醒房间",
-        "en": "While not firing, the room gradually falls asleep#Deeper sleep slows enemies and hostile shots#Firing again slowly wakes the room"
+        "zh": "停止攻击时，房间逐渐陷入沉睡#沉睡越深，敌人、敌方弹幕与激光行动越慢#重新攻击会逐渐唤醒房间",
+        "en": "While not firing, the room gradually falls asleep#Deeper sleep slows enemies, hostile projectiles, and hostile lasers#Firing again slowly wakes the room"
       },
       "seijaBuff": {
         "zh": "",
@@ -26945,7 +27078,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27025,11 +27158,11 @@
       },
       "desc": {
         "zh": "如此，我就能满足了",
-        "en": ""
+        "en": "Handless combo"
       },
       "eid": {
-        "zh": "立即放下主动道具、卡牌/药丸与饰品#所有这些栏位保持为空时，大幅提升伤害、射速、射程、移速和幸运#副主动与口袋主动重新拾取后回到原槽位",
-        "en": "Drop your actives, cards/pills, and trinkets immediately#While those slots stay empty, greatly boost Damage, Tears, Range, Speed, and Luck#Secondary and pocket actives return to their original slots when picked up again"
+        "zh": "卸下全部主动道具、卡牌/药丸和饰品，其中至多6件形成物品阵列#阵列中的主动与卡牌/药丸仍可使用，饰品持续生效#选中地上资源时按{{ButtonRT}}收入阵列；选中阵列资源时长按{{ButtonRT}}放回地面#重新持有任意主动、卡牌/药丸或饰品时，阵列结束并返还其中所有资源",
+        "en": "Drop all actives, cards/pills, and trinkets; up to 6 become a Field array#Field actives and cards/pills can still be used; trinkets remain active#Press {{ButtonRT}} on a ground resource to add it; hold {{ButtonRT}} on a Field resource to return it#Holding any active, card/pill, or trinket again ends the Field and returns everything in it"
       },
       "seijaBuff": {
         "zh": "",
@@ -27052,8 +27185,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "属性提升幅度进一步增加",
-        "en": "Stat boosts increase further"
+        "zh": "阵列上限提升至8件",
+        "en": "Field capacity increases to 8"
       },
       "icon": "/generated/images/xiii-death-reversed.png",
       "thumb32": "/generated/images/xiii-death-reversed_32.webp",
@@ -27068,7 +27201,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27148,11 +27281,11 @@
       },
       "desc": {
         "zh": "心怀异端",
-        "en": ""
+        "en": "Harbouring heresy"
       },
       "eid": {
-        "zh": "{{RottenHeart}} 向身后吐出红心，并将其转化为腐心#每颗腐心释放毒雾伤害敌人#无法继续消耗红心后，仍有10%概率额外吐出腐心",
-        "en": "{{RottenHeart}} Spit red hearts behind you and turn them into rotten hearts#Each rotten heart releases toxic fog#After red hearts run out, still 10% chance to spit another rotten heart"
+        "zh": "{{RottenHeart}} 向身后吐出红心，并将其转化为腐心#吐出的腐心释放毒雾伤害敌人#无法继续安全消耗红心后，仍有10%概率额外吐出腐心",
+        "en": "{{RottenHeart}} Spit red hearts behind you and turn them into rotten hearts#Spat-out rotten hearts release damaging toxic fog#When no more red hearts can be safely spent, still has a 10% chance to spit an extra rotten heart"
       },
       "seijaBuff": {
         "zh": "",
@@ -27176,7 +27309,7 @@
       },
       "tarotClothBuffs": {
         "zh": "概率提升至25%",
-        "en": "Chance rises to 25%"
+        "en": "Chance increases to 25%"
       },
       "icon": "/generated/images/xiii-the-corpse-reversed.png",
       "thumb32": "/generated/images/xiii-the-corpse-reversed_32.webp",
@@ -27191,7 +27324,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27253,11 +27386,11 @@
       },
       "desc": {
         "zh": "艺术，就是爆炸",
-        "en": ""
+        "en": "Art is explosion"
       },
       "eid": {
-        "zh": "本房间中有意义的实体消失时发生固定规模爆炸#泪弹、敌方弹幕、敌人和掉落物等都可触发",
-        "en": "When meaningful entities vanish in this room, a fixed-size explosion triggers#Tears, projectiles, enemies, pickups, and more can fire it"
+        "zh": "地上的此卡会周期性爆炸并弹向别处#使用后，本房间内泪弹、敌方弹幕、敌人、掉落物等消失时发生爆炸#{{Damage}} 爆炸造成2倍攻击伤害；距离玩家过近时不会触发",
+        "en": "While on the ground, this card periodically explodes and bounces away#On use, tears, hostile projectiles, enemies, pickups, and more explode when they disappear in this room#{{Damage}} These explosions deal 2× damage; entities too close to the player do not trigger them"
       },
       "seijaBuff": {
         "zh": "",
@@ -27280,8 +27413,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "爆炸不会伤害玩家",
-        "en": "Explosions do not harm the player"
+        "zh": "使用后的爆炸不会伤害玩家",
+        "en": "Explosions caused by the used card cannot hurt the player"
       },
       "icon": "/generated/images/xiv-art-reversed.png",
       "thumb32": "/generated/images/xiv-art-reversed_32.webp",
@@ -27296,7 +27429,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27358,11 +27491,11 @@
       },
       "desc": {
         "zh": "虚无解械",
-        "en": ""
+        "en": "Zero = Infinity"
       },
       "eid": {
-        "zh": "{{DevilRoom}} 召来撒旦进行一次恶魔交易，出现2–3件商品#攻击撒旦可改为与其战斗；击败后返还尚未购买的商品",
-        "en": "{{DevilRoom}} Summon Satan for a Devil deal with 2–3 goods#Attacking Satan starts a fight; defeating him returns unbought goods"
+        "zh": "{{DevilRoom}} 召来撒旦进行一次恶魔交易，出现2–3件商品#用爆炸攻击撒旦可改为与其战斗；击败后可免费取得尚未购买的商品",
+        "en": "{{DevilRoom}} Summon Satan for a Devil deal with 2–3 goods#Bomb Satan to fight him instead; defeating him makes all unbought goods free"
       },
       "seijaBuff": {
         "zh": "",
@@ -27401,7 +27534,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27463,11 +27596,11 @@
       },
       "desc": {
         "zh": "崩落...",
-        "en": ""
+        "en": "Collapse..."
       },
       "eid": {
         "zh": "持续从天而降大量随机障碍物#后续波次越来越密集",
-        "en": "Rain random obstacles from above#Later waves grow denser"
+        "en": "Rain waves of random obstacles from above#Later waves become increasingly dense"
       },
       "seijaBuff": {
         "zh": "",
@@ -27491,7 +27624,7 @@
       },
       "tarotClothBuffs": {
         "zh": "波次数量由10提高至16",
-        "en": "Wave count rises from 10 to 16"
+        "en": "Wave count increases from 10 to 16"
       },
       "icon": "/generated/images/xvi-the-tower-reversed.png",
       "thumb32": "/generated/images/xvi-the-tower-reversed_32.webp",
@@ -27506,7 +27639,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27586,11 +27719,11 @@
       },
       "desc": {
         "zh": "他们灿若繁星",
-        "en": ""
+        "en": "They shine like stars"
       },
       "eid": {
-        "zh": "{{Collectible651}} 点亮房间内的敌人并为其添加光环#{{Collectible651}} 在此卡的周围自动提供一个有50%增幅效果的光圈",
-        "en": "{{Collectible651}} Light enemies in the room and give them an aura#{{Collectible651}} Also provides a 50% boost aura around this card"
+        "zh": "{{Collectible651}} 点亮房间内的敌人，使其获得伯列恒之星的光环#地上的此卡也会提供50%强度的光环",
+        "en": "{{Collectible651}} Light up enemies in the room, giving them a Star of Bethlehem aura#This card also provides a 50%-strength aura while on the ground"
       },
       "seijaBuff": {
         "zh": "",
@@ -27613,8 +27746,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "点亮全层敌人#点亮本层的掉落物",
-        "en": "Light all enemies on the floor#Light pickups on this floor"
+        "zh": "本层后续出现的敌人与掉落物也会获得光环",
+        "en": "Enemies and pickups appearing later on this floor also gain the aura"
       },
       "icon": "/generated/images/xvii-the-stars-reversed.png",
       "thumb32": "/generated/images/xvii-the-stars-reversed_32.webp",
@@ -27629,7 +27762,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27709,11 +27842,11 @@
       },
       "desc": {
         "zh": "望向天空，高高在上",
-        "en": ""
+        "en": "Look to the sky, way up on high"
       },
       "eid": {
-        "zh": "{{Fear}} 使房间中的敌人陷入恐惧，并使其受到约3倍总伤害#玩家自身也会暂时陷入恐惧",
-        "en": "{{Fear}} Fear all enemies in the room and make them take about 3x damage#You are briefly feared as well"
+        "zh": "{{Fear}} 使本房间敌人陷入恐惧，并使其受到约3倍总伤害#{{Fear}} 玩家自身也会陷入20秒恐惧",
+        "en": "{{Fear}} Fear enemies in this room and make them take about 3× total damage#{{Fear}} You are also feared for 20 seconds"
       },
       "seijaBuff": {
         "zh": "",
@@ -27752,7 +27885,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27832,11 +27965,11 @@
       },
       "desc": {
         "zh": "赞美我！",
-        "en": ""
+        "en": "Praise me!"
       },
       "eid": {
-        "zh": "生成一个本层持续存在的彩虹传送门#可以反复进入，每次随机传送至一个特殊房间",
-        "en": "Spawns a rainbow portal that lasts for the floor#The portal can be entered repeatedly; each entry sends you to a newly randomized special room"
+        "zh": "生成一个本层持续存在的彩虹传送门#可以反复进入，每次进入都会重新随机传送至一个特殊房间",
+        "en": "Spawn a rainbow portal that lasts for the current floor#It can be entered repeatedly; each entry rerolls a random special-room destination"
       },
       "seijaBuff": {
         "zh": "",
@@ -27859,8 +27992,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "每次进入时优先选择尚未探索的特殊房间",
-        "en": "Each entry prefers an unexplored special room"
+        "zh": "每次进入时优先传送至尚未探索的特殊房间",
+        "en": "Each entry prioritizes an unexplored special room"
       },
       "icon": "/generated/images/xix-the-sun-reversed.png",
       "thumb32": "/generated/images/xix-the-sun-reversed_32.webp",
@@ -27875,7 +28008,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27937,11 +28070,11 @@
       },
       "desc": {
         "zh": "瞬间即成永恒",
-        "en": ""
+        "en": "An instant becomes eternity"
       },
       "eid": {
-        "zh": "{{ArrowUp}} 使用后获得强大的“永恒”属性增益#取得或失去资源、道具、饰品和口袋物会削弱增益#清理房间会逐渐恢复",
-        "en": "{{ArrowUp}} On use, gain a strong Eternal stat boost#Gaining or losing resources, items, trinkets, or pocket items weakens it#Clearing rooms gradually restores it"
+        "zh": "记录接下来3秒内的动作与攻击#本层进入房间时，过去的你会完整重演这段时间",
+        "en": "Record your actions and attacks for the next 3 seconds#For this floor, your past self replays them when entering rooms"
       },
       "seijaBuff": {
         "zh": "",
@@ -27964,8 +28097,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "获得更高的初始稳定度",
-        "en": "Start with higher Stability"
+        "zh": "记录时间延长至5秒",
+        "en": "Recording duration increases to 5 seconds"
       },
       "icon": "/generated/images/xx-the-aeon-reversed.png",
       "thumb32": "/generated/images/xx-the-aeon-reversed_32.webp",
@@ -27980,8 +28113,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -28042,11 +28175,11 @@
       },
       "desc": {
         "zh": "不管离开多远，不管时间如何流逝，你永远都是属于我的",
-        "en": ""
+        "en": "No matter how far you go, no matter how much time passes, you will always belong to me"
       },
       "eid": {
-        "zh": "第一次使用时，随机失去一件已有道具#下一层这张卡会重新出现，再次使用可取回该道具",
-        "en": "First use: randomly lose one held item#This card reappears next floor; use it again to reclaim that item"
+        "zh": "首次使用时，将一件已有道具送入宇宙#之后每次使用，生成该道具的一个副本#进入新层时会重新获得这张卡",
+        "en": "First use sends one owned item into the Universe#Later uses create a copy of that item#This card returns at the start of each new floor"
       },
       "seijaBuff": {
         "zh": "",
@@ -28069,8 +28202,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "返还的道具以完整的新状态出现",
-        "en": "The returned item appears fully refreshed"
+        "zh": "生成的道具视为新生成",
+        "en": "Spawned copies count as newly generated"
       },
       "icon": "/generated/images/xxi-the-universe-reversed.png",
       "thumb32": "/generated/images/xxi-the-universe-reversed_32.webp",
@@ -28085,7 +28218,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28147,11 +28280,11 @@
       },
       "desc": {
         "zh": "永夜将至",
-        "en": ""
+        "en": "Everlasting night approaches"
       },
       "eid": {
-        "zh": "生成一道旋涡将敌人吸入并从上方吐出",
-        "en": "Open a vortex that swallows enemies and drops them back from above"
+        "zh": "生成持续15秒的旋涡#吸入附近敌人，使其从高空坠回",
+        "en": "Creates a vortex for 15 seconds#Swallows nearby enemies and drops them back from above"
       },
       "seijaBuff": {
         "zh": "",
@@ -28174,8 +28307,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "旋涡持续时长翻倍（30秒）",
-        "en": "Double vortex duration (30 seconds)"
+        "zh": "旋涡持续30秒",
+        "en": "Vortex lasts 30 seconds"
       },
       "icon": "/generated/images/xix-the-eclipse.png",
       "thumb32": "/generated/images/xix-the-eclipse_32.webp",
@@ -28190,7 +28323,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28252,11 +28385,11 @@
       },
       "desc": {
         "zh": "极昼重临",
-        "en": ""
+        "en": "Polar Day Reaches Again"
       },
       "eid": {
-        "zh": "{{Timer}} 日蚀持续3分钟，太阳逐渐逼近#期间不断召来落光攻击敌人，时间越久越频繁",
-        "en": "{{Timer}} An eclipse lasts 3 minutes as the sun approaches#Falling light strikes enemies more often over time"
+        "zh": "{{Timer}} 日蚀持续3分钟，太阳逐渐逼近#期间不断召来落光攻击敌人，也会有落光袭击玩家#时间越久，落光越频繁",
+        "en": "{{Timer}} An eclipse lasts 3 minutes as the sun approaches#Falling light repeatedly strikes enemies, while other strikes target the player#The strikes become more frequent over time"
       },
       "seijaBuff": {
         "zh": "",
@@ -28279,8 +28412,8 @@
         "en": ""
       },
       "tarotClothBuffs": {
-        "zh": "落光伤害由3倍提升至6倍",
-        "en": "Falling-light damage rises from 3x to 6x"
+        "zh": "攻击敌人的落光伤害由3倍提升至6倍",
+        "en": "Enemy-targeting strikes increase from 3× to 6× damage"
       },
       "icon": "/generated/images/xix-the-eclipse-reversed.png",
       "thumb32": "/generated/images/xix-the-eclipse-reversed_32.webp",
@@ -28295,7 +28428,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28367,11 +28500,11 @@
       },
       "desc": {
         "zh": "羡..",
-        "en": "I Hate"
+        "en": "Envy..."
       },
       "eid": {
-        "zh": "持有此魂石时受伤或使用后向八向刺出长枪",
-        "en": "Injured while holding this soul stone or using it will fire eight way spears"
+        "zh": "持有时受伤，或使用后，向八个方向刺出长枪#{{Damage}} 长枪造成1.5倍攻击伤害",
+        "en": "Taking damage while holding it, or using it, fires spears in eight directions#{{Damage}} Spears deal 1.5× your damage"
       },
       "seijaBuff": {
         "zh": "",
@@ -28410,7 +28543,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28482,11 +28615,11 @@
       },
       "desc": {
         "zh": "欲..",
-        "en": "I Want"
+        "en": "Desire..."
       },
       "eid": {
-        "zh": "地上的此魂石自动飞向敌人并爆炸#使用时触发一次安全的爆炸",
-        "en": "The soul stone on the ground automatically flies towards the enemy and explodes#Trigger an explosion that does not harm Isaac on use"
+        "zh": "地上的魂石会反复进入黑洞，瞄准敌人后从上方坠落爆炸#使用后，在自身位置引发一次不会伤害玩家的爆炸",
+        "en": "While on the ground, repeatedly disappears into a black hole, targets an enemy, then crashes down from above in an explosion#On use, creates an explosion at your position that cannot hurt players"
       },
       "seijaBuff": {
         "zh": "",
@@ -28525,7 +28658,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28597,11 +28730,11 @@
       },
       "desc": {
         "zh": "知..",
-        "en": "I Know"
+        "en": "Knowledge..."
       },
       "eid": {
-        "zh": "为房间中所有道具生成与其编号临近的若干个道具进行多选一#需要足够空间生成道具",
-        "en": "Generate multiple items adjacent to their numbers for all items in the room to choose from#Need enough space to generate items"
+        "zh": "以房间中的道具为中心，显现出若干相邻的可能性#{{Collectible}} 原道具与显现出的道具组成多选一#空间不足时只能显现部分道具",
+        "en": "Reveals several nearby possibilities around each eligible item in the room#{{Collectible}} The original item and its revealed alternatives form a single choice#Limited space may reduce the number revealed"
       },
       "seijaBuff": {
         "zh": "",
@@ -28640,7 +28773,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28702,11 +28835,11 @@
       },
       "desc": {
         "zh": "有物井中来",
-        "en": ""
+        "en": "Something rises from the well"
       },
       "eid": {
-        "zh": "{{SuperSecretRoom}} 使用后传送至本层超级隐藏房#持有到下一层时，额外生成1个超级隐藏房",
-        "en": "{{SuperSecretRoom}} On use, teleport to this floor's Super Secret Room#Holding it into the next floor adds 1 Super Secret Room"
+        "zh": "{{SuperSecretRoom}} 使用后传送至本层超级隐藏房#持有至下一层时，额外生成1个超级隐藏房",
+        "en": "{{SuperSecretRoom}} On use, teleport to a Super Secret Room on this floor#Holding this card into the next floor adds 1 Super Secret Room"
       },
       "seijaBuff": {
         "zh": "",
@@ -28745,7 +28878,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28807,11 +28940,11 @@
       },
       "desc": {
         "zh": "不见天月明",
-        "en": ""
+        "en": "No moonlight reaches these depths"
       },
       "eid": {
-        "zh": "进入一座只有心跳能够指路的迷宫#连续找到正确的门，最终获得3选1道具",
-        "en": "Enter a maze guided only by heartbeat#Find correct doors in a row to earn a 3-choice item"
+        "zh": "进入一座由心跳指引的迷宫#连续找到4次正确的门#完成后获得隐藏房道具3选1",
+        "en": "Enter a maze guided by heartbeats#Find the correct door 4 times in a row#Complete it for a 3-choice Secret Room item reward"
       },
       "seijaBuff": {
         "zh": "",
@@ -28850,7 +28983,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -28912,11 +29045,11 @@
       },
       "desc": {
         "zh": "降神仪式",
-        "en": ""
+        "en": "Invocation ritual"
       },
       "eid": {
-        "zh": "{{SacrificeRoom}} 生成一座仪式法阵，在法阵中献祭半格生命获得对应奖励#{{Heart}} 优先献祭红心",
-        "en": "{{SacrificeRoom}} Generate a ceremonial array and sacrifice life in it to receive rewards#{{Heart}} Sacrifice red heart first"
+        "zh": "{{SacrificeRoom}} 生成一座仪式法阵#在法阵中献祭半格生命，逐次获得不同奖励#{{Heart}} 优先献祭红心",
+        "en": "{{SacrificeRoom}} Creates a ritual circle#Sacrifice half a heart within it to receive successive rewards#{{Heart}} Red Hearts are consumed first"
       },
       "seijaBuff": {
         "zh": "",
@@ -28940,7 +29073,7 @@
       },
       "tarotClothBuffs": {
         "zh": "每次献祭有30%概率生成一颗魂心",
-        "en": "30% chance to generate a soul heart when sacrifice"
+        "en": "Each sacrifice has a 30% chance to spawn a Soul Heart"
       },
       "icon": "/generated/images/v-the-sting.png",
       "thumb32": "/generated/images/v-the-sting_32.webp",
@@ -28955,7 +29088,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29017,7 +29150,7 @@
       },
       "desc": {
         "zh": "落入彼岸",
-        "en": ""
+        "en": "Fall to abyss"
       },
       "eid": {
         "zh": "将最强的敌人选作祭品#每完成一次献祭，之后的祭品受到更多伤害#仪式持续到房间中没有新的祭品",
@@ -29060,7 +29193,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31936,7 +32069,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32103,7 +32236,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32270,7 +32403,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32437,7 +32570,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32604,7 +32737,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32771,8 +32904,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -32938,7 +33071,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33105,7 +33238,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33282,7 +33415,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33377,7 +33510,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33472,7 +33605,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33567,7 +33700,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33662,7 +33795,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33757,7 +33890,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33852,7 +33985,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 448,
         "w": 32,
         "h": 32

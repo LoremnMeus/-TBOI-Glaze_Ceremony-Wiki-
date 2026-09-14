@@ -1,12 +1,12 @@
 ---
 title: "XX - The Aeon?"
-description: "On use, gain a strong Eternal stat boost Gaining or losing resources, items, trinkets, or pocket items weakens it Clearing rooms gradually restores it"
+description: "An instant becomes eternity"
 slug: xx-the-aeon-reversed
 kind: card
 internalKey: Aeon_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XX - 永恒? XX - The Aeon? Aeon_r xx-the-aeon-reversed XX - The Aeon? 瞬间即成永恒 使用后获得强大的“永恒”属性增益 取得或失去资源、道具、饰品和口袋物会削弱增益 清理房间会逐渐恢复 On use, gain a strong Eternal stat boost Gaining or losing resources, items, trinkets, or pocket items weakens it Clearing rooms gradually restores it</p>
+<p class="wiki-search-index" v-pre>XX - 永恒? XX - The Aeon? Aeon_r xx-the-aeon-reversed XX - The Aeon? 瞬间即成永恒 An instant becomes eternity 记录接下来3秒内的动作与攻击 本层进入房间时，过去的你会完整重演这段时间 Record your actions and attacks for the next 3 seconds For this floor, your past self replays them when entering rooms</p>
 
 <PublicEntry slug="xx-the-aeon-reversed" lang="en" />
 
@@ -15,24 +15,24 @@ status: reviewed
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 
-
 ## Effects
 
-After use, gain a “stability”-driven stat boost.
+On use, records the player's actions and attacks for the next **3 seconds**.
 
- Higher stability strengthens damage, tears, range, speed, and similar gains.
+After recording finishes, that interval becomes this floor's eternal fragment. Entering rooms afterward summons a ghost of the player's past self, which fully replays those actions and attacks.
 
-## Stability changes
+Attacks fired by the ghost keep the damage, speed, tear flags, and other parameters from the recording, and do not change if the player later gains new stats or items.
 
-- Each real basic-resource change: **-1**
-- Gain or lose a collectible: **-1.5**
-- Trinket or pocket-item change: **-1**
-- Clear a room: **+0.25**
+## Notes
 
-Picking up 10 coins at once still counts as one resource change (−1), not −10. Stat growth follows a square-root curve, so further gains slow at high stability.
+* The effect lasts until entering the next floor.
+* Using the card again overwrites the previous eternal fragment with a new recording.
+* The same recording plays at most once per room.
+* Only attacks truly initiated by the player are recorded; familiars, automatic attacks, and derived follow-up attacks are not recorded separately.
+* Replay recreates already-recorded attacks and does not count as the player starting a new attack.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Stability rises to at least **15** (normally at least **7**).
+Recording duration increases from **3 seconds** to **5 seconds**.

@@ -1,12 +1,12 @@
 ---
 title: XI - Lure
-description: "On use, current enemies each demand one of Coin, Key, Bomb, or Satisfying a normal enemy makes it no longer keep doors closed and deal no contact damage Killing a satisfied enemy d"
+description: "Inspire their inner beast"
 slug: xi-lure
 kind: card
 internalKey: Lure
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XI - 欲望 XI - Lure Lure xi-lure XI - Lure 欲求皆有其形 使用时，当前敌人各自索求 之一 满足普通敌人后，其不再阻挡房门且不会造成接触伤害 击杀已满足的敌人会掉落1-2份所求资源 On use, current enemies each demand one of Coin, Key, Bomb, or Satisfying a normal enemy makes it no longer keep doors closed and deal no contact damage Killing a satisfied enemy drops 1-2 of the requested resource</p>
+<p class="wiki-search-index" v-pre>XI - 欲望 XI - Lure Lure xi-lure XI - Lure 欲求皆有其形 Inspire their inner beast 使用时，当前敌人各自索求 之一 满足普通敌人后，其不再阻挡房门且不会造成接触伤害 击杀已满足的敌人会掉落1-2份所求资源 On use, current enemies each demand one of Coin, Key, Bomb, or Satisfying a normal enemy makes it no longer keep doors closed and deal no contact damage Killing a satisfied enemy drops 1-2 of the requested resource</p>
 
 <PublicEntry slug="xi-lure" lang="en" />
 

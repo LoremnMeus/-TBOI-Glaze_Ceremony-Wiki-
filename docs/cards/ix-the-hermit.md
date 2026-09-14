@@ -6,7 +6,7 @@ kind: card
 internalKey: Hermit
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 随机生成1个本局失去过的道具 优先选择被动道具 Spawn 1 random item you have lost this run Passive items are chosen first</p>
+<p class="wiki-search-index" v-pre>IX - 隐者 IX - The Hermit Hermit ix-the-hermit IX - The Hermit 你的过去萦绕在心 Bury your past deeply in mind 随机生成1个本局失去过的道具 优先选择被动道具 Spawn 1 random item you have lost this run Passive items are chosen first</p>
 
 <PublicEntry slug="ix-the-hermit" lang="zh" />
 

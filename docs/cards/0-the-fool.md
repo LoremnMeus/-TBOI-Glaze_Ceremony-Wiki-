@@ -6,7 +6,7 @@ kind: card
 internalKey: Fool
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 从当前道具池展示5个可生成魂火的道具虚影 接触其中一个，将其牺牲并生成对应魂火 被选择的道具会从道具池移除 Show 5 phantom items from the current item pool that can generate item wisps Touch one to sacrifice it and generate its corresponding item wisp The selected item is removed from the item pool</p>
+<p class="wiki-search-index" v-pre>0 - 旅者 0 - The Fool Fool 0-the-fool 0 - The Fool 所遗者广 May you lose more 从当前道具池展示5个可生成魂火的道具虚影 接触其中一个，将其牺牲并生成对应魂火 被选择的道具会从道具池移除 Show 5 phantom items from the current item pool that can generate item wisps Touch one to sacrifice it and generate its corresponding item wisp The selected item is removed from the item pool</p>
 
 <PublicEntry slug="0-the-fool" lang="zh" />
 

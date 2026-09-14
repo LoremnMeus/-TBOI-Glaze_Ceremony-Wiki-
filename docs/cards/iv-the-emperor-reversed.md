@@ -6,7 +6,7 @@ kind: card
 internalKey: Emperor_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>IV - 帝王? IV - The Emperor? Emperor_r iv-the-emperor-reversed IV - The Emperor? 二日齐天 召唤一个Boss并封锁房间 击败后，该Boss会复活为友军并持续跟随玩家 Summon a boss and seal the room After being defeated, it returns as a friendly ally and continues to follow you</p>
+<p class="wiki-search-index" v-pre>IV - 帝王? IV - The Emperor? Emperor_r iv-the-emperor-reversed IV - The Emperor? 二日齐天 When you raise the second sun 召唤一个Boss并封锁房间 击败后，该Boss会复活为友军并持续跟随玩家 Summon a boss and seal the room After being defeated, it returns as a friendly ally and continues to follow you</p>
 
 <PublicEntry slug="iv-the-emperor-reversed" lang="zh" />
 

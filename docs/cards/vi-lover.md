@@ -6,7 +6,7 @@ kind: card
 internalKey: Lover
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VI - 爱 VI - Lover Lover vi-lover VI - Lover 吾爱自鸣 使用后，本房间内拾取基础资源或接触箱子时，有50%概率复制一份 复制品不会再次触发此效果 For this room, picking up basic resources or contacting chests has a 50% chance to create a copy Copies cannot trigger this effect again</p>
+<p class="wiki-search-index" v-pre>VI - 爱 VI - Lover Lover vi-lover VI - Lover 吾爱自鸣 A lover in Octave 使用后，本房间内拾取基础资源或接触箱子时，有50%概率复制一份 复制品不会再次触发此效果 For this room, picking up basic resources or contacting chests has a 50% chance to create a copy Copies cannot trigger this effect again</p>
 
 <PublicEntry slug="vi-lover" lang="zh" />
 

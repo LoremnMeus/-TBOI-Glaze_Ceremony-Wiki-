@@ -6,7 +6,7 @@ kind: card
 internalKey: Eclipse
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XIX - 日食 XIX - Eclipse Eclipse xix-the-eclipse XIX - The Eclipse 永夜将至 生成一道旋涡将敌人吸入并从上方吐出 Open a vortex that swallows enemies and drops them back from above</p>
+<p class="wiki-search-index" v-pre>XIX - 日食 XIX - Eclipse Eclipse xix-the-eclipse XIX - The Eclipse 永夜将至 Everlasting night approaches 生成持续15秒的旋涡 吸入附近敌人，使其从高空坠回 Creates a vortex for 15 seconds Swallows nearby enemies and drops them back from above</p>
 
 <PublicEntry slug="xix-the-eclipse" lang="zh" />
 
@@ -17,12 +17,16 @@ status: reviewed
 
 ## 效果
 
-使用后制造一个持续存在的日蚀入口。靠近入口的敌人会被吸入并暂时从战场中消失，之后再从入口落回并受到固定伤害。
+使用后，在玩家所在位置生成一个持续 **15 秒**的日食旋涡。
 
-离开房间或持续时间结束后面口消失。
+靠近旋涡的敌人会被吸入，短暂消失后从旋涡上方的高空坠回。落地时受到 **15 点伤害**。
+
+旋涡会持续捕获范围内的敌人；因此敌人坠回后若仍处于旋涡附近，会再次被吸入。
+
+旋涡固定在生成位置，不会跟随玩家移动，并在持续时间结束或离开当前房间后消失。
 
 ## 特殊联动
 
 ### {{Collectible:451}}
 
-日蚀入口持续时间由 **15 秒**延长至 **30 秒**。
+日食旋涡的持续时间延长至 **30 秒**。

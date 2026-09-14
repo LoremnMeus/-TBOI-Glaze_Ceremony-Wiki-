@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T07:48:15Z",
+  "generatedAt": "2026-09-14T09:06:51Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1291,6 +1291,14 @@
       "enStatus": "reviewed"
     },
     {
+      "slug": "one-way-rail-ticket",
+      "kind": "card",
+      "zh": "wiki/docs/cards/one-way-rail-ticket.md",
+      "en": "wiki/docs/en/cards/one-way-rail-ticket.md",
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
+    },
+    {
       "slug": "0-the-fool",
       "kind": "card",
       "zh": "wiki/docs/cards/0-the-fool.md",
@@ -1575,8 +1583,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xi-lure-reversed.md",
       "en": "wiki/docs/en/cards/xi-lure-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xii-the-hanged-man-reversed",
@@ -1671,8 +1679,8 @@
       "kind": "card",
       "zh": "wiki/docs/cards/xxi-the-universe-reversed.md",
       "en": "wiki/docs/en/cards/xxi-the-universe-reversed.md",
-      "zhStatus": "drafted",
-      "enStatus": "drafted"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "xix-the-eclipse",

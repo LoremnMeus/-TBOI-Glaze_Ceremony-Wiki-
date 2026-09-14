@@ -6,7 +6,7 @@ kind: card
 internalKey: Hanged_Man
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XII - 缚者 XII - The Hanged Man Hanged_Man xii-the-hanged-man XII - The Hanged Man 倒错回环 本层后续出现的正位塔罗牌会变为对应的逆位牌 Later upright Tarot cards on this floor become their reversed versions</p>
+<p class="wiki-search-index" v-pre>XII - 缚者 XII - The Hanged Man Hanged_Man xii-the-hanged-man XII - The Hanged Man 倒错回环 Looping and winding 本层后续出现的正位塔罗牌会变为对应的逆位牌 Later upright Tarot cards on this floor become their reversed versions</p>
 
 <PublicEntry slug="xii-the-hanged-man" lang="zh" />
 

@@ -1,12 +1,12 @@
 ---
 title: III - The Empress
-description: "One enemy absorbs the health of other regular enemies, reducing them to 10% HP and charming them That enemy becomes a Rainbow Champion"
+description: "Let them fight for me"
 slug: iii-the-empress
 kind: card
 internalKey: Empress
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>III - 女帝 III - The Empress Empress iii-the-empress III - The Empress 我最爱互相残杀的剧本了 一名敌人吸收其他普通敌人的生命，使它们降至10%生命并被魅惑 这名敌人变为彩虹变异 One enemy absorbs the health of other regular enemies, reducing them to 10% HP and charming them That enemy becomes a Rainbow Champion</p>
+<p class="wiki-search-index" v-pre>III - 女帝 III - The Empress Empress iii-the-empress III - The Empress 我最爱互相残杀的剧本了 Let them fight for me 一名敌人吸收其他普通敌人的生命，使它们降至10%生命并被魅惑 这名敌人变为彩虹变异 One enemy absorbs the health of other regular enemies, reducing them to 10% HP and charming them That enemy becomes a Rainbow Champion</p>
 
 <PublicEntry slug="iii-the-empress" lang="en" />
 

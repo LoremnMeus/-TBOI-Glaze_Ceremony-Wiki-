@@ -1,12 +1,12 @@
 ---
 title: IV - The Emperor
-description: "Create as many special doors as possible along the current room's walls Normal doors are temporarily closed Some doors may lead to special destinations"
+description: "Never can we escape"
 slug: iv-the-emperor
 kind: card
 internalKey: Emperor
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>IV - 帝王 IV - The Emperor Emperor iv-the-emperor IV - The Emperor 命运的囚徒 沿当前房间墙面尽可能生成通往其他房间的特殊门 原有普通门暂时关闭 部分门可能通往特殊目的地 Create as many special doors as possible along the current room&#x27;s walls Normal doors are temporarily closed Some doors may lead to special destinations</p>
+<p class="wiki-search-index" v-pre>IV - 帝王 IV - The Emperor Emperor iv-the-emperor IV - The Emperor 命运的囚徒 Never can we escape 沿当前房间墙面尽可能生成通往其他房间的特殊门 原有普通门暂时关闭 部分门可能通往特殊目的地 Create as many special doors as possible along the current room&#x27;s walls Normal doors are temporarily closed Some doors may lead to special destinations</p>
 
 <PublicEntry slug="iv-the-emperor" lang="en" />
 

@@ -6,7 +6,7 @@ kind: card
 internalKey: Star
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 若此卡为本层使用的第一张卡牌，生成 红心、 魂心与永恒之心永恒心各1个 否则，生成1个 半红心 If this is the first card used on the floor, spawn 1 Red Heart, 1 Soul Heart, and 1 Eternal Heart Otherwise, spawn 1 Half Red Heart</p>
+<p class="wiki-search-index" v-pre>XVII - 星坠 XVII - The Star Star xvii-the-star XVII - The Star 星霜在此凝结 Star frost condenses here 若此卡为本层使用的第一张卡牌，生成 红心、 魂心与永恒之心永恒心各1个 否则，生成1个 半红心 If this is the first card used on the floor, spawn 1 Red Heart, 1 Soul Heart, and 1 Eternal Heart Otherwise, spawn 1 Half Red Heart</p>
 
 <PublicEntry slug="xvii-the-star" lang="zh" />
 

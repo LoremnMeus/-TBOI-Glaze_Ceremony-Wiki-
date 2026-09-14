@@ -6,7 +6,7 @@ kind: card
 internalKey: Devil
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XV - 邪心 XV - The Devil Devil xv-the-devil XV - The Devil 灵魂算子：重生 持有时，死亡后在恶魔房复活 使用后立即死亡并触发此次复活 While held, revive in a Devil Room after death Using it kills you immediately and triggers this revival</p>
+<p class="wiki-search-index" v-pre>XV - 邪心 XV - The Devil Devil xv-the-devil XV - The Devil 灵魂算子：重生 Soul = Rebirth 持有时，死亡后在恶魔房复活 使用后立即死亡并触发此次复活 While held, revive in a Devil Room after death Using it kills you immediately and triggers this revival</p>
 
 <PublicEntry slug="xv-the-devil" lang="zh" />
 

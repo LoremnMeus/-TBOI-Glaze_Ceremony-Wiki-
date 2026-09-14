@@ -6,7 +6,7 @@ kind: card
 internalKey: Fool_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>0 - 旅者? 0 - The Fool? Fool_r 0-the-fool-reversed 0 - The Fool? 所知者稀 从当前房间道具池预知1件道具 下一件出现的道具会与其组成多选一 Foretell 1 item from the current room&#x27;s item pool The next collectible to appear will become a choice with it</p>
+<p class="wiki-search-index" v-pre>0 - 旅者? 0 - The Fool? Fool_r 0-the-fool-reversed 0 - The Fool? 所知者稀 May you know less 从当前房间道具池预知1件道具 下一件出现的道具会与其组成多选一 Foretell 1 item from the current room&#x27;s item pool The next collectible to appear will become a choice with it</p>
 
 <PublicEntry slug="0-the-fool-reversed" lang="zh" />
 

@@ -1,12 +1,12 @@
 ---
 title: "XVII - The Stars?"
-description: "Star of Bethlehem Light enemies in the room and give them an aura Star of Bethlehem Also provides a 50% boost aura around this card"
+description: "They shine like stars"
 slug: xvii-the-stars-reversed
 kind: card
 internalKey: Star_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XVII - 星辰? XVII - The Stars? Star_r xvii-the-stars-reversed XVII - The Stars? 他们灿若繁星 伯列恒之星 点亮房间内的敌人并为其添加光环 伯列恒之星 在此卡的周围自动提供一个有50%增幅效果的光圈 Star of Bethlehem Light enemies in the room and give them an aura Star of Bethlehem Also provides a 50% boost aura around this card</p>
+<p class="wiki-search-index" v-pre>XVII - 星辰? XVII - The Stars? Star_r xvii-the-stars-reversed XVII - The Stars? 他们灿若繁星 They shine like stars 伯列恒之星 点亮房间内的敌人，使其获得伯列恒之星的光环 地上的此卡也会提供50%强度的光环 Star of Bethlehem Light up enemies in the room, giving them a Star of Bethlehem aura This card also provides a 50%-strength aura while on the ground</p>
 
 <PublicEntry slug="xvii-the-stars-reversed" lang="en" />
 
@@ -17,22 +17,21 @@ status: reviewed
 
 ## Effects
 
-After use, enemies in the current room light up and form starlight around them.
+On use, enemies in the current room are illuminated and each gain an aura similar to {{Collectible:651}}.
 
-While near a star source, the player gains {{Collectible:651}}-like boosts: {{Damage}} and {{Tears}} rise; when boost strength exceeds half, spectral tears are also granted, and incoming damage has a **50%** chance to be fully blocked.
+XVII - The Stars? itself also provides a **50%-strength** version of the same aura while lying on the ground.
 
-This card itself also provides weaker starlight while it remains on the ground.
+## Notes
 
-## Rules
-
-- Starlight applies within about **100 pixels** of the player.
-- When several sources cover the player at once, only the strongest effect is used.
-- Entering or leaving starlight fades the stat boost briefly instead of switching instantly.
+* The aura affects the player within roughly **100 pixels**.
+* When several auras overlap, only the **strongest** one applies; they do not stack.
+* The effect fades in and out briefly when entering or leaving an aura.
+* When an aura source disappears, its aura disappears with it.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Enemies that appear later on this floor also become star sources.
+The effect expands across the floor: enemies and pickups that appear later on the floor automatically gain the aura, while pickups already present in the room when the card is used gain it immediately.
 
-Existing pickups in the current room become star sources immediately, and later pickups do too. This lasts until the next floor.
+This lasts until entering the next floor.

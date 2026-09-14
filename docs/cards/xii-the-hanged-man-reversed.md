@@ -6,7 +6,7 @@ kind: card
 internalKey: Hanged_Man_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 本层后续出现的逆位塔罗牌会变为对应的正位牌 Later reversed Tarot cards on this floor become their upright versions</p>
+<p class="wiki-search-index" v-pre>XII - 缚者? XII - The Hanged Man? Hanged_Man_r xii-the-hanged-man-reversed XII - The Hanged Man? 环回错倒 May you a better escape 本层后续出现的逆位塔罗牌会变为对应的正位牌 Later reversed Tarot cards on this floor become their upright versions</p>
 
 <PublicEntry slug="xii-the-hanged-man-reversed" lang="zh" />
 
@@ -23,9 +23,9 @@ status: reviewed
 
 ## 冲突
 
-如果本层同时生效了 {{Card:xii-the-hanged-man}} 与 {{Card:xii-the-hanged-man-reversed}}，当一张塔罗牌同时受到两种转换时会发生冲突，并将玩家送入 {{ErrorRoom}} 错误房。
+如果 {{Card:xii-the-hanged-man}} 与 {{Card:xii-the-hanged-man-reversed}} 的效果同时生效，下一张受到转换的塔罗牌会在正位与逆位之间发生冲突。
 
-冲突发生后，两种转换效果都会结束。
+冲突结束后，两种转换效果都会消失，并将玩家送入 {{ErrorRoom}} 错误房。
 
 ## 特殊联动
 

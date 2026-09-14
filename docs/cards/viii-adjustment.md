@@ -6,7 +6,7 @@ kind: card
 internalKey: Adjustment
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>VIII - 调节 VIII - Adjustment Adjustment viii-adjustment VIII - Adjustment 无知之幕正在落下 平衡你的硬币、钥匙与炸弹 余数转化为硬币/炸弹/钥匙三选一 Balance your coins, keys and bombs Convert the remainder into a Coin/Bomb/Key choice</p>
+<p class="wiki-search-index" v-pre>VIII - 调节 VIII - Adjustment Adjustment viii-adjustment VIII - Adjustment 无知之幕正在落下 Power of balance 平衡你的硬币、钥匙与炸弹 余数转化为硬币/炸弹/钥匙三选一 Balance your coins, keys and bombs Convert the remainder into a Coin/Bomb/Key choice</p>
 
 <PublicEntry slug="viii-adjustment" lang="zh" />
 

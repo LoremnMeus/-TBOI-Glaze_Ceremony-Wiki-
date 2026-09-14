@@ -1,12 +1,12 @@
 ---
 title: "XI - Lure?"
-description: "While held, lighter hits are raised to 1.5 hearts and each effective hit is recorded On use, spawn 1 per record and clear the count"
+description: "Free your inner slave"
 slug: xi-lure-reversed
 kind: card
 internalKey: Lure_r
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XI - 欲望? XI - Lure? Lure_r xi-lure-reversed XI - Lure? 顺从你内心的奴隶 持有时，较轻的伤害会提高至1.5颗心，并记录每次有效受伤 使用后，每次记录生成1个魂心，并清空累计 While held, lighter hits are raised to 1.5 hearts and each effective hit is recorded On use, spawn 1 per record and clear the count</p>
+<p class="wiki-search-index" v-pre>XI - 欲望? XI - Lure? Lure_r xi-lure-reversed XI - Lure? 顺从你内心的奴隶 Free your inner slave 持有时，每次受伤获得+0.75攻击，并使之后受到的最低伤害+0.5心 使用后清空记录；每2层生成1个 While held, each hit grants +0.75 Damage and raises later minimum damage by half a heart Using it clears all records; spawns 1 per 2 records</p>
 
 <PublicEntry slug="xi-lure-reversed" lang="en" />
 
@@ -15,30 +15,40 @@ status: drafted
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 
-
-
 ## Effects
 
-While held, each effective hit adds 1 to your record.
+While holding this card, each effective hit grants **1 record**.
 
-Hits below 3 damage units are raised to 3 before they resolve.
+Each record grants **+0.75 Damage** and raises the minimum damage of later hits by **half a heart**.
 
-On use, spawn one {{SoulHeart}} per recorded hit, then reset the count to zero.
+Using the card clears all records and their Damage bonus, then spawns **1 {{SoulHeart}} for every 2 records**. With at least 1 record, it always spawns at least 1 Soul Heart.
 
-## Hit tracking
+## Minimum damage
 
-Each effective hit counts once, regardless of how much health you actually lose.
+A hit is resolved using the number of records you had before that hit. The new record is gained only after the hit.
 
-The count persists across rooms and floors until you cash it with this card.
+| Records | Minimum damage |
+| --- | --- |
+| 0 | Half a heart |
+| 1 | 1 heart |
+| 2 | 1.5 hearts |
+| 3 | 2 hearts |
+| 4 | 2.5 hearts |
 
-Hits that are already 3 damage units or higher are not raised further.
+Higher record counts continue the same progression.
 
-## Payout
+Damage already above the current minimum is not affected.
 
-Normally, each recorded hit pays out 1 {{SoulHeart}}.
+## Rules
+
+- Each effective hit grants exactly 1 record, regardless of how much health is actually lost.
+- Records persist across rooms and floors until the card is used.
+- Dropping or replacing the card does not clear existing records; picking it up again keeps those records and their Damage bonus.
+- Using the card with no records does not spawn any hearts.
+- Heart payments at Mausoleum and Gehenna entrances are not raised by this card.
 
 ## Synergies
 
 ### {{Collectible:451}}
 
-Each recorded hit pays out 1 {{BlendedHeart}} instead.
+{{SoulHeart}} rewards become {{BlendedHeart}} instead.

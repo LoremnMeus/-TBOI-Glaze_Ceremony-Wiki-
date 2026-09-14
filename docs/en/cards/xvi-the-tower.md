@@ -1,12 +1,12 @@
 ---
 title: XVI - The Tower
-description: "Lift obstacles in the current room, then smash them into enemies"
+description: "May you be terialistic"
 slug: xvi-the-tower
 kind: card
 internalKey: Tower
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XVI - 尖塔 XVI - The Tower Tower xvi-the-tower XVI - The Tower 万物皆虚，万事皆允 将当前房间的障碍物升空，随后砸向敌人 Lift obstacles in the current room, then smash them into enemies</p>
+<p class="wiki-search-index" v-pre>XVI - 尖塔 XVI - The Tower Tower xvi-the-tower XVI - The Tower 万物皆虚，万事皆允 May you be terialistic 将当前房间的障碍物升空，随后砸向敌人 Lift obstacles in the current room, then smash them into enemies</p>
 
 <PublicEntry slug="xvi-the-tower" lang="en" />
 

@@ -6,7 +6,7 @@ kind: card
 internalKey: Qing_s_Soul
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>小青的灵魂石 Qing&#x27;s Soul Qing_s_Soul qings-soul Qing&#x27;s Soul 安全了，暂时的 Namely Safe 连续发射若干把帅气飞刀 Fire several stab knife.</p>
+<p class="wiki-search-index" v-pre>小青的灵魂石 Qing&#x27;s Soul Qing_s_Soul qings-soul Qing&#x27;s Soul 安全了，暂时的 Safe, for now 连续向当前攻击方向发射多波飞刀 Rapidly fires multiple waves of knives in the current firing direction</p>
 
 <PublicEntry slug="qings-soul" lang="zh" />
 
@@ -16,9 +16,9 @@ status: reviewed
 
 ## 效果
 
-使用后连续发射多波帅气飞刀，覆盖当前瞄准方向一带。
+使用后，连续向当前攻击方向发射多波飞刀。
 
-## 规则
-
-- 波数大约在十几到三十多之间波动，每波 dual/triple 飞刀。
-- 这是短时爆发，不是房间持续效果。
+- 共发射 **14~38 波**。
+- 每波会发射 **2~3 把**飞刀。
+- 飞刀会围绕当前攻击方向小幅散开。
+- 飞刀伤害继承玩家当前攻击力。
