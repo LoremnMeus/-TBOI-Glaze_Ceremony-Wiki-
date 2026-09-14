@@ -18,22 +18,22 @@ status: reviewed
 
 ## Effects
 
-The first use each run randomly selects **1 collectible** owned by the player and removes it, sending that item into the Universe.
+The first time this card is used in a run, it randomly chooses **1 collectible** the player owns, removes it, and sends it into the Universe.
 
-The selection is not uniform: **higher-quality items are more likely to be chosen**.
+The choice is not equally random: **higher-quality items are more likely to be selected**.
 
-Once an item has been recorded, every later use of the reversed Universe spawns a copy of that recorded item near the player. Creating a copy does not clear or replace the stored record, so future uses continue to produce the same item.
+From that point on, the Universe remembers that item. Every later use of The Universe? creates another copy of it near the player. Creating a copy does not replace or erase what the Universe remembers, so future uses will continue to produce the same item.
 
-After an item has been recorded, a new {{Card:xxi-the-universe-reversed}} appears near the original user at the start of every new floor.
+Once an item has been sent into the Universe, a new {{Card:xxi-the-universe-reversed}} is generated for that player at the start of every new floor.
 
-In co-op, each player keeps a separate Universe record, and the card granted each floor can only be picked up by its corresponding owner.
+In multiplayer, each player can have their own Universe record. A reversed Universe generated from a player's record can only be picked up by that player.
 
-The recorded item remains stored for the rest of the run.
+The Universe remembers its chosen item until the end of the run.
 
-## Synergies
+## Special Synergies
 
 ### {{Collectible:451}}
 
-Spawned copies are treated as **newly generated item pedestals**.
+The generated item is treated as a **freshly spawned item pedestal**.
 
-Without Tarot Cloth, spawned copies count as already touched; active items also return with no charge.
+Without Tarot Cloth, the generated item is treated as already touched; if it is an active item, its charge is set to zero.
