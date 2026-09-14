@@ -14,6 +14,20 @@ void main() {
 }
 `
 
+/** Pass-through for the static Logo base (Y=0..159). No hue / luminance remap. */
+export const plainFragmentShader = `
+precision mediump float;
+
+uniform sampler2D uTexture;
+varying vec2 vTexCoord;
+
+void main() {
+  vec4 c = texture2D(uTexture, vTexCoord);
+  if (c.a <= 0.001) discard;
+  gl_FragColor = c;
+}
+`
+
 export const fragmentShader = `
 precision mediump float;
 
@@ -204,6 +218,8 @@ export const logoRainbowDefaults = {
   periodSec: 240 / 30,
   /** angle0 + density index 10 → packed/255 noise seed */
   noiseSeed: 10 / 255,
+  /** Static Logo layer from titlemenu Logo (full 544×160 title). */
+  cropStatic: { x: 0, y: 0, w: 544, h: 160 },
   cropTitle: { x: 0, y: 160, w: 544, h: 80 },
   cropText: { x: 0, y: 240, w: 544, h: 80 },
 

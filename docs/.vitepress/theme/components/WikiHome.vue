@@ -246,7 +246,7 @@ function local(path) {
 }
 
 .wiki-home-hero__identity {
-  margin-top: 1rem;
+  margin-top: 0.4rem;
   display: grid;
   gap: 0.35rem;
   justify-items: center;

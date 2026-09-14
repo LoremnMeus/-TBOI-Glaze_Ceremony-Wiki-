@@ -224,7 +224,12 @@ function syncSize() {
   const root = rootRef.value
   if (!canvas || !root) return null
   const cssW = root.clientWidth || 720
-  const cssH = Math.max(42, Math.min(64, Math.round(cssW * 0.075)))
+  // Vertical safe area from cell half + bounce + rotation/edge margin.
+  // Animation DEFAULTS stay untouched; only the canvas viewport grows.
+  const scaleCss = cssW / VIEW_WIDTH
+  const topPad = Math.ceil((CELL * 0.5 + DEFAULTS.BounceHeight + 12) * scaleCss)
+  const botPad = Math.ceil((CELL * 0.5 + 10) * scaleCss)
+  const cssH = Math.max(76, topPad + botPad)
   const dpr = Math.min(window.devicePixelRatio || 1, 2)
   const w = Math.max(1, Math.round(cssW * dpr))
   const h = Math.max(1, Math.round(cssH * dpr))
@@ -237,8 +242,8 @@ function syncSize() {
   return {
     w,
     h,
-    scale: (cssW / VIEW_WIDTH) * dpr,
-    originY: h * 0.55,
+    scale: scaleCss * dpr,
+    originY: topPad * dpr,
   }
 }
 
@@ -349,14 +354,14 @@ onBeforeUnmount(() => {
 <style scoped>
 .wiki-title-marquee {
   width: min(760px, 90vw);
-  margin: 0.35rem auto 0;
-  min-height: 42px;
+  margin: 0.2rem auto 0;
+  min-height: 76px;
 }
 
 .wiki-title-marquee__canvas {
   display: block;
   width: 100%;
-  height: 56px;
+  height: auto;
 }
 
 .wiki-title-marquee__fallback {

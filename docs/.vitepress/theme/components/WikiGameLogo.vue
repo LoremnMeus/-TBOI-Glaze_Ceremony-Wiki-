@@ -5,6 +5,7 @@ import {
   computeLogoPhase,
   fragmentShader,
   logoRainbowDefaults,
+  plainFragmentShader,
   vertexShader,
 } from '../shaders/wikiLogoRainbow.js'
 
@@ -17,7 +18,8 @@ const fallback = ref(false)
 const reducedMotion = ref(false)
 
 let gl = null
-let program = null
+let plainProgram = null
+let rainbowProgram = null
 let texture = null
 let buffer = null
 let raf = 0
@@ -25,7 +27,10 @@ let resizeObserver = null
 let sheetImage = null
 let destroyed = false
 
-const uniforms = {}
+let plainAttribs = null
+let rainbowAttribs = null
+let plainTextureUniform = null
+const rainbowUniforms = {}
 
 function prefersReducedMotion() {
   if (typeof window === 'undefined' || !window.matchMedia) return false
@@ -44,9 +49,9 @@ function compile(glCtx, type, source) {
   return shader
 }
 
-function createProgram(glCtx) {
-  const vs = compile(glCtx, glCtx.VERTEX_SHADER, vertexShader)
-  const fs = compile(glCtx, glCtx.FRAGMENT_SHADER, fragmentShader)
+function createProgram(glCtx, vsSource, fsSource) {
+  const vs = compile(glCtx, glCtx.VERTEX_SHADER, vsSource)
+  const fs = compile(glCtx, glCtx.FRAGMENT_SHADER, fsSource)
   const prog = glCtx.createProgram()
   glCtx.attachShader(prog, vs)
   glCtx.attachShader(prog, fs)
@@ -91,66 +96,86 @@ function syncCanvasSize() {
   gl.viewport(0, 0, w, h)
 }
 
-function drawBand(crop, lumLow, lumHigh, phase, y0, y1) {
+function cropToUv(crop) {
   const { sheetSize } = logoRainbowDefaults
   const u0 = crop.x / sheetSize.w
   const u1 = (crop.x + crop.w) / sheetSize.w
   // FLIP_Y uploaded: image top → v=1
   const vTop = 1 - crop.y / sheetSize.h
   const vBot = 1 - (crop.y + crop.h) / sheetSize.h
+  return { u0, u1, vTop, vBot }
+}
 
+function bandVerts(crop, y0, y1) {
+  const { u0, u1, vTop, vBot } = cropToUv(crop)
   // Canvas Y grows down; WebGL NDC Y grows up. Map band [y0,y1] in 0..1 canvas space.
   const ndcY0 = 1 - 2 * y1
   const ndcY1 = 1 - 2 * y0
-
-  const verts = new Float32Array([
-    // x, y, u, v
+  return new Float32Array([
     -1, ndcY0, u0, vBot,
     1, ndcY0, u1, vBot,
     -1, ndcY1, u0, vTop,
     1, ndcY1, u1, vTop,
   ])
+}
 
+function bindAttribs(attribs) {
   gl.bindBuffer(gl.ARRAY_BUFFER, buffer)
-  gl.bufferData(gl.ARRAY_BUFFER, verts, gl.DYNAMIC_DRAW)
+  gl.enableVertexAttribArray(attribs.aPos)
+  gl.enableVertexAttribArray(attribs.aUv)
+  gl.vertexAttribPointer(attribs.aPos, 2, gl.FLOAT, false, 16, 0)
+  gl.vertexAttribPointer(attribs.aUv, 2, gl.FLOAT, false, 16, 8)
+}
 
-  const aPos = gl.getAttribLocation(program, 'aPosition')
-  const aUv = gl.getAttribLocation(program, 'aTexCoord')
-  gl.enableVertexAttribArray(aPos)
-  gl.enableVertexAttribArray(aUv)
-  gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 16, 0)
-  gl.vertexAttribPointer(aUv, 2, gl.FLOAT, false, 16, 8)
+function drawStaticLogo() {
+  const crop = logoRainbowDefaults.cropStatic
+  gl.useProgram(plainProgram)
+  gl.activeTexture(gl.TEXTURE0)
+  gl.bindTexture(gl.TEXTURE_2D, texture)
+  gl.uniform1i(plainTextureUniform, 0)
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer)
+  gl.bufferData(gl.ARRAY_BUFFER, bandVerts(crop, 0, 1), gl.DYNAMIC_DRAW)
+  bindAttribs(plainAttribs)
+  gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4)
+}
 
-  gl.uniform1f(uniforms.uPhase, phase)
-  gl.uniform1f(uniforms.uLumLow, lumLow)
-  gl.uniform1f(uniforms.uLumHigh, lumHigh)
-  gl.uniform1f(uniforms.uSpatialAngle, (logoRainbowDefaults.spatialAngleDeg * Math.PI) / 180)
-  gl.uniform1f(uniforms.uSpatialDensity, logoRainbowDefaults.spatialDensity)
-  gl.uniform1f(uniforms.uGrayHueWeight, logoRainbowDefaults.grayHue)
-  gl.uniform1f(uniforms.uBendWeight, logoRainbowDefaults.bend)
-  gl.uniform1f(uniforms.uShapeContrast, logoRainbowDefaults.shapeContrast)
-  gl.uniform1f(uniforms.uNoiseSeed, logoRainbowDefaults.noiseSeed)
-  gl.uniform2f(uniforms.uTextureSize, crop.w, crop.h)
+function drawRainbowBand(crop, lumLow, lumHigh, phase, y0, y1) {
+  gl.useProgram(rainbowProgram)
+  gl.activeTexture(gl.TEXTURE0)
+  gl.bindTexture(gl.TEXTURE_2D, texture)
+  gl.uniform1i(rainbowUniforms.uTexture, 0)
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer)
+  gl.bufferData(gl.ARRAY_BUFFER, bandVerts(crop, y0, y1), gl.DYNAMIC_DRAW)
+  bindAttribs(rainbowAttribs)
+
+  gl.uniform1f(rainbowUniforms.uPhase, phase)
+  gl.uniform1f(rainbowUniforms.uLumLow, lumLow)
+  gl.uniform1f(rainbowUniforms.uLumHigh, lumHigh)
+  gl.uniform1f(rainbowUniforms.uSpatialAngle, (logoRainbowDefaults.spatialAngleDeg * Math.PI) / 180)
+  gl.uniform1f(rainbowUniforms.uSpatialDensity, logoRainbowDefaults.spatialDensity)
+  gl.uniform1f(rainbowUniforms.uGrayHueWeight, logoRainbowDefaults.grayHue)
+  gl.uniform1f(rainbowUniforms.uBendWeight, logoRainbowDefaults.bend)
+  gl.uniform1f(rainbowUniforms.uShapeContrast, logoRainbowDefaults.shapeContrast)
+  gl.uniform1f(rainbowUniforms.uNoiseSeed, logoRainbowDefaults.noiseSeed)
+  gl.uniform2f(rainbowUniforms.uTextureSize, crop.w, crop.h)
 
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4)
 }
 
 function renderFrame() {
-  if (destroyed || fallback.value || !gl || !program || !texture) return
+  if (destroyed || fallback.value || !gl || !plainProgram || !rainbowProgram || !texture) return
   syncCanvasSize()
   gl.clearColor(0, 0, 0, 0)
   gl.clear(gl.COLOR_BUFFER_BIT)
   gl.enable(gl.BLEND)
   gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA)
-  gl.useProgram(program)
-  gl.activeTexture(gl.TEXTURE0)
-  gl.bindTexture(gl.TEXTURE_2D, texture)
-  gl.uniform1i(uniforms.uTexture, 0)
+
+  drawStaticLogo()
 
   const phase = computeLogoPhase(performance.now() / 1000, reducedMotion.value)
   const d = logoRainbowDefaults
-  drawBand(d.cropTitle, d.titleLumLow, d.titleLumHigh, phase, 0, 0.5)
-  drawBand(d.cropText, d.textLumLow, d.textLumHigh, phase, 0.5, 1)
+  drawRainbowBand(d.cropTitle, d.titleLumLow, d.titleLumHigh, phase, 0, 0.5)
+  drawRainbowBand(d.cropText, d.textLumLow, d.textLumHigh, phase, 0.5, 1)
 }
 
 function tick() {
@@ -198,8 +223,20 @@ async function boot() {
     })
     if (!gl) throw new Error('webgl unavailable')
 
-    program = createProgram(gl)
+    plainProgram = createProgram(gl, vertexShader, plainFragmentShader)
+    rainbowProgram = createProgram(gl, vertexShader, fragmentShader)
     buffer = gl.createBuffer()
+
+    plainAttribs = {
+      aPos: gl.getAttribLocation(plainProgram, 'aPosition'),
+      aUv: gl.getAttribLocation(plainProgram, 'aTexCoord'),
+    }
+    plainTextureUniform = gl.getUniformLocation(plainProgram, 'uTexture')
+    rainbowAttribs = {
+      aPos: gl.getAttribLocation(rainbowProgram, 'aPosition'),
+      aUv: gl.getAttribLocation(rainbowProgram, 'aTexCoord'),
+    }
+
     ;[
       'uTexture',
       'uPhase',
@@ -213,7 +250,7 @@ async function boot() {
       'uNoiseSeed',
       'uTextureSize',
     ].forEach((name) => {
-      uniforms[name] = gl.getUniformLocation(program, name)
+      rainbowUniforms[name] = gl.getUniformLocation(rainbowProgram, name)
     })
 
     sheetImage = await new Promise((resolve, reject) => {
@@ -246,10 +283,15 @@ function teardownGl() {
   }
   if (gl && texture) gl.deleteTexture(texture)
   if (gl && buffer) gl.deleteBuffer(buffer)
-  if (gl && program) gl.deleteProgram(program)
+  if (gl && plainProgram) gl.deleteProgram(plainProgram)
+  if (gl && rainbowProgram) gl.deleteProgram(rainbowProgram)
   texture = null
   buffer = null
-  program = null
+  plainProgram = null
+  rainbowProgram = null
+  plainAttribs = null
+  rainbowAttribs = null
+  plainTextureUniform = null
   gl = null
 }
 
@@ -354,7 +396,7 @@ onBeforeUnmount(() => {
   height: 100%;
 }
 
-/* Crop (0,160)-(544,320) from 640×640 sheet. */
+/* Crop static Logo (0,0)-(544,160) from 640×640 sheet. */
 .wiki-game-logo__fallback-img {
   position: absolute;
   left: 0;
@@ -362,7 +404,7 @@ onBeforeUnmount(() => {
   width: calc(640 / 544 * 100%);
   height: auto;
   max-width: none;
-  transform: translateY(calc(-160 / 640 * 100%));
+  transform: translateY(0);
   pointer-events: none;
   user-select: none;
 }
