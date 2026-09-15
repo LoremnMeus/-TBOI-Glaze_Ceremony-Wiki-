@@ -12,7 +12,21 @@ import {
 const LOGO_URL = withBase('/home/logo_replace.png')
 const ASPECT = 544 / 160
 
+// Match titlemenu_replace.anm2 + title_menu_logo_holder.lua.
+// These are TitleMenu design-space values, not arbitrary web offsets.
+const TITLE_DESIGN_WIDTH = 480
+const STAGE_DESIGN_HEIGHT = 140
+const LOGO_WIDTH = 544
+const LOGO_HEIGHT = 160
+const LOGO_X_POSITION = 230
+const LOGO_Y_POSITION = 0
+const LOGO_X_PIVOT = 262
+const LOGO_Y_PIVOT = 4
+const LOGO_OFFSET_X = -39
+const LOGO_OFFSET_Y = -15
+
 const rootRef = ref(null)
+const logoRef = ref(null)
 const canvasRef = ref(null)
 const fallback = ref(false)
 const reducedMotion = ref(false)
@@ -78,12 +92,27 @@ function loadTexture(glCtx, image) {
   return tex
 }
 
+function syncLogoPlacement() {
+  const stage = rootRef.value
+  const placement = logoRef.value
+  if (!stage || !placement) return
+
+  const scale = stage.clientWidth / TITLE_DESIGN_WIDTH
+  const leftDesign = LOGO_X_POSITION - LOGO_X_PIVOT + LOGO_OFFSET_X
+  const topDesign = LOGO_Y_POSITION - LOGO_Y_PIVOT + LOGO_OFFSET_Y
+
+  placement.style.left = `${leftDesign * scale}px`
+  placement.style.top = `${topDesign * scale}px`
+  placement.style.width = `${LOGO_WIDTH * scale}px`
+  placement.style.height = `${LOGO_HEIGHT * scale}px`
+}
+
 function syncCanvasSize() {
   const canvas = canvasRef.value
-  const root = rootRef.value
-  if (!canvas || !root || !gl) return
-  const cssW = root.clientWidth || 760
-  const cssH = cssW / ASPECT
+  const placement = logoRef.value
+  if (!canvas || !placement || !gl) return
+  const cssW = placement.clientWidth || LOGO_WIDTH
+  const cssH = placement.clientHeight || cssW / ASPECT
   const dpr = Math.min(window.devicePixelRatio || 1, 2)
   const w = Math.max(1, Math.round(cssW * dpr))
   const h = Math.max(1, Math.round(cssH * dpr))
@@ -164,6 +193,7 @@ function drawRainbowBand(crop, lumLow, lumHigh, phase, y0, y1) {
 
 function renderFrame() {
   if (destroyed || fallback.value || !gl || !plainProgram || !rainbowProgram || !texture) return
+  syncLogoPlacement()
   syncCanvasSize()
   gl.clearColor(0, 0, 0, 0)
   gl.clear(gl.COLOR_BUFFER_BIT)
@@ -264,6 +294,7 @@ async function boot() {
     texture = loadTexture(gl, sheetImage)
     logoRainbowDefaults.sheetSize.w = sheetImage.naturalWidth || logoRainbowDefaults.sheetSize.w
     logoRainbowDefaults.sheetSize.h = sheetImage.naturalHeight || logoRainbowDefaults.sheetSize.h
+    syncLogoPlacement()
     syncCanvasSize()
     renderFrame()
     if (!reducedMotion.value) {
@@ -297,9 +328,11 @@ function teardownGl() {
 
 onMounted(() => {
   destroyed = false
+  syncLogoPlacement()
   boot()
   if (typeof ResizeObserver !== 'undefined' && rootRef.value) {
     resizeObserver = new ResizeObserver(() => {
+      syncLogoPlacement()
       if (!fallback.value) renderFrame()
     })
     resizeObserver.observe(rootRef.value)
@@ -326,60 +359,74 @@ onBeforeUnmount(() => {
 <template>
   <div
     ref="rootRef"
-    class="wiki-game-logo"
-    :class="{ 'wiki-game-logo--static': fallback, 'wiki-game-logo--reduced': reducedMotion }"
+    class="wiki-game-logo-stage"
+    :style="{ '--wiki-logo-stage-height': STAGE_DESIGN_HEIGHT }"
+    :class="{
+      'wiki-game-logo-stage--static': fallback,
+      'wiki-game-logo-stage--reduced': reducedMotion,
+    }"
   >
     <div class="wiki-game-logo__glow" aria-hidden="true" />
-    <div class="wiki-game-logo__float">
-      <canvas
-        v-show="!fallback"
-        ref="canvasRef"
-        class="wiki-game-logo__canvas"
-        role="img"
-        aria-label="Glaze Ceremony logo"
-      />
-      <div
-        v-if="fallback"
-        class="wiki-game-logo__fallback"
-        role="img"
-        aria-label="Glaze Ceremony logo"
-      >
-        <img :src="LOGO_URL" alt="" class="wiki-game-logo__fallback-img" />
+    <div ref="logoRef" class="wiki-game-logo__placement">
+      <div class="wiki-game-logo__float">
+        <canvas
+          v-show="!fallback"
+          ref="canvasRef"
+          class="wiki-game-logo__canvas"
+          role="img"
+          aria-label="Glaze Ceremony logo"
+        />
+        <div
+          v-if="fallback"
+          class="wiki-game-logo__fallback"
+          role="img"
+          aria-label="Glaze Ceremony logo"
+        >
+          <img :src="LOGO_URL" alt="" class="wiki-game-logo__fallback-img" />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.wiki-game-logo {
+.wiki-game-logo-stage {
   position: relative;
-  width: min(760px, 90vw);
+  width: min(100%, 680px);
   margin-inline: auto;
-  aspect-ratio: 544 / 160;
+  aspect-ratio: 480 / var(--wiki-logo-stage-height);
+  overflow-x: clip;
+  overflow-y: visible;
 }
 
 .wiki-game-logo__glow {
   position: absolute;
-  inset: -12% -8%;
+  left: 8%;
+  right: 8%;
+  top: 4%;
+  bottom: 8%;
   pointer-events: none;
   background: radial-gradient(
     ellipse at center,
-    color-mix(in srgb, var(--vp-c-brand-1) 10%, transparent),
+    color-mix(in srgb, var(--vp-c-brand-1) 7%, transparent),
     transparent 65%
   );
   z-index: 0;
 }
 
-.wiki-game-logo__float {
-  position: relative;
+.wiki-game-logo__placement {
+  position: absolute;
   z-index: 1;
+}
+
+.wiki-game-logo__float {
   width: 100%;
   height: 100%;
   animation: wiki-logo-float 2.4s ease-in-out infinite;
 }
 
-.wiki-game-logo--reduced .wiki-game-logo__float,
-.wiki-game-logo--static .wiki-game-logo__float {
+.wiki-game-logo-stage--reduced .wiki-game-logo__float,
+.wiki-game-logo-stage--static .wiki-game-logo__float {
   animation: none;
 }
 
@@ -419,15 +466,9 @@ onBeforeUnmount(() => {
   }
 }
 
-@media (max-width: 960px) {
-  .wiki-game-logo {
-    width: min(760px, 88vw);
-  }
-}
-
 @media (max-width: 640px) {
-  .wiki-game-logo {
-    width: min(760px, 94vw);
+  .wiki-game-logo-stage {
+    width: 100%;
   }
 }
 

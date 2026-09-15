@@ -354,7 +354,7 @@ onBeforeUnmount(() => {
 <style scoped>
 .wiki-title-marquee {
   width: min(760px, 90vw);
-  margin: 0.2rem auto 0;
+  margin: -4px auto -14px;
   min-height: 76px;
 }
 

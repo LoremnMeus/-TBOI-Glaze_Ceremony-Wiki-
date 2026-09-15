@@ -120,10 +120,11 @@ function local(path) {
 
       <div class="wiki-home-hero__identity">
         <p class="wiki-home-hero__wiki-title">
-          {{ english ? 'Glaze Ceremony Wiki' : '琉璃圣典 Wiki' }}
-        </p>
-        <p class="wiki-home-hero__subtitle">
-          {{ english ? 'Promised Land' : '应许之地' }}
+          <span>{{ english ? 'Glaze Ceremony Wiki' : '琉璃圣典 Wiki' }}</span>
+          <span class="wiki-home-hero__title-divider" aria-hidden="true">·</span>
+          <span class="wiki-home-hero__subtitle-inline">
+            {{ english ? 'Promised Land' : '应许之地' }}
+          </span>
         </p>
         <p class="wiki-home-hero__description">
           {{
@@ -204,21 +205,21 @@ function local(path) {
 .wiki-home {
   width: 100%;
   display: grid;
-  gap: 2.4rem;
+  gap: 1.8rem;
 }
 
 .wiki-home-hero {
   position: relative;
   width: min(100%, 980px);
   margin-inline: auto;
-  padding: clamp(1.5rem, 4vw, 2.8rem) 0 clamp(1rem, 3vw, 1.8rem);
+  padding: clamp(0.3rem, 1vw, 0.7rem) 0 0.25rem;
   text-align: center;
 }
 
 .wiki-home-hero::before {
   content: '';
   position: absolute;
-  inset: 0% 8% 20%;
+  inset: 0 12% 8%;
   pointer-events: none;
   background: radial-gradient(
     ellipse at center top,
@@ -246,27 +247,37 @@ function local(path) {
 }
 
 .wiki-home-hero__identity {
-  margin-top: 0.4rem;
+  margin-top: 0;
   display: grid;
-  gap: 0.35rem;
+  gap: 0.22rem;
   justify-items: center;
 }
 
 .wiki-home-hero__wiki-title {
   margin: 0;
-  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
   font-weight: 700;
   color: var(--vp-c-text-1);
 }
 
-.wiki-home-hero__subtitle {
-  margin: 0;
-  font-size: 1rem;
+.wiki-home-hero__subtitle-inline {
+  font-size: 0.9em;
+  font-weight: 500;
   color: var(--vp-c-text-2);
 }
 
+.wiki-home-hero__title-divider {
+  color: var(--vp-c-text-3);
+  font-weight: 400;
+}
+
 .wiki-home-hero__description {
-  margin: 0.45rem 0 0;
+  margin: 0.2rem 0 0;
   max-width: 40rem;
   color: var(--vp-c-text-2);
   line-height: 1.55;
@@ -277,7 +288,7 @@ function local(path) {
   flex-wrap: wrap;
   gap: 0.65rem;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
 }
 
 .wiki-home-button {
@@ -312,7 +323,7 @@ function local(path) {
 }
 
 .wiki-home-hero__meta {
-  margin: 0.85rem 0 0;
+  margin: 0.4rem 0 0;
   font-size: 0.85rem;
   color: var(--vp-c-text-2);
 }
@@ -320,6 +331,10 @@ function local(path) {
 .wiki-home-section {
   display: grid;
   gap: 0.85rem;
+}
+
+.wiki-home-hero + .wiki-home-section {
+  margin-top: -0.55rem;
 }
 
 .wiki-home-section h2 {
@@ -440,6 +455,10 @@ function local(path) {
 }
 
 @media (max-width: 640px) {
+  .wiki-home-hero {
+    padding-top: 0.15rem;
+  }
+
   .wiki-home-hero__actions {
     width: 100%;
   }
