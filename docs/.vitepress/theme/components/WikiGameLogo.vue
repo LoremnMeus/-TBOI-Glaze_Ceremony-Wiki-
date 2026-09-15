@@ -30,6 +30,7 @@ let destroyed = false
 let plainAttribs = null
 let rainbowAttribs = null
 let plainTextureUniform = null
+let plainGammaUniform = null
 const rainbowUniforms = {}
 
 function prefersReducedMotion() {
@@ -133,6 +134,7 @@ function drawStaticLogo() {
   gl.activeTexture(gl.TEXTURE0)
   gl.bindTexture(gl.TEXTURE_2D, texture)
   gl.uniform1i(plainTextureUniform, 0)
+  gl.uniform1f(plainGammaUniform, logoRainbowDefaults.displayGamma)
   gl.bindBuffer(gl.ARRAY_BUFFER, buffer)
   gl.bufferData(gl.ARRAY_BUFFER, bandVerts(crop, 0, 1), gl.DYNAMIC_DRAW)
   bindAttribs(plainAttribs)
@@ -160,6 +162,7 @@ function drawRainbowBand(crop, lumLow, lumHigh, phase, y0, y1) {
   const sheetW = sheetImage?.naturalWidth || logoRainbowDefaults.sheetSize.w
   const sheetH = sheetImage?.naturalHeight || logoRainbowDefaults.sheetSize.h
   gl.uniform2f(rainbowUniforms.uTextureSize, sheetW, sheetH)
+  gl.uniform1f(rainbowUniforms.uDisplayGamma, logoRainbowDefaults.displayGamma)
 
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4)
 }
@@ -234,6 +237,7 @@ async function boot() {
       aUv: gl.getAttribLocation(plainProgram, 'aTexCoord'),
     }
     plainTextureUniform = gl.getUniformLocation(plainProgram, 'uTexture')
+    plainGammaUniform = gl.getUniformLocation(plainProgram, 'uDisplayGamma')
     rainbowAttribs = {
       aPos: gl.getAttribLocation(rainbowProgram, 'aPosition'),
       aUv: gl.getAttribLocation(rainbowProgram, 'aTexCoord'),
@@ -251,6 +255,7 @@ async function boot() {
       'uShapeContrast',
       'uNoiseSeed',
       'uTextureSize',
+      'uDisplayGamma',
     ].forEach((name) => {
       rainbowUniforms[name] = gl.getUniformLocation(rainbowProgram, name)
     })
@@ -294,6 +299,7 @@ function teardownGl() {
   plainAttribs = null
   rainbowAttribs = null
   plainTextureUniform = null
+  plainGammaUniform = null
   gl = null
 }
 

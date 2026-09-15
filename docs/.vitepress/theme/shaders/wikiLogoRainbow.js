@@ -14,16 +14,34 @@ void main() {
 }
 `
 
+/**
+ * Final display compensation only (simulate ~150% Isaac Options Gamma).
+ * Do not fold this into rainbowRollRecolor / palette / lum params.
+ */
+const displayGammaGlsl = `
+vec3 applyDisplayGamma(vec3 color, float gammaScale) {
+  if (gammaScale <= 1.001) {
+    return color;
+  }
+  float exponent = 1.0 / gammaScale;
+  return pow(clamp(color, 0.0, 1.0), vec3(exponent));
+}
+`
+
 /** Pass-through for the static Logo base (Y=0..159). No hue / luminance remap. */
 export const plainFragmentShader = `
 precision mediump float;
 
 uniform sampler2D uTexture;
+uniform float uDisplayGamma;
 varying vec2 vTexCoord;
+
+${displayGammaGlsl}
 
 void main() {
   vec4 c = texture2D(uTexture, vTexCoord);
   if (c.a <= 0.001) discard;
+  c.rgb = applyDisplayGamma(c.rgb, uDisplayGamma);
   gl_FragColor = c;
 }
 `
@@ -44,6 +62,7 @@ uniform float uBendWeight;
 uniform float uShapeContrast;
 uniform float uNoiseSeed;
 uniform vec2 uTextureSize;
+uniform float uDisplayGamma;
 
 const float TAU = 6.28318530717958647692;
 const float BLACK_LOW = 0.040;
@@ -171,6 +190,8 @@ vec4 rainbowRollRecolor(
   return vec4(finalRGB, source.a);
 }
 
+${displayGammaGlsl}
+
 void main() {
   vec2 texSize = max(uTextureSize, vec2(1.0));
   vec4 source = texture2D(uTexture, vTexCoord);
@@ -183,7 +204,7 @@ void main() {
     lumHigh = 0.92;
   }
 
-  gl_FragColor = rainbowRollRecolor(
+  vec4 result = rainbowRollRecolor(
     source,
     vTexCoord,
     texSize,
@@ -197,6 +218,8 @@ void main() {
     uShapeContrast,
     uNoiseSeed
   );
+  result.rgb = applyDisplayGamma(result.rgb, uDisplayGamma);
+  gl_FragColor = result;
 }
 `
 
@@ -218,6 +241,12 @@ export const logoRainbowDefaults = {
   periodSec: 240 / 30,
   /** angle0 + density index 10 → packed/255 noise seed */
   noiseSeed: 10 / 255,
+  /**
+   * Wiki-only final display gamma (not Isaac shader input).
+   * Matches Options ~150% Gamma for side-by-side screenshot comparison.
+   * Tune this alone if brightness still differs; do not touch rainbow core.
+   */
+  displayGamma: 1.5,
   /** Static Logo layer from titlemenu Logo (full 544×160 title). */
   cropStatic: { x: 0, y: 0, w: 544, h: 160 },
   cropTitle: { x: 0, y: 160, w: 544, h: 80 },

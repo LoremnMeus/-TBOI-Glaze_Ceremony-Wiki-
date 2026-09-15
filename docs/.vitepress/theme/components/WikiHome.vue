@@ -216,24 +216,6 @@ function local(path) {
   text-align: center;
 }
 
-.wiki-home-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0 12% 8%;
-  pointer-events: none;
-  background: radial-gradient(
-    ellipse at center top,
-    color-mix(in srgb, var(--vp-c-brand-1) 8%, transparent),
-    transparent 70%
-  );
-  z-index: 0;
-}
-
-.wiki-home-hero > :deep(*) {
-  position: relative;
-  z-index: 1;
-}
-
 .wiki-home-sr-title {
   position: absolute;
   width: 1px;
