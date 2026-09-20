@@ -48,6 +48,13 @@ const POOL_LABELS = {
   oldChest: ['旧箱子', 'Old Chest'], babyShop: ['宝宝商店', 'Baby Shop'], woodenChest: ['木箱', 'Wooden Chest'],
   rottenBeggar: ['腐烂乞丐', 'Rotten Beggar'],
 }
+const POCKET_TYPE_LABELS = {
+  tarot: ['塔罗牌', 'Tarot'],
+  tarot_reverse: ['倒位塔罗牌', 'Reversed Tarot'],
+  rune: ['符文', 'Rune'],
+  soul: ['魂石', 'Soul Stone'],
+  object: ['特殊卡牌', 'Special Card'],
+}
 const HEALTH_ICONS = {
   red: 'Heart', soul: 'SoulHeart', black: 'BlackHeart', bone: 'BoneHeart',
   rotten: 'RottenHeart', broken: 'BrokenHeart', eternal: 'EternalHeart',
@@ -122,6 +129,12 @@ function modEntry(raw) {
 function wikiKind(kind) {
   return kind === 'collectible' ? 'Item' : kind[0].toUpperCase() + kind.slice(1)
 }
+
+function pocketTypeLabel(type) {
+  if (!type) return ''
+  const row = POCKET_TYPE_LABELS[type]
+  return row ? row[en.value ? 1 : 0] : type
+}
 </script>
 
 <template>
@@ -144,8 +157,25 @@ function wikiKind(kind) {
       <dd>
         {{ KIND_LABELS[entry.kind]?.[en ? 1 : 0] || entry.kind }}
         <template v-if="entry.itemType"> · {{ ITEM_TYPE_LABELS[entry.itemType]?.[en ? 1 : 0] || entry.itemType }}</template>
+        <template v-if="entry.kind === 'card' && entry.pocketItemBase?.type"> · {{ pocketTypeLabel(entry.pocketItemBase.type) }}</template>
         <template v-if="entry.pseudoPickup"> · {{ en ? 'Pseudo pickup' : '伪拾取物' }}</template>
       </dd>
+
+      <template v-if="entry.kind === 'card' && entry.pocketItemBase?.mimicCharge != null">
+        <dt>{{ en ? 'Mimic charge' : '模仿充能' }}</dt>
+        <dd class="entry-infobox__quality"><EidIcon name="Battery" /> ×{{ entry.pocketItemBase.mimicCharge }}</dd>
+      </template>
+
+      <template v-if="entry.kind === 'card' && entry.cardCounterparts?.length">
+        <dt>{{ en ? 'Counterpart' : '对应卡牌' }}</dt>
+        <dd class="entry-infobox__icons">
+          <WikiEntryIcon
+            v-for="row in entry.cardCounterparts"
+            :key="row.slug"
+            :name="`Card:${row.slug}`"
+          />
+        </dd>
+      </template>
 
       <template v-if="entry.quality != null">
         <dt>{{ en ? 'Quality' : '品质' }}</dt>
@@ -335,8 +365,21 @@ function wikiKind(kind) {
       </template>
 
       <template v-if="entry.kind === 'character' && entry.characterBase?.birthright?.description?.[lang]">
-        <dt><VanillaEntity entity-type="collectible" :entity-id="619" /></dt>
-        <dd><EidMarkup :text="entry.characterBase.birthright.description[lang]" /></dd>
+        <dt class="entry-infobox__birthright-label">
+          <div class="entry-infobox__birthright-name">
+            <EidIcon name="Collectible619" />
+            <span>{{ en ? 'Birthright' : '长子名分' }}</span>
+          </div>
+          <small
+            v-if="entry.characterBase.birthright.desc?.[lang]"
+            class="entry-infobox__birthright-flavor"
+          >
+            {{ entry.characterBase.birthright.desc[lang] }}
+          </small>
+        </dt>
+        <dd class="entry-infobox__birthright-desc">
+          <EidMarkup :text="entry.characterBase.birthright.description[lang]" />
+        </dd>
       </template>
     </dl>
 
@@ -347,6 +390,26 @@ function wikiKind(kind) {
         <dt>slug</dt><dd><code>{{ entry.slug }}</code></dd>
         <template v-if="entry.xmlId != null"><dt>XML ID</dt><dd>{{ entry.xmlId }}</dd></template>
         <template v-if="entry.pickupVariant != null"><dt>Variant / SubType</dt><dd>{{ entry.pickupVariant }} / {{ entry.pickupSubType }}</dd></template>
+        <template v-if="entry.pocketItemBase">
+          <dt>Pocket type</dt>
+          <dd><code>{{ entry.pocketItemBase.type || '—' }}</code></dd>
+          <template v-if="entry.pocketItemBase.pickup != null">
+            <dt>Pickup</dt>
+            <dd>{{ entry.pocketItemBase.pickup }}</dd>
+          </template>
+          <template v-if="entry.pocketItemBase.hud">
+            <dt>HUD animation</dt>
+            <dd><code>{{ entry.pocketItemBase.hud }}</code></dd>
+          </template>
+          <template v-if="entry.pocketItemBase.announcer != null">
+            <dt>Announcer</dt>
+            <dd>{{ entry.pocketItemBase.announcer }}</dd>
+          </template>
+          <template v-if="entry.pocketItemBase.announcerDelay != null">
+            <dt>Announcer delay</dt>
+            <dd>{{ entry.pocketItemBase.announcerDelay }}</dd>
+          </template>
+        </template>
       </dl>
     </details>
   </aside>
@@ -366,6 +429,25 @@ function wikiKind(kind) {
 .entry-infobox dl { display: grid; grid-template-columns: 6rem minmax(0, 1fr); margin: 0; }
 .entry-infobox dt, .entry-infobox dd { margin: 0; padding: .48rem .65rem; border-top: 1px solid var(--vp-c-divider); }
 .entry-infobox dt { color: var(--vp-c-text-2); font-weight: 600; }
+.entry-infobox__birthright-label { min-width: 0; }
+.entry-infobox__birthright-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .18rem .3rem;
+  min-width: 0;
+}
+.entry-infobox__birthright-name > span { min-width: 0; line-height: 1.2; }
+.entry-infobox__birthright-flavor {
+  display: block;
+  margin-top: .2rem;
+  color: var(--vp-c-text-3);
+  font-size: .72rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
 .entry-infobox__chips, .entry-infobox__icons, .entry-infobox__stats { display: flex; flex-wrap: wrap; gap: .3rem .45rem; }
 .entry-infobox__quality, .entry-infobox__charge-label { display: flex; align-items: center; gap: .3rem; }
 .entry-infobox__character { display: flex; align-items: center; gap: .25rem; }
