@@ -7,7 +7,7 @@ internalKey: Regenesis
 status: drafted
 flavorSource: "John 6:39"
 ---
-<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 一个也不失落 Not one will be lost 生成一个记住近期失物的宝宝 清理战斗房后，宝宝会逐个将它们吐回来 失物通常需要 1 房，道具则需要 3–4 房 Spawns a familiar that remembers things you recently lost After clearing combat rooms, it spits them back out one by one Most losses take 1 room; items take 3–4 rooms</p>
+<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 一个也不失落 Not one will be lost 生成一个记住近期失物的宝宝 清理战斗房后，宝宝会逐个将它们吐回来 多数失物需要 1 房；卡牌、药丸和道具需要更久 Spawns a familiar that remembers things you recently lost After clearing combat rooms, it spits them back out one by one Most losses take 1 room; cards, pills, and items take longer</p>
 
 <PublicEntry slug="regenesis" lang="en" />
 
@@ -19,16 +19,19 @@ flavorSource: "John 6:39"
 
 **Regenesis** spawns a familiar that remembers things you lose.
 
-After combat rooms are cleared, the familiar gradually spits the remembered losses back out.
+After combat rooms are cleared, the familiar gradually spits the remembered losses back out. Each loss keeps its own recovery progress. A new loss does not clear progress already accumulated by older losses.
 
-Most losses return after **1 combat room**. Passive items take longer:
-
-| Item quality | Combat rooms |
+| Loss | Combat rooms |
 | --- | ---: |
-| 0–2 | 3 |
-| 3–4 | 4 |
+| Ordinary resources, health, and charge | 1 |
+| Pills | 2 |
+| Cards | 3 |
+| Quality 0–2 items | 3 |
+| Quality 3–4 items | 4 |
 
-The most recently remembered loss is restored first, and the familiar works on one loss at a time.
+The most recently remembered loss is restored first. Multiple Regenesis familiars share one memory and recover different losses at the same time. Owning more familiars never advances the same loss more than once in a single room.
+
+Regenesis remembers at most 12 losses at once.
 
 ## What it remembers
 
@@ -67,3 +70,10 @@ These rules mainly preserve continuity when the item is lost and regained and do
 
 - The flavor text, **“Not one will be lost,”** is taken from John 6:39, where what has been given is not to be lost, but raised again on the last day.
 - The name **Regenesis** also echoes the “restoration of all things” described in Acts 3:21.
+
+<details>
+<summary>Technical details</summary>
+
+Once 12 losses are remembered, the oldest loss that has not started recovering is forgotten first. Losses that already have progress are kept when possible.
+
+</details>

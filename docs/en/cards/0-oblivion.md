@@ -17,7 +17,7 @@ status: reviewed
 
 ## Effects
 
-While held as the primary card, 0 - Oblivion gradually fades. A full fade takes about 90 seconds. Moving it to a later card slot pauses the progress; switching it back continues.
+While held as the primary card, this card gradually fades. A full fade takes about 90 seconds. Moving it to a later card slot pauses the progress; switching it back resumes it.
 
 When fully faded, the card disappears and replaces the most recently acquired removable passive you still hold with another item from the same item pool.
 

@@ -7,7 +7,7 @@ internalKey: Regenesis
 status: drafted
 flavorSource: "《约翰福音》6:39"
 ---
-<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 一个也不失落 Not one will be lost 生成一个记住近期失物的宝宝 清理战斗房后，宝宝会逐个将它们吐回来 失物通常需要 1 房，道具则需要 3–4 房 Spawns a familiar that remembers things you recently lost After clearing combat rooms, it spits them back out one by one Most losses take 1 room; items take 3–4 rooms</p>
+<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 一个也不失落 Not one will be lost 生成一个记住近期失物的宝宝 清理战斗房后，宝宝会逐个将它们吐回来 多数失物需要 1 房；卡牌、药丸和道具需要更久 Spawns a familiar that remembers things you recently lost After clearing combat rooms, it spits them back out one by one Most losses take 1 room; cards, pills, and items take longer</p>
 
 <PublicEntry slug="regenesis" lang="zh" />
 
@@ -19,16 +19,19 @@ flavorSource: "《约翰福音》6:39"
 
 **再世纪**生成一个会记住失物的宝宝。
 
-当玩家失去能够被记录的东西时，宝宝会将其记住。清理战斗房后，它会逐个把记住的东西重新吐出来。
+当玩家失去能够被记录的东西时，宝宝会将其记住。清理战斗房后，它会逐个把记住的东西重新吐出来。每条失物保存自己的恢复进度。新的损失不会清除已有失物已经积累的恢复进度。
 
-普通失物通常在 **1 个战斗房**后回来；被动道具需要更长时间：
-
-| 道具品质 | 所需战斗房 |
+| 失物 | 所需战斗房 |
 | --- | ---: |
-| 0–2 | 3 |
-| 3–4 | 4 |
+| 一般资源、生命、充能 | 1 |
+| 药丸 | 2 |
+| 卡牌 | 3 |
+| 品质 0–2 道具 | 3 |
+| 品质 3–4 道具 | 4 |
 
-宝宝会优先恢复最近记住的失物，一次只处理一个。
+宝宝会优先恢复最近记住的失物。多个再世纪宝宝共享同一份记忆，并会同时恢复不同的失物；同一条失物不会因为拥有多个宝宝而在一个房间内被重复推进。
+
+再世纪最多同时记住 12 条失物。
 
 ## 会记住什么
 
@@ -67,3 +70,10 @@ flavorSource: "《约翰福音》6:39"
 
 - 风味文本「**一个也不失落**」取自《约翰福音》6:39，其中写道“所交托的，一个也不失去，并在末日使其复起”。
 - 「再世纪」本身也呼应《使徒行传》3:21 所描述的“**万物复兴**”之时。
+
+<details>
+<summary>技术细节</summary>
+
+达到 12 条上限后，会优先遗忘最旧且尚未开始恢复的记录。已经投入进度的失物会被尽量留下。
+
+</details>

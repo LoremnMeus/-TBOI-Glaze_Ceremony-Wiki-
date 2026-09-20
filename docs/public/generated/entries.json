@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-20T17:54:20Z",
+  "generatedAt": "2026-09-20T18:42:12Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -905,6 +905,26 @@
         "names": {
           "zh": "真实之名",
           "en": "The True Name"
+        }
+      }
+    ],
+    "wq::Greedier": [
+      {
+        "slug": "0-oblivion",
+        "kind": "card",
+        "names": {
+          "zh": "0 - 忘却",
+          "en": "0 - Oblivion"
+        }
+      }
+    ],
+    "Spwq::Greedier": [
+      {
+        "slug": "0-oblivion-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "0 - 忘却?",
+          "en": "0 - Oblivion?"
         }
       }
     ],
@@ -20537,8 +20557,8 @@
         "en": "Not one will be lost"
       },
       "eid": {
-        "zh": "生成一个记住近期失物的宝宝#清理战斗房后，宝宝会逐个将它们吐回来#失物通常需要{{ColorYellow}}1{{CR}}房，道具则需要{{ColorYellow}}3–4{{CR}}房",
-        "en": "Spawns a familiar that remembers things you recently lost#After clearing combat rooms, it spits them back out one by one#Most losses take {{ColorYellow}}1{{CR}} room; items take {{ColorYellow}}3–4{{CR}} rooms"
+        "zh": "生成一个记住近期失物的宝宝#清理战斗房后，宝宝会逐个将它们吐回来#多数失物需要{{ColorYellow}}1{{CR}}房；卡牌、药丸和道具需要更久",
+        "en": "Spawns a familiar that remembers things you recently lost#After clearing combat rooms, it spits them back out one by one#Most losses take {{ColorYellow}}1{{CR}} room; cards, pills, and items take longer"
       },
       "seijaBuff": {
         "zh": "",
@@ -28174,8 +28194,8 @@
         "en": "XXI - The Universe?"
       },
       "desc": {
-        "zh": "不管离开多远，不管时间如何流逝，你永远都是属于我的",
-        "en": "No matter how far you go, no matter how much time passes, you will always belong to me"
+        "zh": "不管离开多远",
+        "en": "No matter how far you go"
       },
       "eid": {
         "zh": "首次使用时，将一件已有道具送入宇宙#之后每次使用，生成该道具的一个副本#进入新层时会重新获得这张卡",
@@ -29209,7 +29229,17 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "wq::Greedier",
+        "characterKey": "wq",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用小青完成究极贪婪",
+          "en": "Complete Greedier as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,
@@ -29304,7 +29334,17 @@
       "quality": null,
       "tags": [],
       "pools": [],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Spwq::Greedier",
+        "characterKey": "Spwq",
+        "conditionKey": "Greedier",
+        "text": {
+          "zh": "使用青完成究极贪婪",
+          "en": "Complete Greedier as Qing"
+        }
+      },
       "characterBase": null,
       "challengeBase": null,
       "baseStats": null,

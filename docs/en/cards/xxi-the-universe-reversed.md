@@ -1,12 +1,12 @@
 ---
 title: "XXI - The Universe?"
-description: "No matter how far you go, no matter how much time passes, you will always belong to me"
+description: "No matter how far you go"
 slug: xxi-the-universe-reversed
 kind: card
 internalKey: Universe_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 No matter how far you go, no matter how much time passes, you will always belong to me 首次使用时，将一件已有道具送入宇宙 之后每次使用，生成该道具的一个副本 进入新层时会重新获得这张卡 First use sends one owned item into the Universe Later uses create a copy of that item This card returns at the start of each new floor</p>
+<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远 No matter how far you go 首次使用时，将一件已有道具送入宇宙 之后每次使用，生成该道具的一个副本 进入新层时会重新获得这张卡 First use sends one owned item into the Universe Later uses create a copy of that item This card returns at the start of each new floor</p>
 
 <PublicEntry slug="xxi-the-universe-reversed" lang="en" />
 
@@ -29,6 +29,8 @@ Once an item has been sent into the Universe, a new {{Card:xxi-the-universe-reve
 In multiplayer, each player can have their own Universe record. A reversed Universe generated from a player's record can only be picked up by that player.
 
 The Universe remembers its chosen item until the end of the run.
+
+Its subtitle gradually changes as the card is used repeatedly.
 
 ## Special Synergies
 

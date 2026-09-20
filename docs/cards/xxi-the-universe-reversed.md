@@ -1,12 +1,12 @@
 ---
 title: "XXI - 宇宙?"
-description: "不管离开多远，不管时间如何流逝，你永远都是属于我的"
+description: "不管离开多远"
 slug: xxi-the-universe-reversed
 kind: card
 internalKey: Universe_r
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远，不管时间如何流逝，你永远都是属于我的 No matter how far you go, no matter how much time passes, you will always belong to me 首次使用时，将一件已有道具送入宇宙 之后每次使用，生成该道具的一个副本 进入新层时会重新获得这张卡 First use sends one owned item into the Universe Later uses create a copy of that item This card returns at the start of each new floor</p>
+<p class="wiki-search-index" v-pre>XXI - 宇宙? XXI - The Universe? Universe_r xxi-the-universe-reversed XXI - The Universe? 不管离开多远 No matter how far you go 首次使用时，将一件已有道具送入宇宙 之后每次使用，生成该道具的一个副本 进入新层时会重新获得这张卡 First use sends one owned item into the Universe Later uses create a copy of that item This card returns at the start of each new floor</p>
 
 <PublicEntry slug="xxi-the-universe-reversed" lang="zh" />
 
@@ -28,6 +28,8 @@ status: reviewed
 多人游戏中，每名玩家都可以拥有自己的宇宙记录。每层由某份记录重新生成的倒位宇宙，只能由拥有该记录的玩家拾取。
 
 宇宙记录会一直保留到本局结束。
+
+随着此牌被反复使用，其副标题也会逐步发生变化。
 
 ## 特殊联动
 

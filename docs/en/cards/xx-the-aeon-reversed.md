@@ -21,7 +21,7 @@ On use, records the player's actions and attacks for the next **3 seconds**.
 
 After recording finishes, that interval becomes this floor's eternal fragment. Entering rooms afterward summons a ghost of the player's past self, which fully replays those actions and attacks.
 
-Attacks fired by the ghost keep the damage, speed, tear flags, and other parameters from the recording, and do not change if the player later gains new stats or items.
+The ghost's attacks retain their recorded damage, projectile speed, and special effects. Stats or items gained afterward do not alter attacks that have already been recorded.
 
 ## Notes
 

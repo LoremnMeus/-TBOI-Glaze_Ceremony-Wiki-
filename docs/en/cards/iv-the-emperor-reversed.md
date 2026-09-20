@@ -20,7 +20,7 @@ When used, summons a boss in the current room and closes the exits.
 
 After the boss is defeated, it returns as a friendly ally that follows the player and helps in combat until it dies.
 
-The card can be used multiple times to gain multiple friendly bosses.
+If you obtain and use this card again later, previously recruited friendly bosses remain, allowing multiple friendly bosses to coexist.
 
 ## Synergies
 
