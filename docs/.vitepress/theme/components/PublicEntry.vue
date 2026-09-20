@@ -1,5 +1,6 @@
 <script setup>
 import { computed } from 'vue'
+import { useData } from 'vitepress'
 import catalog from '../../../generated/entries.json'
 import MissingTranslation from './MissingTranslation.vue'
 import EidMarkup from './EidMarkup.vue'
@@ -10,6 +11,9 @@ const props = defineProps({
   slug: { type: String, required: true },
   lang: { type: String, default: 'zh' },
 })
+
+const { frontmatter } = useData()
+const flavorSource = computed(() => String(frontmatter.value?.flavorSource || '').trim())
 
 const english = computed(() => props.lang === 'en')
 
@@ -100,7 +104,7 @@ const infoboxIconSrc = computed(() => {
           </details>
         </section>
       </div>
-      <EntryInfobox :entry="entry" :lang="lang" :name="name" :icon-src="infoboxIconSrc" :icon-name="infoboxIconName" />
+      <EntryInfobox :entry="entry" :lang="lang" :name="name" :icon-src="infoboxIconSrc" :icon-name="infoboxIconName" :flavor-source="flavorSource" />
     </div>
     <MissingTranslation v-if="missingEnglish" />
   </div>

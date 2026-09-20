@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-15T07:59:09Z",
+  "generatedAt": "2026-09-20T17:54:20Z",
   "version": "1.0.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
@@ -6057,8 +6057,8 @@
         "en": "Those who rise up must be drifting down."
       },
       "eid": {
-        "zh": "{{Tears}} 射速上升#停止移动时，泪弹会被反重力送向空中#升天的泪弹会重新落回并获得强化",
-        "en": "{{Tears}} Tears up#While standing still, your tears are pulled skyward#Tears that ascend return stronger"
+        "zh": "{{Tears}} 射速上升#房间内生成一片逆反力场#你的眼泪进入其中后会逐渐减速并停下#随后反复从地面向上升起",
+        "en": "{{Tears}} Tears up#Creates an anti-gravity field in each room#Your tears gradually lose their horizontal momentum inside the field#Captured tears repeatedly rise upward from the ground"
       },
       "seijaBuff": {
         "zh": "",
@@ -10080,7 +10080,7 @@
       },
       "desc": {
         "zh": "神的国度带着主权临到",
-        "en": "Dogmatical Judgement"
+        "en": "The kingdom of God comes with sovereignty"
       },
       "eid": {
         "zh": "每4次攻击，该次攻击成为{{ColorYellow}}福音攻击{{CR}}#命中使敌人接受福音，并可向附近敌人传播#击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示#本房间累计6次启示后发动最终启示",
@@ -10512,8 +10512,8 @@
         "en": "Leader To Despia"
       },
       "eid": {
-        "zh": "概率发射交替出现的悲剧与喜剧面具泪#悲剧：标记的敌人死亡后，将死亡化为追击爆炸#喜剧：标记的敌人死亡后，作为短暂友方演员再次登台#同时戴上两种面具的敌人将出演{{ColorPurple}}凶剧{{CR}}#凶剧退场时同时触发强化的悲剧与喜剧",
-        "en": "Chance to fire alternating tragedy and comedy mask tears#Tragedy: marked foes explode into a chasing blast on death#Comedy: marked foes briefly return as friendly actors#Foes wearing both masks perform {{ColorPurple}}Tragicomedy{{CR}}#Tragicomedy's exit triggers empowered tragedy and comedy"
+        "zh": "概率发射交替出现的悲剧与喜剧面具泪#悲剧：戴面具的敌人死亡时引发冲击，并将悲剧传给另一名敌人#喜剧：戴面具的敌人受到致命伤害时拒绝死亡，并成为友军#两种面具相遇时化为{{ColorPurple}}凶剧{{CR}}：悲剧传遍舞台，而喜剧拒绝谢幕",
+        "en": "Chance to fire alternating tragedy and comedy mask tears#Tragedy: masked foes unleash a shockwave on death and pass Tragedy onward#Comedy: masked foes refuse death when taking lethal damage and become friendly#When both masks meet, they become {{ColorPurple}}Tragicomedy{{CR}}: tragedy spreads across the stage, while comedy refuses the curtain call"
       },
       "seijaBuff": {
         "zh": "",
@@ -20533,12 +20533,12 @@
         "en": "Regenesis"
       },
       "desc": {
-        "zh": "连错误也会被继承",
-        "en": "Even mistakes are inherited"
+        "zh": "一个也不失落",
+        "en": "Not one will be lost"
       },
       "eid": {
-        "zh": "本局的行为会塑造一个{{ColorYellow}}世纪{{CR}}#本局结束时，为下一局留下对应的{{ColorYellow}}遗产{{CR}}与{{ColorRed}}代价{{CR}}#世纪仅影响下一局一次#{{DeathMark}} 死亡也会留下世纪#{{Warning}} 重开不会进行结算",
-        "en": "This run's actions shape an {{ColorYellow}}Age{{CR}}#When the run truly ends, the next run inherits its {{ColorYellow}}legacy{{CR}} and {{ColorRed}}cost{{CR}}#The Age lasts for the next run only#{{DeathMark}} Death still leaves an Age#{{Warning}} Restarting does not settle"
+        "zh": "生成一个记住近期失物的宝宝#清理战斗房后，宝宝会逐个将它们吐回来#失物通常需要{{ColorYellow}}1{{CR}}房，道具则需要{{ColorYellow}}3–4{{CR}}房",
+        "en": "Spawns a familiar that remembers things you recently lost#After clearing combat rooms, it spits them back out one by one#Most losses take {{ColorYellow}}1{{CR}} room; items take {{ColorYellow}}3–4{{CR}} rooms"
       },
       "seijaBuff": {
         "zh": "",
@@ -29200,6 +29200,196 @@
       }
     },
     {
+      "slug": "0-oblivion",
+      "kind": "card",
+      "internalKey": "Oblivion",
+      "xmlId": 2435,
+      "xmlName": "0 - Oblivion",
+      "itemType": null,
+      "quality": null,
+      "tags": [],
+      "pools": [],
+      "unlock": null,
+      "characterBase": null,
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "0 - 忘却",
+        "en": "0 - Oblivion"
+      },
+      "desc": {
+        "zh": "别忘了这是什么",
+        "en": "Don't forget what this is"
+      },
+      "eid": {
+        "zh": "持于主卡牌栏时逐渐褪色，约90秒后消失#消失时，将最近获得的一件可移除被动道具替换为同池的另一件#直接使用不会发动效果，且不会重置褪色进度",
+        "en": "Gradually fades while held as your primary card, disappearing after about 90 seconds#When it disappears, replaces your most recently acquired removable passive with another from the same item pool#Using it directly has no effect and does not reset the fade"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "遗忘1件道具后，改为获得2件同池替代道具",
+        "en": "Forgetting 1 item grants 2 replacements from the same item pool instead"
+      },
+      "icon": "/generated/images/0-oblivion.png",
+      "thumb32": "/generated/images/0-oblivion_32.webp",
+      "thumb32Png": "/generated/images/0-oblivion_32.png",
+      "thumb64": "/generated/images/0-oblivion_64.webp",
+      "thumb64Png": "/generated/images/0-oblivion_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 352,
+        "y": 416,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "0-oblivion-reversed",
+      "kind": "card",
+      "internalKey": "Oblivion_r",
+      "xmlId": 2436,
+      "xmlName": "0 - Oblivion?",
+      "itemType": null,
+      "quality": null,
+      "tags": [],
+      "pools": [],
+      "unlock": null,
+      "characterBase": null,
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "0 - 忘却?",
+        "en": "0 - Oblivion?"
+      },
+      "desc": {
+        "zh": "无量空处！",
+        "en": "Unlimited Void!"
+      },
+      "eid": {
+        "zh": "每秒临时获得1件随机被动道具，共50件#每件持续5秒，且不会触发获得道具时的效果",
+        "en": "Temporarily gain 1 random passive item every second, 50 times#Each lasts 5 seconds and does not trigger on-acquire effects"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "额外获得50件临时道具",
+        "en": "Grants 50 additional temporary items"
+      },
+      "icon": "/generated/images/0-oblivion-reversed.png",
+      "thumb32": "/generated/images/0-oblivion-reversed_32.webp",
+      "thumb32Png": "/generated/images/0-oblivion-reversed_32.png",
+      "thumb64": "/generated/images/0-oblivion-reversed_64.webp",
+      "thumb64Png": "/generated/images/0-oblivion-reversed_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 384,
+        "y": 416,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
       "slug": "w-qing",
       "kind": "character",
       "internalKey": "wq",
@@ -32069,7 +32259,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32236,7 +32426,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32403,7 +32593,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -32570,8 +32760,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -32737,8 +32927,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 32,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -32904,7 +33094,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33071,7 +33261,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33238,7 +33428,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33415,7 +33605,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33510,7 +33700,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33605,7 +33795,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33700,7 +33890,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33795,7 +33985,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 288,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33890,7 +34080,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 320,
         "y": 448,
         "w": 32,
         "h": 32
@@ -33985,7 +34175,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 352,
         "y": 448,
         "w": 32,
         "h": 32

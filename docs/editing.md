@@ -84,6 +84,8 @@ git status --short
 
 页面顶部的玩家资料卡只读取导出产物。它显示可核验的道具池、统一解锁关系、角色初始生命/资源/口袋主动等事实，并将 internalKey、slug、XML ID 等技术信息折叠。开发者 HTML 只负责维护权威源，不作为公开页面运行依赖。
 
+若风味文本有明确的宗教、文学或其他文本出处，在 frontmatter 写可选字段 `flavorSource`（如 `《约翰福音》6:39`）。资料卡会在风味句下方用弱化斜体显示。此字段由人工维护，exporter 会保留，不会根据 Desc 猜测。详见 `ai_context/WIKI_EID_WRITING_STANDARD.md`。
+
 ### 页面类型
 
 - 道具、饰品、卡牌：直接写效果，再按需补注意、交互、协同、技巧和轶事。

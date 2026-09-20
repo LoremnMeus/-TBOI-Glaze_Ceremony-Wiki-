@@ -946,6 +946,14 @@
           {
             "text": "V - 密仪?",
             "link": "/cards/v-the-sting-reversed"
+          },
+          {
+            "text": "0 - 忘却",
+            "link": "/cards/0-oblivion"
+          },
+          {
+            "text": "0 - 忘却?",
+            "link": "/cards/0-oblivion-reversed"
           }
         ]
       }
@@ -2101,6 +2109,14 @@
           {
             "text": "V - Sting?",
             "link": "/en/cards/v-the-sting-reversed"
+          },
+          {
+            "text": "0 - Oblivion",
+            "link": "/en/cards/0-oblivion"
+          },
+          {
+            "text": "0 - Oblivion?",
+            "link": "/en/cards/0-oblivion-reversed"
           }
         ]
       }

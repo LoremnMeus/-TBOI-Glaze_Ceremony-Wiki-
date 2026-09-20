@@ -13,6 +13,7 @@ const props = defineProps({
   name: { type: String, required: true },
   iconSrc: { type: String, default: '' },
   iconName: { type: String, default: '' },
+  flavorSource: { type: String, default: '' },
 })
 
 const en = computed(() => props.lang === 'en')
@@ -132,6 +133,9 @@ function wikiKind(kind) {
         <strong>{{ name }}</strong>
         <small v-if="altName && altName !== name">{{ altName }}</small>
         <em v-if="entry.desc?.[lang]">{{ entry.desc[lang] }}</em>
+        <small v-if="flavorSource" class="entry-infobox__flavor-source">
+          <em>{{ en ? '— ' : '——' }}{{ flavorSource }}</em>
+        </small>
       </div>
     </div>
 
@@ -357,6 +361,8 @@ function wikiKind(kind) {
 .entry-infobox__title strong { font-size: 1.05rem; }
 .entry-infobox__title small { color: var(--vp-c-text-2); }
 .entry-infobox__title em { margin-top: .35rem; color: var(--vp-c-text-2); font-size: .8rem; }
+.entry-infobox__flavor-source { display: block; margin-top: 0.15rem; color: var(--vp-c-text-3); font-size: 0.72rem; line-height: 1.35; }
+.entry-infobox__flavor-source em { margin-top: 0; color: inherit; font-size: inherit; }
 .entry-infobox dl { display: grid; grid-template-columns: 6rem minmax(0, 1fr); margin: 0; }
 .entry-infobox dt, .entry-infobox dd { margin: 0; padding: .48rem .65rem; border-top: 1px solid var(--vp-c-divider); }
 .entry-infobox dt { color: var(--vp-c-text-2); font-weight: 600; }

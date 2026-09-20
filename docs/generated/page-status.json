@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T07:59:09Z",
+  "generatedAt": "2026-09-20T17:54:20Z",
   "pages": [
     {
       "slug": "darkness",
@@ -1119,8 +1119,8 @@
       "kind": "collectible",
       "zh": "wiki/docs/items/regenesis.md",
       "en": "wiki/docs/en/items/regenesis.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "ember",
@@ -1755,12 +1755,28 @@
       "enStatus": "reviewed"
     },
     {
+      "slug": "0-oblivion",
+      "kind": "card",
+      "zh": "wiki/docs/cards/0-oblivion.md",
+      "en": "wiki/docs/en/cards/0-oblivion.md",
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
+    },
+    {
+      "slug": "0-oblivion-reversed",
+      "kind": "card",
+      "zh": "wiki/docs/cards/0-oblivion-reversed.md",
+      "en": "wiki/docs/en/cards/0-oblivion-reversed.md",
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
+    },
+    {
       "slug": "w-qing",
       "kind": "character",
       "zh": "wiki/docs/characters/w-qing.md",
       "en": "wiki/docs/en/characters/w-qing.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "sp-w-qing",
@@ -1776,7 +1792,7 @@
       "zh": "wiki/docs/characters/tecro.md",
       "en": "wiki/docs/en/characters/tecro.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "tecrorun",
@@ -1784,7 +1800,7 @@
       "zh": "wiki/docs/characters/tecrorun.md",
       "en": "wiki/docs/en/characters/tecrorun.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "anna",
@@ -1800,7 +1816,7 @@
       "zh": "wiki/docs/characters/anna-tainted.md",
       "en": "wiki/docs/en/characters/anna-tainted.md",
       "zhStatus": "featured",
-      "enStatus": "stub"
+      "enStatus": "featured"
     },
     {
       "slug": "zeis",
@@ -1808,7 +1824,7 @@
       "zh": "wiki/docs/characters/zeis.md",
       "en": "wiki/docs/en/characters/zeis.md",
       "zhStatus": "reviewed",
-      "enStatus": "stub"
+      "enStatus": "reviewed"
     },
     {
       "slug": "zeiz",
@@ -1816,7 +1832,7 @@
       "zh": "wiki/docs/characters/zeiz.md",
       "en": "wiki/docs/en/characters/zeiz.md",
       "zhStatus": "drafted",
-      "enStatus": "stub"
+      "enStatus": "drafted"
     },
     {
       "slug": "fusion-destiny",
@@ -2008,7 +2024,7 @@
       "zh": "wiki/docs/slots/rift-beggar.md",
       "en": "wiki/docs/en/slots/rift-beggar.md",
       "zhStatus": "featured",
-      "enStatus": "drafted"
+      "enStatus": "featured"
     },
     {
       "slug": "time-beggar",

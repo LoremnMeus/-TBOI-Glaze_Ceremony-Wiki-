@@ -1,6 +1,6 @@
 ---
 title: Floraine
-description: Chessboard event final boss. Stub pending HEAD verification.
+description: Chessboard event final boss. Stub — expand after HEAD verification.
 slug: floraine
 kind: boss
 bossId: floraine
@@ -12,12 +12,43 @@ relatedStory: chapter1.stone
 
 ## Summary
 
-Side boss; implemented; Story `chapter1.stone`; entity 996/23755.
+- **Kind**: side boss (`side_boss`)
+- **Status**: implemented
+- **Encounter**: Chapter 1 “Chessboard anomaly” finale (Story `chapter1.stone` / Thread `stone`)
+- **Entity**: Type 996 / Variant 23755 (Floraine)
 
-## Encounter / Core / Attacks / Components / Aftermath / Tips
+## Encounter
 
-TBD from current Lua. Components: board, pawn, staff — not standalone boss pages.
+Pending verification: room spawn conditions, repeatability, and prerequisite commissions.
+
+→ Story: [Chessboard anomaly](/story/) (Story id: `chapter1.stone`)
+
+## Core mechanics
+
+Chessboard arena, pieces, staff, and field control (components: Chess Board / Pawn / Staff). Details pending rewrite against `Enemy_Floraine.lua` and related files.
+
+## Phases
+
+Pending verification of whether clear phases exist.
+
+## Attacks
+
+To be written (player-observable phenomena only; no callback writeups).
+
+## Helper entities
+
+- Chess Board — arena_mechanic
+- Chess Pawn — summon
+- Chess Staff — weapon
+
+## Aftermath
+
+Pending verification: material token `chapter1.material.stone`, drops, doors / scenes.
+
+## Combat tips
+
+To be written.
 
 ## Story link
 
-Short link only to `chapter1.stone`. Do not paste full event lore here.
+Floraine is the final encounter of Chapter 1’s chessboard anomaly. Full cause and investigation stay on the Story page; this page does not retell them.

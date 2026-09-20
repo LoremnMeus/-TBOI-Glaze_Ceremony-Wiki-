@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Field
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>逆反力场 Anti-Field Field field Field ↑升天↑ Those who rise up must be drifting down. 射速上升 停止移动时，泪弹会被反重力送向空中 升天的泪弹会重新落回并获得强化 Tears up While standing still, your tears are pulled skyward Tears that ascend return stronger</p>
+<p class="wiki-search-index" v-pre>逆反力场 Anti-Field Field field Field ↑升天↑ Those who rise up must be drifting down. 射速上升 房间内生成一片逆反力场 你的眼泪进入其中后会逐渐减速并停下 随后反复从地面向上升起 Tears up Creates an anti-gravity field in each room Your tears gradually lose their horizontal momentum inside the field Captured tears repeatedly rise upward from the ground</p>
 
 <PublicEntry slug="field" lang="en" />
 

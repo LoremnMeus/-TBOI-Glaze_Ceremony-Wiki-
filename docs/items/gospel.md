@@ -5,8 +5,9 @@ internalKey: Gospel
 title: 福音
 description: "神的国度带着主权临到"
 status: reviewed
+flavorSource: "《马可福音》9:1"
 ---
-<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 Dogmatical Judgement 每4次攻击，该次攻击成为 福音攻击 命中使敌人接受福音，并可向附近敌人传播 击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示 本房间累计6次启示后发动最终启示 Every 4th attack becomes a Gospel attack Hits make enemies receive the Gospel, which can spread to nearby foes Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation After 6 Revelations in the room, invoke final Revelation</p>
+<p class="wiki-search-index" v-pre>福音 Gospel Gospel gospel Gospel 神的国度带着主权临到 The kingdom of God comes with sovereignty 每4次攻击，该次攻击成为 福音攻击 命中使敌人接受福音，并可向附近敌人传播 击杀受福音影响的敌人，或持续伤害受影响的Boss，会降下启示 本房间累计6次启示后发动最终启示 Every 4th attack becomes a Gospel attack Hits make enemies receive the Gospel, which can spread to nearby foes Killing affected enemies or repeatedly damaging affected Bosses invokes Revelation After 6 Revelations in the room, invoke final Revelation</p>
 
 <PublicEntry slug="gospel" lang="zh" />
 

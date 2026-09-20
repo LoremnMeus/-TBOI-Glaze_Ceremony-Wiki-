@@ -18,4 +18,6 @@ Visible entries are registered by `generate_public_metadata.py` (hidden XML rows
 
 Write mechanics below `## Mechanics` in `wiki/docs/en/<kind>/<slug>.md`. Keep that heading as the required source anchor; public pages hide it and start the outline from `## Effects` and later sections. Example: `wiki/docs/en/items/gospel.md`.
 
+If an entry's flavor text has a specific scriptural, literary, or other textual source, add the optional frontmatter field `flavorSource` (for example `John 6:39`). The infobox shows it in small italics under the flavor line. This field is editorial and is preserved by the exporter; it is never guessed from the description. See `ai_context/WIKI_EID_WRITING_STANDARD.md`.
+
 Agent skill: `.cursor/skills/qing-wiki-mechanics/SKILL.md`. Featured review: `REVIEW_RUBRIC.md` in the same folder. Principles: `ai_context/WIKI_EID_WRITING_STANDARD.md`.

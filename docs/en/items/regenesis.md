@@ -1,52 +1,69 @@
 ---
 title: Regenesis
-description: "Even mistakes are inherited"
+description: "Not one will be lost"
 slug: regenesis
 kind: collectible
 internalKey: Regenesis
-status: reviewed
+status: drafted
+flavorSource: "John 6:39"
 ---
-<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 连错误也会被继承 Even mistakes are inherited 本局的行为会塑造一个 世纪 本局结束时，为下一局留下对应的 遗产 与 代价 世纪仅影响下一局一次 死亡也会留下世纪 重开不会进行结算 This run&#x27;s actions shape an Age When the run truly ends, the next run inherits its legacy and cost The Age lasts for the next run only Death still leaves an Age Restarting does not settle</p>
+<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 一个也不失落 Not one will be lost 生成一个记住近期失物的宝宝 清理战斗房后，宝宝会逐个将它们吐回来 失物通常需要 1 房，道具则需要 3–4 房 Spawns a familiar that remembers things you recently lost After clearing combat rooms, it spits them back out one by one Most losses take 1 room; items take 3–4 rooms</p>
 
 <PublicEntry slug="regenesis" lang="en" />
 
 ## Mechanics
 
-
 <!-- Manual body. The exporter never overwrites this file once it exists. -->
 
 ## Effects
 
-**Regenesis shapes an Age from this run's actions and, when the run truly ends, leaves one next-run legacy and cost. You can steer which Age forms.**
+**Regenesis** spawns a familiar that remembers things you lose.
 
-- While held, six Ages score continuously; when one hits the formation threshold and leads clearly, formation/shift cues appear
-- True endings (victory or death) settle; **restart / unsaved quit do not**
-- The inheritance lasts for **the next run only**
+After combat rooms are cleared, the familiar gradually spits the remembered losses back out.
 
-### Six Ages
+Most losses return after **1 combat room**. Passive items take longer:
 
-| Age | Next-run summary |
-| --- | --- |
-| Prosperity | Stronger shops, higher prices |
-| War | Stronger loadout and player power; enemies arm up too |
-| Abundance | Huge health resources; other basics get crowded out |
-| Technology | Batteries and artificial gear thrive; natural resources shrink |
-| Faith | Angel/Devil forces surge; commit to a side |
-| Ruin | Start with rebuild supplies; high-end facilities grow scarce |
+| Item quality | Combat rooms |
+| --- | ---: |
+| 0–2 | 3 |
+| 3–4 | 4 |
 
-## How to shape an Age
+The most recently remembered loss is restored first, and the familiar works on one loss at a time.
 
-Steer this run toward the Age you want; formation/shift cues appear when one Age hits the threshold and leads clearly.
+## What it remembers
 
-| Age | Main behaviors this run |
-| --- | --- |
-| Prosperity | Enter shops, earn and spend coins, make expensive purchases |
-| War | Clear rooms and bosses; no-hit or fast clears help; keep damage high |
-| Abundance | Gain heart containers / soul hearts, heal; clear rooms at full health; enter boss rooms healthy |
-| Technology | Pick tech-leaning items, spend active charge, grab batteries, use slot machines |
-| Faith | Enter Angel/Devil rooms and take items there, pay devil prices, sacrifice, take Key Pieces |
-| Ruin | Clear rooms, change floors, or fight bosses while scarce (low HP, few coins/keys/bombs, few items) |
+The familiar can remember lost:
+
+- coins, bombs, and keys;
+- health;
+- active-item charge;
+- cards and pills that were actually used;
+- passive items.
+
+Trinkets are not recorded.
+
+If several units of the same resource are lost in one event, they are restored together rather than each requiring a separate waiting period.
+
+## How losses return
+
+Different losses return in forms appropriate to them:
+
+- coins are recombined into equivalent 10-, 5-, 2-, and 1-cent pickups;
+- bombs and keys return in the amount lost;
+- lost active charge becomes an appropriate battery pickup;
+- health returns as matching heart pickups;
+- cards and pills return as their original type;
+- passive items return on item pedestals.
+
+## Losing Regenesis
+
+Losses already remembered by the familiar are not erased if Regenesis itself is later lost.
+
+Some recent losses can also remain temporarily remembered on the current floor while Regenesis is absent, allowing them to be picked up by the familiar if Regenesis is obtained again.
+
+These rules mainly preserve continuity when the item is lost and regained and do not change its normal use.
 
 ## Trivia
 
-- Regenesis points to Yu-Gi-Oh! Regenesis (再世). That series recovers its own “legacy” at the end of each opponent’s turn to complete a Regenesis; this item’s century → legacy → next-run structure takes inspiration from that.
+- The flavor text, **“Not one will be lost,”** is taken from John 6:39, where what has been given is not to be lost, but raised again on the last day.
+- The name **Regenesis** also echoes the “restoration of all things” described in Acts 3:21.
