@@ -1,53 +1,51 @@
 ---
 title: Suture Needle
-description: "Death is only a broken thread"
+description: "The beast was like a leopard, with feet like a bear's and a mouth like a lion's."
 slug: suture-needle
 kind: collectible
 internalKey: Suture_Needle
 status: featured
+flavorSource: "Revelation 13:2"
 ---
-<p class="wiki-search-index" v-pre>缝合针 Suture Needle Suture_Needle suture-needle Suture Needle 死亡只是线断了 Death is only a broken thread 自动充能 使用时缝合附近的敌人，持续数秒 期间死亡的敌人会被强行维持活动一段时间 继续攻击会拆开缝线 缝线断裂时撕裂身体并伤害附近敌人 Recharges over time Sutures nearby enemies for a few seconds Enemies that die during this window continue moving briefly Further damage causes their sutures to break faster When the sutures completely break, their bodies rupture and damage nearby enemies</p>
+<p class="wiki-search-index" v-pre>缝合针 Suture Needle Suture_Needle suture-needle Suture Needle 那兽像豹，脚如熊足，口如狮口 The beast was like a leopard, with feet like a bear&#x27;s and a mouth like a lion&#x27;s. 分别选择1个 移动部件 与 攻击部件 将二者缝合为一只友方敌人 移动由前者决定，攻击由后者决定 Choose a movement part and an attack part Stitch them together into a friendly enemy The former determines its movement; the latter determines its attacks</p>
 
 <PublicEntry slug="suture-needle" lang="en" />
 
 ## Mechanics
 
-<!-- Manual body: the generator will not overwrite this file. -->
-
 ## Effects
 
-Suture Needle turns enemies that should already be dead into short-lived, still-moving bombs you can keep damaging.
+**Suture Needle combines different parts of two enemies into a new ally: one determines how it moves, while the other determines how it attacks.**
 
-It is a timed active that fully recharges in about **5** seconds. On use it releases an expanding suture wave that marks legal enemies for about **3** seconds.
+Using the item lets you choose one **movement part** and one **attack part**. After both are selected, they are combined into a stitched enemy. Its movement comes from the movement part, while its attacks come from the attack part.
 
-| State | Effect |
-| --- | --- |
-| Suture | Enemies gain a suture mark for about 3 seconds |
-| Sutured corpse | A normal enemy that takes lethal damage keeps moving briefly and can still be hit |
-| Rupture | When the suture runs out or further hits snap it, nearby enemies take damage |
+Stitched enemies follow the player between rooms until they are killed. Using Suture Needle again creates another stitched enemy without replacing existing ones.
 
-Keep hitting a sutured corpse: it ruptures sooner **and** stores part of that follow-up damage into the final blast—especially worth it next to a pack of enemies.
+## How to use
 
-Bosses can be marked, but they never enter a full sutured-corpse state. If they die while marked, they rupture immediately.
+The left side of the selection panel contains movement parts, the right side contains attack parts, and the center shows the resulting combination.
+
+- Use the shooting directions to move the cursor.
+- Press the active-item button to lock the current part.
+- After both parts are locked, confirm the combination in the center.
+- Press the drop button to cancel.
+
+A charge is spent only after a stitched enemy is successfully created. Cancelling the selection, or leaving the room while the selection is open, does not spend a charge.
+
+## Available parts
+
+| Type | Enemy | Main behavior |
+| --- | --- | --- |
+| Movement | Gaper | Chases targets |
+| Movement | Charger | Charging movement |
+| Movement | Globin | Wandering, including its regeneration-related behavior |
+| Attack | Horf | Fires single projectiles |
+| Attack | Pooter | Flies and fires projectiles |
+| Attack | Host | Uses the Host's attack behavior |
+
+Any movement part can be combined with any attack part.
 
 ## Notes
 
-- A few special enemies and bosses cannot be sutured.
-- {{Collectible:356}}’s extra fire is ignored—you do not get a second suture wave.
-
-## Special interactions
-
-- {{Collectible:34}}: each sutured corpse grants **+0.2** Damage for the room, up to **+2**; resets when you leave.
-- {{Collectible:584}}: spawns a dedicated wisp; sutured corpses strengthen it, and it attacks the rupture point when they burst.
-- {{Seija}}: sutured corpses last longer, but further hits break the thread faster.
-
-<details>
-<summary>Technical details</summary>
-
-- Wave radius ≈ 180; rupture radius ≈ 90.
-- Normal rupture: about `1.5×` player damage plus `20%` of stored follow-up hits, capped at `6×` player damage.
-- Boss death while marked: `5×` player damage blast, no corpse phase.
-- Charge: `300` frames (~5 seconds).
-- Seija: corpse duration ≈ 2 seconds (normally ≈ 1), break rate doubled.
-
-</details>
+- Only enemies shown in the selection panel can be used as parts.
+- A stitched enemy receives the behavior assigned to each part rather than every ability of both source enemies.

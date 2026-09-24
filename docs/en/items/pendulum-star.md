@@ -6,43 +6,31 @@ kind: collectible
 internalKey: Pendulum_Star
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>灵摆之星 Pendulum Star Pendulum_Star pendulum-star Pendulum Star 刻度设置完毕 Scale set 生成一对摆动的灵摆星 穿过两星之间的泪弹会被记录 灵摆摆至最低点时，从另一侧再次召唤这些泪弹 Spawns a pair of swinging pendulum stars Tears that cross between them are recorded At the next bottom of the swing, those tears are resummoned from the opposite star</p>
+<p class="wiki-search-index" v-pre>灵摆之星 Pendulum Star Pendulum_Star pendulum-star Pendulum Star 刻度设置完毕 Scale set 生成一对摆动的灵摆星 穿过两星之间刻度的眼泪会被记录 回摆时，以75%伤害重新释放为具有灵体与跟踪效果的星泪 Spawns a pair of swinging pendulum stars Tears that cross the scale between them are recorded On the backswing, they are released again at 75% damage as spectral homing star tears</p>
 
 <PublicEntry slug="pendulum-star" lang="en" />
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
-
 ## Effects
 
-**Pendulum Star is not a normal attacking familiar. Two stars hang like a mirrored pendulum pair; tears that cross the scale between them are remembered, then resummoned from the opposite star at the next lowest swing.**
+**Pendulum Star records tears that pass through the scale between its two stars, then releases them again as the pendulum swings back.**
 
-While held, there is always exactly **one pair** of mirrored pendulum stars (left and right). Extra copies do not spawn more stars. A visible scale line runs between them. The pair swings in sync; the stars themselves do not collide, do not auto-aim, and do not deal contact damage.
+While held, a pair of pendulum stars continuously swings around the player. Tears fired through the scale between them are recorded, while the original tears continue flying normally.
 
-Only Isaac’s own **tears** count. A tear that crosses the scale line once while flying is registered (echo tears and already-marked tears are not registered again). The snapshot keeps velocity, damage, flags, and similar tear data.
-
-At the next **lowest point** of the swing, stored tears are fired again from the **opposite** star: tears registered nearer the left star come from the right, and vice versa. Echo damage is about **75%** of the original tear; with {{Collectible:247}} it becomes **100%**. Memory capacity is **12**, plus **+4** per extra copy of this item.
+On the backswing, recorded tears are released again as star tears. They retain most of the original tear's offensive effects, deal **75%** of its damage, and gain **spectral** and **homing** effects.
 
 ## Notes
 
-- Non-tear attacks (lasers, bombs, knives, and so on) are not recorded by the scale.
-- The stars do not aim for Isaac; tears must cross the scale line between them.
-- Each tear is registered once; echo tears are marked so they do not refill memory.
+- Lasers, bombs, knives, and other non-tear attacks are not recorded.
+- The same tear cannot be recorded repeatedly, and star tears released by Pendulum Star cannot be recorded again.
 
-## Tips
+## Special Synergies
 
-- Shooting across the scale between the stars fills memory more reliably than aiming at a single star.
-- For a burst, bank several crossings first, then take the echo volley at the next bottom.
+### {{Collectible:247}}
+
+Released star tears deal **100%** of the original tear's damage.
 
 ## Trivia
 
-- Themed after Yu-Gi-Oh! Pendulum Summon.
-
-<details>
-<summary>Technical details</summary>
-
-- `CheckFamiliar` count is fixed at 2; extra copies only change the memory cap `12 + 4×(copies−1)` and a small echo damage bonus (with {{Collectible:247}}, damage multiplier is at least 1.0).
-- Firing echoes clears the current memory; phase advances on the left star and triggers when sine crosses zero at the bottom.
-
-</details>
+- The item's concept is based on "Pendulum Summon" from *Yu-Gi-Oh!*.

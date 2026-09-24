@@ -4,9 +4,9 @@ description: "Those who rise up must be drifting down."
 slug: field
 kind: collectible
 internalKey: Field
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>逆反力场 Anti-Field Field field Field ↑升天↑ Those who rise up must be drifting down. 射速上升 房间内生成一片逆反力场 你的眼泪进入其中后会逐渐减速并停下 随后反复从地面向上升起 Tears up Creates an anti-gravity field in each room Your tears gradually lose their horizontal momentum inside the field Captured tears repeatedly rise upward from the ground</p>
+<p class="wiki-search-index" v-pre>逆反力场 Anti-Field Field field Field ↑升天↑ Those who rise up must be drifting down. 房间内生成1个 逆反力场 射速 站在力场内时射速+1 你的眼泪进入力场后会逐渐停下，并反复升空、重新出现 多个力场彼此连通，被捕获的眼泪可从其他力场中出现 Creates an Anti-Field in the room Tears +1 Tears while standing inside the Field Your tears entering the Field gradually stop, then repeatedly rise and reappear Multiple Fields are linked; captured tears can emerge from another Field</p>
 
 <PublicEntry slug="field" lang="en" />
 
@@ -16,13 +16,16 @@ status: drafted
 
 ## Effects
 
-**Anti-Field sends standing-still tears skyward, then returns them through a door with one damage boost.**
+Anti-Field captures tears that enter it and sends them through a repeating cycle of rising and reappearing across linked Fields.
 
-While held, tears rate goes up. After standing still for about **12** frames, tears spawned by that player rise; when the ascent finishes they re-enter near their path through a transfer door and gain a one-time **1.5×** collision damage boost (once per tear). Returned tears briefly brighten as a cue.
+Tears belonging to the holder gradually lose their horizontal momentum after entering a Field, come to a stop, then rise out of the screen and reappear through a rift inside a Field. This repeats for several cycles as the tear gradually fades, until it finally disappears.
 
-In co-op, only tears that truly belong to the Anti-Field holder are lifted—other players' shots are left alone.
+When multiple {{ColorPurple}}Anti-Fields{{CR}} are present, they are linked together. A tear captured by one Field can reappear from another.
+
+Standing inside a Field grants {{Tears}} **+1 Tears**. Overlapping Fields do not stack this bonus.
 
 ## Notes
 
-- Moving resets the stand-still timer; a tear that already finished one cycle is not boosted again.
-- A few specially flagged tears are excluded from the ascent loop.
+- Tears created inside a Field are captured as well; the entry ripple only appears when a tear actually crosses the boundary from outside.
+- The continuously controlled tear from {{Collectible:329}} is not captured.
+- In co-op, a Field only captures tears belonging to its holder.

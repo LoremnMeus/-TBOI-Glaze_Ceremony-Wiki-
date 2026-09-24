@@ -4,9 +4,9 @@ description: "↑升天↑"
 slug: field
 kind: collectible
 internalKey: Field
-status: drafted
+status: reviewed
 ---
-<p class="wiki-search-index" v-pre>逆反力场 Anti-Field Field field Field ↑升天↑ Those who rise up must be drifting down. 射速上升 房间内生成一片逆反力场 你的眼泪进入其中后会逐渐减速并停下 随后反复从地面向上升起 Tears up Creates an anti-gravity field in each room Your tears gradually lose their horizontal momentum inside the field Captured tears repeatedly rise upward from the ground</p>
+<p class="wiki-search-index" v-pre>逆反力场 Anti-Field Field field Field ↑升天↑ Those who rise up must be drifting down. 房间内生成1个 逆反力场 射速 站在力场内时射速+1 你的眼泪进入力场后会逐渐停下，并反复升空、重新出现 多个力场彼此连通，被捕获的眼泪可从其他力场中出现 Creates an Anti-Field in the room Tears +1 Tears while standing inside the Field Your tears entering the Field gradually stop, then repeatedly rise and reappear Multiple Fields are linked; captured tears can emerge from another Field</p>
 
 <PublicEntry slug="field" lang="zh" />
 
@@ -16,13 +16,16 @@ status: drafted
 
 ## 效果
 
-**逆反力场让站住不动的泪弹先升空，再从门缝落回，并带一次伤害强化。**
+逆反力场会捕获进入其中的泪弹，并让它们在力场之间反复升空、重新出现。
 
-持有后提供射速上升。站立不动约 **12** 帧后，由该角色生成的泪弹会被送向空中；升天结束后，它们经一道传送门落回原轨迹附近，并获得一次 **1.5×** 碰撞伤害（每颗泪只强化一轮）。落回的泪会短暂变亮作为提示。
+属于持有者的眼泪进入力场后，会逐渐失去横向速度并停下，随后向上升出画面，再从力场中的裂隙重新出现。这个循环会持续若干次，泪弹也会逐渐变淡，最后消失。
 
-联机时只影响真正属于该持有者的泪弹，不会误升别人的子弹。
+同时存在多个{{ColorPurple}}逆反力场{{CR}}时，它们彼此连通；被一个力场捕获的眼泪可以从其他力场中重新出现。
+
+站在力场内时获得 {{Tears}} **+1 射速**。多个力场重叠时不会重复获得该加成。
 
 ## 注意
 
-- 开始移动会打断「站住」计时；已经升天并完成一轮的泪不会再次强化。
-- 部分特殊泪弹标记会被排除，不会进入升天循环。
+- 在力场内部生成的泪弹也会被捕获；只有从外部穿过边界时才会出现入口波纹。
+- {{Collectible:329}} 的持续操控泪不会被逆反力场捕获。
+- 联机时，力场只捕获属于持有者的泪弹。

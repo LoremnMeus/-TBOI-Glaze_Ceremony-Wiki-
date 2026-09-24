@@ -33,6 +33,12 @@ const ITEM_TYPE_LABELS = {
 const CHARGE_TYPE_LABELS = {
   timed: ['计时充能', 'Timed charge'], special: ['特殊充能', 'Special charge'], room: ['房间充能', 'Room charge'],
 }
+const REMASTER_LABELS = {
+  new: ['重制版新增', 'New in Remaster'],
+  reworked: ['大幅重做', 'Major Rework'],
+  adjusted: ['有所调整', 'Adjusted'],
+  presentation: ['演出增强', 'Presentation Enhanced'],
+}
 
 const POOL_LABELS = {
   treasure: ['宝箱房', 'Treasure Room'], shop: ['商店', 'Shop'], boss: ['Boss 房', 'Boss Room'],
@@ -86,6 +92,10 @@ const chargeInfo = computed(() => {
     visualMax: showBar ? Math.round(max) : 0,
     visualInitial: showBar ? Math.max(0, Math.min(Math.round(max), Math.round(initial))) : 0,
   }
+})
+const remasterLabel = computed(() => {
+  const row = REMASTER_LABELS[props.entry.remasterStatus]
+  return row ? row[en.value ? 1 : 0] : ''
 })
 
 function chargeSummary(info) {
@@ -204,6 +214,16 @@ function pocketTypeLabel(type) {
           <small v-else-if="chargeInfo.type === 'room' && chargeInfo.showBar && chargeInfo.initial !== chargeInfo.max">
             {{ en ? `Starts with ${chargeInfo.initial}` : `开局 ${chargeInfo.initial} 格` }}
           </small>
+        </dd>
+      </template>
+
+      <template v-if="remasterLabel">
+        <dt>{{ en ? 'Remaster' : '重制版变化' }}</dt>
+        <dd>
+          <span
+            class="entry-infobox__remaster"
+            :class="`entry-infobox__remaster--${entry.remasterStatus}`"
+          >{{ remasterLabel }}</span>
         </dd>
       </template>
 
@@ -459,6 +479,11 @@ function pocketTypeLabel(type) {
 .entry-infobox__siblings { margin-top: .35rem; }
 .entry-infobox__siblings small { display: block; color: var(--vp-c-text-2); margin-bottom: .2rem; }
 .entry-infobox__chips > span { padding: 0 .35rem; border: 1px solid var(--vp-c-divider); border-radius: 999px; }
+.entry-infobox__remaster { display: inline-block; padding: .08rem .45rem; border: 1px solid transparent; border-radius: 999px; font-size: .78rem; font-weight: 650; line-height: 1.45; }
+.entry-infobox__remaster--new { color: #9d68d7; border-color: color-mix(in srgb, #9d68d7 55%, var(--vp-c-divider)); background: color-mix(in srgb, #9d68d7 13%, transparent); }
+.entry-infobox__remaster--reworked { color: #d76e55; border-color: color-mix(in srgb, #d76e55 55%, var(--vp-c-divider)); background: color-mix(in srgb, #d76e55 13%, transparent); }
+.entry-infobox__remaster--adjusted { color: #b88922; border-color: color-mix(in srgb, #c99b32 58%, var(--vp-c-divider)); background: color-mix(in srgb, #c99b32 14%, transparent); }
+.entry-infobox__remaster--presentation { color: #4f8fcf; border-color: color-mix(in srgb, #4f8fcf 55%, var(--vp-c-divider)); background: color-mix(in srgb, #4f8fcf 13%, transparent); }
 .entry-infobox__technical { border-top: 1px solid var(--vp-c-divider); }
 .entry-infobox__technical summary { cursor: pointer; padding: .55rem .65rem; color: var(--vp-c-text-2); }
 .entry-infobox__technical dl { border-top: 1px solid var(--vp-c-divider); }
