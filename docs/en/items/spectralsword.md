@@ -83,6 +83,8 @@ The Planetarium node is available only when the vanilla Stat HUD would show Plan
 
 On floors where the vanilla Found HUD does not provide Devil or Angel Room chances, those two values cannot be adjusted.
 
+With {{Collectible:498}}, Devil and Angel chances merge into one total Deal chance: the separate Angel node is hidden, and the Devil node instead adjusts that total Deal directly (still using Chance Essence). The Planetarium row is unchanged and shifts up to fill the gap.
+
 ## Notes
 
 - Spectral Sword grants no starting essence; all essence must first be obtained through extraction.
