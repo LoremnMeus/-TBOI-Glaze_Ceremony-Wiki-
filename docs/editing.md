@@ -70,7 +70,64 @@ wiki/docs/public/generated/*
 2. **自动基线**：跑 `export_wiki_data.py`。灌 Desc/EID、拷图标、写搜索用 title。Markdown 的机制正文**永不覆盖**；只更新 frontmatter 和隐藏的搜索索引块。
 3. **人工/AI 玩家正文**：改 `wiki/docs/<kind>/<slug>.md` 里 `## 机制说明` **之后**。普通词条优先直接写“效果”，再按需写注意、交互、协同、技巧与轶事；大型角色/系统才使用简介、操作和流程。资料卡、技术 ID、EID 由 `<PublicEntry>` 负责。标注见 [markup.md](./markup.md)。
 4. **状态**：`wiki/docs/generated/page-status.json` 使用 `stub / drafted / reviewed / featured`。前两项由正文自动判断；完整核验后才在页面 frontmatter 手动提升为 `reviewed` 或 `featured`。不要手改 `entries.json` 或生成的状态 JSON。
-5. **发布**：私有仓是唯一源。本地正式同步公开 Wiki/Release 用 `publish_local.py`；提交消息里的 `[publish-wiki]` / `[publish-release]` / `[publish-both]` 仅在明确要求 GitHub Actions 发布时使用。正式版本仍使用与 `version.lua` 一致的 `v*` tag，并创建 GitHub Release。普通 commit/push 不更新公共仓库。
+5. **发布**：见下一节「发布路径优先级」。日常正式同步公开 Wiki 只用 `publish_local.py`；不要把 `[publish-wiki]` 当日常入口。
+
+## 发布路径优先级（重要）
+
+Wiki 发布**默认**使用本地发布流程。真实结构是：
+
+```text
+私有开发仓
+    ↓ 本地生成 / 检查 / build
+publish_local.py
+    ↓
+公开 Wiki snapshot
+```
+
+**不是**「私有仓 → GitHub Actions → 公开 Wiki」。
+
+标准流程：
+
+```text
+开发仓修改
+    ↓
+本地运行生成 / 检查
+    ↓
+本地 build 验证
+    ↓
+publish_local.py 同步公开 Wiki
+    ↓
+提交并 push 私有仓（如尚未推送）
+```
+
+| 流程 | 用途 |
+| --- | --- |
+| 本地脚本（`export_wiki_data.py` / `docs:build` / `publish_local.py`） | 日常开发、验证、正式同步 |
+| GitHub Actions | CI 验证、特殊自动化、**用户明确要求**的远程发布 |
+
+禁止默认使用 GitHub Actions 作为发布入口。
+
+除非用户明确要求例如「运行 GitHub Action」「通过 CI 发布」「检查 workflow」，否则不要：
+
+- 触发 workflow；
+- 等待 Actions 完成；
+- 用 Actions 替代本地发布。
+
+提交消息中的 `[publish-wiki]` / `[publish-release]` / `[publish-both]` **不是日常发布入口**。日常发布始终使用：
+
+```text
+python scripts/publication/publish_local.py --wiki
+```
+
+只有用户明确要求测试 GitHub Actions 发布链路时，才使用对应 commit 标记 / workflow。正式版本 tag 仍对齐 `version.lua` 并创建 GitHub Release。普通 commit/push 只更新私有仓。
+
+本地发布更快、使用当前工作区、可直接检查生成文件，且不消耗远程运行资源。GitHub Actions 结果**不能**替代本地构建验证。
+
+## 工具选择规则
+
+对于已有本地脚本的项目流程：**优先调用仓库内脚本**。
+
+不要优先选择 GitHub Actions、云端 workflow 或远程构建。远程流程是发布目标 / 可选托管，不是开发循环。
 
 ## 日常维护与发布验收
 
@@ -82,7 +139,7 @@ Cursor、Codex 或人工编辑一次 Wiki 时，按下面的最短闭环执行�
 4. **校验元数据**：运行 `python scripts/publication/validate_public_metadata.py`，要求 `errors=0`。若修改原版/EID 图标源，再按需要运行 `export_wiki_icons.py`。
 5. **完整构建**：运行 `npm --prefix wiki run docs:build`。构建失败时先修复链接、Vue 组件或 Markdown，不得只提交生成数据绕过错误。
 6. **检查差异**：运行 `git status --short` 确认发布内容范围；确认没有探针日志、`dist/`、密钥或临时文件。可选运行 `git diff --check` 查看 Git whitespace diagnostics。whitespace warning 不阻断 Wiki 发布，也不得作为批量修改历史文件的理由。已有用户修改不是清理目标，不得为了工作区变干净而恢复或删除。
-7. **提交发布**：只发布 Wiki 时，提交消息加入 `[publish-wiki]`，随后推送私有仓 `main`。这会触发公共 Wiki 同步；不要额外制造版本 tag。
+7. **提交与同步公开 Wiki**：先提交并推送私有仓（**不加** `[publish-wiki]`）。用户要求更新公开 Wiki 时，再运行 `python scripts/publication/publish_local.py --wiki`。不要额外制造版本 tag；不要默认改走 GitHub Actions。
 
 推荐验收命令（项目声明的 Python 环境优先；下列使用通用写法）：
 
@@ -91,11 +148,13 @@ python scripts/publication/export_wiki_data.py
 python scripts/publication/validate_public_metadata.py
 npm --prefix wiki run docs:build
 git status --short
+# when the user asked to update the public Wiki:
+# python scripts/publication/publish_local.py --wiki
 # optional diagnostic; warnings do not block publication
 # git diff --check
 ```
 
-完成后至少报告：修改了哪些人工正文/组件、导出条目数与缺失数、元数据错误数、构建结果、私有分支和提交哈希。若没有安装 GitHub CLI，不影响通过提交标记触发发布，但应明确说明未从本机继续查询 Actions 状态。
+完成后至少报告：修改了哪些人工正文/组件、导出条目数与缺失数、元数据错误数、构建结果、私有分支和提交哈希；若同步了公开 Wiki，再报告公开仓是否已 push。
 
 ## 2. 玩家百科正文（改 Markdown）
 
