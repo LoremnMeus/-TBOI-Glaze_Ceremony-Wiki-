@@ -7,7 +7,7 @@ internalKey: Regenesis
 status: drafted
 flavorSource: "《约翰福音》6:39"
 ---
-<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 一个也不失落 Not one will be lost 生成一个记住近期失物的宝宝 清理战斗房后，宝宝会逐个将它们吐回来 多数失物需要 1 房；卡牌、药丸和道具需要更久 Spawns a familiar that remembers things you recently lost After clearing combat rooms, it spits them back out one by one Most losses take 1 room; cards, pills, and items take longer</p>
+<p class="wiki-search-index" v-pre>再世纪 Regenesis Regenesis regenesis Regenesis 一个也不失落 Not one will be lost 生成一个记住近期失物的宝宝 每项失物需要记录1-4个战斗房，完成后由宝宝吐回 Spawns a familiar that remembers things you recently lost Each loss takes 1-4 cleared combat rooms to recover, then the familiar spits it back out</p>
 
 <PublicEntry slug="regenesis" lang="zh" />
 

@@ -4,7 +4,7 @@ description: "已更名为琉璃之核"
 slug: its-a-trick
 kind: collectible
 internalKey: It_s_a_trick
-status: stub
+status: redirect
 ---
 <p class="wiki-search-index" v-pre>鸭架 Wire duck hanger It_s_a_trick its-a-trick It&#x27;s a trick!! 琉璃之核 Glaze Core glaze-core</p>
 

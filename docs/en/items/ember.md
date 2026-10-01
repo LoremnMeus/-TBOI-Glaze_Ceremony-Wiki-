@@ -25,4 +25,4 @@ status: reviewed
 
 ## Notes
 
-The “Feels Like Dead Ashes” challenge has its own 8-Ember / blocked-passive rules — see the challenge page.
+The “Feels Like Dead Ashes” challenge starts with 8 real Embers that occupy slots; other passives can occupy slots but stay disabled — see the challenge page.

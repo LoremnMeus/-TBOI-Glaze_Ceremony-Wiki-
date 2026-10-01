@@ -4,7 +4,7 @@ description: "ATEM!"
 slug: the-true-name
 kind: collectible
 internalKey: The_True_Name
-status: stub
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>真实之名 The True Name The_True_Name the-true-name The True Name 吾名，阿图姆 ATEM! 使用后，从所有道具中选择1件作为你的猜测 随后揭示当前道具池的下一件道具 猜中：生成你猜的道具，并额外生成 死亡证明 猜错：本次预测失败 On use, pick 1 collectible from all items as your guess Then reveal the next item from the current item pool Correct: spawn that item plus Death Certificate Wrong: the prediction fails</p>
 
@@ -46,3 +46,8 @@ On a correct guess, spawn a wisp of that item.
 
 - Points to the Yu-Gi-Oh! card of the same name, "The True Name".
 - Both the card and this item reward correctly guessing designated content; in Isaac it is harder to pre-arrange the answer the way a card game can.
+
+## Notes
+
+- The picker does not include hidden or quest items.
+- {{Collectible:356}} extra triggers do not repeat the selection flow.

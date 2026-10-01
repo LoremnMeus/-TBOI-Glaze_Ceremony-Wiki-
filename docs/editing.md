@@ -35,7 +35,7 @@ Cursor、Codex 或人工编辑一次 Wiki 时，按下面的最短闭环执行�
 3. **重新导出**：运行 `python scripts/publication/export_wiki_data.py`。角色肖像、道具图等源资源变化也必须重跑，确认对应 `wiki/docs/public/generated/images/` 文件产生实际 diff。
 4. **校验元数据**：运行 `python scripts/publication/validate_public_metadata.py`，要求 `errors=0`。若修改原版/EID 图标源，再按需要运行 `export_wiki_icons.py`。
 5. **完整构建**：运行 `npm --prefix wiki run docs:build`。构建失败时先修复链接、Vue 组件或 Markdown，不得只提交生成数据绕过错误。
-6. **检查差异**：运行 `git diff --check` 和 `git status --short`；确认没有探针日志、`dist/`、密钥或临时文件。已有用户修改不是清理目标，不得为了工作区变干净而恢复或删除。
+6. **检查差异**：运行 `git status --short` 确认发布内容范围；确认没有探针日志、`dist/`、密钥或临时文件。可选运行 `git diff --check` 查看 Git whitespace diagnostics。whitespace warning 不阻断 Wiki 发布，也不得作为批量修改历史文件的理由。已有用户修改不是清理目标，不得为了工作区变干净而恢复或删除。
 7. **提交发布**：只发布 Wiki 时，提交消息加入 `[publish-wiki]`，随后推送私有仓 `main`。这会触发公共 Wiki 同步；不要额外制造版本 tag。
 
 推荐验收命令（项目声明的 Python 环境优先；下列使用通用写法）：
@@ -44,8 +44,9 @@ Cursor、Codex 或人工编辑一次 Wiki 时，按下面的最短闭环执行�
 python scripts/publication/export_wiki_data.py
 python scripts/publication/validate_public_metadata.py
 npm --prefix wiki run docs:build
-git diff --check
 git status --short
+# optional diagnostic; warnings do not block publication
+# git diff --check
 ```
 
 完成后至少报告：修改了哪些人工正文/组件、导出条目数与缺失数、元数据错误数、构建结果、私有分支和提交哈希。若没有安装 GitHub CLI，不影响通过提交标记触发发布，但应明确说明未从本机继续查询 Actions 状态。

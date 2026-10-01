@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Book_of_Thoth
 status: featured
 ---
-<p class="wiki-search-index" v-pre>透特之书 Book of Thoth Book_of_Thoth book-of-thoth Book of Thoth 命运只是尚未整理的书页 Fate is merely a book yet to be put in order. 记录获得过的透特牌面 登记新牌面+1启示，使用透特牌+2启示，最多12格 消耗3格启示，选择至多3张记录牌面进行占卜 进入新战斗房时随机发动一张；每个牌面每层限一次 Records obtained Thoth faces Registering a new face +1 Revelation, using a Thoth card +2, up to 12 Spend 3 Revelation to read up to 3 recorded faces Entering a new combat room plays one at random; each face once per floor</p>
+<p class="wiki-search-index" v-pre>透特之书 Book of Thoth Book_of_Thoth book-of-thoth Book of Thoth 命运只是尚未整理的书页 Fate is merely a book yet to be put in order. 拾取时生成1张透特牌，并记录获得过的透特牌面 登记新牌面+1启示，使用透特牌+2启示，最多12格 消耗3格启示，选择至多3张记录牌面进行占卜 进入新战斗房时随机发动一张；每个牌面每层限一次 Spawns 1 Thoth card on pickup; records obtained Thoth faces Registering a new face +1 Revelation, using a Thoth card +2, up to 12 Spend 3 Revelation to read up to 3 recorded faces Entering a new combat room plays one at random; each face once per floor</p>
 
 <PublicEntry slug="book-of-thoth" lang="zh" />
 
@@ -18,21 +18,23 @@ status: featured
 
 它会记录玩家在本局中见过的透特牌。收集不同牌面获得启示，再消耗启示从已记录的牌中组成牌阵，使它们在之后的战斗房中自动发动。
 
+拾取透特之书时，会在玩家附近生成 1 张透特牌。该牌使用与透特之书现有生成规则相同的牌面倾向：尚未收录的牌面基础权重为已收录牌面的 3 倍。
+
 <WikiScreenshot src="/images/screenshots/items/book-of-thoth/codex.jpg" :ready="true" alt="透特之书的卡册界面" caption="透特之书的卡册。玩家见过的正位与逆位透特牌会分别被收录，未收录的牌面仍保持隐藏。" />
 
 ## 如何使用
 
 ### 1. 收录牌面
 
-持有透特之书期间，第一次获得并持有某种透特牌时，对应牌面会被收录进卡册。正位和逆位分别记录；收录不会消耗卡牌，之后使用或丢弃它也不会抹去记录。
+持有透特之书期间，第一次获得并持有某种透特牌时，对应牌面会被收录进卡册。正位和逆位分别记录；收录不会消耗卡牌，之后使用或丢弃它也不会抹去记录。失去书后，已经收录的牌面仍会保留，但在重新拿回书之前不会继续登记新牌面。
 
 ::: tip 补全卡册
-持有透特之书时，游戏会更倾向于从卡池生成尚未收录的透特牌，并可能把部分普通塔罗牌替换成透特牌。卡册会随着流程自然补全。
+拾取书时赠送的透特牌，以及持书期间需要从透特牌候选中重新选择牌面时，都使用相同的未收录牌面倾向。持书期间，游戏也可能把部分普通塔罗牌替换成透特牌。卡册会随着流程自然补全。
 :::
 
 ### 2. 获得启示
 
-启示是透特之书进行占卜所需的资源。首次获得书、收录新牌面以及玩家亲自使用透特牌都能提供启示；清理房间和普通电池不能为它恢复启示。
+启示是透特之书进行占卜所需的资源。首次获得书、收录新牌面以及玩家亲自使用透特牌都能提供启示；清理房间和普通电池不能为它恢复启示。失去书后再使用透特牌，不会继续获得使用启示。
 
 ### 3. 进行占卜
 
@@ -69,6 +71,8 @@ status: featured
 | 玩家亲自使用一张透特牌 | +2 |
 | 进行一次占卜 | −3 |
 | 最大启示 | 12 |
+
+拾取透特之书生成的卡牌本身不会直接给予启示。若该牌面尚未收录，则玩家获得它后会按正常规则获得 1 点启示；亲自成功使用后，再按正常规则获得 2 点启示。
 
 由牌阵免费发动的透特牌不会再次提供启示。失去透特之书后再取回时，卡册与原有启示仍会保留，也不会重复获得初始 3 点。
 
@@ -118,7 +122,7 @@ status: featured
 
 ### 卡池倾向
 
-在透特牌候选中，已收录牌面的基础权重为 **1**，未收录牌面的基础权重为 **3**。这是候选权重，不代表未收录牌具有固定 75% 的出现概率。
+在透特牌候选中，已收录牌面的基础权重为 **1**，未收录牌面的基础权重为 **3**。这是候选权重，不代表未收录牌具有固定 75% 的出现概率。拾取书时赠送的透特牌也按同一权重直接选择牌面，不经过普通塔罗→透特的替换判定。
 
 当卡池原本抽到普通塔罗牌时，替换概率为“当前未收录透特牌面数 ÷ 当前可生成透特牌面总数”，上限为 **50%**；随后再按上述权重选择具体牌面。由实体直接生成或玩家放下的卡牌不经过这次卡池改抽。
 

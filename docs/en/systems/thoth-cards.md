@@ -24,6 +24,8 @@ While holding {{Item:book-of-thoth}}, ordinary Tarot spawns can be replaced with
 
 {{Item:book-of-thoth}} is currently the system item most tightly tied to Thoth cards. It records faces the player meets, registers upright and reversed separately, and can recall recorded results through **Revelation**.
 
+Picking up Book of Thoth also spawns 1 Thoth card directly. That face is chosen with the unregistered-face bias below, and does not go through the ordinary-tarot replacement roll.
+
 Card book, Revelation, and spread controls are covered on the Book of Thoth page; this page only explains how it affects Thoth card appearance.
 
 ### Bias toward unregistered faces

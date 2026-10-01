@@ -146,6 +146,13 @@ function local(path) {
         <p class="wiki-home-hero__meta">
           v{{ catalog.version }} · Repentance+ / REPENTOGON
         </p>
+        <a class="wiki-home-hero__alpha" :href="local('/guide/about')">
+          {{
+            english
+              ? 'Alpha testing · Story available through: Prologue'
+              : 'Alpha 测试中 · 当前剧情开放至：序章'
+          }}
+        </a>
       </div>
     </section>
 
@@ -192,7 +199,13 @@ function local(path) {
     <footer class="wiki-home-footer">
       <span>v{{ catalog.version }}</span>
       <span aria-hidden="true">·</span>
-      <a href="https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/releases">GitHub Release</a>
+      <a href="https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/">
+        {{ english ? 'Public Repository' : '公开仓库' }}
+      </a>
+      <span aria-hidden="true">·</span>
+      <a href="https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/issues">
+        {{ english ? 'Report an Issue' : '报告问题' }}
+      </a>
       <span aria-hidden="true">·</span>
       <a :href="local('/guide/install')">
         {{ english ? 'Installation & Requirements' : '安装与要求' }}
@@ -308,6 +321,24 @@ function local(path) {
   margin: 0.4rem 0 0;
   font-size: 0.85rem;
   color: var(--vp-c-text-2);
+}
+
+.wiki-home-hero__alpha {
+  margin: 0.35rem 0 0;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.55rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  color: var(--vp-c-text-2);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.wiki-home-hero__alpha:hover {
+  color: var(--vp-c-brand-1);
+  border-color: color-mix(in srgb, var(--vp-c-brand-1) 40%, var(--vp-c-divider));
 }
 
 .wiki-home-section {

@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Colorblindness
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>傲慢或是偏见 Pride or Prejudice Colorblindness colorblindness Colorblindness 色盲 colorblind colorblindness 我的品味不需要解释 My taste needs no defense 靠近道具时可以评价它 按住Ctrl并按E点赞；按住Ctrl并按Q点踩 点赞：复制一份该道具进入当前道具池 点踩：该道具从当前局与下一局的道具池中移除 Approach an item pedestal to judge it Hold Ctrl and press E to like it; hold Ctrl and press Q to dislike it Controllers can hold Drop and press Shoot Right/Left Liked items are copied into the current item pool Disliked items are removed from this run and the next run&#x27;s item pools</p>
+<p class="wiki-search-index" v-pre>傲慢或是偏见 Pride or Prejudice Colorblindness colorblindness Colorblindness 色盲 colorblind colorblindness 我的品味不需要解释 My taste needs no defense 靠近道具时可以评价它 + LB 点赞；RT + RB 点踩 点赞：复制一份该道具进入当前道具池 点踩：该道具从当前局与下一局的道具池中移除 Approach an item pedestal to judge it + LB to like; RT + RB to dislike Like: copy that item into the current item pool Dislike: remove it from this run and the next run&#x27;s item pools</p>
 
 <PublicEntry slug="colorblindness" lang="zh" />
 
@@ -20,10 +20,14 @@ status: reviewed
 
 ## 如何评价
 
-| 操作 | 键鼠       | 手柄          |
-| -- | -------- | ----------- |
-| 点赞 | Ctrl + E | Drop + 向右攻击 |
-| 点踩 | Ctrl + Q | Drop + 向左攻击 |
+靠近可评价的道具底座时，会显示默认键位提示：
+
+| 操作 | 默认键位 |
+| --- | --- |
+| 👍 点赞 | Ctrl + E |
+| 👎 点踩 | Ctrl + Q |
+
+实际输入按「丢弃 + 炸弹」和「丢弃 + 卡牌/药丸」两个动作判断，因此重新绑定这些操作后，评价也会跟随新的绑定；HUD 中的 Ctrl / E / Q 仅表示默认键位。
 
 ## 评价结果
 

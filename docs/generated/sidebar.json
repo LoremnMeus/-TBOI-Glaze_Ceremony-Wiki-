@@ -108,26 +108,6 @@
             "link": "/items/crown-of-the-glaze"
           },
           {
-            "text": "铸币之余",
-            "link": "/items/a-shard-of-coin"
-          },
-          {
-            "text": "琉璃之残",
-            "link": "/items/a-shard-of-glaze"
-          },
-          {
-            "text": "流焰之华",
-            "link": "/items/a-shard-of-lava"
-          },
-          {
-            "text": "鲜肉之渣",
-            "link": "/items/a-shard-of-meat"
-          },
-          {
-            "text": "岩田之蚀",
-            "link": "/items/a-shard-of-rock"
-          },
-          {
             "text": "黑地图",
             "link": "/items/black-map"
           },
@@ -614,6 +594,10 @@
           {
             "text": "似有所选",
             "link": "/items/perhaps-chosen"
+          },
+          {
+            "text": "零存在感",
+            "link": "/items/zero-presence"
           }
         ]
       }
@@ -1271,26 +1255,6 @@
             "link": "/en/items/crown-of-the-glaze"
           },
           {
-            "text": "A Shard of Coin",
-            "link": "/en/items/a-shard-of-coin"
-          },
-          {
-            "text": "A Shard of Glaze",
-            "link": "/en/items/a-shard-of-glaze"
-          },
-          {
-            "text": "A Shard of Lava",
-            "link": "/en/items/a-shard-of-lava"
-          },
-          {
-            "text": "A Shard of Meat",
-            "link": "/en/items/a-shard-of-meat"
-          },
-          {
-            "text": "A Shard of Rock",
-            "link": "/en/items/a-shard-of-rock"
-          },
-          {
             "text": "Black Map",
             "link": "/en/items/black-map"
           },
@@ -1777,6 +1741,10 @@
           {
             "text": "Perhaps Chosen",
             "link": "/en/items/perhaps-chosen"
+          },
+          {
+            "text": "Zero Presence",
+            "link": "/en/items/zero-presence"
           }
         ]
       }

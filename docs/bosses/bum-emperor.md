@@ -6,6 +6,7 @@ kind: boss
 bossId: bum_emperor
 status: stub
 relatedStory: chapter1.coin
+publicFrom: chapter1
 ---
 
 ## 机制说明
@@ -25,7 +26,7 @@ relatedStory: chapter1.coin
 
 ## 核心机制
 
-待对照 `enemy_bum_emperor.lua`：攻击循环、是否有阶段。
+待对照 `bosses/Bum_Emperor/enemy_bum_emperor.lua`：攻击循环、是否有阶段。
 
 ## 辅助实体
 

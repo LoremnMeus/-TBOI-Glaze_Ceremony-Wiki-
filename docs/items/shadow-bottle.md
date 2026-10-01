@@ -4,7 +4,7 @@ description: "如坠深渊"
 slug: shadow-bottle
 kind: collectible
 internalKey: Shadow_Bottle
-status: stub
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>瓶中阴影 Shadow Bottle Shadow_Bottle shadow-bottle Shadow Bottle 如坠深渊 Just like inferno 首次进入未清理房间时，召唤1名随机友方阴影敌人 重复持有会额外召唤 On first entry to an uncleared room, summon 1 random friendly shadow enemy Extra copies summon additional shadows</p>
 

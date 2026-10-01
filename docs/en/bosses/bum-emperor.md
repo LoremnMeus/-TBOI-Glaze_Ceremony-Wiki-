@@ -6,6 +6,7 @@ kind: boss
 bossId: bum_emperor
 status: stub
 relatedStory: chapter1.coin
+publicFrom: chapter1
 ---
 
 ## Mechanics
@@ -25,7 +26,7 @@ Bank-room puzzles and multi-room exploration belong on the Story page; this page
 
 ## Core mechanics
 
-Pending cross-check against `enemy_bum_emperor.lua`: attack loop and whether phases exist.
+Pending cross-check against `bosses/Bum_Emperor/enemy_bum_emperor.lua`: attack loop and whether phases exist.
 
 ## Helper entities
 

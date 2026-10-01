@@ -12883,11 +12883,6 @@
     "Super_Bombs": "collectibles_Super_Bombs.png",
     "Brimstream": "collectibles_Brimstream.png",
     "Crown_of_the_glaze": "collectibles_Crown_Of_The_Glaze.png",
-    "A_Shard_Of_Coin": "collectibles_A_Shard_Of_Coin.png",
-    "A_Shard_Of_Glaze": "collectibles_A_Shard_Of_Glaze.png",
-    "A_Shard_Of_Lava": "collectibles_A_Shard_Of_Lava.png",
-    "A_Shard_Of_Meat": "collectibles_A_Shard_Of_Meat.png",
-    "A_Shard_Of_Rock": "collectibles_A_Shard_Of_Rock.png",
     "Black_Map": "collectibles_Black_Map.png",
     "Blaststone": "collectibles_Blaststone.png",
     "Little_Duck": "collectibles_Little_Duck.png",
@@ -13009,7 +13004,8 @@
     "The_Voice": "collectibles_The_Voice.png",
     "Regenesis": "collectibles_Regenesis.png",
     "Ember": "collectibles_Embers.png",
-    "Perhaps_Chosen": "collectibles_Perhaps_Chosen.png"
+    "Perhaps_Chosen": "collectibles_Perhaps_Chosen.png",
+    "Zero_Presence": "collectibles_Zero_Presence.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13027,11 +13023,6 @@
     "13": "collectibles_Super_Bombs.png",
     "14": "collectibles_Brimstream.png",
     "15": "collectibles_Crown_Of_The_Glaze.png",
-    "16": "collectibles_A_Shard_Of_Coin.png",
-    "17": "collectibles_A_Shard_Of_Glaze.png",
-    "18": "collectibles_A_Shard_Of_Lava.png",
-    "19": "collectibles_A_Shard_Of_Meat.png",
-    "20": "collectibles_A_Shard_Of_Rock.png",
     "21": "collectibles_Black_Map.png",
     "22": "collectibles_Blaststone.png",
     "23": "collectibles_Little_Duck.png",
@@ -13153,7 +13144,8 @@
     "170": "collectibles_The_Voice.png",
     "171": "collectibles_Regenesis.png",
     "172": "collectibles_Embers.png",
-    "173": "collectibles_Perhaps_Chosen.png"
+    "173": "collectibles_Perhaps_Chosen.png",
+    "174": "collectibles_Zero_Presence.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",

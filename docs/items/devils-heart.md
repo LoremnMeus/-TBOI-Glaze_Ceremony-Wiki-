@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Devil_s_Heart
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>恶魔的心智 Devil&#x27;s Heart Devil_s_Heart devils-heart Devil&#x27;s Heart 他们自愿为我而死 They volunteered to die for me 可向多个敌人植入恶魔种子，与其缔结替死契约 受到致死伤害时，优先由签约敌人替死 签约敌人濒死时会变为永久友军，最多保留3名 每次借命后，恶魔开始反复索命；每次借命使伤害+1整心 Plant devil seeds to bind multiple enemies into death pacts On lethal damage, contracted enemies are sacrificed first Contracted enemies that would die become permanent friendly servants; keep up to 3 Borrowing a life starts recurring claims; each borrowed life adds 1 full heart of damage</p>
+<p class="wiki-search-index" v-pre>恶魔的心智 Devil&#x27;s Heart Devil_s_Heart devils-heart Devil&#x27;s Heart 他们自愿为我而死 They volunteered to die for me 使用后射出恶魔种子，与命中的敌人签订替死契约 受到致死伤害时，由签约敌人代替你死亡 签约敌人死亡时会转化为永久友军 每次借命都会使之后的索命伤害增加1整心 Use to fire a devil seed and bind the enemy it hits into a death pact On lethal damage, a contracted enemy dies in your place Contracted enemies that die instead become permanent friendly servants Each borrowed life increases future claim damage by 1 full heart</p>
 
 <PublicEntry slug="devils-heart" lang="zh" />
 

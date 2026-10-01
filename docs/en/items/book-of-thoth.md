@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Book_of_Thoth
 status: featured
 ---
-<p class="wiki-search-index" v-pre>透特之书 Book of Thoth Book_of_Thoth book-of-thoth Book of Thoth 命运只是尚未整理的书页 Fate is merely a book yet to be put in order. 记录获得过的透特牌面 登记新牌面+1启示，使用透特牌+2启示，最多12格 消耗3格启示，选择至多3张记录牌面进行占卜 进入新战斗房时随机发动一张；每个牌面每层限一次 Records obtained Thoth faces Registering a new face +1 Revelation, using a Thoth card +2, up to 12 Spend 3 Revelation to read up to 3 recorded faces Entering a new combat room plays one at random; each face once per floor</p>
+<p class="wiki-search-index" v-pre>透特之书 Book of Thoth Book_of_Thoth book-of-thoth Book of Thoth 命运只是尚未整理的书页 Fate is merely a book yet to be put in order. 拾取时生成1张透特牌，并记录获得过的透特牌面 登记新牌面+1启示，使用透特牌+2启示，最多12格 消耗3格启示，选择至多3张记录牌面进行占卜 进入新战斗房时随机发动一张；每个牌面每层限一次 Spawns 1 Thoth card on pickup; records obtained Thoth faces Registering a new face +1 Revelation, using a Thoth card +2, up to 12 Spend 3 Revelation to read up to 3 recorded faces Entering a new combat room plays one at random; each face once per floor</p>
 
 <PublicEntry slug="book-of-thoth" lang="en" />
 
@@ -18,21 +18,23 @@ status: featured
 
 It records Thoth cards encountered during the run. New faces build Revelation, which can be spent to arrange recorded cards into a spread that plays itself across later combat rooms.
 
+Picking up the book also spawns 1 Thoth card near the player. That face uses the same bias as the book's existing spawn rules: unrecorded faces have three times the base weight of recorded ones.
+
 <WikiScreenshot src="/images/screenshots/items/book-of-thoth/codex.jpg" :ready="true" alt="The Book of Thoth codex screen" caption="The codex records upright and reversed Thoth faces separately. Faces not yet recorded remain hidden." />
 
 ## How to use
 
 ### 1. Record faces
 
-While holding the book, acquiring and holding a Thoth card for the first time records that face for the run. Upright and reversed versions are separate entries. Recording does not consume the card, and the entry remains after the card is used or discarded.
+While holding the book, acquiring and holding a Thoth card for the first time records that face for the run. Upright and reversed versions are separate entries. Recording does not consume the card, and the entry remains after the card is used or discarded. After the book is lost, already recorded faces stay, but new faces are not recorded again until the book is held once more.
 
 ::: tip Completing the codex
-While the book is held, card-pool rolls favor Thoth faces that have not been recorded yet. Some ordinary tarot rolls may also be replaced with Thoth cards, so the collection naturally expands over a run.
+The Thoth card granted on pickup, and any later face chosen from Thoth candidates while the book is held, share the same unrecorded-face bias. While the book is held, some ordinary tarot rolls may also be replaced with Thoth cards, so the collection naturally expands over a run.
 :::
 
 ### 2. Gain Revelation
 
-Revelation is the book's reading resource. The first copy of the book, newly recorded faces, and Thoth cards used directly by the player provide it. Room clears and ordinary batteries do not.
+Revelation is the book's reading resource. The first copy of the book, newly recorded faces, and Thoth cards used directly by the player provide it. Room clears and ordinary batteries do not. Using a Thoth card after losing the book no longer grants the use bonus.
 
 ### 3. Perform a reading
 
@@ -69,6 +71,8 @@ The Reading tab shows current Revelation, eligible faces, and the current select
 | Use a Thoth card directly | +2 |
 | Form a spread | −3 |
 | Maximum | 12 |
+
+The card spawned on pickup does not grant Revelation by itself. If that face is still unrecorded, picking it up awards the usual +1, and successfully using it later awards the usual +2.
 
 Cards played for free by the spread do not generate Revelation. Losing and later reacquiring the book preserves the codex and its Revelation instead of granting the initial 3 again.
 
@@ -118,7 +122,7 @@ The mod turns that relationship between book and deck into a run-long collection
 
 ### Card-pool bias
 
-Recorded Thoth faces have base weight **1**, while unrecorded faces have weight **3**. These are selection weights, not a fixed 75% appearance chance.
+Recorded Thoth faces have base weight **1**, while unrecorded faces have weight **3**. These are selection weights, not a fixed 75% appearance chance. The Thoth card granted on pickup also picks its face with these weights directly, without the ordinary-tarot→Thoth replacement roll.
 
 When the card pool first rolls an ordinary tarot card, the replacement chance equals “unrecorded eligible Thoth faces ÷ all eligible Thoth faces”, capped at **50%**. The replacement face is then chosen with the weights above. Cards spawned directly as entities, including cards dropped by the player, do not pass through this pool replacement.
 

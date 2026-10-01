@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Procrastination
 status: featured
 ---
-<p class="wiki-search-index" v-pre>拖延症 Procrastination Procrastination procrastination Procrastination 马上就做…… I&#x27;ll do it soon... 持有后每经过30秒，永久获得 攻击 +0.1攻击 每层最多累计 攻击 +1攻击 击杀任意Boss后，立即停止本层的攻击增长 包含Boss敌人的房间门始终保持开启 While held, permanently gain Damage +0.1 every 30 seconds Accumulate up to Damage +1 per floor Killing any boss immediately stops this floor&#x27;s damage growth Doors in rooms with living bosses stay open</p>
+<p class="wiki-search-index" v-pre>拖延症 Procrastination Procrastination procrastination Procrastination 马上就做…… I&#x27;ll do it soon... 每30秒永久获得攻击 +0.1攻击；每层最多+1 击杀Boss后本层停止增长；Boss存活时房门保持开启 Permanently gain Damage +0.1 every 30 seconds, up to +1 per floor Boss Room Killing a boss stops growth for this floor; doors stay open while a boss is alive</p>
 
 <PublicEntry slug="procrastination" lang="zh" />
 

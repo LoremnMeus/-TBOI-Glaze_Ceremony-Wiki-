@@ -1,12 +1,12 @@
 ---
 title: 挑战：心如死灰
-description: "里以撒开局 余烬 持有8个余烬 !!! 除余烬外，所有被动道具效果无效 余烬复制最近一次永久失去的被动道具 !!! 8个余烬不占用里以撒的道具槽 不可打开控制台 难度等级：噩梦"
+description: "里以撒开局 余烬 开局持有8个余烬，占用道具槽 !!! 除余烬外，被动与跟班可占槽但效果无效 余烬 每个余烬复制最近一次永久失去的可复制被动 !!! 舍弃余烬会降低复制倍率，但不改变复制目标 不可打开控制台 难度等级：噩梦"
 slug: feels-like-dead-ashes
 kind: challenge
 internalKey: Feels_Like_Dead_Ashes
 status: featured
 ---
-<p class="wiki-search-index" v-pre>挑战：心如死灰 Feels Like Dead Ashes Feels_Like_Dead_Ashes feels-like-dead-ashes Feels Like Dead Ashes 里以撒开局 余烬 持有8个余烬 !!! 除余烬外，所有被动道具效果无效 余烬复制最近一次永久失去的被动道具 !!! 8个余烬不占用里以撒的道具槽 不可打开控制台 难度等级：噩梦 Play as Tainted Isaac Ember Start with 8 Embers !!! All passive items except Ember are disabled Embers copy the last passive item permanently lost !!! Embers do not occupy Tainted Isaac&#x27;s item slots Console is disabled Difficulty: Nightmare</p>
+<p class="wiki-search-index" v-pre>挑战：心如死灰 Feels Like Dead Ashes Feels_Like_Dead_Ashes feels-like-dead-ashes Feels Like Dead Ashes 里以撒开局 余烬 开局持有8个余烬，占用道具槽 !!! 除余烬外，被动与跟班可占槽但效果无效 余烬 每个余烬复制最近一次永久失去的可复制被动 !!! 舍弃余烬会降低复制倍率，但不改变复制目标 不可打开控制台 难度等级：噩梦 Play as Tainted Isaac Ember Start with 8 Embers that occupy item slots !!! Non-Ember passives and familiars can occupy slots but are disabled Ember Each Ember copies the last permanently lost copyable passive !!! Discarding Embers lowers the copy multiplier, not the copy target Console is disabled Difficulty: Nightmare</p>
 
 <PublicEntry slug="feels-like-dead-ashes" lang="zh" />
 
@@ -14,11 +14,16 @@ status: featured
 
 ## 玩法
 
-「心如死灰」彻底改变了里以撒的道具构筑：普通被动道具不会直接生效，玩家只能依靠 {{Item:ember}} 保存最近永久失去的被动道具效果。整局的核心不再是「拿到多少道具」，而是决定哪些效果值得让余烬记住。
+「心如死灰」把里以撒的构筑改成「槽位换倍率」：开局八个槽都被 {{Item:ember}} 占满；普通被动可以占槽保存，但自身无效，真正生效的是余烬对「最近永久失去」那件道具的复制。
 
 ## {{Item:ember}}
 
-挑战开始时拥有 **8** 个余烬，且这些余烬不占用里以撒的普通道具槽。每当一件可复制的被动（或跟班）被永久失去，余烬会改跟这件效果；多个余烬共享同一套「最近失去」目标。
+挑战开始时，里以撒的 8 个道具槽均由余烬占据。余烬本身正常占据道具槽。  
+每个当前持有的余烬都会复制最近一次永久失去的可复制被动道具。  
+其他被动与跟班可以正常占据道具槽，但自身效果无效。  
+因此，舍弃余烬可以腾出槽位保存更多候选道具，但同时会永久降低当前的复制倍率。
+
+丢掉余烬只会降低倍率，不会改变复制目标；拿到普通道具也不会立刻成为复制目标——必须等它被永久失去。
 
 余烬的完整机制见 {{Item:ember}}。
 

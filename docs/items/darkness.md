@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Darkness
 status: featured
 ---
-<p class="wiki-search-index" v-pre>暗之六面 Darkness Darkness darkness Darkness 湮灭于未知 Buried in the past. +1黑心 !!! 变为魂心角色 攻击 按黑心数量增加攻击 击杀敌人逐渐将魂心染成黑心，或填满半黑心 黑心可以等价代替 红心进行恶魔交易 +1 Black Heart !!! Changes your health type to soul hearts Damage up based on black hearts Kills gradually stain soul hearts into black hearts, or fill half black heart Black hearts can replace red-heart devil deal costs</p>
+<p class="wiki-search-index" v-pre>暗之六面 Darkness Darkness darkness Darkness 湮灭于未知 Buried in the past. +1黑心 !!! 将普通生命体系变为魂心体系 攻击 按黑心数量增加攻击 击杀敌人逐渐将魂心染成黑心，或填满半黑心 黑心可以等价代替 红心进行恶魔交易 +1 Black Heart !!! Converts standard health into a soul-heart system Damage up based on black hearts Kills gradually stain soul hearts into black hearts, or fill half black heart Black hearts can replace red-heart devil deal costs</p>
 
 <PublicEntry slug="darkness" lang="zh" />
 
@@ -18,7 +18,9 @@ status: featured
 
 持有暗之六面后，黑心会成为整局最重要的资源：既是生命，也是攻击力，还是恶魔交易的筹码。
 
-角色的生命体系变为魂心，并获得 **1** 颗黑心。攻击力随黑心数量增长：每个黑心大约提供 **+0.8** 攻击，并额外附带每个黑心约 **0.3%** 的乘算；重复持有会进一步提高加算部分。
+角色的普通红心生命体系变为魂心，并获得 **1** 颗黑心。攻击力随黑心数量增长：每个黑心大约提供 **+0.8** 攻击，并额外附带每个黑心约 **0.3%** 的乘算；重复持有会进一步提高加算部分。
+
+暗之六面只转换普通红心生命体系。Lost、Keeper 等特殊生命类型保持原有机制。普通伯大尼由于魂心承担主动充能资源，也不会被转换；里伯大尼不受此特例限制。判断依据主要是 `HealthType`，不是原版角色 ID。
 
 ### 击杀染黑
 

@@ -6,6 +6,7 @@ kind: boss
 bossId: floraine
 status: stub
 relatedStory: chapter1.stone
+publicFrom: chapter1
 ---
 
 ## Mechanics

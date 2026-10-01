@@ -1,6 +1,5 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T16:17:09Z",
   "pages": [
     {
       "slug": "darkness",
@@ -121,46 +120,6 @@
       "en": "wiki/docs/en/items/crown-of-the-glaze.md",
       "zhStatus": "featured",
       "enStatus": "featured"
-    },
-    {
-      "slug": "a-shard-of-coin",
-      "kind": "collectible",
-      "zh": "wiki/docs/items/a-shard-of-coin.md",
-      "en": "wiki/docs/en/items/a-shard-of-coin.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
-    },
-    {
-      "slug": "a-shard-of-glaze",
-      "kind": "collectible",
-      "zh": "wiki/docs/items/a-shard-of-glaze.md",
-      "en": "wiki/docs/en/items/a-shard-of-glaze.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
-    },
-    {
-      "slug": "a-shard-of-lava",
-      "kind": "collectible",
-      "zh": "wiki/docs/items/a-shard-of-lava.md",
-      "en": "wiki/docs/en/items/a-shard-of-lava.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
-    },
-    {
-      "slug": "a-shard-of-meat",
-      "kind": "collectible",
-      "zh": "wiki/docs/items/a-shard-of-meat.md",
-      "en": "wiki/docs/en/items/a-shard-of-meat.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
-    },
-    {
-      "slug": "a-shard-of-rock",
-      "kind": "collectible",
-      "zh": "wiki/docs/items/a-shard-of-rock.md",
-      "en": "wiki/docs/en/items/a-shard-of-rock.md",
-      "zhStatus": "stub",
-      "enStatus": "stub"
     },
     {
       "slug": "black-map",
@@ -1139,6 +1098,14 @@
       "enStatus": "reviewed"
     },
     {
+      "slug": "zero-presence",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/zero-presence.md",
+      "en": "wiki/docs/en/items/zero-presence.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -1984,7 +1951,7 @@
       "zh": "wiki/docs/pickups/glaze-chest.md",
       "en": "wiki/docs/en/pickups/glaze-chest.md",
       "zhStatus": "drafted",
-      "enStatus": "stub"
+      "enStatus": "drafted"
     },
     {
       "slug": "glaze-big-poop",
@@ -2050,5 +2017,6 @@
       "zhStatus": "featured",
       "enStatus": "featured"
     }
-  ]
+  ],
+  "generatedAt": "2026-10-01T13:39:43Z"
 }

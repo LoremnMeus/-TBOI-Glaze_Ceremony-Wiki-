@@ -38,7 +38,7 @@ At 5 shards, the crown only changes these pickups’ **extra** rewards (full pic
 | {{Pickup:glaze-coin}} | The 10% jackpot rises from 5 coins to 15 |
 | {{Pickup:glaze-bomb}} | Pulse phase also clears room projectiles |
 | {{Pickup:glaze-grabbag}} | Always drops 3 packs instead of 2–3 |
-| {{Pickup:glaze-chest}} | Opening also spawns 4 glazed pickups |
+| {{Pickup:glaze-chest}} | when the chest rolls the glazed-pickup reward, it spawns 4 additional glazed pickups |
 
 ### Shatter
 

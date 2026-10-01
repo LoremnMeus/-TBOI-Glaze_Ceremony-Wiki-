@@ -38,7 +38,7 @@ status: featured
 | {{Pickup:glaze-coin}} | 10% 高奖由 5 枚提高为 15 枚 |
 | {{Pickup:glaze-bomb}} | 脉冲阶段也会清除房间弹幕 |
 | {{Pickup:glaze-grabbag}} | 固定生成 3 份，而非 2–3 份 |
-| {{Pickup:glaze-chest}} | 开箱额外生成 4 个琉璃掉落 |
+| {{Pickup:glaze-chest}} | 当开箱结果为琉璃掉落时，额外生成 4 个琉璃掉落 |
 
 ### 碎冠
 

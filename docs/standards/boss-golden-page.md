@@ -1,3 +1,9 @@
+---
+title: Boss Golden Page Standard
+kind: internal_standard
+releaseState: internal
+publicFrom: never
+---
 # Boss Golden Page Standard
 
 Boss 页面回答：**玩家如何遭遇并战胜这个 Boss？**

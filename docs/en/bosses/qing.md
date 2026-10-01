@@ -6,6 +6,7 @@ kind: boss
 bossId: qing
 status: stub
 relatedStory: chapter1.qing_midboss
+publicFrom: chapter1
 ---
 
 ## Mechanics

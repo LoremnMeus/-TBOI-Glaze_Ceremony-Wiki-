@@ -2,10 +2,17 @@ import { defineConfig } from 'vitepress'
 import { eidMarkupPlugin } from './eidMarkupPlugin'
 import { wikiDevPlugin } from './wikiDevPlugin'
 import generatedSidebar from '../generated/sidebar.json'
+import releaseScope from '../generated/release-scope.json'
 import { tokenizeWikiSearch } from './searchTokenize'
 import { renderWikiSearchHtml } from './searchIndexRender'
 
 const isDev = process.env.NODE_ENV === 'development'
+
+/** Align with scripts/publication/common.py story_max_chapter_for_version. */
+const publicExclusions: string[] = isDev
+  ? []
+  : ((releaseScope as { excludeFromPublicBuild?: string[] }).excludeFromPublicBuild || [])
+
 
 const systemSidebarZh = [
   {
@@ -63,6 +70,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   base: process.env.GITHUB_PAGES_BASE || '/',
+  srcExclude: publicExclusions,
   locales: {
     root: {
       label: '中文',
@@ -92,7 +100,14 @@ export default defineConfig({
               { text: '排障', link: '/troubleshooting/' },
             ],
           },
-          { text: 'GitHub / Release', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/releases' },
+          {
+            text: 'GitHub',
+            items: [
+              { text: '公开仓库', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/' },
+              { text: '下载 / Releases', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/releases' },
+              { text: '报告问题', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/issues' },
+            ],
+          },
           ...(isDev ? [{
             text: '开发',
             items: [
@@ -135,7 +150,14 @@ export default defineConfig({
               { text: 'Troubleshooting', link: '/en/troubleshooting/' },
             ],
           },
-          { text: 'GitHub / Release', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/releases' },
+          {
+            text: 'GitHub',
+            items: [
+              { text: 'Repository', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/' },
+              { text: 'Releases', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/releases' },
+              { text: 'Report an Issue', link: 'https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/issues' },
+            ],
+          },
           ...(isDev ? [{
             text: 'Development',
             items: [

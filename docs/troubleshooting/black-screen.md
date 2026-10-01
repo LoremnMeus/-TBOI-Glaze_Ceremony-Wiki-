@@ -12,16 +12,6 @@
 
 这样会关掉部分画面特效，但多数玩法仍可使用。
 
-替换前（应能同时看到两份着色器文件）：
-
-![替换前的 content 文件夹](/images/troubleshooting/shaders-before.png)
-
-替换后（只保留一份 `shaders.xml`）：
-
-![替换后的 content 文件夹](/images/troubleshooting/shaders-after.png)
-
-截图来自旧版 `Qing` 目录，请按你实际安装的模组文件夹操作。
-
 ## 2. 若仍无法正常游玩：清模组存档
 
 黑屏过程中，模组存档可能被写坏。
@@ -29,12 +19,12 @@
 1. 打开游戏安装目录下的 `data/qing_re`（旧版琉璃可能是 `data/qing`）。
 2. 删掉其中的存档文件，让模组重新生成。
 
-![模组存档目录](/images/troubleshooting/save-folder.png)
-
-截图里的 `data/qing` 是旧路径；本重制版对应 `metadata.xml` 里的 `qing_re`。
+本重制版对应 `metadata.xml` 里的 `qing_re`。
 
 ## 3. 模组更新后可能要再做一次
 
 每次本模组更新 `shaders.xml` 后，工坊/Release 会把该文件还原。若黑屏再次出现，请重新执行第 1 步。
 
-若仍无法解决，请在 Steam 上联系作者。
+如果仍无法解决，请在公开仓库的 GitHub Issues 中提交问题，并尽量附上日志和 `.dmp` 文件：
+
+https://github.com/LoremnMeus/-TBOI-Glaze_Ceremony-RGON-/issues

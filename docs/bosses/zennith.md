@@ -6,6 +6,7 @@ kind: boss
 bossId: zennith
 status: stub
 relatedStory: chapter1.wind
+publicFrom: chapter1
 ---
 
 ## 机制说明

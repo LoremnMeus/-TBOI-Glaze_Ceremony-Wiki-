@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "projectVersion": "alpha-0.1.0",
+  "storyMaxChapter": "prologue",
+  "excludeFromPublicBuild": [
+    "bosses/bum-emperor.md",
+    "bosses/floraine.md",
+    "bosses/glaze-prince.md",
+    "bosses/index.md",
+    "bosses/qing.md",
+    "bosses/zennith.md",
+    "editing.md",
+    "en/bosses/bum-emperor.md",
+    "en/bosses/floraine.md",
+    "en/bosses/glaze-prince.md",
+    "en/bosses/index.md",
+    "en/bosses/qing.md",
+    "en/bosses/zennith.md",
+    "en/editing.md",
+    "en/icons.md",
+    "en/markup-cheatsheet.md",
+    "en/markup.md",
+    "icons.md",
+    "markup-cheatsheet.md",
+    "markup.md",
+    "standards/boss-golden-page.md"
+  ],
+  "generatedAt": "2026-10-01T13:39:43Z"
+}

@@ -6,6 +6,7 @@ kind: boss
 bossId: glaze_prince
 status: stub
 relatedStory: chapter1.glaze_boss
+publicFrom: chapter1
 ---
 
 ## Mechanics
