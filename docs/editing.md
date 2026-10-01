@@ -18,13 +18,59 @@ npm --prefix wiki run docs:dev
 
 `export_wiki_icons.py` 需要本机 `extracted_resources` 和 EID 模组；CI 只跑 `export_wiki_data.py`。全量条目由 `generate_public_metadata.py` 从 XML 登记（跳过 hidden）；之后新道具再补登记或重跑该脚本。
 
+## 新增 Wiki 条目流程
+
+新增公开内容时，**唯一登记入口**是：
+
+```text
+public_metadata/entries/
+```
+
+对应 registry，例如道具：
+
+```text
+public_metadata/entries/items.json
+```
+
+必须补齐：
+
+- `slug`
+- `internalKey`
+- `names`（zh / en）
+- `images.icon`
+- `wiki.enabled=true`
+- `releaseState=public`
+
+然后运行：
+
+```text
+python scripts/publication/export_wiki_data.py
+```
+
+自动生成：
+
+- Wiki catalog（`wiki/docs/generated/entries.json`）
+- Sidebar
+- Search index 相关字段
+- 页面状态
+- 缺失时的 Markdown stub
+
+**不要**手改：
+
+```text
+wiki/docs/generated/*
+wiki/docs/public/generated/*
+```
+
+只写 Markdown 正文不够：页面可以存在，但没有 `public_metadata` 登记就不会进入 EntryGrid / catalog。导出器会对比 Wiki 页面与 metadata，并对双向缺失打印 `WARNING`。
+
 ## 人机协作（完整回路）
 
-1. **登记**：可见条目已在 `public_metadata/entries/*.json`。新内容才需要补 `internalKey` / `slug` / `names` / `images` / `wiki.enabled` / `releaseState=public`。
+1. **登记**：可见条目必须先出现在 `public_metadata/entries/*.json`（见上一节）。新内容补齐 `internalKey` / `slug` / `names` / `images` / `wiki.enabled` / `releaseState=public`。
 2. **自动基线**：跑 `export_wiki_data.py`。灌 Desc/EID、拷图标、写搜索用 title。Markdown 的机制正文**永不覆盖**；只更新 frontmatter 和隐藏的搜索索引块。
 3. **人工/AI 玩家正文**：改 `wiki/docs/<kind>/<slug>.md` 里 `## 机制说明` **之后**。普通词条优先直接写“效果”，再按需写注意、交互、协同、技巧与轶事；大型角色/系统才使用简介、操作和流程。资料卡、技术 ID、EID 由 `<PublicEntry>` 负责。标注见 [markup.md](./markup.md)。
 4. **状态**：`wiki/docs/generated/page-status.json` 使用 `stub / drafted / reviewed / featured`。前两项由正文自动判断；完整核验后才在页面 frontmatter 手动提升为 `reviewed` 或 `featured`。不要手改 `entries.json` 或生成的状态 JSON。
-5. **发布**：私有仓是唯一源。提交消息包含 `[publish-wiki]` 时只同步公开 Wiki；`[publish-release]` 只同步公开 Release；`[publish-both]` 同步两者。正式版本仍使用与 `main.lua` 版本一致的 `v*` tag，并创建 GitHub Release。普通 commit/push 不更新公共仓库。
+5. **发布**：私有仓是唯一源。本地正式同步公开 Wiki/Release 用 `publish_local.py`；提交消息里的 `[publish-wiki]` / `[publish-release]` / `[publish-both]` 仅在明确要求 GitHub Actions 发布时使用。正式版本仍使用与 `version.lua` 一致的 `v*` tag，并创建 GitHub Release。普通 commit/push 不更新公共仓库。
 
 ## 日常维护与发布验收
 
