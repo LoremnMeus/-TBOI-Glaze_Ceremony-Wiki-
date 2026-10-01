@@ -152,7 +152,7 @@ export function renderWikiSearchHtml(
     .map((value) => String(value).replace(/\s+/g, ' ').trim())
     .join(' ')
   return (
-    `<h1>${escapeHtml(String(title))}<a href="#${escapeHtml(String(slug))}"></a></h1>` +
+    `<h1>${escapeHtml(String(title))}</h1>` +
     `<p>${escapeHtml(extra)}</p>` +
     html
   )
