@@ -13006,7 +13006,8 @@
     "Ember": "collectibles_Embers.png",
     "Perhaps_Chosen": "collectibles_Perhaps_Chosen.png",
     "Zero_Presence": "collectibles_Zero_Presence.png",
-    "Tiny_Update": "collectibles_Tiny_Update.png"
+    "Tiny_Update": "collectibles_Tiny_Update.png",
+    "Matryoshka_Marbles": "collectibles_Matryoshka_Marbles.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13147,7 +13148,8 @@
     "172": "collectibles_Embers.png",
     "173": "collectibles_Perhaps_Chosen.png",
     "174": "collectibles_Zero_Presence.png",
-    "175": "collectibles_Tiny_Update.png"
+    "175": "collectibles_Tiny_Update.png",
+    "176": "collectibles_Matryoshka_Marbles.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",

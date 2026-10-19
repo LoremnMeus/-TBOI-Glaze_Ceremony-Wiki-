@@ -602,6 +602,10 @@
           {
             "text": "微型更新",
             "link": "/items/tiny-update"
+          },
+          {
+            "text": "套娃弹珠",
+            "link": "/items/matryoshka-marbles"
           }
         ]
       }
@@ -1753,6 +1757,10 @@
           {
             "text": "Tiny Update",
             "link": "/en/items/tiny-update"
+          },
+          {
+            "text": "Matryoshka Marbles",
+            "link": "/en/items/matryoshka-marbles"
           }
         ]
       }

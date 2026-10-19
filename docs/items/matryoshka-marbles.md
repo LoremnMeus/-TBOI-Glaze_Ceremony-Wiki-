@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Matryoshka_Marbles
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>套娃弹珠 Matryoshka Marbles Matryoshka_Marbles matryoshka-marbles 一颗接着一颗 One after another 眼泪 分裂 弹跳 重力 宝箱房</p>
+<p class="wiki-search-index" v-pre>套娃弹珠 Matryoshka Marbles Matryoshka_Marbles matryoshka-marbles Matryoshka Marbles 一颗接着一颗！ One after another! 概率将眼泪变为套娃弹珠 套娃弹珠碰撞后会弹开并分裂成两颗更小的弹珠，最多分裂3次 Chance to turn tears into matryoshka marbles Marbles bounce and split into two smaller marbles on impact, up to 3 times</p>
 
 <PublicEntry slug="matryoshka-marbles" lang="zh" />
 
@@ -14,24 +14,27 @@ status: drafted
 
 ## 效果
 
-**品质：** 2
+套娃弹珠会在碰撞后分裂成两颗更小的弹珠。每次分裂时，弹珠都会先向两侧弹开，再受到固定方向的重力牵引，形成弯曲的轨迹。
 
-**道具池：** 宝箱房
+普通眼泪有20%的概率变成套娃弹珠。多重射击时，每颗眼泪分别判定。
 
-持有套娃弹珠时，普通眼泪有概率变成套娃弹珠。多重眼泪和散射眼泪里的每一颗都单独判定。
+每颗弹珠最多分裂3次。最后生成的弹珠仍能造成伤害，但不会继续分裂。后续弹珠会继承第一颗弹珠的重力方向。
 
-套娃弹珠命中敌人后会弹起，并分裂成两颗更小的弹珠。弹起方向取决于撞击位置：正面撞击时两颗弹珠向后方斜着弹开，擦边撞击时则顺着接触面偏开。之后它们会重新弯回最初的发射方向。
+## 特殊武器
 
-分裂最多三次。最后一代仍然可以造成伤害，但不再分裂。撞墙、岩石和友方目标不会分裂。
+套娃弹珠也能通过部分特殊攻击方式生成。
 
-## 运动
+- **{{Collectible:118}}：** 每次攻击有20%的概率连续发射4颗弹珠，方向和速度略有不同。
+- **{{Collectible:68}}、{{Collectible:395}}：** 每次攻击有20%的概率额外发射1颗弹珠。
+- **{{Collectible:114}}：** 投掷时有概率额外发射弹珠。
+- **{{Collectible:329}}：** 每轮攻击有20%的概率让悬浮眼泪暂时变为套娃弹珠。触发后的悬浮眼泪会变大，并在首次碰撞时各生成2颗小弹珠。
 
-所有后代都沿用第一颗弹珠的发射方向作为重力方向，不会在后续撞击时改成自己当时的飞行方向。
+悬浮眼泪不会因为生成弹珠而消失。每轮都会重新判定，下轮未触发时恢复原来的外观。
 
-弹珠贴图随实际飞行方向转动，代数越高，弹珠越小。
+由悬浮眼泪生成的弹珠会向碰撞目标的中心弯曲，而不是沿通常的发射方向下落。
 
-## 其他武器
+## 注意
 
-硫磺火、科技激光和科技 X 的每次攻击有一次机会附带一颗套娃弹珠。这次攻击如果已经打出可以变异的普通眼泪，就不会再额外附带。
+套娃弹珠的重力方向在生成时确定，不会随着弹珠后续运动而改变。弹珠经过多次分裂后会逐渐缩小。
 
-妈妈的刀、英灵剑、骨棒、Ludovico 技术、史诗胎儿和飞行器不会因此获得套娃弹珠。
+一次特殊攻击若同时产生可变异的普通眼泪，不会再额外生成特殊武器附带的弹珠。
