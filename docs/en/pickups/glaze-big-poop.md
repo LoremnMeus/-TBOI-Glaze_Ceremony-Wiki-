@@ -1,12 +1,12 @@
 ---
 title: Glaze poop
-description: "Copy the front poop spell to the end of the queue Empty queue grants a basic poop"
+description: "Copy the front poop spell to the end of the queue An empty queue grants a basic poop and adds poop mana"
 slug: glaze-big-poop
 kind: pickup
 internalKey: Glaze_big_poop
 status: featured
 ---
-<p class="wiki-search-index" v-pre>琉璃之便便 Glaze poop Glaze_big_poop glaze-big-poop Glaze_big_poop 将队首便便复制到队列末尾 空队列时获得基础便便 Copy the front poop spell to the end of the queue Empty queue grants a basic poop</p>
+<p class="wiki-search-index" v-pre>琉璃之便便 Glaze poop Glaze_big_poop glaze-big-poop Glaze_big_poop 将队首便便复制到队列末尾 空队列时获得基础便便，并增加便便法力 Copy the front poop spell to the end of the queue An empty queue grants a basic poop and adds poop mana</p>
 
 <PublicEntry slug="glaze-big-poop" lang="en" />
 

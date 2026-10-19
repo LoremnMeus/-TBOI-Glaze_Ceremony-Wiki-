@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Baby_Anna
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>宝宝安娜 Baby Anna Baby_Anna baby-anna Baby Anna 我来吞噬！ I devour! 蓄力后向瞄准方向高速发射宝宝 飞行过程中在身后留下 硫磺火尾迹 Charge, then launch the familiar toward your aim Leaves a Brimstone trail while flying</p>
+<p class="wiki-search-index" v-pre>宝宝安娜 Baby Anna Baby_Anna baby-anna Baby Anna 我来吞噬！ I devour! 蓄满后向瞄准方向高速发射宝宝 飞行过程中在身后留下 硫磺火尾迹 At full charge, launch the familiar toward your aim Leaves a Brimstone trail while flying</p>
 
 <PublicEntry slug="baby-anna" lang="en" />
 
@@ -16,9 +16,9 @@ status: reviewed
 
 ## Effects
 
-**Baby Anna charges, then launches toward the aim direction while leaving a Brimstone trail behind.**
+**Baby Anna launches at high speed toward the aim direction after reaching full charge, leaving a Brimstone trail behind.**
 
-Hold fire to charge; release once charged enough, and the familiar flies at high speed along the current aim.
+Hold fire to charge. Once fully charged, release fire to launch the familiar along the current aim direction. Releasing before full charge cancels the charge.
 
 While flying, it continuously leaves a {{Collectible:118}} trail that damages enemies passing through it.
 
@@ -26,4 +26,4 @@ After hitting a wall, it briefly stays there, then returns to follow the charact
 
 ## Extra copies
 
-Each extra copy spawns another familiar. Each charges and completes its own dash independently.
+Each extra copy spawns another familiar. Each familiar charges and completes its own dash independently.

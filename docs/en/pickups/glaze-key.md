@@ -1,12 +1,12 @@
 ---
 title: Glaze Key
-description: "Reveal an unexplored special room (Treasure/Shop/Boss; not secret) If none, reveal up to 3 normal rooms"
+description: "Reveals one random unexplored room Prioritizes special rooms"
 slug: glaze-key
 kind: pickup
 internalKey: Glaze_key
 status: featured
 ---
-<p class="wiki-search-index" v-pre>琉璃之匙 Glaze Key Glaze_key glaze-key Glaze_key 优先揭示未探索的宝箱房/商店/Boss房等特殊房（不含隐藏系） 没有则揭示最多3个普通房间 Reveal an unexplored special room (Treasure/Shop/Boss; not secret) If none, reveal up to 3 normal rooms</p>
+<p class="wiki-search-index" v-pre>琉璃之匙 Glaze Key Glaze_key glaze-key Glaze_key 揭示一个随机的未探索房间 优先揭示特殊房间 Reveals one random unexplored room Prioritizes special rooms</p>
 
 <PublicEntry slug="glaze-key" lang="en" />
 
@@ -14,15 +14,8 @@ status: featured
 
 ## Effects
 
-Grants 1 key and preferentially reveals one unexplored important non-secret room.
+Grants 1 key and reveals one random unexplored room.
 
-Priority:
+If any unexplored special rooms remain, one is chosen with equal probability. This includes Secret, Super Secret, and Ultra Secret Rooms; Treasure Rooms, Shops, and Boss Rooms have no fixed priority.
 
-1. {{TreasureRoom}} Treasure Room
-2. {{Shop}} Shop
-3. {{BossRoom}} Boss Room
-4. Other non-secret special rooms
-
-If no such special room remains, randomly reveal up to **3** unexplored normal rooms instead.
-
-{{SecretRoom}} Secret, {{SuperSecretRoom}} Super Secret, and Ultra Secret rooms are not in the priority list.
+If no special candidate remains, it reveals 1 random unexplored normal room. Explored or already revealed rooms cannot be selected again; if no candidate exists, only the key is granted.

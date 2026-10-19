@@ -598,6 +598,10 @@
           {
             "text": "零存在感",
             "link": "/items/zero-presence"
+          },
+          {
+            "text": "微型更新",
+            "link": "/items/tiny-update"
           }
         ]
       }
@@ -1745,6 +1749,10 @@
           {
             "text": "Zero Presence",
             "link": "/en/items/zero-presence"
+          },
+          {
+            "text": "Tiny Update",
+            "link": "/en/items/tiny-update"
           }
         ]
       }

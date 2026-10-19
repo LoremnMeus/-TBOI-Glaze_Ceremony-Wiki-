@@ -1,12 +1,12 @@
 ---
 title: 吟游乞丐
-description: "赠予一份资源，换取下层祝福 靠近后左右切换馈赠，走进确认 按RT取消"
+description: "交付一份资源，获得下一层的祝福 靠近后左右切换馈赠，走进确认 按RT取消"
 slug: bard-beggar
 kind: slot
 internalKey: Bard_beggar
 status: featured
 ---
-<p class="wiki-search-index" v-pre>吟游乞丐 Bard Beggar Bard_beggar bard-beggar Bard_beggar 赠予一份资源，换取下层祝福 靠近后左右切换馈赠，走进确认 按RT取消 Offer a resource for a blessing on the next floor Switch gifts with left/right, walk in to confirm Press RT to cancel</p>
+<p class="wiki-search-index" v-pre>吟游乞丐 Bard Beggar Bard_beggar bard-beggar Bard_beggar 交付一份资源，获得下一层的祝福 靠近后左右切换馈赠，走进确认 按RT取消 Offer a resource for a blessing on the next floor Switch gifts with left/right, walk in to confirm Press RT to cancel</p>
 
 <PublicEntry slug="bard-beggar" lang="zh" />
 
@@ -14,14 +14,14 @@ status: featured
 
 ## 效果
 
-吟游乞丐接受一份当前付得起的资源，把它写成一首只在**下一层**生效的歌曲。确认后立即扣款；祝福覆盖完整下一层，再进入再下一层后消失。每次遭遇只能选择一种歌曲。
+吟游乞丐把一次资源馈赠写成只在**下一层**奏响的祝福。确认后立即扣款；祝福覆盖完整下一层，离开该层后结束。每次遭遇只能选择一种歌曲。
 
 | 馈赠 | 歌曲 | 下一层效果 |
 | --- | --- | --- |
-| {{Coin}} 5 枚硬币 | **富饶之歌** | 第一次购物返还 8–12¢，不超过实际花费 |
-| {{Key}} 1 把钥匙 | **旅途之歌** | 揭示 {{TreasureRoom}} 宝箱房 |
-| {{Bomb}} 1 个炸弹 | **战歌** | 前 3 个战斗房 {{Damage}} +1 |
-| {{Heart}} 1 颗心 | **安魂曲** | 抵挡第一次受到的伤害 |
+| {{Coin}} 5 枚硬币 | **富饶之歌** | 商店商品的硬币价格降低 2 |
+| {{Key}} 1 把钥匙 | **旅途之歌** | 揭示通往宝箱房的最短路线，并持续开启沿途的门 |
+| {{Bomb}} 1 个炸弹 | **战歌** | 每个房间首个敌人死亡时引发爆炸 |
+| {{Heart}} 1 颗心 | **安魂曲** | 生成的红心有 25% 概率变成魂心 |
 
 ## 如何交易
 
@@ -36,15 +36,19 @@ status: featured
 
 ### {{Coin}} 富饶之歌
 
-下一层第一次购物随机返还 8–12¢，但不超过本次实际支付价格。
+折扣会随商品重置与补货重新计算，不会反复叠加。同一商品原价不足 3¢ 时仍至少售价 1¢；免费商品和非硬币价格不受影响。
+
+### {{Key}} 旅途之歌
+
+路线只经过楼层上已经实际相连的房间，不会额外生成房间。若有多个宝箱房，选择从起始房可达的最短路线；经过路线房间时，对应的路线门会再次打开。
 
 ### {{Bomb}} 战歌
 
-下一层前三个**进入时仍有存活敌人**的房间获得 {{Damage}} +1；Boss 房等也可能计入。离开一次强化战斗后消耗一次，共三次。
+爆炸在每个房间首个真正敌人死亡时触发。离房后再返回同一房间不会恢复次数；友方单位与非敌对实体不会触发。
 
 ### {{Heart}} 安魂曲
 
-下一层第一次**实际受伤**时完全抵挡。支付时优先扣 1 红心，没有红心时可扣 1 魂心。
+整颗红心对应整颗魂心，半颗红心对应半颗魂心；特殊红心不会被替换。每颗符合条件的红心只判定一次。支付时优先扣 1 红心，没有红心时可扣 1 魂心。
 
 ## 出现
 

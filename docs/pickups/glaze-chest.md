@@ -1,12 +1,12 @@
 ---
 title: 琉璃之宝箱
-description: "本层另一个房间会出现对应钥匙，钥匙房会在地图上标记 只有对应钥匙才能打开宝箱 60%：生成4~7个随机琉璃掉落 40%：复制一个当前持有的随机道具"
+description: "本层另一房间会出现对应钥匙，位置会在地图上标记 找到钥匙后可以打开宝箱 开箱时获得大量琉璃掉落物，或复制一件持有的道具"
 slug: glaze-chest
 kind: pickup
 internalKey: Glaze_chest
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>琉璃之宝箱 Glaze Chest Glaze_chest glaze-chest Glaze_chest 本层另一个房间会出现对应钥匙，钥匙房会在地图上标记 只有对应钥匙才能打开宝箱 60%：生成4~7个随机琉璃掉落 40%：复制一个当前持有的随机道具 A matching key appears in another room on this floor; its room is marked on the map Only that key can open the chest 60%: spawns 4~7 random glazed pickups 40%: duplicates a random item you currently own</p>
+<p class="wiki-search-index" v-pre>琉璃之宝箱 Glaze Chest Glaze_chest glaze-chest Glaze_chest 本层另一房间会出现对应钥匙，位置会在地图上标记 找到钥匙后可以打开宝箱 开箱时获得大量琉璃掉落物，或复制一件持有的道具 A matching key appears in another room on this floor, marked on the map Find the key to open the chest Opening it grants several glazed pickups or duplicates one of your items</p>
 
 <PublicEntry slug="glaze-chest" lang="zh" />
 

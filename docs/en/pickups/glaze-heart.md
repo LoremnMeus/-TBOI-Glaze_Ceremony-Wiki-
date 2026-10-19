@@ -1,12 +1,12 @@
 ---
 title: Glaze Heart
-description: "Imitates an obtainable heart based on your health Priority: remove Broken Hearts and Rotten Hearts"
+description: "Copies a heart from your current health bar Prioritizes removing Broken Hearts and Rotten Hearts"
 slug: glaze-heart
 kind: pickup
 internalKey: Glaze_heart
 status: featured
 ---
-<p class="wiki-search-index" v-pre>琉璃之心 Glaze Heart Glaze_heart glaze-heart Glaze_heart 根据当前生命模仿一种可获得的心 优先抵消 碎心与 腐心 Imitates an obtainable heart based on your health Priority: remove Broken Hearts and Rotten Hearts</p>
+<p class="wiki-search-index" v-pre>琉璃之心 Glaze Heart Glaze_heart glaze-heart Glaze_heart 模仿当前生命槽内的一颗心 优先抵消 碎心与 腐心 Copies a heart from your current health bar Prioritizes removing Broken Hearts and Rotten Hearts</p>
 
 <PublicEntry slug="glaze-heart" lang="en" />
 
@@ -41,4 +41,4 @@ Crowns raise convert chance; each successful pickup adds 1 shard. At full shards
 
 - Consumed only when a health effect succeeds.
 - Shop stock still requires a normal purchase.
-- Supported custom health may settle before Broken/Rotten Hearts and change priority.
+- Supported custom health only consumes the pickup when health is actually added.

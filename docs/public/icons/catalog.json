@@ -13005,7 +13005,8 @@
     "Regenesis": "collectibles_Regenesis.png",
     "Ember": "collectibles_Embers.png",
     "Perhaps_Chosen": "collectibles_Perhaps_Chosen.png",
-    "Zero_Presence": "collectibles_Zero_Presence.png"
+    "Zero_Presence": "collectibles_Zero_Presence.png",
+    "Tiny_Update": "collectibles_Tiny_Update.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13145,7 +13146,8 @@
     "171": "collectibles_Regenesis.png",
     "172": "collectibles_Embers.png",
     "173": "collectibles_Perhaps_Chosen.png",
-    "174": "collectibles_Zero_Presence.png"
+    "174": "collectibles_Zero_Presence.png",
+    "175": "collectibles_Tiny_Update.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",

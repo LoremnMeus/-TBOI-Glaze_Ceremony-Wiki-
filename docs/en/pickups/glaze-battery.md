@@ -6,7 +6,7 @@ kind: pickup
 internalKey: Glaze_battery
 status: featured
 ---
-<p class="wiki-search-index" v-pre>琉璃之电池 Glaze Battery Glaze_battery glaze-battery Glaze_battery 下次使用普通主动时，返还一半消耗的充能（向上取整） Next normal active use refunds half the charges spent (rounded up)</p>
+<p class="wiki-search-index" v-pre>琉璃之电池 Glaze Battery Glaze_battery glaze-battery Glaze_battery 下次使用普通主动道具时，返还一半消耗的充能 Next normal active use refunds half the charges spent (rounded up)</p>
 
 <PublicEntry slug="glaze-battery" lang="en" />
 

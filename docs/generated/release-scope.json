@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "projectVersion": "alpha-0.1.1",
+  "projectVersion": "alpha-0.1.2",
   "storyMaxChapter": "prologue",
   "excludeFromPublicBuild": [
     "bosses/bum-emperor.md",
@@ -25,5 +25,5 @@
     "markup.md",
     "standards/boss-golden-page.md"
   ],
-  "generatedAt": "2026-10-05T11:43:41Z"
+  "generatedAt": "2026-10-19T10:30:34Z"
 }

@@ -1,12 +1,12 @@
 ---
 title: 琉璃之半心
-description: "根据当前生命模仿一种可获得的心（半颗） 优先抵消 碎心与 腐心"
+description: "模仿当前生命槽内的半颗心 优先抵消 碎心与 腐心"
 slug: glaze-heart-half
 kind: pickup
 internalKey: Glaze_heart_half
 status: featured
 ---
-<p class="wiki-search-index" v-pre>琉璃之半心 Half of a Glaze Heart Glaze_heart_half glaze-heart-half Glaze_heart_half 根据当前生命模仿一种可获得的心（半颗） 优先抵消 碎心与 腐心 Imitates an obtainable heart based on your health (half) Priority: remove Broken Hearts and Rotten Hearts</p>
+<p class="wiki-search-index" v-pre>琉璃之半心 Half of a Glaze Heart Glaze_heart_half glaze-heart-half Glaze_heart_half 模仿当前生命槽内的半颗心 优先抵消 碎心与 腐心 Copies half a heart from your current health bar Prioritizes removing Broken Hearts and Rotten Hearts</p>
 
 <PublicEntry slug="glaze-heart-half" lang="zh" />
 

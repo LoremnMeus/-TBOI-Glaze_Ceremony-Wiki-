@@ -1,12 +1,12 @@
 ---
 title: 琉璃之心
-description: "根据当前生命模仿一种可获得的心 优先抵消 碎心与 腐心"
+description: "模仿当前生命槽内的一颗心 优先抵消 碎心与 腐心"
 slug: glaze-heart
 kind: pickup
 internalKey: Glaze_heart
 status: featured
 ---
-<p class="wiki-search-index" v-pre>琉璃之心 Glaze Heart Glaze_heart glaze-heart Glaze_heart 根据当前生命模仿一种可获得的心 优先抵消 碎心与 腐心 Imitates an obtainable heart based on your health Priority: remove Broken Hearts and Rotten Hearts</p>
+<p class="wiki-search-index" v-pre>琉璃之心 Glaze Heart Glaze_heart glaze-heart Glaze_heart 模仿当前生命槽内的一颗心 优先抵消 碎心与 腐心 Copies a heart from your current health bar Prioritizes removing Broken Hearts and Rotten Hearts</p>
 
 <PublicEntry slug="glaze-heart" lang="zh" />
 
@@ -41,4 +41,4 @@ status: featured
 
 - 只有成功提供生命效果时才会被消耗。
 - 商店货仍须正常购买。
-- 受支持的自定义生命系统若识别到可用自定义生命，可能排在碎心/腐心之前结算，从而改变优先级。
+- 受支持的自定义生命只有在确实增加生命后才会消耗琉璃之心。

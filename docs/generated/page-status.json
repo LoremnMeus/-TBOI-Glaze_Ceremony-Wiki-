@@ -1106,6 +1106,14 @@
       "enStatus": "drafted"
     },
     {
+      "slug": "tiny-update",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/tiny-update.md",
+      "en": "wiki/docs/en/items/tiny-update.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -2018,5 +2026,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-10-01T13:39:43Z"
+  "generatedAt": "2026-10-19T10:30:34Z"
 }

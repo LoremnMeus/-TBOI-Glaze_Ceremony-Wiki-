@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Baby_Anna
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>宝宝安娜 Baby Anna Baby_Anna baby-anna Baby Anna 我来吞噬！ I devour! 蓄力后向瞄准方向高速发射宝宝 飞行过程中在身后留下 硫磺火尾迹 Charge, then launch the familiar toward your aim Leaves a Brimstone trail while flying</p>
+<p class="wiki-search-index" v-pre>宝宝安娜 Baby Anna Baby_Anna baby-anna Baby Anna 我来吞噬！ I devour! 蓄满后向瞄准方向高速发射宝宝 飞行过程中在身后留下 硫磺火尾迹 At full charge, launch the familiar toward your aim Leaves a Brimstone trail while flying</p>
 
 <PublicEntry slug="baby-anna" lang="zh" />
 
@@ -16,9 +16,9 @@ status: reviewed
 
 ## 效果
 
-**「宝宝安娜」蓄力后会朝瞄准方向高速飞出，并在身后留下硫磺火尾迹。**
+**「宝宝安娜」蓄满力后会朝瞄准方向高速飞出，并在身后留下硫磺火尾迹。**
 
-按住射击键即可开始蓄力；蓄力达到足够程度后松开射击，宝宝会沿当前瞄准方向高速飞出。
+按住射击键持续蓄力；蓄满后松开射击，宝宝会沿当前瞄准方向高速飞出。未蓄满时松开射击会取消本次蓄力。
 
 飞行过程中，宝宝会持续在身后留下 {{Collectible:118}} 尾迹，对经过其中的敌人造成伤害。
 
