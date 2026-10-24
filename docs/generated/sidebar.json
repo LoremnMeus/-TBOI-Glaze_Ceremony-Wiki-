@@ -606,6 +606,10 @@
           {
             "text": "套娃弹珠",
             "link": "/items/matryoshka-marbles"
+          },
+          {
+            "text": "勇气",
+            "link": "/items/bravery"
           }
         ]
       }
@@ -1761,6 +1765,10 @@
           {
             "text": "Matryoshka Marbles",
             "link": "/en/items/matryoshka-marbles"
+          },
+          {
+            "text": "Bravery",
+            "link": "/en/items/bravery"
           }
         ]
       }

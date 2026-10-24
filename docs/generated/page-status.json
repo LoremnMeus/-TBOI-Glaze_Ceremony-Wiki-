@@ -1122,6 +1122,14 @@
       "enStatus": "drafted"
     },
     {
+      "slug": "bravery",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/bravery.md",
+      "en": "wiki/docs/en/items/bravery.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -2034,5 +2042,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-10-19T10:43:45Z"
+  "generatedAt": "2026-10-24T06:46:43Z"
 }
