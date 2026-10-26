@@ -1,12 +1,12 @@
 ---
 title: Bravery
-description: "\"I have the right to refuse, too.\""
+description: "I have the right to refuse, too."
 slug: bravery
 kind: collectible
 internalKey: Bravery
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>勇气 Bravery Bravery bravery Bravery “我也有拒绝的权力” &quot;I have the right to refuse, too.&quot; 攻击 +2 攻击 若在未清理的 Boss房、 挑战房或 Boss Rush中逃离，它会拒绝你 被拒绝后会在下一个房间掉落，且无法再次拾取 Damage +2 Damage If you flee an uncleared Boss, Challenge, or Boss Rush room, it will reject you It drops in the next room and cannot be picked up again</p>
+<p class="wiki-search-index" v-pre>勇气 Bravery Bravery bravery Bravery 我也有拒绝的权力 I have the right to refuse, too. 攻击 +2 攻击 若在未清理的 Boss房、 挑战房或Boss Rush中逃离，它会拒绝你 被拒绝后会在下一个房间掉落，且无法再次拾取 Damage +2 Damage If you flee an uncleared Boss, Challenge, or Boss Rush room, it will reject you It drops in the next room and cannot be picked up again</p>
 
 <PublicEntry slug="bravery" lang="en" />
 
@@ -17,7 +17,7 @@ status: drafted
 Bravery abandons players who flee from an unfinished battle and refuses to be picked up again.
 
 - {{Damage}} Each copy grants +2 Damage.
-- Fleeing an uncleared {{BossRoom}} Boss Room, {{ChallengeRoom}} Challenge Room, or {{BossRushRoom}} Boss Rush causes Bravery to reject the player.
+- Fleeing an uncleared {{BossRoom}} Boss Room, {{ChallengeRoom}}{{BossRushRoom}} Challenge Room, or Boss Rush causes Bravery to reject the player.
 - Bravery drops upon arrival in the next room, removing one copy and its Damage bonus from the player.
 
 Bravery considers the following actions fleeing:

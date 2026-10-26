@@ -1213,6 +1213,16 @@
         }
       }
     ],
+    "annA::Delirium": [
+      {
+        "slug": "isolation",
+        "kind": "collectible",
+        "names": {
+          "zh": "孤立",
+          "en": "Isolation"
+        }
+      }
+    ],
     "Anna::Delirium": [
       {
         "slug": "destiny-anchor",
@@ -1311,6 +1321,14 @@
           "zh": "诅咒面具",
           "en": "Cursed Mask"
         }
+      },
+      {
+        "slug": "matryoshka-marbles",
+        "kind": "collectible",
+        "names": {
+          "zh": "套娃弹珠",
+          "en": "Matryoshka Marbles"
+        }
       }
     ],
     "Tecro::Satan": [
@@ -1353,6 +1371,16 @@
         }
       }
     ],
+    "Anna::Hush": [
+      {
+        "slug": "exoneration-certificate",
+        "kind": "collectible",
+        "names": {
+          "zh": "放逐证明",
+          "en": "Exoneration Certificate"
+        }
+      }
+    ],
     "Anna::Mother": [
       {
         "slug": "cable-jar",
@@ -1390,6 +1418,16 @@
         "names": {
           "zh": "安奈",
           "en": "Anna"
+        }
+      }
+    ],
+    "annA::Mother": [
+      {
+        "slug": "bravery",
+        "kind": "collectible",
+        "names": {
+          "zh": "勇气",
+          "en": "Bravery"
         }
       }
     ],
@@ -2315,6 +2353,7 @@
       "itemType": "active",
       "quality": 2,
       "tags": [
+        "summonable",
         "offensive"
       ],
       "pools": [
@@ -5312,8 +5351,7 @@
       "itemType": "passive",
       "quality": 2,
       "tags": [
-        "summonable",
-        "offensive"
+        "summonable"
       ],
       "pools": [
         {
@@ -5745,9 +5783,9 @@
       "spawnSources": [],
       "randomDrop": null,
       "slotInteraction": null,
-      "maxCharges": 300,
-      "chargeType": "timed",
-      "initCharge": 0,
+      "maxCharges": 1,
+      "chargeType": null,
+      "initCharge": null,
       "hidden": false,
       "playerType": null,
       "displayCharacter": null,
@@ -6225,7 +6263,7 @@
       "xmlId": 47,
       "xmlName": "Ingestion to Night",
       "itemType": "passive",
-      "quality": 2,
+      "quality": 1,
       "tags": [
         "summonable",
         "offensive"
@@ -7260,6 +7298,7 @@
       "itemType": "active",
       "quality": 4,
       "tags": [
+        "summonable",
         "offensive",
         "book"
       ],
@@ -15843,7 +15882,17 @@
         "text": {
           "zh": "使用露击败???",
           "en": "Defeat ??? as Lu"
-        }
+        },
+        "siblings": [
+          {
+            "slug": "matryoshka-marbles",
+            "kind": "collectible",
+            "names": {
+              "zh": "套娃弹珠",
+              "en": "Matryoshka Marbles"
+            }
+          }
+        ]
       },
       "characterBase": null,
       "pocketItemBase": null,
@@ -15971,7 +16020,7 @@
       "spawnSources": [],
       "randomDrop": null,
       "slotInteraction": null,
-      "maxCharges": 0,
+      "maxCharges": 4,
       "chargeType": null,
       "initCharge": null,
       "hidden": false,
@@ -16910,8 +16959,7 @@
       "itemType": "active",
       "quality": 3,
       "tags": [
-        "offensive",
-        "nogreed"
+        "offensive"
       ],
       "pools": [
         {
@@ -19510,7 +19558,9 @@
       "xmlName": "Golden Slot",
       "itemType": "active",
       "quality": 1,
-      "tags": [],
+      "tags": [
+        "summonable"
+      ],
       "pools": [
         {
           "id": "shop",
@@ -20126,6 +20176,7 @@
       "itemType": "active",
       "quality": 3,
       "tags": [
+        "summonable",
         "offensive"
       ],
       "pools": [
@@ -20182,7 +20233,7 @@
       "slotInteraction": null,
       "maxCharges": 12,
       "chargeType": null,
-      "initCharge": null,
+      "initCharge": 3,
       "hidden": false,
       "playerType": null,
       "displayCharacter": null,
@@ -20520,7 +20571,7 @@
       "xmlId": 172,
       "xmlName": "Ember",
       "itemType": "passive",
-      "quality": 3,
+      "quality": 2,
       "tags": [
         "offensive",
         "summonable"
@@ -20906,7 +20957,7 @@
       "xmlId": 175,
       "xmlName": "Tiny Update",
       "itemType": "passive",
-      "quality": 2,
+      "quality": 1,
       "tags": [
         "summonable"
       ],
@@ -21012,7 +21063,7 @@
       "slug": "matryoshka-marbles",
       "kind": "collectible",
       "internalKey": "Matryoshka_Marbles",
-      "remasterStatus": "",
+      "remasterStatus": "new",
       "xmlId": 176,
       "xmlName": "Matryoshka Marbles",
       "itemType": "passive",
@@ -21028,7 +21079,27 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Lu::BlueBaby",
+        "characterKey": "Lu",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用露击败???",
+          "en": "Defeat ??? as Lu"
+        },
+        "siblings": [
+          {
+            "slug": "cursed-mask",
+            "kind": "collectible",
+            "names": {
+              "zh": "诅咒面具",
+              "en": "Cursed Mask"
+            }
+          }
+        ]
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -21119,7 +21190,7 @@
       "slug": "bravery",
       "kind": "collectible",
       "internalKey": "Bravery",
-      "remasterStatus": "",
+      "remasterStatus": "new",
       "xmlId": 177,
       "xmlName": "Bravery",
       "itemType": "passive",
@@ -21147,7 +21218,17 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "annA::Mother",
+        "characterKey": "annA",
+        "conditionKey": "Mother",
+        "text": {
+          "zh": "使用安奈击败母亲",
+          "en": "Defeat Mother as Anna"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -21184,12 +21265,12 @@
         "en": "Bravery"
       },
       "desc": {
-        "zh": "“我也有拒绝的权力”",
-        "en": "\"I have the right to refuse, too.\""
+        "zh": "我也有拒绝的权力",
+        "en": "I have the right to refuse, too."
       },
       "eid": {
-        "zh": "#{{Damage}} +2 攻击#若在未清理的{{BossRoom}} Boss房、{{ChallengeRoom}} 挑战房或{{BossRushRoom}} Boss Rush中逃离，它会拒绝你#被拒绝后会在下一个房间掉落，且无法再次拾取",
-        "en": "#{{Damage}} +2 Damage#If you flee an uncleared {{BossRoom}} Boss, {{ChallengeRoom}} Challenge, or {{BossRushRoom}} Boss Rush room, it will reject you#It drops in the next room and cannot be picked up again"
+        "zh": "#{{Damage}} +2 攻击#若在未清理的{{BossRoom}} Boss房、{{ChallengeRoom}}{{BossRushRoom}} 挑战房或Boss Rush中逃离，它会拒绝你#被拒绝后会在下一个房间掉落，且无法再次拾取",
+        "en": "#{{Damage}} +2 Damage#If you flee an uncleared {{BossRoom}} Boss, {{ChallengeRoom}}{{BossRushRoom}} Challenge, or Boss Rush room, it will reject you#It drops in the next room and cannot be picked up again"
       },
       "seijaBuff": {
         "zh": "",
@@ -21230,6 +21311,701 @@
         "png": "/generated/images/icon-atlas.png",
         "x": 384,
         "y": 256,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "isolation",
+      "kind": "collectible",
+      "internalKey": "Isolation",
+      "remasterStatus": "new",
+      "xmlId": 178,
+      "xmlName": "Isolation",
+      "itemType": "passive",
+      "quality": 2,
+      "tags": [
+        "summonable"
+      ],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "shop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "curse",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "annA::Delirium",
+        "characterKey": "annA",
+        "conditionKey": "Delirium",
+        "text": {
+          "zh": "使用安奈击败精神错乱",
+          "en": "Defeat Delirium as Anna"
+        }
+      },
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "孤立",
+        "en": "Isolation"
+      },
+      "desc": {
+        "zh": "猜猜谁没受到邀请？",
+        "en": "Guess who wasn't invited?"
+      },
+      "eid": {
+        "zh": "#本局有10个随机道具组成小团体#遇到其中任意一个时，可以从全部10个道具中选择一件#选择后，孤立会被留下，并拒绝再次被拾取",
+        "en": "#10 random items form a clique each run#Encountering any member lets you choose one of all 10#After choosing, Isolation is left behind and cannot be picked up again"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/isolation.png",
+      "thumb32": "/generated/images/isolation_32.webp",
+      "thumb32Png": "/generated/images/isolation_32.png",
+      "thumb64": "/generated/images/isolation_64.webp",
+      "thumb64Png": "/generated/images/isolation_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 416,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "exoneration-certificate",
+      "kind": "collectible",
+      "internalKey": "Exoneration_Certificate",
+      "remasterStatus": "new",
+      "xmlId": 179,
+      "xmlName": "Exoneration Certificate",
+      "itemType": "active",
+      "quality": 4,
+      "tags": [],
+      "pools": [
+        {
+          "id": "secret",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "ultraSecret",
+          "weight": 1,
+          "decreaseBy": 0.4,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Anna::Hush",
+        "characterKey": "Anna",
+        "conditionKey": "Hush",
+        "text": {
+          "zh": "使用安娜击败死寂",
+          "en": "Defeat Hush as Anna"
+        }
+      },
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": 0,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "放逐证明",
+        "en": "Exoneration Certificate"
+      },
+      "desc": {
+        "zh": "世界的边缘",
+        "en": "The edge of the world."
+      },
+      "eid": {
+        "zh": "#使用后，选择放逐一件道具，或前往放逐边境#被放逐的道具将永久退出道具池，最多32件#在放逐边境中，可以取回一件被放逐的道具并撤销其放逐",
+        "en": "#Use it to banish an item, or enter the Border of Exile#Banished items permanently leave the item pools, up to 32#In the Border of Exile, take one back and lift its banishment"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "无法选择前往放逐边境",
+        "en": "Cannot choose to enter the Border of Exile"
+      },
+      "bookOfVirtues": {
+        "zh": "放逐可召唤道具时，生成其对应的道具魂火",
+        "en": "Banish a summonable item to gain its item wisp"
+      },
+      "bookOfBelial": {
+        "zh": "放逐道具时，依据其品质暂时提升攻击，最多+4",
+        "en": "Banish an item to gain fading damage based on its quality, up to +4"
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/exoneration-certificate.png",
+      "thumb32": "/generated/images/exoneration-certificate_32.webp",
+      "thumb32Png": "/generated/images/exoneration-certificate_32.png",
+      "thumb64": "/generated/images/exoneration-certificate_64.webp",
+      "thumb64Png": "/generated/images/exoneration-certificate_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 448,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "ketu",
+      "kind": "collectible",
+      "internalKey": "Ketu",
+      "remasterStatus": "",
+      "xmlId": 180,
+      "xmlName": "Ketu",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [
+        "summonable"
+      ],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "计都星",
+        "en": "Ketu"
+      },
+      "desc": {
+        "zh": "群星循轨",
+        "en": "Stars follow their courses"
+      },
+      "eid": {
+        "zh": "#沿屏幕内侧运行，经过不同区域时获得临时增益#经过资源、生命和地图区域时，获得对应的特殊效果",
+        "en": "#Runs along the inner HUD track, granting brief boosts by region#Resources, hearts, and the map grant matching special effects"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/ketu.png",
+      "thumb32": "/generated/images/ketu_32.webp",
+      "thumb32Png": "/generated/images/ketu_32.png",
+      "thumb64": "/generated/images/ketu_64.webp",
+      "thumb64Png": "/generated/images/ketu_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 480,
+        "y": 256,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "rahu",
+      "kind": "collectible",
+      "internalKey": "Rahu",
+      "remasterStatus": "",
+      "xmlId": 181,
+      "xmlName": "Rahu",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [
+        "offensive",
+        "summonable"
+      ],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "罗喉星",
+        "en": "Rahu"
+      },
+      "desc": {
+        "zh": "吞星之影",
+        "en": "The shadow that swallows stars"
+      },
+      "eid": {
+        "zh": "#沿屏幕外侧逆行，经过不同区域时暂时削弱或封印对应效果#吸收的资源会转化为持续攻击",
+        "en": "#Runs the outer HUD track in reverse, briefly weakening or sealing what it passes#Sealed resources become continuous star attacks"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/rahu.png",
+      "thumb32": "/generated/images/rahu_32.webp",
+      "thumb32Png": "/generated/images/rahu_32.png",
+      "thumb64": "/generated/images/rahu_64.webp",
+      "thumb64Png": "/generated/images/rahu_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 0,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "crown-of-thorns",
+      "kind": "collectible",
+      "internalKey": "Thorn_Flower_Crown",
+      "remasterStatus": "",
+      "xmlId": 182,
+      "xmlName": "Crown of Thorns",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "redChest",
+          "weight": 1,
+          "decreaseBy": 0.4,
+          "removeOn": 0.1
+        },
+        {
+          "id": "curse",
+          "weight": 1,
+          "decreaseBy": 0.5,
+          "removeOn": 0.1
+        },
+        {
+          "id": "ultraSecret",
+          "weight": 1,
+          "decreaseBy": 0.4,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "荆棘花冠",
+        "en": "Crown of Thorns"
+      },
+      "desc": {
+        "zh": "以血为冠",
+        "en": "A crown of blood"
+      },
+      "eid": {
+        "zh": "#部分道具底座会长出荆棘#触碰荆棘会受到伤害，首次刺伤后荆棘染血#染血底座仍会伤人，空置后会长出一件{{ItemPoolUltraSecret}}红色道具",
+        "en": "#Some item pedestals grow thorns#Touching the thorns deals damage; the first sting stains them with blood#Bloodstained pedestals still hurt and grow a {{ItemPoolUltraSecret}} red item when emptied"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/crown-of-thorns.png",
+      "thumb32": "/generated/images/crown-of-thorns_32.webp",
+      "thumb32Png": "/generated/images/crown-of-thorns_32.png",
+      "thumb64": "/generated/images/crown-of-thorns_64.webp",
+      "thumb64Png": "/generated/images/crown-of-thorns_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 32,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "alien-savior",
+      "kind": "collectible",
+      "internalKey": "Alien_Savior",
+      "remasterStatus": "",
+      "xmlId": 183,
+      "xmlName": "Alien Savior",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [
+        "summonable"
+      ],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "天外救星",
+        "en": "Alien Savior"
+      },
+      "desc": {
+        "zh": "他们听见了。",
+        "en": "They heard you."
+      },
+      "eid": {
+        "zh": "#在未清理的战斗房中首次受到敌人伤害时发出求救信号#同房再次受伤时，抵挡伤害并召唤飞碟#飞碟吸走普通敌人、弹幕和障碍物，并用激光扫射剩余敌人#救援后需清理3个其他战斗房才能再次求救，换层时恢复",
+        "en": "#First enemy hit in an uncleared combat room sends an SOS#A second hit in the same room blocks the damage and summons a UFO#The UFO sucks up normal enemies, projectiles, and obstacles, then lasers the rest#After rescue, clear 3 other combat rooms to call again; restores on a new floor"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/alien-savior.png",
+      "thumb32": "/generated/images/alien-savior_32.webp",
+      "thumb32Png": "/generated/images/alien-savior_32.png",
+      "thumb64": "/generated/images/alien-savior_64.webp",
+      "thumb64Png": "/generated/images/alien-savior_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 64,
+        "y": 288,
         "w": 32,
         "h": 32
       }
@@ -21336,8 +22112,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 256,
+        "x": 96,
+        "y": 288,
         "w": 32,
         "h": 32
       }
@@ -21444,8 +22220,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 256,
+        "x": 128,
+        "y": 288,
         "w": 32,
         "h": 32
       }
@@ -21562,8 +22338,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 256,
+        "x": 160,
+        "y": 288,
         "w": 32,
         "h": 32
       }
@@ -21670,7 +22446,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 192,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21778,7 +22554,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 224,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21886,7 +22662,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 256,
         "y": 288,
         "w": 32,
         "h": 32
@@ -21994,7 +22770,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 288,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22102,7 +22878,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 320,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22210,7 +22986,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 352,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22318,7 +23094,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 384,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22426,7 +23202,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 416,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22534,7 +23310,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 448,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22642,7 +23418,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 480,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22750,8 +23526,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
-        "y": 288,
+        "x": 0,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -22858,8 +23634,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
-        "y": 288,
+        "x": 32,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -22966,8 +23742,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
-        "y": 288,
+        "x": 64,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23071,8 +23847,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 288,
+        "x": 96,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23186,8 +23962,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 288,
+        "x": 128,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23311,8 +24087,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 288,
+        "x": 160,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23436,7 +24212,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23556,7 +24332,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23689,7 +24465,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23822,7 +24598,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23955,7 +24731,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24075,7 +24851,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24195,7 +24971,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24315,7 +25091,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24435,7 +25211,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24555,7 +25331,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24675,8 +25451,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -24795,8 +25571,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
-        "y": 320,
+        "x": 32,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -24915,8 +25691,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
-        "y": 320,
+        "x": 64,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25035,8 +25811,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 320,
+        "x": 96,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25165,8 +25941,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 320,
+        "x": 128,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25285,8 +26061,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 160,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25405,7 +26181,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25525,7 +26301,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25645,7 +26421,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25765,7 +26541,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25903,7 +26679,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26041,7 +26817,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26179,7 +26955,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26299,7 +27075,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26419,7 +27195,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26539,7 +27315,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26654,8 +27430,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -26774,8 +27550,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
-        "y": 352,
+        "x": 32,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -26894,8 +27670,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
-        "y": 352,
+        "x": 64,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27014,8 +27790,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 352,
+        "x": 96,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27134,8 +27910,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 352,
+        "x": 128,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27254,8 +28030,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 160,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27374,7 +28150,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27494,7 +28270,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27614,7 +28390,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27734,7 +28510,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27864,7 +28640,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27984,7 +28760,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28122,7 +28898,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28255,7 +29031,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28388,7 +29164,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28508,7 +29284,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28628,8 +29404,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -28748,8 +29524,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
-        "y": 384,
+        "x": 32,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -28886,8 +29662,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
-        "y": 384,
+        "x": 64,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29024,8 +29800,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 384,
+        "x": 96,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29162,8 +29938,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 384,
+        "x": 128,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29282,8 +30058,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 160,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29402,7 +30178,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29522,7 +30298,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29642,7 +30418,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29767,7 +30543,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29892,7 +30668,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30017,7 +30793,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30137,7 +30913,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30257,7 +31033,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30377,7 +31153,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30497,7 +31273,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30617,8 +31393,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -30737,8 +31513,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
-        "y": 416,
+        "x": 32,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -33713,8 +34489,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
-        "y": 416,
+        "x": 64,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -33883,8 +34659,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 416,
+        "x": 96,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -34053,8 +34829,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 416,
+        "x": 128,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -34223,8 +34999,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 160,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -34393,7 +35169,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -34563,7 +35339,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -34733,7 +35509,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32
@@ -34903,7 +35679,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 288,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35083,7 +35859,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 320,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35181,7 +35957,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 352,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35279,7 +36055,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 384,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35377,7 +36153,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 416,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35475,7 +36251,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 448,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35573,7 +36349,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 480,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35671,12 +36447,12 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
-        "y": 448,
+        "x": 0,
+        "y": 480,
         "w": 32,
         "h": 32
       }
     }
   ],
-  "generatedAt": "2026-10-24T07:14:32Z"
+  "generatedAt": "2026-10-26T11:54:43Z"
 }

@@ -13008,7 +13008,13 @@
     "Zero_Presence": "collectibles_Zero_Presence.png",
     "Tiny_Update": "collectibles_Tiny_Update.png",
     "Matryoshka_Marbles": "collectibles_Matryoshka_Marbles.png",
-    "Bravery": "collectibles_Bravery.png"
+    "Bravery": "collectibles_Bravery.png",
+    "Isolation": "collectibles_Isolation.png",
+    "Exoneration_Certificate": "collectibles_Exoneration_Certificate.png",
+    "Ketu": "collectibles_Ketu.png",
+    "Rahu": "collectibles_Rahu.png",
+    "Thorn_Flower_Crown": "collectibles_Thorn_Flower_Crown.png",
+    "Alien_Savior": "collectibles_Alien_Savior.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13151,7 +13157,13 @@
     "174": "collectibles_Zero_Presence.png",
     "175": "collectibles_Tiny_Update.png",
     "176": "collectibles_Matryoshka_Marbles.png",
-    "177": "collectibles_Bravery.png"
+    "177": "collectibles_Bravery.png",
+    "178": "collectibles_Isolation.png",
+    "179": "collectibles_Exoneration_Certificate.png",
+    "180": "collectibles_Ketu.png",
+    "181": "collectibles_Rahu.png",
+    "182": "collectibles_Thorn_Flower_Crown.png",
+    "183": "collectibles_Alien_Savior.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",

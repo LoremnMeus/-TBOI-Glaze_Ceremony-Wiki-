@@ -610,6 +610,30 @@
           {
             "text": "勇气",
             "link": "/items/bravery"
+          },
+          {
+            "text": "孤立",
+            "link": "/items/isolation"
+          },
+          {
+            "text": "放逐证明",
+            "link": "/items/exoneration-certificate"
+          },
+          {
+            "text": "计都星",
+            "link": "/items/ketu"
+          },
+          {
+            "text": "罗喉星",
+            "link": "/items/rahu"
+          },
+          {
+            "text": "荆棘花冠",
+            "link": "/items/crown-of-thorns"
+          },
+          {
+            "text": "天外救星",
+            "link": "/items/alien-savior"
           }
         ]
       }
@@ -1769,6 +1793,30 @@
           {
             "text": "Bravery",
             "link": "/en/items/bravery"
+          },
+          {
+            "text": "Isolation",
+            "link": "/en/items/isolation"
+          },
+          {
+            "text": "Exoneration Certificate",
+            "link": "/en/items/exoneration-certificate"
+          },
+          {
+            "text": "Ketu",
+            "link": "/en/items/ketu"
+          },
+          {
+            "text": "Rahu",
+            "link": "/en/items/rahu"
+          },
+          {
+            "text": "Crown of Thorns",
+            "link": "/en/items/crown-of-thorns"
+          },
+          {
+            "text": "Alien Savior",
+            "link": "/en/items/alien-savior"
           }
         ]
       }

@@ -1130,6 +1130,54 @@
       "enStatus": "drafted"
     },
     {
+      "slug": "isolation",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/isolation.md",
+      "en": "wiki/docs/en/items/isolation.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "exoneration-certificate",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/exoneration-certificate.md",
+      "en": "wiki/docs/en/items/exoneration-certificate.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "ketu",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/ketu.md",
+      "en": "wiki/docs/en/items/ketu.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "rahu",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/rahu.md",
+      "en": "wiki/docs/en/items/rahu.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "crown-of-thorns",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/crown-of-thorns.md",
+      "en": "wiki/docs/en/items/crown-of-thorns.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "alien-savior",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/alien-savior.md",
+      "en": "wiki/docs/en/items/alien-savior.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -2042,5 +2090,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-10-24T06:46:43Z"
+  "generatedAt": "2026-10-26T11:54:43Z"
 }

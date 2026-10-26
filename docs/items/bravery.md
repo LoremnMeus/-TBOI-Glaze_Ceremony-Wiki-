@@ -1,12 +1,12 @@
 ---
 title: 勇气
-description: "“我也有拒绝的权力”"
+description: "我也有拒绝的权力"
 slug: bravery
 kind: collectible
 internalKey: Bravery
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>勇气 Bravery Bravery bravery Bravery “我也有拒绝的权力” &quot;I have the right to refuse, too.&quot; 攻击 +2 攻击 若在未清理的 Boss房、 挑战房或 Boss Rush中逃离，它会拒绝你 被拒绝后会在下一个房间掉落，且无法再次拾取 Damage +2 Damage If you flee an uncleared Boss, Challenge, or Boss Rush room, it will reject you It drops in the next room and cannot be picked up again</p>
+<p class="wiki-search-index" v-pre>勇气 Bravery Bravery bravery Bravery 我也有拒绝的权力 I have the right to refuse, too. 攻击 +2 攻击 若在未清理的 Boss房、 挑战房或Boss Rush中逃离，它会拒绝你 被拒绝后会在下一个房间掉落，且无法再次拾取 Damage +2 Damage If you flee an uncleared Boss, Challenge, or Boss Rush room, it will reject you It drops in the next room and cannot be picked up again</p>
 
 <PublicEntry slug="bravery" lang="zh" />
 
@@ -17,7 +17,7 @@ status: drafted
 勇气会因为玩家临阵脱逃而主动离开玩家，并拒绝再次被拾取。
 
 - {{Damage}} 每份勇气提供 +2 攻击。
-- 在尚未清理的 {{BossRoom}} Boss 房、{{ChallengeRoom}} 挑战房或 {{BossRushRoom}} Boss Rush 中逃离时，勇气会拒绝玩家。
+- 在尚未清理的 {{BossRoom}} Boss 房、{{ChallengeRoom}}{{BossRushRoom}} 挑战房或 Boss Rush 中逃离时，勇气会拒绝玩家。
 - 被拒绝的勇气会在玩家抵达下一个房间后掉落，玩家失去对应的一份勇气及其攻击加成。
 
 以下行为会被勇气视为逃离：
