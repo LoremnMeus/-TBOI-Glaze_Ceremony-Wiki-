@@ -197,7 +197,8 @@ function pocketTypeLabel(type) {
         <dd class="entry-infobox__charge">
           <div class="entry-infobox__charge-label">
             <EidIcon name="Battery" />
-            <span>{{ CHARGE_TYPE_LABELS[chargeInfo.type]?.[en ? 1 : 0] || chargeInfo.type }}</span>
+            <!-- maxCharges<=0: summary alone (无需充能); do not also print default「房间充能」. -->
+            <span v-if="chargeInfo.max > 0">{{ CHARGE_TYPE_LABELS[chargeInfo.type]?.[en ? 1 : 0] || chargeInfo.type }}</span>
             <strong>{{ chargeSummary(chargeInfo) }}</strong>
           </div>
           <div

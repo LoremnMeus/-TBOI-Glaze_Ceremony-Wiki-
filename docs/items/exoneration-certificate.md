@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Exoneration_Certificate
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>放逐证明 Exoneration Certificate Exoneration_Certificate exoneration-certificate Exoneration Certificate 世界的边缘 The edge of the world. 使用后，选择放逐一件道具，或前往放逐边境 被放逐的道具将永久退出道具池，最多32件 在放逐边境中，可以取回一件被放逐的道具并撤销其放逐 Use it to banish an item, or enter the Border of Exile Banished items permanently leave the item pools, up to 32 In the Border of Exile, take one back and lift its banishment</p>
+<p class="wiki-search-index" v-pre>放逐证明 Exoneration Certificate Exoneration_Certificate exoneration-certificate Exoneration Certificate 世界的边缘 The edge of the world. !!! 一次性 使用后，选择放逐一件道具，或前往放逐边境 被放逐的道具将永久退出道具池，最多32件 在放逐边境中，可以取回一件被放逐的道具并撤销其放逐 !!! SINGLE USE Use it to banish an item, or enter the Border of Exile Banished items permanently leave the item pools, up to 32 In the Border of Exile, take one back and lift its banishment</p>
 
 <PublicEntry slug="exoneration-certificate" lang="zh" />
 

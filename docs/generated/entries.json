@@ -21598,8 +21598,8 @@
         "en": "The edge of the world."
       },
       "eid": {
-        "zh": "#使用后，选择放逐一件道具，或前往放逐边境#被放逐的道具将永久退出道具池，最多32件#在放逐边境中，可以取回一件被放逐的道具并撤销其放逐",
-        "en": "#Use it to banish an item, or enter the Border of Exile#Banished items permanently leave the item pools, up to 32#In the Border of Exile, take one back and lift its banishment"
+        "zh": "!!! 一次性#使用后，选择放逐一件道具，或前往放逐边境#被放逐的道具将永久退出道具池，最多32件#在放逐边境中，可以取回一件被放逐的道具并撤销其放逐",
+        "en": "!!! SINGLE USE#Use it to banish an item, or enter the Border of Exile#Banished items permanently leave the item pools, up to 32#In the Border of Exile, take one back and lift its banishment"
       },
       "seijaBuff": {
         "zh": "",
@@ -36500,5 +36500,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-27T14:25:02Z"
+  "generatedAt": "2026-10-27T14:33:27Z"
 }
