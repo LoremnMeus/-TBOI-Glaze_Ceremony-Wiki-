@@ -1,5 +1,5 @@
 <script setup>
-import { onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 import {
   computeLogoPhase,
@@ -9,8 +9,21 @@ import {
   vertexShader,
 } from '../shaders/wikiLogoRainbow.js'
 
-const LOGO_URL = withBase('/home/logo_replace.png')
+const props = defineProps({
+  /** 'zh' | 'en' — matches WikiHome; drives title sheet selection. */
+  lang: { type: String, default: 'zh' },
+})
+
+/** In-game sheets: resources/gfx/ui/main menu/logo_replace[_zh].png */
+const LOGO_URL_EN = withBase('/home/logo_replace.png')
+const LOGO_URL_ZH = withBase('/home/logo_replace_zh.png')
 const ASPECT = 544 / 160
+
+const english = computed(() => String(props.lang || '').toLowerCase().startsWith('en'))
+const logoUrl = computed(() => (english.value ? LOGO_URL_EN : LOGO_URL_ZH))
+const logoAriaLabel = computed(() =>
+  english.value ? 'Glaze Ceremony logo' : '琉璃盛典标题',
+)
 
 const rootRef = ref(null)
 const canvasRef = ref(null)
@@ -260,17 +273,7 @@ async function boot() {
       rainbowUniforms[name] = gl.getUniformLocation(rainbowProgram, name)
     })
 
-    sheetImage = await new Promise((resolve, reject) => {
-      const img = new Image()
-      img.decoding = 'async'
-      img.onload = () => resolve(img)
-      img.onerror = () => reject(new Error('logo texture load failed'))
-      img.src = LOGO_URL
-    })
-
-    texture = loadTexture(gl, sheetImage)
-    logoRainbowDefaults.sheetSize.w = sheetImage.naturalWidth || logoRainbowDefaults.sheetSize.w
-    logoRainbowDefaults.sheetSize.h = sheetImage.naturalHeight || logoRainbowDefaults.sheetSize.h
+    await applyLogoTexture(logoUrl.value)
     syncCanvasSize()
     renderFrame()
     if (!reducedMotion.value) {
@@ -281,6 +284,30 @@ async function boot() {
     fallback.value = true
     teardownGl()
   }
+}
+
+function loadSheetImage(url) {
+  return new Promise((resolve, reject) => {
+    const img = new Image()
+    img.decoding = 'async'
+    img.onload = () => resolve(img)
+    img.onerror = () => reject(new Error('logo texture load failed'))
+    img.src = url
+  })
+}
+
+async function applyLogoTexture(url) {
+  if (!gl || !url) return
+  const image = await loadSheetImage(url)
+  if (destroyed || !gl) return
+  if (texture) {
+    gl.deleteTexture(texture)
+    texture = null
+  }
+  sheetImage = image
+  texture = loadTexture(gl, sheetImage)
+  logoRainbowDefaults.sheetSize.w = sheetImage.naturalWidth || logoRainbowDefaults.sheetSize.w
+  logoRainbowDefaults.sheetSize.h = sheetImage.naturalHeight || logoRainbowDefaults.sheetSize.h
 }
 
 function teardownGl() {
@@ -320,6 +347,16 @@ onMounted(() => {
   }
 })
 
+watch(logoUrl, async (url) => {
+  if (destroyed || fallback.value || !gl) return
+  try {
+    await applyLogoTexture(url)
+    renderFrame()
+  } catch (err) {
+    console.warn('[WikiGameLogo] language logo reload failed:', err)
+  }
+})
+
 onBeforeUnmount(() => {
   destroyed = true
   document.removeEventListener('visibilitychange', onVisibility)
@@ -343,15 +380,15 @@ onBeforeUnmount(() => {
         ref="canvasRef"
         class="wiki-game-logo__canvas"
         role="img"
-        aria-label="Glaze Ceremony logo"
+        :aria-label="logoAriaLabel"
       />
       <div
         v-if="fallback"
         class="wiki-game-logo__fallback"
         role="img"
-        aria-label="Glaze Ceremony logo"
+        :aria-label="logoAriaLabel"
       >
-        <img :src="LOGO_URL" alt="" class="wiki-game-logo__fallback-img" />
+        <img :src="logoUrl" alt="" class="wiki-game-logo__fallback-img" />
       </div>
     </div>
   </div>

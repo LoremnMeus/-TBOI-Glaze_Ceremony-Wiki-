@@ -1330,14 +1330,6 @@
       "enStatus": "reviewed"
     },
     {
-      "slug": "one-way-rail-ticket",
-      "kind": "card",
-      "zh": "wiki/docs/cards/one-way-rail-ticket.md",
-      "en": "wiki/docs/en/cards/one-way-rail-ticket.md",
-      "zhStatus": "reviewed",
-      "enStatus": "reviewed"
-    },
-    {
       "slug": "0-the-fool",
       "kind": "card",
       "zh": "wiki/docs/cards/0-the-fool.md",
@@ -2090,5 +2082,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-10-26T11:54:43Z"
+  "generatedAt": "2026-10-27T14:25:02Z"
 }

@@ -26,11 +26,11 @@ Pending verification: room spawn conditions, repeatability, and prerequisite com
 
 ## Core mechanics
 
-Chessboard arena, pieces, staff, and field control (components: Chess Board / Pawn / Staff). Details pending rewrite against `Enemy_Floraine.lua` and related files.
+Combat is owned by Floraine V2 (command casting / formation / temp assaults / seal reward). Player-facing phase and attack copy pending V2 acceptance; do not restore deleted legacy board/staff-strike wording.
 
 ## Phases
 
-Pending verification of whether clear phases exist.
+Pending verification (V2 is designed as three phases; freeze player copy only after acceptance).
 
 ## Attacks
 
@@ -38,9 +38,7 @@ To be written (player-observable phenomena only; no callback writeups).
 
 ## Helper entities
 
-- Chess Board — arena_mechanic
-- Chess Pawn — summon
-- Chess Staff — weapon
+- Chess Pawn — summon / guard infrastructure (shared)
 
 ## Aftermath
 

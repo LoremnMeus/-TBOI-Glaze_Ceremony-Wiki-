@@ -114,7 +114,7 @@ function local(path) {
       </h1>
 
       <ClientOnly>
-        <WikiGameLogo />
+        <WikiGameLogo :lang="lang" />
         <WikiTitleMarquee />
       </ClientOnly>
 
