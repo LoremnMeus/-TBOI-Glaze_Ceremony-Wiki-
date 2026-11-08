@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Rooted_Demon
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>根植之魔 Rooted Demon Rooted_Demon rooted-demon Rooted Demon 向更深处扎根 Rooted ever deeper 每进入新房间，根植之魔向道具历史的更深处扎根，并抛出紧邻它的上一件道具 被抛出的道具视为全新生成，重新拾取可再次触发拾取效果 抵达道具历史底部后，向上蔓延根系，以沿途道具为节点，靠近节点的敌人会被穿刺 根系覆盖整个道具历史后，会沿屏幕边缘向敌人发起大规模穿刺攻击 Upon entering each new room, Rooted Demon digs deeper into item history, ejecting the item immediately before it Ejected items are treated as newly spawned; picking them up again retriggers their pickup effects After reaching the bottom of item history, it grows roots upward through item icons, forming nodes that pierce nearby enemies Once the roots cover the entire item history, they unleash a large-scale piercing attack from the screen edges</p>
+<p class="wiki-search-index" v-pre>根植之魔 Rooted Demon Rooted_Demon rooted-demon Rooted Demon 向更深处扎根 Rooted ever deeper 进入新房间后，抛出顺位的上一件道具以向下扎根 抛出的道具将视为全新生成 到底后，向上蔓延根系，靠近根系节点的敌人会被穿刺 完成蔓延后，依节点数量沿屏幕边缘发动大规模穿刺攻击 On entering a new room, ejects the preceding item in pickup order to dig deeper Ejected items are treated as newly spawned At the bottom, roots spread upward; enemies near root nodes are pierced Once fully grown, launches a large-scale piercing attack along the screen edges, scaling with the number of nodes</p>
 
 <PublicEntry slug="rooted-demon" lang="zh" />
 

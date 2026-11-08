@@ -395,11 +395,11 @@
     ],
     "Tecro::MegaSatan": [
       {
-        "slug": "darkness",
+        "slug": "rooted-demon",
         "kind": "collectible",
         "names": {
-          "zh": "暗之六面",
-          "en": "Darkness"
+          "zh": "根植之魔",
+          "en": "Rooted Demon"
         }
       }
     ],
@@ -1144,6 +1144,16 @@
         "names": {
           "zh": "妄想症",
           "en": "Paranoia"
+        }
+      }
+    ],
+    "Autio::MegaSatan": [
+      {
+        "slug": "darkness",
+        "kind": "collectible",
+        "names": {
+          "zh": "暗之六面",
+          "en": "Darkness"
         }
       }
     ],
@@ -2279,12 +2289,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Tecro::MegaSatan",
-        "characterKey": "Tecro",
+        "zone": "Autio::MegaSatan",
+        "characterKey": "Autio",
         "conditionKey": "MegaSatan",
         "text": {
-          "zh": "使用泰克罗击败超级撒旦",
-          "en": "Defeat Mega Satan as Tecro"
+          "zh": "使用艾提奥击败超级撒旦",
+          "en": "Defeat Mega Satan as Autio"
         }
       },
       "characterBase": null,
@@ -14054,12 +14064,6 @@
           "removeOn": 0.1
         },
         {
-          "id": "greedAngel",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
           "id": "ultraSecret",
           "weight": 1,
           "decreaseBy": 0.4,
@@ -15277,10 +15281,10 @@
           "removeOn": 0.1
         },
         {
-          "id": "shop",
-          "weight": 0.5,
-          "decreaseBy": 0.5,
-          "removeOn": 0.05
+          "id": "devil",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         },
         {
           "id": "greedTreasure",
@@ -16743,6 +16747,12 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         }
       ],
       "unlock": {
@@ -17836,6 +17846,12 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         }
       ],
       "unlock": {
@@ -17950,6 +17966,12 @@
       "pools": [
         {
           "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -18083,6 +18105,24 @@
           "removeOn": 0.1
         },
         {
+          "id": "angel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "babyShop",
           "weight": 1,
           "decreaseBy": 1,
@@ -18202,6 +18242,30 @@
       "pools": [
         {
           "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "devil",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedDevil",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -18337,6 +18401,24 @@
           "removeOn": 0.1
         },
         {
+          "id": "secret",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "babyShop",
           "weight": 1,
           "decreaseBy": 1,
@@ -18461,6 +18543,12 @@
           "removeOn": 0.1
         },
         {
+          "id": "angel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "babyShop",
           "weight": 1,
           "decreaseBy": 1,
@@ -18580,6 +18668,24 @@
       "pools": [
         {
           "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "secret",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -18710,6 +18816,12 @@
           "removeOn": 0.1
         },
         {
+          "id": "secret",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "babyShop",
           "weight": 1,
           "decreaseBy": 1,
@@ -18828,6 +18940,12 @@
       "pools": [
         {
           "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "secret",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -19476,6 +19594,12 @@
           "removeOn": 0.1
         },
         {
+          "id": "curse",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "ultraSecret",
           "weight": 1,
           "decreaseBy": 1,
@@ -19726,12 +19850,6 @@
           "weight": 1,
           "decreaseBy": 0.4,
           "removeOn": 0.1
-        },
-        {
-          "id": "rottenBeggar",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
         }
       ],
       "unlock": {
@@ -19847,6 +19965,12 @@
       "pools": [
         {
           "id": "angel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedAngel",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -20099,7 +20223,19 @@
           "removeOn": 0.1
         },
         {
+          "id": "beggar",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "greedBoss",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -20500,6 +20636,12 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
+        },
+        {
+          "id": "greedAngel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         }
       ],
       "unlock": {
@@ -20886,6 +21028,12 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
+        },
+        {
+          "id": "greedAngel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         }
       ],
       "unlock": {
@@ -20998,6 +21146,24 @@
         "summonable"
       ],
       "pools": [
+        {
+          "id": "shop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
         {
           "id": "ultraSecret",
           "weight": 1,
@@ -21132,6 +21298,12 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
+        },
+        {
+          "id": "ultraSecret",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         }
       ],
       "unlock": {
@@ -21255,12 +21427,6 @@
       ],
       "pools": [
         {
-          "id": "treasure",
-          "weight": 1,
-          "decreaseBy": 1,
-          "removeOn": 0.1
-        },
-        {
           "id": "boss",
           "weight": 1,
           "decreaseBy": 1,
@@ -21274,6 +21440,12 @@
         },
         {
           "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedBoss",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -21534,6 +21706,12 @@
       "quality": 4,
       "tags": [],
       "pools": [
+        {
+          "id": "devil",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
         {
           "id": "secret",
           "weight": 1,
@@ -21953,9 +22131,21 @@
           "removeOn": 0.1
         },
         {
+          "id": "demonBeggar",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "curse",
           "weight": 1,
           "decreaseBy": 0.5,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedDevil",
+          "weight": 1,
+          "decreaseBy": 1,
           "removeOn": 0.1
         },
         {
@@ -22082,6 +22272,12 @@
           "removeOn": 0.1
         },
         {
+          "id": "angel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "greedTreasure",
           "weight": 1,
           "decreaseBy": 1,
@@ -22089,6 +22285,12 @@
         },
         {
           "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedAngel",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -22195,7 +22397,7 @@
       "slug": "strawberry-cake-pie",
       "kind": "collectible",
       "internalKey": "Cake_Berry",
-      "remasterStatus": "",
+      "remasterStatus": "new",
       "xmlId": 184,
       "xmlName": "Strawberry Cake Pie",
       "itemType": "passive",
@@ -22207,6 +22409,18 @@
       "pools": [
         {
           "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "goldenChest",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "ultraSecret",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -22303,7 +22517,7 @@
       "slug": "rooted-demon",
       "kind": "collectible",
       "internalKey": "Rooted_Demon",
-      "remasterStatus": "",
+      "remasterStatus": "new",
       "xmlId": 185,
       "xmlName": "Rooted Demon",
       "itemType": "passive",
@@ -22323,13 +22537,35 @@
           "removeOn": 0.05
         },
         {
+          "id": "curse",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedDevil",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
           "id": "ultraSecret",
           "weight": 1,
           "decreaseBy": 0.4,
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Tecro::MegaSatan",
+        "characterKey": "Tecro",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用泰克罗击败超级撒旦",
+          "en": "Defeat Mega Satan as Tecro"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -22370,8 +22606,8 @@
         "en": "Rooted ever deeper"
       },
       "eid": {
-        "zh": "#每进入新房间，根植之魔向道具历史的更深处扎根，并抛出紧邻它的上一件道具#被抛出的道具视为全新生成，重新拾取可再次触发拾取效果#抵达道具历史底部后，向上蔓延根系，以沿途道具为节点，靠近节点的敌人会被穿刺#根系覆盖整个道具历史后，会沿屏幕边缘向敌人发起大规模穿刺攻击",
-        "en": "#Upon entering each new room, Rooted Demon digs deeper into item history, ejecting the item immediately before it#Ejected items are treated as newly spawned; picking them up again retriggers their pickup effects#After reaching the bottom of item history, it grows roots upward through item icons, forming nodes that pierce nearby enemies#Once the roots cover the entire item history, they unleash a large-scale piercing attack from the screen edges"
+        "zh": "#进入新房间后，抛出顺位的上一件道具以向下扎根#抛出的道具将视为全新生成#到底后，向上蔓延根系，靠近根系节点的敌人会被穿刺#完成蔓延后，依节点数量沿屏幕边缘发动大规模穿刺攻击",
+        "en": "#On entering a new room, ejects the preceding item in pickup order to dig deeper#Ejected items are treated as newly spawned#At the bottom, roots spread upward; enemies near root nodes are pierced#Once fully grown, launches a large-scale piercing attack along the screen edges, scaling with the number of nodes"
       },
       "seijaBuff": {
         "zh": "",
@@ -22420,7 +22656,7 @@
       "slug": "incandescence-flame",
       "kind": "collectible",
       "internalKey": "Incandescence_Flame",
-      "remasterStatus": "",
+      "remasterStatus": "new",
       "xmlId": 186,
       "xmlName": "Incandescence Flame",
       "itemType": "passive",
@@ -22430,7 +22666,19 @@
       ],
       "pools": [
         {
-          "id": "shop",
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
@@ -36838,5 +37086,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-08T10:51:57Z"
+  "generatedAt": "2026-11-08T11:34:29Z"
 }
