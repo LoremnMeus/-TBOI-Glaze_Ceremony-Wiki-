@@ -1178,6 +1178,30 @@
       "enStatus": "drafted"
     },
     {
+      "slug": "strawberry-cake-pie",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/strawberry-cake-pie.md",
+      "en": "wiki/docs/en/items/strawberry-cake-pie.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "rooted-demon",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/rooted-demon.md",
+      "en": "wiki/docs/en/items/rooted-demon.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
+      "slug": "incandescence-flame",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/incandescence-flame.md",
+      "en": "wiki/docs/en/items/incandescence-flame.md",
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -2082,5 +2106,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-10-27T14:25:02Z"
+  "generatedAt": "2026-11-08T10:51:58Z"
 }

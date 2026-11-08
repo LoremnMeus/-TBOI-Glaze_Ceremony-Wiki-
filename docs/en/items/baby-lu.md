@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Baby_Lu
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>宝宝露 Baby Lu Baby_Lu baby-lu Baby Lu 我来安排！ I plan! 举行仪式并依次标记数个特殊房间的宝宝 随后生成用于前往这些房间的传送入口 A familiar that performs a ritual to mark several special rooms Then creates portals leading to those rooms</p>
+<p class="wiki-search-index" v-pre>宝宝露 Baby Lu Baby_Lu baby-lu Baby Lu 我来安排！ I plan! 每层揭示数个特殊房间的宝宝 进入已标记房间时：在房间内生成通往下一个目标房间的传送漩涡 A familiar that reveals several special rooms each floor Entering a marked room spawns a portal there to the next target</p>
 
 <PublicEntry slug="baby-lu" lang="en" />
 
@@ -16,7 +16,7 @@ status: reviewed
 
 ## Effects
 
-**Each floor, Baby Lu reveals several unvisited special rooms and creates portals that connect them in order.**
+Baby Lu is a familiar that plans routes through special rooms. Each floor, it reveals several special rooms and links them in a fixed order. Entering a marked room spawns a portal there leading to the next target.
 
 After entering a new floor, the familiar automatically runs a ritual that selects and marks several unvisited special rooms.
 

@@ -18767,8 +18767,8 @@
         "en": "I plan!"
       },
       "eid": {
-        "zh": "举行仪式并依次标记数个特殊房间的宝宝#随后生成用于前往这些房间的传送入口",
-        "en": "A familiar that performs a ritual to mark several special rooms#Then creates portals leading to those rooms"
+        "zh": "每层揭示数个特殊房间的宝宝#进入已标记房间时：在房间内生成通往下一个目标房间的传送漩涡",
+        "en": "A familiar that reveals several special rooms each floor#Entering a marked room spawns a portal there to the next target"
       },
       "seijaBuff": {
         "zh": "",
@@ -22192,6 +22192,344 @@
       }
     },
     {
+      "slug": "strawberry-cake-pie",
+      "kind": "collectible",
+      "internalKey": "Cake_Berry",
+      "remasterStatus": "",
+      "xmlId": 184,
+      "xmlName": "Strawberry Cake Pie",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [
+        "offensive",
+        "summonable"
+      ],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "草莓蛋糕派",
+        "en": "Strawberry Cake Pie"
+      },
+      "desc": {
+        "zh": "再来一块！",
+        "en": "One more slice!"
+      },
+      "eid": {
+        "zh": "#{{Heart}} +1心之容器，回复1红心#概率额外发射弹跳蛋糕#{{Slow}} 蛋糕每次碰撞都会洒落伤害周围敌人的碎屑，并造成减速",
+        "en": "#{{Heart}} +1 heart container and restores 1 red heart#Chance to fire an additional bouncing cake#{{Slow}} Each collision scatters damaging crumbs and slows nearby enemies"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/strawberry-cake-pie.png",
+      "thumb32": "/generated/images/strawberry-cake-pie_32.webp",
+      "thumb32Png": "/generated/images/strawberry-cake-pie_32.png",
+      "thumb64": "/generated/images/strawberry-cake-pie_64.webp",
+      "thumb64Png": "/generated/images/strawberry-cake-pie_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 96,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "rooted-demon",
+      "kind": "collectible",
+      "internalKey": "Rooted_Demon",
+      "remasterStatus": "",
+      "xmlId": 185,
+      "xmlName": "Rooted Demon",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [],
+      "pools": [
+        {
+          "id": "devil",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "demonBeggar",
+          "weight": 0.5,
+          "decreaseBy": 0.5,
+          "removeOn": 0.05
+        },
+        {
+          "id": "ultraSecret",
+          "weight": 1,
+          "decreaseBy": 0.4,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "根植之魔",
+        "en": "Rooted Demon"
+      },
+      "desc": {
+        "zh": "向更深处扎根",
+        "en": "Rooted ever deeper"
+      },
+      "eid": {
+        "zh": "#每进入新房间，根植之魔向道具历史的更深处扎根，并抛出紧邻它的上一件道具#被抛出的道具视为全新生成，重新拾取可再次触发拾取效果#抵达道具历史底部后，向上蔓延根系，以沿途道具为节点，靠近节点的敌人会被穿刺#根系覆盖整个道具历史后，会沿屏幕边缘向敌人发起大规模穿刺攻击",
+        "en": "#Upon entering each new room, Rooted Demon digs deeper into item history, ejecting the item immediately before it#Ejected items are treated as newly spawned; picking them up again retriggers their pickup effects#After reaching the bottom of item history, it grows roots upward through item icons, forming nodes that pierce nearby enemies#Once the roots cover the entire item history, they unleash a large-scale piercing attack from the screen edges"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/rooted-demon.png",
+      "thumb32": "/generated/images/rooted-demon_32.webp",
+      "thumb32Png": "/generated/images/rooted-demon_32.png",
+      "thumb64": "/generated/images/rooted-demon_64.webp",
+      "thumb64Png": "/generated/images/rooted-demon_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 128,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "incandescence-flame",
+      "kind": "collectible",
+      "internalKey": "Incandescence_Flame",
+      "remasterStatus": "",
+      "xmlId": 186,
+      "xmlName": "Incandescence Flame",
+      "itemType": "passive",
+      "quality": 3,
+      "tags": [
+        "offensive"
+      ],
+      "pools": [
+        {
+          "id": "shop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "ultraSecret",
+          "weight": 1,
+          "decreaseBy": 0.4,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "焚火",
+        "en": "Incandescence Flame"
+      },
+      "desc": {
+        "zh": "逆卷的神炎",
+        "en": "A Divine Flame in Reverse"
+      },
+      "eid": {
+        "zh": "按住攻击蓄力，松开后喷火 3 秒#{{Damage}} 火焰每 0.2 秒造成 0.5 倍攻击伤害，并引燃敌人（燃烧伤害为 0.25 倍攻击力）",
+        "en": "Hold fire to charge, then release to breathe fire for 3 seconds#{{Damage}} Flames deal 0.5× damage every 0.2 seconds and ignite enemies (burn damage is 0.25× damage)"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/incandescence-flame.png",
+      "thumb32": "/generated/images/incandescence-flame_32.webp",
+      "thumb32Png": "/generated/images/incandescence-flame_32.png",
+      "thumb64": "/generated/images/incandescence-flame_64.webp",
+      "thumb64Png": "/generated/images/incandescence-flame_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 160,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "internalKey": "Pacification_Mark",
@@ -22293,7 +22631,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 192,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22401,7 +22739,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 224,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22519,7 +22857,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 256,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22627,7 +22965,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 288,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22735,7 +23073,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 320,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22843,7 +23181,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 352,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22951,7 +23289,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 384,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23059,7 +23397,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 416,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23167,7 +23505,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 448,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23275,7 +23613,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 480,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23383,8 +23721,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 288,
+        "x": 0,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23491,8 +23829,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 288,
+        "x": 32,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23599,8 +23937,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 288,
+        "x": 64,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23707,7 +24045,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 96,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23815,7 +24153,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 128,
         "y": 320,
         "w": 32,
         "h": 32
@@ -23923,7 +24261,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 160,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24028,7 +24366,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24143,7 +24481,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24258,7 +24596,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24378,7 +24716,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24511,7 +24849,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24644,7 +24982,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24777,7 +25115,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24897,7 +25235,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25017,7 +25355,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25137,7 +25475,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25257,8 +25595,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25377,8 +25715,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 320,
+        "x": 32,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25497,8 +25835,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 64,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25617,7 +25955,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 96,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25737,7 +26075,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 128,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25857,7 +26195,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 160,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25987,7 +26325,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26107,7 +26445,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26227,7 +26565,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26347,7 +26685,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26467,7 +26805,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26587,7 +26925,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26725,7 +27063,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26863,7 +27201,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27001,7 +27339,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27121,7 +27459,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27241,8 +27579,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27361,8 +27699,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 352,
+        "x": 32,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27476,8 +27814,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 64,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27596,7 +27934,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 96,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27716,7 +28054,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 128,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27836,7 +28174,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 160,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27956,7 +28294,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28076,7 +28414,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28196,7 +28534,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28316,7 +28654,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28436,7 +28774,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28556,7 +28894,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28686,7 +29024,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28806,7 +29144,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28944,7 +29282,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29077,7 +29415,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29210,8 +29548,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29330,8 +29668,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 384,
+        "x": 32,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29450,8 +29788,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 64,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29570,7 +29908,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 96,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29708,7 +30046,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 128,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29846,7 +30184,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 160,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29984,7 +30322,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30104,7 +30442,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30224,7 +30562,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30344,7 +30682,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30464,7 +30802,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30589,7 +30927,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30714,7 +31052,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30839,7 +31177,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30959,7 +31297,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31079,7 +31417,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31199,8 +31537,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -31319,8 +31657,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 416,
+        "x": 32,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -31439,8 +31777,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 64,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -31559,7 +31897,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -34535,7 +34873,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -34705,7 +35043,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -34875,7 +35213,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35045,7 +35383,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35215,7 +35553,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35385,7 +35723,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 288,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35555,7 +35893,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 320,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35725,7 +36063,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 352,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35905,7 +36243,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 384,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36003,7 +36341,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 416,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36101,7 +36439,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 448,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36199,7 +36537,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 480,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36297,8 +36635,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
-        "y": 448,
+        "x": 0,
+        "y": 480,
         "w": 32,
         "h": 32
       }
@@ -36395,8 +36733,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 448,
+        "x": 32,
+        "y": 480,
         "w": 32,
         "h": 32
       }
@@ -36493,12 +36831,12 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 448,
+        "x": 64,
+        "y": 480,
         "w": 32,
         "h": 32
       }
     }
   ],
-  "generatedAt": "2026-10-27T14:33:27Z"
+  "generatedAt": "2026-11-08T10:51:57Z"
 }

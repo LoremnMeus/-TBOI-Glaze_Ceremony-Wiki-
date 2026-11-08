@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Baby_Lu
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>宝宝露 Baby Lu Baby_Lu baby-lu Baby Lu 我来安排！ I plan! 举行仪式并依次标记数个特殊房间的宝宝 随后生成用于前往这些房间的传送入口 A familiar that performs a ritual to mark several special rooms Then creates portals leading to those rooms</p>
+<p class="wiki-search-index" v-pre>宝宝露 Baby Lu Baby_Lu baby-lu Baby Lu 我来安排！ I plan! 每层揭示数个特殊房间的宝宝 进入已标记房间时：在房间内生成通往下一个目标房间的传送漩涡 A familiar that reveals several special rooms each floor Entering a marked room spawns a portal there to the next target</p>
 
 <PublicEntry slug="baby-lu" lang="zh" />
 
@@ -16,7 +16,7 @@ status: reviewed
 
 ## 效果
 
-**「宝宝露」每层会揭示数个尚未访问的特殊房间，并按顺序生成通往这些房间的传送门。**
+「宝宝露」是一个会规划特殊房间路线的跟班宝宝。每层会揭示数个特殊房间，并按照顺序将它们连接起来。进入已标记的房间时，该房间会生成通往下一个目标房间的传送漩涡。
 
 进入新层后，宝宝会自动进行一次仪式，选择并标记若干尚未访问的特殊房间。
 

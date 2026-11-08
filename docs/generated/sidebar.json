@@ -634,6 +634,18 @@
           {
             "text": "天外救星",
             "link": "/items/alien-savior"
+          },
+          {
+            "text": "草莓蛋糕派",
+            "link": "/items/strawberry-cake-pie"
+          },
+          {
+            "text": "根植之魔",
+            "link": "/items/rooted-demon"
+          },
+          {
+            "text": "焚火",
+            "link": "/items/incandescence-flame"
           }
         ]
       }
@@ -1813,6 +1825,18 @@
           {
             "text": "Alien Savior",
             "link": "/en/items/alien-savior"
+          },
+          {
+            "text": "Strawberry Cake Pie",
+            "link": "/en/items/strawberry-cake-pie"
+          },
+          {
+            "text": "Rooted Demon",
+            "link": "/en/items/rooted-demon"
+          },
+          {
+            "text": "Incandescence Flame",
+            "link": "/en/items/incandescence-flame"
           }
         ]
       }

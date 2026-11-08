@@ -13014,7 +13014,10 @@
     "Ketu": "collectibles_Ketu.png",
     "Rahu": "collectibles_Rahu.png",
     "Thorn_Flower_Crown": "collectibles_Thorn_Flower_Crown.png",
-    "Alien_Savior": "collectibles_Alien_Savior.png"
+    "Alien_Savior": "collectibles_Alien_Savior.png",
+    "Cake_Berry": "collectibles_Cake_Berry.png",
+    "Rooted_Demon": "collectibles_Rooted_Demon.png",
+    "Incandescence_Flame": "collectibles_Incandescence_Flame.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13163,7 +13166,10 @@
     "180": "collectibles_Ketu.png",
     "181": "collectibles_Rahu.png",
     "182": "collectibles_Thorn_Flower_Crown.png",
-    "183": "collectibles_Alien_Savior.png"
+    "183": "collectibles_Alien_Savior.png",
+    "184": "collectibles_Cake_Berry.png",
+    "185": "collectibles_Rooted_Demon.png",
+    "186": "collectibles_Incandescence_Flame.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",
