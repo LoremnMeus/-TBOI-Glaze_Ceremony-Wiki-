@@ -140,8 +140,8 @@ watch(
   (sources) => {
     clearCycleTimer()
     cycleIndex.value = 0
-    if (sources.length <= 1) return
-    cycleTimer = setInterval(() => {
+    if (typeof window === 'undefined' || sources.length <= 1) return
+    cycleTimer = window.setInterval(() => {
       cycleIndex.value = (cycleIndex.value + 1) % sources.length
     }, CYCLE_MS)
   },
