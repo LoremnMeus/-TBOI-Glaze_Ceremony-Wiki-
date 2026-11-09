@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Procrastination
 status: featured
 ---
-<p class="wiki-search-index" v-pre>拖延症 Procrastination Procrastination procrastination Procrastination 马上就做…… I&#x27;ll do it soon... 每30秒永久获得攻击 +0.1攻击；每层最多+1 击杀Boss后本层停止增长；Boss存活时房门保持开启 Permanently gain Damage +0.1 every 30 seconds, up to +1 per floor Boss Room Killing a boss stops growth for this floor; doors stay open while a boss is alive</p>
+<p class="wiki-search-index" v-pre>拖延症 Procrastination Procrastination procrastination Procrastination 马上就做…… I&#x27;ll do it soon... 每30秒获得攻击 +0.1攻击；每层最多+1 击杀Boss后本层停止增长；Boss存活时房门保持开启 Gain Damage +0.1 every 30 seconds, up to +1 per floor Boss Room Killing a boss stops growth for this floor; doors stay open while a boss is alive</p>
 
 <PublicEntry slug="procrastination" lang="zh" />
 
@@ -14,30 +14,13 @@ status: featured
 
 ## 效果
 
-**拖延症会奖励玩家在击杀 Boss 前花时间探索楼层。**
+**拖延症会随着时间推移提高攻击力，直到击杀本层的 Boss。**
 
-持有期间每 30 秒永久获得攻击力，直到本层达到上限或任意 Boss 被击杀。只要当前房间仍有存活的 Boss 敌人，房门就不会因战斗锁死，因此可以暂时离开再回来。
-
-| 规则 | 数值 |
-| --- | ---: |
-| 增长间隔 | 30 秒 |
-| 每次增长 | {{Damage}} +0.1 |
-| 每层最多增长 | {{Damage}} +1 |
-
-进入新楼层时，计时重新开始，本层已累计的增长量清零，并重新获得最多 +1 的增长空间；此前获得的永久攻击不会消失。Boss 停止状态也会解除。
-
-## 细节
-
-- 击杀任意带有 Boss 标记的敌人后，本层立即停止增长。
-- 持有多份拖延症时，每 30 秒获得的攻击力按份数增加，但每层总上限仍为 +1。例如持有 2 份时，每 30 秒获得 +0.2，约 150 秒达到本层上限。
+- {{Damage}} 每 **30 秒**获得 **+0.1** 攻击力，每层最多 **+1**。
+- 击杀任意 Boss 后，本层停止获得攻击加成。
+- Boss 存活时，Boss 房间的门保持开启，可以自由进出。
+- 持有多份拖延症时，攻击增长速度按数量增加，每层上限不变。
 
 ## 轶事
 
-拖延症属于[彩虹](/systems/rainbow)道具，其图标以 {{Collectible:260}} 为基础重新绘制。它把“晚点再打 Boss”变成可以永久积累的攻击收益，让拖延本身成为玩法的一部分。
-
-<details>
-<summary>技术细节</summary>
-
-永久攻击加成与本层已获得量按玩家分别记录；Boss 停止状态由当前楼层共享。因此多人游戏中，任意 Boss 死亡都会让所有持有拖延症的玩家停止本层增长。
-
-</details>
+- 拖延症属于 {{System:rainbow}} 道具，其图标以 {{Collectible:260}} 为基础重新绘制。

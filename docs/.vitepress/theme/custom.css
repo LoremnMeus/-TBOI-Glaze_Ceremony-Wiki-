@@ -6,13 +6,10 @@
 
 .vp-doc p > .eid-icon-wrap,
 .vp-doc p > .eid-item-icon,
-.vp-doc p > .wiki-entry-icon,
 .vp-doc li > .eid-icon-wrap,
 .vp-doc li > .eid-item-icon,
-.vp-doc li > .wiki-entry-icon,
 .vp-doc .eid-line .eid-icon-wrap,
-.vp-doc .eid-line .eid-item-icon,
-.vp-doc .eid-line .wiki-entry-icon {
+.vp-doc .eid-line .eid-item-icon {
   display: inline-flex;
   vertical-align: middle;
 }
@@ -20,7 +17,6 @@
 .vp-doc p img.eid-item-icon,
 .vp-doc li img.eid-item-icon,
 .vp-doc .eid-line img.eid-item-icon,
-.vp-doc .wiki-entry-icon img,
 .vp-doc p .eid-icon-wrap,
 .vp-doc li .eid-icon-wrap,
 .vp-doc .eid-line .eid-icon-wrap {
@@ -29,11 +25,37 @@
   max-width: none !important;
 }
 
+/* Entry chips stay `display:inline` so label glyphs share the paragraph
+   baseline; the 32px icon only uses vertical-align and does not lift text. */
 .vp-doc .wiki-entry-icon {
-  display: inline-flex !important;
-  align-items: center;
+  display: inline !important;
+  margin: 0;
+  padding: 0;
   white-space: nowrap;
   max-width: 100%;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+}
+
+.vp-doc .wiki-entry-icon img {
+  display: inline !important;
+  width: 32px !important;
+  height: 32px !important;
+  max-width: none !important;
+  margin: 0 0.2rem 0 0;
+  vertical-align: middle;
+}
+
+/* VitePress pins `.vp-doc a { font-weight: 500 }`; keep links matching
+   surrounding emphasis (bold / italic) and wiki-entry chips. */
+.vp-doc a.wiki-entry-icon,
+.vp-doc strong a,
+.vp-doc b a,
+.vp-doc em a,
+.vp-doc i a {
+  font-weight: inherit;
+  font-style: inherit;
 }
 
 .eid-line {
@@ -420,6 +442,35 @@ body.wiki-dev-source .VPDoc {
 .vp-doc mjx-container[display='true'] {
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+/**
+ * Tables: keep a single table layout so header/body columns stay aligned,
+ * center when capped, and let long cells wrap instead of desyncing thead/tbody.
+ * Do not force cell text-align — Markdown column alignment still applies.
+ */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  max-width: 52rem;
+  margin: 1.25rem auto;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.vp-doc .table-scroll {
+  display: block;
+  width: 100%;
+  max-width: 52rem;
+  margin: 1.25rem auto;
+  overflow-x: auto;
+}
+
+.vp-doc .table-scroll > table {
+  width: max-content;
+  min-width: 100%;
+  max-width: none;
+  margin: 0;
 }
 .wiki-mechanics-anchor {
   display: block;

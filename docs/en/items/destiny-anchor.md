@@ -72,7 +72,7 @@ If reproduced terrain blocks a necessary entrance, a small number of obstacles m
 
 ## Trivia
 
-Destiny Anchor belongs to the [Rainbow](/en/systems/rainbow) classification. Its icon was completed years before the mechanic was implemented and was redrawn from the icon of {{Collectible:127}}.
+Destiny Anchor belongs to the {{System:rainbow}} classification. Its icon was completed years before the mechanic was implemented and was redrawn from the icon of {{Collectible:127}}.
 
 Forget Me Now regenerates the current floor, while Destiny Anchor carries part of the current floor into the next one. Both let a floor's journey continue in another form. The original design records have been lost, so it cannot be confirmed whether that connection motivated the choice of visual basis.
 

@@ -21,10 +21,9 @@ status: reviewed
 * Has a maximum of **12** charges and starts with **3** charges when obtained
 * Each use spends **1** charge, **1** {{Coin}}, **1** {{Key}}, and **1** {{Bomb}}
 * The four remaining resource amounts are observed after payment
-* If any resources remain, the experiment fails and returns 1 pickup corresponding to the resource with the greatest remaining amount; ties are chosen randomly
+* If any resources remain, the experiment fails and drops one pickup of the resource with the greatest remaining amount; ties are chosen randomly
 * {{Warning}} Golden Key and Golden Bomb still count as possessing their respective resources
-* If all four resources reach zero at once, the experiment succeeds: Abiogenesis is removed, one proof is recorded, and 1 Abiogenesis familiar is created
-* Abiogenesis can be obtained and proven again; each successful proof adds another familiar
+* If all four resources reach zero at once, the experiment succeeds: Abiogenesis animates into an Abiogenesis familiar. Each successful experiment adds another familiar
 
 ## Abiogenesis Familiar
 

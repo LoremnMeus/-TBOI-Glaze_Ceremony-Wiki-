@@ -14,52 +14,42 @@ status: drafted
 
 ## Effects
 
-**Exoneration Certificate allows an item to be permanently banished from item pools, or lets the player enter the Border of Exile to retrieve a previously banished item.**
+**Exoneration Certificate can {{System:permanent-effects|permanently}} banish an item from item pools, or take you to the Border of Exile to retrieve a banished item.**
 
-On use, choose one of two actions.
+On use, choose one of the following actions.
 
-### Banish an Item
+### Issue a banishment
 
-Open the item archive and select an item to issue a decree of exile. Once confirmed, the item is added to the permanent banishment list for the current save slot and can no longer be generated normally from item pools.
+Open the item archive and select an item to banish.
 
-The archive is ordered by collectible ID. Banished items remain in their original positions, but their icons are dimmed and marked as banished. They cannot be banished again.
-
-Up to 32 items can be banished. Once the limit is reached, the archive remains available for viewing, but no further banishments can be issued.
+- The banished item is removed from item pools, and the effect **persists across runs**.
+- At most **32** items can be banished.
+- Already banished items appear dimmed in the archive and cannot be banished again.
 
 ### Enter the Border of Exile
 
-If at least one item has been banished, the player can enter the Border of Exile, where the currently banished items are displayed.
+If any items are banished, you can enter the Border of Exile and view all of them.
 
-The player may retrieve one item. Upon collection, its banishment is lifted immediately, and the player returns to the room they entered from.
+Retrieving one permanently lifts its banishment and returns you to the previous room. The retrieved item rejoins normal item pools starting next run.
 
-Successfully banishing an item or entering the Border with the certificate consumes one copy of Exoneration Certificate. Canceling does not consume it.
+Successfully banishing an item or entering the Border consumes one Exoneration Certificate; canceling does not.
 
 ## Notes
 
-- Items already spawned in rooms are not removed when their type is banished. Copies already held by players are also unaffected.
+- Banishment does not affect items already spawned or already held.
 - Hidden items and quest items cannot be banished.
-- Retrieving an item does not restore it to the current run's random item pools. Normal generation resumes in the next run.
-- Retrieving an item only lifts the exclusion imposed by Exoneration Certificate. Restrictions from other effects remain in place.
-- If the current floor cannot accommodate the Border of Exile, entry fails without consuming the certificate.
-- The Border has an exit. Leaving without retrieving an item preserves both the banishment list and the certificate.
-- In co-op, retrieving an item is resolved only once.
+- Leaving the Border through the exit without retrieving an item changes neither the banishment list nor the certificate.
 
 ## Synergies
 
 ### {{Collectible:584}}
 
-Successfully banishing a summonable item creates one item wisp corresponding to the banished collectible, rather than a wisp of Exoneration Certificate itself.
-
-Items without the summonable tag do not grant this reward.
+Banishing a summonable item creates a matching item wisp.
 
 ### {{Collectible:34}}
 
-Successfully banishing an item grants a temporary damage bonus based on its quality. Quality 1, 2, 3, and 4 items grant an initial +1, +2, +3, and +4 damage, respectively. Quality 0 grants no bonus.
-
-The bonus gradually fades over time rather than lasting until the player leaves the room. Bonuses from multiple successful banishments can stack.
+Banishing an item grants temporary damage based on its quality, up to **+4**. The bonus fades over time and can stack.
 
 ### {{Seija}}
 
-Under the nerf effect, Enter the Border of Exile remains visible but is dimmed and cannot be confirmed.
-
-Banish an Item remains available. Other methods of entering the Border are unaffected.
+Cannot enter the Border of Exile through Exoneration Certificate, but can still banish items normally.

@@ -14,15 +14,18 @@ status: drafted
 
 ## Effects
 
-Crown of Thorns causes some standard item pedestals to grow thorns. These thorns repeatedly hurt players on contact, turning blood-red after the first sting.
+While Crown of Thorns is held, standard item pedestals have a **40%** chance to grow thorns.
 
-Standard pedestals have a **40%** chance to grow thorns. Touching them deals half a heart of damage. Bloodstained pedestals remain dangerous even when empty.
+- Touching the thorns deals **half a heart** of damage. After the first sting, the thorns are stained with blood.
+- Taking the item from a bloodstained pedestal grows a collectible from the {{ItemPoolUltraSecret}} Ultra Secret Room pool. Each pedestal can trigger this once.
+- Even after the item is taken, the thorns remain on the pedestal and keep dealing damage.
 
-The first time a bloodstained pedestal becomes empty, blood condenses into a new collectible from the {{ItemPoolUltraSecret}} Ultra Secret Room pool. Each pedestal can produce only one reward, and its thorns remain after the reward is taken.
+## Traits
 
-## Notes
+- Thorn damage does not reduce Devil Room or Angel Room chance.
+- Thorns are attached to the pedestal and do not disappear when the item is rerolled (for example with {{Collectible:105}} the D6) or when leaving the room. Existing thorns also remain after Crown of Thorns is lost.
 
-- Thorn damage does not reduce Devil Room or Angel Room chances, but it still triggers on-hit effects and can be fatal. If it kills the player, the original item is not collected.
-- Thorns remain after rerolling an item with {{Collectible:105}} or leaving the room. Losing Crown of Thorns does not remove existing thorns.
-- Shop, Devil Deal, and other special pedestals cannot initially grow thorns. They may become eligible if they return to a standard appearance.
-- A bloodstained pedestal must still exist to produce its reward. Removing the pedestal entirely prevents the reward from appearing.
+## Trivia
+
+- The name references {{Collectible:7}} Blood of the Martyr (also called Crown of Thorns in Chinese) from vanilla *The Binding of Isaac*, but the effect is unrelated.
+- The thorn-and-flower visuals partly draw on the Yu-Gi-Oh! Azamina series (official Simplified Chinese: 圣徒; also known as 蓟花). Both share Christian religious imagery and a thematic link to the crown of thorns worn at the Passion.

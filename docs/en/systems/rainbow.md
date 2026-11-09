@@ -7,7 +7,7 @@ description: A shared visual language and design classification in Glaze Ceremon
 
 “Rainbow” is a special visual and design classification in Glaze Ceremony. Its items are usually connected to a particular mental illness, mental state, or cognitive experience, and many appear as rewards for mod characters defeating Delirium.
 
-Rainbow items currently have **no shared set bonus or common combat mechanic**. The name primarily describes their visual theme, design relationship, and usual unlock context; each item's own page remains authoritative for its effect and unlock condition.
+The name primarily describes their visual theme, design relationship, and usual unlock context; each item's own page remains authoritative for its effect and unlock condition.
 
 ## Visual language
 
@@ -21,20 +21,13 @@ Many Rainbow items begin with a thematically related vanilla item and redraw its
 | {{Item:procrastination}} | {{Collectible:260}} | Turns postponing the boss fight into permanent damage. |
 | {{Item:mental-disorder}} | {{Collectible:402}} | Chaos disrupts the order of item pools; Mental Disorder disrupts the player's perception of the room's “facts”. |
 | {{Item:mental-hypnosis}} | {{Collectible:13}} | Syringe-set injection imagery; Mental Hypnosis turns special-room visits into orders you must obey. |
-| {{Item:memory}} | — | Later rolls keep returning to items you already hold; no vanilla visual basis. |
-| {{Item:hypermnesia}} | — | Rewards duplicate copies as a follow-up outlet for Memory; no vanilla visual basis. |
-
-This list contains only entries confirmed to belong to the Rainbow classification. It is not a list of every item with a colourful sprite.
+| {{Item:memory}} | Original art | Later rolls keep returning to items you already hold. |
+| {{Item:hypermnesia}} | Original art | Rewards duplicate copies as a follow-up outlet for Memory. |
+| {{Item:isolation}} | Original art | Uses clique exclusion to express isolation. |
 
 ## Unlocks
 
 Rainbow items are often unlock rewards for a mod character defeating Delirium, but this is not a rule followed by every Rainbow item. The exact unlock condition is shown in each item's infobox.
-
-## Future direction
-
-::: warning Not implemented
-Rainbow items may eventually develop a more explicit family or set relationship. The current version grants no extra bonus for the classification, and owning several Rainbow items should not be treated as an implemented set.
-:::
 
 <details>
 <summary>Technical details</summary>

@@ -35,6 +35,6 @@ When Paranoia itself is sold in a shop, its price is at least equal to your curr
 
 ## Trivia
 
-Paranoia belongs to the [Rainbow](/en/systems/rainbow) classification.
+Paranoia belongs to the {{System:rainbow}} classification.
 
 Its art references {{Collectible:105}} the D6; the Desc “There is a dice” matches that gag.

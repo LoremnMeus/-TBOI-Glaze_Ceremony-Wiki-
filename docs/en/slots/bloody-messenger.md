@@ -14,34 +14,32 @@ status: featured
 
 ## Effects
 
-The Bloody Messenger trades health for red-exploration rewards. Normal red-heart players pay half their red hearts for the **strong** table; soul-style players always use the **weak** table.
+**Bloody Messenger takes health and grants random Ultra Secret–related rewards.**
 
-## Payment
+Walking into the messenger starts a trade. Cost and rewards depend on the player's health type:
 
-Walk into the messenger to pay.
-
-| Player | Cost | Table |
+| Player | Cost | Rewards |
 | --- | --- | --- |
-| Normal with red hearts | Half current red hearts (floor in half-heart units), keeping at least half a red heart; cannot pay with only half a heart left | Strong |
-| Soul-style with red hearts | Same red half-pay | Weak |
-| Soul-style with no red | Real half-heart damage (blocked if too low) | Weak |
-| Normal with no red | Cannot trade | — |
+| Normal characters | Pay half their red hearts (floored), keeping at least half a red heart | Always get a reward, with a **30%** chance of a second different reward |
+| Soul-heart characters | Lose half a heart | May get nothing |
+
+Normal characters cannot trade without enough red hearts. Soul-heart characters do not get the extra-reward chance normal characters have.
 
 ## Rewards
 
-Weak rolls have an extra **30%** chance to pay nothing before the prize roll.
+Possible rewards:
 
-| Outcome | Weak weight | Strong weight | Notes |
-| --- | ---: | ---: | --- |
-| Nothing | 40 | — | Strong never rolls empty |
-| Extra Ultra Secret next floor | 15 | 30 | Granted on floor entry; about 2 extra grants per run max |
-| {{Card:78}} Cracked Key | 25 | 40 | Dropped immediately |
-| Ultra Secret pool item | 20 | 30 | Spawns an item, then the messenger leaves |
+| Reward | Effect |
+| --- | --- |
+| {{UltraSecretRoom}} Extra Ultra Secret Room | Spawns an extra Ultra Secret Room on the next floor; at most **2** per run |
+| {{Card:78}} | Drops a Cracked Key |
+| Ultra Secret pool item | Spawns an item from the Ultra Secret pool, then the messenger leaves |
+| Nothing | Only possible for soul-heart characters |
 
-Strong has a **30%** chance to roll a second different reward.
-
-Cracked Key / extra Ultra Secret usually keep the messenger available; only the Ultra Secret item ends the encounter.
+After a Cracked Key or an extra Ultra Secret Room, you can trade with the messenger again.
 
 ## Appearance
 
-With {{Item:bloody-map}}, first entry into a Red Secret Room can spawn one: about **40% × copies held** (capped at 100%).
+With {{Item:bloody-map}}, the messenger may appear on first entry into an Ultra Secret Room.
+
+Each copy of Bloody Map adds **40%** spawn chance, up to **100%**.

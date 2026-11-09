@@ -12,17 +12,13 @@ status: reviewed
 
 ## Mechanics
 
-
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
-
 ## Effects
 
-**Cup Cat grants 1 Heart Container; with any other Guppy item, each Cup Cat also pays a soul heart and spawns a card or rune.**
+- {{Heart}} Gain **1** heart container.
+- While holding any other {{Guppy}} item, also gain **1** {{SoulHeart}} soul heart and spawn a random card or rune.
 
-- {{Heart}} **+1** Heart Container
-- With any other {{Guppy}} item: +1 {{SoulHeart}} and 1 random card or rune
-- Once per Cup Cat; rewards still pay out if Cup Cat is picked first and the Guppy condition is met later
+Each Cup Cat can trigger the bonus once. Even if Cup Cat is picked up first, the bonus still triggers when another Guppy item is obtained later.
 
 ## Trivia
 
-- Art is taken from Cupcat in Yu-Gi-Oh! Patissciel (黯蜜); the in-mod effect uses an independent design.
+- The item art is taken from Cupcat in the Yu-Gi-Oh! Patissciel series.

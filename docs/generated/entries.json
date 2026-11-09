@@ -2245,6 +2245,17 @@
     "png": "/generated/images/icon-atlas.png",
     "tile": 32
   },
+  "systemIconCycles": {
+    "rainbow": [
+      "destiny-anchor",
+      "procrastination",
+      "mental-disorder",
+      "mental-hypnosis",
+      "memory",
+      "hypermnesia",
+      "isolation"
+    ]
+  },
   "entries": [
     {
       "slug": "darkness",
@@ -19903,8 +19914,8 @@
         "en": "I'll do it soon..."
       },
       "eid": {
-        "zh": "{{Timer}} 每30秒永久获得{{Damage}} +0.1攻击；每层最多+1#{{BossRoom}} 击杀Boss后本层停止增长；Boss存活时房门保持开启",
-        "en": "{{Timer}} Permanently gain {{Damage}} +0.1 every 30 seconds, up to +1 per floor#{{BossRoom}} Killing a boss stops growth for this floor; doors stay open while a boss is alive"
+        "zh": "{{Timer}} 每30秒获得{{Damage}} +0.1攻击；每层最多+1#{{BossRoom}} 击杀Boss后本层停止增长；Boss存活时房门保持开启",
+        "en": "{{Timer}} Gain {{Damage}} +0.1 every 30 seconds, up to +1 per floor#{{BossRoom}} Killing a boss stops growth for this floor; doors stay open while a boss is alive"
       },
       "seijaBuff": {
         "zh": "",
@@ -21649,8 +21660,8 @@
         "en": "Guess who wasn't invited?"
       },
       "eid": {
-        "zh": "#本局有10个随机道具组成小团体#遇到其中任意一个时，可以从全部10个道具中选择一件#选择后，孤立会被留下，并拒绝再次被拾取",
-        "en": "#10 random items form a clique each run#Encountering any member lets you choose one of all 10#After choosing, Isolation is left behind and cannot be picked up again"
+        "zh": "#本局随机10件道具组成排挤孤立的小团体#遇见其中任意成员时，可从全部10件道具中选择1件#选择后加入小团体，孤立会被排挤出去，且无法再次拾取",
+        "en": "#Each run, 10 random items form a clique that keeps Isolation out#Encountering any member lets you choose 1 of all 10#Choosing one joins the clique; Isolation is pushed out and cannot be picked up again"
       },
       "seijaBuff": {
         "zh": "",
@@ -21915,16 +21926,16 @@
         "en": "Stars follow their courses"
       },
       "eid": {
-        "zh": "#沿屏幕内侧运行，经过不同区域时获得临时增益#经过资源、生命和地图区域时，获得对应的特殊效果",
-        "en": "#Runs along the inner HUD track, granting brief boosts by region#Resources, hearts, and the map grant matching special effects"
+        "zh": "#沿屏幕内侧运行，经过不同区域时获得临时增益#经过资源、生命和地图区域时，获得对应的特殊效果#经过主动道具、被动道具或饰品时，暂时强化对应效果",
+        "en": "#Runs along the inner HUD track, granting brief boosts by region#Resources, hearts, and the map grant matching special effects#Actives, passives, and trinkets are briefly amplified when passed"
       },
       "seijaBuff": {
         "zh": "",
         "en": ""
       },
       "seijaNerf": {
-        "zh": "",
-        "en": ""
+        "zh": "经过时间区域时，游戏时间加速，计都星缓慢移动",
+        "en": "While over the time region, game time accelerates and Ketu moves slowly"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -22055,8 +22066,8 @@
         "en": "The shadow that swallows stars"
       },
       "eid": {
-        "zh": "#沿屏幕外侧逆行，经过不同区域时暂时削弱或封印对应效果#吸收的资源会转化为持续攻击",
-        "en": "#Runs the outer HUD track in reverse, briefly weakening or sealing what it passes#Sealed resources become continuous star attacks"
+        "zh": "#沿屏幕外侧逆行，经过不同区域时暂时削弱或封印对应效果#封印的资源会转化为持续攻击#经过主动道具、被动道具或饰品时，暂时封印其效果并转化为攻击",
+        "en": "#Runs the outer HUD track in reverse, briefly weakening or sealing what it passes#Sealed resources become continuous attacks#Actives, passives, and trinkets are briefly sealed and converted into attacks"
       },
       "seijaBuff": {
         "zh": "",
@@ -22731,8 +22742,8 @@
         "en": "A Divine Flame in Reverse"
       },
       "eid": {
-        "zh": "按住攻击蓄力，松开后喷火 3 秒#{{Damage}} 火焰每 0.2 秒造成 0.5 倍攻击伤害，并引燃敌人（燃烧伤害为 0.25 倍攻击力）",
-        "en": "Hold fire to charge, then release to breathe fire for 3 seconds#{{Damage}} Flames deal 0.5× damage every 0.2 seconds and ignite enemies (burn damage is 0.25× damage)"
+        "zh": "按住攻击蓄力，松开后喷火 3 秒#{{Damage}} 火焰每 0.2 秒造成 0.5 倍攻击伤害，并引燃敌人",
+        "en": "Hold fire to charge, then release to breathe fire for 3 seconds#{{Damage}} Flames deal 0.5× damage every 0.2 seconds and ignite enemies"
       },
       "seijaBuff": {
         "zh": "",
@@ -22772,6 +22783,125 @@
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
         "x": 160,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "entombed-demon",
+      "kind": "collectible",
+      "internalKey": "Entombed_Demon",
+      "remasterStatus": "new",
+      "xmlId": 187,
+      "xmlName": "Entombed Demon",
+      "itemType": "passive",
+      "quality": 4,
+      "tags": [
+        "devil"
+      ],
+      "pools": [
+        {
+          "id": "devil",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "demonBeggar",
+          "weight": 0.5,
+          "decreaseBy": 0.5,
+          "removeOn": 0.05
+        },
+        {
+          "id": "greedDevil",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "棺中之魔",
+        "en": "Entombed Demon"
+      },
+      "desc": {
+        "zh": "他如死不能知足",
+        "en": "Like death, never satisfied"
+      },
+      "eid": {
+        "zh": "每层吞噬此后获得的最早一件道具#前4次吞噬各封存一件恶魔房道具#每次吞噬都会生成所有已封存的道具",
+        "en": "Each floor, devours the earliest item acquired afterward#The first 4 sacrifices each seal a Devil Room item#Each sacrifice spawns all sealed items"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/entombed-demon.png",
+      "thumb32": "/generated/images/entombed-demon_32.webp",
+      "thumb32Png": "/generated/images/entombed-demon_32.png",
+      "thumb64": "/generated/images/entombed-demon_64.webp",
+      "thumb64Png": "/generated/images/entombed-demon_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 192,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22879,7 +23009,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 288,
         "w": 32,
         "h": 32
@@ -22987,7 +23117,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23105,7 +23235,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23213,7 +23343,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23321,7 +23451,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23429,7 +23559,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23537,7 +23667,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23645,7 +23775,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23753,7 +23883,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23861,8 +23991,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 288,
+        "x": 0,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -23969,7 +24099,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24077,7 +24207,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24185,7 +24315,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24293,7 +24423,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24401,7 +24531,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24509,7 +24639,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24614,7 +24744,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24729,7 +24859,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24844,7 +24974,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24964,7 +25094,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25097,7 +25227,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25230,7 +25360,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25363,7 +25493,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25483,7 +25613,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25603,7 +25733,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25723,8 +25853,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25843,7 +25973,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 352,
         "w": 32,
         "h": 32
@@ -25963,7 +26093,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26083,7 +26213,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26203,7 +26333,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26323,7 +26453,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26443,7 +26573,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26573,7 +26703,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26693,7 +26823,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26813,7 +26943,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26933,7 +27063,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27053,7 +27183,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27173,7 +27303,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27311,7 +27441,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27449,7 +27579,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27587,7 +27717,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27707,8 +27837,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27827,7 +27957,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 384,
         "w": 32,
         "h": 32
@@ -27947,7 +28077,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28062,7 +28192,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28182,7 +28312,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28302,7 +28432,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28422,7 +28552,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28542,7 +28672,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28662,7 +28792,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28782,7 +28912,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28902,7 +29032,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29022,7 +29152,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29142,7 +29272,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29272,7 +29402,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29392,7 +29522,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29530,7 +29660,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29663,8 +29793,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29796,7 +29926,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29916,7 +30046,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30036,7 +30166,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30156,7 +30286,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30294,7 +30424,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30432,7 +30562,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30570,7 +30700,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30690,7 +30820,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30810,7 +30940,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30930,7 +31060,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31050,7 +31180,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31175,7 +31305,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31300,7 +31430,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31425,7 +31555,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31545,7 +31675,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31665,8 +31795,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -31785,7 +31915,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31905,7 +32035,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32025,7 +32155,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32145,7 +32275,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35121,7 +35251,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35291,7 +35421,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35461,7 +35591,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35631,7 +35761,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35801,7 +35931,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35971,7 +36101,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36141,7 +36271,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36311,7 +36441,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36491,7 +36621,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36589,7 +36719,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36675,22 +36805,14 @@
         "en": ""
       },
       "icon": "/generated/images/bard-beggar.png",
-      "thumb32": "/generated/images/bard-beggar_32.webp",
-      "thumb32Png": "/generated/images/bard-beggar_32.png",
-      "thumb64": "/generated/images/bard-beggar_64.webp",
-      "thumb64Png": "/generated/images/bard-beggar_64.png",
+      "thumb32": "/generated/images/bard-beggar.png",
+      "thumb32Png": null,
+      "thumb64": "/generated/images/bard-beggar.png",
+      "thumb64Png": null,
       "portrait": null,
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 448,
-        "y": 448,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -36773,22 +36895,14 @@
         "en": ""
       },
       "icon": "/generated/images/rift-beggar.png",
-      "thumb32": "/generated/images/rift-beggar_32.webp",
-      "thumb32Png": "/generated/images/rift-beggar_32.png",
-      "thumb64": "/generated/images/rift-beggar_64.webp",
-      "thumb64Png": "/generated/images/rift-beggar_64.png",
+      "thumb32": "/generated/images/rift-beggar.png",
+      "thumb32Png": null,
+      "thumb64": "/generated/images/rift-beggar.png",
+      "thumb64Png": null,
       "portrait": null,
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 448,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -36871,22 +36985,14 @@
         "en": ""
       },
       "icon": "/generated/images/time-beggar.png",
-      "thumb32": "/generated/images/time-beggar_32.webp",
-      "thumb32Png": "/generated/images/time-beggar_32.png",
-      "thumb64": "/generated/images/time-beggar_64.webp",
-      "thumb64Png": "/generated/images/time-beggar_64.png",
+      "thumb32": "/generated/images/time-beggar.png",
+      "thumb32Png": null,
+      "thumb64": "/generated/images/time-beggar.png",
+      "thumb64Png": null,
       "portrait": null,
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 0,
-        "y": 480,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -36969,22 +37075,14 @@
         "en": ""
       },
       "icon": "/generated/images/bloody-messenger.png",
-      "thumb32": "/generated/images/bloody-messenger_32.webp",
-      "thumb32Png": "/generated/images/bloody-messenger_32.png",
-      "thumb64": "/generated/images/bloody-messenger_64.webp",
-      "thumb64Png": "/generated/images/bloody-messenger_64.png",
+      "thumb32": "/generated/images/bloody-messenger.png",
+      "thumb32Png": null,
+      "thumb64": "/generated/images/bloody-messenger.png",
+      "thumb64Png": null,
       "portrait": null,
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 32,
-        "y": 480,
-        "w": 32,
-        "h": 32
       }
     },
     {
@@ -37067,24 +37165,16 @@
         "en": ""
       },
       "icon": "/generated/images/qing-diamond-merchant.png",
-      "thumb32": "/generated/images/qing-diamond-merchant_32.webp",
-      "thumb32Png": "/generated/images/qing-diamond-merchant_32.png",
-      "thumb64": "/generated/images/qing-diamond-merchant_64.webp",
-      "thumb64Png": "/generated/images/qing-diamond-merchant_64.png",
+      "thumb32": "/generated/images/qing-diamond-merchant.png",
+      "thumb32Png": null,
+      "thumb64": "/generated/images/qing-diamond-merchant.png",
+      "thumb64Png": null,
       "portrait": null,
       "aliases": {
         "zh": [],
         "en": []
-      },
-      "atlas": {
-        "webp": "/generated/images/icon-atlas.webp",
-        "png": "/generated/images/icon-atlas.png",
-        "x": 64,
-        "y": 480,
-        "w": 32,
-        "h": 32
       }
     }
   ],
-  "generatedAt": "2026-11-08T11:34:29Z"
+  "generatedAt": "2026-11-09T12:02:22Z"
 }

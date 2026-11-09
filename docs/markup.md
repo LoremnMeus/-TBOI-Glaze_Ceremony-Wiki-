@@ -64,6 +64,7 @@
 {{Pickup:glaze-heart-half}}
 {{System:thoth-cards}}
 {{System:special-destinations|特殊目的地}}
+{{System:rainbow}}
 {{QingPlayer:wq}}
 {{QingCollectible:Gospel}}
 {{Dullize}} {{ThothCard}} {{Seija}}

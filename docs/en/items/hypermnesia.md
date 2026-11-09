@@ -34,7 +34,7 @@ While held, it totals **extra copies** across your inventory (the first copy of 
 
 - Duplicate count combines **all players** in co-op (same scope as Memory's candidate pool).
 - Quest items are excluded from the count.
-- Hypermnesia is a [Rainbow](/en/systems/rainbow) item with no vanilla icon basis.
+- Hypermnesia is a {{System:rainbow}} item with no vanilla icon basis.
 
 <details>
 <summary>Technical details</summary>

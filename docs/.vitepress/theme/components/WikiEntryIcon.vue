@@ -1,7 +1,8 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onUnmounted, ref, watch } from 'vue'
 import { useData, withBase } from 'vitepress'
 import catalog from '../../../generated/entries.json'
+import rainbowMd from '../../../systems/rainbow.md?raw'
 
 const KIND_DIR = {
   collectible: 'items',
@@ -25,11 +26,34 @@ const SYSTEMS = {
   'permanent-effects': { zh: '永久', en: 'Permanent Effects' },
 }
 
+const CYCLE_MS = 1000
+
+function parseRainbowSlugs(md) {
+  const text = String(md || '')
+  const heading = text.match(/^##\s+当前条目\s*$/m)
+  let section = text
+  if (heading && heading.index != null) {
+    const rest = text.slice(heading.index + heading[0].length)
+    const next = rest.match(/^##\s+/m)
+    section = next && next.index != null ? rest.slice(0, next.index) : rest
+  }
+  const slugs = []
+  for (const match of section.matchAll(/\{\{\s*Item:\s*([A-Za-z0-9_-]+)\s*\}\}/g)) {
+    const slug = String(match[1] || '').trim().toLowerCase()
+    if (slug && !slugs.includes(slug)) slugs.push(slug)
+  }
+  return slugs
+}
+
+const RAINBOW_SLUGS = parseRainbowSlugs(rainbowMd)
+
 const props = defineProps({
   name: { type: String, required: true },
 })
 
 const { lang } = useData()
+const cycleIndex = ref(0)
+let cycleTimer = null
 
 const parsed = computed(() => {
   const raw = (props.name || '').trim()
@@ -73,10 +97,59 @@ const label = computed(() => {
   return row.names?.zh || row.names?.en || row.internalKey
 })
 
+const cycleSources = computed(() => {
+  const row = parsed.value.row
+  if (!row || row.kind !== 'system') return []
+  const slugs =
+    row.slug === 'rainbow'
+      ? (RAINBOW_SLUGS.length ? RAINBOW_SLUGS : catalog.systemIconCycles?.rainbow || [])
+      : catalog.systemIconCycles?.[row.slug] || []
+  if (!slugs.length) return []
+  const rows = catalog.entries || []
+  return slugs
+    .map((slug) => {
+      const entry = rows.find((item) => item.slug === slug)
+      if (!entry) return ''
+      return withBase(entry.thumb32 || entry.icon || entry.portrait || '')
+    })
+    .filter(Boolean)
+})
+
 const src = computed(() => {
   const row = parsed.value.row
   if (!row) return ''
+  if (cycleSources.value.length) {
+    return cycleSources.value[cycleIndex.value % cycleSources.value.length] || ''
+  }
+  // Slots: prefer full / 64px composites; CSS still draws at 32px.
+  if (row.kind === 'slot') {
+    return withBase(row.icon || row.thumb64 || row.thumb32 || row.portrait || '')
+  }
   return withBase(row.thumb32 || row.icon || row.portrait || '')
+})
+
+function clearCycleTimer() {
+  if (cycleTimer) {
+    clearInterval(cycleTimer)
+    cycleTimer = null
+  }
+}
+
+watch(
+  cycleSources,
+  (sources) => {
+    clearCycleTimer()
+    cycleIndex.value = 0
+    if (sources.length <= 1) return
+    cycleTimer = setInterval(() => {
+      cycleIndex.value = (cycleIndex.value + 1) % sources.length
+    }, CYCLE_MS)
+  },
+  { immediate: true },
+)
+
+onUnmounted(() => {
+  clearCycleTimer()
 })
 </script>
 
@@ -89,22 +162,33 @@ const src = computed(() => {
 </template>
 
 <style scoped>
+/* Keep label on the surrounding text baseline. Do not use inline-flex +
+   align-items:center — that vertically centers the label with the 32px icon
+   and lifts the link text above neighboring copy. */
 .wiki-entry-icon {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.2rem;
-  margin: 0 0.12em;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
   text-decoration: none;
   white-space: nowrap;
-  vertical-align: middle;
   max-width: 100%;
 }
 .wiki-entry-icon img {
-  display: inline-block;
+  display: inline;
   width: 32px;
   height: 32px;
-  flex: 0 0 32px;
+  margin: 0 0.2rem 0 0;
+  padding: 0;
+  border: 0;
   image-rendering: pixelated;
   vertical-align: middle;
+}
+.wiki-entry-icon > span {
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
 }
 </style>

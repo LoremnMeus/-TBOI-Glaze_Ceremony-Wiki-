@@ -45,7 +45,7 @@ False item effects only duplicate passive or familiar items the player already o
 
 ## Trivia
 
-Mental Disorder belongs to the [Rainbow](/en/systems/rainbow) classification, and its sprite was redrawn from {{Collectible:402}}.
+Mental Disorder belongs to the {{System:rainbow}} classification, and its sprite was redrawn from {{Collectible:402}}.
 
 <details>
 <summary>Technical details</summary>

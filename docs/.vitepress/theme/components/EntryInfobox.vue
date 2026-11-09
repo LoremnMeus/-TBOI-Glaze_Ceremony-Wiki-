@@ -140,6 +140,32 @@ function wikiKind(kind) {
   return kind === 'collectible' ? 'Item' : kind[0].toUpperCase() + kind.slice(1)
 }
 
+const unlockChallenge = computed(() => {
+  const unlock = props.entry.unlock
+  if (!unlock) return null
+  const key = String(unlock.conditionKey || '').trim()
+  const zoneKey = String(unlock.zone || '').replace(/^SpecialUnlock::/i, '').trim()
+  if (!key && !zoneKey) return null
+  return (catalog.entries || []).find((row) => {
+    if (row.kind !== 'challenge') return false
+    const internal = String(row.internalKey || '')
+    return (key && internal === key) || (zoneKey && internal === zoneKey)
+  }) || null
+})
+
+const unlockChallengeHref = computed(() => {
+  const challenge = unlockChallenge.value
+  if (!challenge) return ''
+  const prefix = en.value ? '/en' : ''
+  return withBase(`${prefix}/challenges/${challenge.slug}`)
+})
+
+const unlockLabel = computed(() => {
+  const unlock = props.entry.unlock
+  if (!unlock) return ''
+  return unlock.text?.[props.lang] || unlock.conditionKey || ''
+})
+
 function pocketTypeLabel(type) {
   if (!type) return ''
   const row = POCKET_TYPE_LABELS[type]
@@ -258,7 +284,10 @@ function pocketTypeLabel(type) {
       <template v-if="entry.unlock">
         <dt>{{ en ? 'Unlock' : '解锁条件' }}</dt>
         <dd>
-          <div>{{ entry.unlock.text?.[lang] || entry.unlock.conditionKey }}</div>
+          <div>
+            <a v-if="unlockChallenge" :href="unlockChallengeHref">{{ unlockLabel }}</a>
+            <template v-else>{{ unlockLabel }}</template>
+          </div>
           <div v-if="entry.unlock.siblings?.length" class="entry-infobox__siblings">
             <small>{{ en ? 'Also unlocks:' : '同条件还可解锁：' }}</small>
             <div class="entry-infobox__icons">

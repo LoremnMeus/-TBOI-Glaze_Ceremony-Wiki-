@@ -61,7 +61,7 @@ When absorbed by Abyss, it becomes a colorful locust.
 
 ## Trivia
 
-- Rainbow item.
+- Belongs to the {{System:rainbow}} classification.
 
 <details>
 <summary>Technical details</summary>

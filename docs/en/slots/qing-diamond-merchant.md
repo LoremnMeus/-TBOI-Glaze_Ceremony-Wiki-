@@ -14,27 +14,26 @@ status: featured
 
 ## Effects
 
-The Diamond Merchant closes the loop for {{Item:qings-faceted-market-diamond}}: sell a held Diamond at a self-chosen price; that sale also becomes the Diamond's future shop price across runs.
+**The Diamond Merchant buys {{Item:qings-faceted-market-diamond}} at a price you set, and {{System:permanent-effects|permanently}} changes the Diamond's shop price.**
 
 ## How to trade
 
-With a Diamond in a shop, approach the merchant to raise it and show a two-digit price.
+While holding a Diamond, approach the merchant to raise it and show a sale price overhead.
 
-- Left/right selects ones / tens digit;
-- Up/down adjusts the active digit (0–9 each; total **0–99¢**);
-- Leave overlap, then walk back in to confirm;
-- Drop cancels; leaving range also cancels.
+- **Left / Right**: select the tens or ones digit.
+- **Up / Down**: adjust the digit; price range is **0–99¢**.
+- **Touch the merchant**: confirm the sale.
+- **Drop**: cancel the trade.
 
-## After a sale
+After a sale, lose one Diamond and gain that many coins.
 
-1. Lose 1 Diamond and gain the agreed coins;
-2. If it was the last Diamond, the permanent shop price becomes this sale price (may be 0);
-3. If more Diamonds remain, the shop price only rises to at least this sale price.
+## Price changes
 
-The merchant stays while Diamonds remain; after the last sale with none left, they leave.
+- When selling your last Diamond, the Diamond's shop price permanently becomes the sale price.
+- When other Diamonds remain after a sale, the shop price only rises if the sale price is higher.
 
-Leaving a shop without buying a Diamond pedestal halves the permanent price once (minimum 1¢). Full item rules: {{Item:qings-faceted-market-diamond}}.
+You can keep trading while you still hold Diamonds.
 
 ## Appearance
 
-Shops only. When someone holds a Diamond, each shop has a **50%** chance to spawn the merchant.
+While holding a Diamond, shops have a **50%** chance to spawn a Diamond Merchant.

@@ -14,19 +14,24 @@ status: drafted
 
 ## Effects
 
-Alien Savior calls a UFO when the player is in repeated danger. The first hit sends an SOS; the second hit is blocked, and the UFO clears threats from the room.
+**In an uncleared combat room, the first enemy hit sends an SOS; a second hit summons a UFO that blocks the damage and starts a rescue.**
 
-In an uncleared combat room, the first enemy hit sends an SOS. That hit still deals normal damage. If the player takes enemy damage again in the same room, a UFO appears and blocks that hit.
+The UFO picks up the player, clears threats from the room, then returns the player.
 
-The UFO picks the player up, then pulls enemy projectiles, normal enemies, rocks, and poop into a beam of light. Bosses are not sucked away; they and any remaining enemies are hit by the UFO's lasers. After the rescue, the UFO returns the player to the room.
+## Rescue
 
-Each rescue temporarily cuts communications. Clear 3 other distinct combat rooms to call the UFO again. Communications also restore when entering a new floor.
+- The UFO sucks up enemy projectiles, normal enemies, rocks, and poop.
+- Bosses and other unsuckable enemies are hit by the UFO's lasers.
+- Floor items and pickups are not sucked up.
 
-After a rescue, the player temporarily wears an Alien Head costume until the UFO can be called again.
+After the rescue, alien antennae appear on the player's head until communications restore.
 
-## Notes
+## Communications cooldown
 
-- The SOS only lasts in the current room. After leaving, another first hit is needed to send a new SOS.
-- Damage taken during cooldown does not start a new SOS.
-- The UFO does not suck up floor pickups or items.
-- Protected friendly units are not treated as normal enemies and are not sucked away.
+After each rescue, clear **3** other distinct combat rooms before calling again. Entering a new floor also restores communications.
+
+The SOS only lasts in the current room; after leaving, it must be sent again.
+
+## Trivia
+
+The alien antennae that appear after the UFO returns the player homage a scene from episode 12, “Celestial Observation,” of the *BanG Dream!* mini-series *Ganso! BanG Dream Chan*: Wakaba Mutsumi is abducted by an alien UFO and comes back with antennae on her head. Source: [episode 12](https://www.youtube.com/watch?v=UdBDYSPSq4s).

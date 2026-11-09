@@ -19,7 +19,7 @@ flavorSource: "John 6:39"
 
 **Regenesis** spawns a familiar that remembers things you lose.
 
-After combat rooms are cleared, the familiar gradually spits the remembered losses back out. Each loss keeps its own recovery progress. A new loss does not clear progress already accumulated by older losses.
+After combat rooms are cleared, the familiar gradually spits the remembered losses back out. Each loss tracks its own recovery progress, and new losses do not affect earlier recovery.
 
 | Loss | Combat rooms |
 | --- | ---: |
@@ -29,7 +29,7 @@ After combat rooms are cleared, the familiar gradually spits the remembered loss
 | Quality 0–2 items | 3 |
 | Quality 3–4 items | 4 |
 
-The most recently remembered loss is restored first. Multiple Regenesis familiars share one memory and recover different losses at the same time. Owning more familiars never advances the same loss more than once in a single room.
+The most recently remembered loss is restored first. Multiple Regenesis familiars can recover different losses at the same time, but they do not speed up recovery of the same loss.
 
 Regenesis remembers at most 12 losses at once.
 
@@ -64,12 +64,10 @@ Losses already remembered by the familiar are not erased if Regenesis itself is 
 
 Some recent losses can also remain temporarily remembered on the current floor while Regenesis is absent, allowing them to be picked up by the familiar if Regenesis is obtained again.
 
-These rules mainly preserve continuity when the item is lost and regained and do not change its normal use.
-
 ## Trivia
 
-- The flavor text, **“Not one will be lost,”** is taken from John 6:39, where what has been given is not to be lost, but raised again on the last day.
-- The name **Regenesis** also echoes the “restoration of all things” described in Acts 3:21.
+- The name comes from the Yu-Gi-Oh! Regenesis archetype and its Normal Spell Card 「再世记」 (Regenesis).
+- The flavor text “Not one will be lost” is taken from John 6:39, echoing the verse’s wording about not losing what was entrusted.
 
 <details>
 <summary>Technical details</summary>

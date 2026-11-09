@@ -51,7 +51,7 @@ status: featured
 
 ## 轶事
 
-精神失序属于[彩虹](/systems/rainbow)道具，贴图以 {{Collectible:402}} 为原型重新绘制。
+精神失序属于 {{System:rainbow}} 道具，贴图以 {{Collectible:402}} 为原型重新绘制。
 
 <details>
 <summary>技术细节</summary>

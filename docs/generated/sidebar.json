@@ -646,6 +646,10 @@
           {
             "text": "焚火",
             "link": "/items/incandescence-flame"
+          },
+          {
+            "text": "棺中之魔",
+            "link": "/items/entombed-demon"
           }
         ]
       }
@@ -1837,6 +1841,10 @@
           {
             "text": "Incandescence Flame",
             "link": "/en/items/incandescence-flame"
+          },
+          {
+            "text": "Entombed Demon",
+            "link": "/en/items/entombed-demon"
           }
         ]
       }

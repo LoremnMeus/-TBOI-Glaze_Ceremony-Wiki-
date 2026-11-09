@@ -34,7 +34,7 @@ status: reviewed
 
 - 重复份数按**所有玩家**的持有情况合计（与回忆的候选池范围一致）。
 - 任务道具不计入重复统计。
-- 超忆症属于[彩虹](/systems/rainbow)道具，但没有以原版道具为贴图原型。
+- 超忆症属于 {{System:rainbow}} 道具，但没有以原版道具为贴图原型。
 
 <details>
 <summary>技术细节</summary>

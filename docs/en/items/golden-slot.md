@@ -14,43 +14,17 @@ status: featured
 
 ## Effects
 
-**Each use of Golden Slot spends 1 coin on a draw.**
+**Each use costs 1 {{Coin}} coin and rolls for a golden reward. Consecutive misses gradually raise the win chance.**
 
-A miss grants nothing but raises the chance of later draws; a win clears the losing streak and returns the next draw to its minimum chance.
-
-Every reward is golden-themed, with a very small chance to produce a Mega Chest or Trophy.
-
-## How it works
-
-- Each use costs 1 coin.
-- The initial win chance is 10%.
-- Each consecutive miss adds 4 percentage points to the next draw.
-- Win chance is capped at 40%.
-- A win clears the streak and resets the next draw to 10%.
-
-The streak persists across rooms and floors for the entire run until a win. As it rises, the active-item icon gains a stronger golden halo and shake.
-
-## Win chance
-
-| Consecutive misses | Next draw |
-| ---: | ---: |
-| 0 | 10% |
-| 1 | 14% |
-| 2 | 18% |
-| 3 | 22% |
-| 4 | 26% |
-| 5 | 30% |
-| 6 | 34% |
-| 7 | 38% |
-| 8+ | 40% |
-
-After 8 misses the cap has been reached; further misses do not increase the chance.
+- The initial win chance is **10%**. Each miss adds **4** percentage points, up to **40%**.
+- After a win, the win chance resets to **10%**.
+- The losing streak persists across floors. As it grows, the item icon gains a stronger golden glow and shake.
 
 ## Rewards
 
-After a win, the reward is selected with the following probabilities:
+After a win, one of the following rewards is chosen at random:
 
-| Reward | Chance after winning |
+| Reward | Chance |
 | --- | ---: |
 | Midas fly | 24% |
 | Golden coin | 18% |
@@ -64,52 +38,28 @@ After a win, the reward is selected with the following probabilities:
 | Giant golden pill | 3% |
 | Special jackpot | 1% |
 
-## Special jackpot
-
-The special jackpot is 1% of winning rewards. It produces a Mega Chest 95% of the time and a Trophy 5% of the time; within a winning draw, those outcomes therefore represent 0.95% and 0.05%.
-
-| Current win chance | Mega Chest | Trophy |
-| ---: | ---: | ---: |
-| 10% | 0.095% | 0.005% (about 1 in 20,000) |
-| 40% | 0.38% | 0.02% (about 1 in 5,000) |
-
-These are final probabilities for the current use, not cumulative run-wide odds after earlier misses.
+The special jackpot has a **95%** chance to spawn a Mega Chest and a **5%** chance to spawn a Trophy.
 
 ## Special interactions
 
-#### {{Collectible:34}}
+### {{Collectible:34}}
 
-Each draw costs 2 coins. Win chance is unchanged; after a win, two candidate rewards are rolled and only the higher predefined tier is spawned—better reward quality, not an easier win, and not two rewards.
+Each draw costs **2** coins. On a win, two rewards are rolled and only the higher-value one is kept.
 
-#### {{Collectible:584}}
+### {{Collectible:584}}
 
-A miss creates a golden wisp, up to 3; a new one replaces the oldest. A wisp or its tear has a 12% chance to turn an enemy to gold for 90 frames. Wisps become larger and brighter with the losing streak, and a win removes all of them.
+Each miss creates a golden wisp, up to **3**.
 
-#### {{Collectible:356}}
+- When a golden wisp or its tear hits an enemy, there is a **12%** chance to turn that enemy to gold.
+- More misses make the golden wisps larger and brighter.
+- After a win, all golden wisps disappear.
 
-The extra activation does not perform a second draw or spend another coin.
+### {{Collectible:356}}
 
-## Details and edge cases
+Extra activations do not spend a coin or roll again.
 
-- With insufficient coins, no draw occurs, no money is spent, and the streak does not change.
-- In multiplayer, every Golden Slot shares the same run-wide losing streak. Any player's miss advances it and any player's win clears it.
+## Mechanics details
 
-<details>
-<summary>Technical details</summary>
-
-Book of Belial compares its two candidates with the following tiers. These values rank rewards and are not appearance weights.
-
-| Reward | Tier |
-| --- | ---: |
-| Midas fly | 10 |
-| Golden coin | 20 |
-| Golden heart | 30 |
-| Golden pill | 40 |
-| Golden battery | 50 |
-| Golden bomb / Golden key | 60 |
-| Golden troll bomb | 70 |
-| Giant golden pill | 80 |
-| Golden trinket | 90 |
-| Special jackpot | 100 |
-
-</details>
+- Win chance is based on consecutive misses: after **8** misses it reaches the **40%** cap.
+- All Golden Slots share the same losing streak, including in multiplayer.
+- With {{Collectible:34}}, rewards are compared by a preset value ranking; the special jackpot ranks highest.

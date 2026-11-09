@@ -61,7 +61,7 @@ status: reviewed
 
 ## 轶事
 
-- 彩虹道具。
+- 属于 {{System:rainbow}} 道具。
 
 <details>
 <summary>技术细节</summary>

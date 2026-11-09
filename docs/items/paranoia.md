@@ -35,6 +35,6 @@ status: reviewed
 
 ## 轶事
 
-妄想症属于[彩虹](/systems/rainbow)道具。
+妄想症属于 {{System:rainbow}} 道具。
 
 贴图参考 {{Collectible:105}} D6，风味文本「这里有个骰子」与此对应。

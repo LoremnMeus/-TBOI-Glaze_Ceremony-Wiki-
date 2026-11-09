@@ -72,7 +72,9 @@ const infoboxIconSrc = computed(() => {
   if (!row) return ''
   if (row.kind === 'challenge' && row.portrait) return row.portrait
   if (infoboxIconName.value) return ''
-  return row.kind === 'character' ? (row.portrait || row.icon) : (row.thumb64 || row.icon || row.portrait)
+  if (row.kind === 'character') return row.portrait || row.icon
+  if (row.kind === 'slot') return row.icon || row.thumb64 || row.portrait
+  return row.thumb64 || row.icon || row.portrait
 })
 
 </script>

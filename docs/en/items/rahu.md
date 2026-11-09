@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Rahu
 status: drafted
 ---
-<p class="wiki-search-index" v-pre>罗喉星 Rahu Rahu rahu Rahu 吞星之影 The shadow that swallows stars 沿屏幕外侧逆行，经过不同区域时暂时削弱或封印对应效果 吸收的资源会转化为持续攻击 Runs the outer HUD track in reverse, briefly weakening or sealing what it passes Sealed resources become continuous star attacks</p>
+<p class="wiki-search-index" v-pre>罗喉星 Rahu Rahu rahu Rahu 吞星之影 The shadow that swallows stars 沿屏幕外侧逆行，经过不同区域时暂时削弱或封印对应效果 封印的资源会转化为持续攻击 经过主动道具、被动道具或饰品时，暂时封印其效果并转化为攻击 Runs the outer HUD track in reverse, briefly weakening or sealing what it passes Sealed resources become continuous attacks Actives, passives, and trinkets are briefly sealed and converted into attacks</p>
 
 <PublicEntry slug="rahu" lang="en" />
 
@@ -14,40 +14,36 @@ status: drafted
 
 ## Effects
 
-**Rahu travels the outer HUD track in reverse. Unlike Ketu's boosts, it briefly weakens or seals the stats and resources of regions it passes, turning some of that into attacks.**
+**Rahu travels counterclockwise along the outer HUD track. As it passes different HUD regions, it briefly weakens or seals matching effects and turns some of them into attacks.**
 
-Region effects:
+- **Stats:** Lower the matching stat and attack enemies.
+- **Coins:** Briefly seal coins and keep firing coin tears.
+- **Keys:** Briefly seal keys and keep firing key tears.
+- **Bombs:** Briefly seal bombs and keep throwing bombs.
+- **Hearts:** Briefly seal some hearts and keep firing heart tears.
+- **Map:** Shade the map and attack with volleys shaped like rooms on the map.
+- **Devil and Angel room chance:** Lower the matching room chance and attack.
+- **Active item:** Briefly seal charge and spend that charge to fire the item's icon tears.
+- **Passive items:** Briefly seal the matching item and keep firing its icon tears.
+- **Trinkets:** Briefly seal the matching trinket and keep firing its icon tears.
 
-- **Stat regions**: Temporarily lower the matching stat and fire at enemies.
-- **Coin region**: Briefly seal held coins and keep firing coin tears.
-- **Key region**: Briefly seal held keys and keep firing key tears.
-- **Bomb region**: Briefly seal held bombs and keep throwing bombs.
-- **Heart region**: Briefly seal some heart containers/charges and keep firing heart tears.
-- **Map region**: Briefly shade the map and fire room-shaped volleys built from the current floor layout.
-- **Deal-chance regions**: Lower the matching Devil or Angel room chance and fire.
+When it passes an item or trinket, that icon turns purple. After Rahu leaves, seals and cuts linger briefly, then end.
 
-After Rahu leaves a region, seals and cuts linger briefly, then end.
-
-## Notes
-
-Rahu's attacks seek nearby enemies. Continuous fire pauses when no legal target is available.
-
-Sealing is not ordinary spending. When a seal ends, taken resources are restored according to that effect's rules.
-
-Map volleys use room shapes recorded while Rahu occupies the map region. Different rooms form matching formations.
-
-Companion stars are visual only: held Zodiac items are not removed from the player.
+Sealed resources are not spent outright; whatever was not converted into attacks is restored when the seal ends.
 
 ## Synergies
 
 ### Zodiac items
 
-Each held Zodiac item creates a matching companion trailing Rahu on the outer track.
+Each held Zodiac item becomes a companion that follows Rahu.
 
-Companions can also trigger region effects, so seals and attacks can chain across the HUD.
+Companions can also trigger seals and attacks along the track.
 
 ### {{Item:Ketu}}
 
-While both Ketu and Rahu are held, companions near a meeting point may transfer between the two orbits.
+While both Ketu and Rahu are held, companions near a meeting point may transfer between the two orbits and trigger the new orbit's effects.
 
-After a transfer, the companion switches from the previous boost or seal set to the new orbit's effects.
+## Trivia
+
+- “Rahu” comes from Indian mythology, often tied to legends of swallowing the sun and moon and causing eclipses.
+- The item also draws on the Yu-Gi-Oh! Dracotail Spell Card “Rahu Dracotail” (罗睺星辰). The companion-star link with Zodiac items was inspired by that series as well.

@@ -13017,7 +13017,8 @@
     "Alien_Savior": "collectibles_Alien_Savior.png",
     "Cake_Berry": "collectibles_Cake_Berry.png",
     "Rooted_Demon": "collectibles_Rooted_Demon.png",
-    "Incandescence_Flame": "collectibles_Incandescence_Flame.png"
+    "Incandescence_Flame": "collectibles_Incandescence_Flame.png",
+    "Entombed_Demon": "collectibles_Entombed_Demon.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13169,7 +13170,8 @@
     "183": "collectibles_Alien_Savior.png",
     "184": "collectibles_Cake_Berry.png",
     "185": "collectibles_Rooted_Demon.png",
-    "186": "collectibles_Incandescence_Flame.png"
+    "186": "collectibles_Incandescence_Flame.png",
+    "187": "collectibles_Entombed_Demon.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",

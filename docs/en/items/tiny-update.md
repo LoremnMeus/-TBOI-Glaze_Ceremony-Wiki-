@@ -12,27 +12,25 @@ status: drafted
 
 ## Mechanics
 
-## Effect
+## Effects
 
-**Tiny Update** occasionally publishes a balance patch that changes other items at random. Each publication pauses the game and opens a notice listing that patch's buffs, nerfs, and item-pool changes.
+**Tiny Update randomly publishes balance patches that buff or nerf other items.**
 
-The changes last for the current run and can stack with later patches. An item can be changed before the player ever picks it up.
+Each update pauses the game and shows a patch notice. Changes last for the current run, can stack with later updates, and may affect items you have not obtained yet.
 
 ## Publication
 
-While Tiny Update is held, clearing a normal combat room, boss room, or mini-boss room has a **15%** chance to publish one update. Each floor can publish at most one update this way.
-
-Entering a new floor also has a separate **50%** chance to publish one extra update. That extra update does not use up the floor's room-clear publication, and a room-clear publication does not cancel the floor-entry chance.
-
-Each update changes **4–20** different items. Every extra copy of Tiny Update adds 2 items to that count, up to 32. Extra copies do not raise the publication chance, and they do not add more publications on the same floor.
+- Clearing a combat room has a **15%** chance to publish an update, at most once per floor.
+- Entering a new floor has a separate **50%** chance to publish an update; the two triggers are independent.
+- Each update changes **4–20** items. Each extra Tiny Update adds **2** items, up to **32**.
 
 ## Patch contents
 
 A selected item may receive any of these changes:
 
-- **Stats:** damage, tears, range, shot speed, speed, or luck, by 0.1 in either direction. Only an item that already has that stat effect can be changed in that stat.
-- **Heart rewards:** the red heart containers, soul hearts, or black hearts granted the next time the item is picked up, by one full heart. Hearts already gained stay as they are.
-- **Active charges:** a normal active's charge requirement may rise or fall by 1. A charged active is not reduced to no charge. A timed recharge may rise or fall by 1 second. Special charge behavior is left alone. An active that already needs no charge does not gain a charge requirement.
-- **Item pools:** an item may be added to another pool, or removed from a pool that Tiny Update previously added it to. This affects later rolls only, not items that have already spawned.
+- **Stats:** damage, tears, range, shot speed, speed, or luck rise or fall by **0.1**.
+- **Heart rewards:** heart containers, soul hearts, or black hearts granted on pickup change by **1** heart.
+- **Active charges:** charge requirement changes by **1**, or timed recharge changes by **1** second.
+- **Item pools:** add the item to a new pool, or undo a previous Tiny Update addition.
 
-The notice groups buffs, nerfs, and pool changes. An item that has been patched shows its accumulated stat and pool changes in EID.
+The notice lists buffs, nerfs, and pool changes. Accumulated changes can also be viewed in EID.

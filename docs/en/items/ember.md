@@ -12,17 +12,9 @@ status: reviewed
 
 ## Mechanics
 
-
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
-
 ## Effects
 
-**Ember copies the most recently permanently removed other passive or familiar effect; losing another valid item switches the copy target.**
+**Ember copies the most recently permanently lost other passive or familiar effect. Losing another copyable item changes the copy target.**
 
-- Copies the last permanently lost other passive or familiar
-- Multiple Embers stack copies of the same target
-- Some quest, reset, or structurally special items cannot be targets (including Ember itself)
-
-## Notes
-
-The “Feels Like Dead Ashes” challenge starts with 8 real Embers that occupy slots; other passives can occupy slots but stay disabled — see the challenge page.
+- Holding multiple Embers copies the target's effect multiple times.
+- Some special items cannot be copied by Ember.

@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Procrastination
 status: featured
 ---
-<p class="wiki-search-index" v-pre>拖延症 Procrastination Procrastination procrastination Procrastination 马上就做…… I&#x27;ll do it soon... 每30秒永久获得攻击 +0.1攻击；每层最多+1 击杀Boss后本层停止增长；Boss存活时房门保持开启 Permanently gain Damage +0.1 every 30 seconds, up to +1 per floor Boss Room Killing a boss stops growth for this floor; doors stay open while a boss is alive</p>
+<p class="wiki-search-index" v-pre>拖延症 Procrastination Procrastination procrastination Procrastination 马上就做…… I&#x27;ll do it soon... 每30秒获得攻击 +0.1攻击；每层最多+1 击杀Boss后本层停止增长；Boss存活时房门保持开启 Gain Damage +0.1 every 30 seconds, up to +1 per floor Boss Room Killing a boss stops growth for this floor; doors stay open while a boss is alive</p>
 
 <PublicEntry slug="procrastination" lang="en" />
 
@@ -14,30 +14,13 @@ status: featured
 
 ## Effects
 
-**Procrastination rewards exploring before killing a boss.**
+**Procrastination raises damage over time until you kill a boss on the floor.**
 
-While held, it permanently grants damage every 30 seconds until the floor's cap is reached or any boss dies. As long as the current room contains a living boss, combat cannot lock its doors, allowing the fight to be left and resumed later.
-
-| Rule | Value |
-| --- | ---: |
-| Growth interval | 30 seconds |
-| Damage per interval | {{Damage}} +0.1 |
-| Maximum per floor | {{Damage}} +1 |
-
-On a new floor, the timer restarts and the amount gained toward the current floor is cleared, reopening up to +1 of growth. Previously earned permanent damage remains, and the boss-stop state is cleared.
-
-## Details
-
-- Killing any enemy marked as a boss immediately stops growth for the current floor.
-- Multiple copies increase the damage gained every 30 seconds, but the combined floor cap remains +1. With 2 copies, for example, each interval grants +0.2 and the cap is reached in about 150 seconds.
+- {{Damage}} Gain **+0.1** damage every **30 seconds**, up to **+1** per floor.
+- After killing any boss, damage growth stops for the rest of the floor.
+- While a boss is alive, Boss Room doors stay open so you can leave and return.
+- Extra copies increase growth speed, but the per-floor cap stays the same.
 
 ## Trivia
 
-Procrastination belongs to the [Rainbow](/en/systems/rainbow) classification, and its icon was redrawn from {{Collectible:260}}. It turns “fighting the boss later” into permanent damage growth, making delay itself part of the mechanic.
-
-<details>
-<summary>Technical details</summary>
-
-Permanent damage and per-floor gain are tracked per player, while the boss-stop state is shared by the floor. In multiplayer, any boss death therefore stops growth for every player holding Procrastination that floor.
-
-</details>
+- Procrastination is a {{System:rainbow}} item. Its icon was redrawn from {{Collectible:260}}.

@@ -14,10 +14,9 @@ status: drafted
 
 ## Effects
 
-Zero Presence never truly disappears. It simply makes itself difficult to notice.
+- Attacks have a **20%** chance to fire an extra nearly transparent tear that pierces and homes.
+- When picking up another item from a pedestal, there is a **20%** chance for Zero Presence to leave the player and reappear on that pedestal.
 
-While on a pedestal, its icon remains hidden most of the time, appearing only briefly. The pedestal stays in place even when the item itself is invisible.
+## Traits
 
-While held, Zero Presence gives attacks a 20% chance to fire an additional, nearly transparent tear. These tears pierce enemies and home in on targets.
-
-Picking up another collectible has a 20% chance to make Zero Presence leave the player and reappear on the newly emptied pedestal. It can then be picked up again.
+While Zero Presence is on the ground, its item icon stays invisible most of the time and only briefly appears; the pedestal remains visible.

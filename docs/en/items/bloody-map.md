@@ -17,14 +17,14 @@ status: reviewed
 
 ## Effects
 
-**Bloody Map marks Ultra Secret Rooms each floor and may station a Bloody Messenger there.**
+**Bloody Map reveals Ultra Secret Rooms each floor and may spawn a Bloody Messenger inside them.**
 
-- {{UltraSecretRoom}} Reveals Ultra Secrets on floor entry
-- Messenger chance: about **40%** per Bloody Map copy, stacking until guaranteed
-- Messengers can grant extra Ultra-Secret-related rewards; at most **2** such grants per run. See the Bloody Messenger page.
+- {{UltraSecretRoom}} Reveals the Ultra Secret Room when entering a new floor.
+- On first entry into an Ultra Secret Room, each copy of Bloody Map adds **40%** chance to spawn {{Slot:bloody-messenger}}, up to **100%**.
+- The messenger can grant an extra Ultra Secret Room, a Cracked Key, or an Ultra Secret pool item. Extra Ultra Secret Rooms are limited to **2** per run.
 
 ## Synergies
 
 ### {{Seija}}
 
-Also spawns a portal to the Ultra Secret on new floors.
+Also spawns a portal to the Ultra Secret Room on new floors.

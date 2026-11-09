@@ -12,22 +12,11 @@ status: reviewed
 
 ## Mechanics
 
-
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
-
 ## Effects
 
-**The Diamond's shop price changes across runs: leaving it unsold lowers the price; selling it to the Diamond Merchant reprices future shops to that deal.**
+**The Diamond's shop price changes {{System:permanent-effects|permanently}}: leaving it unsold lowers the price, and selling it can set a new price.**
 
-- Base shop price **5¢**
-- If it appears as a shop good and is left unsold: price halves (floor, min **1¢**); once per pedestal
-- {{Shop}} About a **50%** chance for a Diamond Merchant; sell for any **0–99¢**
-- After a sale, future shop prices become that deal price
-
-## Notes
-
-These price changes are [permanent](/en/systems/permanent-effects) effects.
-
-## Related
-
-Bargaining UI and the pricing loop: {{Slot:qing-diamond-merchant}}.
+- Base price is **5¢**.
+- If you encounter a Diamond in a shop and leave without buying it, its shop price permanently halves (rounded down, minimum **1¢**).
+- While holding a Diamond, shops have a **50%** chance to spawn a {{Slot:qing-diamond-merchant}}, who will buy Diamonds for **0–99¢**.
+- Selling a Diamond can permanently change its shop price; see the merchant page for details.

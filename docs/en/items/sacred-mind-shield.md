@@ -12,24 +12,16 @@ status: reviewed
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
-
 ## Effects
 
-**Each copy grants one protective heart. After blocking a hit that would truly cost health, it releases a shockwave and turns that shield into a permanent heart.**
+**Gain a protective heart. When you take damage, it blocks that hit and releases a large mind shockwave.**
 
-### Shield
-
-One protective heart per copy. It is neither a red heart nor a soul heart. The shield only answers normal damage; devil deals, blood banks, curse doors, and similar special health payments do not consume it.
-
-### After the shield breaks
-
-On trigger: negate the hit, spend one layer, release a large mind shockwave, then convert the spent layer into **+1** heart container. Soul-heart characters receive a soul heart instead.
-
-Enemies directly killed by the wave grant permanent growth: slight {{Damage}} up and {{Shotspeed}} down. At most **5** kills count per wave.
-
-If the room has **5** or more enemies, the wave ignores armor and spreads to other rooms on this floor.
+- After the protective heart breaks, gain one {{Heart}} heart container; characters that cannot gain heart containers receive one {{SoulHeart}} soul heart instead.
+- The mind shockwave deals heavy damage to enemies in the room.
+- Each enemy killed by the shockwave grants **+5%** damage and **-0.02** shot speed, counting at most **5** enemies per wave.
+- When the room has at least **5** enemies, the shockwave ignores armor and triggers again when you enter other rooms on this floor.
 
 ## Trivia
 
-- Points to the Yu-Gi-Oh! card of the same name (神圣心之防护罩－心灵之力); this item likewise centers on blocking damage and counterattacking.
+- The name comes from the Yu-Gi-Oh! Trap Card 「神圣心护罩－心灵之力－」 (Mind Mirror Force).
+- The original card can negate and destroy all face-up cards on the opponent's field. When the opponent controls at least **5** face-up cards, its activation and effects cannot be negated. This item keeps that count threshold, empowering the mind shockwave when the room has at least **5** enemies.

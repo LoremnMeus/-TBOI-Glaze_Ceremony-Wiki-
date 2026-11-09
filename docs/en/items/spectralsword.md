@@ -12,100 +12,67 @@ status: reviewed
 
 ## Mechanics
 
-<!-- Manual body. The exporter never overwrites this file once it exists. -->
-
 ## Effects
 
-Spectral Sword uses three separate kinds of essence to redistribute the character's existing stats, resources, and room chances within their respective categories.
+**Use Spectral Sword to summon an oni that can extract essence from abilities you already have, then inject that essence elsewhere to redistribute your power.**
 
-Using the item summons the oni and opens the reshape interface. Extracting from a selected value lowers it and produces matching essence; injecting matching essence into another value raises it. All changes take effect immediately.
+- **Stat essence:** Adjust the six base stats.
+- **Resource essence:** Adjust coins, bombs, keys, and their carry caps.
+- **Chance essence:** Adjust Devil Room and Planetarium chance.
 
-Use the arrow keys to move the oni; press Q to extract the selected value, E to inject matching essence, and Ctrl to exit.
+Extracting lowers a value and grants essence; injecting spends essence to raise a value. The three essence types are not interchangeable.
 
-The three essence types are:
+Move the oni with the arrow keys. Press **Q** to extract, **E** to inject, and **Ctrl** to exit.
 
-- **Stat Essence** for the six basic character stats.
-- **Resource Essence** for coins, bombs, keys, and their carrying caps.
-- **Chance Essence** for Devil Room and Planetarium chances.
-
-Angel Room chance does not spend essence; it only reshapes the Devil / Angel split.
-
-The three types cannot substitute for one another.
+## Adjustment rules
 
 ### Stats
 
-Each extraction or injection exchanges 1 Stat Essence for the following adjustment:
+Each extract or inject of 1 stat essence changes the matching stat as follows:
 
-| Stat | Change per step |
-| --- | ---: |
-| Speed | 0.05 |
-| Tears | 0.15 |
-| Damage | 0.25 |
-| Range | 0.75 |
-| Shot Speed | 0.10 |
-| Luck | 1 |
+| Stat | Step |
+| -- | ----- |
+| Speed | ±0.05 |
+| Tears | ±0.15 |
+| Damage | ±0.25 |
+| Range | ±0.75 |
+| Shot speed | ±0.10 |
+| Luck | ±1 |
 
-Each stat has a limited total adjustment range.
+Each stat has its own adjustment limits.
 
-Speed cannot be extracted below 0.10, and Shot Speed cannot be extracted below 0.60.
+### Resources and caps
 
-### Basic Resources and Caps
+Coins, bombs, and keys exchange **1 resource essence** per step.
 
-Coins, bombs, and keys exchange with Resource Essence at 1:1.
+Resource essence can also raise or lower carry caps. Higher caps use larger steps—for example from **99** to **199**, then to **299**.
 
-Extracting 1 corresponding resource produces 1 Resource Essence. Spending 1 Resource Essence produces 1 selected resource.
+### Room chances
 
-Resource Essence can also modify the carrying cap of the matching resource. Steps always follow the **current visible cap** along a decimal “all-nines” ladder (no intentional design maximum; only the engine's signed 32-bit integer storage bound applies):
+- **Devil Room and Planetarium:** About **5 percentage points** per step, costing or granting chance essence.
+- **Angel Room:** Redistributes chance between Devil and Angel Rooms without spending essence.
+- **{{Collectible:498}}:** Merges Devil and Angel chance into one adjustment.
 
-| Current cap range | Change per step |
-| --- | ---: |
-| 0–9 | ±1 |
-| 9–99 | ±10 (e.g. 99↔89, 9↔19) |
-| 99–999 | ±100 (e.g. 99↔199, 999↔899) |
-| 999–9999 | ±1000 (e.g. 999↔1999) |
-| Higher | Continue ×10 at the next magnitude |
+## Traits
 
-Legal nodes look like 0…9, 19…99, 199…999, 1999…9999…; raising and lowering are strictly reversible on the ladder. If the next step would exceed the engine integer storage limit, the raise lands on that limit instead of being refused.
-
-Raising a cap costs 1 Resource Essence; lowering a cap produces 1 Resource Essence.
-
-A cap cannot be lowered if the resulting limit would be below the amount of that resource currently held, or below 0.
-
-### Room Chances
-
-Devil Room and Planetarium chances are adjusted against their final HUD display values, normally in steps of 5 percentage points, and use Chance Essence. Near the 0% / 100% boundary, the last step snaps to that boundary (for example 3% extracts to 0%, 96% injects to 100%) while still consuming or producing only 1 Chance Essence. Chance Essence flows only between Devil Room and Planetarium.
-
-Angel Room chance does not use essence: it reshapes how the current total Deal is split between Devil and Angel, without changing that total. Raising Angel by 5 percentage points therefore lowers Devil by 5 percentage points. Steps are normally 5pp; if less than one step remains, the last press fills to a full Angel share (or down to 0% the other way). Where vanilla rules create a discrete jump (for example 0% ↔ 50% / 100%), Spectral Sword may cross that step in one press. If no conversion change can alter the Angel display in the current state, the node is temporarily inoperable.
-
-The Planetarium row shows the cached chance aligned with the vanilla Stat HUD, plus a signed live delta against that cache (for example `21.0% +0.0%` / `21.0% +5.0%`); a zero delta still shows `+0.0%`. Q/E still uses the live Planetarium chance for bounds while editing a permanent modifier; the delta includes every source such as Telescope Lens, not only Spectral Sword. When the vanilla HUD refreshes on a new floor or continue, the cache realigns and the suffix returns to `+0.0%`.
-
-The Planetarium node is available only when the vanilla Stat HUD would show Planetarium chance (the corresponding option must be enabled and Planetariums must be unlocked).
-
-On floors where the vanilla Found HUD does not provide Devil or Angel Room chances, those two values cannot be adjusted.
-
-With {{Collectible:498}}, Devil and Angel chances merge into one total Deal chance: the separate Angel node is hidden, and the Devil node instead adjusts that total Deal directly (still using Chance Essence). The Planetarium row is unchanged and shifts up to fill the gap.
-
-## Notes
-
-- Spectral Sword grants no starting essence; all essence must first be obtained through extraction.
-- The reshape interface cannot be opened while active enemies are present.
-- Completed stat, resource-cap, and room-chance adjustments remain active even after Spectral Sword is lost. Obtaining it again allows further adjustment from the existing state.
-- Basic resource gains and losses resolve immediately when adjusted.
+- Spectral Sword starts with no essence; extract before you can inject.
+- It cannot be used while active enemies are in the room.
+- Completed adjustments remain after Spectral Sword is lost.
 
 ## Synergies
 
 ### {{Collectible:584}}
 
-Spectral Sword does not spawn wisps.
+Does not spawn a wisp.
 
 ### {{Seija}}
 
-Under Seija's influence, extraction still lowers the selected value normally, but has a 50% chance to produce no corresponding essence.
+Extracting has a **50%** chance to grant no essence, but the selected value still decreases.
 
-## Related
+## Related items
 
-{{Item:squiresaga}} applies a similar form of "cutting" to enemies, pickups, mechanisms, and some grid entities, while Spectral Sword reshapes the character.
+{{Item:squiresaga}} applies a similar “cutting” idea to objects in the room, while Spectral Sword modifies the character.
 
 ## Trivia
 
-- The finalized design was inspired by *Dicey Dungeons*, particularly its use of an interface for directly modifying character stats.
+- The final design was inspired by *Dicey Dungeons*, especially adjusting character stats directly through an interface.

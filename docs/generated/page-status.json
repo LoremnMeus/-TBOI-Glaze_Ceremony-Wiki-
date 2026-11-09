@@ -1202,6 +1202,14 @@
       "enStatus": "reviewed"
     },
     {
+      "slug": "entombed-demon",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/entombed-demon.md",
+      "en": "wiki/docs/en/items/entombed-demon.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -2106,5 +2114,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-11-08T10:51:58Z"
+  "generatedAt": "2026-11-09T10:02:25Z"
 }

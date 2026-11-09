@@ -14,7 +14,6 @@ This is different from effects that last **only until the current run ends**—s
 
 | Item | What persists |
 | --- | --- |
-| {{Item:spectralsword}} | Rewritten collectible names and pickup subtitles |
 | {{Item:remaster}} | Established floor teleport channels |
 | {{Item:colorblindness}} | Next-run pool bans from dislikes |
 | {{Item:qings-faceted-market-diamond}} | Cross-run shop price and last sale price |

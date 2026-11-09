@@ -93,6 +93,7 @@ function characterImage(entry) {
 }
 
 function normalImage(entry) {
+  if (entry.kind === 'slot') return entry.icon || entry.thumb64 || entry.thumb32
   return entry.thumb64 || entry.icon || entry.thumb32
 }
 

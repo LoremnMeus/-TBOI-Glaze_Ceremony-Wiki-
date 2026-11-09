@@ -14,7 +14,6 @@ status: reviewed
 
 | 道具 | 永久记录 |
 | --- | --- |
-| {{Item:spectralsword}} | 被改写的道具名称与拾取副标题 |
 | {{Item:remaster}} | 已建立的楼层传送渠道 |
 | {{Item:colorblindness}} | 下局开局时从道具池移除的「点踩」列表 |
 | {{Item:qings-faceted-market-diamond}} | 跨局商店售价与上次成交价 |
