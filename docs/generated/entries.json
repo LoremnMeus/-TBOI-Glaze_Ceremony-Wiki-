@@ -735,6 +735,16 @@
         }
       }
     ],
+    "Anna::Satan": [
+      {
+        "slug": "incandescence-flame",
+        "kind": "collectible",
+        "names": {
+          "zh": "焚火",
+          "en": "Incandescence Flame"
+        }
+      }
+    ],
     "annA::Satan": [
       {
         "slug": "giant-punch",
@@ -765,11 +775,11 @@
     ],
     "Zeiz::MegaSatan": [
       {
-        "slug": "crown-of-thorns",
+        "slug": "entombed-demon",
         "kind": "collectible",
         "names": {
-          "zh": "荆棘花冠",
-          "en": "Crown of Thorns"
+          "zh": "棺中之魔",
+          "en": "Entombed Demon"
         }
       }
     ],
@@ -2033,13 +2043,23 @@
         }
       }
     ],
-    "custom_row_1785848579295::MegaSatan": [
+    "custom_row_1785848579295::Lamb": [
       {
         "slug": "blood-wing",
         "kind": "collectible",
         "names": {
           "zh": "血翼",
           "en": "Blood Wing"
+        }
+      }
+    ],
+    "custom_row_1785848579295::BossRush": [
+      {
+        "slug": "crown-of-thorns",
+        "kind": "collectible",
+        "names": {
+          "zh": "荆棘花冠",
+          "en": "Crown of Thorns"
         }
       }
     ],
@@ -2236,6 +2256,16 @@
         "names": {
           "zh": "XI - 欲望?",
           "en": "XI - Lure?"
+        }
+      }
+    ],
+    "SpecialUnlock::custom_event_1794234521680": [
+      {
+        "slug": "strawberry-cake-pie",
+        "kind": "collectible",
+        "names": {
+          "zh": "草莓蛋糕派",
+          "en": "Strawberry Cake Pie"
         }
       }
     ]
@@ -16504,12 +16534,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "custom_row_1785848579295::MegaSatan",
+        "zone": "custom_row_1785848579295::Lamb",
         "characterKey": "custom_row_1785848579295",
-        "conditionKey": "MegaSatan",
+        "conditionKey": "Lamb",
         "text": {
-          "zh": "使用Noia击败超级撒旦",
-          "en": "Defeat Mega Satan as Noia"
+          "zh": "使用Noia击败羔羊",
+          "en": "Defeat The Lamb as Noia"
         }
       },
       "characterBase": null,
@@ -22169,12 +22199,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Zeiz::MegaSatan",
-        "characterKey": "Zeiz",
-        "conditionKey": "MegaSatan",
+        "zone": "custom_row_1785848579295::BossRush",
+        "characterKey": "custom_row_1785848579295",
+        "conditionKey": "BossRush",
         "text": {
-          "zh": "使用泽伊兹击败超级撒旦",
-          "en": "Defeat Mega Satan as Zeiz"
+          "zh": "使用Noia完成Boss Rush",
+          "en": "Complete Boss Rush as Noia"
         }
       },
       "characterBase": null,
@@ -22437,7 +22467,17 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "event",
+        "source": "unlock_board",
+        "zone": "SpecialUnlock::custom_event_1794234521680",
+        "characterKey": null,
+        "conditionKey": "custom_event_1794234521680",
+        "text": {
+          "zh": "击败蛋糕骑士",
+          "en": "custom event 1794234521680"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -22701,7 +22741,17 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Anna::Satan",
+        "characterKey": "Anna",
+        "conditionKey": "Satan",
+        "text": {
+          "zh": "使用安娜击败撒旦",
+          "en": "Defeat Satan as Anna"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -22818,9 +22868,25 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
+        },
+        {
+          "id": "ultraSecret",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Zeiz::MegaSatan",
+        "characterKey": "Zeiz",
+        "conditionKey": "MegaSatan",
+        "text": {
+          "zh": "使用泽伊兹击败超级撒旦",
+          "en": "Defeat Mega Satan as Zeiz"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -22869,8 +22935,8 @@
         "en": ""
       },
       "seijaNerf": {
-        "zh": "",
-        "en": ""
+        "zh": "封存上限改为1个",
+        "en": "Seals at most 1 item"
       },
       "bookOfVirtues": {
         "zh": "",
@@ -37176,5 +37242,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-09T12:02:22Z"
+  "generatedAt": "2026-11-09T15:33:44Z"
 }

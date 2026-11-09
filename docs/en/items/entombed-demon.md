@@ -5,6 +5,7 @@ slug: entombed-demon
 kind: collectible
 internalKey: Entombed_Demon
 status: drafted
+flavorSource: "Habakkuk 2:5"
 ---
 <p class="wiki-search-index" v-pre>棺中之魔 Entombed Demon Entombed_Demon entombed-demon Entombed Demon 他如死不能知足 Like death, never satisfied 每层吞噬此后获得的最早一件道具 前4次吞噬各封存一件恶魔房道具 每次吞噬都会生成所有已封存的道具 Each floor, devours the earliest item acquired afterward The first 4 sacrifices each seal a Devil Room item Each sacrifice spawns all sealed items</p>
 
@@ -25,12 +26,11 @@ Entombed Demon devours items acquired after itself, gradually sealing four Devil
 ## Notes
 
 - Only passive items and familiars can be devoured. Active items, quest items, hidden items, and other copies of Entombed Demon are skipped.
-- If no eligible sacrifice is available or there is insufficient space for the rewards, it tries again in later rooms on the same floor.
-- The sacrifice is removed and rewards are generated only when the ritual finishes. Interrupting the ritual does not consume the sacrifice.
+- If no eligible sacrifice is available, it waits until one is obtained, then attempts the sacrifice upon entering the next room.
+- If the room lacks enough space for the rewards, the sacrifice is postponed until another suitable room is entered on the same floor.
 - Items collected from its reward pedestals can become future sacrifices.
 - Multiple copies maintain separate sealed items and select their sacrifices independently.
 
 ## Trivia
 
-- The flavor text "Like death, never satisfied" is adapted from Habakkuk 2:5 in the Bible.
 - Its design draws inspiration from "King's Sarcophagus" in Yu-Gi-Oh!, particularly the idea of awakening beings sealed within a sarcophagus through sacrifices.
