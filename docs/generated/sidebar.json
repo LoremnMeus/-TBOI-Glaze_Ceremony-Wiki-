@@ -650,6 +650,10 @@
           {
             "text": "棺中之魔",
             "link": "/items/entombed-demon"
+          },
+          {
+            "text": "祈愿",
+            "link": "/items/wishing"
           }
         ]
       }
@@ -1845,6 +1849,10 @@
           {
             "text": "Entombed Demon",
             "link": "/en/items/entombed-demon"
+          },
+          {
+            "text": "Wishing",
+            "link": "/en/items/wishing"
           }
         ]
       }

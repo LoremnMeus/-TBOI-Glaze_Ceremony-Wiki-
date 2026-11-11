@@ -7470,8 +7470,8 @@
         "en": "Fate is merely a book yet to be put in order."
       },
       "eid": {
-        "zh": "{{ThothCard}} 拾取时生成1张透特牌，并记录获得过的透特牌面#{{Battery}} 登记新牌面+1启示，使用透特牌+2启示，最多12格#消耗3格启示，选择至多3张记录牌面进行占卜#进入新战斗房时随机发动一张；每个牌面每层限一次",
-        "en": "{{ThothCard}} Spawns 1 Thoth card on pickup; records obtained Thoth faces#{{Battery}} Registering a new face +1 Revelation, using a Thoth card +2, up to 12#Spend 3 Revelation to read up to 3 recorded faces#Entering a new combat room plays one at random; each face once per floor"
+        "zh": "{{ThothCard}} 拾取时生成1张透特牌，并记录获得过的透特牌面#{{Battery}} 无其他待充能主动道具时，碰触电池将其变为随机透特牌；登记新牌面+1启示，使用透特牌+2启示，最多12格#消耗3格启示，选择至多3张记录牌面进行占卜#进入新战斗房时随机发动一张；每个牌面每层限一次",
+        "en": "{{ThothCard}} Spawns 1 Thoth card on pickup; records obtained Thoth faces#{{Battery}} Touching a battery turns it into a random Thoth card if no other active item needs charge; new faces +1 Revelation, Thoth cards used +2, up to 12#Spend 3 Revelation to read up to 3 recorded faces#Entering a new combat room plays one at random; each face once per floor"
       },
       "seijaBuff": {
         "zh": "",
@@ -22974,6 +22974,117 @@
       }
     },
     {
+      "slug": "wishing",
+      "kind": "collectible",
+      "internalKey": "Wishing",
+      "remasterStatus": "",
+      "xmlId": 188,
+      "xmlName": "Wishing",
+      "itemType": "active",
+      "quality": 1,
+      "tags": [],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "angel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": 1,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "祈愿",
+        "en": "Wishing"
+      },
+      "desc": {
+        "zh": "我要成为什么样的人呢？",
+        "en": "What do I want to become?"
+      },
+      "eid": {
+        "zh": "从3件随机道具中选择愿望#全部拒绝使下次选项+1#被重置时，变为愿望道具",
+        "en": "Choose a wish from 3 random collectibles#Reject all for +1 option next use#When rerolled, becomes the wished collectible"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "生成易碎魂火，愿望应验时变为愿望道具魂火",
+        "en": "Spawns fragile wisps that become wisps of the wished collectible upon fulfillment"
+      },
+      "bookOfBelial": {
+        "zh": "选项中至少有1件恶魔房道具",
+        "en": "At least 1 option is a Devil Room collectible"
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/wishing.png",
+      "thumb32": "/generated/images/wishing_32.webp",
+      "thumb32Png": "/generated/images/wishing_32.png",
+      "thumb64": "/generated/images/wishing_64.webp",
+      "thumb64Png": "/generated/images/wishing_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 224,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "internalKey": "Pacification_Mark",
@@ -23075,7 +23186,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23183,7 +23294,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23301,7 +23412,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23409,7 +23520,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23517,7 +23628,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23625,7 +23736,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23733,7 +23844,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23841,7 +23952,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23949,8 +24060,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 288,
+        "x": 0,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -24057,7 +24168,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24165,7 +24276,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24273,7 +24384,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24381,7 +24492,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24489,7 +24600,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24597,7 +24708,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24705,7 +24816,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24810,7 +24921,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24925,7 +25036,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25040,7 +25151,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25160,7 +25271,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25293,7 +25404,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25426,7 +25537,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25559,7 +25670,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25679,7 +25790,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25799,8 +25910,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25919,7 +26030,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26039,7 +26150,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26159,7 +26270,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26279,7 +26390,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26399,7 +26510,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26519,7 +26630,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26639,7 +26750,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26769,7 +26880,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26889,7 +27000,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27009,7 +27120,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27129,7 +27240,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27249,7 +27360,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27369,7 +27480,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27507,7 +27618,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27645,7 +27756,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27783,8 +27894,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27903,7 +28014,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28023,7 +28134,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28143,7 +28254,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28258,7 +28369,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28378,7 +28489,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28498,7 +28609,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28618,7 +28729,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28738,7 +28849,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28858,7 +28969,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28978,7 +29089,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29098,7 +29209,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29218,7 +29329,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29338,7 +29449,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29468,7 +29579,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29588,7 +29699,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29726,8 +29837,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29859,7 +29970,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29992,7 +30103,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30112,7 +30223,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30232,7 +30343,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30352,7 +30463,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30490,7 +30601,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30628,7 +30739,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30766,7 +30877,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30886,7 +30997,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31006,7 +31117,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31126,7 +31237,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31246,7 +31357,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31371,7 +31482,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31496,7 +31607,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31621,7 +31732,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31741,8 +31852,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -31861,7 +31972,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31981,7 +32092,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32101,7 +32212,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32221,7 +32332,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32341,7 +32452,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35317,7 +35428,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35487,7 +35598,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35657,7 +35768,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35827,7 +35938,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35997,7 +36108,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36167,7 +36278,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36337,7 +36448,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36507,7 +36618,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36687,7 +36798,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36785,7 +36896,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 448,
         "w": 32,
         "h": 32
@@ -37242,5 +37353,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-09T15:33:44Z"
+  "generatedAt": "2026-11-10T17:49:38Z"
 }
