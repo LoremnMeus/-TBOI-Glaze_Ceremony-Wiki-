@@ -1,11 +1,11 @@
 ---
-title: Core Systems
+title: Gameplay & Mechanics
 description: Gameplay systems shared across characters, items, and cards
 ---
 
-# Core Systems
+# Gameplay & Mechanics
 
-System pages explain concepts shared by multiple entries. Character, item, and challenge pages should explain only how they use those systems.
+Explore gameplay mechanics shared across characters, items, and cards. Individual entries explain how they use these mechanics.
 
 - [Glaze](./glaze)
 - [Thoth Cards](./thoth-cards)

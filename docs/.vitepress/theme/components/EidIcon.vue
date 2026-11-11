@@ -2,7 +2,9 @@
 import { computed } from 'vue'
 import { withBase } from 'vitepress'
 import catalog from '../../../generated/icon-catalog.json'
+import entries from '../../../generated/entries.json'
 import WikiEntryIcon from './WikiEntryIcon.vue'
+import { resolveQingPlayerIcon } from '../resolveQingPlayerIcon'
 
 const props = defineProps({
   name: { type: String, required: true },
@@ -76,7 +78,7 @@ const itemSrc = computed(() => {
 
 const inline = computed(() => {
   if (qingPlayerKey.value) {
-    return catalog.qingPlayers?.[qingPlayerKey.value] || byName.value[`QingPlayer:${qingPlayerKey.value}`] || null
+    return resolveQingPlayerIcon(qingPlayerKey.value, catalog, entries)
   }
   if (cardId.value) {
     return byName.value[`Card${cardId.value}`] || null

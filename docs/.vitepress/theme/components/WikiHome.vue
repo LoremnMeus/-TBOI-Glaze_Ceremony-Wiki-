@@ -3,6 +3,8 @@ import { computed } from 'vue'
 import { withBase } from 'vitepress'
 import catalog from '../../../generated/entries.json'
 import FeaturedEntries from './FeaturedEntries.vue'
+import HomeUpdates from './HomeUpdates.vue'
+import { homeUpdates } from '../data/homeUpdates.js'
 import HomeCatalog from './HomeCatalog.vue'
 import WikiGameLogo from './WikiGameLogo.vue'
 import WikiTitleMarquee from './WikiTitleMarquee.vue'
@@ -34,70 +36,6 @@ const categories = computed(() => [
     title: english.value ? 'Challenges' : '挑战',
     subtitle: english.value ? 'Challenges' : 'Challenges',
     link: '/challenges/',
-  },
-  {
-    title: english.value ? 'Core Systems' : '核心系统',
-    subtitle: english.value ? 'Systems' : 'Systems',
-    link: '/systems/',
-  },
-])
-
-const systems = computed(() => [
-  {
-    title: english.value ? 'Glaze' : '琉璃',
-    text: english.value
-      ? 'A core content family spanning pickups, items, and more.'
-      : '贯穿掉落物、道具与其他内容的核心系列。',
-    link: '/systems/glaze',
-  },
-  {
-    title: english.value ? 'Thoth Cards' : '透特牌',
-    text: english.value
-      ? 'An independent tarot family with upright and reversed faces.'
-      : '拥有正位与逆位的独立塔罗牌体系。',
-    link: '/systems/thoth-cards',
-  },
-  {
-    title: english.value ? 'Special Destinations' : '特殊目的地',
-    text: english.value
-      ? 'Shared rules for destinations outside the normal floor layout.'
-      : '通往楼层地图之外区域的统一目的地规则。',
-    link: '/systems/special-destinations',
-  },
-  {
-    title: english.value ? 'Rainbow' : '彩虹',
-    text: english.value
-      ? 'A visual and design family connected by mental states and shared motifs.'
-      : '以精神状态与共同意象相连的视觉和设计分类。',
-    link: '/systems/rainbow',
-  },
-  {
-    title: english.value ? 'Blueprint & Fleet' : '蓝图与机群',
-    text: english.value
-      ? 'Build, refit, deploy, and command an independent fleet.'
-      : '制造、改装、编队并指挥独立作战机群。',
-    link: '/systems/blueprint-air-flight',
-  },
-  {
-    title: english.value ? 'Control Hub' : '控制中枢',
-    text: english.value
-      ? 'Appoint administrators whose Follies continuously reshape the world.'
-      : '任命管理员，让他们的愚见持续改变世界。',
-    link: '/systems/control-hub',
-  },
-  {
-    title: english.value ? 'Knowledge & Reverie' : '知识与遐想',
-    text: english.value
-      ? 'Store items as knowledge, then realize a nearby reverie floor by floor.'
-      : '将道具保存为知识，并按楼层让附近的遐想成为现实。',
-    link: '/systems/death-certificate-knowledge',
-  },
-  {
-    title: english.value ? 'Permanent Effects' : '永久',
-    text: english.value
-      ? 'Long-lived changes that carry across runs until gameplay clears them.'
-      : '会跨局保留、直到被对应机制消费或清除的长期变化。',
-    link: '/systems/permanent-effects',
   },
 ])
 
@@ -156,19 +94,9 @@ function local(path) {
       </div>
     </section>
 
-    <section class="wiki-home-section">
-      <h2>{{ english ? 'Browse' : '主要内容' }}</h2>
-      <div class="wiki-category-grid">
-        <a
-          v-for="card in categories"
-          :key="card.link"
-          class="wiki-category-tile"
-          :href="local(card.link)"
-        >
-          <strong>{{ card.title }}</strong>
-          <span>{{ card.subtitle }}</span>
-        </a>
-      </div>
+    <section v-if="homeUpdates.length" class="wiki-home-section">
+      <h2>{{ english ? 'Latest Updates' : '最新动态' }}</h2>
+      <HomeUpdates :lang="lang" />
     </section>
 
     <section class="wiki-home-section">
@@ -177,16 +105,11 @@ function local(path) {
     </section>
 
     <section class="wiki-home-section">
-      <h2>{{ english ? 'Core Systems' : '核心系统' }}</h2>
-      <div class="wiki-system-grid">
-        <a
-          v-for="system in systems"
-          :key="system.link"
-          class="wiki-system-tile"
-          :href="local(system.link)"
-        >
-          <strong>{{ system.title }}</strong>
-          <span>{{ system.text }}</span>
+      <h2>{{ english ? 'Browse' : '主要内容' }}</h2>
+      <div class="wiki-category-grid">
+        <a v-for="card in categories" :key="card.link" class="wiki-category-tile"
+          :href="local(card.link)">
+          <strong>{{ card.title }}</strong><span>{{ card.subtitle }}</span>
         </a>
       </div>
     </section>
@@ -194,6 +117,9 @@ function local(path) {
     <section id="browse" class="wiki-home-section">
       <h2>{{ english ? 'Browse All Content' : '浏览全部内容' }}</h2>
       <HomeCatalog :lang="lang" />
+      <a class="wiki-home-systems-link" :href="local('/systems/')">
+        {{ english ? 'Gameplay & Mechanics →' : '玩法与机制说明 →' }}
+      </a>
     </section>
 
     <footer class="wiki-home-footer">
@@ -389,51 +315,14 @@ function local(path) {
   font-size: 0.82rem;
 }
 
-.wiki-category-tile:hover,
-.wiki-system-tile:hover {
+.wiki-category-tile:hover {
   transform: translateY(-1px);
   border-color: color-mix(in srgb, var(--vp-c-brand-1) 40%, var(--vp-c-divider));
   background: color-mix(in srgb, var(--vp-c-bg-soft) 88%, var(--vp-c-brand-1));
 }
 
-.wiki-system-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.65rem;
-}
-
-.wiki-system-tile {
-  display: grid;
-  gap: 0.25rem;
-  align-content: start;
-  min-height: 70px;
-  max-height: 100px;
-  padding: 0.7rem 0.8rem;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 6px;
-  background: var(--vp-c-bg-soft);
-  text-decoration: none;
-  overflow: hidden;
-  transition:
-    transform 150ms ease,
-    border-color 150ms ease,
-    background-color 150ms ease;
-}
-
-.wiki-system-tile strong {
-  color: var(--vp-c-text-1);
-  font-size: 0.95rem;
-}
-
-.wiki-system-tile span {
-  color: var(--vp-c-text-2);
-  font-size: 0.8rem;
-  line-height: 1.35;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
+.wiki-home-systems-link { color: var(--vp-c-brand-1); text-decoration: none; font-weight: 600; }
+.wiki-home-systems-link:hover { text-decoration: underline; }
 
 .wiki-home-footer {
   display: flex;
@@ -462,9 +351,6 @@ function local(path) {
 }
 
 @media (max-width: 860px) {
-  .wiki-system-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (max-width: 640px) {
@@ -484,13 +370,6 @@ function local(path) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .wiki-system-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .wiki-system-tile {
-    max-height: none;
-  }
 }
 
 @media (max-width: 380px) {

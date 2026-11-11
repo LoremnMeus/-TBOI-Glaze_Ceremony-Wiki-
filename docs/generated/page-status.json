@@ -1910,96 +1910,96 @@
       "kind": "challenge",
       "zh": "wiki/docs/challenges/fusion-destiny.md",
       "en": "wiki/docs/en/challenges/fusion-destiny.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "fans-service",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/fans-service.md",
       "en": "wiki/docs/en/challenges/fans-service.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "heterothermal-concentric",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/heterothermal-concentric.md",
       "en": "wiki/docs/en/challenges/heterothermal-concentric.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "feels-like-dead-ashes",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/feels-like-dead-ashes.md",
       "en": "wiki/docs/en/challenges/feels-like-dead-ashes.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "louvre-puzzle",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/louvre-puzzle.md",
       "en": "wiki/docs/en/challenges/louvre-puzzle.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "unstable-state",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/unstable-state.md",
       "en": "wiki/docs/en/challenges/unstable-state.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "invisible",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/invisible.md",
       "en": "wiki/docs/en/challenges/invisible.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "pointing-and-disappointing",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/pointing-and-disappointing.md",
       "en": "wiki/docs/en/challenges/pointing-and-disappointing.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "cookie-clicker",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/cookie-clicker.md",
       "en": "wiki/docs/en/challenges/cookie-clicker.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "safe-driving",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/safe-driving.md",
       "en": "wiki/docs/en/challenges/safe-driving.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "swallow-the-sun",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/swallow-the-sun.md",
       "en": "wiki/docs/en/challenges/swallow-the-sun.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
     },
     {
       "slug": "dragon-flight",
       "kind": "challenge",
       "zh": "wiki/docs/challenges/dragon-flight.md",
       "en": "wiki/docs/en/challenges/dragon-flight.md",
-      "zhStatus": "featured",
-      "enStatus": "featured"
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
     },
     {
       "slug": "glaze-heart",
@@ -2122,5 +2122,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-11-10T12:54:04Z"
+  "generatedAt": "2026-11-11T05:24:37Z"
 }

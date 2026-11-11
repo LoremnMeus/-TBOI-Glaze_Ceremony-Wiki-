@@ -16,9 +16,9 @@ const publicExclusions: string[] = isDev
 
 const systemSidebarZh = [
   {
-    text: '核心系统',
+    text: '玩法与机制',
     items: [
-      { text: '系统索引', link: '/systems/' },
+      { text: '机制索引', link: '/systems/' },
       { text: '琉璃', link: '/systems/glaze' },
       { text: '透特牌', link: '/systems/thoth-cards' },
       { text: '特殊目的地', link: '/systems/special-destinations' },
@@ -33,9 +33,9 @@ const systemSidebarZh = [
 
 const systemSidebarEn = [
   {
-    text: 'Core Systems',
+    text: 'Gameplay & Mechanics',
     items: [
-      { text: 'Systems Index', link: '/en/systems/' },
+      { text: 'Mechanics Index', link: '/en/systems/' },
       { text: 'Glaze', link: '/en/systems/glaze' },
       { text: 'Thoth Cards', link: '/en/systems/thoth-cards' },
       { text: 'Special Destinations', link: '/en/systems/special-destinations' },
@@ -89,7 +89,7 @@ export default defineConfig({
             ],
           },
           { text: '角色', link: '/characters/' },
-          { text: '系统', link: '/systems/' },
+          { text: '玩法与机制', link: '/systems/' },
           { text: '挑战', link: '/challenges/' },
           {
             text: '指南',
@@ -139,7 +139,7 @@ export default defineConfig({
             ],
           },
           { text: 'Characters', link: '/en/characters/' },
-          { text: 'Systems', link: '/en/systems/' },
+          { text: 'Gameplay & Mechanics', link: '/en/systems/' },
           { text: 'Challenges', link: '/en/challenges/' },
           {
             text: 'Guide',

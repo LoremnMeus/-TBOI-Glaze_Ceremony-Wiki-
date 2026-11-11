@@ -4,7 +4,7 @@ description: "犹大开局 论如何飞行 使用飞行书与 长子名分进行
 slug: dragon-flight
 kind: challenge
 internalKey: Dragon_Flight
-status: featured
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>挑战：飞龙在天 Dragon Flight Dragon_Flight dragon-flight Dragon Flight 犹大开局 论如何飞行 使用飞行书与 长子名分进行空战 血田 书本发射的眼泪会沿飞行轨迹留在角色身后 难度等级：普通 Play as Judas How to Fly Fight in the air with How to Fly and Birthright Akeldama Tears fired by books remain along your flight path Difficulty: Normal</p>
 
@@ -14,12 +14,6 @@ status: featured
 
 ## 玩法
 
-「飞龙在天」切断普通射击，把战斗改为空战。玩家通过 {{Item:how-to-fly}} 调整高度，并利用书本攻击沿飞行轨迹留下泪弹，在空中铺出持续火力。
+无法普通射击，需要使用 {{Item:how-to-fly}} 在空中发动攻击。书本产生的泪弹会沿飞行路线短暂留在身后，再缓慢下落；飞行路线因此决定了泪弹落向哪里。
 
-挑战提供长子名分与彼列之书路径：书本相关泪弹会沿航迹短暂留在身后。
-
-## 规则
-
-- 无法普通射击，主要依靠飞行书主动与空战位置。
-- 书本发射的眼泪会沿航迹滞留并缓慢下落。
-- 飞行高度与轨迹对齐；接近地面时会有短暂托高，避免立刻落地打断空战节奏。
+泪弹接近地面时会短暂保持高度。要持续攻击敌人，需要调整自己的飞行位置，让泪弹经过目标。

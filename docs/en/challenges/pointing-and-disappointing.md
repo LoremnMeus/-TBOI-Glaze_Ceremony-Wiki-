@@ -4,7 +4,7 @@ description: "Play as Samson Cloundy Start with 5 Cloundies Rocket in a Jar Star
 slug: pointing-and-disappointing
 kind: challenge
 internalKey: Pointing
-status: featured
+status: drafted
 ---
 <p class="wiki-search-index" v-pre>挑战：指指点点 Pointing and Disappointing Pointing pointing-and-disappointing Pointing and Disappointing 参孙开局 云玩大佬 持有5个云玩大佬 罐中火箭 持有火箭炸弹，云玩大佬放置的炸弹也会变成火箭 难度等级：困难 Play as Samson Cloundy Start with 5 Cloundies Rocket in a Jar Start with Rocket in a Jar; bombs placed by Cloundies also become rockets Difficulty: Hard</p>
 
@@ -14,10 +14,6 @@ status: featured
 
 ## Gameplay
 
-Pointing and Disappointing centers on multiple {{Item:cloundy}} familiars plus Rocket in a Jar: familiars keep planting bombs for you, and those bombs also become rockets—combat is about aiming and predicting blast paths.
+Multiple {{Item:cloundy}} familiars keep dropping bombs. With Rocket in a Jar, those bombs become rockets too; your movement and attack direction affect where they fly.
 
-## Synergy
-
-With Rocket in a Jar, Cloundy-placed bombs become rockets and follow the player's rocket-bomb behavior. Multiple Cloundies make rocket drops more frequent.
-
-Other Cloundy behavior: {{Item:cloundy}}.
+For Cloundy's other effects, see {{Item:cloundy}}.
