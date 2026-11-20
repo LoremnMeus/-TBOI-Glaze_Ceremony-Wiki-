@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "alpha-0.1.2",
+  "version": "alpha-0.1.3",
   "factsSchemaVersion": 1,
   "unlockRewards": {
     "wq::MegaSatan": [
@@ -519,16 +519,6 @@
         }
       }
     ],
-    "Marriano::Hush": [
-      {
-        "slug": "disequilibrium",
-        "kind": "collectible",
-        "names": {
-          "zh": "天象失权",
-          "en": "Disequilibrium"
-        }
-      }
-    ],
     "Zeis::Isaac": [
       {
         "slug": "book-of-vision",
@@ -546,16 +536,6 @@
         "names": {
           "zh": "云玩大佬",
           "en": "Cloundy"
-        }
-      }
-    ],
-    "Autio::Hush": [
-      {
-        "slug": "chasm",
-        "kind": "collectible",
-        "names": {
-          "zh": "天象入渊",
-          "en": "Chasm"
         }
       }
     ],
@@ -594,16 +574,6 @@
         "names": {
           "zh": "魔法胸针",
           "en": "Core Brooch"
-        }
-      }
-    ],
-    "Lu::Hush": [
-      {
-        "slug": "deconstruction",
-        "kind": "collectible",
-        "names": {
-          "zh": "天象解构",
-          "en": "Deconstruction"
         }
       }
     ],
@@ -1409,6 +1379,16 @@
         }
       }
     ],
+    "Tecrorun::Beast": [
+      {
+        "slug": "wishing",
+        "kind": "collectible",
+        "names": {
+          "zh": "祈愿",
+          "en": "Wishing"
+        }
+      }
+    ],
     "Anna::BlueBaby": [
       {
         "slug": "devils-heart",
@@ -1576,16 +1556,6 @@
         "names": {
           "zh": "配给符号",
           "en": "Allocation Symbol"
-        }
-      }
-    ],
-    "Lu::FullCompletion": [
-      {
-        "slug": "alien-savior",
-        "kind": "collectible",
-        "names": {
-          "zh": "天外救星",
-          "en": "Alien Savior"
         }
       }
     ],
@@ -2033,46 +2003,6 @@
         }
       }
     ],
-    "custom_row_1785848579295::BlueBaby": [
-      {
-        "slug": "bloody-map",
-        "kind": "collectible",
-        "names": {
-          "zh": "红地图",
-          "en": "Bloody Map"
-        }
-      }
-    ],
-    "custom_row_1785848579295::Lamb": [
-      {
-        "slug": "blood-wing",
-        "kind": "collectible",
-        "names": {
-          "zh": "血翼",
-          "en": "Blood Wing"
-        }
-      }
-    ],
-    "custom_row_1785848579295::BossRush": [
-      {
-        "slug": "crown-of-thorns",
-        "kind": "collectible",
-        "names": {
-          "zh": "荆棘花冠",
-          "en": "Crown of Thorns"
-        }
-      }
-    ],
-    "custom_row_1785848579295::GreedMode": [
-      {
-        "slug": "golden-slot",
-        "kind": "collectible",
-        "names": {
-          "zh": "黄金抽奖机",
-          "en": "Golden Slot"
-        }
-      }
-    ],
     "SpecialUnlock::custom_event_1786539528390": [
       {
         "slug": "broken-brooch",
@@ -2249,14 +2179,6 @@
           "zh": "XI - 欲望",
           "en": "XI - Lure"
         }
-      },
-      {
-        "slug": "xi-lure-reversed",
-        "kind": "card",
-        "names": {
-          "zh": "XI - 欲望?",
-          "en": "XI - Lure?"
-        }
       }
     ],
     "SpecialUnlock::custom_event_1794234521680": [
@@ -2266,6 +2188,96 @@
         "names": {
           "zh": "草莓蛋糕派",
           "en": "Strawberry Cake Pie"
+        }
+      }
+    ],
+    "Noia::BlueBaby": [
+      {
+        "slug": "bloody-map",
+        "kind": "collectible",
+        "names": {
+          "zh": "红地图",
+          "en": "Bloody Map"
+        }
+      }
+    ],
+    "Noia::Lamb": [
+      {
+        "slug": "blood-wing",
+        "kind": "collectible",
+        "names": {
+          "zh": "血翼",
+          "en": "Blood Wing"
+        }
+      }
+    ],
+    "Noia::BossRush": [
+      {
+        "slug": "crown-of-thorns",
+        "kind": "collectible",
+        "names": {
+          "zh": "荆棘花冠",
+          "en": "Crown of Thorns"
+        }
+      }
+    ],
+    "Noia::GreedMode": [
+      {
+        "slug": "golden-slot",
+        "kind": "collectible",
+        "names": {
+          "zh": "黄金抽奖机",
+          "en": "Golden Slot"
+        }
+      }
+    ],
+    "Marriano_B::Hush": [
+      {
+        "slug": "disequilibrium",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象失权",
+          "en": "Disequilibrium"
+        }
+      }
+    ],
+    "Marriano_B::custom_col_1788544736302": [
+      {
+        "slug": "xi-lure-reversed",
+        "kind": "card",
+        "names": {
+          "zh": "XI - 欲望?",
+          "en": "XI - Lure?"
+        }
+      }
+    ],
+    "Autio_B::Hush": [
+      {
+        "slug": "chasm",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象入渊",
+          "en": "Chasm"
+        }
+      }
+    ],
+    "Lu_B::Hush": [
+      {
+        "slug": "deconstruction",
+        "kind": "collectible",
+        "names": {
+          "zh": "天象解构",
+          "en": "Deconstruction"
+        }
+      }
+    ],
+    "Lu_B::Mother": [
+      {
+        "slug": "alien-savior",
+        "kind": "collectible",
+        "names": {
+          "zh": "天外救星",
+          "en": "Alien Savior"
         }
       }
     ]
@@ -12670,12 +12682,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Marriano::Hush",
-        "characterKey": "Marriano",
+        "zone": "Marriano_B::Hush",
+        "characterKey": "Marriano_B",
         "conditionKey": "Hush",
         "text": {
-          "zh": "使用玛丽亚诺击败死寂",
-          "en": "Defeat Hush as Operation Guide: Marriano"
+          "zh": "使用里玛丽击败死寂",
+          "en": "Defeat Hush as 里玛丽"
         }
       },
       "characterBase": null,
@@ -12802,12 +12814,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Lu::Hush",
-        "characterKey": "Lu",
+        "zone": "Lu_B::Hush",
+        "characterKey": "Lu_B",
         "conditionKey": "Hush",
         "text": {
-          "zh": "使用露击败死寂",
-          "en": "Defeat Hush as Lu"
+          "zh": "使用里露击败死寂",
+          "en": "Defeat Hush as 里露"
         }
       },
       "characterBase": null,
@@ -14655,12 +14667,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Autio::Hush",
-        "characterKey": "Autio",
+        "zone": "Autio_B::Hush",
+        "characterKey": "Autio_B",
         "conditionKey": "Hush",
         "text": {
-          "zh": "使用艾提奥击败死寂",
-          "en": "Defeat Hush as Autio"
+          "zh": "使用里艾提奥击败死寂",
+          "en": "Defeat Hush as 里艾提奥"
         }
       },
       "characterBase": null,
@@ -16534,12 +16546,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "custom_row_1785848579295::Lamb",
-        "characterKey": "custom_row_1785848579295",
+        "zone": "Noia::Lamb",
+        "characterKey": "Noia",
         "conditionKey": "Lamb",
         "text": {
-          "zh": "使用Noia击败羔羊",
-          "en": "Defeat The Lamb as Noia"
+          "zh": "使用诺娅击败羔羊",
+          "en": "Defeat The Lamb as 诺娅"
         }
       },
       "characterBase": null,
@@ -18574,7 +18586,8 @@
       "quality": 3,
       "tags": [
         "summonable",
-        "baby"
+        "baby",
+        "nogreed"
       ],
       "pools": [
         {
@@ -19105,7 +19118,8 @@
       "itemType": "passive",
       "quality": 3,
       "tags": [
-        "offensive"
+        "offensive",
+        "summonable"
       ],
       "pools": [
         {
@@ -19619,7 +19633,8 @@
       "itemType": "passive",
       "quality": 0,
       "tags": [
-        "summonable"
+        "summonable",
+        "nogreed"
       ],
       "pools": [
         {
@@ -19650,12 +19665,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "custom_row_1785848579295::BlueBaby",
-        "characterKey": "custom_row_1785848579295",
+        "zone": "Noia::BlueBaby",
+        "characterKey": "Noia",
         "conditionKey": "BlueBaby",
         "text": {
-          "zh": "使用Noia击败???",
-          "en": "Defeat ??? as Noia"
+          "zh": "使用诺娅击败???",
+          "en": "Defeat ??? as 诺娅"
         }
       },
       "characterBase": null,
@@ -19773,12 +19788,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "custom_row_1785848579295::GreedMode",
-        "characterKey": "custom_row_1785848579295",
+        "zone": "Noia::GreedMode",
+        "characterKey": "Noia",
         "conditionKey": "GreedMode",
         "text": {
-          "zh": "使用Noia完成贪婪模式",
-          "en": "Complete Greed Mode as Noia"
+          "zh": "使用诺娅完成贪婪模式",
+          "en": "Complete Greed Mode as 诺娅"
         }
       },
       "characterBase": null,
@@ -20129,9 +20144,7 @@
       "xmlName": "Qing's Faceted Market Diamond",
       "itemType": "passive",
       "quality": 1,
-      "tags": [
-        "summonable"
-      ],
+      "tags": [],
       "pools": [
         {
           "id": "shop",
@@ -20389,7 +20402,6 @@
       "itemType": "active",
       "quality": 3,
       "tags": [
-        "summonable",
         "offensive"
       ],
       "pools": [
@@ -21049,7 +21061,8 @@
       "itemType": "passive",
       "quality": 1,
       "tags": [
-        "summonable"
+        "summonable",
+        "offensive"
       ],
       "pools": [
         {
@@ -21319,7 +21332,8 @@
       "itemType": "passive",
       "quality": 2,
       "tags": [
-        "summonable"
+        "summonable",
+        "offensive"
       ],
       "pools": [
         {
@@ -21605,7 +21619,7 @@
       "itemType": "passive",
       "quality": 2,
       "tags": [
-        "summonable"
+        "offensive"
       ],
       "pools": [
         {
@@ -21873,7 +21887,8 @@
       "itemType": "passive",
       "quality": 3,
       "tags": [
-        "summonable"
+        "summonable",
+        "offensive"
       ],
       "pools": [
         {
@@ -22151,7 +22166,10 @@
       "xmlName": "Crown of Thorns",
       "itemType": "passive",
       "quality": 3,
-      "tags": [],
+      "tags": [
+        "summonable",
+        "offensive"
+      ],
       "pools": [
         {
           "id": "treasure",
@@ -22199,12 +22217,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "custom_row_1785848579295::BossRush",
-        "characterKey": "custom_row_1785848579295",
+        "zone": "Noia::BossRush",
+        "characterKey": "Noia",
         "conditionKey": "BossRush",
         "text": {
-          "zh": "使用Noia完成Boss Rush",
-          "en": "Complete Boss Rush as Noia"
+          "zh": "使用诺娅完成Boss Rush",
+          "en": "Complete Boss Rush as 诺娅"
         }
       },
       "characterBase": null,
@@ -22303,7 +22321,8 @@
       "itemType": "passive",
       "quality": 3,
       "tags": [
-        "summonable"
+        "summonable",
+        "offensive"
       ],
       "pools": [
         {
@@ -22340,12 +22359,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Lu::FullCompletion",
-        "characterKey": "Lu",
-        "conditionKey": "FullCompletion",
+        "zone": "Lu_B::Mother",
+        "characterKey": "Lu_B",
+        "conditionKey": "Mother",
         "text": {
-          "zh": "使用露完成全标记",
-          "en": "Complete Full Completion as Lu"
+          "zh": "使用里露击败母亲",
+          "en": "Defeat Mother as 里露"
         }
       },
       "characterBase": null,
@@ -22573,7 +22592,10 @@
       "xmlName": "Rooted Demon",
       "itemType": "passive",
       "quality": 3,
-      "tags": [],
+      "tags": [
+        "offensive",
+        "devil"
+      ],
       "pools": [
         {
           "id": "devil",
@@ -22713,7 +22735,8 @@
       "itemType": "passive",
       "quality": 3,
       "tags": [
-        "offensive"
+        "offensive",
+        "summonable"
       ],
       "pools": [
         {
@@ -22848,7 +22871,8 @@
       "itemType": "passive",
       "quality": 4,
       "tags": [
-        "devil"
+        "devil",
+        "offensive"
       ],
       "pools": [
         {
@@ -22977,7 +23001,7 @@
       "slug": "wishing",
       "kind": "collectible",
       "internalKey": "Wishing",
-      "remasterStatus": "",
+      "remasterStatus": "new",
       "xmlId": 188,
       "xmlName": "Wishing",
       "itemType": "active",
@@ -22995,9 +23019,37 @@
           "weight": 1,
           "decreaseBy": 1,
           "removeOn": 0.1
+        },
+        {
+          "id": "greedTreasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "greedAngel",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Tecrorun::Beast",
+        "characterKey": "Tecrorun",
+        "conditionKey": "Beast",
+        "text": {
+          "zh": "使用泰克罗罗恩击败祸兽",
+          "en": "Defeat The Beast as Tecrorun"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -23079,6 +23131,119 @@
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
         "x": 224,
+        "y": 288,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "slug": "bewitching-moon",
+      "kind": "collectible",
+      "internalKey": "Bewitching_Moon",
+      "remasterStatus": "new",
+      "xmlId": 189,
+      "xmlName": "Bewitching Moon",
+      "itemType": "familiar",
+      "quality": 1,
+      "tags": [
+        "summonable"
+      ],
+      "pools": [
+        {
+          "id": "treasure",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        },
+        {
+          "id": "babyShop",
+          "weight": 1,
+          "decreaseBy": 1,
+          "removeOn": 0.1
+        }
+      ],
+      "unlock": null,
+      "characterBase": null,
+      "pocketItemBase": null,
+      "cardCounterparts": [],
+      "challengeBase": null,
+      "baseStats": null,
+      "series": null,
+      "spawnSources": [],
+      "randomDrop": null,
+      "slotInteraction": null,
+      "maxCharges": null,
+      "chargeType": null,
+      "initCharge": null,
+      "hidden": false,
+      "playerType": null,
+      "displayCharacter": null,
+      "endStage": null,
+      "megaSatan": null,
+      "altPath": null,
+      "canShoot": null,
+      "startingItems": [],
+      "startingTrinkets": [],
+      "startingCard": null,
+      "startingPill": null,
+      "requiredAchievements": [],
+      "rewards": [],
+      "roomFilter": [],
+      "pickupVariant": null,
+      "pickupSubType": null,
+      "pseudoPickup": null,
+      "pickupEnum": null,
+      "slotEnum": null,
+      "names": {
+        "zh": "幻惑之月",
+        "en": "Bewitching Moon"
+      },
+      "desc": {
+        "zh": "伸手可及",
+        "en": "Within Reach"
+      },
+      "eid": {
+        "zh": "自动寻找敌人，周期性释放使敌人魅惑、眩晕或恐惧的月光#附近敌人优先攻击月亮",
+        "en": "Seeks enemies and periodically emits moonlight that charms, confuses, or fears them#Nearby enemies prefer attacking the moon"
+      },
+      "seijaBuff": {
+        "zh": "",
+        "en": ""
+      },
+      "seijaNerf": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfVirtues": {
+        "zh": "",
+        "en": ""
+      },
+      "bookOfBelial": {
+        "zh": "",
+        "en": ""
+      },
+      "abyssSynic": {
+        "zh": "",
+        "en": ""
+      },
+      "tarotClothBuffs": {
+        "zh": "",
+        "en": ""
+      },
+      "icon": "/generated/images/bewitching-moon.png",
+      "thumb32": "/generated/images/bewitching-moon_32.webp",
+      "thumb32Png": "/generated/images/bewitching-moon_32.png",
+      "thumb64": "/generated/images/bewitching-moon_64.webp",
+      "thumb64Png": "/generated/images/bewitching-moon_64.png",
+      "portrait": null,
+      "aliases": {
+        "zh": [],
+        "en": []
+      },
+      "atlas": {
+        "webp": "/generated/images/icon-atlas.webp",
+        "png": "/generated/images/icon-atlas.png",
+        "x": 256,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23186,7 +23351,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23294,7 +23459,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23412,7 +23577,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23520,7 +23685,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23628,7 +23793,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23736,7 +23901,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23844,7 +24009,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 288,
         "w": 32,
         "h": 32
@@ -23952,8 +24117,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 288,
+        "x": 0,
+        "y": 320,
         "w": 32,
         "h": 32
       }
@@ -24060,7 +24225,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24168,7 +24333,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24276,7 +24441,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24384,7 +24549,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24492,7 +24657,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24600,7 +24765,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24708,7 +24873,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24816,7 +24981,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 320,
         "w": 32,
         "h": 32
@@ -24921,7 +25086,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25036,7 +25201,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25151,7 +25316,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25271,7 +25436,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25404,7 +25569,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25537,7 +25702,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25670,7 +25835,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 320,
         "w": 32,
         "h": 32
@@ -25790,8 +25955,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 320,
+        "x": 0,
+        "y": 352,
         "w": 32,
         "h": 32
       }
@@ -25910,7 +26075,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26030,7 +26195,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26150,7 +26315,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26270,7 +26435,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26390,7 +26555,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26510,7 +26675,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26630,7 +26795,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26750,7 +26915,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 352,
         "w": 32,
         "h": 32
@@ -26776,17 +26941,7 @@
         "text": {
           "zh": "使用玛丽亚诺击败阿莱斯特",
           "en": "Defeat 阿莱斯特 as Operation Guide: Marriano"
-        },
-        "siblings": [
-          {
-            "slug": "xi-lure-reversed",
-            "kind": "card",
-            "names": {
-              "zh": "XI - 欲望?",
-              "en": "XI - Lure?"
-            }
-          }
-        ]
+        }
       },
       "characterBase": null,
       "pocketItemBase": {
@@ -26880,7 +27035,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27000,7 +27155,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27120,7 +27275,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27240,7 +27395,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27360,7 +27515,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27480,7 +27635,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27618,7 +27773,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 352,
         "w": 32,
         "h": 32
@@ -27756,8 +27911,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 352,
+        "x": 0,
+        "y": 384,
         "w": 32,
         "h": 32
       }
@@ -27894,7 +28049,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28014,7 +28169,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28134,7 +28289,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28254,7 +28409,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28369,7 +28524,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28489,7 +28644,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28609,7 +28764,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28729,7 +28884,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28849,7 +29004,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 384,
         "w": 32,
         "h": 32
@@ -28969,7 +29124,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29089,7 +29244,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29209,7 +29364,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29329,7 +29484,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29449,7 +29604,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29469,23 +29624,13 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Marriano::custom_col_1788544736302",
-        "characterKey": "Marriano",
+        "zone": "Marriano_B::custom_col_1788544736302",
+        "characterKey": "Marriano_B",
         "conditionKey": "custom_col_1788544736302",
         "text": {
-          "zh": "使用玛丽亚诺击败阿莱斯特",
-          "en": "Defeat 阿莱斯特 as Operation Guide: Marriano"
-        },
-        "siblings": [
-          {
-            "slug": "xi-lure",
-            "kind": "card",
-            "names": {
-              "zh": "XI - 欲望",
-              "en": "XI - Lure"
-            }
-          }
-        ]
+          "zh": "使用里玛丽击败阿莱斯特",
+          "en": "Defeat 阿莱斯特 as 里玛丽"
+        }
       },
       "characterBase": null,
       "pocketItemBase": {
@@ -29579,7 +29724,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 384,
         "w": 32,
         "h": 32
@@ -29699,8 +29844,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 384,
+        "x": 0,
+        "y": 416,
         "w": 32,
         "h": 32
       }
@@ -29837,7 +29982,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 416,
         "w": 32,
         "h": 32
@@ -29970,7 +30115,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30103,7 +30248,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30223,7 +30368,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30343,7 +30488,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30463,7 +30608,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30601,7 +30746,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30739,7 +30884,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30877,7 +31022,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 416,
         "w": 32,
         "h": 32
@@ -30997,7 +31142,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31117,7 +31262,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31237,7 +31382,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31357,7 +31502,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31482,7 +31627,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31607,7 +31752,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 416,
         "w": 32,
         "h": 32
@@ -31732,8 +31877,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 416,
+        "x": 0,
+        "y": 448,
         "w": 32,
         "h": 32
       }
@@ -31852,7 +31997,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 0,
+        "x": 32,
         "y": 448,
         "w": 32,
         "h": 32
@@ -31972,7 +32117,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 32,
+        "x": 64,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32092,7 +32237,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 64,
+        "x": 96,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32212,7 +32357,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 96,
+        "x": 128,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32332,7 +32477,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 128,
+        "x": 160,
         "y": 448,
         "w": 32,
         "h": 32
@@ -32452,7 +32597,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 160,
+        "x": 192,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35428,7 +35573,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 192,
+        "x": 224,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35598,7 +35743,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 224,
+        "x": 256,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35768,7 +35913,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 256,
+        "x": 288,
         "y": 448,
         "w": 32,
         "h": 32
@@ -35938,7 +36083,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 288,
+        "x": 320,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36108,7 +36253,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 320,
+        "x": 352,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36278,7 +36423,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 352,
+        "x": 384,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36448,7 +36593,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 384,
+        "x": 416,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36618,7 +36763,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 416,
+        "x": 448,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36798,7 +36943,7 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 448,
+        "x": 480,
         "y": 448,
         "w": 32,
         "h": 32
@@ -36896,8 +37041,8 @@
       "atlas": {
         "webp": "/generated/images/icon-atlas.webp",
         "png": "/generated/images/icon-atlas.png",
-        "x": 480,
-        "y": 448,
+        "x": 0,
+        "y": 480,
         "w": 32,
         "h": 32
       }
@@ -37353,5 +37498,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-10T17:49:38Z"
+  "generatedAt": "2026-11-20T02:37:36Z"
 }

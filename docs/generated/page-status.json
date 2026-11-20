@@ -1218,6 +1218,14 @@
       "enStatus": "drafted"
     },
     {
+      "slug": "bewitching-moon",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/bewitching-moon.md",
+      "en": "wiki/docs/en/items/bewitching-moon.md",
+      "zhStatus": "reviewed",
+      "enStatus": "reviewed"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -2122,5 +2130,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-11-11T05:24:37Z"
+  "generatedAt": "2026-11-18T10:45:50Z"
 }

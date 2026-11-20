@@ -13019,7 +13019,8 @@
     "Rooted_Demon": "collectibles_Rooted_Demon.png",
     "Incandescence_Flame": "collectibles_Incandescence_Flame.png",
     "Entombed_Demon": "collectibles_Entombed_Demon.png",
-    "Wishing": "collectibles_Wishing.png"
+    "Wishing": "collectibles_Wishing.png",
+    "Bewitching_Moon": "collectibles_Bewitching_Moon.png"
   },
   "qingCollectiblesByXmlId": {
     "1": "collectibles_Darkness.png",
@@ -13173,7 +13174,8 @@
     "185": "collectibles_Rooted_Demon.png",
     "186": "collectibles_Incandescence_Flame.png",
     "187": "collectibles_Entombed_Demon.png",
-    "188": "collectibles_Wishing.png"
+    "188": "collectibles_Wishing.png",
+    "189": "collectibles_Bewitching_Moon.png"
   },
   "qingTrinketsByKey": {
     "Pacification_Mark": "trinkets_Pacification_Mark.png",

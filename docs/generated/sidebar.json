@@ -654,6 +654,10 @@
           {
             "text": "祈愿",
             "link": "/items/wishing"
+          },
+          {
+            "text": "幻惑之月",
+            "link": "/items/bewitching-moon"
           }
         ]
       }
@@ -1853,6 +1857,10 @@
           {
             "text": "Wishing",
             "link": "/en/items/wishing"
+          },
+          {
+            "text": "Bewitching Moon",
+            "link": "/en/items/bewitching-moon"
           }
         ]
       }
