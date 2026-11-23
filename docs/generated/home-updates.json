@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T13:36:38.305Z",
+  "source": "git-body-history",
+  "limit": 4,
+  "softQuota": {
+    "new": 2,
+    "updated": 2
+  },
+  "scannedCommits": 40,
+  "candidateCount": 47,
+  "newCandidateCount": 13,
+  "updatedCandidateCount": 43,
+  "updates": [
+    {
+      "kind": "collectible",
+      "slug": "golden-compass",
+      "changeType": "new",
+      "createdAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "date": "2026-11-23"
+    },
+    {
+      "kind": "challenge",
+      "slug": "cookie-clicker",
+      "changeType": "updated",
+      "createdAt": null,
+      "updatedAt": "2026-11-11",
+      "date": "2026-11-11"
+    },
+    {
+      "kind": "collectible",
+      "slug": "bewitching-moon",
+      "changeType": "new",
+      "createdAt": "2026-11-18",
+      "updatedAt": "2026-11-23",
+      "date": "2026-11-18"
+    },
+    {
+      "kind": "challenge",
+      "slug": "dragon-flight",
+      "changeType": "updated",
+      "createdAt": null,
+      "updatedAt": "2026-11-11",
+      "date": "2026-11-11"
+    }
+  ]
+}

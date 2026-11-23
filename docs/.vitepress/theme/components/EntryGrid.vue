@@ -213,7 +213,6 @@ function resetFilters() {
     <section v-if="isCollectibleIndex && filteredQuest.length" class="entry-quest">
       <header>
         <h2>{{ en ? 'Quest items' : '任务道具' }}</h2>
-        <p>{{ en ? 'Separated from the normal pool — usually unobtainable by rerolls or random generation.' : '从普通列表拆出；通常不会被重随或随机生成拿到。' }}</p>
       </header>
       <div class="entry-grid">
         <a
@@ -358,12 +357,7 @@ function resetFilters() {
   margin-bottom: 0.9rem;
 }
 .entry-quest h2 {
-  margin: 0 0 0.25rem;
-  font-size: 1.25rem;
-}
-.entry-quest p {
   margin: 0;
-  color: var(--vp-c-text-2);
-  font-size: 0.92rem;
+  font-size: 1.25rem;
 }
 </style>
