@@ -21905,7 +21905,7 @@
       "xmlId": 180,
       "xmlName": "Ketu",
       "itemType": "passive",
-      "quality": 3,
+      "quality": 4,
       "tags": [
         "summonable",
         "offensive"
@@ -22339,7 +22339,7 @@
       "xmlId": 183,
       "xmlName": "Alien Savior",
       "itemType": "passive",
-      "quality": 3,
+      "quality": 2,
       "tags": [
         "summonable",
         "offensive"
@@ -22481,7 +22481,7 @@
       "xmlId": 184,
       "xmlName": "Strawberry Cake Pie",
       "itemType": "passive",
-      "quality": 3,
+      "quality": 2,
       "tags": [
         "offensive",
         "summonable"
@@ -37657,5 +37657,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-23T13:07:19Z"
+  "generatedAt": "2026-11-23T13:09:59Z"
 }
