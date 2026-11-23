@@ -21,15 +21,16 @@ Bewitching Moon seeks out enemies on its own, orbits them, and draws nearby atta
 Every 2 seconds it releases moonlight that randomly charms, confuses, or fears enemies in range. If a pulse finds no enemies, it will fire once when an enemy later enters the aura.
 
 <details>
-<summary>⚠️ Spoiler warning: Hidden mechanics (click to expand)</summary>
+<summary>Hidden Controls</summary>
 
-### Handling the moon
+Handling the moon
 
 Hold the left mouse button to grab and move the moon, widening its moonlight range. On release it slows down and returns to acting on its own.
 
 With multiple moons, dragging one makes the other unattached moons temporarily follow it.
 
-### Eye fusion
+<details>
+<summary>Eye Fusion (Spoilers)</summary>
 
 Drag a moon near the character's eyes and release to fuse it into the eyes.
 
@@ -37,15 +38,12 @@ While fused, moonlight centers on the character instead. Each fused moon grants 
 
 Click the character's eyes to pull one fused moon back out.
 
+This hidden mechanic is also drawn from *MONOMOON*.
+
+</details>
+
 </details>
 
 ## Trivia
 
 Bewitching Moon's look is taken from the game *MONOMOON*.
-
-<details>
-<summary>⚠️ Spoiler warning: Source homage (click to expand)</summary>
-
-The hidden eye-fusion mechanic is also drawn from *MONOMOON*.
-
-</details>

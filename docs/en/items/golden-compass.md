@@ -231,3 +231,7 @@ Ordinary Golden Compass corridors are not affected by these curses.
 - Each use rolls its own corridor contents.
 - Book of Virtues, Book of Belial, and Seija effects lock at use time and stay with that appointment, even if those items are gained or lost later.
 - Book of Virtues does not spawn an extra Golden Compass wisp.
+
+## Trivia
+
+Golden Compass's item art and effect design are both taken directly from the item of the same name in *Slay the Spire 2*.

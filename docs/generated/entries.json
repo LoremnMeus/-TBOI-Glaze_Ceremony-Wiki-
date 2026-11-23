@@ -373,16 +373,6 @@
         }
       }
     ],
-    "Marriano::Satan": [
-      {
-        "slug": "suture-needle",
-        "kind": "collectible",
-        "names": {
-          "zh": "缝合针",
-          "en": "Suture Needle"
-        }
-      }
-    ],
     "Tecro::custom_col_1784813595360": [
       {
         "slug": "philosophers-stone",
@@ -410,16 +400,6 @@
         "names": {
           "zh": "无生源论",
           "en": "Abiogenesis"
-        }
-      }
-    ],
-    "Autio::BlueBaby": [
-      {
-        "slug": "dark-mysticism",
-        "kind": "collectible",
-        "names": {
-          "zh": "暗黑神秘学",
-          "en": "Dark Mysticism"
         }
       }
     ],
@@ -1499,16 +1479,6 @@
         }
       }
     ],
-    "Autio::Beast": [
-      {
-        "slug": "regenesis",
-        "kind": "collectible",
-        "names": {
-          "zh": "再世纪",
-          "en": "Regenesis"
-        }
-      }
-    ],
     "Autio::custom_col_1784816386034": [
       {
         "slug": "straining-symbol",
@@ -2231,6 +2201,16 @@
         }
       }
     ],
+    "Marriano_B::Lamb": [
+      {
+        "slug": "suture-needle",
+        "kind": "collectible",
+        "names": {
+          "zh": "缝合针",
+          "en": "Suture Needle"
+        }
+      }
+    ],
     "Marriano_B::Hush": [
       {
         "slug": "disequilibrium",
@@ -2251,6 +2231,26 @@
         }
       }
     ],
+    "Autio_B::BlueBaby": [
+      {
+        "slug": "regenesis",
+        "kind": "collectible",
+        "names": {
+          "zh": "再世纪",
+          "en": "Regenesis"
+        }
+      }
+    ],
+    "Autio_B::Lamb": [
+      {
+        "slug": "dark-mysticism",
+        "kind": "collectible",
+        "names": {
+          "zh": "暗黑神秘学",
+          "en": "Dark Mysticism"
+        }
+      }
+    ],
     "Autio_B::Hush": [
       {
         "slug": "chasm",
@@ -2258,6 +2258,16 @@
         "names": {
           "zh": "天象入渊",
           "en": "Chasm"
+        }
+      }
+    ],
+    "Lu_B::BlueBaby": [
+      {
+        "slug": "bewitching-moon",
+        "kind": "collectible",
+        "names": {
+          "zh": "幻惑之月",
+          "en": "Bewitching Moon"
         }
       }
     ],
@@ -2278,6 +2288,16 @@
         "names": {
           "zh": "天外救星",
           "en": "Alien Savior"
+        }
+      }
+    ],
+    "Lu_B::GreedMode": [
+      {
+        "slug": "golden-compass",
+        "kind": "collectible",
+        "names": {
+          "zh": "黄金罗盘",
+          "en": "Golden Compass"
         }
       }
     ]
@@ -5859,12 +5879,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Marriano::Satan",
-        "characterKey": "Marriano",
-        "conditionKey": "Satan",
+        "zone": "Marriano_B::Lamb",
+        "characterKey": "Marriano_B",
+        "conditionKey": "Lamb",
         "text": {
-          "zh": "使用玛丽亚诺击败撒旦",
-          "en": "Defeat Satan as Operation Guide: Marriano"
+          "zh": "使用里玛丽击败羔羊",
+          "en": "Defeat The Lamb as 里玛丽"
         }
       },
       "characterBase": null,
@@ -15093,12 +15113,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Autio::BlueBaby",
-        "characterKey": "Autio",
-        "conditionKey": "BlueBaby",
+        "zone": "Autio_B::Lamb",
+        "characterKey": "Autio_B",
+        "conditionKey": "Lamb",
         "text": {
-          "zh": "使用艾提奥击败???",
-          "en": "Defeat ??? as Autio"
+          "zh": "使用里艾提奥击败羔羊",
+          "en": "Defeat The Lamb as 里艾提奥"
         }
       },
       "characterBase": null,
@@ -20700,12 +20720,12 @@
       "unlock": {
         "type": "character_mark",
         "source": "unlock_board",
-        "zone": "Autio::Beast",
-        "characterKey": "Autio",
-        "conditionKey": "Beast",
+        "zone": "Autio_B::BlueBaby",
+        "characterKey": "Autio_B",
+        "conditionKey": "BlueBaby",
         "text": {
-          "zh": "使用艾提奥击败祸兽",
-          "en": "Defeat The Beast as Autio"
+          "zh": "使用里艾提奥击败???",
+          "en": "Defeat ??? as 里艾提奥"
         }
       },
       "characterBase": null,
@@ -23162,7 +23182,17 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Lu_B::BlueBaby",
+        "characterKey": "Lu_B",
+        "conditionKey": "BlueBaby",
+        "text": {
+          "zh": "使用里露击败???",
+          "en": "Defeat ??? as 里露"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -23281,7 +23311,17 @@
           "removeOn": 0.1
         }
       ],
-      "unlock": null,
+      "unlock": {
+        "type": "character_mark",
+        "source": "unlock_board",
+        "zone": "Lu_B::GreedMode",
+        "characterKey": "Lu_B",
+        "conditionKey": "GreedMode",
+        "text": {
+          "zh": "使用里露完成贪婪模式",
+          "en": "Complete Greed Mode as 里露"
+        }
+      },
       "characterBase": null,
       "pocketItemBase": null,
       "cardCounterparts": [],
@@ -37617,5 +37657,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-23T12:56:54Z"
+  "generatedAt": "2026-11-23T13:07:19Z"
 }
