@@ -167,11 +167,11 @@ In Greed / Greedier, Golden Compass does not appear normally. Even if obtained a
 
 ## Synergies
 
-### {{Collectible:584}} Book of Virtues
+### {{Collectible:584}}
 
 The fireplace reward becomes an Angel Room item with an angel statue above it.
 
-### {{Collectible:34}} Book of Belial
+### {{Collectible:34}}
 
 The fireplace reward becomes a Devil Room item with a devil statue above it.
 
@@ -181,41 +181,41 @@ With both books held, the fireplace room spawns one Angel item and one Devil ite
 
 You then choose among the bed, the Angel item, and the Devil item.
 
-### {{Collectible:599}} Voodoo Head
+### {{Collectible:599}}
 
 A second Curse Room appears above room 8.
 
 Both Curse Rooms use Voodoo Head's special layouts and try to pick different ones.
 
-### {{Collectible:589}} Luna
+### {{Collectible:589}}
 
 Extra Secret Rooms appear north of the corridor, plus a linked Super Secret Room.
 
 They only generate and connect where space allows.
 
-### {{Trinket:102}} Fragmented Card
+### {{Trinket:102}}
 
 Adds extra north-side Secret Rooms.
 
 This stacks with Luna for more linked north secrets.
 
-### {{Trinket:112}} Pay to Play
+### {{Trinket:112}}
 
 Both treasure rooms prefer restock-machine layouts.
 
-### {{Collectible:498}} Duality
+### {{Collectible:498}}
 
 The corridor end still spawns only one deal room; Devil or Angel follows the usual leanings.
 
-### {{Collectible:499}} Eucharist
+### {{Collectible:499}}
 
 The corridor end always becomes an Angel Room.
 
-### {{Collectible:215}} Goat Head
+### {{Collectible:215}}
 
 The corridor end always becomes a Devil Room.
 
-### {{Trinket:174}} Number Magnet
+### {{Trinket:174}}
 
 When the corridor end is a Devil Room, it uses Number Magnet's special layouts.
 
