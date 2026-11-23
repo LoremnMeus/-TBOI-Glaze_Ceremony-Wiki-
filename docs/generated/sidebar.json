@@ -658,6 +658,10 @@
           {
             "text": "幻惑之月",
             "link": "/items/bewitching-moon"
+          },
+          {
+            "text": "黄金罗盘",
+            "link": "/items/golden-compass"
           }
         ]
       }
@@ -1861,6 +1865,10 @@
           {
             "text": "Bewitching Moon",
             "link": "/en/items/bewitching-moon"
+          },
+          {
+            "text": "Golden Compass",
+            "link": "/en/items/golden-compass"
           }
         ]
       }

@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Illumination
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>天象破幻 Illumination Illumination illumination Illumination I I !!! 一次性 使用后举起道具，按攻击方向确认 红钥匙 沿所选方向连续开启红房间，直到无法继续 举起后再次使用可取消选择 !!! SINGLE USE Lift it overhead, then press a fire direction to confirm Red Key Opens Red Rooms along that direction until blocked Press active again while raised to cancel</p>
+<p class="wiki-search-index" v-pre>天象破幻 Illumination Illumination illumination Illumination I I 使用后举起道具，按攻击方向确认 红钥匙 沿所选方向连续开启红房间，直到无法继续 举起后再次使用可取消选择 Lift it overhead, then press a fire direction to confirm Red Key Opens Red Rooms along that direction until blocked Press active again while raised to cancel</p>
 
 <PublicEntry slug="illumination" lang="zh" />
 

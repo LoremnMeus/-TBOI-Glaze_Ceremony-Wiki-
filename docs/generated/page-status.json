@@ -1226,6 +1226,14 @@
       "enStatus": "reviewed"
     },
     {
+      "slug": "golden-compass",
+      "kind": "collectible",
+      "zh": "wiki/docs/items/golden-compass.md",
+      "en": "wiki/docs/en/items/golden-compass.md",
+      "zhStatus": "drafted",
+      "enStatus": "drafted"
+    },
+    {
       "slug": "pacification-mark",
       "kind": "trinket",
       "zh": "wiki/docs/trinkets/pacification-mark.md",
@@ -2130,5 +2138,5 @@
       "enStatus": "featured"
     }
   ],
-  "generatedAt": "2026-11-18T10:45:50Z"
+  "generatedAt": "2026-11-23T12:02:04Z"
 }

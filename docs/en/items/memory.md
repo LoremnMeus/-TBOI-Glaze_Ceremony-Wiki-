@@ -6,7 +6,7 @@ kind: collectible
 internalKey: Memory
 status: reviewed
 ---
-<p class="wiki-search-index" v-pre>回忆 Memory Memory memory Memory 我好像掉进了一个怪圈... I fall into a loop... !!! 一次性 本局后续道具只会从角色已拥有的道具中生成 重复持有会提高再次出现的概率 !!! SINGLE USE For this run, new collectibles only come from items you already hold More copies of an item make it more likely to appear again</p>
+<p class="wiki-search-index" v-pre>回忆 Memory Memory memory Memory 我好像掉进了一个怪圈... I fall into a loop... 本局后续道具只会从角色已拥有的道具中生成 重复持有会提高再次出现的概率 For this run, new collectibles only come from items you already hold More copies of an item make it more likely to appear again</p>
 
 <PublicEntry slug="memory" lang="en" />
 
