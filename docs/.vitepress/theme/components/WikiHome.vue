@@ -15,6 +15,9 @@ const props = defineProps({
 
 const english = computed(() => props.lang === 'en')
 const prefix = computed(() => (english.value ? '/en' : ''))
+const recentlyAdded = computed(() =>
+  (homeUpdates || []).filter((row) => row.changeType === 'new').slice(0, 2),
+)
 
 const categories = computed(() => [
   {
@@ -51,51 +54,54 @@ function local(path) {
         {{ english ? 'Glaze Ceremony: Promised Land Wiki' : '琉璃圣典：应许之地 Wiki' }}
       </h1>
 
-      <ClientOnly>
-        <WikiGameLogo :lang="lang" />
-        <WikiTitleMarquee />
-      </ClientOnly>
+      <div class="wiki-home-hero__decoration" aria-hidden="true">
+        <ClientOnly>
+          <WikiTitleMarquee />
+        </ClientOnly>
+      </div>
 
-      <div class="wiki-home-hero__identity">
-        <p class="wiki-home-hero__wiki-title">
-          <span>{{ english ? 'Glaze Ceremony Wiki' : '琉璃圣典 Wiki' }}</span>
-          <span class="wiki-home-hero__title-divider" aria-hidden="true">·</span>
-          <span class="wiki-home-hero__subtitle-inline">
-            {{ english ? 'Promised Land' : '应许之地' }}
-          </span>
-        </p>
-        <p class="wiki-home-hero__description">
-          {{
-            english
-              ? 'The official player Wiki for the Glaze Ceremony content mod for The Binding of Isaac: Repentance+.'
-              : '《The Binding of Isaac: Repentance+》大型内容模组的官方玩家 Wiki。'
-          }}
-        </p>
+      <div class="wiki-home-hero__foreground">
+        <ClientOnly>
+          <WikiGameLogo :lang="lang" />
+        </ClientOnly>
 
-        <div class="wiki-home-hero__actions">
-          <a class="wiki-home-button wiki-home-button--primary" :href="local('/items/')">
-            {{ english ? 'Browse Content' : '浏览全部内容' }}
-          </a>
-          <a class="wiki-home-button" :href="local('/guide/install')">
-            {{ english ? 'Install & Download' : '安装与下载' }}
+        <div class="wiki-home-hero__identity">
+          <p class="wiki-home-hero__wiki-title">
+            <span>{{ english ? 'Glaze Ceremony Wiki' : '琉璃圣典 Wiki' }}</span>
+            <span class="wiki-home-hero__title-divider" aria-hidden="true">·</span>
+            <span class="wiki-home-hero__subtitle-inline">
+              {{ english ? 'Promised Land' : '应许之地' }}
+            </span>
+          </p>
+          <p class="wiki-home-hero__description">
+            {{
+              english
+                ? 'The official player Wiki for the Glaze Ceremony content mod for The Binding of Isaac: Repentance+.'
+                : '《The Binding of Isaac: Repentance+》大型内容模组的官方玩家 Wiki。'
+            }}
+          </p>
+
+          <div class="wiki-home-hero__actions">
+            <a class="wiki-home-button wiki-home-button--primary" :href="local('/items/')">
+              {{ english ? 'Browse Content' : '浏览全部内容' }}
+            </a>
+            <a class="wiki-home-button" :href="local('/guide/install')">
+              {{ english ? 'Install & Download' : '安装与下载' }}
+            </a>
+          </div>
+
+          <p class="wiki-home-hero__meta">
+            v{{ catalog.version }} · Repentance+ / REPENTOGON
+          </p>
+          <a class="wiki-home-hero__alpha" :href="local('/guide/about')">
+            {{ english ? 'About the mod →' : '模组介绍 →' }}
           </a>
         </div>
-
-        <p class="wiki-home-hero__meta">
-          v{{ catalog.version }} · Repentance+ / REPENTOGON
-        </p>
-        <a class="wiki-home-hero__alpha" :href="local('/guide/about')">
-          {{
-            english
-              ? 'Alpha testing · Story available through: Prologue'
-              : 'Alpha 测试中 · 当前剧情开放至：序章'
-          }}
-        </a>
       </div>
     </section>
 
-    <section v-if="homeUpdates.length" class="wiki-home-section">
-      <h2>{{ english ? 'Latest Updates' : '最新动态' }}</h2>
+    <section v-if="recentlyAdded.length" class="wiki-home-section">
+      <h2>{{ english ? 'Recently Added' : '近期新增' }}</h2>
       <HomeUpdates :lang="lang" />
     </section>
 
@@ -149,10 +155,43 @@ function local(path) {
 
 .wiki-home-hero {
   position: relative;
+  isolation: isolate;
   width: min(100%, 980px);
   margin-inline: auto;
   padding: clamp(0.3rem, 1vw, 0.7rem) 0 0.25rem;
   text-align: center;
+}
+
+.wiki-home-hero__decoration {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1200px, 100vw);
+  height: 96px;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.35;
+  z-index: 0;
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 12%,
+    #000 88%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #000 12%,
+    #000 88%,
+    transparent 100%
+  );
+}
+
+.wiki-home-hero__foreground {
+  position: relative;
+  z-index: 1;
 }
 
 .wiki-home-sr-title {

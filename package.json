@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docs:dev": "node scripts/generate-home-updates.mjs && vitepress dev docs --host --port 5173",
+    "docs:dev": "node scripts/validate-home.mjs && vitepress dev docs --host --port 5173",
     "docs:build": "node scripts/patch-vitepress-windows-path.mjs && node scripts/validate-home.mjs && vitepress build docs",
     "docs:preview": "vitepress preview docs --host --port 4173",
     "generate:home-updates": "node scripts/generate-home-updates.mjs",

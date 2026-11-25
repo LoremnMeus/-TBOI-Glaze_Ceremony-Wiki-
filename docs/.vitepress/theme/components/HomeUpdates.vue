@@ -16,11 +16,6 @@ const KIND_LABELS = {
   slot: { zh: '乞丐 / 机器', en: 'Slot' },
 }
 
-const CHANGE_LABELS = {
-  new: { zh: '新增', en: 'New' },
-  updated: { zh: '更新', en: 'Updated' },
-}
-
 function formatDate(iso, lang) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '')
   if (!m) return iso || ''
@@ -38,9 +33,10 @@ function formatDate(iso, lang) {
   return `${month}月${day}日`
 }
 
-// Keep generator order (new/updated soft-quota mix). Do not re-sort by date alone.
+// Generator already emits at most two new entries in date order.
 const updates = computed(() => homeUpdates
-  .slice(0, 4)
+  .filter((row) => row.changeType === 'new')
+  .slice(0, 2)
   .map((update) => ({ ...update, entry: resolveHomeEntry(update) })))
 </script>
 
@@ -48,7 +44,7 @@ const updates = computed(() => homeUpdates
   <div v-if="updates.length" class="home-updates">
     <a
       v-for="(update, index) in updates"
-      :key="`${update.changeType}:${update.date}:${update.kind}:${update.slug}:${index}`"
+      :key="`${update.date}:${update.kind}:${update.slug}:${index}`"
       class="home-update"
       :href="withBase(homeEntryPath(update.entry, props.lang))"
     >
@@ -59,12 +55,6 @@ const updates = computed(() => homeUpdates
       />
       <span class="home-update__body">
         <strong>{{ homeEntryName(update.entry, props.lang) }}</strong>
-        <span
-          class="home-update__badge"
-          :data-kind="update.changeType === 'new' ? 'new' : 'updated'"
-        >
-          {{ CHANGE_LABELS[update.changeType]?.[props.lang] || CHANGE_LABELS.updated[props.lang] }}
-        </span>
         <span class="home-update__meta">
           {{ KIND_LABELS[update.kind]?.[props.lang] || update.kind }}
           ·
@@ -100,16 +90,7 @@ const updates = computed(() => homeUpdates
   object-fit: contain;
   image-rendering: pixelated;
 }
-.home-update__body { display: grid; min-width: 0; gap: .1rem; }
-.home-update__badge {
-  width: fit-content;
-  font-size: .78rem;
-  line-height: 1.2;
-  font-weight: 600;
-  letter-spacing: .02em;
-}
-.home-update__badge[data-kind='new'] { color: var(--vp-c-brand-1); }
-.home-update__badge[data-kind='updated'] { color: var(--vp-c-text-2); }
+.home-update__body { display: grid; min-width: 0; gap: .12rem; }
 .home-update__meta { color: var(--vp-c-text-2); font-size: .88rem; line-height: 1.4; }
 @media (max-width: 640px) {
   .home-update { align-items: flex-start; }

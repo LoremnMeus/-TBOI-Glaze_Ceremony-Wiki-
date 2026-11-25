@@ -6,9 +6,7 @@ const TEXT = 'GLAZE CEREMONY PROMISED LAND   '
 const A2Z_URL = withBase('/home/a2z.png')
 
 const DEFAULTS = {
-  StartX: 320,
-  EndX: 80,
-  Y: 95,
+  Y: 40,
   Speed: 28,
   FadeWidth: 48,
   LetterSpacing: 4,
@@ -26,13 +24,16 @@ const DEFAULTS = {
   TangentRotation: 1,
 }
 
+/** Fixed visual glyph scale (CSS px per logical unit). Wider canvas shows more letters. */
+const LETTER_SCALE = 1.5
+const VIEW_HEIGHT = 96
+
 const WIDE = { A: true, I: true, J: true, M: true, T: true, W: true }
 const CELL = 32
-const VIEW_WIDTH = DEFAULTS.StartX - DEFAULTS.EndX
 
 const rootRef = ref(null)
 const canvasRef = ref(null)
-const fallback = ref(false)
+const hidden = ref(false)
 const reducedMotion = ref(false)
 
 let sheet = null
@@ -40,6 +41,7 @@ let raf = 0
 let resizeObserver = null
 let destroyed = false
 let frozenTime = 0
+let viewWidth = 720
 const tintCache = new Map()
 
 function prefersReducedMotion() {
@@ -92,9 +94,7 @@ function measurePhrase(spacing) {
   return width
 }
 
-function buildGlyphs(time) {
-  let startX = DEFAULTS.StartX
-  let endX = DEFAULTS.EndX
+function buildGlyphs(time, startX, endX) {
   if (endX > startX) {
     const tmp = endX
     endX = startX
@@ -222,14 +222,10 @@ function drawGlyphsPass(ctx, glyphs, scale, originX, originY) {
 function syncSize() {
   const canvas = canvasRef.value
   const root = rootRef.value
-  if (!canvas || !root) return null
-  const cssW = root.clientWidth || 720
-  // Vertical safe area from cell half + bounce + rotation/edge margin.
-  // Animation DEFAULTS stay untouched; only the canvas viewport grows.
-  const scaleCss = cssW / VIEW_WIDTH
-  const topPad = Math.ceil((CELL * 0.5 + DEFAULTS.BounceHeight + 12) * scaleCss)
-  const botPad = Math.ceil((CELL * 0.5 + 10) * scaleCss)
-  const cssH = Math.max(76, topPad + botPad)
+  if (!canvas || !root || hidden.value) return null
+  const cssW = Math.max(1, root.clientWidth || 720)
+  const cssH = VIEW_HEIGHT
+  viewWidth = cssW / LETTER_SCALE
   const dpr = Math.min(window.devicePixelRatio || 1, 2)
   const w = Math.max(1, Math.round(cssW * dpr))
   const h = Math.max(1, Math.round(cssH * dpr))
@@ -242,14 +238,16 @@ function syncSize() {
   return {
     w,
     h,
-    scale: scaleCss * dpr,
-    originY: topPad * dpr,
+    scale: LETTER_SCALE * dpr,
+    originY: (cssH * 0.52) * dpr,
+    startX: viewWidth + 24,
+    endX: -24,
   }
 }
 
 function renderFrame(time) {
   const canvas = canvasRef.value
-  if (!canvas || !sheet || fallback.value) return
+  if (!canvas || !sheet || hidden.value) return
   const size = syncSize()
   if (!size) return
   const ctx = canvas.getContext('2d')
@@ -257,14 +255,14 @@ function renderFrame(time) {
   ctx.setTransform(1, 0, 0, 1, 0, 0)
   ctx.clearRect(0, 0, size.w, size.h)
 
-  const glyphs = buildGlyphs(time)
-  const originX = -DEFAULTS.EndX * size.scale
+  const glyphs = buildGlyphs(time, size.startX, size.endX)
+  const originX = -size.endX * size.scale
   drawEdges(ctx, glyphs, size.scale, originX, size.originY)
   drawGlyphsPass(ctx, glyphs, size.scale, originX, size.originY)
 }
 
 function tick() {
-  if (destroyed) return
+  if (destroyed || hidden.value) return
   if (typeof document !== 'undefined' && document.visibilityState === 'hidden') {
     raf = 0
     return
@@ -276,7 +274,7 @@ function tick() {
 }
 
 function onVisibility() {
-  if (document.visibilityState === 'visible' && !reducedMotion.value && !raf && !fallback.value) {
+  if (document.visibilityState === 'visible' && !reducedMotion.value && !raf && !hidden.value) {
     raf = requestAnimationFrame(tick)
   }
 }
@@ -288,8 +286,8 @@ function onMotionChange(event) {
     raf = 0
   }
   if (reducedMotion.value) frozenTime = performance.now() / 1000
-  renderFrame(frozenTime || performance.now() / 1000)
-  if (!reducedMotion.value) raf = requestAnimationFrame(tick)
+  if (!hidden.value) renderFrame(frozenTime || performance.now() / 1000)
+  if (!reducedMotion.value && !hidden.value) raf = requestAnimationFrame(tick)
 }
 
 async function boot() {
@@ -306,8 +304,10 @@ async function boot() {
     renderFrame(frozenTime)
     if (!reducedMotion.value) raf = requestAnimationFrame(tick)
   } catch (err) {
-    console.warn('[WikiTitleMarquee] falling back to text:', err)
-    fallback.value = true
+    console.warn('[WikiTitleMarquee] hiding decoration:', err)
+    hidden.value = true
+    if (raf) cancelAnimationFrame(raf)
+    raf = 0
   }
 }
 
@@ -316,7 +316,7 @@ onMounted(() => {
   boot()
   if (typeof ResizeObserver !== 'undefined' && rootRef.value) {
     resizeObserver = new ResizeObserver(() => {
-      if (!fallback.value) {
+      if (!hidden.value) {
         const t = reducedMotion.value ? frozenTime : performance.now() / 1000
         renderFrame(t)
       }
@@ -345,43 +345,22 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div ref="rootRef" class="wiki-title-marquee" aria-hidden="true">
-    <canvas v-show="!fallback" ref="canvasRef" class="wiki-title-marquee__canvas" />
-    <p v-if="fallback" class="wiki-title-marquee__fallback">GLAZE CEREMONY PROMISED LAND</p>
+  <div v-show="!hidden" ref="rootRef" class="wiki-title-marquee" aria-hidden="true">
+    <canvas ref="canvasRef" class="wiki-title-marquee__canvas" />
   </div>
 </template>
 
 <style scoped>
 .wiki-title-marquee {
-  width: min(760px, 90vw);
-  margin: -4px auto -14px;
-  min-height: 76px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  min-height: 0;
 }
 
 .wiki-title-marquee__canvas {
   display: block;
   width: 100%;
-  height: auto;
-}
-
-.wiki-title-marquee__fallback {
-  margin: 0;
-  text-align: center;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-2);
-}
-
-@media (max-width: 960px) {
-  .wiki-title-marquee {
-    width: min(760px, 88vw);
-  }
-}
-
-@media (max-width: 640px) {
-  .wiki-title-marquee {
-    width: min(760px, 94vw);
-  }
+  height: 100%;
 }
 </style>

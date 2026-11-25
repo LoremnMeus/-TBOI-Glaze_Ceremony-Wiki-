@@ -25,98 +25,45 @@ if (!Array.isArray(homeGenerated.updates)) {
   throw new Error('generated/home-updates.json missing updates[]')
 }
 
+if (homeUpdates.length > 2) {
+  throw new Error(`Home recently-added exceed display cap: ${homeUpdates.length}`)
+}
+
 const seen = new Set()
+let previousDate = null
 for (const update of homeUpdates) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(update.date) || !update.kind || !update.slug) {
     throw new Error(`Incomplete home update: ${update.kind}:${update.slug}`)
   }
-  if (update.changeType !== 'new' && update.changeType !== 'updated') {
-    throw new Error(`Invalid changeType for ${update.kind}:${update.slug}: ${update.changeType}`)
+  if (update.changeType !== 'new') {
+    throw new Error(`Home recently-added requires changeType=new: ${update.kind}:${update.slug}`)
   }
-  if (update.changeType === 'new' && update.createdAt && update.createdAt !== update.date) {
+  if (update.createdAt && update.createdAt !== update.date) {
     throw new Error(`new entry date must equal createdAt: ${update.kind}:${update.slug}`)
-  }
-  if (update.changeType === 'updated' && update.updatedAt && update.updatedAt !== update.date) {
-    throw new Error(`updated entry date must equal updatedAt: ${update.kind}:${update.slug}`)
   }
   const key = `${update.kind}:${update.slug}`
   if (seen.has(key)) throw new Error(`Duplicate home update entry: ${key}`)
   seen.add(key)
-}
-
-if (homeUpdates.length > 4) {
-  throw new Error(`Home updates exceed display cap: ${homeUpdates.length}`)
-}
-
-function mergeQuota(news, updates, limit = 4, softNew = 2, softUpdated = 2) {
-  const pickedNew = []
-  const pickedUpd = []
-  const used = new Set()
-  for (const row of news) {
-    if (pickedNew.length >= softNew) break
-    const key = `${row.kind}:${row.slug}`
-    if (used.has(key)) continue
-    used.add(key)
-    pickedNew.push(row)
+  if (previousDate && update.date.localeCompare(previousDate) > 0) {
+    throw new Error(`Home recently-added must be date-desc: ${key}`)
   }
-  for (const row of updates) {
-    if (pickedUpd.length >= softUpdated) break
-    const key = `${row.kind}:${row.slug}`
-    if (used.has(key)) continue
-    used.add(key)
-    pickedUpd.push(row)
-  }
-  while (pickedNew.length + pickedUpd.length < limit) {
-    let added = false
-    for (const row of news) {
-      const key = `${row.kind}:${row.slug}`
-      if (used.has(key)) continue
-      used.add(key)
-      pickedNew.push(row)
-      added = true
-      break
-    }
-    if (pickedNew.length + pickedUpd.length >= limit) break
-    for (const row of updates) {
-      const key = `${row.kind}:${row.slug}`
-      if (used.has(key)) continue
-      used.add(key)
-      pickedUpd.push(row)
-      added = true
-      break
-    }
-    if (!added) break
-  }
-  const out = []
-  let i = 0
-  let j = 0
-  while (out.length < limit && (i < pickedNew.length || j < pickedUpd.length)) {
-    if (i < pickedNew.length) out.push(pickedNew[i++])
-    if (out.length >= limit) break
-    if (j < pickedUpd.length) out.push(pickedUpd[j++])
-  }
-  return out
+  previousDate = update.date
 }
 
 {
   const news = [
-    { kind: 'collectible', slug: 'a', date: '2026-11-23' },
-    { kind: 'collectible', slug: 'b', date: '2026-11-22' },
-    { kind: 'collectible', slug: 'c', date: '2026-11-21' },
+    { kind: 'collectible', slug: 'a', changeType: 'new', date: '2026-11-23' },
+    { kind: 'collectible', slug: 'b', changeType: 'new', date: '2026-11-22' },
+    { kind: 'collectible', slug: 'c', changeType: 'new', date: '2026-11-21' },
   ]
-  const updates = [
-    { kind: 'collectible', slug: 'a', date: '2026-11-23' },
-    { kind: 'collectible', slug: 'd', date: '2026-11-23' },
-    { kind: 'collectible', slug: 'e', date: '2026-11-20' },
-  ]
-  const merged = mergeQuota(news, updates, 4)
-  if (merged.length !== 4) throw new Error(`quota merge length failed: ${merged.length}`)
-  if (merged.filter((row) => row.slug === 'a').length !== 1) {
-    throw new Error('quota merge failed to dedupe new over updated')
+  const shown = news.filter((row) => row.changeType === 'new').slice(0, 2)
+  if (shown.length !== 2 || shown[0].slug !== 'a' || shown[1].slug !== 'b') {
+    throw new Error(`new-only filter failed: ${shown.map((row) => row.slug).join(',')}`)
   }
-  if (merged[0].slug !== 'a' || merged[1].slug !== 'd') {
-    throw new Error(`quota merge interleave failed: ${merged.map((row) => row.slug).join(',')}`)
-  }
+  const empty = [{ kind: 'collectible', slug: 'x', changeType: 'updated', date: '2026-11-23' }]
+    .filter((row) => row.changeType === 'new')
+    .slice(0, 2)
+  if (empty.length !== 0) throw new Error('updated rows must not fill recently-added')
 }
 
-console.log(`Home entries valid: ${homeFeatured.length} featured, ${homeUpdates.length} updates (generated)`)
+console.log(`Home entries valid: ${homeFeatured.length} featured, ${homeUpdates.length} recently-added`)
